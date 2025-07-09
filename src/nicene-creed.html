@@ -14,7 +14,7 @@ let id=1
   <body
     class="dark-mode"
     x-data="{ selectedLineInfo: null, darkMode: true }"
-    :class="{ 'dark-mode': darkMode }">
+    :class="{ 'dark-mode': darkMode, 'has-info-box': selectedLineInfo !== null }">
     <main>
       <div id="article-container">
         <article>
@@ -55,10 +55,10 @@ let id=1
     translations: [
 ["en", "Nicene Creed"],
     ],
-    notes: `Νίκαια /nǐː.kai̯.a/ → /ˈni.cɛ.a/ → /ˈni.ce.a/ perhaps 𐌽𐌹𐌺𐌰𐌹𐌰,
+    notes: `Νίκαια /nǐː.kai̯.a/ → /ˈni.cɛ.a/ → /ˈni.ce.a/ perhaps *𐌽𐌹𐌺𐌰𐌹𐌰,
 following attested 𐌹𐌿𐌳𐌰𐌹𐌰 from Ἰουδαία,
 though the stress might affect something?
-So 𐌽𐌹𐌺𐌰𐌹𐌰𐍃, looking at 𐌹𐌿𐌳𐌰𐌹𐌰's declensions.`,
+So *𐌽𐌹𐌺𐌰𐌹𐌰𐍃, looking at 𐌹𐌿𐌳𐌰𐌹𐌰's declensions.`,
   }}) %>
   </div>
 </header>
@@ -443,7 +443,7 @@ spoken by prophet Matthew 27:9`,
 ["el", "καθολικὴν καὶ ἀποστολικὴν ἐκκλησίαν·"],
 ["en", "catholic and apostolic Church;"],
     ],
-    notes: `𐌺𐌰𐌸𐌰𐌿𐌻𐌹𐌺𐌿𐍃; 𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐍃 + 𐌿𐌲𐍃 -> 𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐌲𐍃`,
+    notes: `*𐌺𐌰𐌸𐌰𐌿𐌻𐌹𐌺𐌿𐍃; 𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐍃 + 𐌿𐌲𐍃 -> *𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐌲𐍃`,
   }}) %>
 </p>
 <p>
@@ -503,7 +503,10 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`,
     ]
   }}) %>
 </p>
-<p lang='en' class="annotation">The Nicene Creed / Symbol of Faith in the Gothic language,<br/>a translation by <a href='https://2sh.me'>2sh</a>.</p>
+<p lang='en' class="annotation">
+The&nbsp;Nicene&nbsp;Creed / Symbol&nbsp;of&nbsp;Faith in&nbsp;the&nbsp;Gothic&nbsp;language,
+<br/>a translation by <a href='https://2sh.me'>2sh</a>.
+</p>
             </div>
           </div>
         </article>
@@ -518,28 +521,30 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`,
                 <button class='square' @click="selectedLineInfo = null">X</button>
               </div>
             </div>
-            <div id="info-box-text">
-              <h2>Gothic</h2>
-              <p x-text="selectedLineInfo.text"></p>
-            </div>
-            <template x-if="selectedLineInfo.translations">
-              <div>
-                <template x-for="tl in selectedLineInfo.translations">
-                <div :lang="tl[0]">
-                  <h2 x-text="$store.general.languageNames.of(tl[0])"></h2>
-                  <p x-text="tl[1]"></p>
+            <div id="info-box-content">
+              <div id="info-box-text">
+                <h2>Gothic</h2>
+                <p x-text="selectedLineInfo.text"></p>
+              </div>
+              <template x-if="selectedLineInfo.translations">
+                <div>
+                  <template x-for="tl in selectedLineInfo.translations">
+                  <div :lang="tl[0]">
+                    <h2 x-text="$store.general.languageNames.of(tl[0])"></h2>
+                    <p x-text="tl[1]"></p>
+                  </div>
+                  </template>
                 </div>
-                </template>
-              </div>
-            </template>
-            <template x-if="selectedLineInfo.notes">
-              <div>
-                <h2>Notes</h2>
-                <template x-for="line in selectedLineInfo.notes.split('\n\n')">
-                  <p x-text="line"></p>
-                </template>
-              </div>
-            </template>
+              </template>
+              <template x-if="selectedLineInfo.notes">
+                <div>
+                  <h2>Notes</h2>
+                  <template x-for="line in selectedLineInfo.notes.split('\n\n')">
+                    <p x-text="line"></p>
+                  </template>
+                </div>
+              </template>
+            </div>
           </div>
         </div>
         </template>
