@@ -65,11 +65,16 @@ h1
   margin: 0;
 }
 
+.subtitle
+{
+  font-size: 20px;
+}
+
 h2
 {
   font-size: 20px;
   line-height: 20px;
-  margin: 0;
+  margin: 14px 0 0 0;
 }
 
 p
@@ -85,16 +90,12 @@ i-line
 #info-box
 {
   width: 300px;
+  font-family: 'Noto Sans Gothic', sans-serif;
 }
 
-#info-box
+#info-box p
 {
-  font-family: sans-serif;
-}
-
-#info-box-text
-{
-  font-family: 'noto sans gothic';
+  margin: 6px 0;
 }
 
 #info-box-inner

@@ -4,8 +4,8 @@ let id=1
 <!doctype html>
 <html lang="got">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/styles/text.css" rel="stylesheet">
     <link href="assets/styles/simple-light.css" rel="stylesheet">
     <link href="assets/styles/simple-dark.css" rel="stylesheet">
@@ -21,7 +21,7 @@ let id=1
           <div id="article-inner">
           <div class="menu">
             <div>
-              <!--<a href="index.html">⌂</a>-->
+              <a href="index.html">⌂</a>
             </div>
             <div>
               <button
@@ -37,6 +37,16 @@ let id=1
   <h1>
 <%- include('_components/i-line',
   { id: id++,
+    text: '𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃',
+    notes: [
+["Greek", "Σύμβολο της Πίστεως"],
+["English", "Symbol of Faith"],
+    ]
+  }) %>
+  </h1>
+  <div class="subtitle">
+<%- include('_components/i-line',
+  { id: id++,
     text: '𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐍃 𐌽𐌹𐌺𐌰𐌹𐌰𐍃',
     notes: [
 ["English", "Nicene Creed"],
@@ -46,16 +56,7 @@ though the stress might affect something?
 So 𐌽𐌹𐌺𐌰𐌹𐌰𐍃, looking at 𐌹𐌿𐌳𐌰𐌹𐌰's declensions.`],
     ]
   }) %>
-<br/>
-<%- include('_components/i-line',
-  { id: id++,
-    text: '𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃',
-    notes: [
-["Greek", "Σύμβολο της Πίστεως"],
-["English", "Symbol of Faith"],
-    ]
-  }) %>
-  </h1>
+  </div>
 </header>
 <p>
 <%- include('_components/i-line',
@@ -520,11 +521,9 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`],
               <template x-for="note in info.notes">
               <div>
                 <h2 x-text="note[0]"></h2>
-                <div>
-                  <template x-for="noteLine in note[1].split('\n\n')">
-                    <p x-text="noteLine"></p>
-                  </template>
-                </div>
+                <template x-for="noteLine in note[1].split('\n\n')">
+                  <p x-text="noteLine"></p>
+                </template>
               </div>
               </template>
             </div>
