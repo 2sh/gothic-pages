@@ -46,11 +46,19 @@ article
 {
   display: block;
   text-decoration: none;
+  text-align: center;
   height: 30px;
   line-height: 30px;
   padding: 0 6px;
   font-size: 18px;
   border: 0;
+}
+
+button.square,
+a.square
+{
+  width: 30px;
+  padding: 0;
 }
 
 #article-inner

@@ -21,10 +21,10 @@ let id=1
           <div id="article-inner">
           <div class="menu">
             <div>
-              <a href="index.html">⌂</a>
+              <a class='square' href="index.html">⌂</a>
             </div>
             <div>
-              <button
+              <button class='square'
                 x-text="darkMode ? '☀' : '☾'"
                 @click="darkMode = !darkMode"></button>
               <!--<select>
@@ -511,7 +511,7 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`],
 
               </div>
               <div>
-                <button @click="info = null">X</button>
+                <button class='square' @click="info = null">X</button>
               </div>
             </div>
             <div id="info-box-text">
