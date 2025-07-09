@@ -2,10 +2,12 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from "vite"
 
-import { join, resolve } from "path"
+import { join } from "path"
 import { sync } from "glob"
 
 import { ViteEjsPlugin } from "vite-plugin-ejs"
+
+console.log("test", sync("./src/**/*.html"))
 
 export default defineConfig({
   base: '',
@@ -14,7 +16,7 @@ export default defineConfig({
     outDir: join(__dirname, "dist"),
     emptyOutDir: true,
     rollupOptions: {
-      input: sync(resolve(__dirname, "src", "*.html")),
+      input: sync("./src/**/*.html"),
     },
   },
   plugins: [
