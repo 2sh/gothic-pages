@@ -7,8 +7,6 @@ import { sync } from "glob"
 
 import { ViteEjsPlugin } from "vite-plugin-ejs"
 
-console.log("test", sync("./src/**/*.html"))
-
 export default defineConfig({
   base: '',
   root: join(__dirname, "src"),
