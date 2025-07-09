@@ -31,3 +31,8 @@ body.dark-mode,
 {
   background-color: #008477;
 }
+
+.dark-mode #info-box
+{
+  background-color: #323236;
+}

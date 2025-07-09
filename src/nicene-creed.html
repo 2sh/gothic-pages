@@ -510,12 +510,12 @@ The&nbsp;Nicene&nbsp;Creed / Symbol&nbsp;of&nbsp;Faith in&nbsp;the&nbsp;Gothic&n
             </div>
           </div>
         </article>
-        <template x-if="selectedLineInfo">
+      </div>
+      <template x-if="selectedLineInfo">
         <div id="info-box">
           <div id="info-box-inner">
             <div class="menu">
               <div>
-
               </div>
               <div>
                 <button class='square' @click="selectedLineInfo = null">X</button>
@@ -547,8 +547,7 @@ The&nbsp;Nicene&nbsp;Creed / Symbol&nbsp;of&nbsp;Faith in&nbsp;the&nbsp;Gothic&n
             </div>
           </div>
         </div>
-        </template>
-      </div>
+      </template>
     </main>
     <script type="module" src="scripts/alpine-init.ts"></script>
   </body>

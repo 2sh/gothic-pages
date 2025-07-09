@@ -27,18 +27,6 @@ body, select, input, textarea
   text-align: right;
 }
 
-#article-container
-{
-  display: flex;
-}
-
-article
-{
-  min-width: 500px;
-  width: 500px;
-  margin-left: 200px;
-}
-
 .menu
 {
   display: flex;
@@ -72,11 +60,6 @@ a.square
   padding: 0;
 }
 
-#article-inner
-{
-  margin: 10px;
-}
-
 h1
 {
   font-size: 26px;
@@ -96,6 +79,16 @@ h2
   margin: 14px 0 0 0;
 }
 
+#article-inner
+{
+  margin: 10px;
+}
+
+article header
+{
+  text-align: center;
+}
+
 article p
 {
   margin: 12px 0;
@@ -105,12 +98,6 @@ article p
 i-line
 {
   cursor: pointer;
-}
-
-#info-box
-{
-  width: 300px;
-  font-family: 'Noto Sans Gothic', sans-serif;
 }
 
 #info-box p
@@ -123,72 +110,79 @@ i-line
   margin: 10px;
 }
 
-article header
+
+article
 {
-  text-align: center;
+  width: 500px;
+  margin-left: 200px;
+}
+
+#info-box
+{
+  width: 300px;
+  font-family: 'Noto Sans Gothic', sans-serif;
+  position: fixed;
+  top: 100px;
+  left: 700px;
+}
+
+@media only screen and (max-width: 900px)
+{
+  article
+  {
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (max-width: 1000px)
 {
-  #article-container
+  .has-info-box article
   {
-    justify-content: center;
-  }
-
-  article
-  {
-    margin-left: 0;
+    margin: 0;
   }
 
   #info-box
   {
     width: auto;
-    flex-grow: 1;
+    left: 500px;
+    right: 0;
   }
 }
 
 @media only screen and (max-width: 800px)
 {
-  #article-container
+  .has-info-box article
   {
-    flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
   }
 
-  article, #info-box
+  .has-info-box main
   {
-    width: 500px;
+    padding-bottom: 300px;
   }
 
   #info-box
   {
-    position: fixed;
+    top: auto;
+    right: auto;
+    left: 50%;
     bottom: 0;
+    width: 500px;
+    margin-left: -250px;
     height: 300px;
   }
-  
+
   #info-box-content
   {
     overflow-y: auto;
     height: 245px;
   }
-
-  .has-info-box
-  {
-    margin-bottom: 300px;
-  }
 }
 
 @media only screen and (max-width: 500px)
 {
-  #article-container
-  {
-    align-items: stretch;
-  }
-
   article, #info-box
   {
-    min-width: auto;
     width: auto;
   }
 
@@ -196,5 +190,6 @@ article header
   {
     left: 0;
     right: 0;
+    margin: 0;
   }
 }
