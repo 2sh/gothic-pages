@@ -16,7 +16,46 @@
     x-data="{ info: null, darkMode: true }"
     :class="{ 'dark-mode': darkMode }">
     <main>
-      <h1></h1>
+      <div id="article-container">
+        <article>
+          <div id="article-inner">
+          <div class="menu">
+            <div>
+              <a class='square' href="index.html">⌂</a>
+            </div>
+            <div>
+              <button class='square'
+                x-text="darkMode ? '☀' : '☾'"
+                @click="darkMode = !darkMode"></button>
+            </div>
+          </div>
+          <div id="article-content">
+            <header>
+              <h1>2sh's Gothic Pages</h1>
+            </header>
+            <div>
+              <p>A page with various Gothic language related stuff</p>
+            </div>
+            <div>
+              <h2>Tools</h2>
+              <div>
+                <ul>
+                  <li><a href="transliterator.html">Transliterator</a></li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h2>Translations</h2>
+              <div>
+                <ul>
+                  <li><a href="nicene-creed.html">Nicene Creed</a> by 2sh</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
     </main>
+    <script type="module" src="scripts/alpine-init.ts"></script>
   </body>
 </html>
