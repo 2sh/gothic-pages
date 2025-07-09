@@ -663,43 +663,7 @@ The Lesser Doxology in the Gothic language,
           </div>
         </article>
       </div>
-      <template x-if="selectedLineInfo">
-        <div id="info-box">
-          <div id="info-box-inner">
-            <div class="menu">
-              <div>
-              </div>
-              <div>
-                <button class='square' @click="selectedLineInfo = null">X</button>
-              </div>
-            </div>
-            <div id="info-box-content">
-              <div id="info-box-text">
-                <h2>Gothic</h2>
-                <p x-text="selectedLineInfo.text"></p>
-              </div>
-              <template x-if="selectedLineInfo.translations">
-                <div>
-                  <template x-for="tl in selectedLineInfo.translations">
-                  <div :lang="tl[0]">
-                    <h2 x-text="$store.general.languageNames.of(tl[0])"></h2>
-                    <p x-text="tl[1]"></p>
-                  </div>
-                  </template>
-                </div>
-              </template>
-              <template x-if="selectedLineInfo.notes">
-                <div>
-                  <h2>Notes</h2>
-                  <template x-for="line in selectedLineInfo.notes.split('\n\n')">
-                    <p x-text="line"></p>
-                  </template>
-                </div>
-              </template>
-            </div>
-          </div>
-        </div>
-      </template>
+      <%- include('_components/info-box.ejs') %>
     </main>
     <script type="module" src="scripts/alpine-init.ts"></script>
   </body>
