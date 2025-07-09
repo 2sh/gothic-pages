@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@alpinejs/persist": "^3.14.9"
   },
   "devDependencies": {
     "@types/alpinejs": "^3.13.11",
+    "@types/alpinejs__persist": "^3.13.4",
     "alpinejs": "^3.14.9",
     "glob": "^11.0.2",
     "typescript": "~5.8.3",

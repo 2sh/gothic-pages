@@ -13,7 +13,7 @@
   </head>
   <body
     class="dark-mode"
-    x-data="{ info: null, darkMode: true }"
+    x-data="{ info: null, darkMode: $persist(true) }"
     :class="{ 'dark-mode': darkMode }">
     <main>
       <div id="article-container">
@@ -21,7 +21,7 @@
           <div id="article-inner">
           <div class="menu">
             <div>
-              <a class='square' href="index.html">⌂</a>
+              
             </div>
             <div>
               <button class='square'
@@ -34,7 +34,7 @@
               <h1>2sh's Gothic Pages</h1>
             </header>
             <div>
-              <p>A page with various Gothic language related stuff</p>
+              <p>A page with various Gothic language related stuff I've done.</p>
             </div>
             <div>
               <h2>Tools</h2>
@@ -48,7 +48,8 @@
               <h2>Translations</h2>
               <div>
                 <ul>
-                  <li><a href="nicene-creed.html">Nicene Creed</a> by 2sh</li>
+                  <li><a href="nicene-creed.html">Nicene Creed</a></li>
+                  <li><a href="doxology-lesser.html">Lesser Doxology</a> (WIP)</li>
                 </ul>
               </div>
             </div>
