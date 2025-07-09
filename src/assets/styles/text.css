@@ -24,6 +24,7 @@ body, select, input, textarea
 .annotation
 {
   font-size: 14px;
+  text-align: right;
 }
 
 #article-container
@@ -95,9 +96,10 @@ h2
   margin: 14px 0 0 0;
 }
 
-p
+article p
 {
   margin: 12px 0;
+  text-indent: 1em;
 }
 
 i-line

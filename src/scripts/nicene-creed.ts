@@ -2,9 +2,13 @@ import Alpine from 'alpinejs'
 // @ts-ignore
 window.Alpine = Alpine
 
-const tools = Alpine.reactive({
+const languageNames = new Intl.DisplayNames(['en'], {
+  type: 'language'
+});
 
+const general = Alpine.reactive({
+  languageNames
 })
 
-Alpine.store("tools", tools)
+Alpine.store("general", general)
 Alpine.start()

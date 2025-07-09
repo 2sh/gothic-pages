@@ -1,9 +1,11 @@
 <%
 const notesString = JSON.stringify(typeof notes !== 'undefined' ? notes : {})
+const translationsString = JSON.stringify(typeof notes !== 'undefined' ? notes : {})
+const infoString = JSON.stringify(info)
 -%>
 <i-line
-  id="L<%=id%>"
-  x-data='{ id: <%=id%>, text: "<%=text%>", notes: <%=notesString%> }'
-  @click='info = { id, text, notes }'
-  :class="{ 'line-selected': info && info.id == id }"
-  ><%=text%></i-line>
+  id="L<%=info.id%>"
+  x-data='{ info: <%=infoString%> }'
+  @click='selectedLineInfo = info'
+  :class="{ 'line-selected': selectedLineInfo && selectedLineInfo.id == info.id }"
+  ><%=info.text%></i-line>
