@@ -31,6 +31,9 @@ let id=1
             </div>
             <div id="article-content"
             @click="e => {if(e.target.tagName !== 'I-LINE') selectedLineInfo = null}">
+<!--
+https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1
+-->
 <header>
   <h1>
 <%- include('_components/i-line',
@@ -41,7 +44,7 @@ let id=1
 ["en", "Lesser Doxology"],
     ],
     notes:
-`1 Timothy 1:20: x -> 𐌺𐍃. always ο = 𐌰𐌿?`,
+`*𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌹𐌰, x -> 𐌺𐍃 from 1 Timothy 1:20. always ο = 𐌰𐌿?`,
   }}) %>
   </h1>
 </header>
@@ -328,7 +331,7 @@ let id=1
 ["en", "Lord, you have become for us a refuge"],
     ],
     notes:
-`duþlauhans = zuflucht. sentence probably needs reworking`,
+`*𐌳𐌿𐌸𐌻𐌰𐌿𐌷𐌰𐌽𐍃 = zuflucht. sentence probably needs reworking`,
   }}) %>
 <%- include('_components/i-line',
   { info: { id: id++,
