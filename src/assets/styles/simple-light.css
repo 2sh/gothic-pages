@@ -1,4 +1,5 @@
-body
+body,
+#info-box
 {
   background-color: #ffffff;
   color: #28282b;
@@ -17,8 +18,8 @@ a
 .menu button,
 .menu a
 {
-  background-color: #686868;
-  color: #f0f0f0;
+  background-color: #dddddd;
+  color: #28282b;
 }
 
 i-line:hover
