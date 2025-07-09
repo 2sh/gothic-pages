@@ -9,6 +9,15 @@
 body
 {
   margin: 0;
+}
+
+body, select, input, textarea
+{
+  font-family: 'Noto Sans Gothic';
+}
+
+.option-simple
+{
   font-family: 'Noto Sans Gothic';
 }
 
@@ -39,6 +48,7 @@ article
 .menu > div
 {
   display: flex;
+  gap: 5px;
 }
 
 .menu button,
