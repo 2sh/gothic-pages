@@ -1,0 +1,32 @@
+body
+{
+  background-color: #ffffff;
+  color: #28282b;
+}
+
+a
+{
+  color: #6b87d4;
+}
+
+.annotation
+{
+  color: #999999;
+}
+
+.menu button,
+.menu a
+{
+  background-color: #686868;
+  color: #f0f0f0;
+}
+
+i-line:hover
+{
+  background-color: #ceffe3;
+}
+
+.line-selected
+{
+  background-color: #aaffcf;
+}

@@ -1,0 +1,32 @@
+body.dark-mode
+{
+  background-color: #28282b;
+  color: #f0f0f0;
+}
+
+.dark-mode a
+{
+  color: #789cff;
+}
+
+.dark-mode .annotation
+{
+  color: #979797;
+}
+
+.dark-mode .menu button,
+.dark-mode .menu a
+{
+  background-color: #686868;
+  color: white;
+}
+
+.dark-mode i-line:hover
+{
+  background-color: #479e95;
+}
+
+.dark-mode .line-selected
+{
+  background-color: #008477;
+}

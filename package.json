@@ -1,0 +1,21 @@
+{
+  "name": "gothic-pages",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/alpinejs": "^3.13.11",
+    "alpinejs": "^3.14.9",
+    "glob": "^11.0.2",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-ejs": "^1.7.0"
+  }
+}

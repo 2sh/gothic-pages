@@ -1,0 +1,538 @@
+<%
+let id=1
+-%>
+<!doctype html>
+<html lang="got">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/styles/text.css" rel="stylesheet">
+    <link href="assets/styles/simple-light.css" rel="stylesheet">
+    <link href="assets/styles/simple-dark.css" rel="stylesheet">
+    <title>𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃</title>
+  </head>
+  <body
+    class="dark-mode"
+    x-data="{ info: null, darkMode: true }"
+    :class="{ 'dark-mode': darkMode }">
+    <main>
+      <div id="article-container">
+        <article>
+          <div id="article-inner">
+          <div class="menu">
+            <div>
+              <!--<a href="index.html">⌂</a>-->
+            </div>
+            <div>
+              <button
+                x-text="darkMode ? '☀' : '☾'"
+                @click="darkMode = !darkMode"></button>
+              <!--<select>
+                <option value="modern">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
+                <option calue="afarbokos">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐍃</option>
+              </select>-->
+            </div>
+          </div>
+<header>
+  <h1>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐍃 𐌽𐌹𐌺𐌰𐌹𐌰𐍃',
+    notes: [
+["English", "Nicene Creed"],
+["Notes", `Νίκαια /nǐː.kai̯.a/ → /ˈni.cɛ.a/ → /ˈni.ce.a/ perhaps 𐌽𐌹𐌺𐌰𐌹𐌰,
+following attested 𐌹𐌿𐌳𐌰𐌹𐌰 from Ἰουδαία,
+though the stress might affect something?
+So 𐌽𐌹𐌺𐌰𐌹𐌰𐍃, looking at 𐌹𐌿𐌳𐌰𐌹𐌰's declensions.`],
+    ]
+  }) %>
+<br/>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃',
+    notes: [
+["Greek", "Σύμβολο της Πίστεως"],
+["English", "Symbol of Faith"],
+    ]
+  }) %>
+  </h1>
+</header>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌲𐌰𐌻𐌰𐌿𐌱𐌾𐌰𐌼 𐌳𐌿 𐌰𐌹𐌽𐌰𐌼𐌼𐌰 𐌲𐌿𐌳𐌰',
+    notes: [
+["Greek", "Πιστεύομεν εἰς ἕνα Θεὸν"],
+["English", "We believe in one God,"],
+["Notes", "𐌳𐌿 not 𐌹̈𐌽, for 𐌲𐌰𐌻𐌰𐌿𐌱𐌾𐌰𐌽, 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌸 𐌳𐌿 𐌲𐌿𐌳𐌰 John 14:1"],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌰𐍄𐍄𐌹𐌽 𐌰𐌻𐌻𐍅𐌰𐌻𐌳𐌰𐌽𐌳,',
+    notes: [
+["Greek", "Πατέρα παντοκράτορα,"],
+["English", "the Father almighty,"],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌲𐌰𐍄𐌰𐌿𐌾𐌰𐌽𐌳𐌹𐌽 𐌷𐌹𐌼𐌹𐌽𐌹𐍃 𐌾𐌰𐌷 𐌰𐌹𐍂𐌸𐍉𐍃,',
+    notes: [
+["Greek", "ποιητὴν οὐρανοῦ καὶ γῆς,"],
+["English", "maker of heaven and earth,"],
+["Notes",
+`Colossians 1:16.
+
+Using 𐌲𐌰𐍄𐌰𐌿𐌾𐌰𐌽 as translated from ποιέω many times in bible, with I assume an
+intended side meaning of doer, affecter.
+
+gaskapjand cognate with geschaffen but only used for ποιέω once.
+
+Colossians 1:16 has 𐌲𐌰𐍅𐌰𐌿𐍂𐌺𐌾𐌰𐌹𐌼𐌰 but that seems to purely be "to create".`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌰𐌻𐌻𐌰𐌹𐌶𐌴 𐌲𐌰𐍃𐌰𐌹𐍈𐌰𐌽𐌰𐌽𐌴 𐌾𐌰𐌷 𐌿𐌽𐌲𐌰𐍃𐌰𐌹𐍈𐌰𐌽𐌰𐌽𐌴;',
+    notes: [
+["Greek", "ὁρατῶν τε πάντων καὶ ἀοράτων·"],
+["English", "of all things visible and invisible;"],
+["Notes", `in genitive now.
+
+Colossians 1:16, the verse has 'the's for the two.
+
+Luke 2:20 "of all things" = 𐌰𐌻𐌻𐌰𐌹𐌶𐌴, 𐌰𐌻𐌻𐍃 singular when "every", plural "all"`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌳𐌿 𐌰𐌹𐌽𐌰𐌼𐌼𐌰 𐍆𐍂𐌰𐌿𐌾𐌹𐌽 𐌹̈𐌴𐍃𐌿 𐍇𐍂𐌹𐍃𐍄𐌰𐌿,',
+    notes: [
+["Greek", "καὶ εἰς ἕνα Κύριον Ἰησοῦν Χριστὸν"],
+["English", "And in one Lord Jesus Christ,"],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐍃𐌿𐌽𐌰𐌿 𐌲𐌿𐌳𐌹𐍃 𐌰𐌹𐌽𐌰𐌱𐌰𐌿𐍂𐌰,',
+    notes: [
+["Greek", "τὸν υἱὸν τοῦ Θεοῦ τὸν Μονογενῆ,"],
+["English", "the only-begotten Son of God,"],
+["Notes", "Skeireins 5: 𐌰𐌹𐌽𐌰𐌱𐌰𐌿𐍂𐌰 𐍃𐌿𐌽𐌰𐌿 𐌲𐌸𐍃 (abbreviation of 𐌲𐌿𐌳𐌹𐍃)"],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌲𐌰𐌱𐌰𐌿𐍂𐌰𐌽𐌰𐌼𐌼𐌰 𐌿𐍃 𐌰𐍄𐍄𐌹𐌽 𐍆𐌰𐌿𐍂 𐌰𐌻𐌻𐌰𐌽𐍃 𐌰𐌹𐍅𐌹𐌽𐍃,',
+    notes: [
+["Greek", "τὸν ἐκ τοῦ Πατρὸς γεννηθέντα πρὸ πάντων τῶν αἰώνων,"],
+["English", "begotten of the Father before all worlds (æons),"],
+["Notes", `Luke 1:13 γεννήσει - 𐌲𐌰𐌱𐌰𐌹𐍂𐌰𐌽.
+
+𐍆𐌰𐌿𐍂 before John 17:24.
+
+ἐκ = out of.
+
+Or maybe "𐍃𐌰𐌴𐌹 𐍅𐌰𐍂𐌸 𐌿𐍃 𐌰𐍄𐍄𐌹𐌽 𐌲𐌰𐌱𐌰𐌿𐍂𐌰𐌽𐍃 𐍆𐌰𐌿𐍂 𐌰𐌻𐌻𐌰𐌽𐍃 𐌰𐌹𐍅𐌹𐌽𐍃,"`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌻𐌹𐌿𐌷𐌰𐌳𐌰 𐌿𐍃 𐌻𐌹𐌿𐌷𐌰𐌳𐌰,',
+    notes: [
+["Greek", "Φῶς ἐκ Φωτός,"],
+["English", "light from light,"],
+["Notes", `Mark 7:15 𐌿𐍃 𐌼𐌰𐌽𐌽, out of (the mouth of) man
+
+still in ACC`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐍃𐌿𐌽𐌾𐌰𐌼𐌼𐌰 𐌲𐌿𐌳𐌰 𐌿𐍃 𐍃𐌿𐌽𐌾𐌰𐌼𐌼𐌰 𐌲𐌿𐌳𐌰,',
+    notes: [
+["Greek", "Θεὸν ἀληθινὸν ἐκ Θεοῦ ἀληθινοῦ,"],
+["English", "very God of very God,"],
+["Notes", `true god John 17:3`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌲𐌰𐌱𐌰𐌿𐍂𐌰𐌽𐌰𐌼𐌼𐌰, 𐌽𐌹 𐌲𐌰𐍄𐌰𐍅𐌹𐌳𐌰𐌼𐌼𐌰,',
+    notes: [
+["Greek", "γεννηθέντα οὐ ποιηθέντα,"],
+["English", "begotten, not made,"],
+["Notes", `using the words from previous lines`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌰𐌹𐌽𐌹𐍃 𐍅𐌹𐍃𐍄𐌰𐌹𐍃 𐌼𐌹𐌸 𐌰𐍄𐍄𐌹𐌽,',
+    notes: [
+["Greek", "ὁμοούσιον τῷ Πατρί,"],
+["English", "of one substance with the Father,"],
+["Notes",
+`𐍃𐌰𐌼𐌰𐍅𐌹𐍃𐍄 is a nice 1:1 with ὁμοούσιον, except the greek word is an adjective
+formed from a noun. Wondering if a suffix like 𐌴𐌹𐌽 could be added.
+
+There's 𐌹𐌱𐌽𐌰𐌻𐌴𐌹𐌺𐍃 from Skeireins 5 but unsure how it's used, the word parts
+(even-ly, eben-lich) are weird, and might not even be good to use as the
+Skeireins is Arian (𐌽𐌹 𐌹𐌱𐌽𐌰𐌻𐌴𐌹𐌺𐌰).
+
+𐍃𐌰𐌼𐌹𐌽𐍃 vs 𐌰𐌹𐌽𐌹𐍃`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌸𐌰𐌹𐍂𐌷 𐌸𐌰𐌽𐌴𐌹 𐌰𐌻𐌻𐌰 𐍅𐌰𐍂𐌸;',
+    notes: [
+["Greek", "δι' οὗ τὰ πάντα ἐγένετο·"],
+["English", "by whom all things were made;"],
+["Notes", `line from 1 Cor 8:6, missing sadly.
+
+𐌸𐌰𐌹𐍂𐌷+ACC "written by the prophets" Luke 18.31,
+"by Isaiah" Matthew 8:17 Col 1:16, by/through which = 𐌸𐌰𐌹𐍂𐌷 𐌸𐌰𐌽𐌴𐌹 gal 6:14.
+
+all things ... are created Colossians 1:16;
+all things became/happened/came to pass
+`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐍃𐌰𐌴𐌹 𐍆𐌰𐌿𐍂 𐌿𐌽𐍃 𐌼𐌰𐌽𐍃',
+    notes: [
+["Greek", "τὸν δι' ἡμᾶς τοὺς ἀνθρώπους"],
+["English", "who for us men"],
+["Notes", `𐌹̈𐌶𐌴𐌹 could be either singular or plural, but the greek is singular`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐍆𐌰𐌿𐍂 𐌽𐌰𐍃𐌴𐌹𐌽 𐌿𐌽𐍃𐌰𐍂𐌰',
+    notes: [
+["Greek", "καὶ διὰ τὴν ἡμετέραν σωτηρίαν"],
+["English", "and for our salvation"],
+["Notes", ``],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌰𐍄𐌹𐌳𐌳𐌾𐌰 𐌳𐌰𐌻𐌰𐌸 𐌿𐍃 𐌷𐌹𐌼𐌹𐌽𐌰𐌼,',
+    notes: [
+["Greek", "κατελθόντα ἐκ τῶν οὐρανῶν,"],
+["English", "came down from the heavens,"],
+["Notes", `atgaggands dalaþ Luke 6:17, dalaþ atgaggandam Luke 9:37,
+rain descended = atiddja dalaþ Matthew 7:25`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌻𐌴𐌹𐌺 𐍅𐌰𐍂𐌸',
+    notes: [
+["Greek", "καὶ σαρκωθέντα"],
+["English", "and was incarnate"],
+["Notes", `John 1:14 not attested but σὰρξ ἐγένετο -> "became flesh/body"
+σὰρξ = 𐌻𐌴𐌹𐌺 John 6:54 mark 10:8;
+
+"became flesh" is in various translations`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌿𐍃 𐌰𐌷𐌼𐌹𐌽 𐍅𐌴𐌹𐌷𐌰𐌼𐌼𐌰 𐌾𐌰𐌷 𐌼𐌰𐌲𐌰𐌸𐌰𐌹 𐌼𐌰𐍂𐌾𐌹𐌽',
+    notes: [
+["Greek", "ἐκ Πνεύματος Ἁγίου καὶ Μαρίας τῆς παρθένου,"],
+["English", "from the Holy Spirit and the Virgin Mary"],
+["Notes", `virgin mary 𐌼𐌰𐌲𐌰𐌸𐌰𐌹𐍃 𐌼𐌰𐍂𐌹𐌰𐌼 Luke 1:27 𐌼𐌰𐍂𐌹𐌰𐌼 used in luke to
+introduce her using the aramaic name, but elsewhere it's 𐌼𐌰𐍂𐌾𐌰 which is
+probably common use, so 𐌼𐌰𐌲𐌰𐌸𐍃 𐌼𐌰𐍂𐌾𐌰`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌼𐌰𐌽𐌽𐌰𐌽 𐍅𐌰𐍂𐌸;',
+    notes: [
+["Greek", "καὶ ἐνανθρωπήσαντα,"],
+["English", "and was made man;"],
+["Notes", `man Matthew 7:9`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌿𐍃𐌷𐍂𐌰𐌼𐌹𐌸𐍃 𐍅𐌰𐍂𐌸 𐌰𐌿𐌺 𐍆𐌰𐌿𐍂 𐌿𐌽𐍃 𐌿𐍆 𐍀𐌰𐌿𐌽𐍄𐌹𐌰𐌿 𐍀𐌴𐌹𐌻𐌰𐍄𐌰𐌿,',
+    notes: [
+["Greek", "σταυρωθέντα τε ὑπὲρ ἡμῶν ἐπὶ Ποντίου Πιλάτου,"],
+["English", "he was crucified for us under Pontius Pilate"],
+["Notes", `𐌿𐍃𐌷𐍂𐌰𐌼𐌹𐌸𐍃 𐍅𐌰𐍂𐌸 1 Corinthians 1:13.
+
+𐌿𐍆 under authority Matthew 8:9.
+
+𐌹̈𐌽𐌰 is ACC, 𐍀𐌰𐌿𐌽𐍄𐌹𐌰𐌿 𐍀𐌴𐌹𐌻𐌰𐍄𐌰𐌿 is probably DAT Matthew 27:2`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐍅𐌰𐌽𐌽, 𐌾𐌰𐌷 𐌲𐌰𐌽𐌰𐍅𐌹𐍃𐍄𐍂𐍉𐌸𐍃 𐍅𐌰𐍃,',
+    notes: [
+["Greek", "καὶ παθόντα, καὶ ταφέντα,"],
+["English", "and suffered, and was buried"],
+["Notes", `suffer Mark 8:3.
+
+was buried 1 Corinthians 15:4`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌿𐍂𐍂𐌰𐌹𐍃 𐌸𐍂𐌹𐌳𐌾𐌹𐌽 𐌳𐌰𐌲𐌰',
+    notes: [
+["Greek", "καὶ ἀναστάντα τῇ τρίτῃ ἡμέρᾳ"],
+["English", "and the third day he rose again"],
+["Notes", `1 Corinthians 15:4, doesn't seem to require ana`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌰𐍆𐌰𐍂 𐌱𐍉𐌺𐍉𐌼,',
+    notes: [
+["Greek", "κατὰ τὰς γραφὰς,"],
+["English", "according to the Scriptures,"],
+["Notes", `1 Corinthians 15:3,4`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌿𐍃𐍃𐍄𐌰𐌹𐌲 𐌹̈𐌽 𐌷𐌹𐌼𐌹𐌽,',
+    notes: [
+["Greek", "καὶ ἀνελθόντα εἰς τοὺς οὐρανοὺς,"],
+["English", "and ascended into heaven,"],
+["Notes", `ascend into heaven Romans 10:6`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐍃𐌹𐍄𐌰𐌽𐌳𐍃 𐌰𐍆 𐍄𐌰𐌹𐌷𐍃𐍅𐍉𐌽 𐌰𐍄𐍄𐌹𐌽𐍃,',
+    notes: [
+["Greek", "καὶ καθεζόμενον ἐν δεξιᾷ τοῦ Πατρὸς,"],
+["English", "and sitteth on the right hand of the Father;"],
+["Notes", `Mark 14:62 af taihswon sitandan`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌰𐍆𐍄𐍂𐌰 𐌵𐌹𐌼𐌰𐌽𐌳𐍃',
+    notes: [
+["Greek", "καὶ πάλιν ἐρχόμενον"],
+["English", "from thence he shall come again,"],
+["Notes", `come again John 14:3`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌼𐌹𐌸 𐍅𐌿𐌻𐌸𐌰𐌿',
+    notes: [
+["Greek", "μετὰ δόξης"],
+["English", "with glory,"],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐍃𐍄𐍉𐌾𐌰𐌽 𐌵𐌹𐍅𐌰𐌽𐍃 𐌾𐌰𐌷 𐌳𐌰𐌿𐌸𐌰𐌽𐍃,',
+    notes: [
+["Greek", ""],
+["English", ""],
+["Notes", ``],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌸𐌹𐌶𐌴𐌹 𐌸𐌹𐌿𐌳𐌹𐌽𐌰𐍃𐍃𐌰𐌿𐍃 𐌽𐌹 𐍅𐌰𐌹𐍂𐌸𐌹𐌸 𐌰𐌽𐌳𐌴𐌹𐍃;',
+    notes: [
+["Greek", "κρῖναι ζῶντας καὶ νεκρούς,"],
+["English", "to judge the quick and the dead;"],
+["Notes", `taken from 2 Timothy 4:1 (has 𐍃𐌺𐌰𐌻 before the 𐍃𐍄𐍉𐌾𐌰𐌽, is it
+required somewhere? perhaps before the come again)`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌳𐌿 𐌰𐌷𐌼𐌹𐌽 𐌸𐌰𐌼𐌼𐌰 𐍅𐌴𐌹𐌷𐌹𐌽,',
+    notes: [
+["Greek", "καὶ εἰς τὸ Πνεῦμα τὸ Ἅγιον,"],
+["English", "And in the Holy Spirit,"],
+["Notes", `seems to be an emphasis in the greek with "the/who" in this paragraph`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌸𐌰𐌼𐌼𐌰 𐍆𐍂𐌰𐌿𐌾𐌹𐌽 𐌾𐌰𐌷 𐌲𐌹𐌱𐌰𐌽𐌳𐌹𐌽 𐌻𐌹𐌱𐌰𐌹𐌽𐌰𐌹𐍃,',
+    notes: [
+["Greek", "τὸ Κύριον καὶ Ζωοποιόν,"],
+["English", "the Lord and Giver of life,"],
+["Notes", `life giver`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐍃𐌰𐌴𐌹 𐌿𐍃 𐌰𐍄𐍄𐌹𐌽 𐌿𐍃𐌲𐌰𐌲𐌲𐌹𐌸,',
+    notes: [
+["Greek", "τὸ ἐκ τοῦ Πατρὸς ἐκπορευόμενον,"],
+["English", "who proceedeth from the Father,"],
+["Notes", `𐌿𐍃𐌲𐌰𐌲𐌲𐌰𐌽𐌳𐍉 Mark 7:20`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐍃𐌰𐌴𐌹 𐌼𐌹𐌸 𐌰𐍄𐍄𐌹𐌽 𐌾𐌰𐌷 𐍃𐌿𐌽𐌰𐌿',
+    notes: [
+["Greek", "τὸ σὺν Πατρὶ καὶ Υἱῷ"],
+["English", "who with the Father and the Son together"],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌹𐌽𐍅𐌴𐌹𐍄𐌰𐌳𐌰 𐌾𐌰𐌷 𐌲𐌰𐍃𐍅𐌴𐍂𐌰𐌳𐌰,',
+    notes: [
+["Greek", "συμπροσκυνούμενον καὶ συνδοξαζόμενον,"],
+["English", "is worshiped and glorified"],
+["Notes", `present passive`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌸𐌰𐌹𐌴𐌹 𐌵𐌴𐌸𐌿𐌽 𐌸𐌰𐌹𐍂𐌷 𐍀𐍂𐌰𐌿𐍆𐌴𐍄𐌿𐌽𐍃;',
+    notes: [
+["Greek", "τὸ λαλῆσαν διὰ τῶν προφητῶν·"],
+["English", "who spoke by the prophets."],
+["Notes", `who is plural, father, son and holy spirit.
+
+spoken by prophet Matthew 27:9`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌳𐌿 𐌰𐌹𐌽𐌰𐌼𐌼𐌰 𐍅𐌴𐌹𐌷𐌰𐌼𐌼𐌰',
+    notes: [
+["Greek", "εἰς μίαν ἁγίαν"],
+["English", "In one holy"],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌺𐌰𐌸𐌰𐌿𐌻𐌺𐌿𐌲𐌰𐌼𐌼𐌰 𐌾𐌰𐌷 𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐌲𐌰𐌼𐌼𐌰 𐌰𐌹𐌺𐌺𐌻𐌴𐍃𐌾𐍉𐌽;',
+    notes: [
+["Greek", "καθολικὴν καὶ ἀποστολικὴν ἐκκλησίαν·"],
+["English", "catholic and apostolic Church;"],
+["Notes", `𐌺𐌰𐌸𐌰𐌿𐌻𐌺𐌿𐍃; 𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐍃 + 𐌿𐌲𐍃 -> 𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐌲𐍃`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌰𐌽𐌳𐌷𐌰𐌹𐍄𐌰𐌼 𐌰𐌹𐌽𐌰𐌹 𐌳𐌰𐌿𐍀𐌴𐌹𐌽𐌰𐌹 𐌳𐌿 𐍆𐍂𐌰𐌻𐌴𐍄𐌰 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌴;',
+    notes: [
+["Greek", "ὁμολογοῦμεν ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν·"],
+["English", "we acknowledge one baptism for the remission of sins;"],
+["Notes", `They profess Titus 1:16.
+
+The greek translates to two different versions:
+𐌳𐌿 𐌰𐍆𐌻𐌰𐌲𐌴𐌹𐌽𐌰𐌹 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌴 (Mark 1:4) and 𐌳𐌿 𐍆𐍂𐌰𐌻𐌴𐍄𐌰 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌴 (Luke 3:3),
+went with later as its parts (send away, let go) are closer to the greek,
+a sort of a nice freeing sense, while the former just "putting it down"`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌱𐌴𐌹𐌳𐌰𐌼 𐌿𐍃𐍃𐍄𐌰𐍃𐍃𐌰𐌹𐍃 𐌳𐌰𐌿𐌸𐌰𐌽𐌴,',
+    notes: [
+["Greek", "προσδοκῶμεν ἀνάστασιν νεκρῶν,"],
+["English", "we look for the resurrection of the dead,"],
+["Notes", `Matthew 11:3.
+
+plural dead from earlier line/verse.
+
+to look for/expect: 𐌱𐌴𐌹𐌳𐌰𐌽 + genitive, there's also 𐍅𐌴𐌽𐌾𐌰𐌽 but that includes
+hope which is missing in the greek, and would also skew the meaning perhaps.
+this is about belief in it happening, hope has uncertainty.
+
+urrist only has one attestation.
+
+not sure if 𐌳𐌰𐌿𐌸𐍃 should be strong or weak,
+thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`],
+    ]
+  }) %>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌾𐌰𐌷 𐌻𐌹𐌱𐌰𐌹𐌽𐌰𐌹𐍃 𐌰𐌽𐌰𐍅𐌰𐌹𐍂𐌸𐌹𐌽𐍃 𐌰𐌹𐍅𐌹𐍃.',
+    notes: [
+["Greek", "καὶ ζωὴν τοῦ μέλλοντος αἰῶνος."],
+["English", "and the life of the world to come."],
+["Notes", `𐌰𐌽𐌰𐍅𐌰𐌹𐍂𐌸𐍃 Luke 3:7`],
+    ]
+  }) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { id: id++,
+    text: '𐌰𐌼𐌴𐌽.',
+    notes: [
+["Greek", "ἀμήν."],
+["English", "Amen."],
+    ]
+  }) %>
+</p>
+<p lang='en' class="annotation">The Nicene Creed / Symbol of Faith in the Gothic language,<br/>a translation by <a href='mailto:contact@2sh.me'>2sh</a>.</p>
+          </div>
+        </article>
+        <template x-if="info">
+        <div id="info-box">
+          <div id="info-box-inner">
+            <div class="menu">
+              <div>
+
+              </div>
+              <div>
+                <button @click="info = null">X</button>
+              </div>
+            </div>
+            <div id="info-box-text">
+              <p x-text="info.text"></p>
+            </div>
+            <div id="notes" lang="">
+              <template x-for="note in info.notes">
+              <div>
+                <h2 x-text="note[0]"></h2>
+                <div>
+                  <template x-for="noteLine in note[1].split('\n\n')">
+                    <p x-text="noteLine"></p>
+                  </template>
+                </div>
+              </div>
+              </template>
+            </div>
+          </div>
+        </div>
+        </template>
+      </div>
+    </main>
+    <script type="module" src="scripts/nicene-creed.ts"></script>
+  </body>
+</html>

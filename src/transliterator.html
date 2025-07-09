@@ -1,0 +1,63 @@
+<%
+
+
+
+-%>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="assets/styles/main.css" rel="stylesheet">
+    <title>Gothic Transliterator</title>
+  </head>
+  <body>
+    <main>
+      <h1>Gothic Transliterator</h1>
+      <div id="between" x-data="{text: ''}">
+        <div class="text-container">
+          <textarea x-model="text"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"></textarea>
+        </div>
+        <div class="options">
+          <div class="row">
+            <div class="group">
+              <button @click='text = $store.gothic.fromLatin(text)'>To Gothic</button>
+              <button @click='text = $store.gothic.toLatin(text)'>To Latin</button>
+            </div>
+            <div class="group">
+              <button @click='text = $store.gothic.addDiaereses(text)'>Fix diaereses</button>
+              <button @click='text = $store.gothic.removeDiacritics(text)'>Remove diacritics</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="group">
+              <label>Capitalise:<input type="checkbox" x-model="$store.gothic.capitalize"></label>
+              <label>Preserve diacritics:<input type="checkbox" x-model="$store.gothic.preserveDiacritics"></label>
+              <label>Number conversion: <select x-model="$store.gothic.numberConversion">
+                  <option value="none">Off</option>
+                  <option value="normal">Up to 999 only</option>
+                  <option value="big">Above 999</option>
+                </select></label>
+            </div>
+            <div class="group">
+              <label>𐌸: <select x-model="$store.gothic.th">
+                <option value="">þ</option>
+                <option value="c">c</option>
+              </select></label>
+              <label>𐍈: <select x-model="$store.gothic.hv">
+                <option value="">ƕ</option>
+                <option value="hv">hv</option>
+                <option value="v">v</option>
+              </select></label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="scripts/transliterator.ts"></script>
+  </body>
+</html>

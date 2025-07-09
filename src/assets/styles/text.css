@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'Noto Sans Gothic';
+  src: url('../fonts/NotoSansGothic-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body
+{
+  margin: 0;
+  font-family: 'Noto Sans Gothic';
+}
+
+.annotation
+{
+  font-size: 14px;
+}
+
+#article-container
+{
+  display: flex;
+}
+
+article
+{
+  min-width: 500px;
+  width: 500px;
+  margin-left: 200px;
+}
+
+.menu
+{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.menu > div
+{
+  display: flex;
+}
+
+.menu button,
+.menu a
+{
+  display: block;
+  text-decoration: none;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 6px;
+  font-size: 18px;
+  border: 0;
+}
+
+#article-inner
+{
+  margin: 10px;
+}
+
+h1
+{
+  font-size: 26px;
+  line-height: 26px;
+  margin: 0;
+}
+
+h2
+{
+  font-size: 20px;
+  line-height: 20px;
+  margin: 0;
+}
+
+p
+{
+  margin: 12px 0;
+}
+
+i-line
+{
+  cursor: pointer;
+}
+
+#info-box
+{
+  width: 300px;
+}
+
+#info-box
+{
+  font-family: sans-serif;
+}
+
+#info-box-text
+{
+  font-family: 'noto sans gothic';
+}
+
+#info-box-inner
+{
+  margin: 10px;
+}
+
+
+article header
+{
+  text-align: center;
+}
+
+@media only screen and (max-width: 1000px)
+{
+  #article-container
+  {
+    justify-content: center;
+  }
+
+  article
+  {
+    margin-left: 0;
+  }
+
+  #info-box
+  {
+    width: auto;
+    flex-grow: 1;
+  }
+}
+
+@media only screen and (max-width: 800px)
+{
+  #article-container
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  article, #info-box
+  {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px)
+{
+  #article-container
+  {
+    align-items: stretch;
+  }
+
+  article, #info-box
+  {
+    min-width: auto;
+    width: auto;
+  }
+}
