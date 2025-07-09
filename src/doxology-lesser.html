@@ -11,26 +11,7 @@ let id=1
     <link href="assets/styles/simple-dark.css" rel="stylesheet">
     <title>𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌹𐌰 𐌻𐌴𐌹𐍄𐌹𐌻𐍃</title>
   </head>
-  <body
-    class="dark-mode"
-    x-data="{ selectedLineInfo: null, darkMode: $persist(true) }"
-    :class="{ 'dark-mode': darkMode, 'has-info-box': selectedLineInfo !== null }">
-    <main>
-      <div id="article-container">
-        <article>
-          <div id="article-inner">
-            <div class="menu">
-              <div>
-                <a class='square' href="index.html">⌂</a>
-              </div>
-              <div>
-                <button class='square'
-                  x-text="darkMode ? '☀' : '☾'"
-                  @click="darkMode = !darkMode"></button>
-              </div>
-            </div>
-            <div id="article-content"
-            @click="e => {if(e.target.tagName !== 'I-LINE') selectedLineInfo = null}">
+<%- include('_components/article-body-top.ejs') %>
 <!--
 https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1
 -->
@@ -659,12 +640,5 @@ https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%C
 The Lesser Doxology in the Gothic language,
 <br/>a translation by <a href='https://2sh.me'>2sh</a>.
 </p>
-            </div>
-          </div>
-        </article>
-      </div>
-<%- include('_components/info-box.ejs') %>
-    </main>
-    <script type="module" src="scripts/alpine-init.ts"></script>
-  </body>
+<%- include('_components/article-body-bottom.ejs') %>
 </html>

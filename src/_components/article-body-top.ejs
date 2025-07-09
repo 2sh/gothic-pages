@@ -1,0 +1,26 @@
+<body
+  class="dark-mode"
+  x-data="{ selectedLineInfo: null, darkMode: $persist(true) }"
+  :class="{ 'dark-mode': darkMode, 'has-info-box': selectedLineInfo !== null }">
+  <main>
+    <div id="article-container">
+      <article>
+        <div id="article-inner">
+          <div class="menu">
+            <div>
+              <a class='square' href="index.html">⌂</a>
+            </div>
+            <div>
+              <button class='square'
+                x-text="darkMode ? '☀' : '☾'"
+                @click="darkMode = !darkMode"></button>
+              <!--
+              <select>
+                <option value="simple" class="option-simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
+                <option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐍃</option>
+              </select>
+              -->
+            </div>
+          </div>
+          <div id="article-content"
+            @click="e => {if(e.target.tagName !== 'I-LINE') selectedLineInfo = null}">
