@@ -4,8 +4,7 @@ const translationsString = JSON.stringify(typeof notes !== 'undefined' ? notes :
 const infoString = JSON.stringify(info)
 -%>
 <i-line
-  id="L<%=info.id%>"
   x-data='{ info: <%=infoString%> }'
   @click='selectedLineInfo = info'
-  :class="{ 'line-selected': selectedLineInfo && selectedLineInfo.id == info.id }"
+  :class="{ 'line-selected': selectedLineInfo && selectedLineInfo == info }"
   ><%=info.text%></i-line>

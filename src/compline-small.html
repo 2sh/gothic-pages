@@ -1,0 +1,65 @@
+<%
+let id=1
+-%>
+<!doctype html>
+<html lang="got">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/text.css" rel="stylesheet">
+    <link href="assets/styles/simple-light.css" rel="stylesheet">
+    <link href="assets/styles/simple-dark.css" rel="stylesheet">
+    <title>𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐍃</title>
+  </head>
+<%- include('_components/article-body-top.ejs') %>
+<header>
+  <h1>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐍃',
+    translations: [
+["el", "Μικρόν Απόδειπνον"],
+["en", "Small Compline"],
+    ],
+    notes:
+`ΑΠΟΔΕΙΠΝΟΝ = after supper, perhaps *𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃`
+  }}) %>
+  </h1>
+</header>
+
+<p class="speech">
+<%- include('_lines/speaker_priest') %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌸𐌹𐌿𐌸𐌹𐌳𐌰 𐌲𐌿𐌸 𐌿𐌽𐍃𐌰𐍂𐌰𐌽𐌰 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉',
+    translations: [
+["el", "Εὐλογητὸς ὁ Θεὸς ἡμῶν πάντοτε"],
+["en", "Blessed is our God always"],
+    ],
+    notes: "2 Corinthians 4:10 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉"
+  }}) %>
+<%- include('_lines/now_and_ever') %>
+</p>
+
+<p class="speech">
+<%- include('_lines/speaker_choir') %>
+<%- include('_lines/amen') %>
+</p>
+<p class="speech">
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍅𐌿𐌻𐌸𐌿𐍃 𐌸𐌿𐍃, 𐌲𐌿𐌸 𐌿𐌽𐍃𐌰𐍂, 𐍅𐌿𐌻𐌸𐌿𐍃 𐌸𐌿𐍃',
+    translations: [
+["el", "Δόξα σοι ὁ Θεὸς ἡμῶν, δόξα σοι"],
+["en", "Glory to thee, our god, glory to thee"],
+    ]
+  }}) %>
+</p>
+
+<p lang='en' class="annotation">
+The Liturgy of Saint John Chrysostom
+in&nbsp;the&nbsp;Gothic&nbsp;language,
+<br/>a translation by <a href='https://2sh.me'>2sh</a>.
+</p>
+<%- include('_components/article-body-bottom.ejs') %>
+</html>
