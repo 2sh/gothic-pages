@@ -1,38 +1,38 @@
-body.dark-mode,
-.dark-mode #info-box
+body,
+#info-box
 {
   background-color: #28282b;
   color: #f0f0f0;
 }
 
-.dark-mode a
+a
 {
   color: #789cff;
 }
 
-.dark-mode .annotation
+.annotation
 {
   color: #979797;
 }
 
-.dark-mode .menu button,
-.dark-mode .menu a
+.menu button,
+.menu a
 {
   background-color: #686868;
   color: #f0f0f0;
 }
 
-.dark-mode i-line:hover
+i-line:hover
 {
   background-color: #479e95;
 }
 
-.dark-mode .line-selected
+.line-selected
 {
   background-color: #008477;
 }
 
-.dark-mode #info-box
+#info-box
 {
   background-color: #323236;
 }

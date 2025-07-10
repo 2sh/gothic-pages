@@ -13,20 +13,20 @@
   </head>
   <body
     class="dark-mode"
-    x-data="{ info: null, darkMode: $persist(true) }"
-    :class="{ 'dark-mode': darkMode }">
+    x-data="{ info: null }"
+    :class="{ 'light-mode': !$store.general.darkMode }">
     <main>
       <div id="article-container">
         <article>
           <div id="article-inner">
           <div class="menu">
             <div>
-              
+
             </div>
             <div>
               <button class='square'
-                x-text="darkMode ? '☀' : '☾'"
-                @click="darkMode = !darkMode"></button>
+                x-text="$store.general.darkMode ? '☀' : '☾'"
+                @click="$store.general.darkMode = !$store.general.darkMode"></button>
             </div>
           </div>
           <div id="article-content">

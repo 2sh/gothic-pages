@@ -1,7 +1,14 @@
+<%
+const classes = []
+if (mode) classes.push(mode)
+-%>
 <body
-  class="dark-mode"
-  x-data="{ selectedLineInfo: null, darkMode: $persist(true) }"
-  :class="{ 'dark-mode': darkMode, 'has-info-box': selectedLineInfo !== null }">
+  x-data="{ selectedLineInfo: null }"
+  :class="[
+    ...<%=JSON.stringify(classes)%>,
+    ...(!$store.general.darkMode ? ['light-mode'] : []),
+    ...(selectedLineInfo !== null ? ['has-info-box'] : []),
+  ]">
   <main>
     <div id="article-container">
       <article>
@@ -12,8 +19,8 @@
             </div>
             <div>
               <button class='square'
-                x-text="darkMode ? '☀' : '☾'"
-                @click="darkMode = !darkMode"></button>
+                x-text="$store.general.darkMode ? '☀' : '☾'"
+                @click="$store.general.darkMode = !$store.general.darkMode"></button>
               <!--
               <select>
                 <option value="simple" class="option-simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
