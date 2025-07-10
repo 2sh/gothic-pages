@@ -1,6 +1,6 @@
 <%
 const classes = []
-if (mode) classes.push(mode)
+if (typeof mode !== 'undefined') classes.push(mode)
 -%>
 <body
   x-data="{ selectedLineInfo: null }"
