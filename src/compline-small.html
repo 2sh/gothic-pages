@@ -1,6 +1,3 @@
-<%
-let id=1
--%>
 <!doctype html>
 <html lang="got">
   <head>
@@ -27,7 +24,9 @@ let id=1
   </h1>
 </header>
 
-<p class="speech">
+<div class="speech">
+
+<p>
 <%- include('_lines/speaker_priest') %>
 <%- include('_components/i-line',
   { info: {
@@ -38,26 +37,98 @@ let id=1
     ],
     notes: "2 Corinthians 4:10 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉"
   }}) %>
+<br/>
 <%- include('_lines/now_and_ever') %>
 </p>
 
-<p class="speech">
-<%- include('_lines/speaker_choir') %>
+<p>
+<%- include('_lines/speaker_reader') %>
 <%- include('_lines/amen') %>
-</p>
-<p class="speech">
+<br/>
 <%- include('_components/i-line',
   { info: {
-    text: '𐍅𐌿𐌻𐌸𐌿𐍃 𐌸𐌿𐍃, 𐌲𐌿𐌸 𐌿𐌽𐍃𐌰𐍂, 𐍅𐌿𐌻𐌸𐌿𐍃 𐌸𐌿𐍃',
+    text: '𐍅𐌿𐌻𐌸𐌿𐍃 𐌸𐌿𐍃, 𐌲𐌿𐌸 𐌿𐌽𐍃𐌰𐍂, 𐍅𐌿𐌻𐌸𐌿𐍃 𐌸𐌿𐍃.',
     translations: [
-["el", "Δόξα σοι ὁ Θεὸς ἡμῶν, δόξα σοι"],
-["en", "Glory to thee, our god, glory to thee"],
+["el", "Δόξα σοι ὁ Θεὸς ἡμῶν, δόξα σοι."],
+["en", "Glory to thee, our god, glory to thee."],
     ]
   }}) %>
 </p>
+<p><%- include('_lines/o_heavenly_king.ejs') %></p>
+
+</div>
+
+<p class="title">
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍄𐍂𐌹𐍃𐌰𐌲𐌹𐌰𐌿𐌽 𐌱𐌹𐌳𐍉𐍃',
+    translations: [
+["el", "Τρισάγιον"],
+["en", "Trisagion Prayers"],
+    ],
+    notes:
+`greek o -> got. au, greek e, ai -> got. ai, greek ou -> got. u.
+
+for thrice holy perhaps 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐍃; 𐍅𐌴𐌹𐌷𐍃 => 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐌰 𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃.`
+  }}) %>
+</p>
+
+<div class="speech">
+
+<p>
+<%- include('_lines/trisagion.ejs') %>
+<br>
+<%- include('_lines/times_three.ejs') %>
+</p>
+<p><%- include('_lines/glory_to_trinity.ejs') %></p>
+<p><%- include('_lines/all_holy_trinity.ejs') %></p>
+<p>
+<%- include('_lines/lord_have_mercy.ejs') %>
+<%- include('_lines/times_three.ejs') %>
+</p>
+<p><%- include('_lines/glory_to_trinity.ejs') %></p>
+<p><%- include('_lines/lords_prayer.ejs') %></p>
+
+<p>
+<%- include('_lines/speaker_priest') %>
+<%- include('_lines/for_thine_is.ejs') %>
+<br>
+<%- include('_lines/of_trinity.ejs') %>
+<br>
+<%- include('_lines/now_and_ever.ejs') %>
+</p>
+
+<p>
+<%- include('_lines/speaker_reader') %>
+<%- include('_lines/amen') %>
+</p>
+<p>
+<%- include('_lines/lord_have_mercy.ejs') %>
+<%- include('_lines/times_twelve.ejs') %>
+</p>
+<p><%- include('_lines/glory_to_trinity.ejs') %></p>
+<p><%- include('_lines/o_come_let_us_worship.ejs') %></p>
+
+</div>
+
+<p class="notice">
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍀𐍃𐌰𐌻𐌼𐍉𐍃',
+    translations: [
+["el", "οἱ ψαλμοί"],
+["en", "Psalms"],
+    ],
+    notes: `*𐍀𐍃𐌰𐌻𐌼𐍉𐍃: Uncertain and unattested nominative plural`
+  }}) %> 50, 69, 142
+</p>
+<p class="notice"><a href="doxology-lesser.html">𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌹𐌰 𐌻𐌴𐌹𐍄𐌹𐌻𐍃</a></p>
+<p class="notice"><a href="nicene-creed.html">𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃</a></p>
+
+<p>𐌸𐌴𐌰𐌿𐍄𐌰𐌿𐌺𐌿𐍃/𐌲𐌿𐌳(𐌰)𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹</p>
 
 <p lang='en' class="annotation">
-The Liturgy of Saint John Chrysostom
+The Office of Small Compline
 in&nbsp;the&nbsp;Gothic&nbsp;language,
 <br/>a translation by <a href='https://2sh.me'>2sh</a>.
 </p>

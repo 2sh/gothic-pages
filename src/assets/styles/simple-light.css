@@ -41,3 +41,8 @@ body.light-mode,
 {
   color: rgb(255, 0, 0);
 }
+
+.light-mode .notice
+{
+  color: rgb(182, 0, 0);
+}

@@ -110,7 +110,19 @@ i-line
   margin: 10px;
 }
 
-.speech
+.title
+{
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.notice
+{
+  font-size: 14px;
+}
+
+.speech p
 {
   position: relative;
   text-indent: 0;
@@ -161,7 +173,7 @@ article
     margin-left: -1em;
   }
 
-  .has-info-box .speech
+  .has-info-box .speech p
   {
     margin-left: 1em;
   }
@@ -209,7 +221,7 @@ article
     margin-left: -1em;
   }
 
-  .speech
+  .speech p
   {
     margin-left: 1em;
   }
