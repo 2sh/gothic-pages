@@ -110,6 +110,20 @@ i-line
   margin: 10px;
 }
 
+.speech
+{
+  position: relative;
+  text-indent: 0;
+}
+
+.speaker
+{
+  position: absolute;
+  right: 480px;
+  text-align: right;
+  white-space: nowrap;
+  padding-right: 1em;
+}
 
 article
 {
@@ -139,6 +153,17 @@ article
   .has-info-box article
   {
     margin: 0;
+  }
+
+  .has-info-box .speaker
+  {
+    position: static;
+    margin-left: -1em;
+  }
+
+  .has-info-box .speech
+  {
+    margin-left: 1em;
   }
 
   #info-box
@@ -176,6 +201,17 @@ article
   {
     overflow-y: auto;
     height: 245px;
+  }
+
+  .speaker
+  {
+    position: static;
+    margin-left: -1em;
+  }
+
+  .speech
+  {
+    margin-left: 1em;
   }
 }
 

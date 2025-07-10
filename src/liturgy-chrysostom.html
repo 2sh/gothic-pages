@@ -1,0 +1,88 @@
+<%
+let id=1
+-%>
+<!doctype html>
+<html lang="got">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/text.css" rel="stylesheet">
+    <link href="assets/styles/simple-light.css" rel="stylesheet">
+    <link href="assets/styles/simple-dark.css" rel="stylesheet">
+    <title>𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰</title>
+  </head>
+<%- include('_components/article-body-top.ejs') %>
+<header>
+  <h1>
+<%- include('_components/i-line',
+  { info: { id: id++,
+    text: '𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰',
+    translations: [
+["el", "λειτουργία"],
+["en", "Liturgy"],
+    ],
+    notes: "*𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰"
+  }}) %>
+  </h1>
+</header>
+
+<p class="speech">
+<%- include('_lines/speaker_priest', { id: id++ }) %>
+<%- include('_components/i-line',
+  { info: { id: id++,
+    text: '𐌸𐌹𐌿𐌸𐌹𐌳𐍉 𐌸𐌹𐌿𐌳𐌰𐌽𐌲𐌰𐍂𐌳𐌹',
+    translations: [
+["el", "Εὐλογημένη ἡ Βασιλεία"],
+["en", "Blessed is the Kingdom"],
+    ],
+    notes: "Mark 11:10"
+  }}) %>
+<%- include('_lines/of_trinity', { id: id++ }) %>
+<%- include('_lines/now_and_ever', { id: id++ }) %>
+</p>
+
+<p class="speech">
+<%- include('_lines/speaker_choir', { id: id++ }) %>
+<%- include('_lines/amen', { id: id++ }) %>
+</p>
+
+<p class="speech">
+<%- include('_lines/speaker_deacon', { id: id++ }) %>
+<%- include('_components/i-line',
+  { info: { id: id++,
+    text: '𐌹̈𐌽 𐌲𐌰𐍅𐌰𐌹𐍂𐌸𐌾𐌰',
+    translations: [
+["el", "Ἐν εἰρήνῃ"],
+["en", "In peace,"],
+    ]
+  }}) %>
+<%- include('_components/i-line',
+  { info: { id: id++,
+    text: '𐌱𐌹𐌳𐌾𐌰𐌹𐌼𐌰 𐍆𐍂𐌰𐌿𐌾𐌰𐌽',
+    translations: [
+["el", "τοῦ Κυρίου δεηθῶμεν"],
+["en", "let us pray to the Lord."],
+    ],
+    notes:
+`let's=subjunctive.
+
+ἐρωτῶ 𐌱𐌹𐌳𐌾𐌰 (to request, ask, to pray, beg) + ACC Luke 14:18
+beseech/pray = 𐌱𐌹𐌳𐌾𐌹𐌸 Luke 10:2;
+
+during liturgy, -𐌾𐌰𐌽 ending can be chanted similarly to -μεν
+so sticking 𐍆𐍂𐌰𐌿𐌾𐌰𐌽 at end`
+  }}) %>
+</p>
+
+<p class="speech">
+<%- include('_lines/speaker_choir', { id: id++ }) %>
+<%- include('_lines/lord_have_mercy', { id: id++ }) %>
+</p>
+
+<p lang='en' class="annotation">
+The Liturgy of Saint John Chrysostom
+in&nbsp;the&nbsp;Gothic&nbsp;language,
+<br/>a translation by <a href='https://2sh.me'>2sh</a>.
+</p>
+<%- include('_components/article-body-bottom.ejs') %>
+</html>

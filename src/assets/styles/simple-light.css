@@ -36,3 +36,8 @@ body.light-mode,
 {
   background-color: #dadada;
 }
+
+.light-mode .speaker
+{
+  color: rgb(255, 0, 0);
+}
