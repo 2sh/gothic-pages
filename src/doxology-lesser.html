@@ -228,6 +228,8 @@ https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%C
 ["el", "καὶ ἐλέησον ἡμᾶς."],
 ["en", "and have mercy on us."],
     ],
+    notes:
+`ἐλέησον ἡμᾶς = 𐌰𐍂𐌼𐌰𐌹 𐌿𐌽𐍃𐌹𐍃, even though it's 𐌿𐌽𐍃𐌹𐍃 is usually dative`
   }}) %>
 <%- include('_components/i-line',
   { info: { id: id++,
@@ -260,14 +262,7 @@ https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%C
 </p>
 
 <p>
-<%- include('_components/i-line',
-  { info: { id: id++,
-    text: '𐌰𐌼𐌴𐌽.',
-    translations: [
-["el", "Ἀμήν."],
-["en", "Amen."],
-    ],
-  }}) %>
+<%- include('_lines/amen', { id: id++ }) %>
 </p>
 
 <p>
@@ -474,14 +469,7 @@ https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%C
 </p>
 
 <p>
-<%- include('_components/i-line',
-  { info: { id: id++,
-    text: '𐌰𐌼𐌴𐌽.',
-    translations: [
-["el", "Ἀμήν."],
-["en", "Amen."],
-    ],
-  }}) %>
+<%- include('_lines/amen', { id: id++ }) %>
 </p>
 
 <p>
@@ -615,25 +603,11 @@ https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%C
 ["en", "to the Father and the Son and the Holy Spirit,"],
     ],
   }}) %>
-<%- include('_components/i-line',
-  { info: { id: id++,
-    text: '𐌾𐌰𐌷 𐌽𐌿 𐌾𐌰𐌷 𐌰𐌹𐍅, 𐌾𐌰𐌷 𐌹̈𐌽 𐌰𐌹𐍅𐌹𐌽𐍃 𐌰𐌹𐍅𐌴.',
-    translations: [
-["el", "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων."],
-["en", "now and ever and to the ages of ages."],
-    ],
-  }}) %>
+<%- include('_lines/now_and_ever', { id: id++ }) %>
 </p>
 
 <p>
-<%- include('_components/i-line',
-  { info: { id: id++,
-    text: '𐌰𐌼𐌴𐌽.',
-    translations: [
-["el", "Ἀμήν."],
-["en", "Amen."],
-    ],
-  }}) %>
+<%- include('_lines/amen', { id: id++ }) %>
 </p>
 
 <p lang='en' class="annotation">
