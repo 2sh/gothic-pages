@@ -173,11 +173,6 @@ article
     margin-left: -1em;
   }
 
-  .has-info-box .speech p
-  {
-    margin-left: 1em;
-  }
-
   #info-box
   {
     width: auto;
@@ -219,11 +214,6 @@ article
   {
     position: static;
     margin-left: -1em;
-  }
-
-  .speech p
-  {
-    margin-left: 1em;
   }
 }
 
