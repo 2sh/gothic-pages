@@ -15,11 +15,11 @@ faúrrinnan (be a precursor, run before) could be used for john the forerunner
     <link href="assets/styles/text.css" rel="stylesheet">
     <link href="assets/styles/simple-light.css" rel="stylesheet">
     <link href="assets/styles/simple-dark.css" rel="stylesheet">
-    <title>𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃</title>
+    <title>Phrases & Words</title>
   </head>
 <%- include('_components/article-body-top.ejs') %>
 <header>
-  <h1>Phrases</h1>
+  <h1>Phrases & Words</h1>
 </header>
 <p class="title">In the name</p>
 <p>
@@ -58,5 +58,19 @@ faúrrinnan (be a precursor, run before) could be used for john the forerunner
     notes: `Publican's prayer, taken directly from the bible`
   }}) %>
 </p>
+<p class="title">Words</p>
+<p>Theotokos/God-bearer: <%- include('_components/i-line',
+  { info: {
+    text: '𐌲𐌿𐌳𐌰𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹',
+    translations: [
+["el", "Θεοτόκος"],
+["en", "Theotokos"],
+    ],
+    notes:
+`Perhaps just a transliteration, 𐌸𐌴𐌰𐌿𐍄𐌰𐌿𐌺𐌿𐍃?, but created *𐌲𐌿𐌳𐌰𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹
+for Gothic to have its own. 𐌲𐌿𐌳 + 𐌰 + 𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹.
+"Gothic never compounds with the genitive [...]
+weak nouns keep -a- for the connecting vowel." -guthiharjis`
+  }}) %></p>
 <%- include('_components/article-body-bottom.ejs') %>
 </html>
