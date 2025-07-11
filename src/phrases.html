@@ -1,0 +1,62 @@
+<%
+/*
+faúrrinnan (be a precursor, run before) could be used for john the forerunner
+
+ἱλάσθητί μοι  𐌲𐌿𐌸, 𐌷𐌿𐌻𐌸𐍃 𐍃𐌹𐌾𐌰𐌹𐍃 𐌼𐌹𐍃, 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌰𐌼𐌼𐌰
+ἐλέησόν με    𐌹̈𐌴𐍃𐌿, 𐍃𐌿𐌽𐌿 𐌳𐌰𐍅𐌴𐌹𐌳𐌹𐍃, 𐌰𐍂𐌼𐌰𐌹 𐌼𐌹𐌺
+ἐλέησον ἡμᾶς  𐌾𐌰𐌷 𐍃𐌹𐌻𐌱𐌰𐌽𐍃 𐌿𐍃𐌷𐍉𐍆𐍉𐌽 𐍃𐍄𐌹𐌱𐌽𐌰 𐌵𐌹𐌸𐌰𐌽𐌳𐌰𐌽𐍃: 𐌹̈𐌴𐍃𐌿, 𐍄𐌰𐌻𐌶𐌾𐌰𐌽𐌳, 𐌰𐍂𐌼𐌰𐌹 𐌿𐌽𐍃𐌹𐍃!
+*/
+-%>
+<!doctype html>
+<html lang="got">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/text.css" rel="stylesheet">
+    <link href="assets/styles/simple-light.css" rel="stylesheet">
+    <link href="assets/styles/simple-dark.css" rel="stylesheet">
+    <title>𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃</title>
+  </head>
+<%- include('_components/article-body-top.ejs') %>
+<header>
+  <h1>Phrases</h1>
+</header>
+<p class="title">In the name</p>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌹̈𐌽 𐌽𐌰𐌼𐌹𐌽',
+    translations: [
+["el", "εἰς τὸ ὄνομα"],
+["en", "In the name"],
+    ],
+    notes: "1 Cor 5:4",
+  }}) %>
+<%- include('_lines/of_trinity') %>.
+<%- include('_lines/amen') %>
+</p>
+<p class="title">Jesus Prayer</p>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍆𐍂𐌰𐌿𐌾𐌰 𐌹̈𐌴𐍃𐌿 𐍇𐍂𐌹𐍃𐍄𐌰𐌿, 𐌰𐍂𐌼𐌰𐌹 𐌼𐌹𐌺 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌰𐌽𐌰 (𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌰)',
+    translations: [
+["el", "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)"],
+["en", "Lord Jesus Christ, have mercy on me, a sinner"],
+    ]
+  }}) %>
+</p>
+<p class="title">Publican's prayer</p>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌲𐌿𐌸, 𐌷𐌿𐌻𐌸𐍃 𐍃𐌹𐌾𐌰𐌹𐍃 𐌼𐌹𐍃, 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌰𐌼𐌼𐌰 (𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌰𐌹)',
+    translations: [
+["el", "ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ"],
+["en", "God be merciful to me a sinner."],
+    ],
+    notes: `Publican's prayer, taken directly from the bible`
+  }}) %>
+</p>
+<%- include('_components/article-body-bottom.ejs') %>
+</html>
