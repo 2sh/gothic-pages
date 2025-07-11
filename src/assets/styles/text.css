@@ -170,7 +170,6 @@ article
   .has-info-box .speaker
   {
     position: static;
-    margin-left: -1em;
   }
 
   #info-box
@@ -213,7 +212,6 @@ article
   .speaker
   {
     position: static;
-    margin-left: -1em;
   }
 }
 
