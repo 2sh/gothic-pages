@@ -3,9 +3,14 @@
     <div id="info-box-inner">
       <div class="menu">
         <div>
+          <a class='line-id'
+            :href="$store.general.getPath() + '#L' + selectedLineInfo.id.toString()"
+            x-text="'L' + selectedLineInfo.id.toString()"
+            title="A Link to this line"></a>
         </div>
         <div>
-          <button class='square' @click="selectedLineInfo = null">X</button>
+          <button class='square'
+            @click="selectedLineInfo = null; $store.general.removeHash()">X</button>
         </div>
       </div>
       <div id="info-box-content">

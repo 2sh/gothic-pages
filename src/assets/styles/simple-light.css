@@ -22,7 +22,7 @@ body.light-mode,
   color: #28282b;
 }
 
-.light-mode i-line:hover
+.light-mode .i-line:hover
 {
   background-color: #ceffe3;
 }

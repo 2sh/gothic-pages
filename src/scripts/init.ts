@@ -1,6 +1,8 @@
 import Alpine from 'alpinejs'
 import persist from '@alpinejs/persist'
 
+import { toLatin } from './transliterate';
+
 Alpine.plugin(persist)
 
 // @ts-ignore
@@ -10,12 +12,36 @@ const languageNames = new Intl.DisplayNames(['en'], {
   type: 'language'
 });
 
+type ModeFunc = (text: string, config: any) => string
+
+const modes: {[key: string]: ModeFunc} = {
+  simple: t => t,
+  biblical: t => t.replaceAll(" ", ""),
+  latin: (t,c) => toLatin(t, {numberConversion: 'big',...c})
+}
+
+const initLineId = location.hash.replace('#', '')
+
+function getPath()
+{
+  return window.location.pathname.split('#')[0]
+}
+
+function removeHash()
+{
+  history.pushState({}, '', getPath())
+}
+
 const general = Alpine.reactive({
   languageNames,
   darkMode: Alpine.$persist(
     window.matchMedia
     && window.matchMedia('(prefers-color-scheme: dark)').matches
-  ).as("dark_mode")
+  ).as("dark_mode"),
+  modes,
+  initLineId,
+  getPath,
+  removeHash,
 })
 
 window.matchMedia('(prefers-color-scheme: dark)')

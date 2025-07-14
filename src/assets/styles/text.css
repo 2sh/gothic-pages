@@ -51,6 +51,13 @@ body, select, input, textarea
   padding: 0 6px;
   font-size: 18px;
   border: 0;
+  cursor: pointer;
+}
+
+.line-id
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
 }
 
 button.square,
@@ -95,7 +102,14 @@ article p
   text-indent: 1em;
 }
 
-i-line
+article p:first-letter,
+.speaker:first-letter,
+h1, h2, h3, .subtitle
+{
+  text-transform: capitalize;
+}
+
+.i-line
 {
   cursor: pointer;
 }

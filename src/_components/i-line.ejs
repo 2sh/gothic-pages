@@ -1,10 +1,14 @@
 <%
-const notesString = JSON.stringify(typeof notes !== 'undefined' ? notes : {})
-const translationsString = JSON.stringify(typeof notes !== 'undefined' ? notes : {})
+global.lineId++
+info.id = global.lineId
 const infoString = JSON.stringify(info)
 -%>
-<i-line
+<span
+  id="L<%=global.lineId%>"
+  class="i-line"
+  x-init="() => { if($store.general.initLineId == 'L' + info.id) selectedLineInfo = info }"
   x-data='{ info: <%=infoString%> }'
-  @click='selectedLineInfo = info'
+  @click="selectedLineInfo = info; $store.general.removeHash()"
   :class="{ 'line-selected': selectedLineInfo && selectedLineInfo == info }"
-  ><%=info.text%></i-line>
+  x-text="$store.general.modes[mode](info.text, {capitalize})"
+  ><%=info.text%></span>

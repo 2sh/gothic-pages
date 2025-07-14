@@ -1,9 +1,15 @@
 <%
+global.lineId = 0
+
 const classes = []
 if (typeof mode !== 'undefined') classes.push(mode)
 -%>
 <body
-  x-data="{ selectedLineInfo: null }"
+  x-data="{
+    selectedLineInfo: null,
+    mode: 'simple',
+    capitalize: false,
+  }"
   :class="[
     ...<%=JSON.stringify(classes)%>,
     ...(!$store.general.darkMode ? ['light-mode'] : []),
@@ -21,13 +27,12 @@ if (typeof mode !== 'undefined') classes.push(mode)
               <button class='square'
                 x-text="$store.general.darkMode ? '☀' : '☾'"
                 @click="$store.general.darkMode = !$store.general.darkMode"></button>
-              <!--
-              <select>
+              <select x-model="mode">
                 <option value="simple" class="option-simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
-                <option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐍃</option>
+                <!--<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐍃</option>-->
+                <option value="latin">Lateins</option>
               </select>
-              -->
             </div>
           </div>
           <div id="article-content"
-            @click="e => {if(e.target.tagName !== 'I-LINE') selectedLineInfo = null}">
+            @click="e => {if(!e.target.classList.contains('i-line')) { selectedLineInfo = null; $store.general.removeHash() }}">
