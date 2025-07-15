@@ -34,6 +34,7 @@ const gothicLatin: Mapping[] = [
 
 const latinGothic: Mapping[] = [
   ['hv', '𐍈'],
+  ['wh', '𐍈'],
   ['v', '𐍈'],
   ['c', '𐌸'],
   ['y', '𐍅'],
@@ -167,7 +168,7 @@ let numberFormatter = new Intl.NumberFormat('en-US')
 
 export type ToLatinConfig = {
   th?: string,
-  hv?: string,
+  hw?: string,
   capitalize?: boolean,
 } & GeneralConfig
 
@@ -175,7 +176,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
 {
   const conf: Required<ToLatinConfig> = {
     th: 'þ',
-    hv: 'ƕ',
+    hw: 'ƕ',
     capitalize: false,
     numberConversion: 'normal',
     ...config,
@@ -190,7 +191,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
       return '·' + applyMapping(m, gothicLatin).toUpperCase() + '·'
   })
   if (conf.th) out = out.replaceAll('𐌸', conf.th)
-  if (conf.hv) out = out.replaceAll('𐍈', conf.hv)
+  if (conf.hw) out = out.replaceAll('𐍈', conf.hw)
   out = applyMapping(out, gothicLatin)
   if (conf.capitalize)
     out = out.replace(
