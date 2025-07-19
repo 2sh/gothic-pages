@@ -1,0 +1,247 @@
+<%
+
+-%>
+<!doctype html>
+<html lang="got">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/text.css" rel="stylesheet">
+    <link href="assets/styles/simple-light.css" rel="stylesheet">
+    <link href="assets/styles/simple-dark.css" rel="stylesheet">
+    <title>𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃</title>
+  </head>
+<%- include('_components/article-body-top.ejs') %>
+<header>
+  <h1>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻\n𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐍃𐌹𐌽𐍃',
+    translations: [
+["en", "The Tale of Peter Rabbit"],
+    ]
+  }}) %>
+  </h1>
+</header>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍃𐌹𐌼𐌻𐌴 𐍅𐌴𐍃𐌿𐌽 𐍆𐌹𐌳𐍅𐍉𐍂 𐌷𐌰𐍃𐌰𐌽𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐌰𐌹,',
+    translations: [
+["en", "Once upon a time there were four little Rabbits,"],
+    ]
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌾𐌰𐌷 𐍅𐌴𐍃𐌿𐌽 𐌷𐌰𐌹𐍄𐌰𐌽𐌰𐌹 —',
+    translations: [
+["en", "and their names were —"],
+    ],
+    notes:
+`Using 𐌷𐌰𐌹𐍄𐌰𐌽 to teach about a common way to say it in gothic
+and the past passive usage.`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍆𐌻𐌰𐌿𐍀𐍃𐌹, 𐌼𐌰𐌿𐍀𐍃𐌹, 𐌺𐌰𐌿𐍄𐍄𐌰𐌿𐌽-𐍄𐌰𐌹𐌴𐌹𐌻 𐌾𐌰𐌷 𐍀𐌰𐌹𐍄𐍂𐌿𐍃.',
+    translations: [
+["en", "Flopsy, Mopsy, Cotton-tail, and Peter."],
+    ],
+    notes:
+`Cotton tail to translate, and to make sure the endings of the other names
+are correct Gothic.
+
+German translations for Cotton-Tail are Wattebausch or Baumwollschwänzchen.
+There's the yet to be approved neologisms *𐌱𐌰𐌲𐌼𐌰𐍅𐌿𐌻𐌻𐌰 and *𐍃𐍀𐌰𐌿𐍂𐌳𐍃`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌱𐌰𐌿𐌰𐌹𐌳𐌴𐌳𐌿𐌽 𐌼𐌹𐌸 𐌰𐌹𐌸𐌴𐌹𐌽 𐌹̈𐌶𐌴 𐌹̈𐌽 𐌼𐌰𐌻𐌼𐌰𐌳𐍂𐌹𐌿𐍃𐍉𐌽',
+    translations: [
+["en", "They lived with their Mother in a sand-bank,"],
+    ],
+    notes:
+`𐌲𐍂𐍉𐌱𐌰 translates to foxhole on wiktionary but I imagine it wasn't just
+for foxes, it's only been attested in the bible in relation to foxes.
+
+*𐌼𐌰𐌻𐌼𐌰𐌳𐍂𐌹𐌿𐍃𐍉𐌽 made out of 𐌼𐌰𐌻𐌼𐌰 (sand) + 𐌳𐍂𐌹𐌿𐍃𐍉𐌽 (slope/bank)`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌿𐌽𐌳𐌰𐍂𐍉 𐍅𐌰𐌿𐍂𐍄𐌰𐌹 𐍆𐌰𐌿𐍂𐌷𐍉𐍃 𐌼𐌹𐌺𐌹𐌻𐌰𐌹𐌶𐍉𐍃 𐍆𐌹𐌻𐌿.',
+    translations: [
+["en", "underneath the root of a very big fir-tree."],
+    ],
+    notes: `neologism *𐍆𐌰𐌿𐍂𐌷𐌰 for fir *furhō`
+  }}) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: '"𐌽𐌿, 𐌻𐌹𐌿𐌱𐌰𐌽𐍃 𐌼𐌴𐌹𐌽𐌰𐌹", 𐌵𐌰𐌸 𐍆𐍂𐌰𐌿𐌾𐍉 𐌷𐌰𐍃𐌰 𐌹̈𐌽 𐌰𐌹𐌽𐌰𐌼𐌼𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌰,',
+    translations: [
+["en", '"NOW, my dears", said old Mrs. Rabbit one morning,'],
+    ],
+    notes:
+`*𐍆𐍂𐌰𐌿𐌾𐍉 from *frawjô, jô endings turning into 𐌾𐍉
+
+"𐌹̈𐌽 𐌰𐌹𐌽𐌰𐌼𐌼𐌰 𐌳𐌰𐌲𐌴," on one day Luke 5:17`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '"𐌿𐍃𐌻𐌰𐌿𐌱𐌾𐌰 𐌹̈𐌶𐍅𐌹𐍃 𐌹̈𐌽 𐌷𐌰𐌹𐌸𐌾𐍉𐍃 𐌰𐌹𐌸𐌸𐌰𐌿 𐌰𐌽𐌳 𐍅𐌹𐌲 𐌲𐌰𐌲𐌲𐌰𐌽,',
+    translations: [
+["en", '"you may go into the fields or down the lane,'],
+    ],
+    notes:
+`𐌿𐍃𐌻𐌰𐌿𐌱𐌾𐌰𐌽 "Jesus gave them leave" Mark 5:13; 𐍃𐌺𐌿𐌻𐌳(𐌿) 𐌹𐍃𐍄 Mark 3:4 "is is necessary"; 𐌱𐌹𐌽𐌰𐌿𐌷𐍄 𐌹𐍃𐍄 Corinthians I 10:23`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌹̈𐌸 𐌲𐌰𐌲𐌲𐌰𐌹𐌸 𐌹̈𐌽 𐌰𐌿𐍂𐍄𐌹𐌲𐌰𐍂𐌳 𐍆𐍂𐌰𐌿𐌾𐌹𐌽𐍃 𐌼𐌺𐌲𐍂𐌰𐌹𐌲𐌰𐌿𐍂.',
+    translations: [
+["en", "but don’t go into Mr. McGregor’s garden."],
+    ],
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌿𐌱𐌹𐌻 𐍅𐌰𐍂𐌸 𐌱𐌹 𐌰𐍄𐍄𐌰𐌽 𐌹𐌶𐍅𐌰𐍂 𐌾𐌰𐌹𐌽𐌰𐍂;',
+    translations: [
+["en", "Your Father had an accident there;"],
+    ],
+    notes:
+`Übeles passierte über ihn dort.
+an evil (thing), with thing being neuter?
+
+befell to him 𐍅𐌰𐍂𐌸 𐌱𐌹 𐌸𐌰𐌽𐌰 Mark 5:16.
+happen unto him 𐌹𐌽𐌰 𐌲𐌰𐌳𐌰𐌱𐌰𐌽. Mark 10:32. this word has a "as it should be" feel to it.
+was done in her 𐍅𐌰𐍂𐌸 𐌱𐌹 𐌹𐌾𐌰 Mark 5:33.
+be it unto me 𐍅𐌰𐌹𐍂𐌸𐌰𐌹 𐌼𐌹𐍃 Luke 1:38.`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌹̈𐍃 𐍅𐌰𐍃 𐌹̈𐌽 𐌼𐌰𐍄 𐌸𐌰𐌹𐍂𐌷 𐍆𐍂𐌰𐌿𐌾𐍉𐌽 𐌼𐌺𐌲𐍂𐌰𐌹𐌲𐌰𐌿𐍂 𐌲𐌰𐍃𐌰𐍄𐌹𐌸𐍃."',
+    translations: [
+["en", 'he was put in a pie by Mrs. McGregor."'],
+    ],
+    notes:
+`for now, "into a meal" instead of "in a pie"
+
+𐌲𐌰𐍃𐌰𐍄𐌹𐌸𐍃 instead of 𐍃𐌰𐍄𐌹𐌸𐍃 as it's talking about him being placed in the pie,
+not the motion of putting him into the pie?`
+  }}) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: '"𐌾𐌰𐌷 𐌽𐌿 𐌰𐍆𐌻𐌴𐌹𐌸𐌹𐌸, 𐌾𐌰𐌷 𐍄𐌰𐌿𐌾𐌰𐌹𐌸 𐌽𐌹 𐍅𐌰𐌹𐌷𐍄 𐌿𐌽𐍆𐍂𐍉𐌸.',
+    translations: [
+["en", `"NOW run along, and don't get into mischief.`],
+    ],
+    notes:
+`depart from me 𐌰𐍆𐌻𐌴𐌹𐌸𐌹𐌸 𐍆𐌰𐌹𐍂𐍂𐌰 𐌼𐌹𐍃 Matthew 7:23.
+
+A German translation has "Und nun".
+
+German has and macht kein Unsinn/Unfug.
+
+options: untilamalsks: sorta works in meaning, though only one attestation;
+dwals: foolish, too close to dull perhaps, perhaps also somewhat insulting to use;
+𐌿𐌽𐍆𐍂𐍉𐌸𐍃: a bit too sterile perhaps but works I think`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: `𐌹̈𐌺 𐌿𐍃𐌲𐌰𐌲𐌲𐌰."`,
+    translations: [
+["en", `I am going out."`],
+    ],
+    notes:
+`go out 𐌿𐍃𐌲𐌰𐌲𐌲 Luke 14:23`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: `𐌸𐌰𐌽 𐌽𐌰𐌼 𐍆𐍂𐌰𐌿𐌾𐍉 𐌷𐌰𐍃𐌰 𐍄𐌰𐌹𐌽𐌾𐍉𐌽 𐌾𐌰𐌷 𐍂𐌹𐌲𐌽𐍃𐌺𐌹𐌻𐌳𐌿 𐌹̈𐌶𐍉𐍃,`,
+    translations: [
+["en", `Then old Mrs. Rabbit took a basket and her umbrella,`],
+    ],
+    notes:
+`take up his cross 𐌽𐌹𐌼𐌰𐌹 𐌲𐌰𐌻𐌲𐌰𐌽 𐍃𐌴𐌹𐌽𐌰𐌽𐌰 ACC Mark 8:34
+
+*𐍂𐌹𐌲𐌽𐍃𐌺𐌹𐌻𐌳𐌿𐍃 - rain shield (temporary)`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: `𐌾𐌰𐌷 𐌹̈𐌳𐌳𐌾𐌰 𐌸𐌰𐌹𐍂𐌷 𐍅𐌰𐌻𐌸𐌿 𐌳𐌿 𐌱𐌰𐌺𐌰𐍂𐌹.`,
+    translations: [
+["en", `and went through the wood to the baker’s.`],
+    ],
+    notes:
+`go through Mark 9:30.
+
+NEO *walþus m. U
+PGm *bakaną to 𐌱𐌰𐌺𐌰𐌽, class 6 verb. Looking at other class 6 verbs like 𐌳𐍂𐌰𐌲𐌰𐌽 from *draganą, and 𐍅𐌰𐌺𐌰𐌽 from *wakaną.
+PGm *bakārijaz, Gothic having inherited the -ārijaz suffix as -𐌰𐍂𐌴𐌹𐍃, 𐌱𐌰𐌺𐌰𐍂𐌴𐌹𐍃`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: `𐌱𐌰𐌿𐌷𐍄𐌰 𐌰𐌹𐌽𐌰𐌽𐌰 𐌷𐌻𐌰𐌹𐍆 𐌾𐌰𐌷 𐍆𐌹𐌼𐍆 𐌱𐌰𐍃𐌹𐌱𐌰𐌺𐌴𐌹𐌽𐌹𐌽𐍃`,
+    translations: [
+["en", `She bought a loaf of brown bread and five currant buns.`],
+    ],
+    notes:
+`𐌱𐌰𐌹𐍂𐌰 from baírabagms + 𐌱𐌰𐌺𐌴𐌹𐌽𐌹𐌽𐍃 𐌱𐌰𐌺𐌰𐌽+𐌴𐌹𐌽𐍃.
+
+most likely needs improving.`
+  }}) %>
+</p>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍆𐌻𐌰𐌿𐍀𐍃𐌹, 𐌼𐌰𐌿𐍀𐍃𐌹 𐌾𐌰𐌷 𐌺𐌰𐌿𐍄𐍄𐌰𐌿𐌽-𐍄𐌰𐌹𐌴𐌹𐌻, 𐌸𐌰𐌹𐌴𐌹 𐍅𐌴𐍃𐌿𐌽 𐌲𐍉𐌳𐌰𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐌰𐌹 𐌷𐌰𐍃𐌰𐌽𐍃,',
+    translations: [
+["en", `FLOPSY, Mopsy, and Cotton-tail, who were good little bunnies,`],
+    ],
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌹̈𐌳𐌳𐌾𐌴𐌳𐌿𐌽 𐌰𐌽𐌳 𐍅𐌹𐌲 𐌳𐌿 𐌻𐌹𐍃𐌰𐌽 𐌱𐍂𐌴𐌼𐌹𐌱𐌰𐍃𐌾𐌰;',
+    translations: [
+["en", `went down the lane to gather blackberries;`],
+    ],
+    notes: `*bremibasi (n. Ja) from *brēmibasją`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌹̈𐌸 𐍀𐌰𐌹𐍄𐍂𐌿𐍃, 𐍃𐌰𐌴𐌹 𐍅𐌰𐍃 𐌿𐍆𐌰𐍂𐌷𐌰𐌿𐍃𐌾𐌰𐌽𐌳𐍃 𐍆𐌹𐌻𐌿,',
+    translations: [
+["en", `BUT Peter, who was very naughty,`],
+    ],
+    notes: `altenatively: "who was a very badly behaved rabbit",
+or "who was an excessively/very bold behaved rabbit"
+𐍃𐌰𐌴𐌹 𐍅𐌰𐍃 𐌷𐌰𐍃𐌰 𐌿𐍃𐌼𐌹𐍄𐌰𐌽𐍃 𐌱𐌰𐌻𐌸𐌰𐌱𐌰. Using boldly 𐌱𐌰𐌻𐌸𐌰𐌱𐌰,
+instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍂𐌰𐌽𐌽 𐍃𐌿𐌽𐍃 𐌳𐌿 𐌰𐌿𐍂𐍄𐌹𐌲𐌰𐍂𐌳 𐍆𐍂𐌰𐌿𐌾𐌹𐌽𐍃 𐌼𐌺𐌲𐍂𐌰𐌹𐌲𐌰𐌿𐍂,',
+    translations: [
+["en", `ran straight away to Mr. McGregor’s garden,`],
+    ],
+  }}) %>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐌾𐌰𐌷 !',
+    translations: [
+["en", `and squeezed under the gate!`],
+    ],
+  }}) %>
+</p>
+
+<p lang='en' class="annotation">
+The&nbsp;Tale of Peter&nbsp;Rabbit
+by&nbsp;Beatrix&nbsp;Potter
+in&nbsp;the&nbsp;Gothic&nbsp;language,
+<br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
+</p>
+<%- include('_components/article-body-bottom.ejs') %>
+</html>
