@@ -1,0 +1,46 @@
+<%
+// https://www.grimmstories.com/de/grimm_maerchen/der_arme_und_der_reiche
+// https://www.grimmstories.com/en/grimm_fairy-tales/the_poor_man_and_the_rich_man
+-%>
+<!doctype html>
+<html lang="got">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/styles/text.css" rel="stylesheet">
+    <link href="assets/styles/simple-light.css" rel="stylesheet">
+    <link href="assets/styles/simple-dark.css" rel="stylesheet">
+    <title>𐍃𐌰 𐌿𐌽𐌻𐌴𐌳𐌰 𐌾𐌰𐌷 𐍃𐌰 𐌲𐌰𐌱𐌹𐌲𐌰</title>
+  </head>
+<%- include('_components/article-body-top.ejs') %>
+<header>
+  <h1>
+<%- include('_components/i-line',
+  { info: {
+    text: '𐍃𐌰 𐌿𐌽𐌻𐌴𐌳𐌰 𐌾𐌰𐌷 𐍃𐌰 𐌲𐌰𐌱𐌹𐌲𐌰',
+    translations: [
+["de", "Der Arme und der Reiche"],
+["en", "The poor man and the rich man"],
+    ]
+  }}) %>
+  </h1>
+</header>
+<p>
+<%- include('_components/i-line',
+  { info: {
+    text: 'X',
+    translations: [
+["de", "Vor alten Zeiten, als der liebe Gott noch selber auf Erden unter den Menschen wandelte,"],
+["en", "In olden times, when the Lord himself still used to walk about on this earth amongst men,"]
+    ]
+  }}) %>
+</p>
+
+<p lang='en' class="annotation">
+The&nbsp;poor&nbsp;man and the&nbsp;rich&nbsp;man
+a&nbsp;fairy&nbsp;tale by&nbsp;the&nbsp;Brothers&nbsp;Grimm
+in&nbsp;the&nbsp;Gothic&nbsp;language,
+<br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
+</p>
+<%- include('_components/article-body-bottom.ejs') %>
+</html>
