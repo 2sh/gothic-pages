@@ -13,6 +13,6 @@ const infoString = JSON.stringify({
   x-init="info.text = $el.textContent; if($store.general.initLineId == 'L' + info.id) selectedLineInfo = info"
   x-data='{ info: <%=infoString%> }'
   @click="selectedLineInfo = info; $store.general.removeHash()"
-  :class="{ 'line-selected': selectedLineInfo && selectedLineInfo == info }"
+  :class="{ 'line-selected': selectedLineInfo == info }"
   x-text="$store.general.modes[mode](info.text, {capitalize: info.capitalize})"
   ><%=info.text%></span>
