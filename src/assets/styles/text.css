@@ -27,6 +27,11 @@ body, select, input, textarea
   text-align: right;
 }
 
+.nowrap
+{
+  white-space: nowrap;
+}
+
 .menu
 {
   display: flex;
