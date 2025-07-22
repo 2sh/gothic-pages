@@ -1,14 +1,18 @@
 <%
 global.lineId++
 info.id = global.lineId
-const infoString = JSON.stringify(info)
+const infoString = JSON.stringify({
+  capitalize: false,
+  ...info,
+  text: undefined,
+})
 -%>
 <span
   id="L<%=global.lineId%>"
   class="i-line"
-  x-init="() => { if($store.general.initLineId == 'L' + info.id) selectedLineInfo = info }"
+  x-init="info.text = $el.textContent; if($store.general.initLineId == 'L' + info.id) selectedLineInfo = info"
   x-data='{ info: <%=infoString%> }'
   @click="selectedLineInfo = info; $store.general.removeHash()"
   :class="{ 'line-selected': selectedLineInfo && selectedLineInfo == info }"
-  x-text="$store.general.modes[mode](info.text, {capitalize})"
+  x-text="$store.general.modes[mode](info.text, {capitalize: info.capitalize})"
   ><%=info.text%></span>
