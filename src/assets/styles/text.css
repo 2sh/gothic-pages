@@ -110,8 +110,6 @@ article p
   text-indent: 1em;
 }
 
-article p:first-letter,
-.speaker:first-letter,
 h1, h2, h3, .subtitle
 {
   text-transform: capitalize;
