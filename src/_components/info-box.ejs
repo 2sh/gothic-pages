@@ -32,7 +32,7 @@
           <div>
             <h2>Notes</h2>
             <template x-for="line in selectedLineInfo.notes.split('\n\n')">
-              <p x-text="line"></p>
+              <p x-html="$store.general.bbCodeToHtml(line)"></p>
             </template>
           </div>
         </template>

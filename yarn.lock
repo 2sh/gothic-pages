@@ -7,6 +7,61 @@
   resolved "https://registry.yarnpkg.com/@alpinejs/persist/-/persist-3.14.9.tgz#12df7449b727b6f20469c40ac908265580cfef6f"
   integrity sha512-Td9hWEUtFFguYCRjXhq06sDultW21wXUnVro7YWJm+vjGu/nV/v3hepOXyYVjkGvH/F+zjx5UkzWXXzr3UiQ/w==
 
+"@bbob/core@*":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@bbob/core/-/core-4.2.0.tgz#5e56cdbbc1988dc837842c9c34679bf36eabb5f5"
+  integrity sha512-i5VUIO6xx+TCrBE8plQF9KpW1z+0QcCh9GawCCWYG9KcZrEsyRy57my5/kem0a2lFxXjh0o+tgjQY9sCP5b3bw==
+  dependencies:
+    "@bbob/parser" "*"
+    "@bbob/plugin-helper" "*"
+    "@bbob/types" "*"
+
+"@bbob/html@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@bbob/html/-/html-4.2.0.tgz#f91d1dff989f9ef8cba0e98a959eac3c6c487baa"
+  integrity sha512-mZG7MmE/YluH1/FNCr2Jv/Vz3Mq5stZ5tFAjBmYpVVN6Ndus4+FA84vKoHFdUHDiuU1p/e2/o/VUrwsWwLdoIA==
+  dependencies:
+    "@bbob/core" "*"
+    "@bbob/plugin-helper" "*"
+    "@bbob/types" "*"
+
+"@bbob/parser@*":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@bbob/parser/-/parser-4.2.0.tgz#0b93898a43db50950f25a7bb05b0816ab6d9dc29"
+  integrity sha512-l8BppXjdQClrUiv+qIN0Oe6aS/vlH7CEduMreDaxYDadUPC0RMzxj9lXVjO0xTbFEVEIUJCGc53qnpiApLbx2g==
+  dependencies:
+    "@bbob/plugin-helper" "*"
+    "@bbob/types" "*"
+
+"@bbob/plugin-helper@*":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@bbob/plugin-helper/-/plugin-helper-4.2.0.tgz#d998d5d76b00f1589763fec6246502d7ea0f7bcf"
+  integrity sha512-Uxs/UJROnkpcq5EJfz/8NCEYAcme8l6oAgMeWLX1nxWeieUhRgpY8BWQ9eQwUOXEKa0tsKVPnlmbUAjFhppVPw==
+  dependencies:
+    "@bbob/types" "*"
+
+"@bbob/preset-html5@^4.2.0":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@bbob/preset-html5/-/preset-html5-4.2.0.tgz#2ebbbcdd988c8aaac49342143e5497d83f2f16f4"
+  integrity sha512-X2EIeb2vqTz/n34KWQXEL5IC0SuB6i2/ltRpEaMTyK7IoDEs0XGIWcqVpenb7Z2d4eNA3gTWhkoUUkKlZmfQRQ==
+  dependencies:
+    "@bbob/plugin-helper" "*"
+    "@bbob/preset" "*"
+    "@bbob/types" "*"
+
+"@bbob/preset@*":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@bbob/preset/-/preset-4.2.0.tgz#316634a5a144d8f3a0533fb268e83adc56cb52ca"
+  integrity sha512-IA+kxlrRcYBXE634B8W6uU2DO7VvrxeOqWUzIDKV2CgzTMpmCG875ihGp+Q3T+QxGwzG5S0L4GdmCIULTbzC4A==
+  dependencies:
+    "@bbob/plugin-helper" "*"
+    "@bbob/types" "*"
+
+"@bbob/types@*":
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/@bbob/types/-/types-4.2.0.tgz#f3da1ca6eea134984f4ed2173bbfa4427560df28"
+  integrity sha512-bSCZnNg0VrPosBBUVkjBDYVKNEqwT0jTNuzvAuNrZkuILgUKtLYI9GHuT8rY4lZecCb7UqGDsHsYt0YJO36eJg==
+
 "@esbuild/aix-ppc64@0.25.4":
   version "0.25.4"
   resolved "https://registry.yarnpkg.com/@esbuild/aix-ppc64/-/aix-ppc64-0.25.4.tgz#830d6476cbbca0c005136af07303646b419f1162"
@@ -607,8 +662,16 @@ source-map-js@^1.2.1:
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.2.1.tgz#1ce5650fddd87abc099eda37dcff024c2667ae46"
   integrity sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==
 
-"string-width-cjs@npm:string-width@^4.2.0", string-width@^4.1.0:
-  name string-width-cjs
+"string-width-cjs@npm:string-width@^4.2.0":
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
+  integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
+  dependencies:
+    emoji-regex "^8.0.0"
+    is-fullwidth-code-point "^3.0.0"
+    strip-ansi "^6.0.1"
+
+string-width@^4.1.0:
   version "4.2.3"
   resolved "https://registry.yarnpkg.com/string-width/-/string-width-4.2.3.tgz#269c7117d27b05ad2e536830a8ec895ef9c6d010"
   integrity sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==
@@ -626,8 +689,14 @@ string-width@^5.0.1, string-width@^5.1.2:
     emoji-regex "^9.2.2"
     strip-ansi "^7.0.1"
 
-"strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
-  name strip-ansi-cjs
+"strip-ansi-cjs@npm:strip-ansi@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
+  integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
+  dependencies:
+    ansi-regex "^5.0.1"
+
+strip-ansi@^6.0.0, strip-ansi@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==

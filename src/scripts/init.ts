@@ -1,6 +1,9 @@
 import Alpine from 'alpinejs'
 import persist from '@alpinejs/persist'
 
+import bbobHTML from '@bbob/html'
+import presetHTML5 from '@bbob/preset-html5'
+
 import { toLatin } from './transliterate';
 
 Alpine.plugin(persist)
@@ -38,6 +41,7 @@ const general = Alpine.reactive({
     window.matchMedia
     && window.matchMedia('(prefers-color-scheme: dark)').matches
   ).as("dark_mode"),
+  bbCodeToHtml: (text: string) => bbobHTML(text, presetHTML5()),
   modes,
   initLineId,
   getPath,
