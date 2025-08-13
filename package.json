@@ -1,25 +1,40 @@
 {
   "name": "gothic-pages",
+  "version": "1.0.0",
+  "main": "src/server/main.ts",
+  "author": "2sh",
+  "license": "UNLICENSED",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "nodemon src/server/main.ts -e ts",
+    "dev:client": "rollup -c -w",
+    "build": "rollup -c && tsx src/server/main.ts build && cp -r src/client/assets/ dist/"
   },
   "dependencies": {
     "@alpinejs/persist": "^3.14.9",
     "@bbob/html": "^4.2.0",
     "@bbob/preset-html5": "^4.2.0",
+    "@root/walk": "^1.1.0",
     "alpinejs": "^3.14.9",
-    "vite": "^6.3.5",
-    "vite-plugin-ejs": "^1.7.0"
+    "express": "^5.1.0",
+    "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@tsconfig/node20": "^20.1.2",
     "@types/alpinejs": "^3.13.11",
     "@types/alpinejs__persist": "^3.13.4",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
     "glob": "^11.0.2",
-    "typescript": "~5.8.3"
+    "nodemon": "^3.0.3",
+    "rollup": "^4.46.2",
+    "rollup-plugin-delete": "^3.0.1",
+    "rollup-plugin-header": "^1.0.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
   }
 }
