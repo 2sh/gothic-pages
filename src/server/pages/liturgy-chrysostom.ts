@@ -53,7 +53,7 @@ ${speakerDeacon}
 ${[
     {
       text: {
-        got: 'Þiuþei, Fraujinōnd.',
+        got: 'Þiuþei, Fraujinond.',
         el: "Ἑὐλόγησον, Δέσποτα.",
         en: "Master, give the blessing.",
       }
@@ -67,7 +67,7 @@ ${speakerPriest}
 ${[
     {
       text: {
-        got: 'Þiuþidō Þiudangardi',
+        got: 'Þiuþido Þiudangardi',
         el: "Εὐλογημένη ἡ Βασιλεία",
         en: "Blessed is the Kingdom",
       },
@@ -112,7 +112,7 @@ ${speakerDeacon}
 ${[
     {
       text: {
-        got: 'Faúr gawaírþi ïupaþrō',
+        got: 'Faúr gawaírþi ïupaþro',
         el: "Ὑπὲρ τῆς ἄνωθεν εἰρήνης",
         en: "For the peace from above",
       },
@@ -123,7 +123,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah naseinai saiwalō unsaraizō,',
+        got: 'jah naseinai saiwalo unsaraizo,',
         el: "καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν,",
         en: "and for the salvation of our souls,",
       }
@@ -144,7 +144,7 @@ ${speakerDeacon}
 ${[
     {
       text: {
-        got: 'Faúr gawaírþi allaizōs manasēdais',
+        got: 'Faúr gawaírþi allaizos manasedais',
         el: "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου",
         en: "For the peace of the whole world,",
       },
@@ -155,7 +155,7 @@ ${[
 ${[
     {
       text: {
-        got: 'tulgiþa weihōs Gudis aíkklēsjōnō',
+        got: 'tulgiþa weihos Gudis aíkklesjono',
         el: "εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν",
         en: "for the stability of the holy churches of God,",
       }
@@ -165,7 +165,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah samaqiss allaizē,',
+        got: 'jah samaqiss allaize,',
         el: "καὶ τῆς τῶν πάντων ἑνώσεως,",
         en: "and for the unity of all,",
       },
@@ -205,7 +205,7 @@ ${[
         el: "καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ,",
         en: "and for those who enter it with faith, reverence, and the fear of God,",
       },
-      notes: `*𐌰𐌹𐌶𐌰𐌹 from pgmc aizō.
+      notes: `*𐌰𐌹𐌶𐌰𐌹 from pgmc aizo.
 
 God-fearing is gudafaúrhts.`
     },
@@ -344,7 +344,7 @@ ${[
 ${[
     {
       text: {
-        got: 'all baúrgē jah all landē,',
+        got: 'all baúrge jah all lande,',
         el: "πάσης πόλεως, χώρας",
         en: "and for every city and land,",
       }
@@ -354,7 +354,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah ïn þaim all báuandanē galaubeinaizē,',
+        got: 'jah ïn þaim all báuandane galaubeinaize,',
         el: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
         en: "and for the faithful who live in them,",
       },

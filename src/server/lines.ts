@@ -2,7 +2,7 @@ import { html, toGothicLine } from "./tools"
 
 export const amen = toGothicLine({
   text: {
-    got: 'Amēn.',
+    got: 'Amen.',
     el: "ἀμήν.",
     en: "Amen.",
   }
@@ -10,7 +10,7 @@ export const amen = toGothicLine({
 
 export const nowAndEver = toGothicLine({
   text: {
-    got: 'jah nū jah aiw, jah ïn aiwins aiwē.',
+    got: 'jah nū jah aiw, jah ïn aiwins aiwe.',
     el: "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
     en: "now and ever and to the ages of ages.",
   },
@@ -73,7 +73,7 @@ export const toYouOLord = toGothicLine({
 export const oHeavenlyKing = `
 ${toGothicLine({
   text: {
-    got: 'Þiudan himinakunda, Paraklētau, Ahma sunjōs,',
+    got: 'Þiudan himinakunda, Parakletau, Ahma sunjos,',
     el: "Βασιλεῦ Οὐράνιε, Παράκλητε, τὸ Πνεῦμα τῆς Ἀληθείας,",
     en: "O heavenly King, Comforter, and Spirit of truth,",
   },
@@ -114,7 +114,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: 'jah nasei, Þiuþeiga saiwalōs unsara.',
+    got: 'jah nasei, Þiuþeiga saiwalos unsara.',
     el: "καὶ σῶσον, Ἀγαθὲ τὰς ψυχὰς ἡμῶν.",
     en: "and save our souls, O good one.",
   }
@@ -190,7 +190,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: 'Fraujinōnd, fragif unsibjōna unsara.',
+    got: 'Fraujinond, fragif unsibjona unsara.',
     el: "Δέσποτα, συγχώρησον τὰς ἀνομίας ἡμῖν.",
     en: "O Master, pardon our iniquities.",
   },
@@ -200,7 +200,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: 'Weiha, gaweisō jah hailei saúhtins unsara,',
+    got: 'Weiha, gaweiso jah hailei saúhtins unsara,',
     el: "Ἅγιε, ἐπίσκεψαι καὶ ἴασαι τὰς ἀσθενείας ἡμῶν,",
     en: "O Holy One, visit and heal our infirmities,",
   }
@@ -229,7 +229,7 @@ ${[
     },
     {
       text: {
-        got: 'weihnai namō þein.',
+        got: 'weihnai namo þein.',
         el: "ἁγιασθήτω τὸ ὄνομά σου.",
         en: "hallowed be your name.",
       }
@@ -256,7 +256,7 @@ ${[
     },
     {
       text: {
-        got: 'swē ïn himina jah ana aírþai.',
+        got: 'swe ïn himina jah ana aírþai.',
         el: "ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς.",
         en: "on earth as it is in heaven.",
       }
@@ -276,7 +276,7 @@ ${[
 ${[
     {
       text: {
-        got: 'Jah aflēt uns þatei skulans sijaima,',
+        got: 'Jah aflet uns þatei skulans sijaima,',
         el: "Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν,",
         en: "And forgive us our debts,",
       }
@@ -286,7 +286,7 @@ ${[
 ${[
     {
       text: {
-        got: 'swaswē jah weis aflētam þaim skulam unsaraim.',
+        got: 'swaswe jah weis afletam þaim skulam unsaraim.',
         el: "ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν.",
         en: "as we also have forgiven our debtors.",
       }
@@ -395,7 +395,7 @@ export const speakerReader = html`<span class="speaker">${toGothicLine({
 
 export const speakerChoir = html`<span class="speaker">${toGothicLine({
   text: {
-    got: 'Liuþārjōs',
+    got: 'Liuþārjos',
     el: "O Χορός",
     en: "Choir",
   }

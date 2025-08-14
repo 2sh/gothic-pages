@@ -62,14 +62,14 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'skapa himinis jah aírþōs,',
+      got: 'skapa himinis jah aírþos,',
       el: "ποιητὴν οὐρανοῦ καὶ γῆς,",
       en: "maker of heaven and earth,",
     },
   },
   {
     text: {
-      got: 'alláizē gasaíƕananē jah ungasaíƕananē;',
+      got: 'alláize gasaíƕanane jah ungasaíƕanane;',
       el: "ὁρατῶν τε πάντων καὶ ἀοράτων·",
       en: "of all things visible and invisible;",
     },
@@ -85,7 +85,7 @@ Luke 2:20 "of all things" = 𐌰𐌻𐌻𐌰𐌹𐌶𐌴, 𐌰𐌻𐌻𐍃 singu
 content += html`<p>${[
   {
     text: {
-      got: 'jah du áinamma Fráujin Ïēsu Xristáu,',
+      got: 'jah du áinamma Fráujin Ïesu Xristáu,',
       el: "καὶ εἰς ἕνα Κύριον Ἰησοῦν Χριστὸν",
       en: "and in one Lord Jesus Christ,",
     }
@@ -247,7 +247,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'jah gaþuláida, jah was ganawistrōþs,',
+      got: 'jah gaþuláida, jah was ganawistroþs,',
       el: "καὶ παθόντα, καὶ ταφέντα,",
       en: "and suffered, and was buried",
     },
@@ -265,7 +265,7 @@ was buried 1 Corinthians 15:4`,
   },
   {
     text: {
-      got: 'afar bōkōm,',
+      got: 'afar bokom,',
       el: "κατὰ τὰς γραφὰς,",
       en: "according to the Scriptures,",
     },
@@ -281,11 +281,11 @@ was buried 1 Corinthians 15:4`,
   },
   {
     text: {
-      got: 'jah gasitiþ af taíhswōn Attins,',
+      got: 'jah gasitiþ af taíhswon Attins,',
       el: "καὶ καθεζόμενον ἐν δεξιᾷ τοῦ Πατρὸς,",
       en: "and sitteth on the right hand of the Father,",
     },
-    notes: `Mark 14:62 af taíhswōn sitandan`,
+    notes: `Mark 14:62 af taíhswon sitandan`,
   },
   {
     text: {
@@ -304,7 +304,7 @@ was buried 1 Corinthians 15:4`,
   },
   {
     text: {
-      got: 'stōjan qiwans jah dáuþans,',
+      got: 'stojan qiwans jah dáuþans,',
       el: "κρῖναι ζῶντας καὶ νεκρούς,",
       en: "to judge the quick and the dead;",
     },
@@ -356,7 +356,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'ïnweitada jah gaswērada,',
+      got: 'ïnweitada jah gaswerada,',
       el: "συμπροσκυνούμενον καὶ συνδοξαζόμενον,",
       en: "is worshiped and glorified",
     },
@@ -364,7 +364,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'saei qaþ þaírh praufētuns;',
+      got: 'saei qaþ þaírh praufetuns;',
       el: "τὸ λαλῆσαν διὰ τῶν προφητῶν·",
       en: "who spoke by the prophets.",
     },
@@ -383,7 +383,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'aikklesjōn kaþauleigái jah apaustauleigái;',
+      got: 'aikklesjon kaþauleigái jah apaustauleigái;',
       el: "καθολικὴν καὶ ἀποστολικὴν ἐκκλησίαν·",
       en: "catholic and apostolic Church;",
     },
@@ -395,7 +395,7 @@ content += html`<p>${[
 content += html`<p>${[
   {
     text: {
-      got: 'andháitam áinái dáupeinái du fralēta frawaúrhtē;',
+      got: 'andháitam áinái dáupeinái du fraleta frawaúrhte;',
       el: "ὁμολογοῦμεν ἓν βάπτισμα εἰς ἄφεσιν ἁμαρτιῶν·",
       en: "we acknowledge one baptism for the remission of sins;",
     },
@@ -412,7 +412,7 @@ a sort of a nice freeing sense, while the former just "putting it down"`,
 content += html`<p>${[
   {
     text: {
-      got: 'beidam usstassáis dáuþanē,',
+      got: 'beidam usstassáis dáuþane,',
       el: "προσδοκῶμεν ἀνάστασιν νεκρῶν,",
       en: "we look for the resurrection of the dead,",
     },

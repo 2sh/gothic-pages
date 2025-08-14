@@ -51,7 +51,7 @@ content += html`<p class="title">Jesus Prayer</p>`
 content += html`<p>${[
   {
     text: {
-      got: 'Frauja Ïēsu Xristau, Sunau Gudis, armai mik frawaúrhtana (frawaúrhta)',
+      got: 'Frauja Ïesu Xristau, Sunau Gudis, armai mik frawaúrhtana (frawaúrhta)',
       el: "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)",
       en: "Lord Jesus Christ, Son of God, have mercy on me, a sinner",
     }

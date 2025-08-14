@@ -58,7 +58,7 @@ ${speakerPriest}
 ${[
     {
       text: {
-        got: 'Þiuþida Guþ unsarana sinteinō.',
+        got: 'Þiuþida Guþ unsarana sinteino.',
         el: "Εὐλογητὸς ὁ Θεὸς ἡμῶν πάντοτε.",
         en: "Blessed is our God always.",
       },
@@ -96,7 +96,7 @@ content += html`<p class="title">
 ${[
     {
       text: {
-        got: 'Trisagiaun bidōs',
+        got: 'Trisagiaun bidos',
         el: "Τρισάγιον",
         en: "Trisagion Prayers",
       },
@@ -151,7 +151,7 @@ content += html`<p class='notice'>
 ${[
     {
       text: {
-        got: 'Psalmōs',
+        got: 'Psalmos',
         el: "οἱ ψαλμοί",
         en: "Psalms",
       },

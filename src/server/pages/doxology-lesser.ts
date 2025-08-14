@@ -43,7 +43,7 @@ content += html`<header>
 content += html`<p>${[
   {
     text: {
-      got: 'Wulþus ïn hauhistjam Guda, jah ana airþai gawairþi ïn mannam gōdis wiljins.',
+      got: 'Wulþus ïn hauhistjam Guda, jah ana airþai gawairþi ïn mannam godis wiljins.',
       el: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
       en: "Glory to God in the highest, and on earth peace, good will to men.",
     },
@@ -79,7 +79,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'gaswērām þuk,',
+      got: 'gaswerām þuk,',
       el: "δοξολογοῦμέν σε,",
       en: "we glorify you,",
     },
@@ -88,7 +88,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'awiliudōm þuk,',
+      got: 'awiliudom þuk,',
       el: "εὐχαριστοῦμέν σοι,",
       en: "and we thank you,",
     },
@@ -144,7 +144,7 @@ translation, it's probably the commonly used version`,
   },
   {
     text: {
-      got: 'Ïēsu Xristau, jah Ahma Weiha.',
+      got: 'Ïesu Xristau, jah Ahma Weiha.',
       el: "Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.",
       en: "Lord Jesus Christ and Holy Spirit.",
     },
@@ -180,7 +180,7 @@ ${[
 ${[
     {
       text: {
-        got: 'þu afnimand frawaúrht manasēdais,',
+        got: 'þu afnimand frawaúrht manasedais,',
         el: "ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου,",
         en: "who take away the sin of the world,",
       },
@@ -204,7 +204,7 @@ afnima in Romans 11:27; world Mark 14:9`,
 ${[
     {
       text: {
-        got: 'þu afnimand frawaúrhtins manasēdais.',
+        got: 'þu afnimand frawaúrhtins manasedais.',
         el: "ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου.",
         en: "you who take away the sins of the world.",
       },
@@ -216,7 +216,7 @@ ${[
 content += html`<p>${[
   {
     text: {
-      got: 'Andnim bidōs unsarōs,',
+      got: 'Andnim bidos unsaros,',
       el: "Πρόσδεξαι τὴν δέησιν ἡμῶν,",
       en: "Accept our supplication,",
     },
@@ -225,7 +225,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'þuei sitaza af taihswōn Attins,',
+      got: 'þuei sitaza af taihswon Attins,',
       el: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
       en: "you who sit at the right of the Father,",
     },
@@ -243,7 +243,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'Untē þu sa ains Weiha ïs,',
+      got: 'Unte þu sa ains Weiha ïs,',
       el: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
       en: "For you are the only Holy One,",
     },
@@ -254,7 +254,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'þu sa ains Frauja ïs, Ïēsu Xristau,',
+      got: 'þu sa ains Frauja ïs, Ïesu Xristau,',
       el: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
       en: "you are the only Lord, Jesus Christ,",
     },
@@ -280,7 +280,7 @@ content += html`<p>${amen}</p>`
 content += html`<p>${[
   {
     text: {
-      got: 'Andanahtja ƕammēh ïk þuk þiuþjan,',
+      got: 'Andanahtja ƕammeh ïk þuk þiuþjan,',
       el: "Καθʼ ἑκάστην ἑσπέραν εὐλογήσω σε,",
       en: "Every evening I shall bless you,",
     },
@@ -295,7 +295,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
   },
   {
     text: {
-      got: 'jah namō þein hazjan ïn aiw,',
+      got: 'jah namo þein hazjan ïn aiw,',
       el: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
       en: "and I shall praise your name forever,",
     },
@@ -360,7 +360,7 @@ of a "into ... of ...".`,
   },
   {
     text: {
-      got: 'untē ïk wiþra þuk frawaúrhta.',
+      got: 'unte ïk wiþra þuk frawaúrhta.',
       el: "ὅτι ἥμαρτόν σοι.",
       en: "for I have sinned against you.",
     },
@@ -395,14 +395,14 @@ do the will John 6:38; do his will John 7:17
   },
   {
     text: {
-      got: 'untē þu ïs guþ meins.',
+      got: 'unte þu ïs guþ meins.',
       el: "ὅτι σὺ εἶ ὁ Θεός μου.",
       en: "for you are my God.",
     },
   },
   {
     text: {
-      got: 'Untē fram þus ïst brunna libainais;',
+      got: 'Unte fram þus ïst brunna libainais;',
       el: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
       en: "For with you is the fountain of life;",
     },
@@ -411,7 +411,7 @@ do the will John 6:38; do his will John 7:17
   },
   {
     text: {
-      got: 'Ïn liuhada þein sēƕum liuhaþ.',
+      got: 'Ïn liuhada þein seƕum liuhaþ.',
       el: "ἐν τῷ φωτί σου ὀψόμεθα φῶς.",
       en: "in your light we shall see light.",
     },
@@ -480,14 +480,14 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'Guþ Attanē unsaraizē,',
+      got: 'Guþ Attane unsaraize,',
       el: "ὁ Θεὸς τῶν Πατέρων ἡμῶν,",
       en: "the God of our Fathers,",
     },
   },
   {
     text: {
-      got: 'jah haziþ jah gaswēraiþ namō þein',
+      got: 'jah haziþ jah gasweraiþ namo þein',
       el: "καὶ αἰνετὸν καὶ δεδοξασμένον τὸ ὄνομά σου",
       en: "and praised and glorified is your name",
     },
@@ -517,7 +517,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'swaswē wēnidēdum du þus.',
+      got: 'swaswe wenidedum du þus.',
       el: "καθάπερ ἠλπίσαμεν ἐπὶ σέ.",
       en: "just as we have hoped in you.",
     },
@@ -541,7 +541,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'laisei mik anabusnins þeinōs.',
+      got: 'laisei mik anabusnins þeinos.',
       el: "δίδαξόν με τὰ δικαιώματά σου.",
       en: "teach me your commandments.",
     },
@@ -552,14 +552,14 @@ content += html`<p>${[
 content += html`<p>${[
   {
     text: {
-      got: 'Þiuþiþs þuk, Fraujinōnd,',
+      got: 'Þiuþiþs þuk, Fraujinond,',
       el: "Εὐλογητὸς εἶ, Δέσποτα,",
       en: "Blessed are you, O Master,",
     },
   },
   {
     text: {
-      got: 'gatawei mik fraþjan anabusnins þeinōs.',
+      got: 'gatawei mik fraþjan anabusnins þeinos.',
       el: "συνέτισόν με τὰ δικαιώματά σου.",
       en: "make me understand your commandments.",
     },
@@ -600,7 +600,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'uswandjais af waúrstwam handiwē þeinaizō.',
+      got: 'uswandjais af waúrstwam handiwe þeinaizo.',
       el: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
       en: "do not turn away from the works of your hands.",
     },
@@ -617,7 +617,7 @@ works of christ Matthew 11:2`
 content += html`<p>${[
   {
     text: {
-      got: 'Þus ïst gadōb hazeins,',
+      got: 'Þus ïst gadob hazeins,',
       el: "Σοὶ πρέπει αἶνος,",
       en: "To you belongs praise,",
     },
@@ -626,14 +626,14 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'þus ïst gadōb liuþ,',
+      got: 'þus ïst gadob liuþ,',
       el: "σοὶ πρέπει ὕμνος,",
       en: "to you belongs a hymn,",
     },
   },
   {
     text: {
-      got: 'þus ïst gadōb wulþus,',
+      got: 'þus ïst gadob wulþus,',
       el: "σοὶ δόξα πρέπει,",
       en: "to you belongs glory,",
     },
