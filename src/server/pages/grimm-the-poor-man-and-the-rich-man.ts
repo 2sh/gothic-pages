@@ -28,7 +28,7 @@ en: "The Poor Man and the Rich Man",
 content += html`<p>${[
 {
   text: {
-got: 'Faúr faírnja mela, biþe liufs Guþ naúh silba ana airþai ïn mannam ƕarboda,',
+got: 'Faúr faírnja mela, biþe liufs Guþ naúh silba ana aírþái ïn mannam ƕarboda,',
 de: "Vor alten Zeiten, als der liebe Gott noch selber auf Erden unter den Menschen wandelte,",
 en: "In olden times, when the Lord himself still used to walk about on this earth amongst men,"
     },
@@ -42,7 +42,7 @@ Jesus walked in John 7:1, John 10:23, Mark 1:16, Mark 11:27, Matthew 9:27`
 },
 {
   text: {
-got: 'ïta warþ, ei ïs at ainamma andanahtja moþus warþ jah ins nahts biqam',
+got: 'ïta warþ, ei ïs at áinamma andanahtja moþus warþ jah ins nahts biqam',
 de: "trug es sich zu, daß er eines Abends müde war und ihn die Nacht überfiel,",
 en: "it once happened that he was tired and overtaken by the darkness"
     },
@@ -71,7 +71,7 @@ en: "Now there stood on the road before him two houses facing each other;"
 },
 {
   text: {
-got: 'ain mikil jah skaun, anþar leitil jah unleþ du andsaíƕan,',
+got: 'áin mikil jah skáun, anþar leitil jah unleþ du andsaíƕan,',
 de: "das eine groß und schön, das andere klein und ärmlich anzusehen,",
 en: "the one large and beautiful, the other small and poor."
     },
@@ -91,7 +91,7 @@ en: "The large one belonged to a rich man, and the small one to a poor man."
 content += html`<p>${[
 {
   text: {
-got: `Ei þāhta Frauja Guþ unsar "þana gabigan ni kaúrida, wiljau at ïmma saljan."`,
+got: `Ei þāhta Fráuja Guþ unsar "þana gabigan ni kaúrida, wiljau at ïmma saljan."`,
 de: `Da dachte unser Herrgott 'dem Reichen werde ich nicht beschwerlich fallen: bei ihm will ich übernachten.'`,
 en: `Then the Lord thought, "I shall be no burden to the rich man, I will stay the night with him."`
     },
@@ -102,7 +102,7 @@ saliþwos at imma John 14:23.`
 },
 {
   text: {
-got: `sa gabiga, biþe daúr ïs slahan hausida,`,
+got: `sa gabiga, biþe daúr ïs slahan háusida,`,
 de: `Der Reiche, als er an seine Türe klopfen hörte,`,
 en: `When the rich man heard some one knocking at his door,`
     },
@@ -111,14 +111,14 @@ en: `When the rich man heard some one knocking at his door,`
 },
 {
   text: {
-got: `uslauk augadaúro jah baþ þana framaþjan, ƕa sokjai`,
+got: `usláuk áugadaúro jah baþ þana framaþjan, ƕa sokjái`,
 de: `machte das Fenster auf und fragte den Fremdling, was er suche.`,
 en: `he opened the window and asked the stranger what he wanted.`
     },
 },
 {
   text: {
-got: `Frauja andhof "bidja naht du saljan."`,
+got: `Fráuja andhof "bidja naht du saljan."`,
 de: `Der Herr antwortete 'ich bitte um ein Nachtlager.'`,
 en: `The Lord answered, "I only ask for a night's lodging."`
     },
@@ -131,7 +131,7 @@ en: `The Lord answered, "I only ask for a night's lodging."`
 content += html`<p>${[
 {
   text: {
-got: `Sa gabiga ïnsaƕ du þamma ƕarbonds fram haubida und fotuns,`,
+got: `Sa gabiga ïnsaƕ du þamma ƕarbonds fram háubida und fotuns,`,
 de: `Der Reiche guckte den Wandersmann von Haupt bis zu den Füßen an,`,
 en: `Then the rich man looked at the traveler from head to foot,`
     },
@@ -142,7 +142,7 @@ from ... to ... Mark 13:27`
 },
 {
   text: {
-got: `jah unte sa liufs Guþ was ainfalþaim wastjom gawasiþs`,
+got: `jah unte sa liufs Guþ was áinfalþáim wastjom gawasiþs`,
 de: `und weil der liebe Gott schlichte Kleider trug`,
 en: `and as the Lord was wearing common clothes`
     },
@@ -151,7 +151,7 @@ en: `and as the Lord was wearing common clothes`
 },
 {
   text: {
-got: `jah ni was swe sums gasaíƕaizau, saei faíhu filu ïn pugga habai,`,
+got: `jah ni was swe sums gasaíƕaizáu, saei faíhu filu ïn pugga habái,`,
 de: `und nicht aussah wie einer, der viel Geld in der Tasche hat,`,
 en: `and did not look like one who had much money in his pocket,`
     },
@@ -162,7 +162,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 "Ju
 },
 {
   text: {
-got: `wiþoda ïs haubiþ seinana jah qaþ`,
+got: `wiþoda ïs háubiþ seinana jah qaþ`,
 de: `schüttelte er mit dem Kopf und sprach`,
 en: `he shook his head, and said,`
     },
@@ -184,14 +184,14 @@ en: `"No, I cannot take you in, my rooms are full of herbs and seeds;`
 },
 {
   text: {
-got: `jah jabei ƕana saljau, saei daúr mein slahai,`,
+got: `jah jabei ƕana saljáu, saei daúr mein slahái,`,
 de: `und sollte ich einen jeden beherbergen, der an meine Tür klopft,`,
 en: `and if I were to lodge everyone who knocked at my door,`
     }
 },
 {
   text: {
-got: `swa ganimau ïk silba hrugga bidagwins ïn handau.`,
+got: `swa ganimáu ïk silba hrugga bidagwins ïn handau.`,
 de: `so könnte ich selber den Bettelstab in die Hand nehmen.`,
 en: `I might very soon go begging myself. `
     },
@@ -205,7 +205,7 @@ en: `Go somewhere else for a lodging,"`
 },
 {
   text: {
-got: `þaþroh þan galauk augadaúro ïs jah aflailot þana liubana Guþ standandan.`,
+got: `þaþroh þan galáuk áugadaúro ïs jah aflaílot þana liubana Guþ standandan.`,
 de: `Schlug damit sein Fenster zu und ließ den lieben Gott stehen.`,
 en: `and with this he shut down the window and left the Lord standing there."`
     },
@@ -219,14 +219,14 @@ en: `and with this he shut down the window and left the Lord standing there."`
 content += html`<p>${[
 {
   text: {
-got: `Swaei bilaiþ ïmma sa liufs Guþ jah ufarlaiþ du razn þamma leitil.`,
+got: `Swaei bilaiþ ïmma sa liufs Guþ jah ufarláiþ du razn þamma leitil.`,
 de: `Also kehrte ihm der liebe Gott den Rücken und ging hinüber zu dem kleinen Haus.`,
 en: `So the Lord turned his back on the rich man, and went across to the small house`
     }
 },
 {
   text: {
-got: `Halis sloh, swa uslauk sa unleda ju daúr leitil sein`,
+got: `Halis sloh, swa usláuk sa unleda ju daúr leitil sein`,
 de: `Kaum hatte er angeklopft, so klinkte der Arme schon sein Türchen auf`,
 en: `and knocked. He had hardly done so when the poor man opened the little door`
     },
@@ -266,7 +266,7 @@ Perhaps 𐌽𐌹𐌱𐌰𐌹 can be used here?
 },
 {
   text: {
-got: `Þatei leikaida þamma liubamma Guda, jah ïnnïddja du ïmma.`,
+got: `Þatei leikáida þamma liubamma Guda, jah ïnnïddja du ïmma.`,
 de: `Das gefiel dem lieben Gott, und er trat zu ihm ein.`,
 en: `This pleased the Lord, and he went in.`
     },
@@ -282,7 +282,7 @@ en: `The poor man's wife shook hands with him,`
 },
 {
   text: {
-got: `gataih ïna swe andnumanana jah qaþ,`,
+got: `gatáih ïna swe andnumanana jah qaþ,`,
 de: `hieß ihn willkommen und sagte,`,
 en: `and welcomed him, and said`
     },
@@ -290,7 +290,7 @@ en: `and welcomed him, and said`
 },
 {
   text: {
-got: `þrafstidedi sik jah usþulaidedi aihtins þeinos,`,
+got: `þrafstidedi sik jah usþuláidedi aihtins þeinos,`,
 de: `er möchte sichs bequem machen und vorlieb nehmen,`,
 en: `he was to make himself at home and put up with what they had got;`
     },
@@ -303,7 +303,7 @@ usþulaiþ mik Corinthians II 11:1 => put up with their possessions`
 },
 {
   text: {
-got: `ïja ni habaidedeina filu,`,
+got: `ïja ni habáidedeina filu,`,
 de: `sie hätten nicht viel,`,
 en: `they had not much to offer him,`
     }

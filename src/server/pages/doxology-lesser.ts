@@ -43,7 +43,7 @@ content += html`<header>
 content += html`<p>${[
   {
     text: {
-      got: 'Wulþus ïn hauhistjam Guda, jah ana airþai gawairþi ïn mannam godis wiljins.',
+      got: 'Wulþus ïn háuhistjam Guda, jah ana aírþai gawaírþi ïn mannam godis wiljins.',
       el: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
       en: "Glory to God in the highest, and on earth peace, good will to men.",
     },
@@ -79,7 +79,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'gaswerām þuk,',
+      got: 'gasweram þuk,',
       el: "δοξολογοῦμέν σε,",
       en: "we glorify you,",
     },
@@ -133,7 +133,7 @@ and are almost always declined 'weak'."`,
 content += html`<p>${[
   {
     text: {
-      got: 'Frauja ainabaur Sunau,',
+      got: 'Fráuja áinabaúr Sunáu,',
       el: "Κύριε Υἱὲ μονογενές,",
       en: "only-begotten Son,",
     },
@@ -144,7 +144,7 @@ translation, it's probably the commonly used version`,
   },
   {
     text: {
-      got: 'Ïesu Xristau, jah Ahma Weiha.',
+      got: 'Ïesu Xristáu, jah Ahma Weiha.',
       el: "Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.",
       en: "Lord Jesus Christ and Holy Spirit.",
     },
@@ -156,7 +156,7 @@ content += html`<p>
 ${[
     {
       text: {
-        got: 'Frauja Guþ,',
+        got: 'Fráuja Guþ,',
         el: "Κύριε ὁ Θεός,",
         en: "Lord God,",
       },
@@ -180,7 +180,7 @@ ${[
 ${[
     {
       text: {
-        got: 'þu afnimand frawaúrht manasedais,',
+        got: 'þu afnimand frawaúrht manasedáis,',
         el: "ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου,",
         en: "who take away the sin of the world,",
       },
@@ -194,7 +194,7 @@ afnima in Romans 11:27; world Mark 14:9`,
     },
     {
       text: {
-        got: 'armai unsis,',
+        got: 'armái unsis,',
         el: "ἐλέησον ἡμᾶς,",
         en: "have mercy on us,",
       },
@@ -204,7 +204,7 @@ afnima in Romans 11:27; world Mark 14:9`,
 ${[
     {
       text: {
-        got: 'þu afnimand frawaúrhtins manasedais.',
+        got: 'þu afnimand frawaúrhtins manasedáis.',
         el: "ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου.",
         en: "you who take away the sins of the world.",
       },
@@ -225,7 +225,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'þuei sitaza af taihswon Attins,',
+      got: 'þuei sitaza af táihswon Attins,',
       el: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
       en: "you who sit at the right of the Father,",
     },
@@ -234,7 +234,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'jah armai unsis.',
+      got: 'jah armái unsis.',
       el: "καὶ ἐλέησον ἡμᾶς.",
       en: "and have mercy on us.",
     },
@@ -243,7 +243,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'Unte þu sa ains Weiha ïs,',
+      got: 'Unte þu sa áins Weiha ïs,',
       el: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
       en: "For you are the only Holy One,",
     },
@@ -254,14 +254,14 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'þu sa ains Frauja ïs, Ïesu Xristau,',
+      got: 'þu sa áins Fráuja ïs, Ïesu Xristáu,',
       el: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
       en: "you are the only Lord, Jesus Christ,",
     },
   },
   {
     text: {
-      got: 'du wulþau Gudis Attins.',
+      got: 'du wulþáu Gudis Attins.',
       el: "εἰς δόξαν Θεοῦ Πατρός.",
       en: "to the glory of God the Father.",
     },
@@ -295,7 +295,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
   },
   {
     text: {
-      got: 'jah namo þein hazjan ïn aiw,',
+      got: 'jah namo þein hazjan ïn áiw,',
       el: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
       en: "and I shall praise your name forever,",
     },
@@ -304,7 +304,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
   },
   {
     text: {
-      got: 'jah ïn aiw aiwis.',
+      got: 'jah ïn áiw áiwis.',
       el: "καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.",
       en: "and unto the ages of ages.",
     },
@@ -317,7 +317,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
 content += html`<p>${[
   {
     text: {
-      got: 'Frauja, warst unsis staþs þadei magum þlauhan',
+      got: 'Fráuja, warst unsis staþs þadei magum þláuhan',
       el: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
       en: "Lord, you have become for us a refuge",
     },
@@ -330,7 +330,7 @@ which is quite fitting I think.
   },
   {
     text: {
-      got: 'us aldai ïn ald.',
+      got: 'us aldái ïn ald.',
       el: "ἐν γενεᾷ καὶ γενεᾷ.",
       en: "from generation to generation.",
     },
@@ -343,7 +343,7 @@ of a "into ... of ...".`,
   },
   {
     text: {
-      got: 'Ïk qaþ: Frauja, armai mik;',
+      got: 'Ïk qaþ: Fráuja, armái mik;',
       el: "Ἐγὼ εἶπα· Κύριε, ἐλέησόν με·",
       en: "I have said: Lord, have mercy on me,",
     },
@@ -351,7 +351,7 @@ of a "into ... of ...".`,
   },
   {
     text: {
-      got: 'hailei saiwala meina,',
+      got: 'háilei sáiwala meina,',
       el: "ἴασαι τὴν ψυχήν μου,",
       en: "heal my soul,",
     },
@@ -373,7 +373,7 @@ of a "into ... of ...".`,
 content += html`<p>${[
   {
     text: {
-      got: 'Frauja, du þus þlauh;',
+      got: 'Fráuja, du þus þláuh;',
       el: "Κύριε, πρὸς σὲ κατέφυγον·",
       en: "Lord, to you I have fled;",
     },
@@ -382,7 +382,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'laisei mik wiljan þeinana taujan,',
+      got: 'láisei mik wiljan þeinana táujan,',
       el: "δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου,",
       en: "teach me to do your will,",
     },
@@ -402,7 +402,7 @@ do the will John 6:38; do his will John 7:17
   },
   {
     text: {
-      got: 'Unte fram þus ïst brunna libainais;',
+      got: 'Unte fram þus ïst brunna libáináis;',
       el: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
       en: "For with you is the fountain of life;",
     },
@@ -420,7 +420,7 @@ do the will John 6:38; do his will John 7:17
   },
   {
     text: {
-      got: 'Ufþanei armahaírtein þeina þaim kunnandam þuk.',
+      got: 'Ufþanei armahaírtein þeina þáim kunnandam þuk.',
       el: "Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε.",
       en: "Extend your mercy to those who know you.",
     },
@@ -442,7 +442,7 @@ going with 𐌿𐍆𐌸𐌰𐌽𐌾𐌰𐌽 as it "it seems to cover the figurat
 content += html`<p>${[
   {
     text: {
-      got: 'Fragif, Frauja,',
+      got: 'Fragif, Fráuja,',
       el: "Καταξίωσον, Κύριε,",
       en: "Grant, O Lord,",
     },
@@ -453,7 +453,7 @@ grant 𐍆𐍂𐌰𐌲𐌹𐍆 Mark 10:37`,
   },
   {
     text: {
-      got: 'ei himma naht ïnuh frawaúrht gafastaindau.',
+      got: 'ei himma naht ïnuh frawaúrht gafastaindáu.',
       el: "ἐν τῇ νυκτὶ ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς.",
       en: "that in this night we may be kept without sin.",
     },
@@ -473,14 +473,14 @@ principal clause is interrogative or negative"`,
 content += html`<p>${[
   {
     text: {
-      got: 'Þiuþiþs þuk, Frauja,',
+      got: 'Þiuþiþs þuk, Fráuja,',
       el: "Εὐλογητὸς εἶ, Κύριε,",
       en: "Blessed are you, O Lord,",
     },
   },
   {
     text: {
-      got: 'Guþ Attane unsaraize,',
+      got: 'Guþ Attane unsaráize,',
       el: "ὁ Θεὸς τῶν Πατέρων ἡμῶν,",
       en: "the God of our Fathers,",
     },
@@ -494,7 +494,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'ïn aiwins.',
+      got: 'ïn áiwins.',
       el: "εἰς τοὺς αἰῶνας.",
       en: "unto the ages.",
     },
@@ -508,7 +508,7 @@ content += html`<p>${amen}</p>`
 content += html`<p>${[
   {
     text: {
-      got: 'Wairþai, Frauja, armahaírtein þeina ana uns,',
+      got: 'Waírþai, Fráuja, armahaírtein þeina ana uns,',
       el: "Γένοιτο, Κύριε, τὸ ἔλεός σου ἐφʼ ἡμᾶς,",
       en: "Let your mercy, Lord, come upon us,",
     },
@@ -533,7 +533,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
 content += html`<p>${[
   {
     text: {
-      got: 'Þiuþiþs þuk, Frauja,',
+      got: 'Þiuþiþs þuk, Fráuja,',
       el: "Εὐλογητὸς εἶ, Κύριε,",
       en: "Blessed are you, O Lord,",
     },
@@ -541,7 +541,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'laisei mik anabusnins þeinos.',
+      got: 'láisei mik anabusnins þeinos.',
       el: "δίδαξόν με τὰ δικαιώματά σου.",
       en: "teach me your commandments.",
     },
@@ -552,7 +552,7 @@ content += html`<p>${[
 content += html`<p>${[
   {
     text: {
-      got: 'Þiuþiþs þuk, Fraujinond,',
+      got: 'Þiuþiþs þuk, Fráujinond,',
       el: "Εὐλογητὸς εἶ, Δέσποτα,",
       en: "Blessed are you, O Master,",
     },
@@ -581,7 +581,7 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'ïnliuhtei mik miþ anabusnim þeinaim.',
+      got: 'ïnliuhtei mik miþ anabusnim þeináim.',
       el: "φώτισόν με τοῖς δικαιώμασί σου.",
       en: "enlighten me with your commandments.",
     },
@@ -593,14 +593,14 @@ content += html`<p>${[
 content += html`<p>${[
   {
     text: {
-      got: 'Frauja, armahaírtein þeina ïn aiw;',
+      got: 'Fráuja, armahaírtein þeina ïn áiw;',
       el: "Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα·",
       en: "Lord, your mercy remains forever,",
     },
   },
   {
     text: {
-      got: 'uswandjais af waúrstwam handiwe þeinaizo.',
+      got: 'uswandjáis af waúrstwam handiwe þeináizo.',
       el: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
       en: "do not turn away from the works of your hands.",
     },
@@ -643,7 +643,7 @@ content += html`<p>${[
 ${[
     {
       text: {
-        got: 'Attin, jah Sunau, jah Ahmin Weihamma,',
+        got: 'Attin, jah Sunáu, jah Ahmin Weihamma,',
         el: "τῷ Πατρί, καὶ τῷ Υἱῷ, καὶ τῷ Ἁγίῳ Πνεύματι,",
         en: "to the Father and the Son and the Holy Spirit,",
       },

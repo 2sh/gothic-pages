@@ -33,7 +33,7 @@ let content = ''
 content += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Leiturgia Gudiska\nXrisaustaumaus',
+    got: 'Leiturgia Gudiska\nXrisaustaumáus',
     el: "Θεία Λειτουργία του Χρυσοστόμου",
     en: "Divine Liturgy of Chrysostom",
   },
@@ -53,7 +53,7 @@ ${speakerDeacon}
 ${[
     {
       text: {
-        got: 'Þiuþei, Fraujinond.',
+        got: 'Þiuþei, Fráujinond.',
         el: "Ἑὐλόγησον, Δέσποτα.",
         en: "Master, give the blessing.",
       }
@@ -123,7 +123,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah naseinai saiwalo unsaraizo,',
+        got: 'jah naseinái sáiwalo unsaráizo,',
         el: "καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν,",
         en: "and for the salvation of our souls,",
       }
@@ -144,7 +144,7 @@ ${speakerDeacon}
 ${[
     {
       text: {
-        got: 'Faúr gawaírþi allaizos manasedais',
+        got: 'Faúr gawaírþi alláizos manasedáis',
         el: "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου",
         en: "For the peace of the whole world,",
       },
@@ -155,7 +155,7 @@ ${[
 ${[
     {
       text: {
-        got: 'tulgiþa weihos Gudis aíkklesjono',
+        got: 'tulgiþa weihos Gudis aikklesjono',
         el: "εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν",
         en: "for the stability of the holy churches of God,",
       }
@@ -165,7 +165,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah samaqiss allaize,',
+        got: 'jah samaqiss alláize,',
         el: "καὶ τῆς τῶν πάντων ἑνώσεως,",
         en: "and for the unity of all,",
       },
@@ -201,7 +201,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah ïn ïta miþ galaubeinai, aizai jah Gudis faúrhtein ïnngaggandans,',
+        got: 'jah ïn ïta miþ galáubeinái, áizái jah Gudis faúrhtein ïnngaggandans,',
         el: "καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ,",
         en: "and for those who enter it with faith, reverence, and the fear of God,",
       },
@@ -261,7 +261,7 @@ ${[
 ${[
     {
       text: {
-        got: 'gariuda praízbwtaíreinz,',
+        got: 'gariuda praizbwtaireinz,',
         el: "τοῦ τιμίου πρεσβυτερίου",
         en: "for the honorable presbyterate,",
       }
@@ -271,7 +271,7 @@ ${[
 ${[
     {
       text: {
-        got: 'andbahti ïn Xristau',
+        got: 'andbahti ïn Xristáu',
         el: "τῆς ἐν Χριστῷ διακονίας",
         en: "for the diaconate in Christ",
       }
@@ -354,7 +354,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah ïn þaim all báuandane galaubeinaize,',
+        got: 'jah ïn þáim all báuandane galáubeináize,',
         el: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
         en: "and for the faithful who live in them,",
       },

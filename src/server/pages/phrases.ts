@@ -51,7 +51,7 @@ content += html`<p class="title">Jesus Prayer</p>`
 content += html`<p>${[
   {
     text: {
-      got: 'Frauja Ïesu Xristau, Sunau Gudis, armai mik frawaúrhtana (frawaúrhta)',
+      got: 'Fráuja Ïesu Xristáu, Sunáu Gudis, armái mik frawaúrhtana (frawaúrhta)',
       el: "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)",
       en: "Lord Jesus Christ, Son of God, have mercy on me, a sinner",
     }
@@ -64,7 +64,7 @@ content += html`<p class="title">Publican's prayer</p>`
 content += html`<p>${[
   {
     text: {
-      got: 'Guþ, hulþs sijais mis, frawaúrhtamma (frawaúrhtai)',
+      got: 'Guþ, hulþs sijáis mis, frawaúrhtamma (frawaúrhtai)',
       el: "ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ",
       en: "God be merciful to me a sinner",
     },

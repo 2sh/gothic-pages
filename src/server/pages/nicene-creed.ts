@@ -27,7 +27,7 @@ let content = ''
 content += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Táikns Galáubeinaís',
+    got: 'Táikns Galáubeináis',
     el: "Σύμβολο της Πίστεως",
     en: "Symbol of Faith",
   }
