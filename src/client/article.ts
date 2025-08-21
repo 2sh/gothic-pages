@@ -1,7 +1,9 @@
 import Alpine from 'alpinejs'
 import persist from '@alpinejs/persist'
 
-import { fromLatin } from '@common/transliterate';
+import { addOptionalMacrons, addSoftHyphens, fromLatin } from '@common/transliterate';
+import { safeHtmlText } from '@common/tools'
+import { addSigla, biblicalReplace, modernReplace } from '@common/article'
 
 Alpine.plugin(persist)
 
@@ -14,10 +16,13 @@ const languageNames = new Intl.DisplayNames(['en'], {
 
 type ModeFunc = (text: string, config: any) => string
 
+
 const modes: {[key: string]: ModeFunc} = {
-  simple: t => fromLatin(t),
-  biblical: t => t.replaceAll(" ", ""),
-  latin: t => t,
+  simple: t => safeHtmlText(modernReplace(fromLatin(t)) + ' '),
+  //serif: t => safeHtmlText(modernReplace(fromLatin(t, {preserveDiacritics: true})) + ' '),
+  serif: t => safeHtmlText(modernReplace(addOptionalMacrons(t)) + ' '),
+  biblical: t => addSigla(safeHtmlText(biblicalReplace(fromLatin(addSoftHyphens(t))))),
+  latin: t => safeHtmlText(modernReplace(t)) + ' ',
 }
 
 const initLineId = location.hash.replace('#', '')

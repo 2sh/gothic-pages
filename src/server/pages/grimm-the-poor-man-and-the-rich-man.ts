@@ -85,7 +85,7 @@ de: "und gehörte das große einem reichen, das kleine einem armen Manne.",
 en: "The large one belonged to a rich man, and the small one to a poor man."
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -125,7 +125,7 @@ en: `The Lord answered, "I only ask for a night's lodging."`
     notes:
 `𐌽𐌰𐌷𐍄 𐌾𐌰𐌷 𐌳𐌰𐌲 𐌹𐌽 𐌳𐌹𐌿𐍀𐌹𐌸𐌰𐌹 𐍅𐌰𐍃 𐌼𐌰𐍂𐌴𐌹𐌽𐍃 "a night and a day I have been in the deep" Corinthians II 11:25.`
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -213,7 +213,7 @@ en: `and with this he shut down the window and left the Lord standing there."`
 `𐌰𐍆𐌻𐌴𐍄𐌰𐌽𐌳𐌰𐌽𐍃 𐌹̈𐌽𐌰 "forsook him" Mark 14:50.
 𐌰𐍆𐌻𐌴𐍄𐌰𐌽 seems to have a sense of abandoning.`
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -334,7 +334,7 @@ en: `and while they were boiling,`
     notes:
 `cooking: *siudan following 𐌻𐌹𐌿𐌳𐌰𐌽`
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p lang='en' class="annotation">

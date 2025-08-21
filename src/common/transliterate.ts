@@ -221,3 +221,37 @@ export function addDiaereses(text: string)
 {
   return applyMapping(text, diaeresis)
 }
+
+const vc = "(?:au|aú|áu|ai|aí|ái|ei)"
+const bv = "[aeiouïúíāēōū]"
+const av = "[aeiouáāēōū]"
+const c = "[bdfghƕjklmnpqrstþwz]"
+const sc = `(?:st|str|sw|kl|kn|hr|tr|${c})`
+const ec = `(?:ll|dd|nd|rh|${c})`
+
+const hyphenRules = [
+  /\b(?=ï)/ig,
+  new RegExp(`(?<=${bv})(?=${sc}${av})`, "ig"),
+  new RegExp(`(?<=${bv}${ec})(?=${sc}${av})`, "ig"),
+  new RegExp(`(?<=${vc})(?=${bv})`, "ig"),
+  new RegExp(`(?<=${av})(?=${vc})`, "ig"),
+  new RegExp(`(?<=${av})(?=s$)`, "ig"),
+]
+
+export function addSoftHyphens(text: string)
+{
+  hyphenRules.forEach(rule =>
+  {
+    text = text.replace(rule, "\u00AD")
+  })
+  return text
+}
+
+export function addOptionalMacrons(text: string)
+{
+  return text
+    .replace(/e(?![i\u0304])/g, 'ē')
+    .replace(/o(?!\u0304)/g, 'ō')
+    .replace(/𐌴(?![𐌹\u0304])/g, '𐌴\u0304')
+    .replace(/𐍉(?!\u0304)/g, '𐍉\u0304')
+}

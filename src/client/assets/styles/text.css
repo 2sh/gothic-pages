@@ -7,7 +7,14 @@
 }
 @font-face {
   font-family: 'Noto Serif Gothic';
-  src: url('../fonts/NotoSerif-Gothic.woff2') format('woff2');
+  src: url('../fonts/NotoSerifGothic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Silubr';
+  src: url('../fonts/Silubr.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -22,24 +29,35 @@ body,
 select,
 input,
 textarea,
-.option-simple
+.mode-simple
 {
   font-family: 'Noto Sans Gothic';
 }
 
-body.serif,
-.serif select,
-.serif input,
-.serif textarea,
-.serif .option-simple
+.mode-serif,
+.mode-serif, select,
+.mode-serif, input,
+.mode-serif, textarea
 {
   font-family: 'Noto Serif Gothic';
+  line-height: 22px;
+}
+
+.mode-biblical,
+.mode-biblical select,
+.mode-biblical input,
+.mode-biblical textarea
+{
+  font-family: 'Silubr';
+  line-height: 22px;
 }
 
 .annotation
 {
   font-size: 14px;
   text-align: right;
+  text-indent: 0;
+  font-family: 'Noto Sans Gothic';
 }
 
 .nowrap
@@ -129,6 +147,30 @@ article p
 {
   margin: 12px 0;
   text-indent: 1em;
+}
+
+.mode-biblical article p:not([lang])
+{
+  display: inline;
+  text-indent: 0;
+  white-space: pre-wrap;
+}
+
+.sigla
+{
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: bottom;
+  align-items: center;
+  margin: 0 2px;
+}
+
+.mark
+{
+  height: 1px;
+  width: 75%;
+  background-color: white;
+  margin-bottom: -2px;
 }
 
 .i-line

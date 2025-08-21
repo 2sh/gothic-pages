@@ -64,7 +64,7 @@ ${[
       },
       notes: "2 Corinthians 4:10 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉"
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 <br>
 ${nowAndEver}
 </p>`
@@ -82,7 +82,7 @@ ${[
         en: "Glory to thee, our god, glory to thee.",
       }
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 </p>`
 
 speech += html`<p>
@@ -105,7 +105,7 @@ ${[
 
 for thrice holy perhaps 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐍃; 𐍅𐌴𐌹𐌷𐍃 => 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐌰 𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃.`
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 </p>`
 
 speech = ''
@@ -157,7 +157,7 @@ ${[
       },
       notes: `*𐍀𐍃𐌰𐌻𐌼𐍉𐍃: Uncertain and unattested nominative plural`
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 50, 69, 142
 </p>
 <p class="notice"><a href="doxology-lesser.html">${toGothicLine({

@@ -50,7 +50,7 @@ content += html`<p>${[
     notes:
       `Luke 2:14, copied from the Gothic Bible.`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -104,7 +104,7 @@ content += html`<p>${[
     notes:
       `Mark 8:6 eucharist; 𐌰𐌹𐍅𐍇𐌰𐍂𐌹𐍃𐍄𐌹𐌰`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -127,7 +127,7 @@ and are almost always declined 'weak'."`,
     notes:
       `pantokrator`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -149,7 +149,7 @@ translation, it's probably the commonly used version`,
       en: "Lord Jesus Christ and Holy Spirit.",
     },
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>
@@ -175,7 +175,7 @@ ${[
         en: "the Son of the Father,",
       },
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 <br>
 ${[
     {
@@ -199,7 +199,7 @@ afnima in Romans 11:27; world Mark 14:9`,
         en: "have mercy on us,",
       },
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 <br>
 ${[
     {
@@ -209,7 +209,7 @@ ${[
         en: "you who take away the sins of the world.",
       },
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 </p>`
 
 
@@ -271,7 +271,7 @@ content += html`<p>${[
 genitives for both god and father,
 Luke 3:22+ and Luke 1:32 have genitive apposition.`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${amen}</p>`
@@ -311,7 +311,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     notes:
       `greek here is singular and not the usual plural`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -367,7 +367,7 @@ of a "into ... of ...".`,
     notes:
       `sinned against heaven ACC Luke 15:21`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -436,7 +436,7 @@ going with 𐌿𐍆𐌸𐌰𐌽𐌾𐌰𐌽 as it "it seems to cover the figurat
 
 "those who" Luke 6:32.`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -467,7 +467,7 @@ Thessalonians II 3:3. 𐌲𐌰𐍆𐌰𐍃𐍄𐌰𐌽 Luke 18:21;
 [...] The verb in a relative clause is also subjunctive when the
 principal clause is interrogative or negative"`,
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -499,7 +499,7 @@ content += html`<p>${[
       en: "unto the ages.",
     },
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${amen}</p>`
@@ -527,7 +527,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
 
 ἠλπίκαμεν ἐπὶ θεῷ = 𐍅𐌴𐌽𐌹𐌳𐌴𐌳𐌿𐌼 𐌳𐌿 𐌲𐌿𐌳𐌰 Timothy I 4:10`
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -546,7 +546,7 @@ content += html`<p>${[
       en: "teach me your commandments.",
     },
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -568,7 +568,7 @@ content += html`<p>${[
 
 ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -587,7 +587,7 @@ content += html`<p>${[
     },
     notes: `Ephesians 3:9`
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -611,7 +611,7 @@ away from him Luke 19:26
 
 works of christ Matthew 11:2`
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p>${[
@@ -638,7 +638,7 @@ content += html`<p>${[
       en: "to you belongs glory,",
     },
   },
-].map(toGothicLine).join('\n')}
+].map(toGothicLine).join('')}
 <br>
 ${[
     {
@@ -648,7 +648,7 @@ ${[
         en: "to the Father and the Son and the Holy Spirit,",
       },
     },
-  ].map(toGothicLine).join('\n')}
+  ].map(toGothicLine).join('')}
 <br>
 ${nowAndEver}
 </p>`

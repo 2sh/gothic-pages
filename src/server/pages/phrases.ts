@@ -42,7 +42,7 @@ content += html`<p>${[
     },
     notes: "1 Cor 5:4",
   },
-].map(toGothicLine).join('\n')}
+].map(toGothicLine).join('')}
 ${ofTrinity}</p>`
 
 
@@ -56,7 +56,7 @@ content += html`<p>${[
       en: "Lord Jesus Christ, Son of God, have mercy on me, a sinner",
     }
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p class="title">Publican's prayer</p>`
@@ -70,7 +70,7 @@ content += html`<p>${[
     },
     notes: `Publican's prayer, taken directly from the bible`
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 content += html`<p class="title">Words</p>`
@@ -88,7 +88,7 @@ for Gothic to have its own. 𐌲𐌿𐌳 + 𐌰 + 𐌱𐌰𐌹𐍂𐌰𐌽𐌳�
 "Gothic never compounds with the genitive [...]
 weak nouns keep -a- for the connecting vowel." -guthiharjis`
   },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 
 const page = html`<!doctype html>

@@ -3,22 +3,20 @@ import { fromLatin } from "@common/transliterate"
 import bbobHTML from '@bbob/html'
 import presetHTML5 from '@bbob/preset-html5'
 
-export const html = String.raw
-
-export function safeHtmlText(str: string)
+import
 {
-  return str
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-}
+  html,
+  safeHtmlText,
+  safeHtmlAttribute,
+} from '@common/tools'
+import { modernReplace } from "@common/article"
 
-export function safeHtmlAttribute(str: string, quot="'")
+export
 {
-  return safeHtmlText(str)
-    .replaceAll(quot, quot == "'" ? '&apos;' : '&quot;')
-}
-
+  html,
+  safeHtmlText,
+  safeHtmlAttribute,
+} from '@common/tools'
 
 export type GothicLineData = {
   text: {[lang: string]: string},
@@ -34,14 +32,13 @@ export function toGothicLine(data: GothicLineData)
 {
   global.lineId++
 
-  const htmlText = safeHtmlText(fromLatin(data.text.got))
+  const htmlText = safeHtmlText(modernReplace(fromLatin(data.text.got)))
   const attrData = safeHtmlAttribute(JSON.stringify(
   {
     id: global.lineId,
     text: data.text,
     notes: !data.notes ? undefined : bbobHTML(safeHtmlText(data.notes), presetHTML5())
   }))
-
 
   return html`<span
 id="L${global.lineId}"
@@ -50,8 +47,8 @@ x-init="if($store.general.initLineId == 'L' + info.id) selectedLineInfo = info"
 x-data='{ info: ${attrData} }'
 @click="selectedLineInfo = info; $store.general.removeHash()"
 :class="{ 'line-selected': selectedLineInfo == info }"
-x-text="$store.general.modes[mode](info.text.got)"
->${htmlText}</span>`
+x-html="$store.general.modes[mode](info.text.got)"
+>${htmlText} </span>`
 }
 
 const htmlInfoBox = html`<template x-if="selectedLineInfo">
@@ -75,7 +72,7 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
           <div :lang="lang">
             <h2 x-text="$store.general.languageNames.of(lang)"></h2>
             <template x-if="lang == 'got'">
-              <p x-text="$store.general.modes[mode](selectedLineInfo.text[lang])"></p>
+              <p x-html="$store.general.modes[mode](selectedLineInfo.text[lang])"></p>
             </template>
             <template x-if="lang != 'got'">
               <p x-text="selectedLineInfo.text[lang]"></p>
@@ -97,10 +94,11 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
 </template>`
 
 
-export function createArticleBody(content: string, classes?: string[], langs: string[] = ['got'])
+export function createArticleBody(content: string, classes?: string[], langs: string[] = ['got'], includeModes: string[] = [])
 {
   const classesString = safeHtmlAttribute(JSON.stringify(classes ? classes : []))
   const langsString = safeHtmlAttribute(JSON.stringify(langs ? langs : []))
+
   return html`<body
   x-data='{
     selectedLineInfo: null,
@@ -108,6 +106,7 @@ export function createArticleBody(content: string, classes?: string[], langs: st
     langs: ${langsString},
   }'
   :class='[
+    "mode-" + mode,
     ...${classesString},
     ...(!$store.general.darkMode ? ["light-mode"] : []),
     ...(selectedLineInfo !== null ? ["has-info-box"] : []),
@@ -125,8 +124,9 @@ export function createArticleBody(content: string, classes?: string[], langs: st
                 x-text="$store.general.darkMode ? '☀' : '☾'"
                 @click="$store.general.darkMode = !$store.general.darkMode"></button>
               <select x-model="mode">
-                <option value="simple" class="option-simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
-                <!--<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐍃</option>-->
+                <option value="simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
+                <option value="serif">𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</option>
+                ${includeModes.includes("biblical") ? '<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐌼</option>' : ''}
                 <option value="latin">Lateins</option>
               </select>
             </div>

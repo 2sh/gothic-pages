@@ -34,7 +34,7 @@ ru: "Господи,",
 en: "O Lord,",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -44,7 +44,7 @@ ru: "дай мне с душевным спокойствием встретит
 en: "grant that I may meet all (next line) with spiritual tranquility.",
   },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -54,7 +54,7 @@ ru: "что принесёт мне наступающий день.",
 en: "that this coming day brings to me",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -64,7 +64,7 @@ ru: "Дай мне всецело предаться",
 en: "Grant that I may fully surrender myself",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -74,7 +74,7 @@ ru: "воле Твоей Святой.",
 en: "to Thy holy Will.",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -84,7 +84,7 @@ ru: "На всякий час сего дня",
 en: "At every hour of this day,",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -94,7 +94,7 @@ ru: "во всём наставь и поддержи меня.",
 en: "direct and support me in all things.",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -104,7 +104,7 @@ ru: "Какие бы я ни получал известия",
 en: "Whatsoever news may reach me",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -114,7 +114,7 @@ ru: "в течение дня,",
 en: "in the course of the day,",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -124,7 +124,7 @@ ru: "научи меня принять их",
 en: "teach me to accept it",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -134,7 +134,7 @@ ru: "со спокойной душою и твёрдым убеждением,"
 en: "with a calm soul and the firm conviction",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${[
 {
@@ -256,7 +256,7 @@ ru: "терпеть, прощать и любить.",
 en: "to be patient, to forgive, and to love.",
     },
 },
-].map(toGothicLine).join('\n')}</p>`
+].map(toGothicLine).join('')}</p>`
 
 content += html`<p>${amen}</p>`
 
