@@ -66,9 +66,10 @@ function removeDiacriticChars(text: string)
 
 function applyMapping(text: string, mapping: RegExpMapping[])
 {
-  let out = text
-  mapping.forEach(m => out = out.replaceAll(m[0], m[1]))
-  return out
+  return mapping.reduce((text, [from, to]) =>
+  {
+    return text.replaceAll(from, to)
+  }, text)
 }
 
 
@@ -240,11 +241,10 @@ const hyphenRules = [
 
 export function addSoftHyphens(text: string)
 {
-  hyphenRules.forEach(rule =>
+  return hyphenRules.reduce((text, rule) =>
   {
-    text = text.replace(rule, "\u00AD")
-  })
-  return text
+    return text.replace(rule, "\u00AD")
+  }, text)
 }
 
 export function addOptionalMacrons(text: string)
