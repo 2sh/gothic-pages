@@ -41,6 +41,9 @@ const page = html`<!doctype html>
               <div>
                 <ul>
                   <li><a href="transliterator.html">Transliterator</a></li>
+                  <li><a href="https://github.com/2sh/wulfilaverse/raw/refs/heads/master/wulfilaverse.user.js">WulfilaVerse</a> -
+                  A Userscript which adds Wulfila.be verse links to BibleHub, but only if attested.
+                  Useful for finding phrases or Greek words in BibleHub, immediately seeing if a verse is attested in Gothic and being presented with a Wulfila.be link when it is.</li>
                 </ul>
               </div>
             </div>
