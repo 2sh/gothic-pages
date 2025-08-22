@@ -1,7 +1,7 @@
 import Alpine from 'alpinejs'
 import persist from '@alpinejs/persist'
 
-import { addOptionalMacrons, addSoftHyphens, fromLatin } from '@common/transliterate';
+import { addSoftHyphens, fromLatin } from '@common/transliterate';
 import { safeHtmlText } from '@common/tools'
 import { addSigla, biblicalReplace, modernReplace } from '@common/article'
 
