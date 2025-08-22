@@ -22,7 +22,7 @@ const modes: {[key: string]: ModeFunc} = {
   //serif: t => safeHtmlText(modernReplace(fromLatin(t, {preserveDiacritics: true})) + ' '),
   serif: t => safeHtmlText(modernReplace(t) + ' '),
   biblical: t => addSigla(safeHtmlText(biblicalReplace(fromLatin(addSoftHyphens(t))))),
-  latin: t => safeHtmlText(modernReplace(addOptionalMacrons(t))) + ' ',
+  latin: t => safeHtmlText(modernReplace(t)) + ' ',
 }
 
 const initLineId = location.hash.replace('#', '')
