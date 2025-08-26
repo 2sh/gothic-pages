@@ -1,54 +1,77 @@
+@font-face {
+  font-family: 'Noto Sans Gothic';
+  src: url('../fonts/NotoSansGothic-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body
 {
-  background-color: #000000;
-  color: #ffffff;
   margin: 0;
 }
 
-main
+*:lang(got),
+*:not(:lang(got)),
+#article-container select,
+#article-container input,
+#article-container textarea,
+#article-container .simple-text
 {
-  max-width: 64em;
-  padding: 10px;
+  font-family: 'Noto Sans Gothic';
+  line-height: normal;
 }
 
-h1
+
+/* Default style (dark) */
+
+body,
+#info-box
 {
-  font-size: 20px;
-  margin: 0;
+  background-color: #28282b;
+  color: #f0f0f0;
 }
 
-.options
+a
 {
-  margin: 7px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
+  color: #789cff;
 }
 
-.options button
+.menu button,
+.menu a
 {
-  margin: 0;
-  padding: 3px 7px;
-  background-color: white;
-  border: 0
+  background-color: #686868;
+  color: #f0f0f0;
 }
 
-.options .row
+.notice
 {
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
+  color: rgb(255, 193, 193);
 }
 
-.options .group
+
+/* Light mode */
+
+body.light-mode,
+.light-mode #info-box
 {
-  display: flex;
-  gap: 5px
+  background-color: #ffffff;
+  color: #28282b;
 }
 
-.text-container textarea
+.light-mode a
 {
-  width: 100%;
-  height: 400px;
-  box-sizing: border-box;
+  color: #6b87d4;
+}
+
+.light-mode .menu button,
+.light-mode .menu a
+{
+  background-color: #dddddd;
+  color: #28282b;
+}
+
+.light-mode .notice
+{
+  color: rgb(182, 0, 0);
 }

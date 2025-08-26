@@ -1,79 +1,66 @@
-import { html } from "@server/tools"
+import { articleHead, createArticleBody, html, safeHtmlText } from "@server/tools"
 
 // notes about the skeireins: https://www.nthuleen.com/papers/755gothfinal.html
+
+const title = "Gothic Pages"
+
+const content = html`<header>
+  <h1>2sh's Gothic Pages</h1>
+</header>
+<div>
+  <p>A page with various Gothic language related stuff I've done.</p>
+</div>
+<div>
+  <h2>Tools</h2>
+  <div>
+    <ul>
+      <li><a href="transliterator.html">Transliterator</a></li>
+      <li><a href="https://github.com/2sh/wulfilaverse/raw/refs/heads/master/wulfilaverse.user.js">WulfilaVerse</a> -
+      A Userscript which adds Wulfila.be verse links to BibleHub, but only if attested.
+      Useful for finding phrases or Greek words in BibleHub, immediately seeing if a verse is attested in Gothic and being presented with a Wulfila.be link when it is.</li>
+    </ul>
+  </div>
+</div>
+<div>
+  <h2>Translations</h2>
+  <div>
+    <p>Click on the lines on the pages to see notes.</p>
+    <h3>Christian</h3>
+    <h4>Liturgical</h4>
+    <ul>
+      <li><a href="nicene-creed.html">Nicene Creed</a></li>
+      <li><a href="doxology-lesser.html">Lesser Doxology</a></li>
+      <li><a href="compline-small.html">Office of Small Compline</a> (WIP)</li>
+      <li><a href="liturgy-chrysostom.html">Liturgy of Saint John Chrysostom</a> (WIP)</li>
+    </ul>
+    <h4>Prayers</h4>
+    <ul>
+      <li><a href="morning-prayer-optina.html">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
+    </ul>
+    <h4>Saints</h4>
+    <ul>
+      <li><a href="nicetas-the-goth.html">Nicetas the Goth</a> (WIP)</li>
+    </ul>
+    <h4>Other</h4>
+    <ul>
+      <li><a href="phrases.html">Various phrases</a></li>
+    </ul>
+    <h3>Stories</h3>
+    <ul>
+      <li><a href="peter-rabbit.html">The Tale of Peter Rabbit</a> (WIP)</li>
+      <li><a href="grimm-the-poor-man-and-the-rich-man.html">The Poor Man and the Rich Man</a> (WIP)</li>
+    </ul>
+    <p>Feedback greatly appreciated!</p>
+  </div>
+</div>`
 
 const page = html`<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="assets/styles/text.css" rel="stylesheet">
-    <link href="assets/styles/simple-light.css" rel="stylesheet">
-    <link href="assets/styles/simple-dark.css" rel="stylesheet">
-    <title>Gothic Pages</title>
+    ${articleHead}
+    <title>${safeHtmlText(title)}</title>
   </head>
-  <body
-    x-data="{ info: null }"
-    :class="{ 'light-mode': !$store.general.darkMode }">
-    <main>
-      <div id="article-container">
-        <article>
-          <div id="article-inner">
-          <div class="menu">
-            <div>
-
-            </div>
-            <div>
-              <button class='square'
-                x-text="$store.general.darkMode ? '☀' : '☾'"
-                @click="$store.general.darkMode = !$store.general.darkMode"></button>
-            </div>
-          </div>
-          <div id="article-content">
-            <header>
-              <h1>2sh's Gothic Pages</h1>
-            </header>
-            <div>
-              <p>A page with various Gothic language related stuff I've done.</p>
-            </div>
-            <div>
-              <h2>Tools</h2>
-              <div>
-                <ul>
-                  <li><a href="transliterator.html">Transliterator</a></li>
-                  <li><a href="https://github.com/2sh/wulfilaverse/raw/refs/heads/master/wulfilaverse.user.js">WulfilaVerse</a> -
-                  A Userscript which adds Wulfila.be verse links to BibleHub, but only if attested.
-                  Useful for finding phrases or Greek words in BibleHub, immediately seeing if a verse is attested in Gothic and being presented with a Wulfila.be link when it is.</li>
-                </ul>
-              </div>
-            </div>
-            <div>
-              <h2>Translations</h2>
-              <div>
-                <p>Click on the lines on the pages to see notes.</p>
-                <h3>Christian</h3>
-                <ul>
-                  <li><a href="nicene-creed.html">Nicene Creed</a></li>
-                  <li><a href="doxology-lesser.html">Lesser Doxology</a></li>
-                  <li><a href="compline-small.html">Office of Small Compline</a> (WIP)</li>
-                  <li><a href="liturgy-chrysostom.html">Liturgy of Saint John Chrysostom</a> (WIP)</li>
-                  <li><a href="morning-prayer-optina.html">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
-                  <li><a href="phrases.html">Various phrases</a></li>
-                </ul>
-                <h3>Stories</h3>
-                <ul>
-                  <li><a href="peter-rabbit.html">The Tale of Peter Rabbit</a> (WIP)</li>
-                  <li><a href="grimm-the-poor-man-and-the-rich-man.html">The Poor Man and the Rich Man</a> (WIP)</li>
-                </ul>
-                <p>Feedback greatly appreciated!</p>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-    </main>
-    <script type="module" src="scripts/article.js"></script>
-  </body>
+  ${createArticleBody(content, undefined, ['en'])}
 </html>`
 
 export default page

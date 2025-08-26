@@ -62,20 +62,20 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
             title="A Link to this line"></a>
         </div>
         <div>
-          <button class='square'
+          <button class='simple-text square'
             @click="selectedLineInfo = null; $store.general.removeHash()">X</button>
         </div>
       </div>
       <div id="info-box-content">
         <div>
           <template x-for="lang in langs">
-          <div :lang="lang">
-            <h2 x-text="$store.general.languageNames.of(lang)"></h2>
+          <div>
+            <h2 lang='en' x-text="$store.general.languageNames.of(lang)"></h2>
             <template x-if="lang == 'got'">
-              <p x-html="$store.general.modes[mode](selectedLineInfo.text[lang])"></p>
+              <p lang='got' x-html="$store.general.modes[mode](selectedLineInfo.text[lang])"></p>
             </template>
             <template x-if="lang != 'got'">
-              <p x-text="selectedLineInfo.text[lang]"></p>
+              <p :lang='lang' x-text="selectedLineInfo.text[lang]"></p>
             </template>
           </div>
           </template>
@@ -84,7 +84,7 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
           <div>
             <h2>Notes</h2>
             <template x-for="line in selectedLineInfo.notes.split('\n\n')">
-              <p x-html="line"></p>
+              <p lang='en' x-html="line"></p>
             </template>
           </div>
         </template>
@@ -94,58 +94,69 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
 </template>`
 
 
-export function createArticleBody(content: string, classes?: string[], langs: string[] = ['got'], includeModes: string[] = [])
+const darkModeButton = html`<button class='simple-text square'
+  x-text="$store.general.darkMode ? '☀' : '☾'"
+  @click="$store.general.darkMode = !$store.general.darkMode"></button>`
+
+const modeSelector = (includeModes: string[]) => html`<select x-model="mode">
+  <option value="simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
+  <option value="serif">𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</option>
+  ${includeModes.includes("biblical") ? '<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐌼</option>' : ''}
+  <option value="latin">Lateins</option>
+</select>`
+
+export function createBody(content: string, classes?: string[])
 {
   const classesString = safeHtmlAttribute(JSON.stringify(classes ? classes : []))
+
+  return html`<body x-data
+  :class='[
+    ...${classesString},
+    ...(!$store.general.darkMode ? ["light-mode"] : []),
+  ]'>
+  ${content}
+</body>`
+}
+
+export function createArticleBody(content: string, classes?: string[], langs: string[] = ['got'], includeModes: string[] = [])
+{
+  const hasGothic = langs.includes('got')
   const langsString = safeHtmlAttribute(JSON.stringify(langs ? langs : []))
 
-  return html`<body
-  x-data='{
+  return createBody(html`<main x-data='{
     selectedLineInfo: null,
     mode: "simple",
     langs: ${langsString},
   }'
   :class='[
     "mode-" + mode,
-    ...${classesString},
-    ...(!$store.general.darkMode ? ["light-mode"] : []),
     ...(selectedLineInfo !== null ? ["has-info-box"] : []),
   ]'>
-  <main>
-    <div id="article-container">
-      <article>
-        <div id="article-inner">
-          <div class="menu">
-            <div>
-              <a class='square' href="index.html">⌂</a>
-            </div>
-            <div>
-              <button class='square'
-                x-text="$store.general.darkMode ? '☀' : '☾'"
-                @click="$store.general.darkMode = !$store.general.darkMode"></button>
-              <select x-model="mode">
-                <option value="simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
-                <option value="serif">𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</option>
-                ${includeModes.includes("biblical") ? '<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐌼</option>' : ''}
-                <option value="latin">Lateins</option>
-              </select>
-            </div>
+  <div id="article-container">
+    <article>
+      <div id="article-inner">
+        <div class="menu">
+          <div>
+            <a class='simple-text square' href="index.html">⌂</a>
           </div>
-          <div id="article-content"
-            @click="e => {if(!e.target.classList.contains('i-line')) { selectedLineInfo = null; $store.general.removeHash() }}">
-            ${content}
+          <div>
+            ${darkModeButton}
+            ${hasGothic ? modeSelector(includeModes) : ''}
           </div>
         </div>
-      </article>
-    </div>
-${htmlInfoBox}
-  </main>
-  <script type="module" src="scripts/article.js"></script>
-</body>`
+        <div id="article-content"
+          @click="e => {if(!e.target.classList.contains('i-line')) { selectedLineInfo = null; $store.general.removeHash() }}">
+          ${content}
+        </div>
+      </div>
+    </article>
+  </div>
+${hasGothic ? htmlInfoBox : ''}
+</main>
+<script type="module" src="scripts/article.js"></script>`, classes)
 }
 
 export const articleHead = html`<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="assets/styles/text.css" rel="stylesheet">
-<link href="assets/styles/simple-light.css" rel="stylesheet">
-<link href="assets/styles/simple-dark.css" rel="stylesheet">`
+<link href="assets/styles/main.css" rel="stylesheet">
+<link href="assets/styles/article.css" rel="stylesheet">`

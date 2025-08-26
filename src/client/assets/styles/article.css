@@ -1,11 +1,4 @@
 @font-face {
-  font-family: 'Noto Sans Gothic';
-  src: url('../fonts/NotoSansGothic-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
   font-family: 'Noto Serif Gothic';
   src: url('../fonts/NotoSerifGothic.woff2') format('woff2');
   font-weight: normal;
@@ -20,33 +13,13 @@
   font-display: swap;
 }
 
-body
-{
-  margin: 0;
-}
-
-body,
-select,
-input,
-textarea,
-.mode-simple
-{
-  font-family: 'Noto Sans Gothic';
-}
-
-.mode-serif,
-.mode-serif, select,
-.mode-serif, input,
-.mode-serif, textarea
+.mode-serif *:lang(got)
 {
   font-family: 'Noto Serif Gothic';
   line-height: 22px;
 }
 
-.mode-biblical,
-.mode-biblical select,
-.mode-biblical input,
-.mode-biblical textarea
+.mode-biblical *:lang(got)
 {
   font-family: 'Silubr';
   line-height: 22px;
@@ -57,7 +30,6 @@ textarea,
   font-size: 14px;
   text-align: right;
   text-indent: 0;
-  font-family: 'Noto Sans Gothic';
 }
 
 .nowrap
@@ -120,16 +92,31 @@ h1
 
 h2
 {
+  font-size: 22px;
+  line-height: 22px;
+  margin: 14px 0 0 0;
+  text-align: center;
+}
+
+h3
+{
   font-size: 20px;
   line-height: 20px;
   margin: 14px 0 0 0;
 }
 
-h3
+h4
 {
   font-size: 16px;
   line-height: 20px;
   margin: 14px 0 0 0;
+  font-style: italic;
+}
+
+ul
+{
+  margin: 6px 0 0 0;
+  list-style-type: square;
 }
 
 #article-inner
@@ -306,4 +293,60 @@ article
     right: 0;
     margin: 0;
   }
+}
+
+
+/* Default style (dark) */
+
+#info-box
+{
+  background-color: #323236;
+}
+
+.i-line:hover
+{
+  background-color: #479e95;
+}
+
+.line-selected
+{
+  background-color: #008477;
+}
+
+.speaker
+{
+  color: rgb(255, 132, 132);
+}
+
+.annotation
+{
+  color: #979797;
+}
+
+
+/* Light mode */
+
+.light-mode #info-box
+{
+  background-color: #dadada;
+}
+
+.light-mode .i-line:hover
+{
+  background-color: #ceffe3;
+}
+
+.light-mode .line-selected
+{
+  background-color: #aaffcf;
+}
+
+.light-mode .speaker
+{
+  color: rgb(255, 0, 0);
+}
+
+.light-mode .annotation
+{
+  color: #999999;
 }
