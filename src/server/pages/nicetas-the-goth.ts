@@ -98,7 +98,7 @@ Using -isks ending`
   },
   {
     text: {
-      got: 'jah Friþigaírna saei afar gabláuþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda of kaisaris Balainis arianiskis,',
+      got: 'jah Friþigaírna saei afar gabláuþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda kaisaris Balainis arianiskis,',
       en: "and Fritigern who revenged a defeat by Athanaric with the help of Arian emperor Valens,",
     },
     notes: `"Fritigern appears in the Latinized form Fritigernus. The Gothic name is reconstructed as *Frithugairns 'desiring peace'"
@@ -116,7 +116,7 @@ Using -isks ending`
 content += html`<p>${[
   {
     text: {
-      got: "Afar sigis Friþigaírnis, gutans sa Xristwiska nutun ƕeilos friþáus",
+      got: "Afar sigis Friþigaírnis, sa gutans Xristwiska nutun ƕeilos friþáus",
       en: "After Fritigern's victory the Christian Goths enjoyed a period of peace",
     },
   },
