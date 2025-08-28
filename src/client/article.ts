@@ -20,7 +20,7 @@ type ModeFunc = (text: string, config: any) => string
 const modes: {[key: string]: ModeFunc} = {
   simple: t => safeHtmlText(modernReplace(fromLatin(t)) + ' '),
   //serif: t => safeHtmlText(modernReplace(fromLatin(t, {preserveDiacritics: true})) + ' '),
-  serif: t => safeHtmlText(modernReplace(fromLatin(t)) + ' '),
+  serif: t => safeHtmlText(modernReplace(t) + ' '),
   biblical: t => addSigla(safeHtmlText(biblicalReplace(fromLatin(addSoftHyphens(t))))),
   latin: t => safeHtmlText(modernReplace(t)) + ' ',
 }
