@@ -52,7 +52,7 @@ x-html="$store.general.modes[mode](info.text.got)"
 }
 
 const htmlInfoBox = html`<template x-if="selectedLineInfo">
-  <div id="info-box">
+  <div id="info-box" lang='en'>
     <div id="info-box-inner">
       <div class="menu">
         <div>
@@ -70,7 +70,7 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
         <div>
           <template x-for="lang in langs">
           <div>
-            <h2 lang='en' x-text="$store.general.languageNames.of(lang)"></h2>
+            <p class='title' x-text="$store.general.languageNames.of(lang)"></p>
             <template x-if="lang == 'got'">
               <p lang='got' x-html="$store.general.modes[mode](selectedLineInfo.text[lang])"></p>
             </template>
@@ -82,9 +82,9 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
         </div>
         <template x-if="selectedLineInfo.notes">
           <div>
-            <h2>Notes</h2>
+            <p class='title'>Notes</p>
             <template x-for="line in selectedLineInfo.notes.split('\n\n')">
-              <p lang='en' x-html="line"></p>
+              <p x-html="line"></p>
             </template>
           </div>
         </template>
