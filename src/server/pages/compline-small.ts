@@ -4,7 +4,8 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 
 import
@@ -36,7 +37,7 @@ global.lineId = 0
 
 const title = '𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
 
-let content = ''
+let article = ''
 
 let speech = ''
 
@@ -89,10 +90,10 @@ speech += html`<p>
 ${oHeavenlyKing}
 </p>`
 
-content += html`<div class="speech">${speech}</div>`
+article += html`<div class="speech">${speech}</div>`
 
 
-content += html`<p class="title">
+article += html`<p class="title">
 ${[
     {
       text: {
@@ -145,9 +146,9 @@ ${timesTwelve}
 speech += html`<p>${gloryToTrinity}</p>`
 speech += html`<p>${oComeLetUsWorship}</p>`
 
-content += html`<div class="speech">${speech}</div>`
+article += html`<div class="speech">${speech}</div>`
 
-content += html`<p class='notice'>
+article += html`<p class='notice'>
 ${[
     {
       text: {
@@ -176,7 +177,7 @@ ${[
   })}</a></p>`
 
 
-content += html`<p lang='en' class="annotation">
+article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Office of Small Compline</span>
 <span class="nowrap">in the Gothic language,</span>
 <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
@@ -189,7 +190,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'el', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'el', 'en']))}
 </html>`
 
 export default page

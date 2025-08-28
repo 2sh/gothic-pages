@@ -4,7 +4,8 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 
 
@@ -15,9 +16,9 @@ import
 global.lineId = 0
 
 const title = '𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂 𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰'
-let content = ''
+let article = ''
 
-content += html`<header>
+article += html`<header>
   <h1>${toGothicLine({
   text: {
     got: 'Mikilmartwr Niketa sa Guta',
@@ -27,7 +28,7 @@ content += html`<header>
 },)}</h1>
 </header>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Weihs Niketa was guta gadraúhts',
@@ -71,7 +72,7 @@ content += html`<p>${[
   },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Ïnuh þizai mela was draúhtinassus ïn gutam,',
@@ -113,7 +114,7 @@ Using -isks ending`
   },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: "Afar sigis Friþigaírnis, sa gutans Xristwiska nutun ƕeilos friþáus",
@@ -141,7 +142,7 @@ content += html`<p>${[
   },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: "Akei, afar fau jera, Aþanareiks gawandida ïn land haimi sein miþ harja mikilamma",
@@ -189,7 +190,7 @@ content += html`<p>${[
   },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: "Niketa was þan atgibans du balweinim unmanariggwáim jah und andi ïn fon atwaúrpans þarei gadáuþnoda at Saiptaimbair 15, 372.",
@@ -225,7 +226,7 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p lang='en' class="annotation">
+article += html`<p lang='en' class="annotation">
   <span class="nowrap">Nicetas the Goth</span>
   <span class="nowrap">in the Gothic language,</span>
   <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
@@ -238,7 +239,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'en']))}
 </html>`
 
 export default page

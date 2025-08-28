@@ -118,12 +118,12 @@ export function createBody(content: string, classes?: string[])
 </body>`
 }
 
-export function createArticleBody(content: string, classes?: string[], langs: string[] = ['got'], includeModes: string[] = [])
+export function createArticleBody(content: string, langs: string[] = ['got'], includeModes: string[] = [])
 {
   const hasGothic = langs.includes('got')
   const langsString = safeHtmlAttribute(JSON.stringify(langs ? langs : []))
 
-  return createBody(html`<main x-data='{
+  return html`<main x-data='{
     selectedLineInfo: null,
     mode: "simple",
     langs: ${langsString},
@@ -153,7 +153,7 @@ export function createArticleBody(content: string, classes?: string[], langs: st
   </div>
 ${hasGothic ? htmlInfoBox : ''}
 </main>
-<script type="module" src="scripts/article.js"></script>`, classes)
+<script type="module" src="scripts/article.js"></script>`
 }
 
 export const articleHead = html`<meta charset="UTF-8">

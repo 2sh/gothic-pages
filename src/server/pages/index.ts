@@ -1,10 +1,10 @@
-import { articleHead, createArticleBody, html, safeHtmlText } from "@server/tools"
+import { articleHead, createArticleBody, createBody, html, safeHtmlText } from "@server/tools"
 
 // notes about the skeireins: https://www.nthuleen.com/papers/755gothfinal.html
 
 const title = "Gothic Pages"
 
-const content = html`<header>
+const article = html`<header>
   <h1>2sh's Gothic Pages</h1>
 </header>
 <div>
@@ -60,7 +60,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['en'])}
+  ${createBody(createArticleBody(article, ['en']))}
 </html>`
 
 export default page

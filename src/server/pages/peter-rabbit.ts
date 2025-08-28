@@ -4,16 +4,17 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 
 
 global.lineId = 0
 
 const title = '𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃'
-let content = ''
+let article = ''
 
-content += html`<header>
+article += html`<header>
   <h1>${toGothicLine({
   text: {
     got: 'Þata Spill\nPaitráus Hasins',
@@ -22,7 +23,7 @@ content += html`<header>
 },)}</h1>
 </header>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Simle wesun fidwor hasans leitilái,',
@@ -71,7 +72,7 @@ for foxes, it's only been attested in the bible in relation to foxes.
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: '"NŪ, liubans meinái", qaþ Fráujo Hasa ïn áinamma maúrgina,',
@@ -127,7 +128,7 @@ the motion, with the next part having reached the ear.`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: '"JAH NŪ afleiþiþ, jah táujaiþ ni waíht unfroþ.',
@@ -187,7 +188,7 @@ most likely needs improving.`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'FLAUPSI, Maupsi jah Kauttaun-taieil, þaiei wesun godái leitilái hasans,',
@@ -230,7 +231,7 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'FRUMIST matida suma <[lettuces]> jah suma frankiska <[beans]>; jah þan matida suma <[radishes]>;',
@@ -247,7 +248,7 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'AÞÞAN bi andja <[cucumber]> hramos, du ƕamma garann? Fráuja Mkgraigaur!',
@@ -289,7 +290,7 @@ Not from an-stem *rekô as it clashes with 𐍂𐌹𐌺𐌰𐌽's conjugations.`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: `PAITRUS ohta sis abraba;`,
@@ -335,7 +336,7 @@ wiga gaggandans du Iairusaulwmai Mark 10:32`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: `AFAR þatei fraláus þans, rann ana liþus fidworim jah ïddja snilliza,`,
@@ -387,7 +388,7 @@ Translating "quite" to "very" for now.`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: `PAITRUS þāhta sis swe fralusans, jah fralaílot tagr mikil;`,
@@ -411,7 +412,7 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p lang='en' class="annotation">
+article += html`<p lang='en' class="annotation">
   <span class="nowrap">The Tale of Peter Rabbit</span>
   <span class="nowrap">by Beatrix Potter</span>
   <span class="nowrap">in the Gothic language,</span>
@@ -425,7 +426,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'en']))}
 </html>`
 
 export default page

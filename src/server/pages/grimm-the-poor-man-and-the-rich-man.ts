@@ -4,7 +4,8 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 
 // https://www.grimmstories.com/de/grimm_maerchen/der_arme_und_der_reiche
@@ -13,9 +14,9 @@ import
 global.lineId = 0
 
 const title = '𐍃𐌰 𐌿𐌽𐌻𐌴𐌳𐌰 𐌾𐌰𐌷 𐍃𐌰 𐌲𐌰𐌱𐌹𐌲𐌰'
-let content = ''
+let article = ''
 
-content += html`<header>
+article += html`<header>
   <h1>${toGothicLine({
   text: {
 got: 'Sa Unleda jah sa Gabiga',
@@ -25,7 +26,7 @@ en: "The Poor Man and the Rich Man",
 })}</h1>
 </header>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: 'Faúr faírnja mela, biþe liufs Guþ naúh silba ana aírþái ïn mannam ƕarboda,',
@@ -88,7 +89,7 @@ en: "The large one belonged to a rich man, and the small one to a poor man."
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: `Ei þāhta Fráuja Guþ unsar "þana gabigan ni kaúrida, wiljau at ïmma saljan."`,
@@ -128,7 +129,7 @@ en: `The Lord answered, "I only ask for a night's lodging."`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: `Sa gabiga ïnsaƕ du þamma ƕarbonds fram háubida und fotuns,`,
@@ -216,7 +217,7 @@ en: `and with this he shut down the window and left the Lord standing there."`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: `Swaei bilaiþ ïmma sa liufs Guþ jah ufarláiþ du razn þamma leitil.`,
@@ -337,7 +338,7 @@ en: `and while they were boiling,`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p lang='en' class="annotation">
+article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Poor Man and the Rich Man,</span>
 <span class="nowrap">a fairy tale by the Brothers Grimm</span>
 <span class="nowrap">in the Gothic language,</span>
@@ -351,7 +352,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'de', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'de', 'en']))}
 </html>`
 
 export default page

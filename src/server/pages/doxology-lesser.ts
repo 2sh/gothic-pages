@@ -7,7 +7,8 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 
 import
@@ -24,10 +25,10 @@ import
 global.lineId = 0
 
 const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌹𐌰 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
-let content = ''
+let article = ''
 
 
-content += html`<header>
+article += html`<header>
   <h1>${toGothicLine({
   text: {
     got: 'Dauksaulaugia Leitils',
@@ -40,7 +41,7 @@ content += html`<header>
 </header>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Wulþus ïn háuhistjam Guda, jah ana aírþai gawaírþi ïn mannam godis wiljins.',
@@ -53,7 +54,7 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Hazjam þuk,',
@@ -107,7 +108,7 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Frauja, Þiudan, himinakunda Guþ,',
@@ -130,7 +131,7 @@ and are almost always declined 'weak'."`,
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Fráuja áinabaúr Sunáu,',
@@ -152,7 +153,7 @@ translation, it's probably the commonly used version`,
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>
+article += html`<p>
 ${[
     {
       text: {
@@ -213,7 +214,7 @@ ${[
 </p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Andnim bidos unsaros,',
@@ -274,10 +275,10 @@ Luke 3:22+ and Luke 1:32 have genitive apposition.`,
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${amen}</p>`
+article += html`<p>${amen}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Andanahtja ƕammeh ïk þuk þiuþjan,',
@@ -314,7 +315,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Fráuja, warst unsis staþs þadei magum þláuhan',
@@ -370,7 +371,7 @@ of a "into ... of ...".`,
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Fráuja, du þus þláuh;',
@@ -439,7 +440,7 @@ going with 𐌿𐍆𐌸𐌰𐌽𐌾𐌰𐌽 as it "it seems to cover the figurat
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Fragif, Fráuja,',
@@ -470,7 +471,7 @@ principal clause is interrogative or negative"`,
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Þiuþiþs þuk, Fráuja,',
@@ -502,10 +503,10 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${amen}</p>`
+article += html`<p>${amen}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Waírþai, Fráuja, armahaírtein þeina ana uns,',
@@ -530,7 +531,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Þiuþiþs þuk, Fráuja,',
@@ -549,7 +550,7 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Þiuþiþs þuk, Fráujinond,',
@@ -571,7 +572,7 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Þiuþiþs þuk, Weiha,',
@@ -590,7 +591,7 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Fráuja, armahaírtein þeina ïn áiw;',
@@ -614,7 +615,7 @@ works of christ Matthew 11:2`
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Þus ïst gadob hazeins,',
@@ -654,10 +655,10 @@ ${nowAndEver}
 </p>`
 
 
-content += html`<p>${amen}</p>`
+article += html`<p>${amen}</p>`
 
 
-content += html`<p lang='en' class="annotation">
+article += html`<p lang='en' class="annotation">
   <span class="nowrap">The Lesser Doxology</span>
   <span class="nowrap">in the Gothic language,</span>
   <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
@@ -669,7 +670,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'el', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'el', 'en']))}
 </html>`
 
 export default page

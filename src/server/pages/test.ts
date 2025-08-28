@@ -4,7 +4,8 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 
 import
@@ -26,7 +27,7 @@ global.lineId = 0
 
 const title = 'Test Page'
 
-let content = ''
+let article = ''
 
 let speech = ''
 
@@ -34,23 +35,23 @@ speech += html`<header>
   <h1>Test Page</h1>
 </header>`
 
-content = ''
+article = ''
 
-content += html`<p>A B G D E Q Z H C I K L M N J U P R S T W F X V O</p>`
-content += html`<p>𐌰 𐌱 𐌲 𐌳 𐌴 𐌵 𐌶 𐌷 𐌸 𐌹 𐌹̈ 𐌺 𐌻 𐌼 𐌽 𐌾 𐌿 𐍀 𐍁 𐍂 𐍃 𐍄 𐍅 𐍆 𐍇 𐍈 𐍉 𐍊</p>`
+article += html`<p>A B G D E Q Z H C I K L M N J U P R S T W F X V O</p>`
+article += html`<p>𐌰 𐌱 𐌲 𐌳 𐌴 𐌵 𐌶 𐌷 𐌸 𐌹 𐌹̈ 𐌺 𐌻 𐌼 𐌽 𐌾 𐌿 𐍀 𐍁 𐍂 𐍃 𐍄 𐍅 𐍆 𐍇 𐍈 𐍉 𐍊</p>`
 
-content += html`<p>${lordsPrayer}</p>`
+article += html`<p>${lordsPrayer}</p>`
 
-content += html`<p>
+article += html`<p>
 ${forYoursIs}
 <br>
 ${ofTrinity}
 <br>
 ${nowAndEver}
 </p>`
-content += html`<p>${amen}</p>`
+article += html`<p>${amen}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Razn, Xristus, Pasxa, ïzwis, ƕazuh, þizos',
@@ -65,7 +66,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'el', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'el', 'en']))}
 </html>`
 
 export default page

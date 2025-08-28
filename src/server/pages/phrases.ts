@@ -4,7 +4,8 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 
 import
@@ -23,17 +24,17 @@ faúrrinnan (be a precursor, run before) could be used for john the forerunner
 global.lineId = 0
 
 const title = 'Phrases & Words'
-let content = ''
+let article = ''
 
 
-content += html`<header>
+article += html`<header>
   <h1>Phrases & Words</h1>
 </header>`
 
 
-content += html`<p class="title">In the name</p>`
+article += html`<p class="title">In the name</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Ïn namin',
@@ -46,9 +47,9 @@ content += html`<p>${[
 ${ofTrinity}</p>`
 
 
-content += html`<p class="title">Jesus Prayer</p>`
+article += html`<p class="title">Jesus Prayer</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Fráuja Ïesu Xristáu, Sunáu Gudis, armái mik frawaúrhtana (frawaúrhta)',
@@ -59,9 +60,9 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p class="title">Publican's prayer</p>`
+article += html`<p class="title">Publican's prayer</p>`
 
-content += html`<p>${[
+article += html`<p>${[
   {
     text: {
       got: 'Guþ, hulþs sijáis mis, frawaúrhtamma (frawaúrhtai)',
@@ -73,9 +74,9 @@ content += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-content += html`<p class="title">Words</p>`
+article += html`<p class="title">Words</p>`
 
-content += html`<p>Theotokos/God-bearer: ${[
+article += html`<p>Theotokos/God-bearer: ${[
   {
     text: {
       got: 'Gudabaírandei',
@@ -97,7 +98,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'el', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'el', 'en']))}
 </html>`
 
 export default page

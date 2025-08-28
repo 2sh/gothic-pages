@@ -4,7 +4,8 @@ import
   safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead
+  articleHead,
+  createBody
 } from '@server/tools'
 import { amen } from "@server/lines"
 
@@ -14,9 +15,9 @@ import { amen } from "@server/lines"
 global.lineId = 0
 
 const title = 'Morning Prayer'
-let content = ''
+let article = ''
 
-content += html`<header>
+article += html`<header>
   <h1>${toGothicLine({
   text: {
 got: '<[TODO]>',
@@ -26,7 +27,7 @@ en: "The Morning Prayer of the Last Elders of Optina",
 })}</h1>
 </header>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '𐍆𐍂𐌰𐌿𐌾𐌰,',
@@ -36,7 +37,7 @@ en: "O Lord,",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -46,7 +47,7 @@ en: "grant that I may meet all (next line) with spiritual tranquility.",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -56,7 +57,7 @@ en: "that this coming day brings to me",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -66,7 +67,7 @@ en: "Grant that I may fully surrender myself",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -76,7 +77,7 @@ en: "to Thy holy Will.",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -86,7 +87,7 @@ en: "At every hour of this day,",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -96,7 +97,7 @@ en: "direct and support me in all things.",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -106,7 +107,7 @@ en: "Whatsoever news may reach me",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -116,7 +117,7 @@ en: "in the course of the day,",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -126,7 +127,7 @@ en: "teach me to accept it",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -136,7 +137,7 @@ en: "with a calm soul and the firm conviction",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${[
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
@@ -258,10 +259,10 @@ en: "to be patient, to forgive, and to love.",
 },
 ].map(toGothicLine).join('')}</p>`
 
-content += html`<p>${amen}</p>`
+article += html`<p>${amen}</p>`
 
 
-content += html`<p lang='en' class="annotation">
+article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Morning Prayer</span>
 <span class="nowrap">of the Last Elders of Optina</span>
 <span class="nowrap">in the Gothic anguage,</span>
@@ -275,7 +276,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createArticleBody(content, undefined, ['got', 'ru', 'en'])}
+  ${createBody(createArticleBody(article, ['got', 'ru', 'en']))}
 </html>`
 
 export default page
