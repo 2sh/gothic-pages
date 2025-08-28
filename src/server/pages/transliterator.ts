@@ -27,19 +27,25 @@ const article = html`<header>
       </div>
       <div class="group">
         <button @click='text = $store.gothic.addDiaereses(text)'>Fix diaereses</button>
-        <button @click='text = $store.gothic.removeDiacritics(text)'>Remove diacritics</button>
+        <button @click='text = $store.gothic.removeDiacritics(text)' title='Removes diacritics, keeping diaereses'>Remove diacritics</button>
       </div>
     </div>
     <div class="row">
       <div class="group">
         <label>Capitalise:<input type="checkbox" x-model="$store.gothic.capitalize"></label>
         <label>Preserve diacritics:<input type="checkbox" x-model="$store.gothic.preserveDiacritics"></label>
-        <label>Number conversion: <select x-model="$store.gothic.numberConversion">
+      </div>
+    </div>
+    <div class="row">
+      <div class="group">
+        <label title='Up to 999 is attested, the "Above 999" option is my neologism, separating thousands by colon.'>Number conversion: <select x-model="$store.gothic.numberConversion">
             <option value="none">Off</option>
             <option value="normal">Up to 999 only</option>
             <option value="big">Above 999</option>
           </select></label>
       </div>
+    </div>
+    <div class="row">
       <div class="group">
         <label>𐌸: <select x-model="$store.gothic.th">
           <option value="">þ</option>
