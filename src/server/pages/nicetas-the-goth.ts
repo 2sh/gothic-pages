@@ -30,10 +30,10 @@ content += html`<header>
 content += html`<p>${[
   {
     text: {
-      got: 'Weihs Niketa was gadraúhts (Goth)',
+      got: 'Weihs Niketa was guta gadraúhts',
       en: "Saint Nicetas was a Goth warrior",
     },
-    notes: `*áustrs from PGm *austraz looking at attested snutrs from snutraz`
+    notes: ``
   },
   {
     text: {
@@ -53,8 +53,8 @@ content += html`<p>${[
   },
   {
     text: {
-      got: 'Gawandida du galáubeinái xristwiskái þaírh Aipiskaupu (Gothic) Þaíaúfeilu, ',
-      en: "He converted to Christianity through the Gothic Bishop Theophilus,",
+      got: 'Gawandida du galáubeinái xristwiskái þaírh aipiskaupu (Gothic) Þaíaúfeilu, ',
+      en: "He converted to Christianity through the Gothic bishop Theophilus,",
     },
   },
   {
