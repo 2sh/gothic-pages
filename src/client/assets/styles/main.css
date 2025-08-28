@@ -16,9 +16,16 @@ body
 #article-container select,
 #article-container input,
 #article-container textarea,
-#article-container .simple-text
+#article-container button
 {
   font-family: 'Noto Sans Gothic';
+  line-height: normal;
+}
+
+
+#article-container .icon
+{
+  font-family: sans;
   line-height: normal;
 }
 

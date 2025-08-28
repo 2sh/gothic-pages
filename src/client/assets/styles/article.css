@@ -53,7 +53,6 @@
 .menu button,
 .menu a
 {
-  display: block;
   text-decoration: none;
   text-align: center;
   height: 30px;
@@ -62,19 +61,26 @@
   font-size: 18px;
   border: 0;
   cursor: pointer;
+
+  width: 30px;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu button svg,
+.menu a svg
+{
+  width: 20px;
+  height: 20px;
 }
 
 .line-id
 {
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
-}
-
-button.square,
-a.square
-{
-  width: 30px;
-  padding: 0;
 }
 
 h1
