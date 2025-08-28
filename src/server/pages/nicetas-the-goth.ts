@@ -34,11 +34,10 @@ article += html`<p>${[
       got: 'Weihs Niketa was guta gadraúhts',
       en: "Saint Nicetas was a Goth warrior",
     },
-    notes: ``
   },
   {
     text: {
-      got: 'saei báuáida ïn fera áustramma Donaweis',
+      got: 'saei baúáida ïn fera áustramma Donaweis',
       en: "who lived on the eastern side of the Danube River",
     },
     notes: `*áustrs from PGm *austraz looking at attested snutrs from snutraz
@@ -48,14 +47,14 @@ article += html`<p>${[
   {
     text: {
       got: 'ïn markái Dakios andwaírþis.',
-      en: "within the boundaries of present-day Rumania.",
+      en: "within the boundaries of present-day Romania.",
     },
     notes: `*Dakia taken from Neologisms for Romania`
   },
   {
     text: {
-      got: 'Gawandida du galáubeinái xristwiskái þaírh aipiskaupu (Gothic) Þaíaúfeilu, ',
-      en: "He converted to Christianity through the Gothic bishop Theophilus,",
+      got: 'Gawandida du Xristiskein þaírh Aipiskaupu Þaíaúfeilu Gutiskana,',
+      en: "He converted to Christianity through the Gothic Bishop Theophilus,",
     },
   },
   {
@@ -75,13 +74,13 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Ïnuh þizai mela was draúhtinassus ïn gutam,',
+      got: 'Ïnuh þizai mela was draúhtinassus ïn þaim gutam,',
       en: "At the time there was [internecine] warfare among the Goths",
     },
   },
   {
     text: {
-      got: 'unte sa andstandands háiþns usbráideinái galáubeináis Xristwiskis,',
+      got: 'unte sa andstandands háiþns usbráideinái Xristiskeins,',
       en: "due the pagans opposing the spread of Christianity,",
     },
     notes: `Romans 13:2 andstandands + dative
@@ -93,7 +92,7 @@ Using -isks ending`
   },
   {
     text: {
-      got: 'þishun miþ Aþanareika, saei fijáida Xristeinans,',
+      got: 'þishun miþ Aþanareika, saei fijáida Xristiskans,',
       en: "in particular between Athanaric, who hated Christians,",
     },
   },
@@ -117,13 +116,13 @@ Using -isks ending`
 article += html`<p>${[
   {
     text: {
-      got: "Afar sigis Friþigaírnis, sa gutans Xristwiska nutun ƕeilos friþáus",
+      got: "Afar sigis Friþigaírnis, sa gutans Xristiska nutun ƕeilos friþáus",
       en: "After Fritigern's victory the Christian Goths enjoyed a period of peace",
     },
   },
   {
     text: {
-      got: "ïn þizai aipiskaupus Wulfila arianisks, afarláista aipiskaupaus Þaíaúfeilaus,",
+      got: "ïn þizai Aipiskaupus Wulfila arianisks, afarláista Aipiskaupaus Þaíaúfeilaus,",
       en: "during which arian Bishop Ulfilas, successor to Bishop Theophilus,",
     },
     notes: `afarlaistjan + galaista = afarláista "nachfolger"`
@@ -136,7 +135,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Weihs Niketa, þaírh merein jah libáin gaguda seina, naþ mikilaba faúr tulgiþa galáubeináis Xristwiskis ïn gutam.",
+      got: "Weihs Niketa, þaírh merein jah libáin gaguda seina, naþ mikilaba faúr tulgiþa galáubeináis Xristiskis ïn þaim gutam.",
       en: "Saint Nicetas, by his preaching and his pious life, greatly assisted the confirmation of the Christian faith among the Goths.",
     },
   },
@@ -151,19 +150,19 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "jah wigan ïn gutam anastodida aftra.",
+      got: "jah wigan ïn þaim gutam anastodida aftra.",
       en: "and warfare among the Goths started again.",
     },
   },
   {
     text: {
-      got: "Swe dails toje seinis, raisida Aþanareiks wrakja sleidja wiþra Xristeinans.",
+      got: "Swe dails toje seinis, raisida Aþanareiks wrakja sleidja wiþra þans Xristiskans.",
       en: "As part of his actions, Athanaric raised a fierce persecution against the Christians.",
     },
   },
   {
     text: {
-      got: "Niketa, saei faþs ahmeins warþ ïn gutam Xristwiskamma,",
+      got: "Niketa, saei faþs ahmeins warþ ïn þaim gutam Xristiskin,",
       en: "Nicetas, who had become a spiritual leader among the Christian Goths,",
     },
   },
@@ -200,7 +199,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Frijonds Niketins, [christian] haitans Marianus,",
+      got: "Frijonds Niketins, Xristisks haitans Marianus,",
       en: "A friend of Nicetas, a Christian named Marianus,",
     },
   },
@@ -219,7 +218,7 @@ article += html`<p>${[
   {
     text: {
       got: "Dails laibos was seiþs brāhts du maunasterjon Bisauki Detsani ïn Serbia.",
-      en: "Part of the relics were later transferred to the monastery of Visoki Dečani in Serbia.",
+      en: "Part of the relics were later transferred to the monastery of Visoki Dečani in Sairbia.",
     },
     notes: `*maunasterjo (μοναστήριον) looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension`
   },
