@@ -53,6 +53,8 @@ async function importPages()
 }
 importPages()
 
+app.get('/', (_, res) => res.redirect("/index.html"))
+
 const errorRequestHandler: ErrorRequestHandler = (err, req, res, _next) =>
 {
   console.error(req.url, req.params, err)

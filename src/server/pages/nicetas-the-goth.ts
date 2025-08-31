@@ -238,7 +238,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, ['got', 'en']))}
+  ${createBody(createArticleBody(article, { langs: ['got', 'en'] }))}
 </html>`
 
 export default page

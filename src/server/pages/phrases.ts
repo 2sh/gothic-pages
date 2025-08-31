@@ -23,7 +23,7 @@ faúrrinnan (be a precursor, run before) could be used for john the forerunner
 
 global.lineId = 0
 
-const title = 'Phrases & Words'
+const title = 'Words & Phrases'
 let article = ''
 
 
@@ -127,6 +127,40 @@ weak nouns keep -a- for the connecting vowel." -guthiharjis`
   },
 ].map(toGothicLine).join('')}</span></p>`
 
+article += html`<p>Catholic: <span lang='got'>${[
+  {
+    text: {
+      got: 'Kaþauleigs',
+      en: "Catholic",
+    },
+    notes:
+`As Catholic is from κᾰθόλ[ου] (univeral) + -ῐκός (-ic),
+using just the κᾰθόλου and adding the native equivelent -eigs,
+similar to German Katholisch.`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Apostolic: <span lang='got'>${[
+  {
+    text: {
+      got: 'Apaustauleigs',
+      en: "Apostolic",
+    },
+    notes:
+`apaustaulus + eigs`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Orthodox: <span lang='got'>${[
+  {
+    text: {
+      got: 'Aurþaudaukseins',
+      en: "Orthodox",
+    },
+    notes:
+`*aurþaudaukseins from ὀρθόδοξ[ος] + eins following pistikeins, πιστικ[ός] + -eins`
+  },
+].map(toGothicLine).join('')}</span></p>`
 
 const page = html`<!doctype html>
 <html lang="en">
@@ -134,7 +168,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, ['got', 'el', 'en']))}
+  ${createBody(createArticleBody(article, { langs: ['got', 'el', 'en'] }))}
 </html>`
 
 export default page

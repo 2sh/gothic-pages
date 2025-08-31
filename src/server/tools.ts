@@ -129,10 +129,28 @@ export function createBody(content: string, classes?: string[])
 </body>`
 }
 
-export function createArticleBody(content: string, langs: string[] = ['got'], includeModes: string[] = [])
+type ConfigArticleBody = {
+  langs?: string[],
+  includeModes?: string[],
+  isHome?: boolean,
+}
+
+export function createArticleBody(content: string, config: ConfigArticleBody)
 {
-  const hasGothic = langs.includes('got')
-  const langsString = safeHtmlAttribute(JSON.stringify(langs ? langs : []))
+  const conf: Required<ConfigArticleBody> = {
+    langs: ['got'],
+    includeModes: [],
+    isHome: false,
+    ...config
+  }
+  const hasGothic = conf.langs.includes('got')
+  const langsString = safeHtmlAttribute(JSON.stringify(conf.langs))
+
+  const homeButton = html`<a href=".">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
+    <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z" clip-rule="evenodd" />
+  </svg>
+</a>`
 
   return html`<main x-data='{
     selectedLineInfo: null,
@@ -148,15 +166,11 @@ export function createArticleBody(content: string, langs: string[] = ['got'], in
       <div id="article-inner">
         <div class="menu">
           <div>
-            <a href="index.html">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z" clip-rule="evenodd" />
-              </svg>
-            </a>
+            ${conf.isHome ? '' : homeButton}
           </div>
           <div>
             ${darkModeButton}
-            ${hasGothic ? modeSelector(includeModes) : ''}
+            ${hasGothic ? modeSelector(conf.includeModes) : ''}
           </div>
         </div>
         <div id="article-content"

@@ -60,7 +60,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, ['en']))}
+  ${createBody(createArticleBody(article, { langs: ['en'], isHome: true }))}
 </html>`
 
 export default page

@@ -388,7 +388,7 @@ article += html`<p>${[
       el: "καθολικὴν καὶ ἀποστολικὴν ἐκκλησίαν·",
       en: "catholic and apostolic Church;",
     },
-    notes: `*𐌺𐌰𐌸𐌰𐌿𐌻𐌴𐌹𐌲𐍃; 𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌿𐍃 + 𐌴𐌹𐌲𐍃 -> *𐌰𐍀𐌰𐌿𐍃𐍄𐌰𐌿𐌻𐌴𐌹𐌲𐍃`,
+    notes: `*kaþauleigs; apaustaulus + eigs -> *apaustauleigs`,
   },
 ].map(toGothicLine).join('')}</p>`
 
@@ -455,7 +455,10 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, ['got', 'el', 'en'], ["biblical"]))}
+  ${createBody(createArticleBody(article, {
+    langs: ['got', 'el', 'en'],
+    includeModes: ["biblical"]
+  }))}
 </html>`
 
 export default page
