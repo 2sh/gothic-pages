@@ -66,7 +66,7 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, ['got', 'el', 'en']))}
+  ${createBody(createArticleBody(article, { langs: ['got', 'el', 'en'] }))}
 </html>`
 
 export default page

@@ -62,7 +62,7 @@ const article = html`<header>
   </div>
 </div>`
 
-const content = html`${createArticleBody(article, ['en'])}
+const content = html`${createArticleBody(article, { langs: ['en'] })}
   <script type="module" src="scripts/transliterator.js"></script>`
 
 const page = html`<!doctype html>
