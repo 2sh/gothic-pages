@@ -1,9 +1,8 @@
 import Alpine from 'alpinejs'
 import persist from '@alpinejs/persist'
 
-import { addSoftHyphens, fromLatin } from '@common/transliterate';
-import { safeHtmlText } from '@common/tools'
-import { addSigla, biblicalReplace, modernReplace } from '@common/article'
+import { modes } from '@common/article'
+import { ClientLineData } from '@common/types'
 
 Alpine.plugin(persist)
 
@@ -14,18 +13,8 @@ const languageNames = new Intl.DisplayNames(['en'], {
   type: 'language'
 });
 
-type ModeFunc = (text: string, config: any) => string
-
-
-const modes: {[key: string]: ModeFunc} = {
-  simple: t => safeHtmlText(modernReplace(fromLatin(t)) + ' '),
-  //serif: t => safeHtmlText(modernReplace(fromLatin(t, {preserveDiacritics: true})) + ' '),
-  serif: t => safeHtmlText(modernReplace(t) + ' '),
-  biblical: t => addSigla(safeHtmlText(biblicalReplace(fromLatin(addSoftHyphens(t))))),
-  latin: t => safeHtmlText(modernReplace(t)) + ' ',
-}
-
 const initLineId = location.hash.replace('#', '')
+
 
 function getPath()
 {
@@ -44,9 +33,10 @@ const general = Alpine.reactive({
     && window.matchMedia('(prefers-color-scheme: dark)').matches
   ).as("dark_mode"),
   modes,
-  initLineId,
   getPath,
   removeHash,
+  mode: "simple",
+  selectedLineInfo: (() : (ClientLineData | null) => null)(),
 })
 
 window.matchMedia('(prefers-color-scheme: dark)')
@@ -56,5 +46,32 @@ window.matchMedia('(prefers-color-scheme: dark)')
   });
 
 Alpine.store("general", general)
+
+const lines = document.querySelectorAll('[data-line]')
+for (const line of lines)
+{
+  const info: ClientLineData = JSON.parse(line.getAttribute('data-line') || '{}')
+
+  if (initLineId == line.id) general.selectedLineInfo = info
+
+  Alpine.effect(() =>
+  {
+    line.innerHTML = modes[general.mode](info.text["got"])
+  })
+
+  Alpine.effect(() =>
+  {
+    line.classList.toggle('line-selected',
+      general.selectedLineInfo !== null
+      && info.id == general.selectedLineInfo.id)
+  })
+
+  line.addEventListener('click', () =>
+  {
+    general.selectedLineInfo = info
+    removeHash()
+  })
+}
+
 
 Alpine.start()

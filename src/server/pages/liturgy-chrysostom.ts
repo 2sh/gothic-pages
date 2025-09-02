@@ -50,7 +50,7 @@ Gudisks seems to come after the noun (Skeireins 1:5)
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -64,7 +64,7 @@ ${[
 
 
 article += html`<p>
-${speakerPriest}
+${speakerPriest()}
 ${[
     {
       text: {
@@ -76,19 +76,19 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${ofTrinity}
+${ofTrinity()}
 <br>
-${nowAndEver}
+${nowAndEver()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${amen}
+${speakerChoir()}
+${amen()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -99,17 +99,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -131,17 +131,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -178,17 +178,17 @@ instead of multiples coming together.`
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -212,43 +212,41 @@ God-fearing is gudafaúrhts.`
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr gagudans jah Aurþaudaukseinans Xristiskans,',
+        got: 'Faúr gagudans jah Xristiskans Aurþaudaukseinans,',
         el: "Ὑπὲρ τῶν εὐσεβῶν καὶ Ὀρθοδόξων Χριστιανῶν,",
         en: "For pious and Orthodox Christians,",
       },
       notes: `εὐσέβεια found in 1 Timothy 6:11;
 
-need checking: 𐍇𐍂𐌹𐍃𐍄-𐌴𐌹𐌽𐍃 and *𐌰𐌿𐍂𐌸𐌰𐌿𐌳𐌰𐌿𐌺𐍃-𐌴𐌹𐌽𐍃;
-
 1 Timothy 1:20: X -> 𐌺𐍃`
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -289,17 +287,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -320,17 +318,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -363,17 +361,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -407,17 +405,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -448,17 +446,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -479,17 +477,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -500,17 +498,17 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${lordHaveMercy}
+${speakerChoir()}
+${lordHaveMercy()}
 </p>`
 
 
 article += html`<p>
-${speakerDeacon}
+${speakerDeacon()}
 ${[
     {
       text: {
@@ -561,12 +559,12 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${letUsPrayToTheLord}
+${letUsPrayToTheLord()}
 </p>`
 
 article += html`<p>
-${speakerChoir}
-${toYouOLord}
+${speakerChoir()}
+${toYouOLord()}
 </p>`
 
 article = html`<div class="speech">${article}</div>`

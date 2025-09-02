@@ -43,7 +43,7 @@ const article = html`<header>
     </ul>
     <h4>Other</h4>
     <ul>
-      <li><a href="phrases.html">Various phrases</a></li>
+      <li><a href="phrases.html">Words & Phrases</a></li>
     </ul>
     <h3>Stories</h3>
     <ul>

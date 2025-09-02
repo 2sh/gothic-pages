@@ -259,7 +259,7 @@ en: "to be patient, to forgive, and to love.",
 },
 ].map(toGothicLine).join('')}</p>`
 
-article += html`<p>${amen}</p>`
+article += html`<p>${amen()}</p>`
 
 
 article += html`<p lang='en' class="annotation">

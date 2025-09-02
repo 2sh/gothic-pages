@@ -55,7 +55,7 @@ speech += html`<header>
 
 
 speech += html`<p>
-${speakerPriest}
+${speakerPriest()}
 ${[
     {
       text: {
@@ -67,13 +67,13 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${nowAndEver}
+${nowAndEver()}
 </p>`
 
 
 speech += html`<p>
-${speakerReader}
-${amen}
+${speakerReader()}
+${amen()}
 <br>
 ${[
     {
@@ -87,7 +87,7 @@ ${[
 </p>`
 
 speech += html`<p>
-${oHeavenlyKing}
+${oHeavenlyKing()}
 </p>`
 
 article += html`<div class="speech">${speech}</div>`
@@ -112,39 +112,39 @@ for thrice holy perhaps 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐍃 or 𐌸𐍂𐌹𐍆𐌰
 speech = ''
 
 speech += html`<p>
-${trisagion}
+${trisagion()}
 <br>
-${timesThree}
+${timesThree()}
 </p>`
-speech += html`<p>${gloryToTrinity}</p>`
-speech += html`<p>${allHolyTrinity}</p>`
+speech += html`<p>${gloryToTrinity()}</p>`
+speech += html`<p>${allHolyTrinity()}</p>`
 speech += html`<p>
-${lordHaveMercy}
-${timesThree}
+${lordHaveMercy()}
+${timesThree()}
 </p>`
-speech += html`<p>${gloryToTrinity}</p>`
-speech += html`<p>${lordsPrayer}</p>`
+speech += html`<p>${gloryToTrinity()}</p>`
+speech += html`<p>${lordsPrayer()}</p>`
 
 speech += html`<p>
-${speakerPriest}
-${forYoursIs}
+${speakerPriest()}
+${forYoursIs()}
 <br>
-${ofTrinity}
+${ofTrinity()}
 <br>
-${nowAndEver}
-</p>`
-
-speech += html`<p>
-${speakerReader}
-${amen}
+${nowAndEver()}
 </p>`
 
 speech += html`<p>
-${lordHaveMercy}
-${timesTwelve}
+${speakerReader()}
+${amen()}
 </p>`
-speech += html`<p>${gloryToTrinity}</p>`
-speech += html`<p>${oComeLetUsWorship}</p>`
+
+speech += html`<p>
+${lordHaveMercy()}
+${timesTwelve()}
+</p>`
+speech += html`<p>${gloryToTrinity()}</p>`
+speech += html`<p>${oComeLetUsWorship()}</p>`
 
 article += html`<div class="speech">${speech}</div>`
 

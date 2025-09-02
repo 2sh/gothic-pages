@@ -1,6 +1,6 @@
 import { html, toGothicLine } from "./tools"
 
-export const amen = toGothicLine({
+export const amen = () => toGothicLine({
   text: {
     got: 'Amen.',
     el: "ἀμήν.",
@@ -8,7 +8,7 @@ export const amen = toGothicLine({
   }
 })
 
-export const nowAndEver = toGothicLine({
+export const nowAndEver = () => toGothicLine({
   text: {
     got: 'jah nū jah áiw, jah ïn áiwins áiwe.',
     el: "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
@@ -20,7 +20,7 @@ Not using purely the line from 1 Timothy 1:17 as it mixes up
 from generation to generation and unto ages of ages.`
 })
 
-export const ofTrinity = toGothicLine({
+export const ofTrinity = () => toGothicLine({
   text: {
     got: 'Attins, jah Sunáus, jah Ahmins Weihis',
     el: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος",
@@ -29,7 +29,7 @@ export const ofTrinity = toGothicLine({
   notes: `Skeireins 5:2 attins jah sunaus`
 })
 
-export const toTrinity = toGothicLine({
+export const toTrinity = () => toGothicLine({
   text: {
     got: 'Attin, jah Sunáu, jah Ahmin Weihamma',
     el: "Πατρὶ καί Υιώ καί Αγίω Πνεύματι",
@@ -37,7 +37,7 @@ export const toTrinity = toGothicLine({
   }
 })
 
-export const letUsPrayToTheLord = toGothicLine({
+export const letUsPrayToTheLord = () => toGothicLine({
   text: {
     got: 'bidjáima Fráujan.',
     el: "τοῦ Κυρίου δεηθῶμεν.",
@@ -53,7 +53,7 @@ during liturgy, -𐌾𐌰𐌽 ending can be chanted similarly to -μεν
 so sticking 𐍆𐍂𐌰𐌿𐌾𐌰𐌽 at end`
 })
 
-export const lordHaveMercy = toGothicLine({
+export const lordHaveMercy = () => toGothicLine({
   text: {
     got: 'Fráuja, armái.',
     el: "Κύριε, ἐλέησον.",
@@ -62,7 +62,7 @@ export const lordHaveMercy = toGothicLine({
   notes: `Unsure if 𐌰𐍂𐌼𐌴𐌹 can be said without 𐌿𐌽𐍃𐌹𐍃, though don't see why not`
 })
 
-export const toYouOLord = toGothicLine({
+export const toYouOLord = () => toGothicLine({
   text: {
     got: '<[TODO]>',
     el: "Σοί, Κύριε.",
@@ -70,7 +70,7 @@ export const toYouOLord = toGothicLine({
   }
 })
 
-export const oHeavenlyKing = `
+export const oHeavenlyKing = () => `
 ${toGothicLine({
   text: {
     got: 'Þiudan himinakunda, Parakletáu, Ahma sunjos,',
@@ -120,7 +120,7 @@ ${toGothicLine({
   }
 })}`
 
-export const trisagion = toGothicLine({
+export const trisagion = () => toGothicLine({
   text: {
     got: 'Weiha Guþ, Weiha Mahteiga, Weiha Undiwana, armái unsis.',
     el: "Ἅγιος ὁ Θεός, Ἅγιος Ἰσχυρός, Ἅγιος Ἀθάνατος, ἐλέησον ἡμᾶς.",
@@ -132,7 +132,7 @@ export const trisagion = toGothicLine({
 weak adjective because vocative.`
 })
 
-export const timesThree = `<span class="notice">${toGothicLine({
+export const timesThree = () => `<span class="notice">${toGothicLine({
   text: {
     got: '(þrim sinþam)',
     el: "(εκ τρίτου)",
@@ -142,7 +142,7 @@ export const timesThree = `<span class="notice">${toGothicLine({
     `Seems to always be in the dative`
 })}</span>`
 
-export const timesTwelve = `<span class="notice">${toGothicLine({
+export const timesTwelve = () => `<span class="notice">${toGothicLine({
   text: {
     got: '(twalibim sinþam)',
     el: "(εκ τρίτου)",
@@ -150,7 +150,7 @@ export const timesTwelve = `<span class="notice">${toGothicLine({
   }
 })}</span>`
 
-export const gloryToTrinity = `
+export const gloryToTrinity = () => `
 ${toGothicLine({
   text: {
     got: 'Wulþus',
@@ -158,13 +158,13 @@ ${toGothicLine({
     en: "Glory",
   }
 })}
-${toTrinity}
+${toTrinity()}
 <br>
-${nowAndEver}
+${nowAndEver()}
 <br>
-${amen}`
+${amen()}`
 
-export const allHolyTrinity = `
+export const allHolyTrinity = () => `
 ${toGothicLine({
   text: {
     got: 'Allweiha Þrifalþei, armái unsis.',
@@ -217,7 +217,7 @@ ${toGothicLine({
 })}`
 
 // Directly from the Bible
-export const lordsPrayer = `
+export const lordsPrayer = () => `
 ${[
     {
       text: {
@@ -314,7 +314,7 @@ ${[
   ].map(toGothicLine).join('\n')}`
 
 
-export const forYoursIs = toGothicLine({
+export const forYoursIs = () => toGothicLine({
   text: {
     got: 'Unte þeina ïst þiudangardi jah mahts jah wulþus',
     el: "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα",
@@ -323,7 +323,7 @@ export const forYoursIs = toGothicLine({
   notes: `Line from Matthew 6:13`,
 })
 
-const oComeLetUsWorshipRep = toGothicLine({
+const oComeLetUsWorshipRep = () => toGothicLine({
   text: {
     got: 'Hiri, ïnweitáima jah driusáima',
     el: "Δεῦτε προσκυνήσωμεν καὶ προσπέσωμεν",
@@ -332,8 +332,8 @@ const oComeLetUsWorshipRep = toGothicLine({
   notes: "Matthew 9:18 𐌹̈𐌽𐍅𐌴𐌹𐍄𐌰𐌽; Mark 7:25 𐌳𐍂𐌰𐌿𐍃 𐌳𐌿",
 })
 
-export const oComeLetUsWorship = `
-${oComeLetUsWorshipRep}
+export const oComeLetUsWorship = () => `
+${oComeLetUsWorshipRep()}
 <br>
 ${toGothicLine({
   text: {
@@ -343,7 +343,7 @@ ${toGothicLine({
   }
 })}
 <br>
-${oComeLetUsWorshipRep}
+${oComeLetUsWorshipRep()}
 <br>
 ${toGothicLine({
   text: {
@@ -353,7 +353,7 @@ ${toGothicLine({
   }
 })}
 <br>
-${oComeLetUsWorshipRep}
+${oComeLetUsWorshipRep()}
 <br>
 ${toGothicLine({
   text: {
@@ -366,7 +366,7 @@ ${toGothicLine({
 
 const speakerMark = ':'
 
-export const speakerDeacon = html`<span class="speaker">${toGothicLine({
+export const speakerDeacon = () => html`<span class="speaker">${toGothicLine({
   text: {
     got: 'Diakaunus',
     el: "Ὁ Διάκονος",
@@ -374,7 +374,7 @@ export const speakerDeacon = html`<span class="speaker">${toGothicLine({
   }
 })}${speakerMark}</span>`
 
-export const speakerPriest = html`<span class="speaker">${toGothicLine({
+export const speakerPriest = () => html`<span class="speaker">${toGothicLine({
   text: {
     got: 'Gudja',
     el: "O Ἱερεύς",
@@ -383,7 +383,7 @@ export const speakerPriest = html`<span class="speaker">${toGothicLine({
   notes: '𐌲𐌿𐌳𐌾𐌰 Luke 5:14'
 })}${speakerMark}</span>`
 
-export const speakerReader = html`<span class="speaker">${toGothicLine({
+export const speakerReader = () => html`<span class="speaker">${toGothicLine({
   text: {
     got: 'Ussiggwands',
     el: "Αναγνώστης",
@@ -393,7 +393,7 @@ export const speakerReader = html`<span class="speaker">${toGothicLine({
     `ἀναγινώσκεις = ussiggwis Luke 10:26, ἀνέγνωτε= 𐌿𐍃𐍃𐌿𐌲𐌲𐍅𐌿𐌸 Mark 2:25, Mark 12:10`
 })}${speakerMark}</span>`
 
-export const speakerChoir = html`<span class="speaker">${toGothicLine({
+export const speakerChoir = () => html`<span class="speaker">${toGothicLine({
   text: {
     got: 'Liuþārjos',
     el: "O Χορός",

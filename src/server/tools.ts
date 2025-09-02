@@ -1,5 +1,3 @@
-import { fromLatin } from "@common/transliterate"
-
 import bbobHTML from '@bbob/html'
 import presetHTML5 from '@bbob/preset-html5'
 
@@ -9,7 +7,8 @@ import
   safeHtmlText,
   safeHtmlAttribute,
 } from '@common/tools'
-import { modernReplace } from "@common/article"
+import { modes } from "@common/article"
+import { ClientLineData, GothicLineData } from "@common/types"
 
 export
 {
@@ -17,11 +16,6 @@ export
   safeHtmlText,
   safeHtmlAttribute,
 } from '@common/tools'
-
-export type GothicLineData = {
-  text: {[lang: string]: string},
-  notes?: string
-}
 
 declare global {
   var lineId: number;
@@ -32,38 +26,34 @@ export function toGothicLine(data: GothicLineData)
 {
   global.lineId++
 
-  const htmlText = safeHtmlText(modernReplace(fromLatin(data.text.got)))
-  const attrData = safeHtmlAttribute(JSON.stringify(
-  {
+  const htmlText = modes.simple(data.text.got)
+  const info: ClientLineData = {
     id: global.lineId,
     text: data.text,
     notes: !data.notes ? undefined : bbobHTML(safeHtmlText(data.notes), presetHTML5())
-  }))
+  }
+  const attrLineInfo = safeHtmlAttribute(JSON.stringify(info))
 
   return html`<span
 id="L${global.lineId}"
 class="i-line"
-x-init="if($store.general.initLineId == 'L' + info.id) selectedLineInfo = info"
-x-data='{ info: ${attrData} }'
-@click="selectedLineInfo = info; $store.general.removeHash()"
-:class="{ 'line-selected': selectedLineInfo == info }"
-x-html="$store.general.modes[mode](info.text.got)"
->${htmlText} </span>`
+data-line='${attrLineInfo}'
+>${htmlText}</span>`
 }
 
-const htmlInfoBox = html`<template x-if="selectedLineInfo">
+const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
   <div id="info-box" lang='en'>
     <div id="info-box-inner">
       <div class="menu">
         <div>
           <a class='line-id'
-            :href="$store.general.getPath() + '#L' + selectedLineInfo.id.toString()"
-            x-text="'L' + selectedLineInfo.id.toString()"
+            :href="$store.general.getPath() + '#L' + $store.general.selectedLineInfo.id.toString()"
+            x-text="'L' + $store.general.selectedLineInfo.id.toString()"
             title="A Link to this line"></a>
         </div>
         <div>
           <button class='simple-text square'
-            @click="selectedLineInfo = null; $store.general.removeHash()">X</button>
+            @click="$store.general.selectedLineInfo = null; $store.general.removeHash()">X</button>
         </div>
       </div>
       <div id="info-box-content">
@@ -72,10 +62,10 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
           <div>
             <p class='title' x-text="$store.general.languageNames.of(lang)"></p>
             <template x-if="lang == 'got'">
-              <p lang='got' x-html="$store.general.modes[mode](selectedLineInfo.text[lang])"></p>
+              <p lang='got' x-html="$store.general.modes[$store.general.mode]($store.general.selectedLineInfo.text[lang])"></p>
             </template>
             <template x-if="lang != 'got'">
-              <p :lang='lang' x-text="selectedLineInfo.text[lang]"></p>
+              <p :lang='lang' x-text="$store.general.selectedLineInfo.text[lang]"></p>
             </template>
           </div>
           </template>
@@ -83,7 +73,7 @@ const htmlInfoBox = html`<template x-if="selectedLineInfo">
         <template x-if="selectedLineInfo.notes">
           <div>
             <p class='title'>Notes</p>
-            <template x-for="line in selectedLineInfo.notes.split('\n\n')">
+            <template x-for="line in $store.general.selectedLineInfo.notes.split('\n\n')">
               <p x-html="line"></p>
             </template>
           </div>
@@ -109,7 +99,7 @@ const darkModeButton = html`<button
   </template>
 </button>`
 
-const modeSelector = (includeModes: string[]) => html`<select x-model="mode">
+const modeSelector = (includeModes: string[]) => html`<select x-model="$store.general.mode">
   <option value="simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
   <option value="serif">𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</option>
   ${includeModes.includes("biblical") ? '<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐌼</option>' : ''}
@@ -153,13 +143,11 @@ export function createArticleBody(content: string, config: ConfigArticleBody)
 </a>`
 
   return html`<main x-data='{
-    selectedLineInfo: null,
-    mode: "simple",
     langs: ${langsString},
   }'
   :class='[
-    "mode-" + mode,
-    ...(selectedLineInfo !== null ? ["has-info-box"] : []),
+    "mode-" + $store.general.mode,
+    ...($store.general.selectedLineInfo !== null ? ["has-info-box"] : []),
   ]'>
   <div id="article-container">
     <article>
@@ -174,7 +162,7 @@ export function createArticleBody(content: string, config: ConfigArticleBody)
           </div>
         </div>
         <div id="article-content"
-          @click="e => {if(!e.target.classList.contains('i-line')) { selectedLineInfo = null; $store.general.removeHash() }}">
+          @click="e => {if(!e.target.classList.contains('i-line')) { $store.general.selectedLineInfo = null; $store.general.removeHash() }}">
           ${content}
         </div>
       </div>

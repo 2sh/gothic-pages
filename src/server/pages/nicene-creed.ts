@@ -440,7 +440,7 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`,
   },
 ].map(toGothicLine).join('')}</p>`
 
-article += html`<p>${amen}</p>`
+article += html`<p>${amen()}</p>`
 
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">The Nicene Creed / Symbol of Faith</span>

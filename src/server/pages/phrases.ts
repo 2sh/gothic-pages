@@ -44,7 +44,7 @@ article += html`<p lang='got'>${[
     notes: "1 Cor 5:4",
   },
 ].map(toGothicLine).join('')}
-${ofTrinity}</p>`
+${ofTrinity()}</p>`
 
 
 article += html`<p class="title">Jesus Prayer</p>`
@@ -65,7 +65,7 @@ article += html`<p class="title">Publican's prayer</p>`
 article += html`<p lang='got'>${[
   {
     text: {
-      got: 'Guþ, hulþs sijáis mis, frawaúrhtamma (frawaúrhtai)',
+      got: 'Guþ, hulþs sijáis mis, frawaúrhtamma (frawaúrhtái)',
       el: "ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ",
       en: "God be merciful to me a sinner",
     },
@@ -76,39 +76,66 @@ article += html`<p lang='got'>${[
 
 article += html`<p class="title">Words</p>`
 
-article += html`<p>Christian: <span lang='got'>${[
+article += html`<p>Some unattested words:</p>`
+
+article += html`<p>Christian (person): <span lang='got'>${[
   {
     text: {
-      got: 'Xristisks',
+      got: 'Xristjanus',
+      el: 'Χριστιανικός',
       en: "Christian",
     },
     notes:
-`Both an adjective for pertaining to Christ and a noun for the believer,
-with -isks suffix.`
+`Most languages seem to have adopted the Latin Christianus, including Greek.
+
+u/i-stem "Mischform" u-stem singular, plural: NG = i-stems, AD = u-stems.`
   },
 ].map(toGothicLine).join('')}</span></p>`
 
 article += html`<p>Christians: <span lang='got'>${[
   {
     text: {
-      got: 'Xristiskái',
+      got: 'Xristjanies',
+      el: "Χρῑστῐᾱνοί",
       en: "Christians",
     },
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Christian (adjective): <span lang='got'>${[
+  {
+    text: {
+      got: 'Xristjaneigs',
+      el: 'Χριστιανικός',
+      en: "Christian",
+    },
     notes:
-`Same as how fwnikisks is used. Male plural of -isks.`
+``
   },
 ].map(toGothicLine).join('')}</span></p>`
 
 article += html`<p>Christianity: <span lang='got'>${[
   {
     text: {
-      got: 'Xristiskei',
+      got: 'Xristjanei',
+      el: 'Χριστιανισμός',
       en: "Christianity",
     },
     notes:
 `-ei suffix with gamainei (fellowship, community) and apaustaulei
-(apostleship) has a -ship sense, and barniskei shows -isks and -ei
-go together.`
+(apostleship) has a -ship sense.`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Christendom: <span lang='got'>${[
+  {
+    text: {
+      got: 'Xristjaninassus',
+      el: 'Χριστιανοσύνη',
+      en: "Christendom",
+    },
+    notes:
+``
   },
 ].map(toGothicLine).join('')}</span></p>`
 
@@ -130,7 +157,7 @@ weak nouns keep -a- for the connecting vowel." -guthiharjis`
 article += html`<p>Catholic: <span lang='got'>${[
   {
     text: {
-      got: 'Kaþauleigs',
+      got: 'Kaþaúleigs',
       en: "Catholic",
     },
     notes:
@@ -143,22 +170,78 @@ similar to German Katholisch.`
 article += html`<p>Apostolic: <span lang='got'>${[
   {
     text: {
-      got: 'Apaustauleigs',
+      got: 'Apaústaúleigs',
       en: "Apostolic",
     },
     notes:
-`apaustaulus + eigs`
+`*apaustauleigs from apaustaul[us] + eigs`
   },
 ].map(toGothicLine).join('')}</span></p>`
 
 article += html`<p>Orthodox: <span lang='got'>${[
   {
     text: {
-      got: 'Aurþaudaukseins',
+      got: 'Aúrþaúdaúkseins',
+      el: "ὀρθόδοξος",
       en: "Orthodox",
     },
     notes:
-`*aurþaudaukseins from ὀρθόδοξ[ος] + eins following pistikeins, πιστικ[ός] + -eins`
+`*aurþaudaukseins from ὀρθόδοξ[ος] + eins, following pistikeins, πιστικ[ός] + -eins`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Orthodoxy: <span lang='got'>${[
+  {
+    text: {
+      got: 'Aúrþaúdaúksei',
+      el: "ὀρθοδοξία",
+      en: "Orthodoxy",
+    },
+    notes:
+`Greek -ία ending seems to equate to -ei, so *aurþaudauksei from ὀρθοδοξ[ία] + -ei`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Doxology: <span lang='got'>${[
+  {
+    text: {
+      got: 'Daúksaúlaúgei',
+      el: "Δοξολογία",
+      en: "Doxology",
+    },
+    notes:
+`Greek -ία ending seems to equate to -ei and x -> 𐌺𐍃 from 1 Timothy 1:20,
+so *dauksaulaugei`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>monastery: <span lang='got'>${[
+  {
+    text: {
+      got: 'maúnasterjo',
+      el: "μοναστήριον",
+      en: "monastery",
+    },
+    notes:
+`*maunasterjo (μοναστήριον), looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from
+εὐαγγέλιον also second declension. Gothic seems to go from the -ον ending
+if it's inanimate, and from -ός if it's animate.`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>monk: <span lang='got'>${[
+  {
+    text: {
+      got: 'maúnakus',
+      el: "μονᾰχός",
+      en: "monk",
+    },
+    notes:
+`Following the various eastern languages in descending from the Greek word for it,
+the Greek word also descending to Latin monachus which descends to
+Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
+
+χ turns into 𐌺 in most words from Greek.`
   },
 ].map(toGothicLine).join('')}</span></p>`
 

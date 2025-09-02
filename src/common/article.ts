@@ -1,3 +1,5 @@
+import { safeHtmlText } from "./tools"
+import { addSoftHyphens, fromLatin } from "./transliterate"
 
 export function modernReplace(text: string)
 {
@@ -26,4 +28,15 @@ export function addSigla(text: string)
 {
   return text
     .replace(/\*(.+?)\*/g, "<span class='sigla'><div class='mark'></div>$1</span>")
+}
+
+
+type ModeFunc = (text: string, config?: any) => string
+
+export const modes: {[key: string]: ModeFunc} = {
+  simple: t => safeHtmlText(modernReplace(fromLatin(t)) + ' '),
+  //serif: t => safeHtmlText(modernReplace(fromLatin(t, {preserveDiacritics: true})) + ' '),
+  serif: t => safeHtmlText(modernReplace(t) + ' '),
+  biblical: t => addSigla(safeHtmlText(biblicalReplace(fromLatin(addSoftHyphens(t))))),
+  latin: t => safeHtmlText(modernReplace(t)) + ' ',
 }

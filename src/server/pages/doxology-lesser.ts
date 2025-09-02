@@ -2,7 +2,6 @@ import { type RequestHandler } from "express"
 
 import
 {
-  type GothicLineData,
   html,
   safeHtmlText,
   createArticleBody,
@@ -24,19 +23,20 @@ import
 
 global.lineId = 0
 
-const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌹𐌰 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
+const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
 let article = ''
 
 
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Dauksaulaugia Leitils',
+    got: 'Dauksaulaugei Leitils',
     el: "Δοξολογία Μικρά",
     en: "Lesser Doxology",
   },
   notes:
-    `*dauksaulaugia, x -> 𐌺𐍃 from 1 Timothy 1:20. always ο = 𐌰𐌿?`,
+    `Greek -ία ending seems to equate to -ei and x -> 𐌺𐍃 from 1 Timothy 1:20,
+so *dauksaulaugei`,
 })}</h1>
 </header>`
 
@@ -275,7 +275,7 @@ Luke 3:22+ and Luke 1:32 have genitive apposition.`,
 ].map(toGothicLine).join('')}</p>`
 
 
-article += html`<p>${amen}</p>`
+article += html`<p>${amen()}</p>`
 
 
 article += html`<p>${[
@@ -503,7 +503,7 @@ article += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
-article += html`<p>${amen}</p>`
+article += html`<p>${amen()}</p>`
 
 
 article += html`<p>${[
@@ -651,11 +651,11 @@ ${[
     },
   ].map(toGothicLine).join('')}
 <br>
-${nowAndEver}
+${nowAndEver()}
 </p>`
 
 
-article += html`<p>${amen}</p>`
+article += html`<p>${amen()}</p>`
 
 
 article += html`<p lang='en' class="annotation">
