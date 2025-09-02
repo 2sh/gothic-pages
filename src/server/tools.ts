@@ -8,7 +8,7 @@ import
   safeHtmlAttribute,
 } from '@common/tools'
 import { modes } from "@common/article"
-import { ClientLineData, GothicLineData } from "@common/types"
+import { GothicLineData } from "@common/types"
 
 export
 {
@@ -27,18 +27,14 @@ export function toGothicLine(data: GothicLineData)
   global.lineId++
 
   const htmlText = modes.simple(data.text.got)
-  const info: ClientLineData = {
-    id: global.lineId,
+  const info: GothicLineData = {
     text: data.text,
     notes: !data.notes ? undefined : bbobHTML(safeHtmlText(data.notes), presetHTML5())
   }
   const attrLineInfo = safeHtmlAttribute(JSON.stringify(info))
 
-  return html`<span
-id="L${global.lineId}"
-class="i-line"
-data-line='${attrLineInfo}'
->${htmlText}</span>`
+  return html`<span id="L${global.lineId}" class="i-line"
+data-line='${attrLineInfo}'>${htmlText}</span>`
 }
 
 const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
@@ -47,8 +43,8 @@ const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
       <div class="menu">
         <div>
           <a class='line-id'
-            :href="$store.general.getPath() + '#L' + $store.general.selectedLineInfo.id.toString()"
-            x-text="'L' + $store.general.selectedLineInfo.id.toString()"
+            :href="$store.general.getPath() + '#L' + $store.general.selectedLineId.toString()"
+            x-text="'L' + $store.general.selectedLineId.toString()"
             title="A Link to this line"></a>
         </div>
         <div>
@@ -59,7 +55,7 @@ const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
       <div id="info-box-content">
         <div>
           <template x-for="lang in langs">
-          <div>
+          <div v-if="$store.general.selectedLineInfo.text[lang]">
             <p class='title' x-text="$store.general.languageNames.of(lang)"></p>
             <template x-if="lang == 'got'">
               <p lang='got' x-html="$store.general.modes[$store.general.mode]($store.general.selectedLineInfo.text[lang])"></p>
@@ -70,7 +66,7 @@ const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
           </div>
           </template>
         </div>
-        <template x-if="selectedLineInfo.notes">
+        <template x-if="$store.general.selectedLineInfo.notes">
           <div>
             <p class='title'>Notes</p>
             <template x-for="line in $store.general.selectedLineInfo.notes.split('\n\n')">

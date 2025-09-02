@@ -2,7 +2,7 @@ import Alpine from 'alpinejs'
 import persist from '@alpinejs/persist'
 
 import { modes } from '@common/article'
-import { ClientLineData } from '@common/types'
+import { GothicLineData } from '@common/types'
 
 Alpine.plugin(persist)
 
@@ -36,7 +36,8 @@ const general = Alpine.reactive({
   getPath,
   removeHash,
   mode: "simple",
-  selectedLineInfo: (() : (ClientLineData | null) => null)(),
+  selectedLineId: (() : (number | null) => null)(),
+  selectedLineInfo: (() : (GothicLineData | null) => null)(),
 })
 
 window.matchMedia('(prefers-color-scheme: dark)')
@@ -47,12 +48,27 @@ window.matchMedia('(prefers-color-scheme: dark)')
 
 Alpine.store("general", general)
 
+Alpine.effect(() =>
+{
+  if(general.selectedLineInfo === null) general.selectedLineId = null
+})
+
 const lines = document.querySelectorAll('[data-line]')
 for (const line of lines)
 {
-  const info: ClientLineData = JSON.parse(line.getAttribute('data-line') || '{}')
+  const info: GothicLineData =
+    JSON.parse(line.getAttribute('data-line') || 'null')
+  if (info === null) continue
+  const id = parseInt(line.id.match(/\d+/)![0])
 
-  if (initLineId == line.id) general.selectedLineInfo = info
+  function selectCurrentLine()
+  {
+    general.selectedLineInfo = info
+    general.selectedLineId = id
+    removeHash()
+  }
+
+  if (initLineId == line.id) selectCurrentLine()
 
   Alpine.effect(() =>
   {
@@ -61,16 +77,10 @@ for (const line of lines)
 
   Alpine.effect(() =>
   {
-    line.classList.toggle('line-selected',
-      general.selectedLineInfo !== null
-      && info.id == general.selectedLineInfo.id)
+    line.classList.toggle('line-selected', general.selectedLineId == id)
   })
 
-  line.addEventListener('click', () =>
-  {
-    general.selectedLineInfo = info
-    removeHash()
-  })
+  line.addEventListener('click', selectCurrentLine)
 }
 
 
