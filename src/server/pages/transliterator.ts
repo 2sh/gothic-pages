@@ -69,7 +69,7 @@ const page = html`<!doctype html>
     <title>${safeHtmlText(title)}</title>
   </head>
   <body>
-    ${createArticleBody(article)}
+    ${createArticleBody(article, { hasGothic: false })}
     <script type="module" src="scripts/transliterator.js"></script>
   </body>
 </html>`
