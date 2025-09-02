@@ -5,7 +5,6 @@ import
   createArticleBody,
   toGothicLine,
   articleHead,
-  createBody
 } from '@server/tools'
 import { amen } from "@server/lines"
 
@@ -276,7 +275,9 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, { langs: ['got', 'ru', 'en'] }))}
+    <body>
+      ${createArticleBody(article)}
+    </body>
 </html>`
 
 export default page

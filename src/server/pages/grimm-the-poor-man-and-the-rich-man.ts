@@ -5,7 +5,6 @@ import
   createArticleBody,
   toGothicLine,
   articleHead,
-  createBody
 } from '@server/tools'
 
 // https://www.grimmstories.com/de/grimm_maerchen/der_arme_und_der_reiche
@@ -352,7 +351,9 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, { langs: ['got', 'de', 'en'] }))}
+  <body>
+    ${createArticleBody(article)}
+  </body>
 </html>`
 
 export default page

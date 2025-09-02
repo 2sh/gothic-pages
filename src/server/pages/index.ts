@@ -1,4 +1,9 @@
-import { articleHead, createArticleBody, createBody, html, safeHtmlText } from "@server/tools"
+import {
+  articleHead,
+  createArticleBody,
+  html,
+  safeHtmlText
+} from "@server/tools"
 
 // notes about the skeireins: https://www.nthuleen.com/papers/755gothfinal.html
 
@@ -60,7 +65,9 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, { langs: ['en'], isHome: true }))}
+  <body>
+    ${createArticleBody(article, { hasGothic: false, isHome: true })}
+  </body>
 </html>`
 
 export default page

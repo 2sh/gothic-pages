@@ -37,7 +37,7 @@ export function toGothicLine(data: GothicLineData)
 data-line='${attrLineInfo}'>${htmlText}</span>`
 }
 
-const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
+const htmlInfoBox = html`<template x-data x-if="$store.general.selectedLineInfo">
   <div id="info-box" lang='en'>
     <div id="info-box-inner">
       <div class="menu">
@@ -49,19 +49,19 @@ const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
         </div>
         <div>
           <button class='simple-text square'
-            @click="$store.general.selectedLineInfo = null; $store.general.removeHash()">X</button>
+            @click="$store.general.selectedLineInfo = null">X</button>
         </div>
       </div>
       <div id="info-box-content">
         <div>
-          <template x-for="lang in langs">
-          <div v-if="$store.general.selectedLineInfo.text[lang]">
+          <template x-for='(text, lang) in $store.general.selectedLineInfo.text'>
+          <div>
             <p class='title' x-text="$store.general.languageNames.of(lang)"></p>
             <template x-if="lang == 'got'">
-              <p lang='got' x-html="$store.general.modes[$store.general.mode]($store.general.selectedLineInfo.text[lang])"></p>
+              <p lang='got' x-html="$store.general.modes[$store.general.mode](text)"></p>
             </template>
             <template x-if="lang != 'got'">
-              <p :lang='lang' x-text="$store.general.selectedLineInfo.text[lang]"></p>
+              <p :lang='lang' x-text="text"></p>
             </template>
           </div>
           </template>
@@ -81,7 +81,7 @@ const htmlInfoBox = html`<template x-if="$store.general.selectedLineInfo">
 
 // SVG icons taken from https://heroicons.com/mini
 
-const darkModeButton = html`<button
+const darkModeButton = html`<button x-data
   @click="$store.general.darkMode = !$store.general.darkMode">
   <template x-if='$store.general.darkMode'>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -95,42 +95,30 @@ const darkModeButton = html`<button
   </template>
 </button>`
 
-const modeSelector = (includeModes: string[]) => html`<select x-model="$store.general.mode">
+const modeSelector = (includeModes: string[]) => html`<select
+    x-data x-model="$store.general.mode">
   <option value="simple">𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
   <option value="serif">𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</option>
-  ${includeModes.includes("biblical") ? '<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐌼</option>' : ''}
+  ${includeModes.includes("biblical")
+    ? '<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐌼</option>'
+    : ''}
   <option value="latin">Lateins</option>
 </select>`
 
-export function createBody(content: string, classes?: string[])
-{
-  const classesString = safeHtmlAttribute(JSON.stringify(classes ? classes : []))
-
-  return html`<body x-data
-  :class='[
-    ...${classesString},
-    ...(!$store.general.darkMode ? ["light-mode"] : []),
-  ]'>
-  ${content}
-</body>`
-}
-
 type ConfigArticleBody = {
-  langs?: string[],
+  hasGothic?: boolean,
   includeModes?: string[],
   isHome?: boolean,
 }
 
-export function createArticleBody(content: string, config: ConfigArticleBody)
+export function createArticleBody(content: string, config?: ConfigArticleBody)
 {
   const conf: Required<ConfigArticleBody> = {
-    langs: ['got'],
+    hasGothic: true,
     includeModes: [],
     isHome: false,
     ...config
   }
-  const hasGothic = conf.langs.includes('got')
-  const langsString = safeHtmlAttribute(JSON.stringify(conf.langs))
 
   const homeButton = html`<a href=".">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -138,13 +126,7 @@ export function createArticleBody(content: string, config: ConfigArticleBody)
   </svg>
 </a>`
 
-  return html`<main x-data='{
-    langs: ${langsString},
-  }'
-  :class='[
-    "mode-" + $store.general.mode,
-    ...($store.general.selectedLineInfo !== null ? ["has-info-box"] : []),
-  ]'>
+  return html`<main>
   <div id="article-container">
     <article>
       <div id="article-inner">
@@ -154,17 +136,14 @@ export function createArticleBody(content: string, config: ConfigArticleBody)
           </div>
           <div>
             ${darkModeButton}
-            ${hasGothic ? modeSelector(conf.includeModes) : ''}
+            ${conf.hasGothic ? modeSelector(conf.includeModes) : ''}
           </div>
         </div>
-        <div id="article-content"
-          @click="e => {if(!e.target.classList.contains('i-line')) { $store.general.selectedLineInfo = null; $store.general.removeHash() }}">
-          ${content}
-        </div>
+        <div id="article-content" data-reset-area>${content}</div>
       </div>
     </article>
   </div>
-${hasGothic ? htmlInfoBox : ''}
+${conf.hasGothic ? htmlInfoBox : ''}
 </main>
 <script type="module" src="scripts/article.js"></script>`
 }

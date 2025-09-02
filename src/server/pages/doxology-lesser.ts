@@ -7,7 +7,6 @@ import
   createArticleBody,
   toGothicLine,
   articleHead,
-  createBody
 } from '@server/tools'
 
 import
@@ -670,7 +669,9 @@ const page = html`<!doctype html>
     ${articleHead}
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(createArticleBody(article, { langs: ['got', 'el', 'en'] }))}
+  <body>
+    ${createArticleBody(article)}
+  </body>
 </html>`
 
 export default page

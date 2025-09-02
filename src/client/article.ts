@@ -48,10 +48,42 @@ window.matchMedia('(prefers-color-scheme: dark)')
 
 Alpine.store("general", general)
 
+const body = document.body
 Alpine.effect(() =>
 {
-  if(general.selectedLineInfo === null) general.selectedLineId = null
+  if(general.selectedLineInfo === null)
+  {
+    general.selectedLineId = null
+    general.removeHash()
+  }
+  body.classList.toggle("has-info-box", general.selectedLineInfo !== null)
 })
+
+function setDarkMode()
+{
+  body.classList.toggle("light-mode", !general.darkMode)
+}
+Alpine.effect(setDarkMode)
+setDarkMode()
+
+Alpine.effect(() =>
+{
+  body.classList.forEach(cls => {if(cls.startsWith('mode-')) body.classList.remove(cls)})
+  body.classList.add("mode-" + general.mode)
+})
+
+const resetAreas = document.querySelectorAll('[data-reset-area]')
+for (const resetArea of resetAreas)
+{
+  resetArea.addEventListener('click', (e) =>
+  {
+    const target = e.target as HTMLButtonElement
+    if(!target.classList.contains('i-line'))
+    {
+      general.selectedLineInfo = null
+    }
+  })
+}
 
 const lines = document.querySelectorAll('[data-line]')
 for (const line of lines)
