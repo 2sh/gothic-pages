@@ -1,6 +1,5 @@
 import {
   articleHead,
-  createBody,
   createArticleBody,
   html,
   safeHtmlText
@@ -62,9 +61,6 @@ const article = html`<header>
   </div>
 </div>`
 
-const content = html`${createArticleBody(article, { langs: ['en'] })}
-  <script type="module" src="scripts/transliterator.js"></script>`
-
 const page = html`<!doctype html>
 <html lang="en">
   <head>
@@ -72,7 +68,10 @@ const page = html`<!doctype html>
     <link href="assets/styles/transliterator.css" rel="stylesheet">
     <title>${safeHtmlText(title)}</title>
   </head>
-  ${createBody(content)}
+  <body>
+    ${createArticleBody(article)}
+    <script type="module" src="scripts/transliterator.js"></script>
+  </body>
 </html>`
 
 export default page
