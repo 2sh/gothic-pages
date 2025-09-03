@@ -1,13 +1,13 @@
-import Alpine from 'alpinejs'
-import persist from '@alpinejs/persist'
-
 import { modes } from '@common/article'
 import { GothicLineData } from '@common/types'
 
-Alpine.plugin(persist)
+import { reactive } from '@arrow-js/core'
+import {
+  html,
+} from '@common/tools'
 
-// @ts-ignore
-window.Alpine = Alpine
+import { persist, tieInput } from './tools'
+
 
 const languageNames = new Intl.DisplayNames(['en'], {
   type: 'language'
@@ -26,64 +26,79 @@ function removeHash()
   history.pushState({}, '', getPath())
 }
 
-const general = Alpine.reactive({
-  languageNames,
-  darkMode: Alpine.$persist(
-    window.matchMedia
-    && window.matchMedia('(prefers-color-scheme: dark)').matches
-  ).as("dark_mode"),
-  modes,
-  getPath,
-  removeHash,
-  mode: "simple",
-  selectedLineId: (() : (number | null) => null)(),
-  selectedLineInfo: (() : (GothicLineData | null) => null)(),
-})
-
-window.matchMedia('(prefers-color-scheme: dark)')
-  .addEventListener('change', event => {
-    // @ts-ignore this works but the TS def isn't right
-    general.darkMode = !!event.matches;
-  });
-
-Alpine.store("general", general)
-
 const body = document.body
-Alpine.effect(() =>
-{
-  if(general.selectedLineInfo === null)
-  {
-    general.selectedLineId = null
-    general.removeHash()
-  }
-  body.classList.toggle("has-info-box", general.selectedLineInfo !== null)
-})
 
-function setDarkMode()
-{
-  body.classList.toggle("light-mode", !general.darkMode)
-}
-Alpine.effect(setDarkMode)
-setDarkMode()
+// Mode selection
 
-Alpine.effect(() =>
+const elInputMode = document.querySelector('[data-input-mode]') as HTMLInputElement
+const modeValue = tieInput(elInputMode)
+
+modeValue.$on('value', () =>
 {
   body.classList.forEach(cls => {if(cls.startsWith('mode-')) body.classList.remove(cls)})
-  body.classList.add("mode-" + general.mode)
+  if (modeValue.value !== modeValue.init) body.classList.add("mode-" + modeValue.value)
 })
 
-const resetAreas = document.querySelectorAll('[data-reset-area]')
-for (const resetArea of resetAreas)
+// Selected Line
+
+const selectedLine = reactive({
+  id: (() : (number | null) => null)(),
+  info: (() : (GothicLineData | null) => null)(),
+})
+
+// Info box creation
+
+const elInfoBoxId = document.querySelector('[data-info-box-id]') as HTMLAnchorElement
+const elInfoBoxContent = document.querySelector('[data-info-box-content]') as HTMLButtonElement
+
+function createInfoBox(info: GothicLineData)
 {
-  resetArea.addEventListener('click', (e) =>
-  {
-    const target = e.target as HTMLButtonElement
-    if(!target.classList.contains('i-line'))
-    {
-      general.selectedLineInfo = null
-    }
-  })
+  const textLines = Object.entries(info.text).map(([lang, line]) =>
+    html`<div>
+  <p class='title'>${languageNames.of(lang)}</p>
+  <p lang='${lang}'>${lang == 'got' ? modes[modeValue.value](line) : line}</p>
+</div>`).join('')
+
+  const notes = !info.notes ? '' : html`<div>
+  <p class='title'>Notes</p>
+  ${info.notes.split('\n\n').map(line => html`<p>${line}</p>`).join('')}
+</div>`
+
+  return html`<div>
+  <div>
+    ${textLines}
+  </div>
+  ${notes}
+</div>`
 }
+
+selectedLine.$on('info', () =>
+{
+  body.classList.toggle("has-info-box", selectedLine.info !== null)
+  if(selectedLine.info === null)
+  {
+    selectedLine.id = null
+    removeHash()
+    return
+  }
+
+  const lineId = 'L' + selectedLine.id
+  elInfoBoxId.textContent = lineId
+  elInfoBoxId.href = getPath() + "#" + lineId
+
+  elInfoBoxContent.innerHTML = createInfoBox(selectedLine.info)
+})
+
+// Info Box close button
+
+const elInfoBoxCloseButtons = document.querySelectorAll('[data-info-box-close]')
+for (const button of elInfoBoxCloseButtons)
+{
+  button.addEventListener('click', () => selectedLine.info = null)
+}
+
+
+// Lines
 
 const lines = document.querySelectorAll('[data-line]')
 for (const line of lines)
@@ -95,25 +110,61 @@ for (const line of lines)
 
   function selectCurrentLine()
   {
-    general.selectedLineInfo = info
-    general.selectedLineId = id
+    selectedLine.id = id
+    selectedLine.info = info
     removeHash()
   }
 
   if (initLineId == line.id) selectCurrentLine()
 
-  Alpine.effect(() =>
+  modeValue.$on('value', () =>
   {
-    line.innerHTML = modes[general.mode](info.text["got"])
+    line.innerHTML = modes[modeValue.value](info.text["got"])
   })
 
-  Alpine.effect(() =>
+  selectedLine.$on('id', () =>
   {
-    line.classList.toggle('line-selected', general.selectedLineId == id)
+    line.classList.toggle('line-selected', selectedLine.id == id)
   })
 
   line.addEventListener('click', selectCurrentLine)
 }
 
 
-Alpine.start()
+// Reset Area
+
+const resetAreas = document.querySelectorAll('[data-reset-area]')
+for (const resetArea of resetAreas)
+{
+  resetArea.addEventListener('click', (e) =>
+  {
+    const target = e.target as HTMLButtonElement
+    if(!target.classList.contains('i-line'))
+    {
+      selectedLine.info = null
+    }
+  })
+}
+
+// Dark Mode
+
+const darkMode = persist('dark_mode', window.matchMedia ?
+    window.matchMedia('(prefers-color-scheme: dark)').matches : true)
+
+window.matchMedia('(prefers-color-scheme: dark)')
+  .addEventListener('change', event => {
+    darkMode.value = !!event.matches;
+  });
+
+function setDarkMode()
+{
+  body.classList.toggle("light-mode", !darkMode.value)
+}
+darkMode.$on('value', setDarkMode)
+setDarkMode()
+
+const elDarkModeButtons = document.querySelectorAll('[data-dark-mode-button]')
+for (const button of elDarkModeButtons)
+{
+  button.addEventListener('click', () => darkMode.value = !darkMode.value)
+}

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@alpinejs/persist@^3.14.9":
-  version "3.14.9"
-  resolved "https://registry.yarnpkg.com/@alpinejs/persist/-/persist-3.14.9.tgz#12df7449b727b6f20469c40ac908265580cfef6f"
-  integrity sha512-Td9hWEUtFFguYCRjXhq06sDultW21wXUnVro7YWJm+vjGu/nV/v3hepOXyYVjkGvH/F+zjx5UkzWXXzr3UiQ/w==
+"@arrow-js/core@^1.0.0-alpha.10":
+  version "1.0.0-alpha.10"
+  resolved "https://registry.yarnpkg.com/@arrow-js/core/-/core-1.0.0-alpha.10.tgz#292cf870793e8f7b9349a13e6d5d863efe419c0d"
+  integrity sha512-UR+Hl6Wzw251OxUz1kBvIeSe9n/pwO16dlNmCPvHv0Z99hNoc2uEDMxyg2Q6oQ6YobZao7EZsw2simtoQWWFPg==
 
 "@bbob/core@*":
   version "4.2.0"
@@ -341,17 +341,10 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node20/-/node20-20.1.6.tgz#cdf11db8322e1c245d5a4bb2e398239c82ae78b2"
   integrity sha512-sz+Hqx9zwZDpZIV871WSbUzSqNIsXzghZydypnfgzPKLltVJfkINfUeTct31n/tTSa9ZE1ZOfKdRre1uHHquYQ==
 
-"@types/alpinejs@*", "@types/alpinejs@^3.13.11":
+"@types/alpinejs@^3.13.11":
   version "3.13.11"
   resolved "https://registry.yarnpkg.com/@types/alpinejs/-/alpinejs-3.13.11.tgz#ecf938c0f4678d617c77933961e9385e45ece148"
   integrity sha512-3KhGkDixCPiLdL3Z/ok1GxHwLxEWqQOKJccgaQL01wc0EVM2tCTaqlC3NIedmxAXkVzt/V6VTM8qPgnOHKJ1MA==
-
-"@types/alpinejs__persist@^3.13.4":
-  version "3.13.4"
-  resolved "https://registry.yarnpkg.com/@types/alpinejs__persist/-/alpinejs__persist-3.13.4.tgz#d4b5c78540c36dfd7adc1cadb87f54fece1d8187"
-  integrity sha512-H+cW7294EV5fGmIGD3BCJme54//KyWxZcP4uI9pk6W7fECR5hEwdO7j7wogz0o4vapS/kXiXiAjuqC9F+W0Vpw==
-  dependencies:
-    "@types/alpinejs" "*"
 
 "@types/body-parser@*":
   version "1.19.6"

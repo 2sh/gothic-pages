@@ -11,7 +11,7 @@
     "build": "rollup -c && tsx src/server/main.ts build && cp -r src/client/assets/ dist/"
   },
   "dependencies": {
-    "@alpinejs/persist": "^3.14.9",
+    "@arrow-js/core": "^1.0.0-alpha.10",
     "@bbob/html": "^4.2.0",
     "@bbob/preset-html5": "^4.2.0",
     "@root/walk": "^1.1.0",
@@ -25,7 +25,6 @@
     "@rollup/plugin-terser": "^0.4.4",
     "@tsconfig/node20": "^20.1.2",
     "@types/alpinejs": "^3.13.11",
-    "@types/alpinejs__persist": "^3.13.4",
     "@types/express": "^5.0.0",
     "@types/node": "^22.7.4",
     "glob": "^11.0.2",
