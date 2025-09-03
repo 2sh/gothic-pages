@@ -4,17 +4,20 @@ import { walk } from '@root/walk'
 import path from "path"
 import fs from 'fs'
 
-const pageOutput = 'dist'
 
 const mode = process.argv.length > 2
   ? process.argv[2] : 'dev'
+
+const pageOutput = mode == "build"
+  ? 'build'
+  : 'dev'
 
 const app = express()
 const server = require('http').Server(app)
 
 const port = 6001
 
-app.use('/scripts', express.static('dist/scripts'))
+app.use('/scripts', express.static('dev/scripts'))
 app.use('/assets', express.static('src/client/assets'))
 
 async function findPages(err: any, pathname: string, dirent: any)

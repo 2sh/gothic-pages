@@ -36,12 +36,14 @@ function serve() {
 export default {
   input: sync("./src/client/*.ts"),
   output: {
-    dir: 'dist/scripts',
+    dir: production
+      ? 'build/scripts'
+      : 'dev/scripts',
     format: 'es',
     chunkFileNames: '[hash].js',
   },
   plugins: [
-    del({ targets: 'dist' }),
+    !production && del('dev'),
     typescript({ tsconfigOverride: {
       compilerOptions:
       {

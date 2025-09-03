@@ -8,7 +8,11 @@
   "scripts": {
     "dev": "rollup -c -w",
     "dev:server": "nodemon src/server/main.ts -e ts",
-    "build": "rollup -c && tsx src/server/main.ts build && cp -r src/client/assets/ dist/"
+    "build": "yarn build:init && yarn build:js && yarn build:assets && yarn build:html",
+    "build:init": "rm -r build",
+    "build:js": "rollup -c",
+    "build:assets": "cp -r src/client/assets/ build/",
+    "build:html": "tsx src/server/main.ts build"
   },
   "dependencies": {
     "@bbob/html": "^4.2.0",
