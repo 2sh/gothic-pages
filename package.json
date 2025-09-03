@@ -6,12 +6,11 @@
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "dev": "nodemon src/server/main.ts -e ts",
-    "dev:client": "rollup -c -w",
+    "dev": "rollup -c -w",
+    "dev:server": "nodemon src/server/main.ts -e ts",
     "build": "rollup -c && tsx src/server/main.ts build && cp -r src/client/assets/ dist/"
   },
   "dependencies": {
-    "@arrow-js/core": "^1.0.0-alpha.10",
     "@bbob/html": "^4.2.0",
     "@bbob/preset-html5": "^4.2.0",
     "@root/walk": "^1.1.0",

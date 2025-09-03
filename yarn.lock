@@ -2,11 +2,6 @@
 # yarn lockfile v1
 
 
-"@arrow-js/core@^1.0.0-alpha.10":
-  version "1.0.0-alpha.10"
-  resolved "https://registry.yarnpkg.com/@arrow-js/core/-/core-1.0.0-alpha.10.tgz#292cf870793e8f7b9349a13e6d5d863efe419c0d"
-  integrity sha512-UR+Hl6Wzw251OxUz1kBvIeSe9n/pwO16dlNmCPvHv0Z99hNoc2uEDMxyg2Q6oQ6YobZao7EZsw2simtoQWWFPg==
-
 "@bbob/core@*":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@bbob/core/-/core-4.2.0.tgz#5e56cdbbc1988dc837842c9c34679bf36eabb5f5"
