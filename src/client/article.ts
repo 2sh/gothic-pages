@@ -1,12 +1,11 @@
 import { modes } from '@common/article'
 import { GothicLineData } from '@common/types'
 
-import { reactive } from '@arrow-js/core'
 import {
   html,
 } from '@common/tools'
 
-import { persist, tieInput } from './tools'
+import { persist, ref, tieInput } from './tools'
 
 
 const languageNames = new Intl.DisplayNames(['en'], {
@@ -31,20 +30,18 @@ const body = document.body
 // Mode selection
 
 const elInputMode = document.querySelector('[data-input-mode]') as HTMLInputElement
-const modeValue = tieInput(elInputMode)
+const modeValue = tieInput(elInputMode, ref(''))
 
-modeValue.$on('value', () =>
+modeValue.on(newValue =>
 {
   body.classList.forEach(cls => {if(cls.startsWith('mode-')) body.classList.remove(cls)})
-  if (modeValue.value !== modeValue.init) body.classList.add("mode-" + modeValue.value)
+  if (newValue !== modeValue.init) body.classList.add("mode-" + newValue)
 })
 
 // Selected Line
 
-const selectedLine = reactive({
-  id: (() : (number | null) => null)(),
-  info: (() : (GothicLineData | null) => null)(),
-})
+const selectedLineInfo = ref<GothicLineData | null>(null)
+let selectedLineId: number | null = null
 
 // Info box creation
 
@@ -72,21 +69,21 @@ function createInfoBox(info: GothicLineData)
 </div>`
 }
 
-selectedLine.$on('info', () =>
+selectedLineInfo.on(() =>
 {
-  body.classList.toggle("has-info-box", selectedLine.info !== null)
-  if(selectedLine.info === null)
+  body.classList.toggle("has-info-box", selectedLineInfo.value !== null)
+  if(selectedLineInfo.value === null)
   {
-    selectedLine.id = null
+    selectedLineId = null
     removeHash()
     return
   }
 
-  const lineId = 'L' + selectedLine.id
+  const lineId = 'L' + selectedLineId
   elInfoBoxId.textContent = lineId
   elInfoBoxId.href = getPath() + "#" + lineId
 
-  elInfoBoxContent.innerHTML = createInfoBox(selectedLine.info)
+  elInfoBoxContent.innerHTML = createInfoBox(selectedLineInfo.value)
 })
 
 // Info Box close button
@@ -94,7 +91,7 @@ selectedLine.$on('info', () =>
 const elInfoBoxCloseButtons = document.querySelectorAll('[data-info-box-close]')
 for (const button of elInfoBoxCloseButtons)
 {
-  button.addEventListener('click', () => selectedLine.info = null)
+  button.addEventListener('click', () => selectedLineInfo.value = null)
 }
 
 
@@ -110,21 +107,21 @@ for (const line of lines)
 
   function selectCurrentLine()
   {
-    selectedLine.id = id
-    selectedLine.info = info
+    selectedLineId = id
+    selectedLineInfo.value = info
     removeHash()
   }
 
   if (initLineId == line.id) selectCurrentLine()
 
-  modeValue.$on('value', () =>
+  modeValue.on(newValue =>
   {
-    line.innerHTML = modes[modeValue.value](info.text["got"])
+    line.innerHTML = modes[newValue](info.text["got"])
   })
 
-  selectedLine.$on('id', () =>
+  selectedLineInfo.on(() =>
   {
-    line.classList.toggle('line-selected', selectedLine.id == id)
+    line.classList.toggle('line-selected', selectedLineId == id)
   })
 
   line.addEventListener('click', selectCurrentLine)
@@ -141,15 +138,15 @@ for (const resetArea of resetAreas)
     const target = e.target as HTMLButtonElement
     if(!target.classList.contains('i-line'))
     {
-      selectedLine.info = null
+      selectedLineInfo.value = null
     }
   })
 }
 
 // Dark Mode
 
-const darkMode = persist('dark_mode', window.matchMedia ?
-    window.matchMedia('(prefers-color-scheme: dark)').matches : true)
+const darkMode = persist('dark_mode', ref(window.matchMedia ?
+    window.matchMedia('(prefers-color-scheme: dark)').matches : true))
 
 window.matchMedia('(prefers-color-scheme: dark)')
   .addEventListener('change', event => {
@@ -160,7 +157,7 @@ function setDarkMode()
 {
   body.classList.toggle("light-mode", !darkMode.value)
 }
-darkMode.$on('value', setDarkMode)
+darkMode.on(setDarkMode)
 setDarkMode()
 
 const elDarkModeButtons = document.querySelectorAll('[data-dark-mode-button]')

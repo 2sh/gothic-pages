@@ -26,10 +26,17 @@ export function toGothicLine(data: GothicLineData)
 {
   global.lineId++
 
+  for (const key in data.text)
+  {
+    data.text[key] = data.text[key].normalize('NFC')
+  }
+
   const htmlText = modes.simple(data.text.got)
   const info: GothicLineData = {
     text: data.text,
-    notes: !data.notes ? undefined : bbobHTML(safeHtmlText(data.notes), presetHTML5())
+    notes: !data.notes
+      ? undefined
+      : bbobHTML(safeHtmlText(data.notes.normalize('NFC')), presetHTML5())
   }
   const attrLineInfo = safeHtmlAttribute(JSON.stringify(info))
 

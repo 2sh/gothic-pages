@@ -1,43 +1,108 @@
-import { reactive } from "@arrow-js/core"
+type Subscriber<T> = (newValue: T, previousValue: T) => any
+
+type Ref<T> = {
+  value: T;
+  init: T;
+  on: (subscriber: Subscriber<T>) => boolean;
+  off: (subscriber: Subscriber<T>) => boolean;
+}
+
+export function ref<T>(initialValue: T): Ref<T>
+{
+  const subscribers: Subscriber<T>[] = []
+
+  function addSubscriber(subscriber: Subscriber<T>)
+  {
+    const index = subscribers.indexOf(subscriber)
+    if (index > -1)
+    {
+      return false // don't add if already in array
+    }
+    else
+    {
+      subscribers.push(subscriber)
+      return true
+    }
+  }
+
+  function removeSubscriber(subscriber: Subscriber<T>)
+  {
+    const index = subscribers.indexOf(subscriber)
+    if (index > -1)
+    {
+      subscribers.splice(index, 1)
+      return true
+    }
+    else
+    {
+      return false
+    }
+  }
+
+  return new Proxy({
+    value: initialValue,
+    init: initialValue,
+    on: addSubscriber,
+    off: removeSubscriber,
+  },
+  {
+    set(obj, prop, value: T)
+    {
+      if (prop == 'value')
+      {
+        const previousValue = obj[prop]
+        obj[prop] = value
+        const _subscribers = [...subscribers]
+        _subscribers.forEach(subscriber =>
+        {
+          if(subscriber(value, previousValue) === false)
+            removeSubscriber(subscriber)
+        })
+        return true
+      }
+      else
+      {
+        return false
+      }
+    }
+  })
+}
 
 export function tieInput(
   element: HTMLInputElement
     | HTMLSelectElement
     | HTMLTextAreaElement,
-  initValue?: string)
+  refValue: Ref<string>)
 {
-  const _initValue = initValue || element && element.value || ''
-  const value = reactive({ value: _initValue, init: _initValue })
   if (element)
   {
-    element.addEventListener('change', () => value.value = element.value)
-    value.$on('value', newValue => element.value = newValue)
+    if (element.value) refValue.value = element.value
+    element.addEventListener('change', () => refValue.value = element.value)
+    refValue.on(newValue => element.value = newValue)
   }
-  return value
+  return refValue
 }
 
-function parseStorageValue<O>(value: string | null, initValue: O)
+function setRefFromStorageValue<T>(refValue: Ref<T>, value: string | null)
 {
   if (value)
   {
     try
     {
-      return JSON.parse(value) as O
+      refValue.value = JSON.parse(value)
     }
     catch(e){}
   }
-  return initValue
 }
 
-export function persist<O>(key: string, initValue: O)
+export function persist<T>(key: string, refValue: Ref<T>)
 {
-  const _initValue = parseStorageValue(localStorage.getItem(key), initValue)
-  const proxy = reactive({ value: _initValue, init: _initValue })
+  setRefFromStorageValue(refValue, localStorage.getItem(key))
   addEventListener('storage', event =>
   {
-    //@ts-ignore
-    if(event.key == key) proxy.value = parseStorageValue(event.newValue, initValue)
+    if(event.key != key) return
+      setRefFromStorageValue(refValue, event.newValue)
   })
-  proxy.$on('value', newValue => localStorage.setItem(key, JSON.stringify(newValue)))
-  return proxy
+  refValue.on(newValue => localStorage.setItem(key, JSON.stringify(newValue)))
+  return refValue
 }
