@@ -84,7 +84,7 @@ selectedLineInfo.on(() =>
 
   elInfoBoxId.innerHTML = html`<a
     class='line-id'
-    title='A Link to this line'
+    lang='en' title='A Link to this line'
     href='${safeHtmlAttribute(getPath() + "#" + lineId)}'>${lineId}</a>`
 
   elInfoBoxContent.innerHTML = createInfoBox(selectedLineInfo.value)
