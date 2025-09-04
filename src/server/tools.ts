@@ -124,7 +124,7 @@ ${conf.hasGothic ? htmlInfoBox : ''}
 export function createArticleHeaders(title: string, description: string)
 {
   return html`<title>${safeHtmlText(title)}</title>
-<meta name="${safeHtmlAttribute(description)}">
+<meta name="description" content="${safeHtmlAttribute(description)}">
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
