@@ -364,7 +364,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'saei qaþ þaírh praufetuns;',
+      got: 'saei qaþ þaírh praúfetuns;',
       el: "τὸ λαλῆσαν διὰ τῶν προφητῶν·",
       en: "who spoke by the prophets.",
     },
@@ -383,7 +383,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'aikklesjon kaþauleigái jah apaustauleigái;',
+      got: 'aikklesjon kaþaúleigái jah apaústaúleigái;',
       el: "καθολικὴν καὶ ἀποστολικὴν ἐκκλησίαν·",
       en: "catholic and apostolic Church;",
     },

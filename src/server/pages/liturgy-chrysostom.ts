@@ -225,7 +225,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr gagudans jah Xristeinans Aurþaudaukseinans,',
+        got: 'Faúr gagudans jah Xristeinans Aúrþaúdaúkseinans,',
         el: "Ὑπὲρ τῶν εὐσεβῶν καὶ Ὀρθοδόξων Χριστιανῶν,",
         en: "For pious and Orthodox Christians,",
       },
