@@ -1,10 +1,9 @@
 import
 {
   html,
-  safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead,
+  createArticleHeaders,
 } from '@server/tools'
 
 import
@@ -59,11 +58,12 @@ article += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
+const description = "A test page with all the Gothic letters."
+
 const page = html`<!doctype html>
 <html lang="got">
   <head>
-    ${articleHead}
-    <title>${safeHtmlText(title)}</title>
+    ${createArticleHeaders(title, description)}
   </head>
   <body>
     ${createArticleBody(article)}
