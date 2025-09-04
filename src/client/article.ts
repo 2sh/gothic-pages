@@ -46,7 +46,7 @@ let selectedLineId: number | null = null
 // Info box creation
 
 const elInfoBoxId = document.querySelector('[data-info-box-id]') as HTMLAnchorElement
-const elInfoBoxContent = document.querySelector('[data-info-box-content]') as HTMLButtonElement
+const elInfoBoxContent = document.querySelector('[data-info-box-content]') as HTMLDivElement
 
 function createInfoBox(info: GothicLineData)
 {
