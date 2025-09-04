@@ -3,6 +3,7 @@ import { GothicLineData } from '@common/types'
 
 import {
   html,
+  safeHtmlAttribute,
 } from '@common/tools'
 
 import { persist, ref, tieInput } from './tools'
@@ -80,8 +81,11 @@ selectedLineInfo.on(() =>
   }
 
   const lineId = 'L' + selectedLineId
-  elInfoBoxId.textContent = lineId
-  elInfoBoxId.href = getPath() + "#" + lineId
+
+  elInfoBoxId.innerHTML = html`<a
+    class='line-id'
+    title='A Link to this line'
+    href='${safeHtmlAttribute(getPath() + "#" + lineId)}'>${lineId}</a>`
 
   elInfoBoxContent.innerHTML = createInfoBox(selectedLineInfo.value)
 })

@@ -62,7 +62,7 @@ const article = html`<header>
 <div>
   <h2>Other</h2>
   <div>
-    <p>Various other Gothic related things, <em>not by me</em>, but useful.</p>
+    <p>Various other Gothic related things, <em>not by me</em>, but useful and interesting.</p>
     <h3>Links</h3>
     <ul>
       <li><a href="https://gutanebokahus.wordpress.com/">Gutisk Bokahus</a> - Collection of works in Gothic</li>

@@ -47,11 +47,11 @@ data-line='${attrLineInfo}'>${htmlText}</span>`
 const htmlInfoBox = html`<div id="info-box" lang='en'>
   <div id="info-box-inner">
     <div class="menu">
-      <div>
-        <a class='line-id' data-info-box-id title="A Link to this line"></a>
+      <div data-info-box-id>
+
       </div>
       <div>
-        <button class='simple-text square' data-info-box-close>X</button>
+        <button class='simple-text square' title='Close the info box' data-info-box-close>X</button>
       </div>
     </div>
     <div id="info-box-content" data-info-box-content></div>
@@ -60,7 +60,7 @@ const htmlInfoBox = html`<div id="info-box" lang='en'>
 
 // SVG icons taken from https://heroicons.com/mini
 
-const darkModeButton = html`<button title='home' data-dark-mode-button>
+const darkModeButton = html`<button title='Change between dark and light mode' data-dark-mode-button>
   <svg class='light-mode-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
     <path d="M10 2a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 2ZM10 15a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 15ZM10 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM15.657 5.404a.75.75 0 1 0-1.06-1.06l-1.061 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM6.464 14.596a.75.75 0 1 0-1.06-1.06l-1.06 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM18 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 18 10ZM5 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 5 10ZM14.596 15.657a.75.75 0 0 0 1.06-1.06l-1.06-1.061a.75.75 0 1 0-1.06 1.06l1.06 1.06ZM5.404 6.464a.75.75 0 0 0 1.06-1.06l-1.06-1.06a.75.75 0 1 0-1.061 1.06l1.06 1.06Z" />
   </svg>
@@ -93,7 +93,7 @@ export function createArticleBody(content: string, config?: ConfigArticleBody)
     ...config
   }
 
-  const homeButton = html`<a href="https://2sh.me/gothic/">
+  const homeButton = html`<a href="https://2sh.me/gothic/" title='Home'>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
     <path fill-rule="evenodd" d="M9.293 2.293a1 1 0 0 1 1.414 0l7 7A1 1 0 0 1 17 11h-1v6a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6H3a1 1 0 0 1-.707-1.707l7-7Z" clip-rule="evenodd" />
   </svg>
@@ -124,7 +124,7 @@ ${conf.hasGothic ? htmlInfoBox : ''}
 export function createArticleHeaders(title: string, description: string)
 {
   return html`<title>${safeHtmlText(title)}</title>
-<meta name="description" content="${safeHtmlAttribute(description)}">
+<meta name="description" content='${safeHtmlAttribute(description)}'>
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
