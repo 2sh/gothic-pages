@@ -52,13 +52,13 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'Gawandida du Xristeinein þaírh Aipiskaupu Þaíaúfeilu Gutiskana,',
+      got: 'Gawandida du Xristeinein þaírh Aípiskaúpu Þaíaúfeilu Gutiskana,',
       en: "He converted to Christianity through the Gothic Bishop Theophilus,",
     },
   },
   {
     text: {
-      got: 'inliuhtjand uskunþa Gutþiudos jah gamainjan ïn Gafáurdái Frumistái Nikaias ïn 325,',
+      got: 'inliuhtjand uskunþa Gutþiudos jah gamáinjan ïn Gafáurdái Frumistái Nikaias ïn 325,',
       en: "a well-known enlightener of the Goths and a participant in the First Council of Nicaea in 325,",
     },
   },
@@ -121,7 +121,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "ïn þizai Aipiskaupus Wulfila arianisks, afarláista Aipiskaupaus Þaíaúfeilaus,",
+      got: "ïn þizai Aípiskaúpus Wulfila arianisks, afarláista Aípiskaúpaus Þaíaúfeilaus,",
       en: "during which arian Bishop Ulfilas, successor to Bishop Theophilus,",
     },
     notes: `afarlaistjan + galaista = afarláista "nachfolger"`
@@ -204,7 +204,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "bigat láibos seinos ïn naht jah brahta þos du Kilikia.",
+      got: "bigat láibos ïs ïn naht jah brahta þos du Kilikia.",
       en: "found his remains during the night and transferred them to Cilicia.",
     },
   },
@@ -216,10 +216,10 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Dails laibos was seiþs brāhts du maunasterjon Bisauki Detsani ïn Serbia.",
-      en: "Part of the relics were later transferred to the monastery of Visoki Dečani in Sairbia.",
+      got: "Dails láibo was seiþs brāhts du maúnasterjon Bisauki Detsani ïn Serbia.",
+      en: "A part of the relics was later transferred to the monastery of Visoki Dečani in Sairbia.",
     },
-    notes: `*maunasterjo (μοναστήριον) looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension`
+    notes: `*maúnasterjo (μοναστήριον) looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension`
   },
 ].map(toGothicLine).join('')}</p>`
 
