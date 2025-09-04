@@ -19,17 +19,17 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Mikilmartwr Niketa sa Guta',
+    got: 'Mikilmartwr Niketas sa Guta',
     en: "Great-Martyr Nicetas the Goth",
   },
-  notes: `Niketa (Nικήτας) following an-stem aiwaggēlista from εὐαγγελιστής also first declension`
+  notes: `Niketas (Nικήτας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem with s`
 },)}</h1>
 </header>`
 
 article += html`<p>${[
   {
     text: {
-      got: 'Weihs Niketa was guta gadraúhts',
+      got: 'Weihs Niketas was guta gadraúhts',
       en: "Saint Nicetas was a Goth warrior",
     },
   },
@@ -133,7 +133,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Weihs Niketa, þaírh merein jah libáin gaguda seina, naþ mikilaba faúr tulgiþa galáubeináis Xristeináizos ïn þaim gutam.",
+      got: "Weihs Niketas, þaírh merein jah libáin gaguda seina, naþ mikilaba faúr tulgiþa galáubeináis Xristeináizos ïn þaim gutam.",
       en: "Saint Nicetas, by his preaching and his pious life, greatly assisted the confirmation of the Christian faith among the Goths.",
     },
   },
@@ -160,7 +160,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Niketa, saei faþs ahmeins warþ ïn þaim gutam Xristeinam,",
+      got: "Niketas, saei faþs ahmeins warþ ïn þaim gutam Xristeinam,",
       en: "Nicetas, who had become a spiritual leader among the Christian Goths,",
     },
   },
@@ -190,7 +190,7 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: "Niketa was þan atgibans du balweinim unmanariggwáim jah und andi ïn fon atwaúrpans þarei gadáuþnoda at Saiptaimbair 15, 372.",
+      got: "Niketas was þan atgibans du balweinim unmanariggwáim jah und andi ïn fon atwaúrpans þarei gadáuþnoda at Saiptaimbair 15, 372.",
       en: "Nicetas was then given over to cruel tortures and, finally, was thrown into a fire where he died on September 15, 372.",
     },
     notes: `cast into fire Mark 9:22`
