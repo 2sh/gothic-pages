@@ -1,8 +1,7 @@
 import {
-  articleHead,
   createArticleBody,
+  createArticleHeaders,
   html,
-  safeHtmlText
 } from "@server/tools"
 
 const title = "Gothic Transliterator"
@@ -61,12 +60,13 @@ const article = html`<header>
   </div>
 </div>`
 
+const description = "A Gothic-Latin transliterator by 2sh."
+
 const page = html`<!doctype html>
-<html lang="en">
+<html lang="got">
   <head>
-    ${articleHead}
+    ${createArticleHeaders(title, description)}
     <link href="assets/styles/transliterator.css" rel="stylesheet">
-    <title>${safeHtmlText(title)}</title>
   </head>
   <body>
     ${createArticleBody(article, { hasGothic: false })}

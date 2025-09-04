@@ -1,19 +1,20 @@
 import {
-  articleHead,
   createArticleBody,
+  createArticleHeaders,
   html,
-  safeHtmlText
 } from "@server/tools"
 
 // notes about the skeireins: https://www.nthuleen.com/papers/755gothfinal.html
 
-const title = "Gothic Pages"
+const title = "2sh's Gothic Pages"
+
+const description = "A page with various Gothic language related stuff I've done."
 
 const article = html`<header>
   <h1>2sh's Gothic Pages</h1>
 </header>
 <div>
-  <p>A page with various Gothic language related stuff I've done.</p>
+  <p>${description}</p>
 </div>
 <div>
   <h2>Tools</h2>
@@ -44,7 +45,7 @@ const article = html`<header>
     </ul>
     <h4>Saints</h4>
     <ul>
-      <li><a href="nicetas-the-goth.html">Nicetas the Goth</a> (WIP)</li>
+      <li><a href="nicetas-the-goth.html">Nicetas the Goth</a> (Needs proofreading)</li>
     </ul>
     <h4>Other</h4>
     <ul>
@@ -57,13 +58,22 @@ const article = html`<header>
     </ul>
     <p>Feedback greatly appreciated!</p>
   </div>
+</div>
+<div>
+  <h2>Other</h2>
+  <div>
+    <p>Various other Gothic related things, <em>not by me</em>, but useful.</p>
+    <h3>Links</h3>
+    <ul>
+      <li><a href="https://gutanebokahus.wordpress.com/">Gutisk Bokahus</a> - Collection of works in Gothic</li>
+    </ul>
+  </div>
 </div>`
 
 const page = html`<!doctype html>
-<html lang="en">
+<html lang="got">
   <head>
-    ${articleHead}
-    <title>${safeHtmlText(title)}</title>
+    ${createArticleHeaders(title, description)}
   </head>
   <body>
     ${createArticleBody(article, { hasGothic: false, isHome: true })}

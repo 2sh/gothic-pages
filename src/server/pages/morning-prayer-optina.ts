@@ -1,10 +1,9 @@
 import
 {
   html,
-  safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead,
+  createArticleHeaders,
 } from '@server/tools'
 import { amen } from "@server/lines"
 
@@ -264,20 +263,21 @@ article += html`<p>${amen()}</p>`
 article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Morning Prayer</span>
 <span class="nowrap">of the Last Elders of Optina</span>
-<span class="nowrap">in the Gothic anguage,</span>
+<span class="nowrap">in the Gothic language,</span>
 <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
 </p>`
 
 
+const description = "The Morning Prayer of the Last Elders of Optina in the Gothic language, a translation by 2sh."
+
 const page = html`<!doctype html>
 <html lang="got">
   <head>
-    ${articleHead}
-    <title>${safeHtmlText(title)}</title>
+    ${createArticleHeaders(title, description)}
   </head>
-    <body>
-      ${createArticleBody(article)}
-    </body>
+  <body>
+    ${createArticleBody(article)}
+  </body>
 </html>`
 
 export default page

@@ -3,10 +3,9 @@ import { type RequestHandler } from "express"
 import
 {
   html,
-  safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead,
+  createArticleHeaders,
 } from '@server/tools'
 
 import
@@ -663,11 +662,12 @@ article += html`<p lang='en' class="annotation">
   <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
 </p>`
 
+const description = "The Lesser Doxology in the Gothic language, a translation by 2sh."
+
 const page = html`<!doctype html>
 <html lang="got">
   <head>
-    ${articleHead}
-    <title>${safeHtmlText(title)}</title>
+    ${createArticleHeaders(title, description)}
   </head>
   <body>
     ${createArticleBody(article)}

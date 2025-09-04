@@ -1,10 +1,9 @@
 import
 {
   html,
-  safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead,
+  createArticleHeaders,
 } from '@server/tools'
 
 import
@@ -183,11 +182,12 @@ article += html`<p lang='en' class="annotation">
 </p>`
 
 
+const description = "The Office of Small Compline in the Gothic language, a translation by 2sh."
+
 const page = html`<!doctype html>
 <html lang="got">
   <head>
-    ${articleHead}
-    <title>${safeHtmlText(title)}</title>
+    ${createArticleHeaders(title, description)}
   </head>
   <body>
     ${createArticleBody(article)}

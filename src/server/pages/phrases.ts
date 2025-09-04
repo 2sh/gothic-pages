@@ -1,10 +1,9 @@
 import
 {
   html,
-  safeHtmlText,
   createArticleBody,
   toGothicLine,
-  articleHead,
+  createArticleHeaders,
 } from '@server/tools'
 
 import
@@ -299,11 +298,13 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
   },
 ].map(toGothicLine).join('')}</span></p>`
 
+
+const description = "Various words and phrases"
+
 const page = html`<!doctype html>
-<html lang="en">
+<html lang="got">
   <head>
-    ${articleHead}
-    <title>${safeHtmlText(title)}</title>
+    ${createArticleHeaders(title, description)}
   </head>
   <body>
     ${createArticleBody(article)}

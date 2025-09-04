@@ -60,7 +60,7 @@ const htmlInfoBox = html`<div id="info-box" lang='en'>
 
 // SVG icons taken from https://heroicons.com/mini
 
-const darkModeButton = html`<button data-dark-mode-button>
+const darkModeButton = html`<button title='home' data-dark-mode-button>
   <svg class='light-mode-icon' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
     <path d="M10 2a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 2ZM10 15a.75.75 0 0 1 .75.75v1.5a.75.75 0 0 1-1.5 0v-1.5A.75.75 0 0 1 10 15ZM10 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6ZM15.657 5.404a.75.75 0 1 0-1.06-1.06l-1.061 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM6.464 14.596a.75.75 0 1 0-1.06-1.06l-1.06 1.06a.75.75 0 0 0 1.06 1.06l1.06-1.06ZM18 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 18 10ZM5 10a.75.75 0 0 1-.75.75h-1.5a.75.75 0 0 1 0-1.5h1.5A.75.75 0 0 1 5 10ZM14.596 15.657a.75.75 0 0 0 1.06-1.06l-1.06-1.061a.75.75 0 1 0-1.06 1.06l1.06 1.06ZM5.404 6.464a.75.75 0 0 0 1.06-1.06l-1.06-1.06a.75.75 0 1 0-1.061 1.06l1.06 1.06Z" />
   </svg>
@@ -69,7 +69,7 @@ const darkModeButton = html`<button data-dark-mode-button>
   </svg>
 </button>`
 
-const modeSelector = (includeModes: string[]) => html`<select data-input-mode>
+const modeSelector = (includeModes: string[]) => html`<select title='Change page style' data-input-mode>
   <option value="simple" selected>𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
   <option value="serif">𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</option>
   ${includeModes.includes("biblical")
@@ -121,7 +121,13 @@ ${conf.hasGothic ? htmlInfoBox : ''}
 <script type="module" src="scripts/article.js"></script>`
 }
 
-export const articleHead = html`<meta charset="UTF-8">
+export function createArticleHeaders(title: string, description: string)
+{
+  return html`<title>${safeHtmlText(title)}</title>
+<meta name="${safeHtmlAttribute(description)}">
+
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="assets/styles/main.css" rel="stylesheet">
 <link href="assets/styles/article.css" rel="stylesheet">`
+}
