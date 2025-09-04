@@ -77,64 +77,115 @@ article += html`<p class="title">Words</p>`
 
 article += html`<p>Some unattested words:</p>`
 
-article += html`<p>Christian (person): <span lang='got'>${[
+article += html`<p>Christian (noun): <span lang='got'>${[
   {
     text: {
-      got: 'Xristjanus',
+      got: 'Xristianus',
       el: 'Χριστιανικός',
       en: "Christian",
     },
     notes:
-`Most languages seem to have adopted the Latin Christianus, including Greek.
+`from χριστιανός, following Herodianus with 𐌹 instead of 𐌾.
+I think this is a likely word but perhaps more in a biblical context,
+word-for-word accuracy during translation.
 
 u/i-stem "Mischform" u-stem singular, plural: NG = i-stems, AD = u-stems.`
-  },
-].map(toGothicLine).join('')}</span></p>`
-
-article += html`<p>Christians: <span lang='got'>${[
-  {
-    text: {
-      got: 'Xristjanies',
-      el: "Χρῑστῐᾱνοί",
-      en: "Christians",
-    },
   },
 ].map(toGothicLine).join('')}</span></p>`
 
 article += html`<p>Christian (adjective): <span lang='got'>${[
   {
     text: {
-      got: 'Xristjaneigs',
-      el: 'Χριστιανικός',
+      got: 'Xristeins',
+      ang: 'Cristen',
+      non: 'Kristinn',
       en: "Christian",
     },
     notes:
-``
+`following OE Cristen and ON Kristinn (though calqued from OE) with suffixes from PGm *-īnaz, like -𐌴𐌹𐌽𐍃.
+Can be used nominalised probably.`
   },
 ].map(toGothicLine).join('')}</span></p>`
 
 article += html`<p>Christianity: <span lang='got'>${[
   {
     text: {
-      got: 'Xristjanei',
-      el: 'Χριστιανισμός',
+      got: 'Xristeinei',
+      non: 'Kristni',
       en: "Christianity",
     },
     notes:
-`-ei suffix with gamainei (fellowship, community) and apaustaulei
+`following ON Kristni with suffix from PGm -īnaz +-į̄, like -𐌴𐌹𐌽𐍃 + -𐌴𐌹.
+
+-ei suffix with gamainei (fellowship, community) and apaustaulei
 (apostleship) has a -ship sense.`
   },
 ].map(toGothicLine).join('')}</span></p>`
 
-article += html`<p>Christendom: <span lang='got'>${[
+article += html`<p>be (an image of) Christ, imitate Christ: <span lang='got'>${[
   {
     text: {
-      got: 'Xristjaninassus',
-      el: 'Χριστιανοσύνη',
+      got: 'Xristinon',
+    },
+    notes:
+`Perhaps a bit conlangy though`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Christendom, Christness: <span lang='got'>${[
+  {
+    text: {
+      got: 'Xristinassus',
+      ang: 'cristness',
       en: "Christendom",
     },
     notes:
-``
+`Feel like this one would have been likely.
+The -𐌹𐌽- in -𐌹𐌽𐌰𐍃𐍃𐌿𐍃 coming from -𐌹𐌽𐍉𐌽, it would build off 𐍇𐍂𐌹𐍃𐍄𐌹𐌽𐍉𐌽 nicely,
+but not necessarily: "Þiudinassus derived from þiudan-on ‘be king, rule’
+with  generalization of -inassus from nouns like fraujinassus".
+Also, OE has cristness and cristenness, so perhaps also 𐍇𐍂𐌹𐍃𐍄𐌴𐌹𐌽𐌰𐍃𐍃𐌿𐍃`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>Christ-like: <span lang='got'>${[
+  {
+    text: {
+      got: 'Xristleiks',
+      ang: 'cristlic',
+      en: "Christ-like",
+    },
+    notes:
+`If not with -𐌴𐌹𐌽𐍃, there's this one which feels quite likely to have
+been a word. Various modern Germanic langs have Christ-like for the
+adjective Christian. OE has cristlic ("man cristlíce"),
+and also crístenlic ("Folc crístinlic") so perhaps also 𐍇𐍂𐌹𐍃𐍄𐌴𐌹𐌽𐌻𐌴𐌹𐌺𐍃,
+depending on the emphasis.`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>christianise: <span lang='got'>${[
+  {
+    text: {
+      got: 'xristeinon',
+      ang: 'cristnian',
+      non: 'kristna',
+      en: "christianise",
+    },
+    notes:
+`Not sure how likely it would have been with -𐍉𐌽 instead of something
+with -𐌾𐌰𐌽, but following OE cristnian and ON kristna with suffixes
+from PGm -īnaz +-ōną, like -𐌴𐌹𐌽𐍃 + -𐍉𐌽`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
+article += html`<p>christianisation: <span lang='got'>${[
+  {
+    text: {
+      got: 'xristeinons',
+      en: "christianisation",
+    },
+    notes: ``
   },
 ].map(toGothicLine).join('')}</span></p>`
 
@@ -157,6 +208,7 @@ article += html`<p>Catholic: <span lang='got'>${[
   {
     text: {
       got: 'Kaþaúleigs',
+      el: 'κᾰθολῐκός',
       en: "Catholic",
     },
     notes:
@@ -170,6 +222,7 @@ article += html`<p>Apostolic: <span lang='got'>${[
   {
     text: {
       got: 'Apaústaúleigs',
+      el: 'ἀποστολῐκός',
       en: "Apostolic",
     },
     notes:

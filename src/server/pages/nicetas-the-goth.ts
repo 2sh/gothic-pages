@@ -52,7 +52,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'Gawandida du Xristjanein þaírh Aipiskaupu Þaíaúfeilu Gutiskana,',
+      got: 'Gawandida du Xristeinein þaírh Aipiskaupu Þaíaúfeilu Gutiskana,',
       en: "He converted to Christianity through the Gothic Bishop Theophilus,",
     },
   },
@@ -79,7 +79,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'unte sa andstandands háiþns usbráideinái Xristjaneins,',
+      got: 'unte sa andstandands háiþns usbráideinái Xristeineins,',
       en: "due the pagans opposing the spread of Christianity,",
     },
     notes: `Romans 13:2 andstandands + dative
@@ -91,7 +91,7 @@ Using -isks ending`
   },
   {
     text: {
-      got: 'þishun miþ Aþanareika, saei fijáida Xristjanjans,',
+      got: 'þishun miþ Aþanareika, saei fijáida Xristeinana,',
       en: "in particular between Athanaric, who hated Christians,",
     },
   },
@@ -115,7 +115,7 @@ Using -isks ending`
 article += html`<p>${[
   {
     text: {
-      got: "Afar sigis Friþigaírnis, sa gutans Xristjanjái nutun ƕeilos friþáus",
+      got: "Afar sigis Friþigaírnis, sa gutans Xristeinans nutun ƕeilos friþáus",
       en: "After Fritigern's victory the Christian Goths enjoyed a period of peace",
     },
   },
@@ -134,7 +134,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Weihs Niketa, þaírh merein jah libáin gaguda seina, naþ mikilaba faúr tulgiþa galáubeináis Xristianjáizos ïn þaim gutam.",
+      got: "Weihs Niketa, þaírh merein jah libáin gaguda seina, naþ mikilaba faúr tulgiþa galáubeináis Xristeináizos ïn þaim gutam.",
       en: "Saint Nicetas, by his preaching and his pious life, greatly assisted the confirmation of the Christian faith among the Goths.",
     },
   },
@@ -155,13 +155,13 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Swe dails toje seinis, raisida Aþanareiks wrakja sleidja wiþra þans Xristjanjans.",
+      got: "Swe dails toje seinis, raisida Aþanareiks wrakja sleidja wiþra þans Xristeinans.",
       en: "As part of his actions, Athanaric raised a fierce persecution against the Christians.",
     },
   },
   {
     text: {
-      got: "Niketa, saei faþs ahmeins warþ ïn þaim gutam Xristjanjáim,",
+      got: "Niketa, saei faþs ahmeins warþ ïn þaim gutam Xristeinam,",
       en: "Nicetas, who had become a spiritual leader among the Christian Goths,",
     },
   },
@@ -198,7 +198,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Frijonds Niketins, Xristjanus haitans Marianus,",
+      got: "Frijonds Niketins, Xristeins haitans Marianus,",
       en: "A friend of Nicetas, a Christian named Marianus,",
     },
   },
