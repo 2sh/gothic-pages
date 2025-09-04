@@ -57,7 +57,9 @@ const article = html`<header>
 <p>Various other Gothic related things, <em>not by me</em>, but useful and interesting.</p>
 <h3>Links</h3>
 <ul>
+  <li><a href="https://got.wikipedia.org/">Gothic Wikipedia</a></li>
   <li><a href="https://gutanebokahus.wordpress.com/">Gutisk Bokahus</a> - Collection of works in Gothic</li>
+  <li><a href="https://airushimmadaga.wordpress.com/">Himma Daga</a> - News in Gothic</li>
 </ul>`
 
 const page = html`<!doctype html>
