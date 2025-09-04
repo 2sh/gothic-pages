@@ -275,9 +275,11 @@ article += html`<p>monastery: <span lang='got'>${[
       en: "monastery",
     },
     notes:
-`*maunasterjo (μοναστήριον), looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from
+`*maúnasterjo (μοναστήριον), looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from
 εὐαγγέλιον also second declension. Gothic seems to go from the -ον ending
-if it's inanimate, and from -ός if it's animate.`
+if it's inanimate, and from -ός if it's animate.
+
+η seems to often turn into 𐌴 like in 𐍀𐍂𐌰𐌿𐍆𐌴𐍄𐌴𐍃 from προφήτης.`
   },
 ].map(toGothicLine).join('')}</span></p>`
 
