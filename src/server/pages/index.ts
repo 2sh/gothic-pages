@@ -20,13 +20,21 @@ const article = html`<header>
 <ul>
   <li><a href="transliterator.html">Transliterator</a></li>
   <li><a href="https://github.com/2sh/wulfilaverse/raw/refs/heads/master/wulfilaverse.user.js">WulfilaVerse</a> -
-  A Userscript which adds Wulfila.be verse links to BibleHub, but only if attested.
-  Useful for finding phrases or Greek words in BibleHub, immediately seeing if a verse is attested in Gothic and being presented with a Wulfila.be link when it is.</li>
+  A Userscript which adds <a href='https://www.wulfila.be/gothic/browse/'>Wulfila.be</a>
+  verse links to <a href="https://biblehub.com/">BibleHub</a>, but only if attested.
+  Useful for finding phrases or Greek words in BibleHub, immediately seeing if a verse
+  is attested in Gothic and being presented with a Wulfila.be link when it is.</li>
 </ul>
 
+
 <h2>Translations</h2>
-<p>Click on the lines on the pages to see notes.</p>
+<p>On the following pages, click on the lines to see translations and notes,
+and to see the Gothic text in the Latin alphabet,
+click the dropdown menu in the top right corner and select "Lateins".</p>
+
+
 <h3>Christian</h3>
+
 <h4>Liturgical</h4>
 <ul>
   <li><a href="nicene-creed.html">Nicene Creed</a></li>
@@ -34,18 +42,22 @@ const article = html`<header>
   <li><a href="compline-small.html">Office of Small Compline</a> (WIP)</li>
   <li><a href="liturgy-chrysostom.html">Liturgy of Saint John Chrysostom</a> (WIP)</li>
 </ul>
+
 <h4>Prayers</h4>
 <ul>
   <li><a href="morning-prayer-optina.html">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
 </ul>
+
 <h4>Saints</h4>
 <ul>
-  <li><a href="nicetas-the-goth.html">Nicetas the Goth</a> (Needs proofreading)</li>
+  <li><a href="nicetas-the-goth.html">Nicetas the Goth</a> (WIP)</li>
 </ul>
+
 <h4>Other</h4>
 <ul>
   <li><a href="phrases.html">Words & Phrases</a></li>
 </ul>
+
 <h3>Stories</h3>
 <ul>
   <li><a href="peter-rabbit.html">The Tale of Peter Rabbit</a> (WIP)</li>
@@ -53,8 +65,10 @@ const article = html`<header>
 </ul>
 <p>Feedback greatly appreciated!</p>
 
+
 <h2>Other</h2>
 <p>Various other Gothic related things, <em>not by me</em>, but useful and interesting.</p>
+
 <h3>Works</h3>
 <ul>
   <li><a href="https://got.wikipedia.org/">Gothic Wikipedia</a></li>
@@ -64,8 +78,11 @@ const article = html`<header>
 
 <h3>Resources</h3>
 <ul>
+  <li><a href="http://www.harbornet.com/folks/theedrich/hive/Medieval/Skeireins-Latin-English.htm">Skeireins translations</a></li>
+  <li><a href="https://www.koeblergerhard.de/gotwbhin.html">Gerhard Köbler's Gotisches Wörterbuch</a></li>
   <li><a href="https://www.nthuleen.com/papers/755gothpaper.html">Gothic Nominal Declension</a> - Variation in Proper Nouns</li>
 </ul>`
+
 
 const page = html`<!doctype html>
 <html lang="got">
