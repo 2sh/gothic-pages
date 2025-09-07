@@ -351,7 +351,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah ïn þáim all baúandane galáubeináize,',
+        got: 'jah ïn þáim all báuandane galáubeináize,',
         el: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
         en: "and for the faithful who live in them,",
       },
