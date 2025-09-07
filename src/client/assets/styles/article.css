@@ -142,6 +142,12 @@ article p
   text-indent: 1em;
 }
 
+article .poem p
+{
+  text-indent: 0;
+  text-align: center;
+}
+
 .mode-biblical article p:not([lang])
 {
   display: inline;

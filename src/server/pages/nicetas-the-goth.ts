@@ -257,8 +257,9 @@ article += html`<h2>${toGothicLine({
   notes: "Romans 15:9 dative without preposition"
 })}</h2>`
 
+let poem = ''
 
-article += html`<p>
+poem += html`<p>
 ${toGothicLine({
   text: {
     got: "Ïn allái þiudái, sa ïst ïnkunja sunjis,",
@@ -281,7 +282,7 @@ ${toGothicLine({
 })}
 </p>`
 
-article += html`<p>
+poem += html`<p>
 ${toGothicLine({
   text: {
     got: "Guta Aþanareiks miþ anamahtái reikinoda",
@@ -338,7 +339,7 @@ using galiugands to mean idolatrous`
 })}
 </p>`
 
-article += html`<p>
+poem += html`<p>
 ${toGothicLine({
   text: {
     got: "Weihs Niketa andstoþ þamma reik,",
@@ -375,7 +376,7 @@ ${toGothicLine({
 })}
 </p>`
 
-article += html`<p>
+poem += html`<p>
 ${toGothicLine({
   text: {
     got: "Bloþ ïs was swe riudands ūhtwons niujis,",
@@ -427,7 +428,7 @@ ${toGothicLine({
 })}
 </p>`
 
-article += html`<p>
+poem += html`<p>
 ${toGothicLine({
   text: {
     got: "Stibna þuthaúrnis gudis, Weiha Niketa,",
@@ -479,6 +480,8 @@ ${toGothicLine({
   notes: `Publican's prayer Luke 18:13`
 })}
 </p>`
+
+article += html`<div class='poem'>${poem}</div>`
 
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">Nicetas the Goth</span>
