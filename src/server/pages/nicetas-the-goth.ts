@@ -229,7 +229,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "bigat láibos ïs ïn naht jah brahta þos du Kilikia.",
+      got: "bigat láibos ïs ïn naht jah brahtah þos du Kilikia.",
       en: "found his remains during the night and transferred them to Cilicia.",
     },
   },
@@ -295,7 +295,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "jah galiugam ungawagjandam hunsla salida;",
+    got: "jah galiugam ungawagjandam sáudins salida;",
     sr: "Идолима мртвим жртве приношаше;",
     en: "and offered sacrifices to the inanimate idols;",
   },

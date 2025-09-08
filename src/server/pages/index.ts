@@ -51,6 +51,7 @@ click the dropdown menu in the top right corner and select "Lateins".</p>
 <h4>Saints</h4>
 <ul>
   <li><a href="nicetas-the-goth.html">Nicetas the Goth</a></li>
+  <li><a href="sabbas-the-goth.html">Sabbas the Goth</a> (WIP)</li>
 </ul>
 
 <h4>Other</h4>
@@ -69,18 +70,20 @@ click the dropdown menu in the top right corner and select "Lateins".</p>
 <h2>Other</h2>
 <p>Various other Gothic related things, <em>not by me</em>, but useful and interesting.</p>
 
+<h3>Resources</h3>
+<ul>
+  <li><a href="https://www.koeblergerhard.de/gotwbhin.html">Gerhard Köbler's Wörterbuch</a></li>
+  <li><a href="https://www.nthuleen.com/papers/755gothpaper.html">Proper Noun Declension</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Gothic_declension">Noun & Adjective Declension</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Gothic_verbs">Verb Conjugation</a></li>
+  <li><a href="http://www.harbornet.com/folks/theedrich/hive/Medieval/Skeireins-Latin-English.htm">Skeireins Translations</a></li>
+</ul>
+
 <h3>Works</h3>
 <ul>
   <li><a href="https://got.wikipedia.org/">Gothic Wikipedia</a></li>
   <li><a href="https://gutanebokahus.wordpress.com/">Gutisk Bokahus</a> - Collection of works in Gothic</li>
   <li><a href="https://airushimmadaga.wordpress.com/">Himma Daga</a> - News in Gothic</li>
-</ul>
-
-<h3>Resources</h3>
-<ul>
-  <li><a href="http://www.harbornet.com/folks/theedrich/hive/Medieval/Skeireins-Latin-English.htm">Skeireins translations</a></li>
-  <li><a href="https://www.koeblergerhard.de/gotwbhin.html">Gerhard Köbler's Gotisches Wörterbuch</a></li>
-  <li><a href="https://www.nthuleen.com/papers/755gothpaper.html">Gothic Nominal Declension</a> - Variation in Proper Nouns</li>
 </ul>`
 
 

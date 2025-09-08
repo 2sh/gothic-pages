@@ -51,6 +51,7 @@ export function ref<T>(initialValue: T): Ref<T>
       if (prop == 'value')
       {
         const previousValue = obj[prop]
+        if (previousValue === value) return true
         obj[prop] = value
         const _subscribers = [...subscribers]
         _subscribers.forEach(subscriber =>
@@ -76,7 +77,8 @@ export function tieInput(
 {
   if (element)
   {
-    if (element.value) refValue.value = element.value
+    if (refValue.value !== "") element.value = refValue.value
+    else if (element.value) refValue.value = element.value
     element.addEventListener('change', () => refValue.value = element.value)
     refValue.on(newValue => element.value = newValue)
   }

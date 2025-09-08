@@ -1,0 +1,251 @@
+import
+{
+  html,
+  createArticleBody,
+  toGothicLine,
+  createArticleHeaders,
+} from '@server/tools'
+
+
+// https://stjohndc.org/en/orthodoxy-foundation/saints/great-martyr-nicetas-goth
+// https://orthodoxwiki.org/Nikitas_the_Goth
+// https://molonlabe70.blogspot.com/2007/09/greatmartyr-nicetas-goth.html
+
+// https://pemptousia.com/2022/09/%ce%b1-goth-saint-the-holy-martyr-nikitas-15-september/
+// https://www.saintsophiadc.org/%CE%B1-goth-saint-the-holy-martyr-nikitas/
+
+// https://www.worldhistory.org/Athanaric/
+
+// another version: https://web.archive.org/web/20170502085631/http://westserbdio.org/en/prologue/633-september-15
+// in original Serbian: https://www.eparhija-prizren.org/prolog-09_15/
+
+global.lineId = 0
+
+const title = '𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂 𐍃𐌰𐌱𐌱𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰'
+let article = ''
+
+article += html`<header>
+  <h1>${toGothicLine({
+  text: {
+    got: 'Mikilmartwr Sabba sa Guta',
+    en: "Great-Martyr Sabbas the Goth",
+  },
+  notes: `Sabbas (Σάββας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem without -s as I can imagine it became the norm.`
+},)}</h1>
+</header>`
+
+article += html`<p>${[
+  {
+    text: {
+      got: 'Dags gamundáis: 15 April',
+      en: "Day of remembrance: 15 April",
+    },
+  },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
+  {
+    text: {
+      got: 'Was wrakja sleiþs wiþra Xristeinans hindar gutam.',
+      en: "There was a brutal persecution of Christians on the part of the Goths.",
+    },
+  },
+  {
+    text: {
+      got: 'Reiks gutisks sums qam háim, þarei sa Sabba gudafaúrhts báuáida,',
+      en: "A Gothic prince came to the village where this devout Sabbas lived,",
+    },
+  },
+  {
+    text: {
+      got: 'jah frah háimjans, Xristeins weseina.',
+      en: "and asked the villagers if there were any Christians there.",
+    },
+    notes: `háimja like gáuja`
+  },
+  {
+    text: {
+      got: 'Andhofun ïna swarands ei ni áinshun weseina.',
+      en: "They answered him on their honour that there were none.",
+    },
+  },
+  {
+    text: {
+      got: 'Þan stoþ Sabba faúr þana reik jah managein, qaþuh:',
+      en: "Then Sabbas stood before the Prince and the people, and said:",
+    },
+  },
+  {
+    text: {
+      got: '"Ni áinshun swerái aiþ ïn meina. Ïk ïm Xristeins."',
+      en: "'Let no-one swear an oath on my behalf. I am a Christian.'",
+    },
+  },
+  {
+    text: {
+      got: "Sa reiks, saiƕands þana wáinahan arm, laílot ïna gaggan ïn gawaírþja, qiþands:",
+      en: "The prince, seeing this poor wretch, let him go in peace, saying:",
+    },
+    notes: `"andbindiþ ina jah letiþ gaggan" John 11:44`
+  },
+  {
+    text: {
+      got: '"Sa mag ni ubilaba ni waila taujan."',
+      en: "'This one can do neither harm nor good.'",
+    },
+  },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
+  {
+    text: {
+      got: 'Afar jer biþe paska warþ, gudja, Sansala, qam ïn þizái háimái jah dulþida miþ Sabbin.',
+      en: "The next year, just at Easter, a priest, Sansal, came to the village and celebrated Easter with Sabbas.",
+    },
+    notes: `"biþe warþ dags" Luke 6:13
+
+In other places I see the name Sansalas, so going with the n-stem.
+Though I don't see an origin of the name so I wonder if it's perhaps a Gothic name
+with a different declension.`
+  },
+  {
+    text: {
+      got: 'Þái haiþnái finþandans anaks disdrusun báuáin Sabbins',
+      en: "the pagans, coming to hear of this, descended suddenly on Sabbas's house",
+    },
+    notes: `manageins finþandeins Luke 9:11`
+  },
+  {
+    text: {
+      got: 'jah ïnuh bleiþein anastodidedun mans Gudis du báutan,',
+      en: "and began to belabour the men of God without mercy,",
+    },
+  },
+  {
+    text: {
+      got: 'þan, biþe Sabba naqaþs þaírh þaúrnuns þunsans warþ,',
+      en: "then, having dragged Sabbas naked through thorns,",
+    },
+  },
+  {
+    text: {
+      got: 'gabundun þans bans bagmam jah sokidedun ïns mimz þatei galiugam gasaliþ was du ïtan nauþjan.',
+      en: "bound them both to trees and tried to force them to eat meat offered to idols.",
+    },
+    notes: `Seems to be using the dative without a preposition Corinthians I 7:27, Romans 7:2
+
+þans bans Ephesians 2:16
+
+"sought to arrest" by John 10:39, though perhaps "sought" is a greek-ism`
+  },
+  {
+    text: {
+      got: 'Ïþ mans Gudis, gamunandans wáurda apaústaúle,',
+      en: "But the men of God, remembering the Apostle's words,",
+    },
+    notes: ``
+  },
+  {
+    text: {
+      got: 'ni taitokeina þans sáudins gawammo unseljo.',
+      en: "would not touch the unclean, diabolical sacrifices.",
+    },
+  },
+  {
+    text: {
+      got: 'Sa reiks und andi gawargeiþ Sabbin dáuþáu jah atgibiþ ïna gadraúhtim.',
+      en: "The prince finally sentenced Sabbas to death and handed him over to the soldiers.",
+    },
+    notes: "gawargjand ina dauþau jah atgiband ina þiudom Mark 10:33"
+  },
+  {
+    text: {
+      got: 'Sabba ïddja du stada waúrstweins miþ swegniþái, hazjands Guþ.',
+      en: "Sabbas went to the place of execution full of joy, praising God.",
+    },
+  },
+  {
+    text: {
+      got: 'Bigitandans ïn ïmma mannan goþs, sokidedun þái gadraúhteis ïna ïn wiga galausjan',
+      en: "Recognising in him a good man, the soldiers sought to set him free on the way,",
+    },
+    notes: `in imma ni ainohun fairino bigat. John 19:4`
+  },
+  {
+    text: {
+      got: 'akei þata gaþraíh Sabbin mikilaba qaþuh þáim gadraúhtim',
+      en: "but Sabbas was greatly distressed by this and told the soldiers",
+    },
+  },
+  {
+    text: {
+      got: 'ei eis skuldedeina anabusn þis reikis gataujan.',
+      en: "that they were in duty bound to carry out the prince's command.",
+    },
+    notes: `skuldedum taujan. Luke 17:10`
+  },
+  {
+    text: {
+      got: 'Þan brāhtedun þái gadraúhteis ïna du aƕái,',
+      en: "Then the soldiers brought him to a river,",
+    },
+  },
+  {
+    text: {
+      got: 'gabundun hallu bi halsa ïs jah waúrpun ïna ïn watin.',
+      en: "tied a rock round his neck and threw him into the water.",
+    },
+  },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
+  {
+    text: {
+      got: 'Þanaseiþs harjatuga kreks Ionnius Soranus,',
+      en: "Later the Greek commander Ionnios Soranos,",
+    },
+  },
+  {
+    text: {
+      got: 'ïn erái kaisaris Balainis,',
+      en: "in the time of the Emperor Valens,",
+    },
+  },
+  {
+    text: {
+      got: 'bigat nau Sabbins ana staþa gawaurpanana ïn wigana miþ gutam jah atnam þana du Kappadaúkia.',
+      en: "found Sabbas's body, cast up onto the bank, during a war with the Goths and took it to Cappadocia.",
+    },
+  },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
+  {
+    text: {
+      got: 'Weihs Sabba gawann ïn 372, miþ 31 jere.',
+      en: "St Sabbas suffered in 372, at the age of 31. ",
+    },
+  },
+].map(toGothicLine).join('')}</p>`
+
+
+article += html`<p lang='en' class="annotation">
+  <span class="nowrap">Sabbas the Goth</span>
+  <span class="nowrap">in the Gothic language,</span>
+  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
+</p>`
+
+
+const description = "Sabbas the Goth in the Gothic language, a translation by 2sh."
+
+const page = html`<!doctype html>
+<html lang="got">
+  <head>
+    ${createArticleHeaders(title, description)}
+  </head>
+  <body>
+    ${createArticleBody(article)}
+  </body>
+</html>`
+
+export default page
