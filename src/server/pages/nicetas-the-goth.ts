@@ -398,7 +398,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Ïn fonin ingrimjamma, Niketa was branniþs,",
+    got: "Ïn fonin ingrimjamma, Niketa brann,",
     sr: "У страшном је огњу Никита горео",
     en: "In a dreadful fire, Nicetas was burning,",
   },
@@ -406,9 +406,9 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "ïþ und hina dag ni was gabranniþs.",
+    got: "ïþ und hina dag ni usbrann.",
     sr: "Али ни до данас није изгорео.",
-    en: "But to this day he hasn't burned out/up.",
+    en: "But to this day he hasn't burned out.",
   },
 })}
 <br>
