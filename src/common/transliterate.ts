@@ -113,22 +113,14 @@ function fromGothicNumerals(number: string)
   }, 0)
 }
 
-const d = '[0-9]'
-const p = '\\.'
-const g = ','
-const np = `${d}|${p}|${g}`
-
 const reArabicNumeral = new RegExp(
-    `(?<!${np})`
-  + `(${d}{1,3}(${g}${d}{3})*|(?<!${g})${d}+)(${p}${d}+)?`
-  + `(?!${np})`,
-  "gu")
+    `\\b(?<![,.])(\\d{1,3}(?:,\\d{3})+|\\d+)(?![,.]\\d)\\b`, "gu")
 
 const gd = `[${gothicDigits}]`
 const gs = ':'
 
 const reGothicNumeral = new RegExp(
-    `·(${gd}{1,3}(${gs}${gd}{3})*)·`,
+    `·(${gd}{1,3}(${gs}${gd}{1,3})*)·`,
   "gu")
 
 export type GeneralConfig = {
