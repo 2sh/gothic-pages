@@ -10,6 +10,7 @@ import {
 // https://www.oca.org/saints/lives/2017/03/26/100888-26-martyrs-in-the-crimea
 // https://en.wikipedia.org/wiki/Gothic_persecution_of_Christians
 // "The "26 Gothic martyrs" are commemorated in Orthodox Christianity on 26 March, but in the Gothic calendar fragment on 29 October (gaminþi marwtre þize bi Werekan papan jah Batwin bilaif. aikklesjons fullaizos ana Gutþiudai gabrannidai "remembrance of the martyrs who with Werekas the priest and Batwin the bilaif were burned in a crowded church among the Goths"). The same fragment for 23 October proscribes remembrance of "the many martyrs among the Gothic people, and of Fridaric" (þize ana Gutþiudai managaize martwre jah Friþareikeis), Fridaric being an otherwise unknown Gothic martyr."
+// Link from: https://www.wulfila.be/gothic/text/minora/Kalender.html
 
 const title = "2sh's Gothic Pages"
 

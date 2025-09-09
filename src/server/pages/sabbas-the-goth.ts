@@ -36,6 +36,16 @@ article += html`<p>${[
   },
 ].map(toGothicLine).join('')}</p>`
 
+article += html`  <h2>${toGothicLine({
+  text: {
+    got: 'Faúrawaúrdjis Aúkridiskis',
+    en: "From the Ochrid Prologue",
+  },
+  notes: `looking at andawaurdi`
+},)}</h2>`
+
+
+
 article += html`<p>${[
   {
     text: {
