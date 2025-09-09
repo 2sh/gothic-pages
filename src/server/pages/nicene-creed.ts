@@ -132,21 +132,31 @@ is preceded by a colon and this and the following is in nominative.`,
   },
   {
     text: {
-      got: 'gabaúrans, ni gatawiþs,',
+      got: 'gabaúrans, ni gaskapans,',
       el: "γεννηθέντα οὐ ποιηθέντα,",
       en: "begotten, not made,",
     },
-    notes: `using the words from previous lines`,
+    notes: `ποιητὴν (origin of "poet") and ποιηθέντα ("poetised") being related,
+using gaskapjan here.`,
   },
   {
     text: {
-      got: 'áinis wistaís miþ Attin,',
+      got: 'samawisteins Attin,',
       el: "ὁμοούσιον τῷ Πατρί,",
-      en: "of one substance with the Father,",
+      en: "consubstantial with the Father,",
     },
     notes:
-      `𐍃𐌰𐌼𐌰𐍅𐌹𐍃𐍄 is a nice 1:1 with ὁμοούσιον, except the Greek word is an adjective
-formed from a noun. Wondering if a suffix like 𐌴𐌹𐌽 could be added.
+`Using -eins "made of", as in, "(made) of the same substance/essence".
+The vagueness of it improves it as it makes you think and look up the meaning,
+instead of just accepting the simplicity of "of one substance/being".
+-al in consubstantial seems to equate somewhat to -eins:
+aiweins: eternal;
+ahmeins: spiritual;
+leikeins: corporeal, carnal;
+sunjeins: factual;
+
+Attins being in dative: oxford "4.41 Dative with adjectives" p146.
+Relevant example: ibnans aggilum (Lk 20:36) ‘equal to the angels’;
 
 There's 𐌹̈𐌱𐌽𐌰𐌻𐌴𐌹𐌺𐍃 from Skeireins 5 but unsure how it's used, the word parts
 (even-ly, eben-lich) are weird, and might not even be good to use as the
@@ -154,18 +164,25 @@ Skeireins is Arian (𐌽𐌹 𐌹̈𐌱𐌽𐌰𐌻𐌴𐌹𐌺𐌰).`,
   },
   {
     text: {
-      got: 'þaírh þamma all gaskapan warþ;',
+      got: 'þaírh þamma allata warþ;',
       el: "δι' οὗ τὰ πάντα ἐγένετο·",
       en: "by whom all things were made;",
     },
     notes: `line from 1 Cor 8:6, missing sadly.
 
-Mark 2:27 ἐγένετο seems to translate to 𐍅𐌰𐍂𐌸 𐌲𐌰𐍃𐌺𐌰𐍀𐌰𐌽𐍃 when talking about making
+πάντα regularly translated to either all or allata. Using allata as found in
+"all things are possible to him that believeth" Mark 9:23,
+"with God all things are possible" Mark 10:27,
+"remember me in all things" Corinthians I 11:2,
+"all things are for your sakes" Corinthians II 4:15,
+"fill all things" Ephesians 4:10.
+"allata" seems to reference "absolutely all things" more often,
+while "all" seems to be "all things" of a limited scope more often.
+Also, "allata wairþiþ" Matthew 5:18.
 
-𐌲𐌰𐍃𐌺𐌰𐍀𐌰𐌽 matching with 𐍃𐌺𐌰𐍀𐍃, same with the Greek then.
-
-"durch dem alles geschaffen wurde"
-`,
+Mark 2:27 ἐγένετο seems to often translate to just warþ to mean "came to pass",
+"all things (came to pass|became|happened)". It also translates to gaskapan warþ,
+though I like that it doesn't just include creation, but happenings/events too.`,
   },
 ].map(toGothicLine).join('')}</p>`
 
@@ -199,12 +216,13 @@ rain descended = atïddja dalaþ Matthew 7:25`,
     text: {
       got: 'jah leik warþ',
       el: "καὶ σαρκωθέντα",
-      en: "and was incarnate",
+      en: "and became flesh",
     },
-    notes: `John 1:14 not attested but σὰρξ ἐγένετο -> "became flesh/body"
-σὰρξ = 𐌻𐌴𐌹𐌺 John 6:54 mark 10:8;
-
-"became flesh" is in various translations`,
+    notes: `σὰρξ ἐγένετο "became flesh" John 1:14 not attested.
+Strangly, both σῶμα (body) and σὰρξ (flesh) translate very consistently
+to leik in the Bible.
+In context, leik in "leik warþ" would make more sense to mean flesh, so
+that's what I've gone with.`,
   },
   {
     text: {
@@ -312,7 +330,7 @@ required somewhere? perhaps before the come again)`,
   },
   {
     text: {
-      got: 'þizei þiudinassus ni habáiþ andi;',
+      got: 'þizei þiudinassus ni andi habáiþ;',
       el: "οὗ τῆς βασιλείας οὐκ ἔσται τέλος·",
       en: "whose kingdom shall have no end.",
     },
