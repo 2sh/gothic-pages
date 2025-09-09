@@ -51,7 +51,7 @@ click the dropdown menu in the top right corner and select "Lateins".</p>
 <h4>Saints</h4>
 <ul>
   <li><a href="nicetas-the-goth.html">Nicetas the Goth</a></li>
-  <li><a href="sabbas-the-goth.html">Sabbas the Goth</a> (WIP)</li>
+  <li><a href="sabbas-the-goth.html">Sabbas the Goth</a></li>
 </ul>
 
 <h4>Other</h4>
