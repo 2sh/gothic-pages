@@ -7,17 +7,10 @@ import
 } from '@server/tools'
 
 
-// https://stjohndc.org/en/orthodoxy-foundation/saints/great-martyr-nicetas-goth
-// https://orthodoxwiki.org/Nikitas_the_Goth
-// https://molonlabe70.blogspot.com/2007/09/greatmartyr-nicetas-goth.html
-
-// https://pemptousia.com/2022/09/%ce%b1-goth-saint-the-holy-martyr-nikitas-15-september/
-// https://www.saintsophiadc.org/%CE%B1-goth-saint-the-holy-martyr-nikitas/
-
-// https://www.worldhistory.org/Athanaric/
-
-// another version: https://web.archive.org/web/20170502085631/http://westserbdio.org/en/prologue/633-september-15
-// in original Serbian: https://www.eparhija-prizren.org/prolog-09_15/
+// https://www.orthodox.net/menaion-april/15-the-holy-martyr-sabbas-the-goth.html
+// https://orthodoxwiki.org/Sava_the_Goth
+// https://www.oca.org/saints/lives/2025/04/15/101105-martyr-savva-the-goth-of-wallachia
+// https://en.wikipedia.org/wiki/Sabbas_the_Goth
 
 global.lineId = 0
 

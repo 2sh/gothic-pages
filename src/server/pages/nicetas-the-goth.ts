@@ -19,6 +19,8 @@ import
 // another version: https://web.archive.org/web/20170502085631/http://westserbdio.org/en/prologue/633-september-15
 // in original Serbian: https://www.eparhija-prizren.org/prolog-09_15/
 
+// https://www.worldhistory.org/Athanaric/
+
 global.lineId = 0
 
 const title = '𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂 𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰'
