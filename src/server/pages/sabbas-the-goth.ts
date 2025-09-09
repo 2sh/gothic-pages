@@ -90,9 +90,10 @@ article += html`<p>${[
   },
   {
     text: {
-      got: '"Sa mag ni ubilaba ni waila taujan."',
+      got: '"Sa mag nih ubilaba nih waila taujan."',
       en: "'This one can do neither harm nor good.'",
     },
+    notes: `neither .. nor .. "nih hlaif matjands nih wein drigkands" Luke 7:33`
   },
 ].map(toGothicLine).join('')}</p>`
 
