@@ -39,7 +39,7 @@ article += html`<header>
 article += html`<p>${[
   {
     text: {
-      got: 'Dags gamundáis: 15 Saiptaimbair',
+      got: 'Dags gaminþjis: 15 Saiptaimbair',
       en: "Day of remembrance: 15 September",
     },
   },
@@ -398,7 +398,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Ïn fonin ingrimjamma, Niketa brann,",
+    got: "Ïn fonin ogjandin, Niketa brann,",
     sr: "У страшном је огњу Никита горео",
     en: "In a dreadful fire, Nicetas was burning,",
   },

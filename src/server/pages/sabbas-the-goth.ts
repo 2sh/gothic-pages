@@ -30,7 +30,7 @@ article += html`<header>
 article += html`<p>${[
   {
     text: {
-      got: 'Dags gamundáis: 15 April',
+      got: 'Dags gaminþjis: 15 April',
       en: "Day of remembrance: 15 April",
     },
   },
@@ -177,7 +177,7 @@ with a different declension.`
   },
   {
     text: {
-      got: 'akei þata gaþraíh Sabbin mikilaba qaþuh þáim gadraúhtim',
+      got: 'ïþ þata gaþraíh Sabbin mikilaba qaþuh þáim gadraúhtim',
       en: "but Sabbas was greatly distressed by this and told the soldiers",
     },
   },
