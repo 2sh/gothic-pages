@@ -27,7 +27,7 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: '26 Martwros Taurikas',
+    got: '26 Martyros Taurikas',
     en: "26 Martyrs in the Crimea",
   },
 },)}</h1>

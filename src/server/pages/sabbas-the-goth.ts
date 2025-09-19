@@ -20,7 +20,7 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Sabba sa Guta Mikilmartwr',
+    got: 'Sabba sa Guta Mikilmartyr',
     en: "Great-Martyr Sabbas the Goth",
   },
   notes: `Sabbas (Σάββας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem without -s as I can imagine it became the norm.`

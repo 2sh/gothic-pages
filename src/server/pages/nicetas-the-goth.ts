@@ -29,7 +29,7 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Niketa sa Guta Mikilmartwr',
+    got: 'Niketa sa Guta Mikilmartyr',
     en: "Great-Martyr Nicetas the Goth",
   },
   notes: `Niketa (Nικήτας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem without -s as I can imagine it became the norm.`
@@ -194,10 +194,10 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "anahaihait þans galaubeinans du fastan jah ni ogan martwrdauþana.",
+      got: "anahaihait þans galaubeinans du fastan jah ni ogan martyrdauþana.",
       en: "He called on the faithful to be firm and not to fear martyrdom.",
     },
-    notes: `martwrdauþs inspired from German Martyrertod`
+    notes: `martyrdauþs inspired from German Martyrertod`
   },
   {
     text: {
@@ -237,7 +237,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Þanaseiþs, fauratanja jah lekinassjus warþ faura laibom Niketins Martwris Weihis.",
+      got: "Þanaseiþs, fauratanja jah lekinassjus warþ faura laibom Niketins Martyris Weihis.",
       en: "From that time, miracles and healings have occurred before the relics of the holy Martyr Nicetas.",
     },
   },
@@ -442,7 +442,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "ïnkunja sunja, Martwr amala.",
+    got: "ïnkunja sunja, Martyr amala.",
     sr: "Мучениче храбри, прави родољубе,",
     en: "True patriot, brave martyr.",
   },
