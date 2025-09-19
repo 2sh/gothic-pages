@@ -442,7 +442,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "ïnkunja sunja, Martyr amala.",
+    got: "ïnkunja sunja, martyr amala.",
     sr: "Мучениче храбри, прави родољубе,",
     en: "True patriot, brave martyr.",
   },
