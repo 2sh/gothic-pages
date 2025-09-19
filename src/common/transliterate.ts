@@ -309,7 +309,7 @@ const latinIpa: RegExpMapping[] = [
 export function toIpa(text: string)
 {
   let out = text.toLowerCase()
-  out = addOptionalMacrons(text)
+  out = addSoftHyphens(out)
   out = out.replaceAll("\u00AD", ".")
   out = applyMapping(out, latinIpa)
   return out
