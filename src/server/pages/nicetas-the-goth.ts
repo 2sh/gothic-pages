@@ -23,13 +23,13 @@ import
 
 global.lineId = 0
 
-const title = '𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂 𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰'
+const title = '𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
 let article = ''
 
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Mikilmartwr Niketa sa Guta',
+    got: 'Niketa sa Guta Mikilmartwr',
     en: "Great-Martyr Nicetas the Goth",
   },
   notes: `Niketa (Nικήτας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem without -s as I can imagine it became the norm.`
@@ -48,7 +48,7 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Weihs Niketa was guta gabaurans',
+      got: 'Niketa Weihs was guta gabaurans',
       en: "Saint Nicetas was a Goth by birth",
     },
     notes: ``
@@ -71,7 +71,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'Gawandida du Xristeinein þairh Aipiskaupu Þaiaufeilu gutiskana,',
+      got: 'Gawandida du Xristeinein þairh Þaiaufeilu Aipiskaupu gutiskana,',
       en: "He converted to Christianity through the Gothic Bishop Theophilus,",
     },
   },
@@ -116,7 +116,7 @@ Using -isks ending`
   },
   {
     text: {
-      got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda kaisaris Balainis arianiskis,',
+      got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda Balainis kaisaris arianiskis,',
       en: "and Fritigern who revenged a defeat by Athanaric with the help of Arian emperor Valens,",
     },
     notes: `"Fritigern appears in the Latinized form Fritigernus. The Gothic name is reconstructed as *Frithugairns 'desiring peace'"
@@ -140,7 +140,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "ïn þizai Aipiskaupus Wulfila arianisks, afarlaista Aipiskaupaus Þaiaufeilaus,",
+      got: "ïn þizai Wulfila Aipiskaupus arianisks, afarlaista Þaiaufeilaus Aipiskaupaus,",
       en: "during which arian Bishop Ulfilas, successor to Bishop Theophilus,",
     },
     notes: `afarlaistjan + galaista = afarlaista "nachfolger"`
@@ -153,7 +153,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Weihs Niketa, þairh merein jah libain gaguda seina, naþ mikilaba faur tulgiþa galaubeinais Xristeinaizos ïn þaim gutam.",
+      got: "Niketa Weihs, þairh merein jah libain gaguda seina, naþ mikilaba faur tulgiþa galaubeinais Xristeinaizos ïn þaim gutam.",
       en: "Saint Nicetas, by his preaching and his pious life, greatly assisted the confirmation of the Christian faith among the Goths.",
     },
   },
@@ -237,7 +237,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Þanaseiþs, fauratanja jah lekinassjus warþ faura laibom Weihis Martwris Niketins.",
+      got: "Þanaseiþs, fauratanja jah lekinassjus warþ faura laibom Niketins Martwris Weihis.",
       en: "From that time, miracles and healings have occurred before the relics of the holy Martyr Nicetas.",
     },
   },
@@ -253,7 +253,7 @@ article += html`<p>${[
 
 article += html`<h2>${toGothicLine({
   text: {
-    got: 'Liuþ Weihamma Niketan',
+    got: 'Liuþ Niketan Weihamma',
     en: "Hymn to Saint Niketas",
   },
   notes: "Romans 15:9 dative without preposition"
@@ -306,7 +306,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Ïþ Weihs Niketa was gadrauhts Xristaus",
+    got: "Ïþ Niketa Weihs was gadrauhts Xristaus",
     sr: "А Никита свети, војник Христа Бога,",
     en: "But Saint Nicetas was a soldier of Christ",
   },
@@ -344,7 +344,7 @@ using galiugands to mean idolatrous`
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Weihs Niketa andstoþ þamma reik,",
+    got: "Niketa Weihs andstoþ þamma reik,",
     sr: "Никита се свети кнезу успротиви,",
     en: "Saint Nicetas stood against the prince",
   },
@@ -433,7 +433,7 @@ ${toGothicLine({
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Stibna þuthaurnis gudis, Weiha Niketa,",
+    got: "Stibna þuthaurnis gudis, Niketa Weiha,",
     sr: "О Никито свети, гласу Божје трубе,",
     en: "Voice of the trumpet of God, Saint Nikitas,",
   },

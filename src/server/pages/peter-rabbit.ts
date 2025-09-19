@@ -73,7 +73,7 @@ for foxes, it's only been attested in the bible in relation to foxes.
 article += html`<p>${[
   {
     text: {
-      got: '"NŪ, liubans meinai", qaþ Fraujo Hasa ïn ainamma maurgina,',
+      got: '"NŪ, liubans meinai", qaþ Hasa Fraujo ïn ainamma maurgina,',
       en: '"NOW, my dears", said old Mrs. Rabbit one morning,',
     },
     notes:
@@ -91,7 +91,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'ïþ gaggaiþ ïn aurtigard Fraujins Mkgraigaur.',
+      got: 'ïþ gaggaiþ ïn aurtigard Mkgraigaur Fraujins.',
       en: "but don’t go into Mr. McGregor’s garden.",
     },
   },
@@ -111,7 +111,7 @@ be it unto me 𐍅𐌰𐌹𐍂𐌸𐌰𐌹 𐌼𐌹𐍃 Luke 1:38.`
   },
   {
     text: {
-      got: 'ïs was ïn mat fram Fraujon Mkgraigaur galagiþs."',
+      got: 'ïs was ïn mat fram Mkgraigaur Fraujon galagiþs."',
       en: 'he was put in a pie by Mrs. McGregor."',
     },
     notes:
@@ -153,7 +153,7 @@ dwals: foolish, too close to dull perhaps, perhaps also somewhat insulting to us
   },
   {
     text: {
-      got: `Þan nam Fraujo Hasa tainjon jah rignskildu ïzos,`,
+      got: `Þan nam Hasa Fraujo tainjon jah rignskildu ïzos,`,
       en: `Then old Mrs. Rabbit took a basket and her umbrella,`,
     },
     notes:
@@ -189,7 +189,7 @@ most likely needs improving.`
 article += html`<p>${[
   {
     text: {
-      got: 'FLAUPSI, Maupsi jah Kauttaun-taieil, þaiei wesun godai leitilai hasans,',
+      got: 'FLAUPSI, Maupsi jah Kauttaun-taieil, þaiei wesun godai hasans leitilai,',
       en: `FLOPSY, Mopsy, and Cotton-tail, who were good little bunnies,`,
     },
   },
@@ -216,7 +216,7 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
   },
   {
     text: {
-      got: 'rann suns du aurtigard Fraujins Mkgraigaur,',
+      got: 'rann suns du aurtigard Mkgraigaur Fraujins,',
       en: `ran straight away to Mr. McGregor’s garden,`,
     },
   },
@@ -249,7 +249,7 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'AÞÞAN bi andja <[cucumber]> hramos, du ƕamma garann? Frauja Mkgraigaur!',
+      got: 'AÞÞAN bi andja <[cucumber]> hramos, du ƕamma garann? Mkgraigaur Frauja!',
       en: `BUT round the end of a cucumber frame, whom should he meet but Mr. McGregor!`,
     },
     notes:
@@ -265,7 +265,7 @@ but shouldn't be needed with the Gothic 𐌲𐌰𐍂𐌹𐌽𐌽𐌰𐌽, I thin
   },
   {
     text: {
-      got: 'Frauja Mkgraigaur was ana handum jah kniwam ïs ussatjands jugga <[cabbages]>,',
+      got: 'Mkgraigaur Frauja was ana handum jah kniwam ïs ussatjands jugga <[cabbages]>,',
       en: `Mr. McGregor was on his hands and knees planting out young cabbages,`,
     },
     notes:

@@ -204,7 +204,7 @@ en: `Go somewhere else for a lodging,"`
 },
 {
   text: {
-got: `þaþroh þan galauk augadauro ïs jah aflaílot þana liubana Guþ standandan.`,
+got: `þaþroh þan galauk augadauro ïs jah aflaílot þana Guþ liubana standandan.`,
 de: `Schlug damit sein Fenster zu und ließ den lieben Gott stehen.`,
 en: `and with this he shut down the window and left the Lord standing there."`
     },
@@ -265,7 +265,7 @@ Perhaps 𐌽𐌹𐌱𐌰𐌹 can be used here?
 },
 {
   text: {
-got: `Þatei leikaida þamma liubamma Guda, jah ïnnïddja du ïmma.`,
+got: `Þatei leikaida þamma Guda liubamma, jah ïnnïddja du ïmma.`,
 de: `Das gefiel dem lieben Gott, und er trat zu ihm ein.`,
 en: `This pleased the Lord, and he went in.`
     },

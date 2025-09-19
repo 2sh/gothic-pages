@@ -14,13 +14,13 @@ import
 
 global.lineId = 0
 
-const title = '𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂 𐍃𐌰𐌱𐌱𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰'
+const title = '𐍃𐌰𐌱𐌱𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
 let article = ''
 
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Mikilmartwr Sabba sa Guta',
+    got: 'Sabba sa Guta Mikilmartwr',
     en: "Great-Martyr Sabbas the Goth",
   },
   notes: `Sabbas (Σάββας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem without -s as I can imagine it became the norm.`
@@ -205,13 +205,13 @@ with a different declension.`
 article += html`<p>${[
   {
     text: {
-      got: 'Þanaseiþs harjatuga kreks Ionnius Soranus,',
+      got: 'Þanaseiþs Ionnius Soranus harjatuga kreks,',
       en: "Later the Greek commander Ionnios Soranos,",
     },
   },
   {
     text: {
-      got: 'ïn erai kaisaris Balainis,',
+      got: 'ïn erai Balainis kaisaris,',
       en: "in the time of the Emperor Valens,",
     },
   },
@@ -226,7 +226,7 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Weihs Sabba gawann ïn 372, miþ 31 jere.',
+      got: 'Sabba Weihs gawann ïn 372, miþ 31 jere.',
       en: "St Sabbas suffered in 372, at the age of 31. ",
     },
   },
