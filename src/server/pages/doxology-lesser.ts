@@ -179,7 +179,7 @@ ${[
 ${[
     {
       text: {
-        got: 'þu afnimand frawaurht manasedais,',
+        got: 'þū afnimand frawaurht manasedais,',
         el: "ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου,",
         en: "who take away the sin of the world,",
       },
@@ -203,7 +203,7 @@ afnima in Romans 11:27; world Mark 14:9`,
 ${[
     {
       text: {
-        got: 'þu afnimand frawaurhtins manasedais.',
+        got: 'þū afnimand frawaurhtins manasedais.',
         el: "ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου.",
         en: "you who take away the sins of the world.",
       },
@@ -224,7 +224,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'þuei sitaza af taihswon Attins,',
+      got: 'þūei sitaza af taihswon Attins,',
       el: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
       en: "you who sit at the right of the Father,",
     },
@@ -242,7 +242,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'Unte þu sa ains Weiha ïs,',
+      got: 'Unte þū sa ains Weiha ïs,',
       el: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
       en: "For you are the only Holy One,",
     },
@@ -253,7 +253,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'þu sa ains Frauja ïs, Ïesu Xristau,',
+      got: 'þū sa ains Frauja ïs, Ïesu Xristau,',
       el: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
       en: "you are the only Lord, Jesus Christ,",
     },
@@ -394,7 +394,7 @@ do the will John 6:38; do his will John 7:17
   },
   {
     text: {
-      got: 'unte þu ïs guþ meins.',
+      got: 'unte þū ïs guþ meins.',
       el: "ὅτι σὺ εἶ ὁ Θεός μου.",
       en: "for you are my God.",
     },

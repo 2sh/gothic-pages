@@ -450,7 +450,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Þu bilaist bauainins airþis,",
+    got: "Þū bilaist bauainins airþis,",
     sr: "Из шатора земних ти си отишао,",
     en: "You have left behind the dwelling-places of the earth",
   },

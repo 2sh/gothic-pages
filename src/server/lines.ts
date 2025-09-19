@@ -221,7 +221,7 @@ export const lordsPrayer = () => `
 ${[
     {
       text: {
-        got: 'Atta unsar þu ïn himinam,',
+        got: 'Atta unsar þū ïn himinam,',
         el: "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς,",
         en: "Our Father in heaven,",
       },
