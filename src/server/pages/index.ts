@@ -30,6 +30,15 @@ const article = html`<header>
 <p>On the following pages, click on the lines to see translations and notes,
 and to see the Gothic text in the Latin alphabet,
 click the dropdown menu in the top right corner and select "Lateins".</p>
+<p>In my Latin alphabet transcriptions, for native words,
+ai and au without diacritics are pronounced short (/ɛ/ and /ɔ/) before h, ƕ and r,
+and long (/ɛː/ and /ɔː/) otherwise.
+The diacritics then indicate the exceptional cases,
+aí and aú are short, and ái and áu long.
+For non-native words ai and au are always short unless marked otherwise.
+This way it's easier spot and learn the exceptional cases
+for when reading only in the Gothic alphabet.
+I also try to mark all cases of long a and u as ā and ū.</p>
 
 
 <h3>Christian</h3>
