@@ -226,7 +226,7 @@ that's what I've gone with.`,
   },
   {
     text: {
-      got: 'us Ahmin Weihamma jah Magaþai Mariïn,',
+      got: 'us Ahmin Weihamma jah Mariïn Magaþai,',
       el: "ἐκ Πνεύματος Ἁγίου καὶ Μαρίας τῆς παρθένου,",
       en: "from the Holy Spirit and the Virgin Mary",
     },
