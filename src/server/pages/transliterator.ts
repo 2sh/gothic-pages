@@ -22,6 +22,7 @@ const article = html`<header>
       <div class="group">
         <button @click='text = $store.gothic.fromLatin(text)'>To Gothic</button>
         <button @click='text = $store.gothic.toLatin(text)'>To Latin</button>
+        <button @click='text = $store.gothic.toIpa(text)' title='Native words only'>To IPA</button>
       </div>
       <div class="group">
         <button @click='text = $store.gothic.addDiaereses(text)'>Fix diaereses</button>

@@ -3,7 +3,8 @@ import {
   fromLatin,
   toLatin,
   addDiaereses,
-  removeDiacritics
+  removeDiacritics,
+  toIpa
 } from '@common/transliterate'
 
 // @ts-ignore
@@ -12,6 +13,7 @@ window.Alpine = Alpine
 const gothic = Alpine.reactive({
   fromLatin: (text: string) => fromLatin(text, gothic),
   toLatin: (text: string) => toLatin(text, gothic),
+  toIpa: (text: string) => toIpa(toLatin(text, gothic)),
   removeDiacritics,
   addDiaereses,
   capitalize: false,
