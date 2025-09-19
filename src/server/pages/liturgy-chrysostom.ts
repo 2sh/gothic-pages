@@ -42,7 +42,7 @@ and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.
 
 Gudisks seems to come after the noun (Skeireins 1:5)
 
-*Xrisaustaumus from Χρυσοστόμος, following declension of Alaíksandrus from Ἀλέξανδρος`
+*Xrisaustaumus from Χρυσοστόμος, following declension of Alaiksandrus from Ἀλέξανδρος`
 })}</h1>
 </header>`
 
@@ -90,7 +90,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Ïn gawaírþja,',
+        got: 'Ïn gawairþja,',
         el: "Ἐν εἰρήνῃ,",
         en: "In peace,",
       }
@@ -111,7 +111,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr gawaírþi ïupaþro',
+        got: 'Faur gawairþi ïupaþro',
         el: "Ὑπὲρ τῆς ἄνωθεν εἰρήνης",
         en: "For the peace from above",
       },
@@ -143,7 +143,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr gawaírþi alláizos manasedáis',
+        got: 'Faur gawairþi alláizos manasedáis',
         el: "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου",
         en: "For the peace of the whole world,",
       },
@@ -190,7 +190,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr hita weih razn',
+        got: 'Faur hita weih razn',
         el: "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου",
         en: "For this holy house",
       }
@@ -200,13 +200,13 @@ ${[
 ${[
     {
       text: {
-        got: 'jah ïn ïta miþ galáubeinái, áizái jah Gudis faúrhtein ïnngaggandans,',
+        got: 'jah ïn ïta miþ galáubeinái, áizái jah Gudis faurhtein ïnngaggandans,',
         el: "καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ,",
         en: "and for those who enter it with faith, reverence, and the fear of God,",
       },
       notes: `*𐌰𐌹𐌶𐌰𐌹 from pgmc aizo.
 
-God-fearing is gudafaúrhts.`
+God-fearing is gudafaurhts.`
     },
   ].map(toGothicLine).join('')}
 <br>
@@ -224,7 +224,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr gagudans jah Xristeinans Aúrþaúdaúkseinans,',
+        got: 'Faur gagudans jah Xristeinans Aurþaudaukseinans,',
         el: "Ὑπὲρ τῶν εὐσεβῶν καὶ Ὀρθοδόξων Χριστιανῶν,",
         en: "For pious and Orthodox Christians,",
       },
@@ -248,7 +248,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr <[TODO]>,',
+        got: 'Faur <[TODO]>,',
         el: "Ὑπὲρ τοῦ (ἀρχιερατικοῦ βαθμοῦ) ἡμῶν (τοῦ δεῖνος),",
         en: "For (episcopal rank) (name),",
       }
@@ -330,7 +330,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr hita baúrg,',
+        got: 'Faur hita baurg,',
         el: "Ὑπὲρ τῆς πόλεως ταύτης,",
         en: "For this city,",
       },
@@ -341,7 +341,7 @@ ${[
 ${[
     {
       text: {
-        got: 'all baúrge jah all lande,',
+        got: 'all baurge jah all lande,',
         el: "πάσης πόλεως, χώρας",
         en: "and for every city and land,",
       }
@@ -373,7 +373,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faúr goþ wiþr,',
+        got: 'Faur goþ wiþr,',
         el: "Ὑπὲρ εὐκρασίας ἀέρων,",
         en: "For favorable weather,",
       },

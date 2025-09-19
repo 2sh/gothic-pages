@@ -12,7 +12,7 @@ import
 } from '@server/lines'
 
 /*
-faúrrinnan (be a precursor, run before) could be used for john the forerunner
+faurrinnan (be a precursor, run before) could be used for john the forerunner
 
 ἱλάσθητί μοι  𐌲𐌿𐌸, 𐌷𐌿𐌻𐌸𐍃 𐍃𐌹𐌾𐌰𐌹𐍃 𐌼𐌹𐍃, 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌰𐌼𐌼𐌰
 ἐλέησόν με    𐌹̈𐌴𐍃𐌿, 𐍃𐌿𐌽𐌿 𐌳𐌰𐍅𐌴𐌹𐌳𐌹𐍃, 𐌰𐍂𐌼𐌰𐌹 𐌼𐌹𐌺
@@ -50,7 +50,7 @@ article += html`<p class="title">Jesus Prayer</p>`
 article += html`<p lang='got'>${[
   {
     text: {
-      got: 'Fráuja Ïesu Xristáu, Sunáu Gudis, armái mik frawaúrhtana (frawaúrhta)',
+      got: 'Frauja Ïesu Xristau, Sunau Gudis, armai mik frawaurhtana (frawaurhta)',
       el: "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)",
       en: "Lord Jesus Christ, Son of God, have mercy on me, a sinner",
     }
@@ -63,7 +63,7 @@ article += html`<p class="title">Publican's prayer</p>`
 article += html`<p lang='got'>${[
   {
     text: {
-      got: 'Guþ, hulþs sijáis mis, frawaúrhtamma (frawaúrhtái)',
+      got: 'Guþ, hulþs sijais mis, frawaurhtamma (frawaurhtai)',
       el: "ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ",
       en: "God be merciful to me a sinner",
     },
@@ -191,7 +191,7 @@ article += html`<p>christianisation: <span lang='got'>${[
 article += html`<p>Theotokos/God-bearer: <span lang='got'>${[
   {
     text: {
-      got: 'Gudabaírandei',
+      got: 'Gudabairandei',
       el: "Θεοτόκος",
       en: "Theotokos",
     },
@@ -206,7 +206,7 @@ weak nouns keep -a- for the connecting vowel." -guthiharjis`
 article += html`<p>Catholic: <span lang='got'>${[
   {
     text: {
-      got: 'Kaþaúleigs',
+      got: 'Kaþauleigs',
       el: 'κᾰθολῐκός',
       en: "Catholic",
     },
@@ -220,7 +220,7 @@ similar to German Katholisch.`
 article += html`<p>Apostolic: <span lang='got'>${[
   {
     text: {
-      got: 'Apaústaúleigs',
+      got: 'Apaustauleigs',
       el: 'ἀποστολῐκός',
       en: "Apostolic",
     },
@@ -232,7 +232,7 @@ article += html`<p>Apostolic: <span lang='got'>${[
 article += html`<p>Orthodox: <span lang='got'>${[
   {
     text: {
-      got: 'Aúrþaúdaúkseins',
+      got: 'Aurþaudaukseins',
       el: "ὀρθόδοξος",
       en: "Orthodox",
     },
@@ -244,7 +244,7 @@ article += html`<p>Orthodox: <span lang='got'>${[
 article += html`<p>Orthodoxy: <span lang='got'>${[
   {
     text: {
-      got: 'Aúrþaúdaúksei',
+      got: 'Aurþaudauksei',
       el: "ὀρθοδοξία",
       en: "Orthodoxy",
     },
@@ -256,7 +256,7 @@ article += html`<p>Orthodoxy: <span lang='got'>${[
 article += html`<p>Doxology: <span lang='got'>${[
   {
     text: {
-      got: 'Daúksaúlaúgei',
+      got: 'Dauksaulaugei',
       el: "Δοξολογία",
       en: "Doxology",
     },
@@ -269,12 +269,12 @@ so *dauksaulaugei`
 article += html`<p>monastery: <span lang='got'>${[
   {
     text: {
-      got: 'maúnasterjo',
+      got: 'maunasterjo',
       el: "μοναστήριον",
       en: "monastery",
     },
     notes:
-`*maúnasterjo (μοναστήριον), looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from
+`*maunasterjo (μοναστήριον), looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from
 εὐαγγέλιον also second declension. Gothic seems to go from the -ον ending
 if it's inanimate, and from -ός if it's animate.
 
@@ -285,7 +285,7 @@ if it's inanimate, and from -ός if it's animate.
 article += html`<p>monk: <span lang='got'>${[
   {
     text: {
-      got: 'maúnakus',
+      got: 'maunakus',
       el: "μονᾰχός",
       en: "monk",
     },

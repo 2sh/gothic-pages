@@ -55,35 +55,35 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'jah báuáida ïn fera áustramma Donaweis',
+      got: 'jah bauaida ïn fera austramma Donaweis',
       en: "and lived on the eastern side of the Danube River",
     },
-    notes: `*áustrs from PGm *austraz looking at attested snutrs from snutraz
+    notes: `*austrs from PGm *austraz looking at attested snutrs from snutraz
 
 *Donaweis taken from Neologisms from PGm *Dōnaujaz`
   },
   {
     text: {
-      got: 'ïn markái Dakios andwaírþis.',
+      got: 'ïn markai Dakios andwairþis.',
       en: "within the boundaries of present-day Romania.",
     },
     notes: `*Dakia taken from Neologisms for Romania`
   },
   {
     text: {
-      got: 'Gawandida du Xristeinein þaírh Aípiskaúpu Þaíaúfeilu gutiskana,',
+      got: 'Gawandida du Xristeinein þairh Aipiskaupu Þaiaufeilu gutiskana,',
       en: "He converted to Christianity through the Gothic Bishop Theophilus,",
     },
   },
   {
     text: {
-      got: 'inliuhtjand uskunþa gutþiudos jah gamáinjan ïn Gafáurdái Frumistái Nikaias ïn 325,',
+      got: 'inliuhtjand uskunþa gutþiudos jah gamainjan ïn Gafáurdai Frumistai Nikaias ïn 325,',
       en: "a well-known enlightener of the Goths and a participant in the First Council of Nicaea in 325,",
     },
   },
   {
     text: {
-      got: 'saei jah dáupida Niketan.',
+      got: 'saei jah daupida Niketan.',
       en: "who also had baptized Nicetas.",
     },
   },
@@ -92,31 +92,31 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Ïnuh þizai mela was draúhtinassus ïn þaim gutam,',
+      got: 'Ïnuh þizai mela was drauhtinassus ïn þaim gutam,',
       en: "At the time there was [internecine] warfare among the Goths",
     },
   },
   {
     text: {
-      got: 'unte háiþnos andstandandans usbráideinái Xristeineins,',
+      got: 'unte haiþnos andstandandans usbraideinai Xristeineins,',
       en: "due the pagans opposing the spread of Christianity,",
     },
     notes: `Romans 13:2 andstandands + dative
 
-usbráidjan + eins
+usbraidjan + eins
 
 Word for Christianity taken from here [url=https://got.wikipedia.org/wiki/%F0%90%8C%B9%F0%90%8C%B4%F0%90%8D%83%F0%90%8C%BF%F0%90%8D%83_%F0%90%8D%87%F0%90%8D%82%F0%90%8C%B9%F0%90%8D%83%F0%90%8D%84%F0%90%8C%BF%F0%90%8D%83]here[/url]
 Using -isks ending`
   },
   {
     text: {
-      got: 'þishun Aþanareikis, saei fijáida Xristeinana,',
+      got: 'þishun Aþanareikis, saei fijaida Xristeinana,',
       en: "in particular between Athanaric, who hated Christians,",
     },
   },
   {
     text: {
-      got: 'jah Friþigaírnis saei afar gabláuþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda kaisaris Balainis arianiskis,',
+      got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda kaisaris Balainis arianiskis,',
       en: "and Fritigern who revenged a defeat by Athanaric with the help of Arian emperor Valens,",
     },
     notes: `"Fritigern appears in the Latinized form Fritigernus. The Gothic name is reconstructed as *Frithugairns 'desiring peace'"
@@ -125,7 +125,7 @@ Using -isks ending`
   },
   {
     text: {
-      got: 'gabáidjands Aþanareik du afleiþan faírra landa.',
+      got: 'gabaidjands Aþanareik du afleiþan fairra landa.',
       en: "forcing Athanaric into exile.",
     },
   },
@@ -134,16 +134,16 @@ Using -isks ending`
 article += html`<p>${[
   {
     text: {
-      got: "Afar sigis Friþigaírnis, sa gutans Xristeinans nutun ƕeilos friþáus",
+      got: "Afar sigis Friþigairnis, sa gutans Xristeinans nutun ƕeilos friþaus",
       en: "After Fritigern's victory the Christian Goths enjoyed a period of peace",
     },
   },
   {
     text: {
-      got: "ïn þizái Aípiskaúpus Wulfila arianisks, afarláista Aípiskaúpaus Þaíaúfeilaus,",
+      got: "ïn þizai Aipiskaupus Wulfila arianisks, afarlaista Aipiskaupaus Þaiaufeilaus,",
       en: "during which arian Bishop Ulfilas, successor to Bishop Theophilus,",
     },
-    notes: `afarlaistjan + galaista = afarláista "nachfolger"`
+    notes: `afarlaistjan + galaista = afarlaista "nachfolger"`
   },
   {
     text: {
@@ -153,7 +153,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Weihs Niketa, þaírh merein jah libáin gaguda seina, naþ mikilaba faúr tulgiþa galáubeináis Xristeináizos ïn þáim gutam.",
+      got: "Weihs Niketa, þairh merein jah libain gaguda seina, naþ mikilaba faur tulgiþa galaubeinais Xristeinaizos ïn þaim gutam.",
       en: "Saint Nicetas, by his preaching and his pious life, greatly assisted the confirmation of the Christian faith among the Goths.",
     },
   },
@@ -174,7 +174,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "Swe dails toje seinis, ráisida Aþanareiks wrakja sleidja wiþra þans Xristeinans.",
+      got: "Swe dails toje seinis, raisida Aþanareiks wrakja sleidja wiþra þans Xristeinans.",
       en: "As part of his actions, Athanaric raised a fierce persecution against the Christians.",
     },
   },
@@ -187,21 +187,21 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "faírinoda Aþanareik unte afgudei jah unmanariggwei.",
+      got: "fairinoda Aþanareik unte afgudei jah unmanariggwei.",
       en: "denounced Athanaric for godlessness and cruelty.",
     },
     notes: `*unmanariggwei from unmanariggws`
   },
   {
     text: {
-      got: "anahaíháit þans galáubeinans du fastan jah ni ogan martwrdáuþana.",
+      got: "anahaihait þans galaubeinans du fastan jah ni ogan martwrdauþana.",
       en: "He called on the faithful to be firm and not to fear martyrdom.",
     },
-    notes: `martwrdáuþs inspired from German Martyrertod`
+    notes: `martwrdauþs inspired from German Martyrertod`
   },
   {
     text: {
-      got: "suns Aþanareiks habáida Niketan gafāhanana.",
+      got: "suns Aþanareiks habaida Niketan gafāhanana.",
       en: "Athanaric soon had Nicetas seized.",
     },
     notes: ``
@@ -211,14 +211,14 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: "Niketa was þan atgibans du balweinim unmanariggwáim.",
+      got: "Niketa was þan atgibans du balweinim unmanariggwaim.",
       en: "Nicetas was then given over to cruel tortures.",
     },
     notes: `cast into fire Mark 9:22`
   },
   {
     text: {
-      got: "Und andi warþ gadraúhts Xristáus ïn fon atwaúrpans þarei gadáuþnoda ïn 372.",
+      got: "Und andi warþ gadrauhts Xristaus ïn fon atwaurpans þarei gadauþnoda ïn 372.",
       en: "Finally, the soldier of Christ was thrown into a fire where he died in 372.",
     },
     notes: `cast into fire Mark 9:22`
@@ -231,22 +231,22 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "bigat láibos ïs ïn naht jah brahtah þos du Kilikia.",
+      got: "bigat laibos ïs ïn naht jah brahtah þos du Kilikia.",
       en: "found his remains during the night and transferred them to Cilicia.",
     },
   },
   {
     text: {
-      got: "Þanaseiþs, faúratanja jah lekinassjus warþ faúra láibom Weihis Martwris Niketins.",
+      got: "Þanaseiþs, fauratanja jah lekinassjus warþ faura laibom Weihis Martwris Niketins.",
       en: "From that time, miracles and healings have occurred before the relics of the holy Martyr Nicetas.",
     },
   },
   {
     text: {
-      got: "Dails láibo was seiþs brāhts du maúnasterjon Bisauki Detsani ïn Serbia.",
+      got: "Dails laibo was seiþs brāhts du maunasterjon Bisauki Detsani ïn Serbia.",
       en: "A part of the relics was later transferred to the monastery of Visoki Dečani in Sairbia.",
     },
-    notes: `*maúnasterjo (μοναστήριον) looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension`
+    notes: `*maunasterjo (μοναστήριον) looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension`
   },
 ].map(toGothicLine).join('')}</p>`
 
@@ -264,7 +264,7 @@ let poem = ''
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Ïn allái þiudái, sa ïst ïnkunja sunjis,",
+    got: "Ïn allai þiudai, sa ïst ïnkunja sunjis,",
     sr: "Родољуб је прави ко у своме роду",
     en: "Among all the people, he is a true patriot.",
   },
@@ -277,7 +277,7 @@ Using þiuda to mean people of his tribe, a few bible verses use the word for he
 <br>
 ${toGothicLine({
   text: {
-    got: "saei Guda Libandins ráiseiþ hunslastadis.",
+    got: "saei Guda Libandins raiseiþ hunslastadis.",
     sr: "Олтар прави зида живоме Господу.",
     en: "who to the Living God erects an altar.",
   },
@@ -287,7 +287,7 @@ ${toGothicLine({
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Guta Aþanareiks miþ anamahtái reikinoda",
+    got: "Guta Aþanareiks miþ anamahtai reikinoda",
     sr: "Атанарик Готски насиљем владаше.",
     en: "The Goth Athanaric with violence ruled",
   },
@@ -297,7 +297,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "jah galiugam ungawagjandam sáudins salida;",
+    got: "jah galiugam ungawagjandam saudins salida;",
     sr: "Идолима мртвим жртве приношаше;",
     en: "and offered sacrifices to the inanimate idols;",
   },
@@ -306,7 +306,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Ïþ Weihs Niketa was gadraúhts Xristáus",
+    got: "Ïþ Weihs Niketa was gadrauhts Xristaus",
     sr: "А Никита свети, војник Христа Бога,",
     en: "But Saint Nicetas was a soldier of Christ",
   },
@@ -314,7 +314,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "jah merjands naseináis áiweináizos.",
+    got: "jah merjands naseinais aiweinaizos.",
     sr: "Проповедник беше спасења вечнога;",
     en: "And a herald of eternal salvation.",
   },
@@ -322,7 +322,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Þaírh naht ussandida Liuhadis Áiweinis strelos,",
+    got: "Þairh naht ussandida Liuhadis Aiweinis strelos,",
     sr: "Овај светлост вечну у ноћ расипаше,",
     en: "He sent rays of the Eternal Light through the night,",
   },
@@ -331,7 +331,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "distahjandeins riqis haiþn biwáibjando sáiwalos.",
+    got: "distahjandeins riqis haiþn biwaibjando saiwalos.",
     sr: "Онај тмом идолском душе застираше.",
     en: "dissolving the idolatrous gloom wrapping souls.",
   },
@@ -353,7 +353,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "miþ muna tulgamma þiudái seinái sildaleik.",
+    got: "miþ muna tulgamma þiudai seinai sildaleik.",
     sr: "И трпљењем храбрим народ свој задиви,",
     en: "With firm resolve to his people an astonishment.",
     de: "... seinem Volke eine Verwunderung.",
@@ -363,7 +363,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Þairhstagg þata riqis þaírh maht Galgins Gariudis",
+    got: "Þairhstagg þata riqis þairh maht Galgins Gariudis",
     sr: "Силом часног крста силу мрачну збуни,",
     en: "By the power of the Honourable Cross he pierced the darkness",
   },
@@ -371,7 +371,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "jah fullida alla þiuda seina miþ faúrhtein Gudis.",
+    got: "jah fullida alla þiuda seina miþ faurhtein Gudis.",
     sr: "И страхом од Бога сав народ испуни.",
     en: "And filled all his people with the fear of God.",
   },
@@ -390,7 +390,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "miþþanei usstáig ahma ïs du gardim himinis.",
+    got: "miþþanei usstaig ahma ïs du gardim himinis.",
     sr: "А дух му се вину у небеске дворе;",
     en: "While his spirit ascended to the courts of heaven.",
   },
@@ -414,7 +414,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Ïn Sunja Xristáus, þai gutans dáupidái wesun.",
+    got: "Ïn Sunja Xristaus, þai gutans daupidai wesun.",
     sr: "Истином Христовом Готи се крстише.",
     en: "Into the Truth of Christ, the Goths were baptized.",
   },
@@ -433,7 +433,7 @@ ${toGothicLine({
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Stibna þuthaúrnis gudis, Weiha Niketa,",
+    got: "Stibna þuthaurnis gudis, Weiha Niketa,",
     sr: "О Никито свети, гласу Божје трубе,",
     en: "Voice of the trumpet of God, Saint Nikitas,",
   },
@@ -450,7 +450,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Þu biláist báuáinins aírþis,",
+    got: "Þu bilaist bauainins airþis,",
     sr: "Из шатора земних ти си отишао,",
     en: "You have left behind the dwelling-places of the earth",
   },
@@ -475,7 +475,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "ei sáiwalom unsaráim sijái hulþs.",
+    got: "ei saiwalom unsaraim sijai hulþs.",
     sr: "Да с’ и наша Богом помилује душа.",
     en: "That He grant our souls mercy. (that he let be mercy on our souls)",
   },

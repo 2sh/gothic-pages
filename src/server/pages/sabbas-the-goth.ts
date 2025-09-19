@@ -38,7 +38,7 @@ article += html`<p>${[
 
 article += html`  <h2>${toGothicLine({
   text: {
-    got: 'Faúrawaúrdjis Aúkridiskis',
+    got: 'Faurawaurdjis Aukridiskis',
     en: "From the Ochrid Prologue",
   },
   notes: `looking at andawaurdi`
@@ -55,38 +55,38 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'Reiks gutisks sums qam háim, þarei sa Sabba gudafaúrhts báuáida,',
+      got: 'Reiks gutisks sums qam haim, þarei sa Sabba gudafaurhts bauaida,',
       en: "A Gothic prince came to the village where this devout Sabbas lived,",
     },
   },
   {
     text: {
-      got: 'jah frah háimjans, Xristeins weseina.',
+      got: 'jah frah haimjans, Xristeins weseina.',
       en: "and asked the villagers if there were any Christians there.",
     },
-    notes: `háimja like gáuja`
+    notes: `haimja like gauja`
   },
   {
     text: {
-      got: 'Andhofun ïna swarands ei ni áinshun weseina.',
+      got: 'Andhofun ïna swarands ei ni ainshun weseina.',
       en: "They answered him on their honour that there were none.",
     },
   },
   {
     text: {
-      got: 'Þan stoþ Sabba faúr þana reik jah managein, qaþuh:',
+      got: 'Þan stoþ Sabba faur þana reik jah managein, qaþuh:',
       en: "Then Sabbas stood before the Prince and the people, and said:",
     },
   },
   {
     text: {
-      got: '"Ni áinshun swerái aiþ ïn meina. Ïk ïm Xristeins."',
+      got: '"Ni ainshun swerai aiþ ïn meina. Ïk ïm Xristeins."',
       en: "'Let no-one swear an oath on my behalf. I am a Christian.'",
     },
   },
   {
     text: {
-      got: "Sa reiks, saiƕands þana wáinahan arm, laílot ïna gaggan ïn gawaírþja, qiþands:",
+      got: "Sa reiks, saiƕands þana wainahan arm, laílot ïna gaggan ïn gawairþja, qiþands:",
       en: "The prince, seeing this poor wretch, let him go in peace, saying:",
     },
     notes: `"andbindiþ ina jah letiþ gaggan" John 11:44`
@@ -103,7 +103,7 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Afar jer biþe paska warþ, gudja, Sansala, qam ïn þizái háimái jah dulþida miþ Sabbin.',
+      got: 'Afar jer biþe paska warþ, gudja, Sansala, qam ïn þizai haimai jah dulþida miþ Sabbin.',
       en: "The next year, just at Easter, a priest, Sansal, came to the village and celebrated Easter with Sabbas.",
     },
     notes: `"biþe warþ dags" Luke 6:13
@@ -114,20 +114,20 @@ with a different declension.`
   },
   {
     text: {
-      got: 'Þái haiþnái finþandans anaks disdrusun báuáin Sabbins',
+      got: 'Þai haiþnai finþandans anaks disdrusun bauain Sabbins',
       en: "the pagans, coming to hear of this, descended suddenly on Sabbas's house",
     },
     notes: `manageins finþandeins Luke 9:11`
   },
   {
     text: {
-      got: 'jah ïnuh bleiþein anastodidedun mans Gudis du báutan,',
+      got: 'jah ïnuh bleiþein anastodidedun mans Gudis du bautan,',
       en: "and began to belabour the men of God without mercy,",
     },
   },
   {
     text: {
-      got: 'þan, biþe Sabba naqaþs þaírh þaúrnuns þunsans warþ,',
+      got: 'þan, biþe Sabba naqaþs þairh þaurnuns þunsans warþ,',
       en: "then, having dragged Sabbas naked through thorns,",
     },
   },
@@ -144,40 +144,40 @@ with a different declension.`
   },
   {
     text: {
-      got: 'Ïþ mans Gudis, gamunandans wáurda apaústaúle,',
+      got: 'Ïþ mans Gudis, gamunandans wáurda apaustaule,',
       en: "But the men of God, remembering the Apostle's words,",
     },
     notes: ``
   },
   {
     text: {
-      got: 'ni taitokeina þans sáudins gawammo unseljo.',
+      got: 'ni taitokeina þans saudins gawammo unseljo.',
       en: "would not touch the unclean, diabolical sacrifices.",
     },
   },
   {
     text: {
-      got: 'Sa reiks und andi gawargeiþ Sabbin dáuþáu jah atgibiþ ïna gadraúhtim.',
+      got: 'Sa reiks und andi gawargeiþ Sabbin dauþau jah atgibiþ ïna gadrauhtim.',
       en: "The prince finally sentenced Sabbas to death and handed him over to the soldiers.",
     },
     notes: "gawargjand ina dauþau jah atgiband ina þiudom Mark 10:33"
   },
   {
     text: {
-      got: 'Sabba ïddja du stada waúrstweins miþ swegniþái, hazjands Guþ.',
+      got: 'Sabba ïddja du stada waurstweins miþ swegniþai, hazjands Guþ.',
       en: "Sabbas went to the place of execution full of joy, praising God.",
     },
   },
   {
     text: {
-      got: 'Bigitandans ïn ïmma mannan goþs, sokidedun þái gadraúhteis ïna ïn wiga galausjan',
+      got: 'Bigitandans ïn ïmma mannan goþs, sokidedun þai gadrauhteis ïna ïn wiga galausjan',
       en: "Recognising in him a good man, the soldiers sought to set him free on the way,",
     },
     notes: `in imma ni ainohun fairino bigat. John 19:4`
   },
   {
     text: {
-      got: 'ïþ þata gaþraíh Sabbin mikilaba qaþuh þáim gadraúhtim',
+      got: 'ïþ þata gaþraih Sabbin mikilaba qaþuh þaim gadrauhtim',
       en: "but Sabbas was greatly distressed by this and told the soldiers",
     },
   },
@@ -190,13 +190,13 @@ with a different declension.`
   },
   {
     text: {
-      got: 'Þan brāhtedun þái gadraúhteis ïna du aƕái,',
+      got: 'Þan brāhtedun þai gadrauhteis ïna du aƕai,',
       en: "Then the soldiers brought him to a river,",
     },
   },
   {
     text: {
-      got: 'gabundun hallu bi halsa ïs jah waúrpun ïna ïn watin.',
+      got: 'gabundun hallu bi halsa ïs jah waurpun ïna ïn watin.',
       en: "tied a rock round his neck and threw him into the water.",
     },
   },
@@ -211,13 +211,13 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'ïn erái kaisaris Balainis,',
+      got: 'ïn erai kaisaris Balainis,',
       en: "in the time of the Emperor Valens,",
     },
   },
   {
     text: {
-      got: 'bigat nau Sabbins ana staþa gawaurpanana ïn wigana miþ gutam jah atnam þana du Kappadaúkia.',
+      got: 'bigat nau Sabbins ana staþa gawaurpanana ïn wigana miþ gutam jah atnam þana du Kappadaukia.',
       en: "found Sabbas's body, cast up onto the bank, during a war with the Goths and took it to Cappadocia.",
     },
   },

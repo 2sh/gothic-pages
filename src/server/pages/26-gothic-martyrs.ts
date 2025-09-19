@@ -78,7 +78,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
   },
   {
     text: {
-      got: 'miþ twáim sunum jah þrim dauhtrum seinaim;',
+      got: 'miþ twaim sunum jah þrim dauhtrum seinaim;',
       en: "with his two sons and three daughters;",
     },
   },

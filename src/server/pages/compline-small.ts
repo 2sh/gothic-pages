@@ -168,7 +168,7 @@ ${[
   })}</a></p>
 <p class="notice"><a href="nicene-creed.html">${toGothicLine({
     text: {
-      got: 'Táikns Galáubeináis',
+      got: 'Taikns Galaubeinais',
       el: "Σύμβολο της Πίστεως",
       en: "Symbol of Faith",
     }
