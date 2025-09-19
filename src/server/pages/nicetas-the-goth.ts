@@ -194,7 +194,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "anahaihait þans galaubeinans du fastan jah ni ogan martyrdauþana.",
+      got: "Anahaihait þans galaubeinans du fastan jah ni ogan martyrdauþana.",
       en: "He called on the faithful to be firm and not to fear martyrdom.",
     },
     notes: `martyrdauþs inspired from German Martyrertod`
