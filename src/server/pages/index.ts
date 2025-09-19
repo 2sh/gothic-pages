@@ -5,13 +5,6 @@ import {
 } from "@server/tools"
 
 
-// to translate:
-
-// https://www.oca.org/saints/lives/2017/03/26/100888-26-martyrs-in-the-crimea
-// https://en.wikipedia.org/wiki/Gothic_persecution_of_Christians
-// "The "26 Gothic martyrs" are commemorated in Orthodox Christianity on 26 March, but in the Gothic calendar fragment on 29 October (gaminþi marwtre þize bi Werekan papan jah Batwin bilaif. aikklesjons fullaizos ana Gutþiudai gabrannidai "remembrance of the martyrs who with Werekas the priest and Batwin the bilaif were burned in a crowded church among the Goths"). The same fragment for 23 October proscribes remembrance of "the many martyrs among the Gothic people, and of Fridaric" (þize ana Gutþiudai managaize martwre jah Friþareikeis), Fridaric being an otherwise unknown Gothic martyr."
-// Link from: https://www.wulfila.be/gothic/text/minora/Kalender.html
-
 const title = "2sh's Gothic Pages"
 
 const description = "A page with various Gothic language related stuff I've done."
@@ -58,6 +51,7 @@ click the dropdown menu in the top right corner and select "Lateins".</p>
 <ul>
   <li><a href="nicetas-the-goth.html">Nicetas the Goth</a></li>
   <li><a href="sabbas-the-goth.html">Sabbas the Goth</a></li>
+  <li><a href="26-gothic-martyrs.html">26 Gothic Martyrs in the Crimea</a> (WIP)</li>
 </ul>
 
 <h4>Other</h4>
@@ -83,6 +77,7 @@ click the dropdown menu in the top right corner and select "Lateins".</p>
   <li><a href="https://en.wikipedia.org/wiki/Gothic_declension">Noun & Adjective Declension</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Gothic_verbs">Verb Conjugation</a></li>
   <li><a href="http://www.harbornet.com/folks/theedrich/hive/Medieval/Skeireins-Latin-English.htm">Skeireins Translations</a></li>
+  <li><a href="https://web.archive.org/web/20140301215235/http://germanica.wikispot.org/Naples_Deed">Naples Deed Information</a></li>
 </ul>
 
 <h3>Works</h3>
