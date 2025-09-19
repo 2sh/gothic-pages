@@ -247,3 +247,66 @@ export function addOptionalMacrons(text: string)
     .replace(/𐌴(?![𐌹\u0304])/g, '𐌴\u0304')
     .replace(/𐍉(?!\u0304)/g, '𐍉\u0304')
 }
+
+const voiced = "[bdgw]"
+
+const latinIpa: RegExpMapping[] = [
+  [new RegExp(`(?<=${bv})bb(?=${av}|[jw]|${voiced})`, "ig"), 'βː'],
+  [new RegExp(`(?<=${bv})b(?=${av}|[jw]|${voiced})`, "ig"), 'β'],
+  //[new RegExp(`(?<=${bv})b(?!=ː)`, "ig"), 'ɸ'],
+
+  [new RegExp(`(?<=${bv})dd(?=${av}|[jw]|${voiced})`, "ig"), 'ðː'],
+  [new RegExp(`(?<=${bv})d(?=${av}|[jw]|${voiced})`, "ig"), 'ð'],
+  //[new RegExp(`(?<=${bv})d(?!=ː)`, "ig"), 'θ'],
+
+  [/([bdfjklmnpqrstþwz])\1/ig, '$1ː'],
+
+  ['f', 'ɸ'],
+
+  [/g(?=k|g)/ig, 'ŋ'],
+  [new RegExp(`(?<=${bv})g(?=${av}|[jw]|${voiced})`, "ig"), 'ɣ'],
+  [new RegExp(`(?<=${bv})g(?!=ː)`, "ig"), 'x'],
+
+  ['gw', 'ɡʷ'],
+
+  ['ƕ', 'hʷ'],
+  ['hv', 'hʷ'],
+  ['wh', 'hʷ'],
+  ['v', 'hʷ'],
+
+  ['q', 'kʷ'],
+
+  ['þ', 'θ'],
+
+  ['aí', 'ɛ'],
+  ['ái', 'ɛː'],
+  [/ai(?=h|r|ƕ|v)/ig, 'ɛ'],
+  ['ai', 'ɛː'],
+
+  ['aú', 'ɔ'],
+  ['áu', 'ɔː'],
+  [/au(?=h|r|ƕ|v)/ig, 'ɔ'],
+  ['au', 'ɔː'],
+
+  ['ei', 'iː'],
+  ['ī', 'iː'],
+
+  ['ā', 'aː'],
+
+  ['e', 'eː'],
+  ['ē', 'eː'],
+
+  ['o', 'oː'],
+  ['ō', 'oː'],
+
+  ['ū', 'uː'],
+
+  ['ï', 'i'],
+]
+
+export function toIpa(text: string)
+{
+  let out = text
+  out = applyMapping(out.toLowerCase(), latinIpa)
+  return out
+}
