@@ -248,24 +248,29 @@ export function addOptionalMacrons(text: string)
     .replace(/𐍉(?!\u0304)/g, '𐍉\u0304')
 }
 
-const voiced = "[bdgwnmjw]"
+export function removePunctuation(text: string)
+{
+  return text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")
+}
+
+const voiced = "[bdgwnmjwl]"
 
 const latinIpa: RegExpMapping[] = [
-  [new RegExp(`(?<=${bv})b.b(?=${av}|${voiced})`, "ig"), 'β.β'],
-  [new RegExp(`(?<=${bv})b(?=${av}|${voiced})`, "ig"), 'β'],
+  [new RegExp(`(?<=${bv})b\\.b(?=\\.?(?:${av}|${voiced}))`, "ig"), 'β.β'],
+  [new RegExp(`(?<=${bv}\\.?)b(?=\\.?(?:${av}|${voiced}))`, "ig"), 'β'],
   //[new RegExp(`(?<=${bv})b(?!=ː)`, "ig"), 'ɸ'],
 
-  [new RegExp(`(?<=${bv})d.d(?=${av}|${voiced})`, "ig"), 'ð.ð'],
-  [new RegExp(`(?<=${bv})d(?=${av}|${voiced})`, "ig"), 'ð'],
+  [new RegExp(`(?<=${bv})d\\.d(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ð.ð'],
+  [new RegExp(`(?<=${bv}\\.?)d(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ð'],
   //[new RegExp(`(?<=${bv})d(?!=ː)`, "ig"), 'θ'],
 
-  [/([bdfjklmnpqrstþwz])\1/ig, '$1.$1'],
+  [/g(?=\.[kg])/ig, 'ŋ'],
+  [new RegExp(`(?<=${bv}\\.?)g(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ɣ'],
+  [new RegExp(`(?<=${bv}\\.?)g(?!=ː)`, "ig"), 'x'],
+
+  //[/([bdfjklmnpqrstþwz])\1/ig, '$1.$1'],
 
   ['f', 'ɸ'],
-
-  [/g(?=k|g)/ig, 'ŋ'],
-  [new RegExp(`(?<=${bv})g(?=${av}|${voiced})`, "ig"), 'ɣ'],
-  [new RegExp(`(?<=${bv})g(?!=ː)`, "ig"), 'x'],
 
   ['gw', 'ɡʷ'],
 
@@ -282,12 +287,12 @@ const latinIpa: RegExpMapping[] = [
 
   ['aí', 'ɛ'],
   ['ái', 'ɛː'],
-  [/ai(?=h|r|ƕ|v)/ig, 'ɛ'],
+  [/ai(?=\.?[hrƕv])/ig, 'ɛ'],
   ['ai', 'ɛː'],
 
   ['aú', 'ɔ'],
   ['áu', 'ɔː'],
-  [/au(?=h|r|ƕ|v)/ig, 'ɔ'],
+  [/au(?=\.?[hrƕv])/ig, 'ɔ'],
   ['au', 'ɔː'],
 
   ['ei', 'iː'],
@@ -308,7 +313,9 @@ const latinIpa: RegExpMapping[] = [
 
 export function toIpa(text: string)
 {
-  let out = text.toLowerCase()
+  let out = text
+  out = out.toLowerCase()
+  out = removePunctuation(out)
   out = addSoftHyphens(out)
   out = out.replaceAll("\u00AD", ".")
   out = applyMapping(out, latinIpa)
