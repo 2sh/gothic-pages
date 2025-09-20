@@ -201,7 +201,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: "suns Aþanareiks habaida Niketan gafāhanana.",
+      got: "Suns Aþanareiks habaida Niketan gafāhanana.",
       en: "Athanaric soon had Nicetas seized.",
     },
     notes: ``
