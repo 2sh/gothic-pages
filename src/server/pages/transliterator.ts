@@ -59,6 +59,20 @@ const article = html`<header>
       </div>
     </div>
   </div>
+  <div>
+    <h2 class='title'>Notes</h2>
+<p>The 'To IPA' converter goes by the usual patterns of native words for au and ai,
+so short before h, ƕ and r, and long otherwise. It doesn't have a dictionary of the
+exceptions to these patterns and long vowels of 'a' and 'u', and it doesn't recognise loanwords (yet).
+It will make use of diacritics though, ā /aː/, ū /uː/, aí /ɛ/, aú /ɔ/, ái /ɛː/, áu /ɔː/.
+It probably still needs adjusting for some prefixes, compound words and bigger consonant clusters.
+If you notice anything wrong, <i>please</i> do tell me. Behind the IPA converter is also
+a soft hyphenation library for Gothic I'm developing that I'd like to publish for free at some point
+(including the whole functionality behind these pages).
+So improving this will also improve that.</p>
+<p>The number converter is default set to convert only numbers up to 999 as that's all that's attested.
+The above 999 setting is an idea I had for larger numbers, with colons acting as 1000 separators.</p>
+  </div>
 </div>`
 
 const description = "A Gothic-Latin transliterator by 2sh."
