@@ -220,20 +220,22 @@ const dc = doublableConsonants.split('').map(c=>c+c).join('|')
 const vc = "(?:au|aú|áu|ai|aí|ái|ei)"
 const bv = "[aeiouïúíāēōū]"
 const av = "[aeiouáāēōū]"
-const c = "[bdfghƕjklmnpqrstþwz]"
-const sc = `(?:${c}|st|str|sw|sl|kl|kn|hr|tr|gw)`
-const ec = `(?:nd|rh|ht|rst|rg|bn|${c})`
-const vs = `${sc}${av}|${sc}[ywj]${ec}` // valid syllable
+const c = "[bdfghƕjklmnpqrstþwz]" // consonant
+const sc = `(?:${c}|st|str|sw|sl|kl|kn|hr|tr|gw)` // start consonant
+const ec = `(?:nd|rh|ht|rst|rg|bn|${c})` // end consonant
+const fs = `${sc}[ywj]${ec}` // full syllable
+const ss = `${sc}${av}|${fs}` // start of syllable
+const es = `${bv}${ec}|${fs}` // end of syllable
 const pxc = `(?:at|and|af|bi|dis|in|miþ|uz|un|ur|us|uf|ufar|tuz|twis|fair|faur|fidur)` // prefix ending in consonant
 const pxa = `(?:ana|anda|ga|missa|faura|fra)` // prefix ending in 'a'
 
 const hyphenRules = [
   /\b(?=ï)/ig,
-  new RegExp(`(?<=\\b${pxc})(?=${vs})`, "ig"),
+  new RegExp(`(?<=\\b${pxc})(?=${ss})`, "ig"),
   new RegExp(`(?<=\\b${pxa})(?![ui]|${ec}||${dc}|\\b)`, "ig"),
-  new RegExp(`(?<=${bv})(?=${vs})`, "ig"),
-  new RegExp(`(?<=${bv}${ec})(?=${vs})`, "ig"),
-  new RegExp(`(?<=${bv}${dc})(?=${vs})`, "ig"),
+  new RegExp(`(?<=${bv})(?=${ss})`, "ig"),
+  new RegExp(`(?<=${es})(?=${ss})`, "ig"),
+  new RegExp(`(?<=${bv}${dc})(?=${ss})`, "ig"),
   new RegExp(`(?<=${vc})(?=${bv})`, "ig"),
   new RegExp(`(?<=${av})(?=${vc})`, "ig"),
   new RegExp(`(?<=${av})(?=s$)`, "ig"),
