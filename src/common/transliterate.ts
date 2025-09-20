@@ -215,25 +215,25 @@ export function addDiaereses(text: string)
   return applyMapping(text, diaeresis)
 }
 
-const doublableConsonants = "bdfjklmnpqrstþwz" // doublable consonants
+const doublableConsonants = "gbdfjklmnpqrstþwz" // doublable consonants
 const dc = doublableConsonants.split('').map(c=>c+c).join('|')
 const vc = "(?:au|aú|áu|ai|aí|ái|ei)"
 const bv = "[aeiouïúíāēōū]"
 const av = "[aeiouáāēōū]"
 const c = "[bdfghƕjklmnpqrstþwz]"
-const sc = `(?:${c}|st|str|sw|kl|kn|hr|tr|gw)`
-const ec = `(?:${dc}|nd|rh|ht|rst|rg|${c})`
+const sc = `(?:${c}|st|str|sw|sl|kl|kn|hr|tr|gw)`
+const ec = `(?:nd|rh|ht|rst|rg|bn|${c})`
+const vs = `${sc}${av}|${sc}[ywj]${ec}` // valid syllable
 const pxc = `(?:at|and|af|bi|dis|in|miþ|uz|un|ur|us|uf|ufar|tuz|twis|fair|faur|fidur)` // prefix ending in consonant
 const pxa = `(?:ana|anda|ga|missa|faura|fra)` // prefix ending in 'a'
-const pxv = `(?:du)` // prefix ending in vowel
 
 const hyphenRules = [
   /\b(?=ï)/ig,
-  new RegExp(`(?<=\\b${pxc})(?=${sc}${av})`, "ig"),
-  new RegExp(`(?<=\\b${pxa})(?![ui]|\\b)`, "ig"),
-  new RegExp(`(?<=\\b${pxv})(?!\\b)`, "ig"),
-  new RegExp(`(?<=${bv})(?=${sc}${av})`, "ig"),
-  new RegExp(`(?<=${bv}${ec})(?=${sc}${av})`, "ig"),
+  new RegExp(`(?<=\\b${pxc})(?=${vs})`, "ig"),
+  new RegExp(`(?<=\\b${pxa})(?![ui]|${ec}||${dc}|\\b)`, "ig"),
+  new RegExp(`(?<=${bv})(?=${vs})`, "ig"),
+  new RegExp(`(?<=${bv}${ec})(?=${vs})`, "ig"),
+  new RegExp(`(?<=${bv}${dc})(?=${vs})`, "ig"),
   new RegExp(`(?<=${vc})(?=${bv})`, "ig"),
   new RegExp(`(?<=${av})(?=${vc})`, "ig"),
   new RegExp(`(?<=${av})(?=s$)`, "ig"),
@@ -263,9 +263,12 @@ export function removePunctuation(text: string)
   return text.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g,"")
 }
 
-const voiced = "[bdgwnmjwl]"
+const voiced = "[bdgwnmjwlr]"
 
 const latinIpa: RegExpMapping[] = [
+  ['ggk', 'gk'],
+  ['ggq', 'gq'],
+
   [new RegExp(`(?<=${bv})b\\.b(?=\\.?(?:${av}|${voiced}))`, "ig"), 'β.β'],
   [new RegExp(`(?<=${bv}\\.?)bb(?=\\.?(?:${av}|${voiced}))`, "ig"), 'βː'],
   [new RegExp(`(?<=${bv}\\.?)b(?=\\.?(?:${av}|${voiced}))`, "ig"), 'β'],
@@ -276,7 +279,7 @@ const latinIpa: RegExpMapping[] = [
   [new RegExp(`(?<=${bv}\\.?)d(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ð'],
   //[new RegExp(`(?<=${bv})d(?!=ː)`, "ig"), 'θ'],
 
-  [/g(?=\.[kg])/ig, 'ŋ'],
+  [/g(?=\.?[kgq])/ig, 'ŋ'],
   [new RegExp(`(?<=${bv}\\.?)g(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ɣ'],
   [new RegExp(`(?<=${bv}\\.?)g(?!=ː)`, "ig"), 'x'],
 
