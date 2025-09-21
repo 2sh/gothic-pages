@@ -287,7 +287,7 @@ ${toGothicLine({
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Guta Aþanareiks miþ anamahtai reikinoda",
+    got: "Aþanareiks Guta miþ anamahtai reikinoda",
     sr: "Атанарик Готски насиљем владаше.",
     en: "The Goth Athanaric with violence ruled",
   },
