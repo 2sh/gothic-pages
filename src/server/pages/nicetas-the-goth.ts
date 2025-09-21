@@ -422,7 +422,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "Jah wulþagana seinana Niketan hazidedun,",
+    got: "Jah wulþagana seinana Niketan hazidedun.",
     sr: "И Никиту свога дивно прославише.",
     en: "And praised their wonderful one Nikitas.",
   },
