@@ -433,7 +433,7 @@ ${toGothicLine({
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Stibna þuthaurnis gudis, Niketa Weiha,",
+    got: "Stibna þuthaurnis Gudis, Niketa Weiha,",
     sr: "О Никито свети, гласу Божје трубе,",
     en: "Voice of the trumpet of God, Saint Nikitas,",
   },
@@ -442,7 +442,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "ïnkunja sunja, martyr amala.",
+    got: "ïnkunja sunja, martyr balþa.",
     sr: "Мучениче храбри, прави родољубе,",
     en: "True patriot, brave martyr.",
   },
