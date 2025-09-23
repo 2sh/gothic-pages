@@ -61,7 +61,7 @@ const diaeresis: RegExpMapping[] = [
 
 function removeDiacriticChars(text: string)
 {
-  return text.replace(/(?!·)\p{Diacritic}(?<![i𐌹]\u0308)/gu, "")
+  return text.replace(/(?!·)\p{Diacritic}(?<![Ii𐌹]\u0308)/gu, "")
 }
 
 function applyMapping(text: string, mapping: RegExpMapping[])
