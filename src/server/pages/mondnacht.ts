@@ -41,7 +41,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "airþai kukjai ïn þahain,",
+    got: "airþai ïn þahain kukidedi,",
     de: "Die Erde still geküßt,",
   },
 })}
@@ -59,7 +59,7 @@ blomins in singular for the rhyme, though plural would perhaps be better`
 <br>
 ${toGothicLine({
   text: {
-    got: "nu bi ïna þaurbi draumjan.",
+    got: "nu bi ïna draumjan þaurbi.",
     de: "Von ihm nun träumen müßt’.",
   },
   notes: `nun von ihm müsste träumen.`
