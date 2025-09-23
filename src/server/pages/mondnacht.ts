@@ -20,12 +20,6 @@ article += html`<header>
     got: 'Menanahts',
     de: "Mondnacht",
   },
-  notes: `In the original German, Himmel and Blütenschimmer don't rhyme fully.
-I seem to have flipped that and made those two verses the only ones that perfectly rhyme.
-Not that I think the rhymes that I came up with in the Gothic are bad, I quite like them.
-Often either two vowels match (though not always in length), two consonants,
-or in the case of hnasquba and habaida, the d and b are voiced,
-the 'a's match and the switch from u to ai is somewhat pleasant.`
 },)}</h1>
 </header>`
 
@@ -41,9 +35,12 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "airþai ïn þahain kukidedi,",
+    got: "airþai ïn silain kukidedi,",
     de: "Die Erde still geküßt,",
   },
+  notes:
+`silan seems to have both still and quiet which fits well here.
+silains unattested but following þahains from þahan.`
 })}
 <br>
 ${toGothicLine({
@@ -54,15 +51,15 @@ ${toGothicLine({
   notes: `Although in the dict skeima means lantern, torch,
 I feel like it would have had the meaning shine too as Gothic also has skeinan.
 
-blomins in singular for the rhyme, though plural would perhaps be better`
+Wondering whether a word for blossom/Blüte would be better though using
+blomins. Using blomins in singular for the rhyme.`
 })}
 <br>
 ${toGothicLine({
   text: {
-    got: "nu bi ïna draumjan þaurbi.",
+    got: "nu bi ïna draumjan þaurftedi.",
     de: "Von ihm nun träumen müßt’.",
   },
-  notes: `nun von ihm müsste träumen.`
 })}
 </p>`
 
@@ -84,7 +81,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "rūskodedun miþ silainai waldjus,",
+    got: "rūskodedun miþ rimisa waldjus,",
     de: "Es rauschten leis’ die Wälder,",
   },
   notes: `rūskon from *rūskōną`
@@ -92,7 +89,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "filu stairnono nahts habaida.",
+    got: "nahts miþ stairnon skeirs abraba",
     de: "So sternklar war die Nacht.",
   },
 })}
@@ -101,7 +98,7 @@ ${toGothicLine({
 poem += html`<p>
 ${toGothicLine({
   text: {
-    got: "Jah saiwala meina braidida",
+    got: "Jah braidida meina saiwala",
     de: "Und meine Seele spannte",
   },
   notes: `taking apart the attested usbraidjan and sticking ut at the end`
@@ -109,7 +106,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "fiþrakans izos ut fairra,",
+    got: "fiþrakans izos ut fairra,", // fiþrahaman
     de: "Weit ihre Flügel aus,",
   },
   notes:
@@ -118,13 +115,12 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "þlaug þairh þahāndona landa,",
+    got: "þlaug þairh landa saila,",
     de: "Flog durch die stillen Lande,",
   },
   notes: `NGo *þliugan, following biugan from PGm *beuganą
 
-German Lande could be either singular or plural here,
-going with plural to rhyme -ida and -eiga`
+*sails from PGm *sailaz`
 })}
 <br>
 ${toGothicLine({
@@ -140,6 +136,7 @@ see attested afhaim(ei)s and anahaim(ei)s for 'absent' and 'present'"`
 </p>`
 
 article += html`<div class='poem'>${poem}</div>`
+
 
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">Mondnacht by Joseph von Eichendorff</span>
