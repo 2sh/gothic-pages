@@ -89,7 +89,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "nahts miþ stairnon skeirs abraba",
+    got: "nahts miþ stairnon skeirs abraba.",
     de: "So sternklar war die Nacht.",
   },
 })}
@@ -106,7 +106,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "fiþrakans izos ut fairra,", // fiþrahaman
+    got: "fiþrakans izos ūt fairra,", // fiþrahaman
     de: "Weit ihre Flügel aus,",
   },
   notes:
