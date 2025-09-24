@@ -98,7 +98,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 <h3>Works</h3>
 <ul>
   <li><a href="https://got.wikipedia.org/">Gothic Wikipedia</a></li>
-  <li><a href="https://gutanebokahus.wordpress.com/">Gutisk Bokahus</a> - Collection of works in Gothic</li>
+  <li><a href="https://bokahusgutisk.wordpress.com/">Bokahus</a> - Collection of works in Gothic</li>
   <li><a href="https://airushimmadaga.wordpress.com/">Himma Daga</a> - News in Gothic</li>
 </ul>`
 
