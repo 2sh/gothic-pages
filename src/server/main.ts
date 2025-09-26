@@ -34,7 +34,7 @@ const root = '/gothic'
 
 const pages: PageInfo[] = []
 
-async function findPages(err: any, pathname: string, dirent: any)
+async function processPage(pathname: string, dirent: any)
 {
   if (!dirent.isFile() || !dirent.name.endsWith('.ts')) return
 
@@ -89,7 +89,13 @@ async function findPages(err: any, pathname: string, dirent: any)
 
 async function importPages()
 {
-  await walk("./src/server/pages/", findPages)
+  const processes: Promise<void>[] = []
+  await walk("./src/server/pages/", async (err: any, pathname: string, dirent: any) =>
+  {
+    processes.push(processPage(pathname, dirent))
+  })
+  await Promise.all(processes)
+
   pages.sort((a, b) => a.path.localeCompare(b.path))
   fs.writeFileSync(`${pageOutput}/sitemap.txt`, pages.map(p =>
     `${p.protocol}://${p.host}${p.path}`).join('\n'))
