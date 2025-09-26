@@ -132,6 +132,7 @@ export function createArticleHeaders(info: PageInfo, title: string, description:
 <title>${safeHtmlText(title)}</title>
 <meta name="description" content='${safeHtmlAttribute(description)}'>
 <meta name="author" content="2sh">
+<meta name="lastmod" content="${info.lastmod.toISOString()}">
 
 <link href="assets/styles/main.css" rel="stylesheet">
 <link href="assets/styles/article.css" rel="stylesheet">`
@@ -140,7 +141,8 @@ export function createArticleHeaders(info: PageInfo, title: string, description:
 export type PageInfo = {
   protocol: string,
   host: string,
-  path: string
+  path: string,
+  lastmod: Date,
 }
 
 export type PageGenerator = (info: PageInfo) => string

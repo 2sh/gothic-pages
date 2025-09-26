@@ -3,7 +3,12 @@ import express, { type ErrorRequestHandler } from 'express'
 import { walk } from '@root/walk'
 import path from "path"
 import fs from 'fs'
-import { PageGenerator } from './tools'
+
+import util from 'util'
+import { exec as _exec } from 'child_process'
+const exec = util.promisify(_exec)
+
+import { PageGenerator, PageInfo } from './tools'
 
 
 const mode = process.argv.length > 2
@@ -25,7 +30,7 @@ app.use('/assets', express.static('src/client/assets'))
 const protocol = 'https'
 const host = '2sh.me'
 
-const urls: string[] = []
+const pages: PageInfo[] = []
 
 async function findPages(err: any, pathname: string, dirent: any)
 {
@@ -36,23 +41,38 @@ async function findPages(err: any, pathname: string, dirent: any)
 
   const importPath = `${relPath}/${name}`
   const urlPath = `/${name}.html`
-  urls.push(`${protocol}://${host}${urlPath}`)
 
   try
   {
     const pageImport = await import(importPath)
-    const pageGenerator: PageGenerator = pageImport.default
-    const page = pageGenerator({
+
+    const { stdout, stderr } = await exec(
+      `git log -1 --pretty="format:%ct" "${pathname}"`)
+
+    const tsString = stdout.trim()
+    const ts = parseInt(tsString + '000')
+
+    const date = new Date(ts)
+
+    const pageInfo = {
       protocol,
       host,
-      path: urlPath
-    })
+      path: urlPath,
+      lastmod: date,
+    }
+
+    pages.push(pageInfo)
+
+    const pageGenerator: PageGenerator = pageImport.default
+    const page = pageGenerator(pageInfo)
     app.get(urlPath, (req, res, next) =>
     {
       res.send(page)
     })
 
-    fs.writeFileSync(`${pageOutput}${urlPath}`, page)
+    const pageOutputPath = `${pageOutput}${urlPath}`
+    fs.writeFileSync(pageOutputPath, page)
+    await exec(`touch -m -d ${date.toISOString()} "${pageOutputPath}"`)
   }
   catch (error)
   {
@@ -63,10 +83,20 @@ async function findPages(err: any, pathname: string, dirent: any)
   console.log(`Importing ${importPath} as ${urlPath}`)
 }
 
+
+
 async function importPages()
 {
   await walk("./src/server/pages/", findPages)
-  fs.writeFileSync(`${pageOutput}/sitemap.txt`, urls.join('\n'))
+  fs.writeFileSync(`${pageOutput}/sitemap.txt`, pages.map(p =>
+    `${p.protocol}://${p.host}${p.path}`).join('\n'))
+  fs.writeFileSync(`${pageOutput}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.map(p => `
+  <url>
+    <loc>${p.protocol}://${p.host}${p.path}</loc>
+    <lastmod>${p.lastmod.toISOString()}</lastmod>
+  </url>`).join('')}
+</urlset>`)
 }
 importPages()
 
