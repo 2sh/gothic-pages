@@ -81,8 +81,6 @@ async function processPage(pathname: string, dirent: any)
     console.error(error)
     return
   }
-
-  console.log(`Importing ${importPath} as ${urlPath}`)
 }
 
 
@@ -108,6 +106,7 @@ async function importPages()
     <lastmod>${p.lastmod.toISOString()}</lastmod>
   </url>`).join('')}
 </urlset>`)
+  console.log("All web files built.")
 }
 importPages()
 
