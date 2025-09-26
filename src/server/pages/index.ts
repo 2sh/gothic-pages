@@ -88,7 +88,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 <ul>
   <li><a href="dl/NotoSerifGothicV1.otf" download>Noto Serif Gothic</a> (v1.0) -
   Font with uppercase and lowercase Gothic letters.
-  The letters were created from the various letters in the original
+  The letters I created from the various letters in the original
   Noto Serif font, largly from Latin and Cyrillic letters.
   See it in use on the translation pages above by clicking on the
   dropdown menu in the top right corner of the pages and selecting
