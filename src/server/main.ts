@@ -3,6 +3,7 @@ import express, { type ErrorRequestHandler } from 'express'
 import { walk } from '@root/walk'
 import path from "path"
 import fs from 'fs'
+import { Server } from 'http'
 
 import util from 'util'
 import { exec as _exec } from 'child_process'
@@ -19,7 +20,7 @@ const pageOutput = mode == "build"
   : 'dev'
 
 const app = express()
-const server = require('http').Server(app)
+const server = new Server(app)
 
 const port = 6001
 
