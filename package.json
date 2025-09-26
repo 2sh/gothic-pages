@@ -9,8 +9,8 @@
   "scripts": {
     "dev": "rollup -c -w",
     "dev:server": "nodemon src/server/main.ts -e ts",
-    "build": "yarn build:init && yarn build:js && yarn build:assets && yarn build:static && yarn build:html",
-    "build:init": "rm -fr build",
+    "clean": "rm -fr build && mkdir build",
+    "build": "yarn clean && npm-run-all --parallel build:*",
     "build:js": "rollup -c",
     "build:assets": "cp -r src/client/assets/ build/",
     "build:static": "cp -r static/* build/",
@@ -34,6 +34,7 @@
     "@types/node": "^22.7.4",
     "glob": "^11.0.2",
     "nodemon": "^3.0.3",
+    "npm-run-all": "^4.1.5",
     "rollup": "^4.46.2",
     "rollup-plugin-delete": "^3.0.1",
     "rollup-plugin-header": "^1.0.0",
