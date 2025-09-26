@@ -29,6 +29,7 @@ app.use('/assets', express.static('src/client/assets'))
 
 const protocol = 'https'
 const host = '2sh.me'
+const root = '/gothic'
 
 const pages: PageInfo[] = []
 
@@ -57,7 +58,7 @@ async function findPages(err: any, pathname: string, dirent: any)
     const pageInfo = {
       protocol,
       host,
-      path: urlPath,
+      path: root + (urlPath == "/index.html" ? '/' : urlPath),
       lastmod: date,
     }
 
@@ -88,6 +89,7 @@ async function findPages(err: any, pathname: string, dirent: any)
 async function importPages()
 {
   await walk("./src/server/pages/", findPages)
+  pages.sort((a, b) => a.path.localeCompare(b.path))
   fs.writeFileSync(`${pageOutput}/sitemap.txt`, pages.map(p =>
     `${p.protocol}://${p.host}${p.path}`).join('\n'))
   fs.writeFileSync(`${pageOutput}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>
