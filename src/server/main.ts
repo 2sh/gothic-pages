@@ -90,7 +90,8 @@ async function processPage(pathname: string, dirent: any)
 async function importPages()
 {
   const processes: Promise<void>[] = []
-  await walk("./src/server/pages/", async (err: any, pathname: string, dirent: any) =>
+  await walk("./src/server/pages/",
+    async (err: any, pathname: string, dirent: any) =>
   {
     processes.push(processPage(pathname, dirent))
   })
@@ -99,7 +100,8 @@ async function importPages()
   pages.sort((a, b) => a.path.localeCompare(b.path))
   fs.writeFileSync(`${pageOutput}/sitemap.txt`, pages.map(p =>
     `${p.protocol}://${p.host}${p.path}`).join('\n'))
-  fs.writeFileSync(`${pageOutput}/sitemap.xml`, `<?xml version="1.0" encoding="UTF-8"?>
+  fs.writeFileSync(`${pageOutput}/sitemap.xml`,
+`<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.map(p => `
   <url>
     <loc>${p.protocol}://${p.host}${p.path}</loc>
