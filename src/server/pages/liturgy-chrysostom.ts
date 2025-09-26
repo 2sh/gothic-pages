@@ -123,7 +123,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah naseinái sáiwalo unsaráizo,',
+        got: 'jah naseinai saiwalo unsaraizo,',
         el: "καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν,",
         en: "and for the salvation of our souls,",
       }
@@ -144,7 +144,7 @@ ${speakerDeacon()}
 ${[
     {
       text: {
-        got: 'Faur gawairþi alláizos manasedáis',
+        got: 'Faur gawairþi allaizos manasedais',
         el: "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου",
         en: "For the peace of the whole world,",
       },
@@ -165,7 +165,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah samaqiss alláize,',
+        got: 'jah samaqiss allaize,',
         el: "καὶ τῆς τῶν πάντων ἑνώσεως,",
         en: "and for the unity of all,",
       },
@@ -201,7 +201,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah ïn ïta miþ galáubeinái, áizái jah Gudis faurhtein ïnngaggandans,',
+        got: 'jah ïn ïta miþ galaubeinai, aizai jah Gudis faurhtein ïnngaggandans,',
         el: "καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ,",
         en: "and for those who enter it with faith, reverence, and the fear of God,",
       },
@@ -269,7 +269,7 @@ ${[
 ${[
     {
       text: {
-        got: 'andbahti ïn Xristáu',
+        got: 'andbahti ïn Xristau',
         el: "τῆς ἐν Χριστῷ διακονίας",
         en: "for the diaconate in Christ",
       }
@@ -352,7 +352,7 @@ ${[
 ${[
     {
       text: {
-        got: 'jah ïn þáim all báuandane galáubeináize,',
+        got: 'jah ïn þaim all bauandane galaubeinaize,',
         el: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
         en: "and for the faithful who live in them,",
       },
