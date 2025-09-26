@@ -19,15 +19,6 @@ const article = html`<header>
 <p>Feedback on anything on these pages greatly appreciated!</p>
 
 
-<h2>Fonts</h2>
-<ul>
-  <li><a href="static/NotoSerifGothicV1.otf" download>Noto Serif Gothic</a> (v1.0) -
-  Font with uppercase and lowercase Gothic letters.
-  The letters were created from the various letters in the original
-  Noto Serif font, largly from Latin and Cyrillic letters.</li>
-</ul>
-
-
 <h2>Tools</h2>
 <ul>
   <li><a href="transliterator.html">Transliterator</a></li>
@@ -90,6 +81,18 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 <h3>Poems</h3>
 <ul>
   <li><a href="mondnacht.html" hreflang='got'>Mondnacht</a></li>
+</ul>
+
+
+<h2>Fonts</h2>
+<ul>
+  <li><a href="static/NotoSerifGothicV1.otf" download>Noto Serif Gothic</a> (v1.0) -
+  Font with uppercase and lowercase Gothic letters.
+  The letters were created from the various letters in the original
+  Noto Serif font, largly from Latin and Cyrillic letters.
+  See it in use on the translation pages above by clicking on the
+  dropdown menu in the top right corner of the pages and selecting
+  "<span lang='got'>𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</span>".</li>
 </ul>
 
 
