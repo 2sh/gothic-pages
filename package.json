@@ -12,7 +12,7 @@
     "build:init": "rm -fr build",
     "build:js": "rollup -c",
     "build:assets": "cp -r src/client/assets/ build/",
-    "build:static": "cp -r static/ build/",
+    "build:static": "cp -r static/* build/",
     "build:html": "tsx src/server/main.ts build"
   },
   "dependencies": {

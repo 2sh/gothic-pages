@@ -21,6 +21,12 @@ const port = 6001
 app.use('/scripts', express.static('dev/scripts'))
 app.use('/assets', express.static('src/client/assets'))
 
+
+const protocol = 'https'
+const host = '2sh.me'
+
+const urls: string[] = []
+
 async function findPages(err: any, pathname: string, dirent: any)
 {
   if (!dirent.isFile() || !dirent.name.endsWith('.ts')) return
@@ -30,14 +36,15 @@ async function findPages(err: any, pathname: string, dirent: any)
 
   const importPath = `${relPath}/${name}`
   const urlPath = `/${name}.html`
+  urls.push(`${protocol}://${host}${urlPath}`)
 
   try
   {
     const pageImport = await import(importPath)
     const pageGenerator: PageGenerator = pageImport.default
     const page = pageGenerator({
-      protocol: 'https',
-      host: '2sh.me',
+      protocol,
+      host,
       path: urlPath
     })
     app.get(urlPath, (req, res, next) =>
@@ -45,7 +52,7 @@ async function findPages(err: any, pathname: string, dirent: any)
       res.send(page)
     })
 
-    fs.writeFileSync(`${pageOutput}${urlPath}`, page);
+    fs.writeFileSync(`${pageOutput}${urlPath}`, page)
   }
   catch (error)
   {
@@ -58,7 +65,8 @@ async function findPages(err: any, pathname: string, dirent: any)
 
 async function importPages()
 {
-  await walk("./src/server/pages/", findPages);
+  await walk("./src/server/pages/", findPages)
+  fs.writeFileSync(`${pageOutput}/sitemap.txt`, urls.join('\n'))
 }
 importPages()
 
