@@ -351,7 +351,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'þamma {Fraujin}~~{*fin*} jah Giband libainais,',
+      got: 'þamma {Fraujin}~~{*fin*} jah Gibands libainais,',
       el: "τὸ Κύριον καὶ Ζωοποιόν,",
       en: "the Lord and Giver of life,",
     },
