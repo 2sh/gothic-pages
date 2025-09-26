@@ -4,6 +4,7 @@ import
   createArticleBody,
   toGothicLine,
   createArticleHeaders,
+  PageGenerator,
 } from '@server/tools'
 
 import
@@ -52,10 +53,10 @@ article += html`<p>${[
 
 const description = "A test page with all the Gothic letters."
 
-const page = html`<!doctype html>
+const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">
   <head>
-    ${createArticleHeaders(title, description)}
+    ${createArticleHeaders(info, title, description)}
   </head>
   <body>
     ${createArticleBody(article)}

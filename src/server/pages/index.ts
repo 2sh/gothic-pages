@@ -2,6 +2,7 @@ import {
   createArticleBody,
   createArticleHeaders,
   html,
+  PageGenerator,
 } from "@server/tools"
 
 
@@ -14,6 +15,18 @@ const article = html`<header>
 </header>
 
 <p>${description}</p>
+
+<p>Feedback on anything on these pages greatly appreciated!</p>
+
+
+<h2>Fonts</h2>
+<ul>
+  <li><a href="static/NotoSerifGothicV1.otf" download>Noto Serif Gothic</a> (v1.0) -
+  Font with uppercase and lowercase Gothic letters.
+  The letters were created from the various letters in the original
+  Noto Serif font, largly from Latin and Cyrillic letters.</li>
+</ul>
+
 
 <h2>Tools</h2>
 <ul>
@@ -45,22 +58,22 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 
 <h4>Liturgical</h4>
 <ul>
-  <li><a href="nicene-creed.html">Nicene Creed</a></li>
-  <li><a href="doxology-lesser.html">Lesser Doxology</a></li>
-  <li><a href="compline-small.html">Office of Small Compline</a> (WIP)</li>
-  <li><a href="liturgy-chrysostom.html">Liturgy of Saint John Chrysostom</a> (WIP)</li>
+  <li><a href="nicene-creed.html" hreflang='got'>Nicene Creed</a></li>
+  <li><a href="doxology-lesser.html" hreflang='got'>Lesser Doxology</a></li>
+  <li><a href="compline-small.html" hreflang='got'>Office of Small Compline</a> (WIP)</li>
+  <li><a href="liturgy-chrysostom.html" hreflang='got'>Liturgy of Saint John Chrysostom</a> (WIP)</li>
 </ul>
 
 <h4>Prayers</h4>
 <ul>
-  <li><a href="morning-prayer-optina.html">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
+  <li><a href="morning-prayer-optina.html" hreflang='got'>Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
 </ul>
 
 <h4>Saints</h4>
 <ul>
-  <li><a href="nicetas-the-goth.html">Nicetas the Goth</a></li>
-  <li><a href="sabbas-the-goth.html">Sabbas the Goth</a></li>
-  <li><a href="26-gothic-martyrs.html">26 Gothic Martyrs in the Crimea</a> (WIP)</li>
+  <li><a href="nicetas-the-goth.html" hreflang='got'>Nicetas the Goth</a></li>
+  <li><a href="sabbas-the-goth.html" hreflang='got'>Sabbas the Goth</a></li>
+  <li><a href="26-gothic-martyrs.html" hreflang='got'>26 Gothic Martyrs in the Crimea</a> (WIP)</li>
 </ul>
 
 <h4>Other</h4>
@@ -70,16 +83,14 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 
 <h3>Stories</h3>
 <ul>
-  <li><a href="peter-rabbit.html">The Tale of Peter Rabbit</a> (WIP)</li>
-  <li><a href="grimm-the-poor-man-and-the-rich-man.html">The Poor Man and the Rich Man</a> (WIP)</li>
+  <li><a href="peter-rabbit.html" hreflang='got'>The Tale of Peter Rabbit</a> (WIP)</li>
+  <li><a href="grimm-the-poor-man-and-the-rich-man.html" hreflang='got'>The Poor Man and the Rich Man</a> (WIP)</li>
 </ul>
 
 <h3>Poems</h3>
 <ul>
-  <li><a href="mondnacht.html">Mondnacht</a></li>
+  <li><a href="mondnacht.html" hreflang='got'>Mondnacht</a></li>
 </ul>
-
-<p>Feedback greatly appreciated!</p>
 
 
 <h2>Other</h2>
@@ -103,10 +114,10 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 </ul>`
 
 
-const page = html`<!doctype html>
+const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">
   <head>
-    ${createArticleHeaders(title, description)}
+    ${createArticleHeaders(info, title, description)}
   </head>
   <body>
     ${createArticleBody(article, { hasGothic: false, isHome: true })}

@@ -121,13 +121,26 @@ ${conf.hasGothic ? htmlInfoBox : ''}
 <script type="module" src="scripts/article.js"></script>`
 }
 
-export function createArticleHeaders(title: string, description: string)
+export function createArticleHeaders(info: PageInfo, title: string, description: string)
 {
-  return html`<title>${safeHtmlText(title)}</title>
-<meta name="description" content='${safeHtmlAttribute(description)}'>
-
-<meta charset="utf-8">
+  const canonicalPath = info.path == "/index.html" ? "" : info.path
+  return html`<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="${info.protocol}://${info.host}${canonicalPath}">
+
+<title>${safeHtmlText(title)}</title>
+<meta name="description" content='${safeHtmlAttribute(description)}'>
+<meta name="author" content="2sh">
+
 <link href="assets/styles/main.css" rel="stylesheet">
 <link href="assets/styles/article.css" rel="stylesheet">`
 }
+
+export type PageInfo = {
+  protocol: string,
+  host: string,
+  path: string
+}
+
+export type PageGenerator = (info: PageInfo) => string

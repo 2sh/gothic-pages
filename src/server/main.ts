@@ -3,6 +3,7 @@ import express, { type ErrorRequestHandler } from 'express'
 import { walk } from '@root/walk'
 import path from "path"
 import fs from 'fs'
+import { PageGenerator } from './tools'
 
 
 const mode = process.argv.length > 2
@@ -28,18 +29,23 @@ async function findPages(err: any, pathname: string, dirent: any)
   const name = path.basename(dirent.name, '.ts')
 
   const importPath = `${relPath}/${name}`
-  const url = `/${name}.html`
+  const urlPath = `/${name}.html`
 
   try
   {
     const pageImport = await import(importPath)
-    const page = pageImport.default
-    app.get(url, (req, res, next) =>
+    const pageGenerator: PageGenerator = pageImport.default
+    const page = pageGenerator({
+      protocol: 'https',
+      host: '2sh.me',
+      path: urlPath
+    })
+    app.get(urlPath, (req, res, next) =>
     {
       res.send(page)
     })
 
-    fs.writeFileSync(`${pageOutput}${url}`, page);
+    fs.writeFileSync(`${pageOutput}${urlPath}`, page);
   }
   catch (error)
   {
@@ -47,7 +53,7 @@ async function findPages(err: any, pathname: string, dirent: any)
     return
   }
 
-  console.log(`Importing ${importPath} as ${url}`)
+  console.log(`Importing ${importPath} as ${urlPath}`)
 }
 
 async function importPages()

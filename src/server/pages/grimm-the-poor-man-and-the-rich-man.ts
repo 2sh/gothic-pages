@@ -4,6 +4,7 @@ import
   createArticleBody,
   toGothicLine,
   createArticleHeaders,
+  PageGenerator,
 } from '@server/tools'
 
 // https://www.grimmstories.com/de/grimm_maerchen/der_arme_und_der_reiche
@@ -346,10 +347,10 @@ article += html`<p lang='en' class="annotation">
 
 const description = "The Poor Man and the Rich Man, a fairy tale by the Brothers Grimm in the Gothic language, a translation by 2sh."
 
-const page = html`<!doctype html>
+const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">
   <head>
-    ${createArticleHeaders(title, description)}
+    ${createArticleHeaders(info, title, description)}
   </head>
   <body>
     ${createArticleBody(article)}

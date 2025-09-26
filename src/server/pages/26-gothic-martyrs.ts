@@ -4,6 +4,7 @@ import
   createArticleBody,
   toGothicLine,
   createArticleHeaders,
+  PageGenerator,
 } from '@server/tools'
 
 // https://www.oca.org/saints/lives/2017/03/26/100888-26-martyrs-in-the-crimea
@@ -240,10 +241,10 @@ article += html`<p lang='en' class="annotation">
 
 const description = "Nicetas the Goth in the Gothic language, a translation by 2sh."
 
-const page = html`<!doctype html>
+const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">
   <head>
-    ${createArticleHeaders(title, description)}
+    ${createArticleHeaders(info, title, description)}
   </head>
   <body>
     ${createArticleBody(article)}

@@ -4,6 +4,7 @@ import
   createArticleBody,
   toGothicLine,
   createArticleHeaders,
+  PageGenerator,
 } from '@server/tools'
 
 import
@@ -184,10 +185,10 @@ article += html`<p lang='en' class="annotation">
 
 const description = "The Office of Small Compline in the Gothic language, a translation by 2sh."
 
-const page = html`<!doctype html>
+const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">
   <head>
-    ${createArticleHeaders(title, description)}
+    ${createArticleHeaders(info, title, description)}
   </head>
   <body>
     ${createArticleBody(article)}

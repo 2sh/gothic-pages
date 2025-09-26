@@ -4,6 +4,7 @@ import
   createArticleBody,
   toGothicLine,
   createArticleHeaders,
+  PageGenerator,
 } from '@server/tools'
 
 import
@@ -301,10 +302,10 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
 
 const description = "Various words and phrases"
 
-const page = html`<!doctype html>
+const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">
   <head>
-    ${createArticleHeaders(title, description)}
+    ${createArticleHeaders(info, title, description)}
   </head>
   <body>
     ${createArticleBody(article)}
