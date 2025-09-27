@@ -110,7 +110,7 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Frauja, Þiudan, himinakunda Guþ,',
+      got: 'Frauja, Þiudan, Guþ himinakunda,',
       el: "Κύριε Βασιλεῦ, ἐπουράνιε Θεέ,",
       en: "Lord, King, Heavenly God,",
     },
@@ -133,7 +133,7 @@ and are almost always declined 'weak'."`,
 article += html`<p>${[
   {
     text: {
-      got: 'Frauja ainabaur Sunau,',
+      got: 'Frauja Sunau ainabaur,',
       el: "Κύριε Υἱὲ μονογενές,",
       en: "only-begotten Son,",
     },
