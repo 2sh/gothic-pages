@@ -13,13 +13,13 @@ import { amen } from "@server/lines"
 
 global.lineId = 0
 
-const title = 'Morning Prayer'
+const title = '𐌱𐌹𐌳𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌹𐍃 𐍃𐍀𐌴𐌳𐌹𐌶𐌰𐌽𐌴 𐍃𐌹𐌽𐌹𐍃𐍄𐌰𐌹𐌶𐌴 𐌰𐌿𐍀𐍄𐌹𐌽𐌰𐍃'
 let article = ''
 
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-got: 'Bida Maurginis Spedizane Sinistaize Optinas',
+got: 'Bida Maurginis Spedizane Sinistaize Auptinas',
 ru: "Молитва последних оптинских старцев",
 en: "The Morning Prayer of the Last Elders of Optina",
   },
