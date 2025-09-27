@@ -29,7 +29,7 @@ en: "The Morning Prayer of the Last Elders of Optina",
 article += html`<p>${[
 {
   text: {
-got: '𐍆𐍂𐌰𐌿𐌾𐌰,',
+got: 'Frauja,',
 ru: "Господи,",
 en: "O Lord,",
     },
@@ -172,7 +172,7 @@ en: "neither embarrassing nor saddening anyone.",
 },
 {
   text: {
-got: '𐍆𐍂𐌰𐌿𐌾𐌰,',
+got: 'Frauja,',
 ru: "Господи,",
 en: "O Lord,",
     },
