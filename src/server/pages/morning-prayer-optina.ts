@@ -19,7 +19,7 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-got: 'Bida Maurginis Spedizane Sinistaize Optina',
+got: 'Bida Maurginis Spedizane Sinistaize Optinas',
 ru: "Молитва последних оптинских старцев",
 en: "The Morning Prayer of the Last Elders of Optina",
   },
