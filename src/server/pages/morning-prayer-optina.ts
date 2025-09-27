@@ -39,7 +39,7 @@ en: "O Lord,",
 article += html`<p>${[
 {
   text: {
-got: 'Fragif ei allaim, þoei briggau dags qimands, miþ rimisa ahmeinamma gamotjau.',
+got: 'Fragif ei allaim, þoei dags qimands briggau, miþ rimisa ahmeinamma gamotjau.',
 ru: "дай мне с душевным спокойствием встретить всё, что принесёт мне наступающий день.",
 en: "grant that I may meet all that this coming day brings to me with spiritual tranquility.",
   },
