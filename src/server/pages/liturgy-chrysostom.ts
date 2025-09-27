@@ -33,7 +33,7 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-    got: 'Leiturgia Gudiska\nXrisaustaumáus',
+    got: 'Leiturgia Gudiska\nXrisaustaumaus',
     el: "Θεία Λειτουργία του Χρυσοστόμου",
     en: "Divine Liturgy of Chrysostom",
   },

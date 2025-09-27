@@ -4,7 +4,6 @@
   "main": "src/server/main.ts",
   "author": "2sh",
   "license": "UNLICENSED",
-  "type": "module",
   "private": true,
   "scripts": {
     "dev": "rollup -c -w",

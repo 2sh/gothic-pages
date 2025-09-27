@@ -16,6 +16,7 @@ import
 // sons & daughters of batwins: https://tyoos.org/Feasts-and-Saints-of-the-Day/March/saints-of-march-26.html
 
 
+// https://www.info-grece.com/el/eortologio/agion-eikosiex-martyron-ton-en-gotthia
 // https://www.info-grece.com/en/saints_day/saints-26-martyrs-in-the-land-of-the-goths
 // leads me to believe the queen and her daughter and son weren't actually included in the 26
 

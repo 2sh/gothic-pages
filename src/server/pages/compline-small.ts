@@ -13,6 +13,7 @@ import
   amen,
   forYoursIs,
   gloryToTrinity,
+  hymnToTheotokos,
   lordHaveMercy,
   lordsPrayer,
   nowAndEver,
@@ -151,14 +152,13 @@ article += html`<p class='notice'>
 ${[
     {
       text: {
-        got: 'Psalmos',
-        el: "οἱ ψαλμοί",
-        en: "Psalms",
+        got: 'Psalmos 50, 69, 142',
+        el: "οἱ ψαλμοί 50, 69, 142",
+        en: "Psalms 50, 69, 142",
       },
       notes: `*𐍀𐍃𐌰𐌻𐌼𐍉𐍃: Uncertain and unattested nominative plural`
     },
   ].map(toGothicLine).join('')}
-50, 69, 142
 </p>
 <p class="notice"><a href="doxology-lesser.html">${toGothicLine({
     text: {
@@ -175,6 +175,36 @@ ${[
     }
   })}</a></p>`
 
+speech = html`<p>${hymnToTheotokos()}</p>`
+speech += html`<p>
+${trisagion()}
+<br>
+${timesThree()}
+</p>`
+speech += html`<p>${gloryToTrinity()}</p>`
+speech += html`<p>${allHolyTrinity()}</p>`
+speech += html`<p>
+${lordHaveMercy()}
+${timesThree()}
+</p>`
+speech += html`<p>${gloryToTrinity()}</p>`
+speech += html`<p>${lordsPrayer()}</p>`
+
+speech += html`<p>
+${speakerPriest()}
+${forYoursIs()}
+<br>
+${ofTrinity()}
+<br>
+${nowAndEver()}
+</p>`
+
+speech += html`<p>
+${speakerReader()}
+${amen()}
+</p>`
+
+article += html`<div class="speech">${speech}</div>`
 
 article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Office of Small Compline</span>
