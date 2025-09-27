@@ -19,7 +19,7 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-got: '<[TODO]>',
+got: 'Bida Maurginis Spedizane Sinistaize Optina',
 ru: "Молитва последних оптинских старцев",
 en: "The Morning Prayer of the Last Elders of Optina",
   },
@@ -39,9 +39,9 @@ en: "O Lord,",
 article += html`<p>${[
 {
   text: {
-got: '<[TODO]>',
-ru: "дай мне с душевным спокойствием встретить всё,",
-en: "grant that I may meet all (next line) with spiritual tranquility.",
+got: 'Fragif ei allaim, þoei briggau dags qimands, miþ rimisa ahmeinamma gamotjau.',
+ru: "дай мне с душевным спокойствием встретить всё, что принесёт мне наступающий день.",
+en: "grant that I may meet all that this coming day brings to me with spiritual tranquility.",
   },
 },
 ].map(toGothicLine).join('')}</p>`
@@ -49,9 +49,9 @@ en: "grant that I may meet all (next line) with spiritual tranquility.",
 article += html`<p>${[
 {
   text: {
-got: '<[TODO]>',
-ru: "что принесёт мне наступающий день.",
-en: "that this coming day brings to me",
+got: 'Fragif ei mis allandjo Wiljan Weihana þeinana atgibau.',
+ru: "Дай мне всецело предаться воле Твоей Святой.",
+en: "Grant that I may fully surrender myself to Thy holy Will.",
     },
 },
 ].map(toGothicLine).join('')}</p>`
@@ -60,38 +60,8 @@ article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
-ru: "Дай мне всецело предаться",
-en: "Grant that I may fully surrender myself",
-    },
-},
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
-{
-  text: {
-got: '<[TODO]>',
-ru: "воле Твоей Святой.",
-en: "to Thy holy Will.",
-    },
-},
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
-{
-  text: {
-got: '<[TODO]>',
-ru: "На всякий час сего дня",
-en: "At every hour of this day,",
-    },
-},
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
-{
-  text: {
-got: '<[TODO]>',
-ru: "во всём наставь и поддержи меня.",
-en: "direct and support me in all things.",
+ru: "На всякий час сего дня во всём наставь и поддержи меня.",
+en: "At every hour of this day, direct and support me in all things.",
     },
 },
 ].map(toGothicLine).join('')}</p>`
