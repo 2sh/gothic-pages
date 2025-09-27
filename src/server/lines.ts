@@ -380,8 +380,9 @@ ${[
         en: "It is truly meet to bless thee, the Theotokos,",
       },
       notes:
-`axion translates to mostly wairþs and once gatils using gatils.
-As wairþs seems to miss the fitting/meet meaning and in the verse gatils is used,
+`axion translates to mostly wairþs and once gatils.
+Using gatils as wairþs seems to miss the fitting/meet meaning
+and in the verse gatils is used,
 axion is translated to "fit" in English instead of the usual "worthy".`
     },
     {
