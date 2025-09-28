@@ -49,7 +49,7 @@ en: "grant that I may meet all that this coming day brings to me with spiritual 
 article += html`<p>${[
 {
   text: {
-got: 'Fragif ei mis allandjo Wiljan Weihana þeinana atgibau.',
+got: 'Fragif ei mik allandjo Wiljin Weihamma þeinamma atgibau.',
 ru: "Дай мне всецело предаться воле Твоей Святой.",
 en: "Grant that I may fully surrender myself to Thy holy Will.",
     },
