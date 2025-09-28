@@ -19,181 +19,181 @@ let article = ''
 article += html`<header>
   <h1>${toGothicLine({
   text: {
-got: 'Bida Maurginis Spedizane Sinistaize Auptinas',
-ru: "Молитва последних оптинских старцев",
-en: "The Morning Prayer of the Last Elders of Optina",
+    got: 'Bida Maurginis Spedizane Sinistaize Auptinas',
+    ru: "Молитва последних оптинских старцев",
+    en: "The Morning Prayer of the Last Elders of Optina",
   },
 })}</h1>
 </header>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Frauja,',
-ru: "Господи,",
-en: "O Lord,",
+  {
+    text: {
+      got: 'Frauja,',
+      ru: "Господи,",
+      en: "O Lord,",
     },
-},
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
-{
-  text: {
-got: 'Fragif ei allaim, þoei his dags qimands briggau, miþ rimisa ahmeinamma gamotjau.',
-ru: "дай мне с душевным спокойствием встретить всё, что принесёт мне наступающий день.",
-en: "grant that I may meet all that this coming day brings to me with spiritual tranquility.",
   },
-},
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Fragif ei mik allandjo Wiljin Weihamma þeinamma atgibau.',
-ru: "Дай мне всецело предаться воле Твоей Святой.",
-en: "Grant that I may fully surrender myself to Thy holy Will.",
+  {
+    text: {
+      got: 'Fragif ei allaim, þoei his dags qimands briggau, miþ rimisa ahmeinamma gamotjau.',
+      ru: "дай мне с душевным спокойствием встретить всё, что принесёт мне наступающий день.",
+      en: "grant that I may meet all that this coming day brings to me with spiritual tranquility.",
     },
-},
+  },
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Uta ƕeilai ƕizáih his dagis, talzei jah niþ mik ïn allaim.',
-ru: "На всякий час сего дня во всём наставь и поддержи меня.",
-en: "At every hour of this day, direct and support me in all things.",
+  {
+    text: {
+      got: 'Fragif ei mik allandjo Wiljin Weihamma þeinamma atgibau.',
+      ru: "Дай мне всецело предаться воле Твоей Святой.",
+      en: "Grant that I may fully surrender myself to Thy holy Will.",
     },
-},
+  },
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Ƕo hauseins þoei nimau ïn runa dagis,',
-ru: "Какие бы я ни получал известия в течение дня,",
-en: "Whatsoever news may reach me in the course of the day,",
+  {
+    text: {
+      got: 'Uta ƕeilai ƕizáih his dagis, talzei jah niþ mik ïn allaim.',
+      ru: "На всякий час сего дня во всём наставь и поддержи меня.",
+      en: "At every hour of this day, direct and support me in all things.",
+    },
+  },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
+  {
+    text: {
+      got: 'Ƕo hauseins þoei nimau ïn runa dagis,',
+      ru: "Какие бы я ни получал известия в течение дня,",
+      en: "Whatsoever news may reach me in the course of the day,",
     },
     notes: `in the run of the day`
-},
-{
-  text: {
-got: 'laisei mik du andniman þo miþ saiwalai rimisis jah fauragahugdai tulgjai,',
-ru: "научи меня принять их со спокойной душою и твёрдым убеждением,",
-en: "teach me to accept it with a calm soul and the firm conviction",
+  },
+  {
+    text: {
+      got: 'laisei mik du andniman þo miþ saiwalai rimisis jah fauragahugdai tulgjai,',
+      ru: "научи меня принять их со спокойной душою и твёрдым убеждением,",
+      en: "teach me to accept it with a calm soul and the firm conviction",
     },
     notes: `rimisis "of calmness", though I'd prefer an adjective
 
 purpose, determination, one's made up mind = fauragahugds from fauragahugjan + -þs like gahugds`
-},
-{
-  text: {
-got: 'ei all uf Wiljin Weihamma þeinamma sijai.',
-ru: "что на всё Святая воля Твоя.",
-en: "that all is subject to Thy holy Will.",
+  },
+  {
+    text: {
+      got: 'ei all uf Wiljin Weihamma þeinamma sijai.',
+      ru: "что на всё Святая воля Твоя.",
+      en: "that all is subject to Thy holy Will.",
     },
     notes: `Corinthians I 15:27, Ephesians 1:22. Though not using ufhnaiwida
 as the Russian isn't using a word like submit, just using a preposition.
 
 Every thing is under thy Holy Will.`
-},
+  },
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Ïn waurdam jah tojam meinaim tiuh mitonins jah gahugdins meinos.',
-ru: "Во всех словах и делах моих руководи моими мыслями и чувствами.",
-en: "Direct my thoughts and feelings in all my words and actions.",
+  {
+    text: {
+      got: 'Ïn waurdam jah tojam meinaim tiuh mitonins jah gahugdins meinos.',
+      ru: "Во всех словах и делах моих руководи моими мыслями и чувствами.",
+      en: "Direct my thoughts and feelings in all my words and actions.",
     },
     notes: `Using gahugds (mind, reason, disposition) for feeling,
 though there may be something better.`
-},
+  },
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Ïn allaim sinþam ungaweniþaim, ni fralet mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
-ru: "Во всех непредвиденных случаях не дай мне забыть, что всё ниспослано Тобой.",
-en: "In all unexpected occurrences, do not let me forget that all is sent down from Thee.",
+  {
+    text: {
+      got: 'Ïn allaim sinþam ungaweniþaim, ni fralet mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
+      ru: "Во всех непредвиденных случаях не дай мне забыть, что всё ниспослано Тобой.",
+      en: "In all unexpected occurrences, do not let me forget that all is sent down from Thee.",
     },
-},
+  },
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Fragif ei raihtaba jah frodaba miþ allaim ingardjam taujau,',
-ru: "Научи меня прямо и разумно действовать с каждым членом семьи моей,",
-en: "Grant that I may deal straightforwardly and wisely with every member of my family,",
+  {
+    text: {
+      got: 'Fragif ei raihtaba jah frodaba miþ allaim ingardjam taujau,',
+      ru: "Научи меня прямо и разумно действовать с каждым членом семьи моей,",
+      en: "Grant that I may deal straightforwardly and wisely with every member of my family,",
     },
-},
-{
-  text: {
-got: 'nih drobjands nih gauriþs ainohun.',
-ru: "никого не смущая и не огорчая.",
-en: "neither embarrassing nor saddening anyone.",
+  },
+  {
+    text: {
+      got: 'nih drobjands nih gauriþs ainohun.',
+      ru: "никого не смущая и не огорчая.",
+      en: "neither embarrassing nor saddening anyone.",
     },
-},
+  },
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${[
-{
-  text: {
-got: 'Frauja,',
-ru: "Господи,",
-en: "O Lord,",
+  {
+    text: {
+      got: 'Frauja,',
+      ru: "Господи,",
+      en: "O Lord,",
     },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "дай мне силу",
-en: "grant me the strength",
+  },
+  {
+    text: {
+      got: '<[TODO]>',
+      ru: "дай мне силу",
+      en: "grant me the strength",
     },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "перенести утомление",
-en: "to endure the fatigue",
+  },
+  {
+    text: {
+      got: '<[TODO]>',
+      ru: "перенести утомление",
+      en: "to endure the fatigue",
     },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "наступающего дня",
-en: "of the coming day",
+  },
+  {
+    text: {
+      got: '<[TODO]>',
+      ru: "наступающего дня",
+      en: "of the coming day",
     },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "и все события в течение дня.",
-en: "and all the events that take place during it.",
+  },
+  {
+    text: {
+      got: '<[TODO]>',
+      ru: "и все события в течение дня.",
+      en: "and all the events that take place during it.",
     },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "Руководи моею волею и научи меня ",
-en: "Direct my will and teach me",
+  },
+  {
+    text: {
+      got: '<[TODO]>',
+      ru: "Руководи моею волею и научи меня ",
+      en: "Direct my will and teach me",
     },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "молиться, верить, надеяться,",
-en: "to pray, to believe, to hope,",
+  },
+  {
+    text: {
+      got: '<[TODO]>',
+      ru: "молиться, верить, надеяться,",
+      en: "to pray, to believe, to hope,",
     },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "терпеть, прощать и любить.",
-en: "to be patient, to forgive, and to love.",
+  },
+  {
+    text: {
+      got: '<[TODO]>',
+      ru: "терпеть, прощать и любить.",
+      en: "to be patient, to forgive, and to love.",
     },
-},
+  },
 ].map(toGothicLine).join('')}</p>`
 
 article += html`<p>${amen()}</p>`
