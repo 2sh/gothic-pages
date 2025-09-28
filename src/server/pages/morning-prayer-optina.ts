@@ -77,11 +77,13 @@ en: "Whatsoever news may reach me in the course of the day,",
 },
 {
   text: {
-got: 'laisei mik du andniman þo miþ saiwalai rimisis jah muna tulgamma,',
+got: 'laisei mik du andniman þo miþ saiwalai rimisis jah fauragahugdai tulgjai,',
 ru: "научи меня принять их со спокойной душою и твёрдым убеждением,",
 en: "teach me to accept it with a calm soul and the firm conviction",
     },
-    notes: `rimisis "of calmness", though I'd prefer an adjective`
+    notes: `rimisis "of calmness", though I'd prefer an adjective
+
+purpose, determination, one's made up mind = fauragahugds from fauragahugjan + -þs like gahugds`
 },
 {
   text: {
@@ -99,9 +101,21 @@ Every thing is under thy Holy Will.`
 article += html`<p>${[
 {
   text: {
-got: '<[TODO]>',
+got: 'Ïn waurdam jah tojam meinaim tiuh mitonins jah gahugdins meinos.',
 ru: "Во всех словах и делах моих руководи моими мыслями и чувствами.",
 en: "Direct my thoughts and feelings in all my words and actions.",
+    },
+    notes: `Using gahugds (mind, reason, disposition) for feeling,
+though there may be something better.`
+},
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
+{
+  text: {
+got: 'Ïn allaim sinþam ungaweniþaim, ni fralet mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
+ru: "Во всех непредвиденных случаях не дай мне забыть, что всё ниспослано Тобой.",
+en: "In all unexpected occurrences, do not let me forget that all is sent down from Thee.",
     },
 },
 ].map(toGothicLine).join('')}</p>`
@@ -109,46 +123,21 @@ en: "Direct my thoughts and feelings in all my words and actions.",
 article += html`<p>${[
 {
   text: {
-got: '<[TODO]>',
-ru: "Во всех непредвиденных случаях",
-en: "In all unexpected occurrences,",
+got: 'Fragif ei raihtaba jah frodaba miþ allaim ingardjam taujau,',
+ru: "Научи меня прямо и разумно действовать с каждым членом семьи моей,",
+en: "Grant that I may deal straightforwardly and wisely with every member of my family,",
     },
 },
 {
   text: {
-got: '<[TODO]>',
-ru: "не дай мне забыть,",
-en: "do not let me forget",
-    },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "что всё ниспослано Тобой.",
-en: "that all is sent down from Thee.",
-    },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "Научи меня прямо и разумно",
-en: "Grant that I may deal straightforwardly and wisely",
-    },
-},
-{
-  text: {
-got: '<[TODO]>',
-ru: "действовать с каждым членом семьи моей,",
-en: "with every member of my family,",
-    },
-},
-{
-  text: {
-got: '<[TODO]>',
+got: 'nih drobjands nih gauriþs ainohun.',
 ru: "никого не смущая и не огорчая.",
 en: "neither embarrassing nor saddening anyone.",
     },
 },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
 {
   text: {
 got: 'Frauja,',
