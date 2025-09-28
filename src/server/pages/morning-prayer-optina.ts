@@ -69,65 +69,44 @@ en: "At every hour of this day, direct and support me in all things.",
 article += html`<p>${[
 {
   text: {
-got: '<[TODO]>',
-ru: "Какие бы я ни получал известия",
-en: "Whatsoever news may reach me",
+got: 'Ƕo hauseins þoei nimau ïn runa dagis,',
+ru: "Какие бы я ни получал известия в течение дня,",
+en: "Whatsoever news may reach me in the course of the day,",
     },
+    notes: `in the run of the day`
 },
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
 {
   text: {
-got: '<[TODO]>',
-ru: "в течение дня,",
-en: "in the course of the day,",
+got: 'laisei mik du andniman þo miþ saiwalai rimisis jah muna tulgamma,',
+ru: "научи меня принять их со спокойной душою и твёрдым убеждением,",
+en: "teach me to accept it with a calm soul and the firm conviction",
     },
+    notes: `rimisis "of calmness", though I'd prefer an adjective`
 },
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
 {
   text: {
-got: '<[TODO]>',
-ru: "научи меня принять их",
-en: "teach me to accept it",
-    },
-},
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
-{
-  text: {
-got: '<[TODO]>',
-ru: "со спокойной душою и твёрдым убеждением,",
-en: "with a calm soul and the firm conviction",
-    },
-},
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
-{
-  text: {
-got: '<[TODO]>',
+got: 'ei all uf Wiljin Weihamma þeinamma sijai.',
 ru: "что на всё Святая воля Твоя.",
 en: "that all is subject to Thy holy Will.",
     },
+    notes: `Corinthians I 15:27, Ephesians 1:22. Though not using ufhnaiwida
+as the Russian isn't using a word like submit, just using a preposition.
+
+Every thing is under thy Holy Will.`
 },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
-ru: "Во всех словах и делах моих",
-en: "in all my words and actions. (this and next line swapped)",
+ru: "Во всех словах и делах моих руководи моими мыслями и чувствами.",
+en: "Direct my thoughts and feelings in all my words and actions.",
     },
 },
-{
-  text: {
-got: '<[TODO]>',
-ru: "руководи моими мыслями и чувствами.",
-en: "Direct my thoughts and feelings",
-    },
-},
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
 {
   text: {
 got: '<[TODO]>',
