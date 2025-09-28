@@ -130,7 +130,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'nih drobjands nih gauriþs ainohun.',
+      got: 'nih drobjands nih gaurjands ainohun.',
       ru: "никого не смущая и не огорчая.",
       en: "neither embarrassing nor saddening anyone.",
     },
