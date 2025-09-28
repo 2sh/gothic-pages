@@ -59,7 +59,7 @@ en: "Grant that I may fully surrender myself to Thy holy Will.",
 article += html`<p>${[
 {
   text: {
-got: 'Uta ƕeilai ƕizáih his dagis, talzei jah niþ mik ïn allamma.',
+got: 'Uta ƕeilai ƕizáih his dagis, talzei jah niþ mik ïn allaim.',
 ru: "На всякий час сего дня во всём наставь и поддержи меня.",
 en: "At every hour of this day, direct and support me in all things.",
     },
