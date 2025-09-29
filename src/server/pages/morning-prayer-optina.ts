@@ -34,9 +34,6 @@ article += html`<p>${[
       en: "O Lord,",
     },
   },
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
   {
     text: {
       got: 'Fragif ei allaim, þoei his dags qimands briggau, miþ rimisa ahmeinamma gamotjau.',
