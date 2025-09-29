@@ -29,16 +29,9 @@ article += html`<header>
 article += html`<p>${[
   {
     text: {
-      got: 'Frauja,',
-      ru: "Господи,",
-      en: "O Lord,",
-    },
-  },
-  {
-    text: {
-      got: 'Fragif ei allaim, þoei his dags qimands briggau, miþ rimisa ahmeinamma gamotjau.',
-      ru: "дай мне с душевным спокойствием встретить всё, что принесёт мне наступающий день.",
-      en: "grant that I may meet all that this coming day brings to me with spiritual tranquility.",
+      got: 'Frauja, fragif ei allaim, þoei his dags qimands briggau, miþ rimisa ahmeinamma gamotjau.',
+      ru: "Господи, дай мне с душевным спокойствием встретить всё, что принесёт мне наступающий день.",
+      en: "O Lord, grant that I may meet all that this coming day brings to me with spiritual tranquility.",
     },
   },
   {
@@ -128,16 +121,9 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Frauja,',
-      ru: "Господи,",
-      en: "O Lord,",
-    },
-  },
-  {
-    text: {
-      got: 'Fragif mis swinþein du frabairan afmojandan dagis qimandins',
-      ru: "дай мне силу перенести утомление наступающего дня",
-      en: "grant me the strength to endure the fatigue of the coming day",
+      got: 'Frauja, fragif mis swinþein du frabairan afmojandan dagis qimandins',
+      ru: "Господи, дай мне силу перенести утомление наступающего дня",
+      en: "O Lord, grant me the strength to endure the fatigue of the coming day",
     },
   },
   {
