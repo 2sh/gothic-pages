@@ -113,7 +113,7 @@ though there may be something better.`
 article += html`<p>${[
   {
     text: {
-      got: 'Ïn allaim sinþam ungaweniþaim, ni fralet mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
+      got: 'Ïn allaim ungaweniþaim, ni fralet mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
       ru: "Во всех непредвиденных случаях не дай мне забыть, что всё ниспослано Тобой.",
       en: "In all unexpected occurrences, do not let me forget that all is sent down from Thee.",
     },
@@ -147,49 +147,38 @@ article += html`<p>${[
   },
   {
     text: {
-      got: '<[TODO]>',
-      ru: "дай мне силу",
-      en: "grant me the strength",
+      got: 'Fragif mis swinþein du frabairan afmojandan dagis qimandins',
+      ru: "дай мне силу перенести утомление наступающего дня",
+      en: "grant me the strength to endure the fatigue of the coming day",
     },
   },
   {
     text: {
-      got: '<[TODO]>',
-      ru: "перенести утомление",
-      en: "to endure the fatigue",
-    },
-  },
-  {
-    text: {
-      got: '<[TODO]>',
-      ru: "наступающего дня",
-      en: "of the coming day",
-    },
-  },
-  {
-    text: {
-      got: '<[TODO]>',
+      got: 'jah alla þoei wairþand ïn þamma.',
       ru: "и все события в течение дня.",
       en: "and all the events that take place during it.",
     },
   },
+].map(toGothicLine).join('')}</p>`
+
+article += html`<p>${[
   {
     text: {
-      got: '<[TODO]>',
+      got: 'Tiuh wiljan meinana jah laisei mik du',
       ru: "Руководи моею волею и научи меня ",
       en: "Direct my will and teach me",
     },
   },
   {
     text: {
-      got: '<[TODO]>',
+      got: 'bidjan, galaubjan, wēnjan,',
       ru: "молиться, верить, надеяться,",
       en: "to pray, to believe, to hope,",
     },
   },
   {
     text: {
-      got: '<[TODO]>',
+      got: 'usþulān, fragiban jah frijon.',
       ru: "терпеть, прощать и любить.",
       en: "to be patient, to forgive, and to love.",
     },
