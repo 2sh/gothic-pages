@@ -41,9 +41,6 @@ article += html`<p>${[
       en: "grant that I may meet all that this coming day brings to me with spiritual tranquility.",
     },
   },
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
   {
     text: {
       got: 'Fragif ei mik allandjo Wiljin Weihamma þeinamma atgibau.',
@@ -61,9 +58,6 @@ article += html`<p>${[
       en: "At every hour of this day, direct and support me in all things.",
     },
   },
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
   {
     text: {
       got: 'Ƕo hauseins þoei nimau ïn runa dagis,',
@@ -105,9 +99,6 @@ article += html`<p>${[
     notes: `Using gahugds (mind, reason, disposition) for feeling,
 though there may be something better.`
   },
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
   {
     text: {
       got: 'Ïn allaim ungaweniþaim, ni fralet mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
@@ -156,9 +147,6 @@ article += html`<p>${[
       en: "and all the events that take place during it.",
     },
   },
-].map(toGothicLine).join('')}</p>`
-
-article += html`<p>${[
   {
     text: {
       got: 'Tiuh wiljan meinana jah laisei mik du',
