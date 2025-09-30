@@ -28,7 +28,7 @@ article += html`<header>
 article += html`<p>${[
   {
     text: {
-      got: 'Frauja, fragif ei allaim, þoei his dags qimands briggau, miþ rimisa ahmeinamma gamotjau.',
+      got: 'Frauja, fragif ei allaim, þoei his dags qimands briggai, miþ rimisa ahmeinamma gamotjau.',
       ru: "Господи, дай мне с душевным спокойствием встретить всё, что принесёт мне наступающий день.",
       en: "O Lord, grant that I may meet all that this coming day brings to me with spiritual tranquility.",
     },
