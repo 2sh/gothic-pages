@@ -61,7 +61,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'laisei mik du andniman þo miþ saiwalai rimisis jah fauragahugdai tulgjai,',
+      got: 'laisei mik þo miþ saiwalai rimisis jah muna tulgjamma,',
       ru: "научи меня принять их со спокойной душою и твёрдым убеждением,",
       en: "teach me to accept it with a calm soul and the firm conviction",
     },
@@ -71,7 +71,7 @@ purpose, determination, one's made up mind = fauragahugds from fauragahugjan + -
   },
   {
     text: {
-      got: 'ei all uf Wiljin Weihamma þeinamma sijai.',
+      got: 'ei all uf Wiljin Weihamma þeinamma sijai, andniman.',
       ru: "что на всё Святая воля Твоя.",
       en: "that all is subject to Thy holy Will.",
     },
@@ -111,7 +111,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'nih drobjands nih gaurjands ainohun.',
+      got: 'ni drobjands nih gaurjands ainohun.',
       ru: "никого не смущая и не огорчая.",
       en: "neither embarrassing nor saddening anyone.",
     },
@@ -121,7 +121,7 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Frauja, fragif mis swinþein du frabairan afmojandan dagis qimandins',
+      got: 'Frauja, fragif mis swinþein afmojandan dagis qimandins du frabairan',
       ru: "Господи, дай мне силу перенести утомление наступающего дня",
       en: "O Lord, grant me the strength to endure the fatigue of the coming day",
     },
@@ -135,14 +135,14 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'Tiuh wiljan meinana jah laisei mik du',
+      got: 'Tiuh wiljan meinana jah laisei mik',
       ru: "Руководи моею волею и научи меня ",
       en: "Direct my will and teach me",
     },
   },
   {
     text: {
-      got: 'bidjan, galaubjan, wēnjan,',
+      got: 'bidjan, galaubjan, wenjan,',
       ru: "молиться, верить, надеяться,",
       en: "to pray, to believe, to hope,",
     },
