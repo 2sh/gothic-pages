@@ -9,23 +9,24 @@ import
 
 import
 {
-  allHolyTrinity,
   amen,
   forYoursIs,
   gloryToTrinity,
-  hymnToTheotokos,
   lordHaveMercy,
-  lordsPrayer,
   nowAndEver,
-  oComeLetUsWorship,
   ofTrinity,
-  oHeavenlyKing,
   speakerPriest,
   speakerReader,
   timesThree,
   timesTwelve,
   trisagion,
 } from '@server/lines'
+
+import { lordsPrayer } from '@server/lines/lords-prayer'
+import { oHeavenlyKing } from '@server/lines/o-heavenly-king'
+import { allHolyTrinity } from '@server/lines/all-holy-trinity'
+import { hymnToTheotokos } from '@server/lines/hymn-to-theotokos'
+import { oComeLetUsWorship } from '@server/lines/o-come-let-us-worship'
 
 
 // https://www.reddit.com/r/OrthodoxChristianity/comments/10o7wm2/trisagion_prayers_in_greek/
