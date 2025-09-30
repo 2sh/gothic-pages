@@ -64,9 +64,7 @@ article += html`<p>${[
       ru: "научи меня принять их со спокойной душою и твёрдым убеждением,",
       en: "teach me to accept it with a calm soul and the firm conviction",
     },
-    notes: `rimisis "of calmness", though I'd prefer an adjective
-
-purpose, determination, one's made up mind = fauragahugds from fauragahugjan + -þs like gahugds`
+    notes: `rimisis "of calmness", though I'd prefer an adjective`
   },
   {
     text: {
@@ -120,14 +118,14 @@ article += html`<p>${[
 article += html`<p>${[
   {
     text: {
-      got: 'Frauja, fragif mis swinþein afmojandan dagis qimandins du frabairan',
+      got: 'Frauja, fragif mis swinþein afmojandan dagis qimandins',
       ru: "Господи, дай мне силу перенести утомление наступающего дня",
       en: "O Lord, grant me the strength to endure the fatigue of the coming day",
     },
   },
   {
     text: {
-      got: 'jah alla þoei wairþand ïn þamma.',
+      got: 'jah alla þoei wairþand ïn þamma du frabairan.',
       ru: "и все события в течение дня.",
       en: "and all the events that take place during it.",
     },
