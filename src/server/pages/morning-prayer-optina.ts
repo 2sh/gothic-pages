@@ -139,16 +139,9 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'bidjan, galaubjan, wenjan,',
-      ru: "молиться, верить, надеяться,",
-      en: "to pray, to believe, to hope,",
-    },
-  },
-  {
-    text: {
-      got: 'usþulān, fragiban jah frijon.',
-      ru: "терпеть, прощать и любить.",
-      en: "to be patient, to forgive, and to love.",
+      got: 'bidjan, galaubjan, wenjan, usþulān, fragiban jah frijon.',
+      ru: "молиться, верить, надеяться, терпеть, прощать и любить.",
+      en: "to pray, to believe, to hope, to be patient, to forgive, and to love.",
     },
   },
 ].map(toGothicLine).join('')}</p>`
