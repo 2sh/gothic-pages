@@ -71,7 +71,8 @@ a soft hyphenation library for Gothic I'm developing that I'd like to publish fo
 (including the whole functionality behind these pages).
 So improving this will also improve that.</p>
 <p>The 'Remove superfluous diacritics' button removes the diacritics
-of aí and aú before h, ƕ and r, of ái and áu if not before those, and of ē and ō.</p>
+of aí and aú before h, ƕ and r, of ái and áu if not before those, and of ē and ō.
+This is "superfluous" from a pronunciation perspective, not an etymological one.</p>
 <p>The number converter is default set to convert only numbers up to 999 as that's all that's attested.
 The above 999 setting is an idea I had for larger numbers, with colons acting as 1000 separators.</p>
   </div>
