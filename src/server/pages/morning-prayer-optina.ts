@@ -52,7 +52,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'Ƕo hauseins þoei nimau ïn runa dagis,',
+      got: 'Ƕo hauseins þoei ïn runa dagis qimaina,',
       ru: "Какие бы я ни получал известия в течение дня,",
       en: "Whatsoever news may reach me in the course of the day,",
     },
@@ -93,7 +93,7 @@ though there may be something better.`
   },
   {
     text: {
-      got: 'Ïn allaim ungaweniþaim, ni fralet mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
+      got: 'Ïn allaim ungaweniþaim, ni fraletais mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
       ru: "Во всех непредвиденных случаях не дай мне забыть, что всё ниспослано Тобой.",
       en: "In all unexpected occurrences, do not let me forget that all is sent down from Thee.",
     },

@@ -599,7 +599,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'uswandjais af waurstwam handiwe þeinaizo.',
+      got: 'ni uswandjais af waurstwam handiwe þeinaizo.',
       el: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
       en: "do not turn away from the works of your hands.",
     },
