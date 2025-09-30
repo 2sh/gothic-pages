@@ -34,7 +34,7 @@ export function addSigla(text: string)
 type ModeFunc = (text: string, config?: any) => string
 
 export const modes: {[key: string]: ModeFunc} = {
-  simple: t => safeHtmlText(fromLatin(modernReplace(t)) + ' '),
+  simple: t => safeHtmlText(fromLatin(modernReplace(t), {numberConversion: 'big'}) + ' '),
   //serif: t => safeHtmlText(modernReplace(fromLatin(t, {preserveDiacritics: true})) + ' '),
   serif: t => safeHtmlText(removeDiacritics(modernReplace(t)) + ' '),
   biblical: t => addSigla(safeHtmlText(biblicalReplace(fromLatin(addSoftHyphens(t))))),
