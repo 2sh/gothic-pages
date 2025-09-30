@@ -34,7 +34,6 @@ const gothicLatin: Mapping[] = [
 
 const latinGothic: Mapping[] = [
   ['hv', '𐍈'],
-  ['wh', '𐍈'],
   ['v', '𐍈'],
   ['c', '𐌸'],
   ['y', '𐍅'],
@@ -54,7 +53,15 @@ const diaeresis: RegExpMapping[] = [
 
 function removeDiacriticChars(text: string)
 {
-  return text.replace(/(?!·)\p{Diacritic}(?<![Ii𐌹]\u0308)/gu, "")
+  return text.replace(/(?!·)\p{Diacritic}(?<![i𐌹]\u0308)/gui, "")
+}
+
+function removeSuperfluousDiacriticChars(text: string)
+{
+  return text
+    .replace(/([eo𐌴𐍉])\u0304/gui, "$1")
+    .replace(/([a𐌰][iu𐌹𐌿])\u0301(?=[h𐌷r𐍂v𐍈])/gui, "$1")
+    .replace(/([a𐌰])\u0301([iu𐌹𐌿])(?![h𐌷r𐍂v𐍈])/gui, "$1$2")
 }
 
 function applyMapping(text: string, mapping: RegExpMapping[])
@@ -161,7 +168,7 @@ let numberFormatter = new Intl.NumberFormat('en-US')
 
 export type ToLatinConfig = {
   th?: string,
-  hw?: string,
+  hv?: string,
   capitalize?: boolean,
 } & GeneralConfig
 
@@ -169,7 +176,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
 {
   const conf: Required<ToLatinConfig> = {
     th: 'þ',
-    hw: 'ƕ',
+    hv: 'ƕ',
     capitalize: false,
     numberConversion: 'normal',
     ...config,
@@ -184,7 +191,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
       return '·' + applyMapping(m, gothicLatin).toUpperCase() + '·'
   })
   if (conf.th) out = out.replaceAll('𐌸', conf.th)
-  if (conf.hw) out = out.replaceAll('𐍈', conf.hw)
+  if (conf.hv) out = out.replaceAll('𐍈', conf.hv)
   out = applyMapping(out, gothicLatin)
   if (conf.capitalize)
     out = out.replace(
@@ -199,6 +206,16 @@ export function removeDiacritics(text: string)
   let out = text
   out = out.normalize("NFKD")
   out = removeDiacriticChars(out)
+  out = out.normalize("NFKC") // re-attach diaereses
+  return out
+}
+
+export function removeSuperfluousDiacritics(text: string)
+{
+
+  let out = text
+  out = out.normalize("NFKD")
+  out = removeSuperfluousDiacriticChars(out)
   out = out.normalize("NFKC") // re-attach diaereses
   return out
 }
@@ -287,7 +304,6 @@ const latinIpa: RegExpMapping[] = [
 
   ['ƕ', 'hʷ'],
   ['hv', 'hʷ'],
-  ['wh', 'hʷ'],
   ['v', 'hʷ'],
 
   ['q', 'kʷ'],

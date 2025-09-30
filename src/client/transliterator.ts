@@ -4,6 +4,7 @@ import {
   toLatin,
   addDiaereses,
   removeDiacritics,
+  removeSuperfluousDiacritics,
   toIpa
 } from '@common/transliterate'
 
@@ -15,12 +16,13 @@ const gothic = Alpine.reactive({
   toLatin: (text: string) => toLatin(text, gothic),
   toIpa: (text: string) => toIpa(toLatin(text, gothic)),
   removeDiacritics,
+  removeSuperfluousDiacritics,
   addDiaereses,
   capitalize: false,
   preserveDiacritics: false,
   numberConversion: ((): 'none' | 'normal' | 'big' => 'normal')(),
   th: '',
-  hw: '',
+  hv: '',
 })
 
 Alpine.store("gothic", gothic)

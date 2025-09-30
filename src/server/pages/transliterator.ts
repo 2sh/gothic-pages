@@ -27,6 +27,7 @@ const article = html`<header>
       <div class="group">
         <button @click='text = $store.gothic.addDiaereses(text)'>Fix diaereses</button>
         <button @click='text = $store.gothic.removeDiacritics(text)' title='Removes diacritics, keeping diaereses'>Remove diacritics</button>
+        <button @click='text = $store.gothic.removeSuperfluousDiacritics(text)' title='Removes diacritics'>Remove superfluous diacritics</button>
       </div>
     </div>
     <div class="row">
@@ -50,11 +51,10 @@ const article = html`<header>
           <option value="">þ</option>
           <option value="c">c</option>
         </select></label>
-        <label>𐍈: <select x-model="$store.gothic.hw">
+        <label>𐍈: <select x-model="$store.gothic.hv">
           <option value="">ƕ</option>
           <option value="hv">hv</option>
           <option value="v">v</option>
-          <option value="wh">wh</option>
         </select></label>
       </div>
     </div>
@@ -70,6 +70,8 @@ If you notice anything wrong, <i>please</i> do tell me. Behind the IPA converter
 a soft hyphenation library for Gothic I'm developing that I'd like to publish for free at some point
 (including the whole functionality behind these pages).
 So improving this will also improve that.</p>
+<p>The 'Remove superfluous diacritics' button removes the diacritics
+of aí and aú before h, ƕ and r, of ái and áu if not before those, and of ē and ō.</p>
 <p>The number converter is default set to convert only numbers up to 999 as that's all that's attested.
 The above 999 setting is an idea I had for larger numbers, with colons acting as 1000 separators.</p>
   </div>
