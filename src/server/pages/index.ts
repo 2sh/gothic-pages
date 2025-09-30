@@ -69,7 +69,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 <h4>Other</h4>
 <ul>
   <li><a href="phrases.html">Words & Phrases</a></li>
-  <li><a href="test.html">Test page</a> for testing fonts.</li>
+  <li><a href="test.html">Test page</a> - a simple page for testing fonts.</li>
 </ul>
 
 <h3>Stories</h3>
