@@ -46,17 +46,10 @@ const latinGothic: Mapping[] = [
 ]
 
 const diaeresis: RegExpMapping[] = [
-  [/(?<=^|\s)𐌹/gmu, '𐌹̈'],
-  [/(?<=^|\s)i/gmu, 'ï'],
-
-  [/(?<!^|\s)([𐌰𐌹𐌿𐌴𐍉])𐌹(𐌳𐌳|𐌳𐍂𐌴𐌹|𐌱𐌽)/gmu, '$1𐌹̈$2'],
-  [/(?<!^|\s)([aiueo])i(dd|drei|bn)/gmu, '$1ï$2'],
-
-  [/(?<=^|\s)(𐍆𐌰𐌿𐍂𐌰|𐌿𐍆𐌰𐍂|𐌼𐌹𐌸)𐌹(𐍃𐍄?|𐌼)(?=(?:$|\s))/gmu, '$1𐌹̈$2'],
-  [/(?<=^|\s)(faura|ufar|mi[cþ])i(st?|m)(?=$|\s)/gmu, '$1ï$2'],
-
-  ['𐍆𐍂𐌰𐌹𐍄', '𐍆𐍂𐌰𐌹̈𐍄'],
-  ['frait', 'fraït'],
+  [/(?<=(?:\s|^))([i𐌹])/gui, '$1\u0308'],
+  [/(?<=[^\s][aiueo𐌰𐌹𐌿𐌴𐍉])([i𐌹])(?=(?:dd|𐌳𐌳|drei|𐌳𐍂𐌴𐌹|bn|𐌱𐌽))/gui, '$1\u0308'],
+  [/(?<=(?:\s|^)(?:faura|𐍆𐌰𐌿𐍂𐌰|ufar|𐌿𐍆𐌰𐍂|mi[cþ]|𐌼𐌹𐌸))([i𐌹])(?=(?:st?|𐍃𐍄?|m|𐌼)(\s|$))/gui, '$1\u0308'],
+  [/(?<=(?:fra|𐍆𐍂𐌰))([i𐌹])(?=(?:t|𐍄))/gui, '$1\u0308'],
 ]
 
 function removeDiacriticChars(text: string)
@@ -213,6 +206,7 @@ export function removeDiacritics(text: string)
 export function addDiaereses(text: string)
 {
   return applyMapping(text, diaeresis)
+    .normalize("NFKD")
 }
 
 const doublableConsonants = "gbdfjklmnpqrstþwz" // doublable consonants
