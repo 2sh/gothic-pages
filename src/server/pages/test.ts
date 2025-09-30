@@ -11,10 +11,10 @@ import
 {
   amen,
   forYoursIs,
-  lordsPrayer,
   nowAndEver,
   ofTrinity,
 } from '@server/lines'
+import { lordsPrayer } from '@server/lines/lords-prayer'
 
 
 // https://www.reddit.com/r/OrthodoxChristianity/comments/10o7wm2/trisagion_prayers_in_greek/
