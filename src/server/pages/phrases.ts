@@ -299,6 +299,16 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
   },
 ].map(toGothicLine).join('')}</span></p>`
 
+article += html`<p>in large part: <span lang='got'>${[
+  {
+    text: {
+      got: 'us dailai mikilai',
+      en: "in large part",
+    },
+    notes: `us dailai Corinthians I 13:10, Corinthians I 13:12`
+  },
+].map(toGothicLine).join('')}</span></p>`
+
 
 const description = "Various words and phrases"
 
