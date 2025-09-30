@@ -125,7 +125,7 @@ article += html`<p>${[
   },
   {
     text: {
-      got: 'jah alla þoei wairþand ïn þamma du frabairan.',
+      got: 'jah alla þoei ïn þamma wairþand du frabairan.',
       ru: "и все события в течение дня.",
       en: "and all the events that take place during it.",
     },
