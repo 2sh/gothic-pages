@@ -212,7 +212,6 @@ export function removeDiacritics(text: string)
 
 export function removeSuperfluousDiacritics(text: string)
 {
-
   let out = text
   out = out.normalize("NFKD")
   out = removeSuperfluousDiacriticChars(out)
