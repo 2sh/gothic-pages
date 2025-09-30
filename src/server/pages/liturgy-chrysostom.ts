@@ -26,7 +26,6 @@ import
 
 global.lineId = 0
 
-const title = '𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃'
 let article = ''
 
 
@@ -569,15 +568,27 @@ ${toYouOLord()}
 article = html`<div class="speech">${article}</div>`
 
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Leiturgia Gudiska Xrisaustaumaus", en: "Divine Liturgy of Chrysostom" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
 
 article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Liturgy of Saint John Chrysostom</span>
 <span class="nowrap">in the Gothic language,</span>
-<br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
+<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
 
-const description = "The Liturgy of Saint John Chrysostom in the Gothic language, a translation by 2sh."
+const title = '𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃'
+const description = "𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

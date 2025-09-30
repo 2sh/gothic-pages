@@ -20,7 +20,6 @@ import
 
 global.lineId = 0
 
-const title = '𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃'
 let article = ''
 
 
@@ -459,14 +458,32 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`,
 
 article += html`<p>${amen()}</p>`
 
+
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Taikns Galaubeinais /", en: "The Nicene Creed /" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Galaubeins Nikaias", en: "Symbol of Faith" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
+
 article += html`<p lang='en' class="annotation">
-  <span class="nowrap">The Nicene Creed / Symbol of Faith</span>
+  <span class="nowrap">The Nicene Creed /</span>
+  <span class="nowrap">Symbol of Faith</span>
   <span class="nowrap">in the Gothic language,</span>
-  <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
+  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
 
-const description = "The Nicene Creed / Symbol of Faith in the Gothic language, a translation by 2sh."
+const title = '𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃'
+const description = "𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

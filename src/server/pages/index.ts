@@ -7,7 +7,6 @@ import {
 
 
 const title = "2sh's Gothic Pages"
-
 const description = "A page with various Gothic language related stuff I've done."
 
 const article = html`<header>
@@ -118,7 +117,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 
 
 const page: PageGenerator = info => html`<!doctype html>
-<html lang="got">
+<html lang="en">
   <head>
     ${createArticleHeaders(info, title, description)}
   </head>

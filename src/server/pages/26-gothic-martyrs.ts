@@ -23,7 +23,6 @@ import
 
 global.lineId = 0
 
-const title = '·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃'
 let article = ''
 
 article += html`<header>
@@ -233,14 +232,26 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
 ].map(toGothicLine).join('')}
 </p>`
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "26 Martyros Taurikas", en: "26 Martyrs in the Crimea" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
+
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">26 Martyrs in the Crimea</span>
   <span class="nowrap">in the Gothic language,</span>
   <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
-
-const description = "Nicetas the Goth in the Gothic language, a translation by 2sh."
+const title = '·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃'
+const description = "·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

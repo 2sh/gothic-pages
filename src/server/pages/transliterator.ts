@@ -5,7 +5,6 @@ import {
   PageGenerator,
 } from "@server/tools"
 
-const title = "Gothic Transliterator"
 
 const article = html`<header>
   <h1>Gothic Transliterator</h1>
@@ -76,10 +75,11 @@ The above 999 setting is an idea I had for larger numbers, with colons acting as
   </div>
 </div>`
 
+const title = "Gothic Transliterator"
 const description = "A Gothic-Latin transliterator by 2sh."
 
 const page: PageGenerator = info => html`<!doctype html>
-<html lang="got">
+<html lang="en">
   <head>
     ${createArticleHeaders(info, title, description)}
     <link href="assets/styles/transliterator.css" rel="stylesheet">

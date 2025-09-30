@@ -10,7 +10,6 @@ import
 
 global.lineId = 0
 
-const title = '𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃'
 let article = ''
 
 article += html`<header>
@@ -411,15 +410,31 @@ article += html`<p>${[
 ].map(toGothicLine).join('')}</p>`
 
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Þata Spill Paitraus Hasins", en: "The Tale of Peter Rabbit" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "fram Beiaitriks Pauttair", en: "by Beatrix Potter" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
+
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">The Tale of Peter Rabbit</span>
   <span class="nowrap">by Beatrix Potter</span>
   <span class="nowrap">in the Gothic language,</span>
-  <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
+  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
 
-const description = "The Tale of Peter Rabbit by Beatrix Potter in the Gothic language, a translation by 2sh."
+const title = '𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃'
+const description = "𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

@@ -12,7 +12,6 @@ import
 
 global.lineId = 0
 
-const title = '𐌼𐌴𐌽𐌰𐌽𐌰𐌷𐍄𐍃'
 let article = ''
 
 article += html`<header>
@@ -139,6 +138,18 @@ see attested afhaim(ei)s and anahaim(ei)s for 'absent' and 'present'"`
 article += html`<div class='poem'>${poem}</div>`
 
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Menanahts", en: "Mondnacht" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
+
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">Mondnacht by Joseph von Eichendorff</span>
   <span class="nowrap">in the Gothic language,</span>
@@ -146,7 +157,8 @@ article += html`<p lang='en' class="annotation">
 </p>`
 
 
-const description = "Mondnacht by Joseph von Eichendorff in the Gothic language, a translation by 2sh."
+const title = '𐌼𐌴𐌽𐌰𐌽𐌰𐌷𐍄𐍃'
+const description = "𐌼𐌴𐌽𐌰𐌽𐌰𐌷𐍄𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

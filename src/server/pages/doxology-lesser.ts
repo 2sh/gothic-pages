@@ -22,7 +22,6 @@ import
 
 global.lineId = 0
 
-const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
 let article = ''
 
 
@@ -656,14 +655,26 @@ ${nowAndEver()}
 
 article += html`<p>${amen()}</p>`
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Dauksaulaugei Leitils", en: "The Lesser Doxology" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
 
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">The Lesser Doxology</span>
   <span class="nowrap">in the Gothic language,</span>
-  <br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
+  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
-const description = "The Lesser Doxology in the Gothic language, a translation by 2sh."
+const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
+const description = "𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

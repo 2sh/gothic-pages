@@ -24,7 +24,6 @@ import
 
 global.lineId = 0
 
-const title = '𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
 let article = ''
 
 article += html`<header>
@@ -354,7 +353,7 @@ ${toGothicLine({
 <br>
 ${toGothicLine({
   text: {
-    got: "miþ muna tulgamma þiudai seinai sildaleik.",
+    got: "miþ muna tulgjamma þiudai seinai sildaleik.",
     sr: "И трпљењем храбрим народ свој задиви,",
     en: "With firm resolve to his people an astonishment.",
     de: "... seinem Volke eine Verwunderung.",
@@ -486,6 +485,32 @@ ${toGothicLine({
 
 article += html`<div class='poem'>${poem}</div>`
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Niketa sa Guta", en: "Nicetas the Goth" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+  <br>
+  <span class="nowrap">${toGothicLine({
+    text: {
+      got: "us dailai mikilai Faurawaurdies Aukridiskis",
+      en: "In large part from the Ochrid Prologue"
+    },
+    notes: `us dailai Corinthians I 13:10, Corinthians I 13:12`
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: {
+      got: "Nikaulai Belimiraubits Weihis.",
+      en: "by Saint Nikolai Velimirović."
+    },
+  })}</span>
+</p>`
+
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">Nicetas the Goth</span>
   <span class="nowrap">in the Gothic language,</span>
@@ -495,8 +520,8 @@ article += html`<p lang='en' class="annotation">
   <span class="nowrap">by Saint Nikolai Velimirović.</span>
 </p>`
 
-
-const description = "Nicetas the Goth in the Gothic language, a translation by 2sh."
+const title = '𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
+const description = "𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

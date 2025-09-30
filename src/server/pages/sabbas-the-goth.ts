@@ -15,7 +15,6 @@ import
 
 global.lineId = 0
 
-const title = '𐍃𐌰𐌱𐌱𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
 let article = ''
 
 article += html`<header>
@@ -39,7 +38,7 @@ article += html`<p>${[
 
 article += html`  <h2>${toGothicLine({
   text: {
-    got: 'Faurawaurdjis Aukridiskis',
+    got: 'Faurawaurdeis Aukridiskis',
     en: "From the Ochrid Prologue",
   },
   notes: `looking at andawaurdi`
@@ -233,6 +232,17 @@ article += html`<p>${[
   },
 ].map(toGothicLine).join('')}</p>`
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Sabba sa Guta", en: "Sabbas the Goth" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
 
 article += html`<p lang='en' class="annotation">
   <span class="nowrap">Sabbas the Goth</span>
@@ -241,7 +251,8 @@ article += html`<p lang='en' class="annotation">
 </p>`
 
 
-const description = "Sabbas the Goth in the Gothic language, a translation by 2sh."
+const title = '𐍃𐌰𐌱𐌱𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
+const description = "𐍃𐌰𐌱𐌱𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">

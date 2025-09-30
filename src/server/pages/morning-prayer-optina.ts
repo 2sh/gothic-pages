@@ -13,7 +13,6 @@ import { amen } from "@server/lines"
 
 global.lineId = 0
 
-const title = '𐌱𐌹𐌳𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌹𐍃 𐍃𐍀𐌴𐌳𐌹𐌶𐌰𐌽𐌴 𐍃𐌹𐌽𐌹𐍃𐍄𐌰𐌹𐌶𐌴 𐌰𐌿𐍀𐍄𐌹𐌽𐌰𐍃'
 let article = ''
 
 article += html`<header>
@@ -159,15 +158,31 @@ article += html`<p>${[
 article += html`<p>${amen()}</p>`
 
 
+article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Bida Maurginis", en: "The Morning Prayer" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "Spedizane Sinistaize Auptinas", en: "of the Last Elders of Optina" },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+  })}</span>
+  <span class="nowrap">${toGothicLine({
+    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+  })}</span>
+</p>`
+
 article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Morning Prayer</span>
 <span class="nowrap">of the Last Elders of Optina</span>
 <span class="nowrap">in the Gothic language,</span>
-<br>a translation by <a href='https://2sh.me'>2sh</a> (2025).
+<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
 
-const description = "The Morning Prayer of the Last Elders of Optina in the Gothic language, a translation by 2sh."
+const title = '𐌱𐌹𐌳𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌹𐍃 𐍃𐍀𐌴𐌳𐌹𐌶𐌰𐌽𐌴 𐍃𐌹𐌽𐌹𐍃𐍄𐌰𐌹𐌶𐌴 𐌰𐌿𐍀𐍄𐌹𐌽𐌰𐍃'
+const description = "𐌱𐌹𐌳𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌹𐍃 𐍃𐍀𐌴𐌳𐌹𐌶𐌰𐌽𐌴 𐍃𐌹𐌽𐌹𐍃𐍄𐌰𐌹𐌶𐌴 𐌰𐌿𐍀𐍄𐌹𐌽𐌰𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
 const page: PageGenerator = info => html`<!doctype html>
 <html lang="got">
