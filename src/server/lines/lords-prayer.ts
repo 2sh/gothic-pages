@@ -1,8 +1,9 @@
-import { toGothicLine } from "@server/tools"
+import { ReuseLines } from "@server/lines"
+import { toGothicLines } from "@server/tools"
 
 // Directly from the Bible
-export const lordsPrayer = () => `
-${[
+export const lordsPrayer: ReuseLines = pi => `
+${toGothicLines([
     {
       text: {
         got: 'Atta unsar þū ïn himinam,',
@@ -18,9 +19,9 @@ ${[
         en: "hallowed be your name.",
       }
     },
-  ].map(toGothicLine).join('\n')}
+  ], pi)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'Qimai þiudinassus þeins.',
@@ -28,9 +29,9 @@ ${[
         en: "your kingdom come.",
       }
     }
-  ].map(toGothicLine).join('\n')}
+  ], pi)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'Wairþai wilja þeins,',
@@ -45,9 +46,9 @@ ${[
         en: "on earth as it is in heaven.",
       }
     },
-  ].map(toGothicLine).join('\n')}
+  ], pi)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'Hlaif unsarana þana sinteinan gif uns himma daga.',
@@ -55,9 +56,9 @@ ${[
         en: "Give us today our daily bread.",
       }
     },
-  ].map(toGothicLine).join('\n')}
+  ], pi)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'Jah aflet uns þatei skulans sijaima,',
@@ -65,9 +66,9 @@ ${[
         en: "And forgive us our debts,",
       }
     },
-  ].map(toGothicLine).join('\n')}
+  ], pi)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'swaswe jah weis afletam þaim skulam unsaraim.',
@@ -75,9 +76,9 @@ ${[
         en: "as we also have forgiven our debtors.",
       }
     },
-  ].map(toGothicLine).join('\n')}
+  ], pi)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'Jah ni briggais uns ïn fraistubnjai,',
@@ -85,9 +86,9 @@ ${[
         en: "And lead us not into temptation,",
       }
     },
-  ].map(toGothicLine).join('\n')}
+  ], pi)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'ak lausei uns af þamma ubilin.',
@@ -95,4 +96,4 @@ ${[
         en: "but deliver us from the evil one.",
       }
     },
-  ].map(toGothicLine).join('\n')}`
+  ], pi)}`

@@ -2,7 +2,7 @@ import
 {
   html,
   createArticleBody,
-  toGothicLine,
+  toGothicLines,
   createArticleHeaders,
   PageGenerator,
 } from '@server/tools'
@@ -48,7 +48,7 @@ article += html`<p>${[
       got: 'Razn, Xristus, Pasxa, ïzwis, ƕazuh, þizos',
     },
   },
-].map(toGothicLine).join('')}</p>`
+].map(toGothicLines).join('')}</p>`
 
 
 const description = "A test page with all the Gothic letters."

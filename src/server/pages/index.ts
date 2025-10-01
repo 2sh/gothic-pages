@@ -123,7 +123,7 @@ const page: PageGenerator = info => html`<!doctype html>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article, { hasGothic: false, isHome: true })}
+    ${createArticleBody(article, { hasGothic: false })}
   </body>
 </html>`
 

@@ -1,14 +1,16 @@
-import { html, toGothicLine } from "./tools"
+import { html, PageInfo, toGothicLines } from "./tools"
 
-export const amen = () => toGothicLine({
+export type ReuseLines = (pageInfo: PageInfo) => string
+
+export const amen: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Amen.',
     el: "ἀμήν.",
     en: "Amen.",
   }
-})
+}], pi)
 
-export const nowAndEver = () => toGothicLine({
+export const nowAndEver: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'jah nū jah aiw, jah ïn aiwins aiwe.',
     el: "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
@@ -18,26 +20,26 @@ export const nowAndEver = () => toGothicLine({
     `Combining "𐌹̈𐌽 𐌰𐌹𐍅𐌹𐌽𐍃" Matthew 6:13 and "𐌹̈𐌽 𐌰𐌻𐌳𐌹𐌽𐍃 𐌰𐌹𐍅𐌴" 1 Timothy 1:17.
 Not using purely the line from 1 Timothy 1:17 as it mixes up
 from generation to generation and unto ages of ages.`
-})
+}], pi)
 
-export const ofTrinity = () => toGothicLine({
+export const ofTrinity: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Attins, jah Sunaus, jah Ahmins Weihis',
     el: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος",
     en: "of the Father and of the Son and of the Holy Spirit",
   },
   notes: `Skeireins 5:2 attins jah sunaus`
-})
+}], pi)
 
-export const toTrinity = () => toGothicLine({
+export const toTrinity: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Attin, jah Sunau, jah Ahmin Weihamma',
     el: "Πατρὶ καί Υιώ καί Αγίω Πνεύματι",
     en: "to the father, and to the son, and to the holy spirit",
   }
-})
+}], pi)
 
-export const letUsPrayToTheLord = () => toGothicLine({
+export const letUsPrayToTheLord: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'bidjaima Fraujan.',
     el: "τοῦ Κυρίου δεηθῶμεν.",
@@ -51,26 +53,26 @@ beseech/pray = 𐌱𐌹𐌳𐌾𐌹𐌸 Luke 10:2;
 
 during liturgy, -𐌾𐌰𐌽 ending can be chanted similarly to -μεν
 so sticking 𐍆𐍂𐌰𐌿𐌾𐌰𐌽 at end`
-})
+}], pi)
 
-export const lordHaveMercy = () => toGothicLine({
+export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Frauja, armai.',
     el: "Κύριε, ἐλέησον.",
     en: "Lord, have mercy.",
   },
   notes: `Unsure if 𐌰𐍂𐌼𐌴𐌹 can be said without 𐌿𐌽𐍃𐌹𐍃, though don't see why not`
-})
+}], pi)
 
-export const toYouOLord = () => toGothicLine({
+export const toYouOLord: ReuseLines = pi => toGothicLines([{
   text: {
     got: '<[TODO]>',
     el: "Σοί, Κύριε.",
     en: "To You, O Lord.",
   }
-})
+}], pi)
 
-export const trisagion = () => toGothicLine({
+export const trisagion: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Weihs Guþ, Weihs Mahteigs, Weihs Undiwans, armai unsis.',
     el: "Ἅγιος ὁ Θεός, Ἅγιος Ἰσχυρός, Ἅγιος Ἀθάνατος, ἐλέησον ἡμᾶς.",
@@ -80,9 +82,9 @@ export const trisagion = () => toGothicLine({
     `*undiwans from attested diwano (mortal) and undiwanei (immortality).
 
 Using strong nominative as Greek not in vocative.`
-})
+}], pi)
 
-export const timesThree = () => `<span class="notice">${toGothicLine({
+export const timesThree: ReuseLines = pi => `<span class="notice">${toGothicLines([{
   text: {
     got: '(þrim sinþam)',
     el: "(εκ τρίτου)",
@@ -90,60 +92,60 @@ export const timesThree = () => `<span class="notice">${toGothicLine({
   },
   notes:
     `Seems to always be in the dative`
-})}</span>`
+}], pi)}</span>`
 
-export const timesTwelve = () => `<span class="notice">${toGothicLine({
+export const timesTwelve: ReuseLines = pi => `<span class="notice">${toGothicLines([{
   text: {
     got: '(twalibim sinþam)',
     el: "(εκ τρίτου)",
     en: "(12 times)",
   }
-})}</span>`
+}], pi)}</span>`
 
-export const gloryToTrinity = () => `
-${toGothicLine({
+export const gloryToTrinity: ReuseLines = pi => `
+${toGothicLines([{
   text: {
     got: 'Wulþus',
     el: "Δόξα",
     en: "Glory",
   }
-})}
-${toTrinity()}
+}], pi)}
+${toTrinity(pi)}
 <br>
-${nowAndEver()}
+${nowAndEver(pi)}
 <br>
-${amen()}`
+${amen(pi)}`
 
-export const forYoursIs = () => toGothicLine({
+export const forYoursIs: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Unte þeina ïst þiudangardi jah mahts jah wulþus',
     el: "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα",
     en: "for yours is the kingdom and the power and the glory",
   },
   notes: `Line from Matthew 6:13`,
-})
+}], pi)
 
 
 const speakerMark = ':'
 
-export const speakerDeacon = () => html`<span class="speaker">${toGothicLine({
+export const speakerDeacon: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Diakaunus',
     el: "Ὁ Διάκονος",
     en: "Deacon",
   }
-})}${speakerMark}</span>`
+}], pi)}${speakerMark}</span>`
 
-export const speakerPriest = () => html`<span class="speaker">${toGothicLine({
+export const speakerPriest: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Gudja',
     el: "O Ἱερεύς",
     en: "Priest",
   },
   notes: '𐌲𐌿𐌳𐌾𐌰 Luke 5:14'
-})}${speakerMark}</span>`
+}], pi)}${speakerMark}</span>`
 
-export const speakerReader = () => html`<span class="speaker">${toGothicLine({
+export const speakerReader: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Ussiggwands',
     el: "Αναγνώστης",
@@ -151,12 +153,12 @@ export const speakerReader = () => html`<span class="speaker">${toGothicLine({
   },
   notes:
     `ἀναγινώσκεις = ussiggwis Luke 10:26, ἀνέγνωτε= 𐌿𐍃𐍃𐌿𐌲𐌲𐍅𐌿𐌸 Mark 2:25, Mark 12:10`
-})}${speakerMark}</span>`
+}], pi)}${speakerMark}</span>`
 
-export const speakerChoir = () => html`<span class="speaker">${toGothicLine({
+export const speakerChoir: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Liuþārjos',
     el: "O Χορός",
     en: "Choir",
   }
-})}${speakerMark}</span>`
+}], pi)}${speakerMark}</span>`

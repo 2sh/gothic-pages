@@ -88,7 +88,7 @@ const page: PageGenerator = info => html`<!doctype html>
     <link href="assets/styles/transliterator.css" rel="stylesheet">
   </head>
   <body>
-    ${createArticleBody(article, { hasGothic: false })}
+    ${createArticleBody(info, article)}
     <script type="module" src="scripts/transliterator.js"></script>
   </body>
 </html>`

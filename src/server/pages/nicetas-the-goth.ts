@@ -529,7 +529,7 @@ const page: PageGenerator = info => html`<!doctype html>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article)}
+    ${createArticleBody(info, article)}
   </body>
 </html>`
 
