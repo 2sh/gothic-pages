@@ -115,6 +115,8 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   <li><a href="https://en.wikipedia.org/wiki/Gothic_verbs">Verb Conjugation</a></li>
   <li><a href="http://www.harbornet.com/folks/theedrich/hive/Medieval/Skeireins-Latin-English.htm">Skeireins Translations</a></li>
   <li><a href="https://web.archive.org/web/20140301215235/http://germanica.wikispot.org/Naples_Deed">Naples Deed Information</a></li>
+  <li><a href="https://web.archive.org/web/20111012062921/http://app.ub.uu.se/arv/codex/faksimiledition/contents.html">Silver Bible scans</a></li>
+  <li><a href="https://www.gotica.de/">Gotica</a> - Useful list of surviving Gothic texts</li>
 </ul>
 
 <h3>Works</h3>
