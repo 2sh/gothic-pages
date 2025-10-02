@@ -14,7 +14,7 @@ const description = "A Gothic-Latin transliterator by 2sh."
 
 const anchors: Anchor[] = [
   {
-    name: 'index',
+    name: 'transliterator',
     lang: "en",
   }
 ]
