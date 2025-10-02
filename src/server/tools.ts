@@ -22,16 +22,21 @@ declare global {
 }
 global.lineId = 0
 
-export function toGothicLine(data: GothicLineData)
+function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
 {
   global.lineId++
+
+  const htmlText = pageInfo.lang == 'got-Latn'
+    ? modes.latin(data.text.got)
+    : modes.simple(data.text.got)
+
+  delete data.text.got
 
   for (const key in data.text)
   {
     data.text[key] = data.text[key].normalize('NFC')
   }
 
-  const htmlText = modes.simple(data.text.got)
   const info: GothicLineData = {
     text: data.text,
     notes: !data.notes
@@ -42,6 +47,11 @@ export function toGothicLine(data: GothicLineData)
 
   return html`<span id="L${global.lineId}" class="i-line"
 data-line='${attrLineInfo}'>${htmlText}</span>`
+}
+
+export function toGothicLines(data: GothicLineData[], pageInfo: PageInfo)
+{
+  return data.map(d => toGothicLine(d, pageInfo)).join('')
 }
 
 const htmlInfoBox = html`<div id="info-box" lang='en'>
@@ -69,29 +79,15 @@ const darkModeButton = html`<button lang='en' title='Change between dark and lig
   </svg>
 </button>`
 
-const modeSelector = (includeModes: string[]) => html`<select lang='en' title='Change page style' data-input-mode>
-  <option value="simple" selected>𐌰𐌹𐌽𐍆𐌰𐌸𐍃</option>
-  <option value="serif">𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</option>
-  ${includeModes.includes("biblical")
-    ? '<option value="biblical">𐌰𐍆𐌰𐍂𐌱𐍉𐌺𐍉𐌼</option>'
-    : ''}
-  <option value="latin">Lateins</option>
-</select>`
 
-type ConfigArticleBody = {
-  hasGothic?: boolean,
-  includeModes?: string[],
-  isHome?: boolean,
+const altButtons: {[lang: string]: string} = {
+  'got-Goth': '𐌲',
+  'got-Latn': 'L',
 }
 
-export function createArticleBody(content: string, config?: ConfigArticleBody)
+export function createArticleBody(info: PageInfoMain, content: string)
 {
-  const conf: Required<ConfigArticleBody> = {
-    hasGothic: true,
-    includeModes: [],
-    isHome: false,
-    ...config
-  }
+  const hasGothic = info.lang.startsWith('got')
 
   const homeButton = html`<a href="./" lang='en' title='Home'>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -99,35 +95,42 @@ export function createArticleBody(content: string, config?: ConfigArticleBody)
   </svg>
 </a>`
 
+  const isHome = info.name == 'index'
+  const alt = info.alternatives.find(a => a.lang.startsWith('got'))
+
   return html`<main>
   <div id="article-container">
     <article>
       <div id="article-inner">
         <div class="menu">
           <div>
-            ${conf.isHome ? '' : homeButton}
+            ${isHome ? '' : homeButton}
           </div>
           <div>
             ${darkModeButton}
-            ${conf.hasGothic ? modeSelector(conf.includeModes) : ''}
+            ${ alt ? `<a href="${safeHtmlAttribute(alt.end)}">${altButtons[alt.lang]}</a>` : '' }
           </div>
         </div>
         <div id="article-content" data-reset-area>${content}</div>
       </div>
     </article>
   </div>
-${conf.hasGothic ? htmlInfoBox : ''}
+${hasGothic ? htmlInfoBox : ''}
 </main>
 <script type="module" src="scripts/article.js"></script>`
 }
 
-export function createArticleHeaders(info: PageInfo, title: string, description: string)
+export function createArticleHeaders(info: PageInfoMain, title: string, description: string)
 {
-  const canonicalPath = info.path == "/index.html" ? "" : info.path
+  const alternatives = info.alternatives.length ?
+    [ info, ...info.alternatives ] : []
+
   return html`<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="${info.protocol}://${info.host}${canonicalPath}">
+<link rel="canonical" href="${info.url}">${
+ alternatives.map(a => `
+<link rel="alternative" href="${a.url}" hreflang="${a.lang}">`).join('')}
 
 <title>${safeHtmlText(title)}</title>
 <meta name="description" content='${safeHtmlAttribute(description)}'>
@@ -138,11 +141,34 @@ export function createArticleHeaders(info: PageInfo, title: string, description:
 <link href="assets/styles/article.css" rel="stylesheet">`
 }
 
-export type PageInfo = {
+export interface Anchor {
+  name: string,
+  lang: string,
+}
+
+export interface Alternative extends Anchor {
+  url: string
+}
+
+export type PageConstruction = {
+  anchors: Anchor[],
+  generator: PageGenerator,
+}
+
+export type PageGenerator = (info: PageInfoMain) => string
+
+export interface PageInfo {
   protocol: string,
   host: string,
   path: string,
+  dir: string,
+  end: string,
+  name: string,
+  url: string,
+  lang: string
   lastmod: Date,
 }
 
-export type PageGenerator = (info: PageInfo) => string
+export interface PageInfoMain extends PageInfo {
+  alternatives: PageInfo[],
+}

@@ -2,9 +2,10 @@ import
 {
   html,
   createArticleBody,
-  toGothicLine,
   createArticleHeaders,
   PageGenerator,
+  Anchor,
+  toGothicLines,
 } from '@server/tools'
 
 // https://www.oca.org/saints/lives/2017/03/26/100888-26-martyrs-in-the-crimea
@@ -21,246 +22,268 @@ import
 // leads me to believe the queen and her daughter and son weren't actually included in the 26
 
 
-global.lineId = 0
 
-let article = ''
 
-article += html`<header>
-  <h1>${toGothicLine({
-  text: {
-    got: '26 Martyros Taurikas',
-    en: "26 Martyrs in the Crimea",
+const slug = "26-martyros"
+const title = '·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃'
+const description = "·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
+
+
+const anchors: Anchor[] = [
+  {
+    name: slug,
+    lang: "got-Goth",
   },
-},)}</h1>
+  {
+    name: slug + ".lat",
+    lang: "got-Latn"
+  },
+]
+
+const generator: PageGenerator = info =>
+{
+  global.lineId = 0
+
+  let article = ''
+
+  article += html`<header>
+  <h1>${toGothicLines([{
+    text: {
+      got: '26 Martyros Taurikas',
+      en: "26 Martyrs in the Crimea",
+    },
+  },], info)}</h1>
 </header>`
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Dags gaminþjis: 26 Martjus',
-      en: "Day of remembrance: 26 March",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Dags gaminþjis: 26 Martjus',
+        en: "Day of remembrance: 26 March",
+      },
     },
-  },
-].map(toGothicLine).join('')}</p>`
+  ], info)}</p>`
 
-// presbyters 2
-// monk 1
-// included laypeople 18
-// = 21 named martyrs
+  // presbyters 2
+  // monk 1
+  // included laypeople 18
+  // = 21 named martyrs
 
-// the queen and daughter were not part of the "28 martyrs"
-// queen + daughter (+son Agathon?)
-// anonymous martyr is part of the story but doesn't seem to be included in the named ones
+  // the queen and daughter were not part of the "28 martyrs"
+  // queen + daughter (+son Agathon?)
+  // anonymous martyr is part of the story but doesn't seem to be included in the named ones
 
-// constans (anonymous martyr?)
-// OR
-// 2 sons and 2/3 daughters - 3 daughters would make it 26 but leave out the anon
+  // constans (anonymous martyr?)
+  // OR
+  // 2 sons and 2/3 daughters - 3 daughters would make it 26 but leave out the anon
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Wereka Gudja;',
-      en: "Presbyter Bercus (Ouerkas, Vercus, Werekas) and;",
-    },
-    notes: `Taken from the calendar.
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Wereka Gudja;',
+        en: "Presbyter Bercus (Ouerkas, Vercus, Werekas) and;",
+      },
+      notes: `Taken from the calendar.
 Attested as "bi Werekan Papan" probably in ACC so an-stem perhaps.
 
 On the english line, names in braces are variations I've found online.`
-  },
-  {
-    text: {
-      got: 'Batwins Gudja',
-      en: "Presbyter Bathusius (Bathouses, Batwin)",
     },
-    notes: `Taken from the calendar with the unknown Bilaif word.
+    {
+      text: {
+        got: 'Batwins Gudja',
+        en: "Presbyter Bathusius (Bathouses, Batwin)",
+      },
+      notes: `Taken from the calendar with the unknown Bilaif word.
 Wondering if it means deacon.
 
 Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
-  },
-  {
-    text: {
-      got: 'miþ twaim sunum jah þrim dauhtrum seinaim;',
-      en: "with his two sons and three daughters;",
     },
-  },
-  {
-    text: {
-      got: 'Arpulas Monakus;',
-      en: "Monk Arpilus (Arpulas);",
+    {
+      text: {
+        got: 'miþ twaim sunum jah þrim dauhtrum seinaim;',
+        en: "with his two sons and three daughters;",
+      },
     },
-    notes: ``
-  },
-  // laymen and women
-  {
-    text: {
-      got: 'Abippas,',
-      en: "Abibus (Abippus, Habib, Abippas),",
+    {
+      text: {
+        got: 'Arpulas Monakus;',
+        en: "Monk Arpilus (Arpulas);",
+      },
+      notes: ``
     },
-  },
-  /*
-  {
-    text: {
-      got: 'Konstans,',
-      en: "Constans,",
+    // laymen and women
+    {
+      text: {
+        got: 'Abippas,',
+        en: "Abibus (Abippus, Habib, Abippas),",
+      },
     },
-    notes: `Included in the "Eastern Orthodox martyrologies"`
-  },
-  */
-  {
-    text: {
-      got: 'Hagias,',
-      en: "Agnus (Hagias),",
+    /*
+    {
+      text: {
+        got: 'Konstans,',
+        en: "Constans,",
+      },
+      notes: `Included in the "Eastern Orthodox martyrologies"`
     },
-  },
-  {
-    text: {
-      got: 'Ruias,',
-      en: "Reasus (Ruias, Reas),",
+    */
+    {
+      text: {
+        got: 'Hagias,',
+        en: "Agnus (Hagias),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Egaþraks,',
-      en: "Igathrax (Egathrax),",
+    {
+      text: {
+        got: 'Ruias,',
+        en: "Reasus (Ruias, Reas),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Eskoes,',
-      en: "Iscoeus (Iskous, Eskoes, Escoos),",
+    {
+      text: {
+        got: 'Egaþraks,',
+        en: "Igathrax (Egathrax),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Silas,',
-      en: "Silas,",
+    {
+      text: {
+        got: 'Eskoes,',
+        en: "Iscoeus (Iskous, Eskoes, Escoos),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Sigetzas,',
-      en: "Signicus (Sigetzas),",
+    {
+      text: {
+        got: 'Silas,',
+        en: "Silas,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Swerilas,',
-      en: "Sonirilus (Swerilas),",
+    {
+      text: {
+        got: 'Sigetzas,',
+        en: "Signicus (Sigetzas),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Swemblas,',
-      en: "Suimbalus (Swemblas),",
+    {
+      text: {
+        got: 'Swerilas,',
+        en: "Sonirilus (Swerilas),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Þerþas,',
-      en: "Thermus (Therthas),",
+    {
+      text: {
+        got: 'Swemblas,',
+        en: "Suimbalus (Swemblas),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Filgas,',
-      en: "Phillus (Philgas),",
+    {
+      text: {
+        got: 'Þerþas,',
+        en: "Thermus (Therthas),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Anna,',
-      en: "Anna,",
+    {
+      text: {
+        got: 'Filgas,',
+        en: "Phillus (Philgas),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Alas,',
-      en: "Alla (Alas),",
+    {
+      text: {
+        got: 'Anna,',
+        en: "Anna,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Baren,',
-      en: "Larissa (Baren, Beride),",
+    {
+      text: {
+        got: 'Alas,',
+        en: "Alla (Alas),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Moiko,',
-      en: "Monco (Manca, Moiko),",
+    {
+      text: {
+        got: 'Baren,',
+        en: "Larissa (Baren, Beride),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Kamika,',
-      en: "Mamica (Kamika),",
+    {
+      text: {
+        got: 'Moiko,',
+        en: "Monco (Manca, Moiko),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Oneko,',
-      en: "Uirko (Virko, Oneko),",
+    {
+      text: {
+        got: 'Kamika,',
+        en: "Mamica (Kamika),",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Anemais,',
-      en: "Animais (Anemais, Animaida),",
+    {
+      text: {
+        got: 'Oneko,',
+        en: "Uirko (Virko, Oneko),",
+      },
     },
-  },
-  {
-    text: {
-      got: '<[Queen]> Gaaþa,',
-      en: "Queen Gaatha,",
+    {
+      text: {
+        got: 'Anemais,',
+        en: "Animais (Anemais, Animaida),",
+      },
     },
-  },
-  {
-    text: {
-      got: '<[Princess]> Duklida,',
-      en: "Princess Duklida,",
+    {
+      text: {
+        got: '<[Queen]> Gaaþa,',
+        en: "Queen Gaatha,",
+      },
     },
-  },
-  /*
-  {
-    text: {
-      got: 'jah Prince Agaþon,',
-      en: "and Prince Agathon,",
+    {
+      text: {
+        got: '<[Princess]> Duklida,',
+        en: "Princess Duklida,",
+      },
     },
-    notes: `Included in the "Eastern Orthodox martyrologies"`
-  },
-  */
-].map(toGothicLine).join('')}
+    /*
+    {
+      text: {
+        got: 'jah Prince Agaþon,',
+        en: "and Prince Agathon,",
+      },
+      notes: `Included in the "Eastern Orthodox martyrologies"`
+    },
+    */
+  ], info)}
 </p>`
 
-article += html`<p class="annotation">
-  <span class="nowrap">${toGothicLine({
+  article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLines([{
     text: { got: "26 Martyros Taurikas", en: "26 Martyrs in the Crimea" },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
     text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
-  })}</span>
+  }], info)}</span>
 </p>`
 
-article += html`<p lang='en' class="annotation">
+  article += html`<p lang='en' class="annotation">
   <span class="nowrap">26 Martyrs in the Crimea</span>
   <span class="nowrap">in the Gothic language,</span>
   <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
-const title = '·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃'
-const description = "·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
-const page: PageGenerator = info => html`<!doctype html>
-<html lang="got">
+  return html`<!doctype html>
+<html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article)}
+    ${createArticleBody(info, article)}
   </body>
 </html>`
+}
 
-export default page
+export default {
+  anchors,
+  generator
+}

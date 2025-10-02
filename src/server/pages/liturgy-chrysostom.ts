@@ -2,9 +2,10 @@ import
 {
   html,
   createArticleBody,
-  toGothicLine,
   createArticleHeaders,
   PageGenerator,
+  Anchor,
+  toGothicLines,
 } from '@server/tools'
 
 import
@@ -24,32 +25,49 @@ import
 // https://www.chrysostomliturgy.org/text-of-the-divine-liturgy-greek-english
 
 
-global.lineId = 0
+const slug = 'leiturgia-xrisaustaumaus'
+const title = '𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃'
+const description = "𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
-let article = ''
 
-
-article += html`<header>
-  <h1>${toGothicLine({
-  text: {
-    got: 'Leiturgia Gudiska\nXrisaustaumaus',
-    el: "Θεία Λειτουργία του Χρυσοστόμου",
-    en: "Divine Liturgy of Chrysostom",
+const anchors: Anchor[] = [
+  {
+    name: slug,
+    lang: "got-Goth",
   },
-  notes:
-    `*leiturgia from Λειτουργία (female), looking at 𐌴𐌹 in 𐌷𐌰𐌹𐍂𐌰𐌹𐍃𐌴𐌹𐍃 from αἱρέσεις
+  {
+    name: slug + ".lat",
+    lang: "got-Latn"
+  },
+]
+
+const generator: PageGenerator = info =>
+{
+  global.lineId = 0
+
+  let article = ''
+
+  article += html`<header>
+  <h1>${toGothicLines([{
+    text: {
+      got: 'Leiturgia Gudiska\nXrisaustaumaus',
+      el: "Θεία Λειτουργία του Χρυσοστόμου",
+      en: "Divine Liturgy of Chrysostom",
+    },
+    notes:
+      `*leiturgia from Λειτουργία (female), looking at 𐌴𐌹 in 𐌷𐌰𐌹𐍂𐌰𐌹𐍃𐌴𐌹𐍃 from αἱρέσεις
 and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.
 
 Gudisks seems to come after the noun (Skeireins 1:5)
 
 *Xrisaustaumus from Χρυσοστόμος, following declension of Alaiksandrus from Ἀλέξανδρος`
-})}</h1>
+  }], info)}</h1>
 </header>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Þiuþei, Fráujinond.',
@@ -57,13 +75,13 @@ ${[
         en: "Master, give the blessing.",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 </p>`
 
 
-article += html`<p>
-${speakerPriest()}
-${[
+  article += html`<p>
+${speakerPriest(info)}
+${toGothicLines([
     {
       text: {
         got: 'Þiuþido Þiudangardi',
@@ -72,22 +90,22 @@ ${[
       },
       notes: "Mark 11:10"
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${ofTrinity()}
+${ofTrinity(info)}
 <br>
-${nowAndEver()}
+${nowAndEver(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${amen()}
+  article += html`<p>
+${speakerChoir(info)}
+${amen(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Ïn gawairþja,',
@@ -95,20 +113,20 @@ ${[
         en: "In peace,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Faur gawairþi ïupaþro',
@@ -117,9 +135,9 @@ ${[
       },
       notes: `ὑπὲρ seems to translate to 𐍆𐌰𐌿𐍂, not 𐍆𐌰𐌿𐍂𐌰`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'jah naseinai saiwalo unsaraizo,',
@@ -127,20 +145,20 @@ ${[
         en: "and for the salvation of our souls,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Faur gawairþi allaizos manasedais',
@@ -149,9 +167,9 @@ ${[
       },
       notes: `world Mark 14:9`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'tulgiþa weihos Gudis aikklesjono',
@@ -159,9 +177,9 @@ ${[
         en: "for the stability of the holy churches of God,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'jah samaqiss allaize,',
@@ -174,20 +192,20 @@ to an agreement; not 𐌰𐌻𐌻𐌰𐍅𐌴𐍂𐌴𐌹 as union doesn't mean 
 𐌼𐌹𐌸𐌵𐌹𐌸𐌰𐌽 says to be in conformity, but it sounds like one joining another,
 instead of multiples coming together.`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Faur hita weih razn',
@@ -195,9 +213,9 @@ ${[
         en: "For this holy house",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'jah ïn ïta miþ galaubeinai, aizai jah Gudis faurhtein ïnngaggandans,',
@@ -208,20 +226,20 @@ ${[
 
 God-fearing is gudafaurhts.`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Faur gagudans jah Xristeinans Aurþaudaukseinans,',
@@ -232,20 +250,20 @@ ${[
 
 1 Timothy 1:20: X -> 𐌺𐍃`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Faur <[TODO]>,',
@@ -253,9 +271,9 @@ ${[
         en: "For (episcopal rank) (name),",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'gariuda praizbwtaireinz,',
@@ -263,9 +281,9 @@ ${[
         en: "for the honorable presbyterate,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'andbahti ïn Xristau',
@@ -273,9 +291,9 @@ ${[
         en: "for the diaconate in Christ",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -283,20 +301,20 @@ ${[
         en: "and for all the clergy and the people",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -304,9 +322,9 @@ ${[
         en: "For our country, for the president,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -314,20 +332,20 @@ ${[
         en: "and for all in public service,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Faur hita baurg,',
@@ -336,9 +354,9 @@ ${[
       },
       notes: 'Matthew 9:35'
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'all baurge jah all lande,',
@@ -346,9 +364,9 @@ ${[
         en: "and for every city and land,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'jah ïn þaim all bauandane galaubeinaize,',
@@ -357,20 +375,20 @@ ${[
       },
       notes: `this probably needs correcting/improving`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: 'Faur goþ wiþr,',
@@ -381,9 +399,9 @@ ${[
 
 need to find something better than 𐌲𐍉𐌸.`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -391,9 +409,9 @@ ${[
         en: "for an abundance of the fruits of the earth,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -401,20 +419,20 @@ ${[
         en: "and for peaceful times,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -422,9 +440,9 @@ ${[
         en: "For those who travel by land, sea, and air,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -432,9 +450,9 @@ ${[
         en: "for the sick, the suffering, the captives",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -442,20 +460,20 @@ ${[
         en: "and for their salvation,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -463,9 +481,9 @@ ${[
         en: "For our deliverance",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -473,20 +491,20 @@ ${[
         en: "from all affliction, wrath, danger, and necessity,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -494,20 +512,20 @@ ${[
         en: "Help us, save us, have mercy on us, and protect us,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${lordHaveMercy()}
+  article += html`<p>
+${speakerChoir(info)}
+${lordHaveMercy(info)}
 </p>`
 
 
-article += html`<p>
-${speakerDeacon()}
-${[
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -515,9 +533,9 @@ ${[
         en: "Commemorating our most holy, pure, blessed, and glorious Lady,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -525,9 +543,9 @@ ${[
         en: "the Theotokos and ever-virgin Mary,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -535,9 +553,9 @@ ${[
         en: "with all the saints,",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -545,9 +563,9 @@ ${[
         en: "let us commend ourselves and one another",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
@@ -555,49 +573,49 @@ ${[
         en: "and our whole life to Christ our God.",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${letUsPrayToTheLord()}
+${letUsPrayToTheLord(info)}
 </p>`
 
-article += html`<p>
-${speakerChoir()}
-${toYouOLord()}
+  article += html`<p>
+${speakerChoir(info)}
+${toYouOLord(info)}
 </p>`
 
-article = html`<div class="speech">${article}</div>`
+  article = html`<div class="speech">${article}</div>`
 
 
-article += html`<p class="annotation">
-  <span class="nowrap">${toGothicLine({
+  article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLines([{
     text: { got: "Leiturgia Gudiska Xrisaustaumaus", en: "Divine Liturgy of Chrysostom" },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
     text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
-  })}</span>
+  }], info)}</span>
 </p>`
 
-article += html`<p lang='en' class="annotation">
+  article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Liturgy of Saint John Chrysostom</span>
 <span class="nowrap">in the Gothic language,</span>
 <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
-
-const title = '𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃'
-const description = "𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
-const page: PageGenerator = info => html`<!doctype html>
-<html lang="got">
+  return html`<!doctype html>
+<html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article)}
+    ${createArticleBody(info, article)}
   </body>
 </html>`
+}
 
-export default page
+export default {
+  anchors,
+  generator
+}

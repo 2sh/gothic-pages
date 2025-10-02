@@ -1,15 +1,27 @@
-import {
-  createArticleBody,
-  createArticleHeaders,
-  html,
-  PageGenerator,
-} from "@server/tools"
+import
+  {
+    Anchor,
+    createArticleBody,
+    createArticleHeaders,
+    html,
+    PageGenerator,
+  } from "@server/tools"
 
 
 const title = "2sh's Gothic Pages"
 const description = "A page with various Gothic language related stuff I've done."
 
-const article = html`<header>
+
+const anchors: Anchor[] = [
+  {
+    name: 'index',
+    lang: "en",
+  },
+]
+
+const generator: PageGenerator = info =>
+{
+  const article = html`<header>
   <h1>2sh's Gothic Pages</h1>
 </header>
 
@@ -32,7 +44,7 @@ const article = html`<header>
 <h2>Translations</h2>
 <p>On the following pages, click on the lines to see translations and notes,
 and to see the Gothic text in the Latin alphabet,
-click the dropdown menu in the top right corner and select "Lateins".</p>
+click the 'L' button in the top right corner.</p>
 <p>In my Latin alphabet transcriptions, for native words,
 ai and au without diacritics are pronounced short (/ɛ/ and /ɔ/) before h, ƕ and r,
 and long (/ɛː/ and /ɔː/) otherwise.
@@ -48,39 +60,38 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 
 <h4>Liturgical</h4>
 <ul>
-  <li><a href="nicene-creed.html">Nicene Creed</a></li>
-  <li><a href="doxology-lesser.html">Lesser Doxology</a></li>
-  <li><a href="compline-small.html">Office of Small Compline</a> (WIP)</li>
-  <li><a href="liturgy-chrysostom.html">Liturgy of Saint John Chrysostom</a> (WIP)</li>
+  <li><a href="taikns-galaubeinais.html">Nicene Creed</a></li>
+  <li><a href="dauksaulaugei-leitils.html">Lesser Doxology</a></li>
+  <li><a href="afarnahtamatis-leitilis.html">Office of Small Compline</a> (WIP)</li>
+  <li><a href="leiturgia-xrisaustaumaus.html">Liturgy of Saint John Chrysostom</a> (WIP)</li>
 </ul>
 
 <h4>Prayers</h4>
 <ul>
-  <li><a href="morning-prayer-optina.html">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
+  <li><a href="bida-maurginis-auptinas.html">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
 </ul>
 
 <h4>Saints</h4>
 <ul>
-  <li><a href="nicetas-the-goth.html">Nicetas the Goth</a></li>
-  <li><a href="sabbas-the-goth.html">Sabbas the Goth</a></li>
-  <li><a href="26-gothic-martyrs.html">26 Gothic Martyrs in the Crimea</a> (WIP)</li>
+  <li><a href="niketa.html">Nicetas the Goth</a></li>
+  <li><a href="sabba.html">Sabbas the Goth</a></li>
+  <li><a href="26-martyros.html">26 Gothic Martyrs in the Crimea</a> (WIP)</li>
 </ul>
 
 <h4>Other</h4>
 <ul>
   <li><a href="phrases.html">Words & Phrases</a></li>
-  <li><a href="test.html">Test page</a> - a simple page for testing fonts.</li>
 </ul>
 
 <h3>Stories</h3>
 <ul>
-  <li><a href="peter-rabbit.html">The Tale of Peter Rabbit</a> (WIP)</li>
-  <li><a href="grimm-the-poor-man-and-the-rich-man.html">The Poor Man and the Rich Man</a> (WIP)</li>
+  <li><a href="paitraus-hazins.html">The Tale of Peter Rabbit</a> (WIP)</li>
+  <li><a href="sa-unleda-jah-sa-gabiga.html">The Poor Man and the Rich Man</a> (WIP)</li>
 </ul>
 
 <h3>Poems</h3>
 <ul>
-  <li><a href="mondnacht.html">Mondnacht</a></li>
+  <li><a href="menanahts.html">Mondnacht</a></li>
 </ul>
 
 
@@ -89,10 +100,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   <li><a href="dl/NotoSerifGothicV1.otf" download>Noto Serif Gothic</a> (v1.0) -
   Font with uppercase and lowercase Gothic letters.
   The letters I created from the various letters in the original
-  Noto Serif font, largly from Latin and Cyrillic letters.
-  See it in use on the translation pages above by clicking on the
-  dropdown menu in the top right corner of the pages and selecting
-  "<span lang='got'>𐌼𐌹𐌸 𐍃𐍄𐍂𐌹𐌺𐌹𐌼</span>".</li>
+  Noto Serif font, largly from Latin and Cyrillic letters.</li>
 </ul>
 
 
@@ -116,15 +124,18 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   <li><a href="https://airushimmadaga.wordpress.com/">Himma Daga</a> - News in Gothic</li>
 </ul>`
 
-
-const page: PageGenerator = info => html`<!doctype html>
-<html lang="en">
+  return html`<!doctype html>
+<html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article, { hasGothic: false, isHome: true })}
+    ${createArticleBody(info, article)}
   </body>
 </html>`
+}
 
-export default page
+export default {
+  anchors,
+  generator
+}

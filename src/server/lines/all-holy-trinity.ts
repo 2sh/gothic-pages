@@ -1,7 +1,8 @@
-import { toGothicLine } from "@server/tools"
+import { ReuseLines } from "@server/lines"
+import { toGothicLines } from "@server/tools"
 
-export const allHolyTrinity = () => `
-${toGothicLine({
+export const allHolyTrinity: ReuseLines = pi => `
+${toGothicLines([{
   text: {
     got: 'Allweiha Þrifalþei, armai unsis.',
     el: "Παναγία Τριάς, ἐλέησον ἡμᾶς.",
@@ -12,9 +13,9 @@ ${toGothicLine({
 
 three fold -ity, triune-ity -> trinity, Dreifaltigkeit: *𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐌴𐌹 from
 𐌸𐍂𐌹 + 𐍆𐌰𐌻𐌸𐍃 + 𐌴𐌹, 𐌰𐌹𐌽𐍆𐌰𐌻𐌸𐌴𐌹 and 𐍆𐌹𐌳𐌿𐍂𐍆𐌰𐌻𐌸𐍃 attested, 𐌸𐍂𐌹- taken from PG "þrifalþaz"`,
-})}
+}], pi)}
 <br>
-${toGothicLine({
+${toGothicLines([{
   text: {
     got: 'Frauja, hulþs sijais frawaurhtim unsaraim.',
     el: "Κύριε, ἱλάσθητι ταῖς ἁμαρτίαις ἡμῶν.",
@@ -22,9 +23,9 @@ ${toGothicLine({
   },
   notes:
     `Luke 18:13`
-})}
+}], pi)}
 <br>
-${toGothicLine({
+${toGothicLines([{
   text: {
     got: 'Fraujinond, fragif unsibjona unsara.',
     el: "Δέσποτα, συγχώρησον τὰς ἀνομίας ἡμῖν.",
@@ -32,17 +33,17 @@ ${toGothicLine({
   },
   notes:
     `𐍆𐍂𐌰𐌲𐌹𐍆 instead of 𐌰𐍆𐌻𐌴𐍄 as 𐌰𐍆𐌻𐌴𐍄 in lord's prayer`
-})}
+}], pi)}
 <br>
-${toGothicLine({
+${toGothicLines([{
   text: {
     got: 'Weiha, gaweiso jah hailei sauhtins unsara,',
     el: "Ἅγιε, ἐπίσκεψαι καὶ ἴασαι τὰς ἀσθενείας ἡμῶν,",
     en: "O Holy One, visit and heal our infirmities,",
   }
-})}
+}], pi)}
 <br>
-${toGothicLine({
+${toGothicLines([{
   text: {
     got: 'ïn namins þeinis.',
     el: "ἕνεκεν τοῦ ὀνόματός σου.",
@@ -50,4 +51,4 @@ ${toGothicLine({
   },
   notes:
     `ἕνεκεν/“for the sake of” was very often translated to 𐌹̈𐌽 + GEN`
-})}`
+}], pi)}`

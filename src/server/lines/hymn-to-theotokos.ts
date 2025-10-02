@@ -1,7 +1,8 @@
-import { toGothicLine } from "@server/tools"
+import { ReuseLines } from "@server/lines"
+import { toGothicLines } from "@server/tools"
 
-export const hymnToTheotokos = () => `
-${[
+export const hymnToTheotokos: ReuseLines = pi => `
+${toGothicLines([
     {
       text: {
         got: 'Gatils ïst raihtis du þiuþjan þuk Gudabairandein,',
@@ -42,4 +43,4 @@ declension, I've done the same and stuck articles before them for clarification.
 
 μεγαλύνει - mikileid saiwala meina fraujan Luke 1:46`
     },
-  ].map(toGothicLine).join('\n')}`
+  ], pi)}`

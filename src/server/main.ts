@@ -9,7 +9,7 @@ import util from 'util'
 import { exec as _exec } from 'child_process'
 const exec = util.promisify(_exec)
 
-import { PageGenerator, PageInfo } from './tools'
+import { PageConstruction, PageGenerator, PageInfo, PageInfoMain } from './tools'
 
 
 const mode = process.argv.length > 2
@@ -42,7 +42,6 @@ async function processPage(pathname: string, dirent: any)
   const name = path.basename(dirent.name, '.ts')
 
   const importPath = `${relPath}/${name}`
-  const urlPath = `/${name}.html`
 
   try
   {
@@ -56,25 +55,46 @@ async function processPage(pathname: string, dirent: any)
 
     const date = new Date(ts)
 
-    const pageInfo = {
-      protocol,
-      host,
-      path: root + (urlPath == "/index.html" ? '/' : urlPath),
-      lastmod: date,
-    }
 
-    pages.push(pageInfo)
+    const pageConstruction: PageConstruction = pageImport.default
 
-    const pageGenerator: PageGenerator = pageImport.default
-    const page = pageGenerator(pageInfo)
-    app.get(urlPath, (req, res, next) =>
-    {
-      res.send(page)
+    const alternatives = pageConstruction.anchors.map(a => {
+      const end = (a.name == "index" ? '' : a.name) + ".html"
+      const dir = root + '/'
+      return {
+        protocol,
+        host,
+        path: dir + end,
+        dir,
+        end: (a.name == "index" ? '' : a.name) + ".html",
+        url: `${protocol}://${host}${dir}${end}`,
+        lastmod: date,
+        name: a.name,
+        lang: a.lang,
+      }
     })
 
-    const pageOutputPath = `${pageOutput}${urlPath}`
-    fs.writeFileSync(pageOutputPath, page)
-    await exec(`touch -m -d ${date.toISOString()} "${pageOutputPath}"`)
+    for (const alt of alternatives)
+    {
+      const pageInfo: PageInfoMain = {
+        ...alt,
+        alternatives: alternatives.filter(a => a.name != alt.name)
+      }
+      pages.push(pageInfo)
+
+      const page = pageConstruction.generator(pageInfo)
+
+      const devPath = "/" + alt.name + '.html'
+
+      app.get(devPath, (req, res, next) =>
+      {
+        res.send(page)
+      })
+
+      const pageOutputPath = `${pageOutput}${devPath}`
+      fs.writeFileSync(pageOutputPath, page)
+      await exec(`touch -m -d ${date.toISOString()} "${pageOutputPath}"`)
+    }
   }
   catch (error)
   {
@@ -82,8 +102,6 @@ async function processPage(pathname: string, dirent: any)
     return
   }
 }
-
-
 
 async function importPages()
 {
