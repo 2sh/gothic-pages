@@ -136,25 +136,27 @@ for (const resetArea of resetAreas)
   })
 }
 
-// Dark Mode
+// Color Scheme
 
-const darkMode = persist('dark_mode', ref(window.matchMedia ?
-    window.matchMedia('(prefers-color-scheme: dark)').matches : true))
+const colorScheme = persist('color-scheme',
+  ref<string>(document.documentElement.dataset.colorScheme || 'dark'))
 
 window.matchMedia('(prefers-color-scheme: dark)')
   .addEventListener('change', event => {
-    darkMode.value = !!event.matches;
+    colorScheme.value = event.matches ? 'dark' : 'light';
   });
 
-function setDarkMode()
+function setColorScheme()
 {
-  body.classList.toggle("light-mode", !darkMode.value)
+  console.log(colorScheme.value)
+  document.documentElement.dataset.colorScheme = colorScheme.value
 }
-darkMode.on(setDarkMode)
-setDarkMode()
+colorScheme.on(setColorScheme)
+setColorScheme()
 
-const elDarkModeButtons = document.querySelectorAll('[data-dark-mode-button]')
-for (const button of elDarkModeButtons)
+const elColorSchemeButtons = document.querySelectorAll('[data-color-scheme-button]')
+for (const button of elColorSchemeButtons)
 {
-  button.addEventListener('click', () => darkMode.value = !darkMode.value)
+  button.addEventListener('click',
+    () => colorScheme.value = colorScheme.value == 'dark' ? 'light' : 'dark')
 }

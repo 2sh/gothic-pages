@@ -317,70 +317,40 @@ article
   }
 }
 
-
-/* Default style (dark) */
-
-#info-box
-{
-  background-color: #323236;
-}
-
-.i-line:hover
-{
-  background-color: #479e95;
-}
-
-.line-selected
-{
-  background-color: #008477;
-}
-
-.speaker
-{
-  color: rgb(255, 132, 132);
-}
-
-.annotation
-{
-  color: #979797;
-}
-
-
-/* Light mode */
-
-.light-mode .light-mode-icon,
+.light-mode-icon,
 .dark-mode-icon
 {
   display: none;
 }
 
-.light-mode .dark-mode-icon,
-.light-mode-icon
+:root[data-color-scheme="light"] .dark-mode-icon,
+:root[data-color-scheme="dark"] .light-mode-icon
 {
   display: block;
 }
 
-.light-mode #info-box
+
+#info-box
 {
-  background-color: #dadada;
+  background-color: var(--box-color);
 }
 
-.light-mode .i-line:hover
+.i-line:hover
 {
-  background-color: #ceffe3;
+  background-color: var(--i-line-hover-color);
 }
 
-.light-mode .line-selected
+.line-selected
 {
-  background-color: #aaffcf;
+  background-color: var(--i-line-selected-color);
 }
 
-.light-mode .speaker
+.speaker
 {
-  color: rgb(255, 0, 0);
+  color: var(--speaker-color);
 }
 
-.light-mode .annotation
+.annotation
 {
-  color: #999999;
+  color: var(--annotation-color);
 }

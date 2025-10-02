@@ -1,3 +1,30 @@
+:root[data-color-scheme="dark"] {
+  color-scheme: dark;
+  --bg-color: #28282b;
+  --box-color: #323236;
+  --i-line-hover-color: #479e95;
+  --i-line-selected-color: #008477;
+  --speaker-color: rgb(255, 132, 132);
+  --text-color: #f0f0f0;
+  --link-color: #789cff;
+  --button-color: #686868;
+  --notice-color: rgb(255, 193, 193);
+  --annotation-color: #979797;
+}
+:root[data-color-scheme="light"] {
+  color-scheme: light;
+  --bg-color: #ffffff;
+  --box-color: #dadada;
+  --i-line-hover-color: #ceffe3;
+  --i-line-selected-color: #aaffcf;
+  --speaker-color: rgb(255, 0, 0);
+  --text-color: #28282b;
+  --link-color: #6b87d4;
+  --button-color: #dddddd;
+  --notice-color: rgb(182, 0, 0);
+  --annotation-color: #999999;
+}
+
 @font-face {
   font-family: 'Noto Sans Gothic';
   src: url('../fonts/NotoSansGothic-Regular.woff2') format('woff2');
@@ -29,56 +56,26 @@ body
   line-height: normal;
 }
 
-
-/* Default style (dark) */
-
 body,
 #info-box
 {
-  background-color: #28282b;
-  color: #f0f0f0;
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }
 
 a
 {
-  color: #789cff;
+  color: var(--link-color);
 }
 
 .menu button,
 .menu a
 {
-  background-color: #686868;
-  color: #f0f0f0;
+  background-color: var(--button-color);
+  color: var(--text-color);
 }
 
 .notice
 {
-  color: rgb(255, 193, 193);
-}
-
-
-/* Light mode */
-
-body.light-mode,
-.light-mode #info-box
-{
-  background-color: #ffffff;
-  color: #28282b;
-}
-
-.light-mode a
-{
-  color: #6b87d4;
-}
-
-.light-mode .menu button,
-.light-mode .menu a
-{
-  background-color: #dddddd;
-  color: #28282b;
-}
-
-.light-mode .notice
-{
-  color: rgb(182, 0, 0);
+  color: var(--notice-color);
 }
