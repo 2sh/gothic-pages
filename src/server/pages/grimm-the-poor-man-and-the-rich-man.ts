@@ -11,8 +11,6 @@ import
 // https://www.grimmstories.com/de/grimm_maerchen/der_arme_und_der_reiche
 // https://www.grimmstories.com/en/grimm_fairy-tales/the_poor_man_and_the_rich_man
 
-global.lineId = 0
-
 
 const slug = 'sa-unleda-jah-sa-gabiga'
 const title = '𐍃𐌰 𐌿𐌽𐌻𐌴𐌳𐌰 𐌾𐌰𐌷 𐍃𐌰 𐌲𐌰𐌱𐌹𐌲𐌰'
@@ -32,6 +30,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

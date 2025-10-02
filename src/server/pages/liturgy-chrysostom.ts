@@ -25,9 +25,6 @@ import
 // https://www.chrysostomliturgy.org/text-of-the-divine-liturgy-greek-english
 
 
-global.lineId = 0
-
-
 const slug = 'leiturgia-xrisaustaumaus'
 const title = '𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃'
 const description = "𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
@@ -46,8 +43,9 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
-  let article = ''
+  global.lineId = 0
 
+  let article = ''
 
   article += html`<header>
   <h1>${toGothicLines([{

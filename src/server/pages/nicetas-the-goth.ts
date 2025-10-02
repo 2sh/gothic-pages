@@ -23,8 +23,6 @@ import
 
 // https://www.worldhistory.org/Athanaric/
 
-global.lineId = 0
-
 
 const slug = 'niketa'
 const title = '𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
@@ -44,6 +42,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

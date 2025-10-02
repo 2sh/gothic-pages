@@ -7,7 +7,7 @@ import
     PageGenerator,
   } from "@server/tools"
 
-const slug = 'index'
+
 const title = "2sh's Gothic Pages"
 const description = "A page with various Gothic language related stuff I've done."
 
@@ -44,7 +44,7 @@ const generator: PageGenerator = info =>
 <h2>Translations</h2>
 <p>On the following pages, click on the lines to see translations and notes,
 and to see the Gothic text in the Latin alphabet,
-click the 'A' button in the top right corner.</p>
+click the 'L' button in the top right corner.</p>
 <p>In my Latin alphabet transcriptions, for native words,
 ai and au without diacritics are pronounced short (/ɛ/ and /ɔ/) before h, ƕ and r,
 and long (/ɛː/ and /ɔː/) otherwise.

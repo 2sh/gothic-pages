@@ -22,7 +22,6 @@ import
 // leads me to believe the queen and her daughter and son weren't actually included in the 26
 
 
-global.lineId = 0
 
 
 const slug = "26-martyros"
@@ -43,6 +42,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

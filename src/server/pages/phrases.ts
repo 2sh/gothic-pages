@@ -21,9 +21,6 @@ faurrinnan (be a precursor, run before) could be used for john the forerunner
 ἐλέησον ἡμᾶς  𐌾𐌰𐌷 𐍃𐌹𐌻𐌱𐌰𐌽𐍃 𐌿𐍃𐌷𐍉𐍆𐍉𐌽 𐍃𐍄𐌹𐌱𐌽𐌰 𐌵𐌹𐌸𐌰𐌽𐌳𐌰𐌽𐍃: 𐌹̈𐌴𐍃𐌿, 𐍄𐌰𐌻𐌶𐌾𐌰𐌽𐌳, 𐌰𐍂𐌼𐌰𐌹 𐌿𐌽𐍃𐌹𐍃!
 */
 
-global.lineId = 0
-
-
 
 const slug = 'phrases'
 const title = 'Words & Phrases'
@@ -39,6 +36,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
 

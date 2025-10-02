@@ -78,8 +78,8 @@ const darkModeButton = html`<button lang='en' title='Change between dark and lig
 
 
 const altButtons: {[lang: string]: string} = {
-  'got-Goth': '𐌰',
-  'got-Latn': 'A',
+  'got-Goth': '𐌲',
+  'got-Latn': 'L',
 }
 
 export function createArticleBody(info: PageInfoMain, content: string)

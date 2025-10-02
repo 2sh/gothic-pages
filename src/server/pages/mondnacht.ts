@@ -11,8 +11,6 @@ import
 
 // https://de.wikipedia.org/wiki/Mondnacht_(Eichendorff)
 
-global.lineId = 0
-
 
 const slug = 'menanahts'
 const title = '𐌼𐌴𐌽𐌰𐌽𐌰𐌷𐍄𐍃'
@@ -32,6 +30,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

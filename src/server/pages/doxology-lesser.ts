@@ -21,9 +21,6 @@ import
 // https://www.orthodoxes-forum.de/viewtopic.php?t=577
 
 
-global.lineId = 0
-
-
 const slug = 'dauksaulaugei-leitils'
 const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
 const description = "𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
@@ -41,8 +38,9 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
-  let article = ''
+  global.lineId = 0
 
+  let article = ''
 
   article += html`<header>
   <h1>${toGothicLines([{

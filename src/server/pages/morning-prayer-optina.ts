@@ -12,8 +12,6 @@ import { amen } from "@server/lines"
 // Eng: https://glory2godforallthings.com/2006/11/10/the-morning-prayer-of-the-last-elders-of-optina/
 // Rus: https://azbyka.ru/molitvoslov/molitva-poslednix-optinskix-starcev-na-nachalo-dnya.html
 
-global.lineId = 0
-
 
 const slug = 'bida-maurginis-auptinas'
 const title = '𐌱𐌹𐌳𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌹𐍃 𐍃𐍀𐌴𐌳𐌹𐌶𐌰𐌽𐌴 𐍃𐌹𐌽𐌹𐍃𐍄𐌰𐌹𐌶𐌴 𐌰𐌿𐍀𐍄𐌹𐌽𐌰𐍃'
@@ -33,6 +31,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

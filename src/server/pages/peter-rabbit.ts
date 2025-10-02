@@ -9,9 +9,6 @@ import
 } from '@server/tools'
 
 
-global.lineId = 0
-
-
 const slug = 'paitraus-hazins'
 const title = '𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃'
 const description = "𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
@@ -30,6 +27,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

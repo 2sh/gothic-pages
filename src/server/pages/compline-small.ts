@@ -35,9 +35,6 @@ import { oComeLetUsWorship } from '@server/lines/o-come-let-us-worship'
 // https://en.wikipedia.org/wiki/Usual_beginning
 
 
-global.lineId = 0
-
-
 const slug = "afarnahtamatis-leitilis"
 const title = '𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
 const description = "𐌰𐌽𐌳𐌱𐌰𐌷𐍄𐌹 𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐌹𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐌹𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
@@ -56,6 +53,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

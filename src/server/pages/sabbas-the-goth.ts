@@ -14,8 +14,6 @@ import
 // https://www.oca.org/saints/lives/2025/04/15/101105-martyr-savva-the-goth-of-wallachia
 // https://en.wikipedia.org/wiki/Sabbas_the_Goth
 
-global.lineId = 0
-
 
 const slug = 'sabba'
 const title = '𐍃𐌰𐌱𐌱𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
@@ -35,6 +33,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<header>

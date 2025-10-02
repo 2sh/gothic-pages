@@ -23,9 +23,6 @@ import { lordsPrayer } from '@server/lines/lords-prayer'
 // https://en.wikipedia.org/wiki/Usual_beginning
 
 
-global.lineId = 0
-
-
 const slug = 'test'
 const title = 'Test Page'
 const description = "A test page with all the Gothic letters."
@@ -40,6 +37,8 @@ const anchors: Anchor[] = [
 
 const generator: PageGenerator = info =>
 {
+  global.lineId = 0
+
   let article = ''
 
   article += html`<p>A B G D E Q Z H C I K L M N J U P R S T W F X V O</p>`

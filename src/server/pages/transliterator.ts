@@ -1,4 +1,6 @@
-import {
+import
+{
+  Anchor,
   createArticleBody,
   createArticleHeaders,
   html,
@@ -6,7 +8,20 @@ import {
 } from "@server/tools"
 
 
-const article = html`<header>
+const title = "Gothic Transliterator"
+const description = "A Gothic-Latin transliterator by 2sh."
+
+
+const anchors: Anchor[] = [
+  {
+    name: 'index',
+    lang: "en",
+  }
+]
+
+const generator: PageGenerator = info =>
+{
+  const article = html`<header>
   <h1>Gothic Transliterator</h1>
 </header>
 <div id="between" x-data="{text: ''}">
@@ -78,11 +93,8 @@ The above 999 setting is an idea I had for larger numbers, with colons acting as
   </div>
 </div>`
 
-const title = "Gothic Transliterator"
-const description = "A Gothic-Latin transliterator by 2sh."
-
-const page: PageGenerator = info => html`<!doctype html>
-<html lang="en">
+  return html`<!doctype html>
+<html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info, title, description)}
     <link href="assets/styles/transliterator.css" rel="stylesheet">
@@ -92,5 +104,9 @@ const page: PageGenerator = info => html`<!doctype html>
     <script type="module" src="scripts/transliterator.js"></script>
   </body>
 </html>`
+}
 
-export default page
+export default {
+  anchors,
+  generator
+}
