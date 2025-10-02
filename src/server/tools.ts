@@ -109,7 +109,7 @@ export function createArticleBody(info: PageInfoMain, content: string)
           </div>
           <div>
             ${darkModeButton}
-            ${ alt ? `<a href="${safeHtmlAttribute(alt.end)}">${altButtons[alt.lang]}</a>` : '' }
+            ${ alt ? html`<a lang='en' title='Switch between Gothic and Latin script' href="${safeHtmlAttribute(alt.end)}">${altButtons[alt.lang]}</a>` : '' }
           </div>
         </div>
         <div id="article-content" data-reset-area>${content}</div>
