@@ -59,14 +59,14 @@ async function processPage(pathname: string, dirent: any)
     const pageConstruction: PageConstruction = pageImport.default
 
     const alternatives = pageConstruction.anchors.map(a => {
-      const end = (a.name == "index" ? '' : a.name) + ".html"
+      const end = (a.name == "index" ? '' : a.name + ".html")
       const dir = root + '/'
       return {
         protocol,
         host,
         path: dir + end,
         dir,
-        end: (a.name == "index" ? '' : a.name) + ".html",
+        end,
         url: `${protocol}://${host}${dir}${end}`,
         lastmod: date,
         name: a.name,
@@ -114,13 +114,12 @@ async function importPages()
   await Promise.all(processes)
 
   pages.sort((a, b) => a.path.localeCompare(b.path))
-  fs.writeFileSync(`${pageOutput}/sitemap.txt`, pages.map(p =>
-    `${p.protocol}://${p.host}${p.path}`).join('\n'))
+  fs.writeFileSync(`${pageOutput}/sitemap.txt`, pages.map(p => p.url).join('\n'))
   fs.writeFileSync(`${pageOutput}/sitemap.xml`,
 `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.map(p => `
   <url>
-    <loc>${p.protocol}://${p.host}${p.path}</loc>
+    <loc>${p.url}</loc>
     <lastmod>${p.lastmod.toISOString()}</lastmod>
   </url>`).join('')}
 </urlset>`)
