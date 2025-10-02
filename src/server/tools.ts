@@ -32,7 +32,7 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
   }
 
   const htmlText = pageInfo.lang == 'got-Latn'
-    ? data.text.got
+    ? modes.latin(data.text.got)
     : modes.simple(data.text.got)
   const info: GothicLineData = {
     text: data.text,
@@ -104,7 +104,8 @@ export function createArticleBody(info: PageInfoMain, content: string)
             ${isHome ? '' : homeButton}
           </div>
           <div>
-            ${ alt ? `<a href="${safeHtmlAttribute(alt.url)}">${altButtons[alt.lang]}<a/>` : '' }
+            ${darkModeButton}
+            ${ alt ? `<a href="${safeHtmlAttribute(alt.end)}">${altButtons[alt.lang]}</a>` : '' }
           </div>
         </div>
         <div id="article-content" data-reset-area>${content}</div>
@@ -126,7 +127,7 @@ export function createArticleHeaders(info: PageInfoMain, title: string, descript
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${info.url}">${
  alternatives.map(a => `
-<link rel="alternative" href="${a.url}" hreflang="${a.lang}">`)}
+<link rel="alternative" href="${a.url}" hreflang="${a.lang}">`).join('')}
 
 <title>${safeHtmlText(title)}</title>
 <meta name="description" content='${safeHtmlAttribute(description)}'>
@@ -137,17 +138,17 @@ export function createArticleHeaders(info: PageInfoMain, title: string, descript
 <link href="assets/styles/article.css" rel="stylesheet">`
 }
 
-export interface Anchors {
+export interface Anchor {
   name: string,
   lang: string,
 }
 
-export interface Alternative extends Anchors {
+export interface Alternative extends Anchor {
   url: string
 }
 
 export type PageConstruction = {
-  anchors: Anchors[],
+  anchors: Anchor[],
   generator: PageGenerator,
 }
 
@@ -157,6 +158,8 @@ export interface PageInfo {
   protocol: string,
   host: string,
   path: string,
+  dir: string,
+  end: string,
   name: string,
   url: string,
   lang: string

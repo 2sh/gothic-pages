@@ -55,17 +55,19 @@ async function processPage(pathname: string, dirent: any)
 
     const date = new Date(ts)
 
-    
+
     const pageConstruction: PageConstruction = pageImport.default
 
     const alternatives = pageConstruction.anchors.map(a => {
-      const relPath = '/' + (a.name == "index" ? '' : a.name)
-      const path = root + relPath
+      const end = (a.name == "index" ? '' : a.name) + ".html"
+      const dir = root + '/'
       return {
         protocol,
         host,
-        path,
-        url: `${protocol}://${host}${path}`,
+        path: dir + end,
+        dir,
+        end: (a.name == "index" ? '' : a.name) + ".html",
+        url: `${protocol}://${host}${dir}${end}`,
         lastmod: date,
         name: a.name,
         lang: a.lang,
@@ -82,12 +84,14 @@ async function processPage(pathname: string, dirent: any)
 
       const page = pageConstruction.generator(pageInfo)
 
-      app.get(relPath, (req, res, next) =>
+      const devPath = "/" + alt.name + '.html'
+
+      app.get(devPath, (req, res, next) =>
       {
         res.send(page)
       })
 
-      const pageOutputPath = `${pageOutput}${relPath}`
+      const pageOutputPath = `${pageOutput}${devPath}`
       fs.writeFileSync(pageOutputPath, page)
       await exec(`touch -m -d ${date.toISOString()} "${pageOutputPath}"`)
     }

@@ -5,6 +5,7 @@ import
   toGothicLines,
   createArticleHeaders,
   PageGenerator,
+  Anchor,
 } from '@server/tools'
 
 import
@@ -24,43 +25,58 @@ import { lordsPrayer } from '@server/lines/lords-prayer'
 
 global.lineId = 0
 
+
+const slug = 'test'
 const title = 'Test Page'
-
-let article = ''
-
-article += html`<p>A B G D E Q Z H C I K L M N J U P R S T W F X V O</p>`
-article += html`<p>𐌰 𐌱 𐌲 𐌳 𐌴 𐌵 𐌶 𐌷 𐌸 𐌹 𐌹̈ 𐌺 𐌻 𐌼 𐌽 𐌾 𐌿 𐍀 𐍁 𐍂 𐍃 𐍄 𐍅 𐍆 𐍇 𐍈 𐍉 𐍊</p>`
-
-article += html`<p>${lordsPrayer()}</p>`
-
-article += html`<p>
-${forYoursIs()}
-<br>
-${ofTrinity()}
-<br>
-${nowAndEver()}
-</p>`
-article += html`<p>${amen()}</p>`
-
-article += html`<p>${[
-  {
-    text: {
-      got: 'Razn, Xristus, Pasxa, ïzwis, ƕazuh, þizos',
-    },
-  },
-].map(toGothicLines).join('')}</p>`
-
-
 const description = "A test page with all the Gothic letters."
 
-const page: PageGenerator = info => html`<!doctype html>
-<html lang="got">
+
+const anchors: Anchor[] = [
+  {
+    name: slug,
+    lang: "got-Goth",
+  }
+]
+
+const generator: PageGenerator = info =>
+{
+  let article = ''
+
+  article += html`<p>A B G D E Q Z H C I K L M N J U P R S T W F X V O</p>`
+  article += html`<p>𐌰 𐌱 𐌲 𐌳 𐌴 𐌵 𐌶 𐌷 𐌸 𐌹 𐌹̈ 𐌺 𐌻 𐌼 𐌽 𐌾 𐌿 𐍀 𐍁 𐍂 𐍃 𐍄 𐍅 𐍆 𐍇 𐍈 𐍉 𐍊</p>`
+
+  article += html`<p>${lordsPrayer(info)}</p>`
+
+  article += html`<p>
+${forYoursIs(info)}
+<br>
+${ofTrinity(info)}
+<br>
+${nowAndEver(info)}
+</p>`
+  article += html`<p>${amen(info)}</p>`
+
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Razn, Xristus, Pasxa, ïzwis, ƕazuh, þizos',
+      },
+    },
+  ], info)}</p>`
+
+
+  return html`<!doctype html>
+<html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article)}
+    ${createArticleBody(info, article)}
   </body>
 </html>`
+}
 
-export default page
+export default {
+  anchors,
+  generator
+}

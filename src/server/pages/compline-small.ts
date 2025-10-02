@@ -2,9 +2,10 @@ import
 {
   html,
   createArticleBody,
-  toGothicLine,
   createArticleHeaders,
   PageGenerator,
+  Anchor,
+  toGothicLines,
 } from '@server/tools'
 
 import
@@ -36,26 +37,44 @@ import { oComeLetUsWorship } from '@server/lines/o-come-let-us-worship'
 
 global.lineId = 0
 
-let article = ''
 
-let speech = ''
+const slug = "afarnahtamatis-leitilis"
+const title = '𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
+const description = "𐌰𐌽𐌳𐌱𐌰𐌷𐍄𐌹 𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐌹𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐌹𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
-speech += html`<header>
-  <h1>${toGothicLine({
-  text: {
-    got: 'Afarnahtamats Leitils',
-    el: "Μικρόν Απόδειπνον",
-    en: "Small Compline",
+
+const anchors: Anchor[] = [
+  {
+    name: slug,
+    lang: "got-Goth",
   },
-  notes:
-    `ΑΠΟΔΕΙΠΝΟΝ = after supper, perhaps *𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃`
-})}</h1>
+  {
+    name: slug + ".lat",
+    lang: "got-Latn"
+  },
+]
+
+const generator: PageGenerator = info =>
+{
+  let article = ''
+
+  article += html`<header>
+  <h1>${toGothicLines([{
+    text: {
+      got: 'Afarnahtamats Leitils',
+      el: "Μικρόν Απόδειπνον",
+      en: "Small Compline",
+    },
+    notes:
+      `ΑΠΟΔΕΙΠΝΟΝ = after supper, perhaps *𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃`
+  }], info)}</h1>
 </header>`
 
+  let speech = ''
 
-speech += html`<p>
-${speakerPriest()}
-${[
+  speech += html`<p>
+${speakerPriest(info)}
+${toGothicLines([
     {
       text: {
         got: 'Þiuþida Guþ unsarana sinteino.',
@@ -64,17 +83,17 @@ ${[
       },
       notes: "2 Corinthians 4:10 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉"
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${nowAndEver()}
+${nowAndEver(info)}
 </p>`
 
 
-speech += html`<p>
-${speakerReader()}
-${amen()}
+  speech += html`<p>
+${speakerReader(info)}
+${amen(info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'Wulþus þus, Guþ unsar, wulþus þus.',
@@ -82,18 +101,18 @@ ${[
         en: "Glory to thee, our god, glory to thee.",
       }
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 </p>`
 
-speech += html`<p>
-${oHeavenlyKing()}
+  speech += html`<p>
+${oHeavenlyKing(info)}
 </p>`
 
-article += html`<div class="speech">${speech}</div>`
+  article += html`<div class="speech">${speech}</div>`
 
 
-article += html`<p class="title">
-${[
+  article += html`<p class="title">
+${toGothicLines([
     {
       text: {
         got: 'Trisagiaun bidos',
@@ -105,50 +124,50 @@ ${[
 
 for thrice holy perhaps 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐍃; 𐍅𐌴𐌹𐌷𐍃 => 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐌰 𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃.`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 </p>`
 
-speech = ''
+  speech = ''
 
-speech += html`<p>
-${trisagion()}
+  speech += html`<p>
+${trisagion(info)}
 <br>
-${timesThree()}
+${timesThree(info)}
 </p>`
-speech += html`<p>${gloryToTrinity()}</p>`
-speech += html`<p>${allHolyTrinity()}</p>`
-speech += html`<p>
-${lordHaveMercy()}
-${timesThree()}
+  speech += html`<p>${gloryToTrinity(info)}</p>`
+  speech += html`<p>${allHolyTrinity(info)}</p>`
+  speech += html`<p>
+${lordHaveMercy(info)}
+${timesThree(info)}
 </p>`
-speech += html`<p>${gloryToTrinity()}</p>`
-speech += html`<p>${lordsPrayer()}</p>`
+  speech += html`<p>${gloryToTrinity(info)}</p>`
+  speech += html`<p>${lordsPrayer(info)}</p>`
 
-speech += html`<p>
-${speakerPriest()}
-${forYoursIs()}
+  speech += html`<p>
+${speakerPriest(info)}
+${forYoursIs(info)}
 <br>
-${ofTrinity()}
+${ofTrinity(info)}
 <br>
-${nowAndEver()}
+${nowAndEver(info)}
 </p>`
 
-speech += html`<p>
-${speakerReader()}
-${amen()}
+  speech += html`<p>
+${speakerReader(info)}
+${amen(info)}
 </p>`
 
-speech += html`<p>
-${lordHaveMercy()}
-${timesTwelve()}
+  speech += html`<p>
+${lordHaveMercy(info)}
+${timesTwelve(info)}
 </p>`
-speech += html`<p>${gloryToTrinity()}</p>`
-speech += html`<p>${oComeLetUsWorship()}</p>`
+  speech += html`<p>${gloryToTrinity(info)}</p>`
+  speech += html`<p>${oComeLetUsWorship(info)}</p>`
 
-article += html`<div class="speech">${speech}</div>`
+  article += html`<div class="speech">${speech}</div>`
 
-article += html`<p class='notice'>
-${[
+  article += html`<p class='notice'>
+${toGothicLines([
     {
       text: {
         got: 'Psalmos 50, 69, 142',
@@ -157,83 +176,82 @@ ${[
       },
       notes: `*𐍀𐍃𐌰𐌻𐌼𐍉𐍃: Uncertain and unattested nominative plural`
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 </p>
-<p class="notice"><a href="doxology-lesser.html">${toGothicLine({
+<p class="notice"><a href="doxology-lesser.html">${toGothicLines([{
     text: {
       got: 'Dauksaulaugia Leitils',
       el: "Δοξολογία Μικρά",
       en: "Lesser Doxology",
     }
-  })}</a></p>
-<p class="notice"><a href="nicene-creed.html">${toGothicLine({
+  }], info)}</a></p>
+<p class="notice"><a href="nicene-creed.html">${toGothicLines([{
     text: {
       got: 'Taikns Galaubeinais',
       el: "Σύμβολο της Πίστεως",
       en: "Symbol of Faith",
     }
-  })}</a></p>`
+  }], info)}</a></p>`
 
-speech = html`<p>${hymnToTheotokos()}</p>`
-speech += html`<p>
-${trisagion()}
+  speech = html`<p>${hymnToTheotokos(info)}</p>`
+  speech += html`<p>
+${trisagion(info)}
 <br>
-${timesThree()}
+${timesThree(info)}
 </p>`
-speech += html`<p>${gloryToTrinity()}</p>`
-speech += html`<p>${allHolyTrinity()}</p>`
-speech += html`<p>
-${lordHaveMercy()}
-${timesThree()}
+  speech += html`<p>${gloryToTrinity(info)}</p>`
+  speech += html`<p>${allHolyTrinity(info)}</p>`
+  speech += html`<p>
+${lordHaveMercy(info)}
+${timesThree(info)}
 </p>`
-speech += html`<p>${gloryToTrinity()}</p>`
-speech += html`<p>${lordsPrayer()}</p>`
+  speech += html`<p>${gloryToTrinity(info)}</p>`
+  speech += html`<p>${lordsPrayer(info)}</p>`
 
-speech += html`<p>
-${speakerPriest()}
-${forYoursIs()}
+  speech += html`<p>
+${speakerPriest(info)}
+${forYoursIs(info)}
 <br>
-${ofTrinity()}
+${ofTrinity(info)}
 <br>
-${nowAndEver()}
+${nowAndEver(info)}
 </p>`
 
-speech += html`<p>
-${speakerReader()}
-${amen()}
+  speech += html`<p>
+${speakerReader(info)}
+${amen(info)}
 </p>`
 
-article += html`<div class="speech">${speech}</div>`
+  article += html`<div class="speech">${speech}</div>`
 
-article += html`<p class="annotation">
-  <span class="nowrap">${toGothicLine({
-    text: { got: "Andbahti Afarnahtamatis Leitilis", en: "The Office of Small Compline" },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
-    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
-  })}</span>
+  const gothicAnnotation = [
+    { text: { got: "Andbahti Afarnahtamatis Leitilis", en: "The Office of Small Compline" } },
+    { text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," } },
+    { text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." } },
+  ]
+
+  article += html`<p class="annotation">${gothicAnnotation.map(a => `
+  <span class="nowrap">${toGothicLines([a], info)}</span>`).join('')}
 </p>`
 
-article += html`<p lang='en' class="annotation">
+  article += html`<p lang='en' class="annotation">
 <span class="nowrap">The Office of Small Compline</span>
 <span class="nowrap">in the Gothic language,</span>
 <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
-const title = '𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
-const description = "𐌰𐌽𐌳𐌱𐌰𐌷𐍄𐌹 𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐌹𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐌹𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
-const page: PageGenerator = info => html`<!doctype html>
-<html lang="got">
+  return html`<!doctype html>
+<html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article)}
+    ${createArticleBody(info, article)}
   </body>
 </html>`
+}
 
-export default page
+export default {
+  anchors,
+  generator
+}

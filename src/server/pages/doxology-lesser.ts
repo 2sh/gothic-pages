@@ -4,9 +4,10 @@ import
 {
   html,
   createArticleBody,
-  toGothicLine,
   createArticleHeaders,
   PageGenerator,
+  Anchor,
+  toGothicLines,
 } from '@server/tools'
 
 import
@@ -22,137 +23,155 @@ import
 
 global.lineId = 0
 
-let article = ''
 
+const slug = 'dauksaulaugei-leitils'
+const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
+const description = "𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
-article += html`<header>
-  <h1>${toGothicLine({
-  text: {
-    got: 'Dauksaulaugei Leitils',
-    el: "Δοξολογία Μικρά",
-    en: "Lesser Doxology",
+const anchors: Anchor[] = [
+  {
+    name: slug,
+    lang: "got-Goth",
   },
-  notes:
-    `Greek -ία ending seems to equate to -ei and x -> 𐌺𐍃 from 1 Timothy 1:20,
+  {
+    name: slug + ".lat",
+    lang: "got-Latn"
+  },
+]
+
+const generator: PageGenerator = info =>
+{
+  let article = ''
+
+
+  article += html`<header>
+  <h1>${toGothicLines([{
+    text: {
+      got: 'Dauksaulaugei Leitils',
+      el: "Δοξολογία Μικρά",
+      en: "Lesser Doxology",
+    },
+    notes:
+      `Greek -ία ending seems to equate to -ei and x -> 𐌺𐍃 from 1 Timothy 1:20,
 so *dauksaulaugei`,
-})}</h1>
+  }], info)}</h1>
 </header>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Wulþus ïn háuhistjam Guda, jah ana airþai gawairþi ïn mannam godis wiljins.',
-      el: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
-      en: "Glory to God in the highest, and on earth peace, good will to men.",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Wulþus ïn háuhistjam Guda, jah ana airþai gawairþi ïn mannam godis wiljins.',
+        el: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
+        en: "Glory to God in the highest, and on earth peace, good will to men.",
+      },
+      notes:
+        `Luke 2:14, copied from the Gothic Bible.`,
     },
-    notes:
-      `Luke 2:14, copied from the Gothic Bible.`,
-  },
-].map(toGothicLine).join('')}</p>`
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Hazjam þuk,',
-      el: "Ὑμνοῦμέν σε,",
-      en: "We praise you,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Hazjam þuk,',
+        el: "Ὑμνοῦμέν σε,",
+        en: "We praise you,",
+      },
+      notes:
+        `although 𐌷𐌰𐌶𐌾𐌰𐌽 is translated from αἰνέω usually, 𐌷𐌰𐌶𐌴𐌹𐌽𐍃 is used for hymn`,
     },
-    notes:
-      `although 𐌷𐌰𐌶𐌾𐌰𐌽 is translated from αἰνέω usually, 𐌷𐌰𐌶𐌴𐌹𐌽𐍃 is used for hymn`,
-  },
-  {
-    text: {
-      got: 'þiuþjam þuk,',
-      el: "εὐλογοῦμέν σε,",
-      en: "we bless you,",
+    {
+      text: {
+        got: 'þiuþjam þuk,',
+        el: "εὐλογοῦμέν σε,",
+        en: "we bless you,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'ïnweitam þuk,',
-      el: "προσκυνοῦμέν σε,",
-      en: "we worship you,",
+    {
+      text: {
+        got: 'ïnweitam þuk,',
+        el: "προσκυνοῦμέν σε,",
+        en: "we worship you,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'gasweram þuk,',
-      el: "δοξολογοῦμέν σε,",
-      en: "we glorify you,",
+    {
+      text: {
+        got: 'gasweram þuk,',
+        el: "δοξολογοῦμέν σε,",
+        en: "we glorify you,",
+      },
+      notes:
+        `John 12:16 doxology, give glory; 𐌿𐍃𐌷𐌰𐌿𐌷𐌾𐌰𐌽 is also interesting`,
     },
-    notes:
-      `John 12:16 doxology, give glory; 𐌿𐍃𐌷𐌰𐌿𐌷𐌾𐌰𐌽 is also interesting`,
-  },
-  {
-    text: {
-      got: 'awiliudom þuk,',
-      el: "εὐχαριστοῦμέν σοι,",
-      en: "and we thank you,",
+    {
+      text: {
+        got: 'awiliudom þuk,',
+        el: "εὐχαριστοῦμέν σοι,",
+        en: "and we thank you,",
+      },
+      notes:
+        `Mark 8:6 eucharist; 𐌰𐌹𐍅𐍇𐌰𐍂𐌹𐍃𐍄𐌹𐌰`,
     },
-    notes:
-      `Mark 8:6 eucharist; 𐌰𐌹𐍅𐍇𐌰𐍂𐌹𐍃𐍄𐌹𐌰`,
-  },
-  {
-    text: {
-      got: 'faur mikilana wulþu þeinana.',
-      el: "διὰ τὴν μεγάλην σου δόξαν.",
-      en: "for your great glory.",
+    {
+      text: {
+        got: 'faur mikilana wulþu þeinana.',
+        el: "διὰ τὴν μεγάλην σου δόξαν.",
+        en: "for your great glory.",
+      },
+      notes:
+        `Mark 8:6 eucharist; 𐌰𐌹𐍅𐍇𐌰𐍂𐌹𐍃𐍄𐌹𐌰`,
     },
-    notes:
-      `Mark 8:6 eucharist; 𐌰𐌹𐍅𐍇𐌰𐍂𐌹𐍃𐍄𐌹𐌰`,
-  },
-].map(toGothicLine).join('')}</p>`
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Frauja, Þiudan, Guþ himinakunda,',
-      el: "Κύριε Βασιλεῦ, ἐπουράνιε Θεέ,",
-      en: "Lord, King, Heavenly God,",
-    },
-    notes:
-      `"Adjectives in the vocative have the same ending as the nominative,
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Frauja, Þiudan, Guþ himinakunda,',
+        el: "Κύριε Βασιλεῦ, ἐπουράνιε Θεέ,",
+        en: "Lord, King, Heavenly God,",
+      },
+      notes:
+        `"Adjectives in the vocative have the same ending as the nominative,
 and are almost always declined 'weak'."`,
-  },
-  {
-    text: {
-      got: 'Atta allwaldand;',
-      el: "Πάτερ παντοκράτορ·",
-      en: "Father Almighty;",
     },
-    notes:
-      `pantokrator`,
-  },
-].map(toGothicLine).join('')}</p>`
+    {
+      text: {
+        got: 'Atta allwaldand;',
+        el: "Πάτερ παντοκράτορ·",
+        en: "Father Almighty;",
+      },
+      notes:
+        `pantokrator`,
+    },
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Frauja Sunau ainabaur,',
-      el: "Κύριε Υἱὲ μονογενές,",
-      en: "only-begotten Son,",
-    },
-    notes:
-      `using the Skeireins' "only-begotten" as it's more descriptive and is
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Frauja Sunau ainabaur,',
+        el: "Κύριε Υἱὲ μονογενές,",
+        en: "only-begotten Son,",
+      },
+      notes:
+        `using the Skeireins' "only-begotten" as it's more descriptive and is
 the same as the german eingeboren, and as it was written after the bible
 translation, it's probably the commonly used version`,
-  },
-  {
-    text: {
-      got: 'Ïesu Xristau, jah Ahma Weiha.',
-      el: "Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.",
-      en: "Lord Jesus Christ and Holy Spirit.",
     },
-  },
-].map(toGothicLine).join('')}</p>`
+    {
+      text: {
+        got: 'Ïesu Xristau, jah Ahma Weiha.',
+        el: "Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.",
+        en: "Lord Jesus Christ and Holy Spirit.",
+      },
+    },
+  ], info)}</p>`
 
 
-article += html`<p>
-${[
+  article += html`<p>
+${toGothicLines([
     {
       text: {
         got: 'Frauja Guþ,',
@@ -174,9 +193,9 @@ ${[
         en: "the Son of the Father,",
       },
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'þū afnimand frawaurht manasedais,',
@@ -198,9 +217,9 @@ afnima in Romans 11:27; world Mark 14:9`,
         en: "have mercy on us,",
       },
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'þū afnimand frawaurhtins manasedais.',
@@ -208,223 +227,223 @@ ${[
         en: "you who take away the sins of the world.",
       },
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 </p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Andnim bidos unsaros,',
-      el: "Πρόσδεξαι τὴν δέησιν ἡμῶν,",
-      en: "Accept our supplication,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Andnim bidos unsaros,',
+        el: "Πρόσδεξαι τὴν δέησιν ἡμῶν,",
+        en: "Accept our supplication,",
+      },
+      notes:
+        `𐌰𐌽𐌳𐌽𐌹𐌼𐌰𐌽 + ACC Luke 15:2; 𐌱𐌹𐌳𐍉𐌼 Luke 2:37`,
     },
-    notes:
-      `𐌰𐌽𐌳𐌽𐌹𐌼𐌰𐌽 + ACC Luke 15:2; 𐌱𐌹𐌳𐍉𐌼 Luke 2:37`,
-  },
-  {
-    text: {
-      got: 'þūei sitaza af taihswon Attins,',
-      el: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
-      en: "you who sit at the right of the Father,",
+    {
+      text: {
+        got: 'þūei sitaza af taihswon Attins,',
+        el: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
+        en: "you who sit at the right of the Father,",
+      },
+      notes:
+        `you who are seated`,
     },
-    notes:
-      `you who are seated`,
-  },
-  {
-    text: {
-      got: 'jah armai unsis.',
-      el: "καὶ ἐλέησον ἡμᾶς.",
-      en: "and have mercy on us.",
+    {
+      text: {
+        got: 'jah armai unsis.',
+        el: "καὶ ἐλέησον ἡμᾶς.",
+        en: "and have mercy on us.",
+      },
+      notes:
+        `ἐλέησον ἡμᾶς = 𐌰𐍂𐌼𐌰𐌹 𐌿𐌽𐍃𐌹𐍃, even though it's 𐌿𐌽𐍃𐌹𐍃 is usually dative`
     },
-    notes:
-      `ἐλέησον ἡμᾶς = 𐌰𐍂𐌼𐌰𐌹 𐌿𐌽𐍃𐌹𐍃, even though it's 𐌿𐌽𐍃𐌹𐍃 is usually dative`
-  },
-  {
-    text: {
-      got: 'Unte þū sa ains Weiha ïs,',
-      el: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
-      en: "For you are the only Holy One,",
-    },
-    notes:
-      `𐌿𐌽𐍄𐌴 Matthew 5:34 Matthew 6:13.
+    {
+      text: {
+        got: 'Unte þū sa ains Weiha ïs,',
+        el: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
+        en: "For you are the only Holy One,",
+      },
+      notes:
+        `𐌿𐌽𐍄𐌴 Matthew 5:34 Matthew 6:13.
 
 𐌰𐌹𐌽𐍃 used as only/alone Luke 5:21 Matthew 14:23. Luke 4:34 the holy one.`,
-  },
-  {
-    text: {
-      got: 'þū sa ains Frauja ïs, Ïesu Xristau,',
-      el: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
-      en: "you are the only Lord, Jesus Christ,",
     },
-  },
-  {
-    text: {
-      got: 'du wulþau Gudis Attins.',
-      el: "εἰς δόξαν Θεοῦ Πατρός.",
-      en: "to the glory of God the Father.",
+    {
+      text: {
+        got: 'þū sa ains Frauja ïs, Ïesu Xristau,',
+        el: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
+        en: "you are the only Lord, Jesus Christ,",
+      },
     },
-    notes:
-      `to the glory of god Corinthians II 4:15.
+    {
+      text: {
+        got: 'du wulþau Gudis Attins.',
+        el: "εἰς δόξαν Θεοῦ Πατρός.",
+        en: "to the glory of God the Father.",
+      },
+      notes:
+        `to the glory of god Corinthians II 4:15.
 
 genitives for both god and father,
 Luke 3:22+ and Luke 1:32 have genitive apposition.`,
-  },
-].map(toGothicLine).join('')}</p>`
-
-
-article += html`<p>${amen()}</p>`
-
-
-article += html`<p>${[
-  {
-    text: {
-      got: 'Andanahtja ƕammeh ïk þuk þiuþjan,',
-      el: "Καθʼ ἑκάστην ἑσπέραν εὐλογήσω σε,",
-      en: "Every evening I shall bless you,",
     },
-    notes:
-      `dative, every day Mark 14:49, every year Luke 2:41.
+  ], info)}</p>`
+
+
+  article += html`<p>${amen(info)}</p>`
+
+
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Andanahtja ƕammeh ïk þuk þiuþjan,',
+        el: "Καθʼ ἑκάστην ἑσπέραν εὐλογήσω σε,",
+        en: "Every evening I shall bless you,",
+      },
+      notes:
+        `dative, every day Mark 14:49, every year Luke 2:41.
 
 adding 𐌹̈𐌺 for clarity that it's not the 3rd person.
 
 𐌷𐌹𐌼𐌼𐌰 𐌳𐌰𐌲𐌰 ... 𐍃𐌺𐌰𐌻 𐌹̈𐌺 𐍅𐌹𐍃𐌰𐌽 Luke 19:5;
 
 seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹𐌿𐌸𐌾𐌰𐌽.`,
-  },
-  {
-    text: {
-      got: 'jah namo þein hazjan ïn aiw,',
-      el: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
-      en: "and I shall praise your name forever,",
     },
-    notes:
-      `ever Luke 1:55; praise = 𐌷𐌰𐌶𐌾𐌰𐌽 Luke 2:13 Luke 2:20 Luke 19:37`,
-  },
-  {
-    text: {
-      got: 'jah ïn aiw aiwis.',
-      el: "καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.",
-      en: "and unto the ages of ages.",
+    {
+      text: {
+        got: 'jah namo þein hazjan ïn aiw,',
+        el: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
+        en: "and I shall praise your name forever,",
+      },
+      notes:
+        `ever Luke 1:55; praise = 𐌷𐌰𐌶𐌾𐌰𐌽 Luke 2:13 Luke 2:20 Luke 19:37`,
     },
-    notes:
-      `greek here is singular and not the usual plural`,
-  },
-].map(toGothicLine).join('')}</p>`
+    {
+      text: {
+        got: 'jah ïn aiw aiwis.',
+        el: "καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.",
+        en: "and unto the ages of ages.",
+      },
+      notes:
+        `greek here is singular and not the usual plural`,
+    },
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Frauja, warst unsis staþs þadei magum þláuhan',
-      el: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
-      en: "Lord, you have become for us a refuge",
-    },
-    notes:
-      `𐍃𐍄𐌰𐌸𐍃 meaning "place, location, site" but also a second etymology
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Frauja, warst unsis staþs þadei magum þláuhan',
+        el: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
+        en: "Lord, you have become for us a refuge",
+      },
+      notes:
+        `𐍃𐍄𐌰𐌸𐍃 meaning "place, location, site" but also a second etymology
 meaning "land (from the point of view of a boat on the water), shore"
 which is quite fitting I think.
 
 (imo) 𐌸𐌻𐌰𐌿𐌷𐌰𐌽 without 𐌲𐌰 prefix as arriving is not a certainty, it's a struggle.`,
-  },
-  {
-    text: {
-      got: 'us aldai ïn ald.',
-      el: "ἐν γενεᾷ καὶ γενεᾷ.",
-      en: "from generation to generation.",
     },
-    notes:
-      `alds Luke 1:50. from house to house Luke 10:7.
+    {
+      text: {
+        got: 'us aldai ïn ald.',
+        el: "ἐν γενεᾷ καὶ γενεᾷ.",
+        en: "from generation to generation.",
+      },
+      notes:
+        `alds Luke 1:50. from house to house Luke 10:7.
 
 Not using a singular variation of 𐌹̈𐌽 𐌰𐌻𐌳𐌹𐌽𐍃 𐌰𐌻𐌳𐌴 from Luke 1:50
 as the original greek is more of a "from within ... in to ..." instead
 of a "into ... of ...".`,
-  },
-  {
-    text: {
-      got: 'Ïk qaþ: Frauja, armai mik;',
-      el: "Ἐγὼ εἶπα· Κύριε, ἐλέησόν με·",
-      en: "I have said: Lord, have mercy on me,",
     },
-    notes: `𐌹̈𐌴𐍃𐌿, 𐍃𐌿𐌽𐌿 𐌳𐌰𐍅𐌴𐌹𐌳𐌹𐍃, 𐌰𐍂𐌼𐌰𐌹 𐌼𐌹𐌺 Luke 18:38`
-  },
-  {
-    text: {
-      got: 'hailei saiwala meina,',
-      el: "ἴασαι τὴν ψυχήν μου,",
-      en: "heal my soul,",
+    {
+      text: {
+        got: 'Ïk qaþ: Frauja, armai mik;',
+        el: "Ἐγὼ εἶπα· Κύριε, ἐλέησόν με·",
+        en: "I have said: Lord, have mercy on me,",
+      },
+      notes: `𐌹̈𐌴𐍃𐌿, 𐍃𐌿𐌽𐌿 𐌳𐌰𐍅𐌴𐌹𐌳𐌹𐍃, 𐌰𐍂𐌼𐌰𐌹 𐌼𐌹𐌺 Luke 18:38`
     },
-    notes:
-      `heal thyself ACC Luke 4:23`,
-  },
-  {
-    text: {
-      got: 'unte ïk wiþra þuk frawaurhta.',
-      el: "ὅτι ἥμαρτόν σοι.",
-      en: "for I have sinned against you.",
+    {
+      text: {
+        got: 'hailei saiwala meina,',
+        el: "ἴασαι τὴν ψυχήν μου,",
+        en: "heal my soul,",
+      },
+      notes:
+        `heal thyself ACC Luke 4:23`,
     },
-    notes:
-      `sinned against heaven ACC Luke 15:21`,
-  },
-].map(toGothicLine).join('')}</p>`
+    {
+      text: {
+        got: 'unte ïk wiþra þuk frawaurhta.',
+        el: "ὅτι ἥμαρτόν σοι.",
+        en: "for I have sinned against you.",
+      },
+      notes:
+        `sinned against heaven ACC Luke 15:21`,
+    },
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Frauja, du þus þláuh;',
-      el: "Κύριε, πρὸς σὲ κατέφυγον·",
-      en: "Lord, to you I have fled;",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Frauja, du þus þláuh;',
+        el: "Κύριε, πρὸς σὲ κατέφυγον·",
+        en: "Lord, to you I have fled;",
+      },
+      notes:
+        `du Matthew 27:58. same as greek.`,
     },
-    notes:
-      `du Matthew 27:58. same as greek.`,
-  },
-  {
-    text: {
-      got: 'laisei mik wiljan þeinana taujan,',
-      el: "δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου,",
-      en: "teach me to do your will,",
-    },
-    notes:
-      `(didache = teaching). lord's prayer.
+    {
+      text: {
+        got: 'laisei mik wiljan þeinana taujan,',
+        el: "δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου,",
+        en: "teach me to do your will,",
+      },
+      notes:
+        `(didache = teaching). lord's prayer.
 
 do the will John 6:38; do his will John 7:17
 
 "laisjan takes double accusative"`,
-  },
-  {
-    text: {
-      got: 'unte þū ïs guþ meins.',
-      el: "ὅτι σὺ εἶ ὁ Θεός μου.",
-      en: "for you are my God.",
     },
-  },
-  {
-    text: {
-      got: 'Unte fram þus ïst brunna libainais;',
-      el: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
-      en: "For with you is the fountain of life;",
+    {
+      text: {
+        got: 'unte þū ïs guþ meins.',
+        el: "ὅτι σὺ εἶ ὁ Θεός μου.",
+        en: "for you are my God.",
+      },
     },
-    notes:
-      `in this case para = fram Mark 10:27`,
-  },
-  {
-    text: {
-      got: 'Ïn liuhada þein seƕum liuhaþ.',
-      el: "ἐν τῷ φωτί σου ὀψόμεθα φῶς.",
-      en: "in your light we shall see light.",
+    {
+      text: {
+        got: 'Unte fram þus ïst brunna libainais;',
+        el: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
+        en: "For with you is the fountain of life;",
+      },
+      notes:
+        `in this case para = fram Mark 10:27`,
     },
-    notes:
-      `Luke 8:16`,
-  },
-  {
-    text: {
-      got: 'Ufþanei armahairtein þeina þaim kunnandam þuk.',
-      el: "Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε.",
-      en: "Extend your mercy to those who know you.",
+    {
+      text: {
+        got: 'Ïn liuhada þein seƕum liuhaþ.',
+        el: "ἐν τῷ φωτί σου ὀψόμεθα φῶς.",
+        en: "in your light we shall see light.",
+      },
+      notes:
+        `Luke 8:16`,
     },
-    notes:
-      `searching instead for ἐκτείνω, as Παράτεινον not attested; considered was
+    {
+      text: {
+        got: 'Ufþanei armahairtein þeina þaim kunnandam þuk.',
+        el: "Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε.",
+        en: "Extend your mercy to those who know you.",
+      },
+      notes:
+        `searching instead for ἐκτείνω, as Παράτεινον not attested; considered was
 𐌿𐍆𐍂𐌰𐌺𐌾𐌰𐌽𐌳𐍃 + ACC Matthew 8:3 Mark 1:41 𐌿𐍆𐍂𐌰𐌺𐌴𐌹 𐌿𐍆𐍂𐌰𐌺𐌹𐌳𐌰
 Mark 3:5 𐌿𐍆𐍂𐌰𐌺𐌾𐌰𐌽𐌳𐍃 Luke 5:13 𐌿𐍆𐍂𐌰𐌺𐌴𐌹 Luke 6:10.
 there's also þairhwisan with a meaning of continue/preserve/bewahren
@@ -434,30 +453,30 @@ going with 𐌿𐍆𐌸𐌰𐌽𐌾𐌰𐌽 as it "it seems to cover the figurat
 𐌰𐍂𐌼𐌰𐌷𐌰𐌹𐍂𐍄𐌴𐌹𐌽𐍃 Luke 1:50 Luke 1:54 Luke 1:58. know Matthew 7:23.
 
 "those who" Luke 6:32.`,
-  },
-].map(toGothicLine).join('')}</p>`
-
-
-article += html`<p>${[
-  {
-    text: {
-      got: 'Fragif, Frauja,',
-      el: "Καταξίωσον, Κύριε,",
-      en: "Grant, O Lord,",
     },
-    notes:
-      `𐍂𐌰𐌷𐌽𐌴𐌹 𐍅𐌰𐌹𐍂𐌸𐌰𐌽𐍃 consider worthy + ACC Timothy I 6:1; 𐌿𐍃𐌻𐌰𐌿𐌱𐌾𐌰𐌽 to permit;
+  ], info)}</p>`
+
+
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Fragif, Frauja,',
+        el: "Καταξίωσον, Κύριε,",
+        en: "Grant, O Lord,",
+      },
+      notes:
+        `𐍂𐌰𐌷𐌽𐌴𐌹 𐍅𐌰𐌹𐍂𐌸𐌰𐌽𐍃 consider worthy + ACC Timothy I 6:1; 𐌿𐍃𐌻𐌰𐌿𐌱𐌾𐌰𐌽 to permit;
 
 grant 𐍆𐍂𐌰𐌲𐌹𐍆 Mark 10:37`,
-  },
-  {
-    text: {
-      got: 'ei himma naht ïnuh frawaurht gafastaindau.',
-      el: "ἐν τῇ νυκτὶ ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς.",
-      en: "that in this night we may be kept without sin.",
     },
-    notes:
-      `that this night without sin we are kept.
+    {
+      text: {
+        got: 'ei himma naht ïnuh frawaurht gafastaindau.',
+        el: "ἐν τῇ νυκτὶ ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς.",
+        en: "that in this night we may be kept without sin.",
+      },
+      notes:
+        `that this night without sin we are kept.
 
 Thessalonians II 3:3. 𐌲𐌰𐍆𐌰𐍃𐍄𐌰𐌽 Luke 18:21;
 𐌳𐌿 𐌲𐌰𐍆𐌰𐍃𐍄𐌰𐌽 𐌸𐌿𐌺, Luke 4:10
@@ -465,181 +484,181 @@ Thessalonians II 3:3. 𐌲𐌰𐍆𐌰𐍃𐍄𐌰𐌽 Luke 18:21;
 "in a relative clause attached to an imperative or a subjunctive clause,
 [...] The verb in a relative clause is also subjunctive when the
 principal clause is interrogative or negative"`,
-  },
-].map(toGothicLine).join('')}</p>`
+    },
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Þiuþiþs þuk, Frauja,',
-      el: "Εὐλογητὸς εἶ, Κύριε,",
-      en: "Blessed are you, O Lord,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Þiuþiþs þuk, Frauja,',
+        el: "Εὐλογητὸς εἶ, Κύριε,",
+        en: "Blessed are you, O Lord,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'Guþ Attane unsaraize,',
-      el: "ὁ Θεὸς τῶν Πατέρων ἡμῶν,",
-      en: "the God of our Fathers,",
+    {
+      text: {
+        got: 'Guþ Attane unsaraize,',
+        el: "ὁ Θεὸς τῶν Πατέρων ἡμῶν,",
+        en: "the God of our Fathers,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'jah haziþ jah gasweraiþ namo þein',
-      el: "καὶ αἰνετὸν καὶ δεδοξασμένον τὸ ὄνομά σου",
-      en: "and praised and glorified is your name",
+    {
+      text: {
+        got: 'jah haziþ jah gasweraiþ namo þein',
+        el: "καὶ αἰνετὸν καὶ δεδοξασμένον τὸ ὄνομά σου",
+        en: "and praised and glorified is your name",
+      },
     },
-  },
-  {
-    text: {
-      got: 'ïn aiwins.',
-      el: "εἰς τοὺς αἰῶνας.",
-      en: "unto the ages.",
+    {
+      text: {
+        got: 'ïn aiwins.',
+        el: "εἰς τοὺς αἰῶνας.",
+        en: "unto the ages.",
+      },
     },
-  },
-].map(toGothicLine).join('')}</p>`
+  ], info)}</p>`
 
 
-article += html`<p>${amen()}</p>`
+  article += html`<p>${amen(info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Wairþai, Frauja, armahairtein þeina ana uns,',
-      el: "Γένοιτο, Κύριε, τὸ ἔλεός σου ἐφʼ ἡμᾶς,",
-      en: "Let your mercy, Lord, come upon us,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Wairþai, Frauja, armahairtein þeina ana uns,',
+        el: "Γένοιτο, Κύριε, τὸ ἔλεός σου ἐφʼ ἡμᾶς,",
+        en: "Let your mercy, Lord, come upon us,",
+      },
+      notes:
+        `3rd person subjunctive = a wish to happen (3rd person optative) Luke 1:38.`,
     },
-    notes:
-      `3rd person subjunctive = a wish to happen (3rd person optative) Luke 1:38.`,
-  },
-  {
-    text: {
-      got: 'swaswe wenidedum du þus.',
-      el: "καθάπερ ἠλπίσαμεν ἐπὶ σέ.",
-      en: "just as we have hoped in you.",
-    },
-    notes:
-      `καθάπερ = 𐍃𐍅𐌰𐍃𐍅𐌴 (𐌾𐌰𐌷)
+    {
+      text: {
+        got: 'swaswe wenidedum du þus.',
+        el: "καθάπερ ἠλπίσαμεν ἐπὶ σέ.",
+        en: "just as we have hoped in you.",
+      },
+      notes:
+        `καθάπερ = 𐍃𐍅𐌰𐍃𐍅𐌴 (𐌾𐌰𐌷)
 Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
 
 ἠλπίκαμεν ἐπὶ θεῷ = 𐍅𐌴𐌽𐌹𐌳𐌴𐌳𐌿𐌼 𐌳𐌿 𐌲𐌿𐌳𐌰 Timothy I 4:10`
-  },
-].map(toGothicLine).join('')}</p>`
+    },
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Þiuþiþs þuk, Frauja,',
-      el: "Εὐλογητὸς εἶ, Κύριε,",
-      en: "Blessed are you, O Lord,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Þiuþiþs þuk, Frauja,',
+        el: "Εὐλογητὸς εἶ, Κύριε,",
+        en: "Blessed are you, O Lord,",
+      },
+      notes: '𐌸𐌹𐌿𐌸𐌴𐌹𐌲𐍃 𐍆𐍂𐌰𐌿𐌾𐌰 𐌲𐌿𐌸 𐌹𐍃𐍂𐌰𐌴𐌻𐌹𐍃 Luke 1:68',
     },
-    notes: '𐌸𐌹𐌿𐌸𐌴𐌹𐌲𐍃 𐍆𐍂𐌰𐌿𐌾𐌰 𐌲𐌿𐌸 𐌹𐍃𐍂𐌰𐌴𐌻𐌹𐍃 Luke 1:68',
-  },
-  {
-    text: {
-      got: 'laisei mik anabusnins þeinos.',
-      el: "δίδαξόν με τὰ δικαιώματά σου.",
-      en: "teach me your commandments.",
+    {
+      text: {
+        got: 'laisei mik anabusnins þeinos.',
+        el: "δίδαξόν με τὰ δικαιώματά σου.",
+        en: "teach me your commandments.",
+      },
     },
-  },
-].map(toGothicLine).join('')}</p>`
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Þiuþiþs þuk, Fraujinond,',
-      el: "Εὐλογητὸς εἶ, Δέσποτα,",
-      en: "Blessed are you, O Master,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Þiuþiþs þuk, Fraujinond,',
+        el: "Εὐλογητὸς εἶ, Δέσποτα,",
+        en: "Blessed are you, O Master,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'gatawei mik fraþjan anabusnins þeinos.',
-      el: "συνέτισόν με τὰ δικαιώματά σου.",
-      en: "make me understand your commandments.",
-    },
-    notes:
-      `make me = 𐌲𐌰𐍄𐌰𐍅𐌴𐌹 𐌼𐌹𐌺 Luke 15:19, make you to become Mark 1:17
+    {
+      text: {
+        got: 'gatawei mik fraþjan anabusnins þeinos.',
+        el: "συνέτισόν με τὰ δικαιώματά σου.",
+        en: "make me understand your commandments.",
+      },
+      notes:
+        `make me = 𐌲𐌰𐍄𐌰𐍅𐌴𐌹 𐌼𐌹𐌺 Luke 15:19, make you to become Mark 1:17
 
 ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
-  },
-].map(toGothicLine).join('')}</p>`
+    },
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Þiuþiþs þuk, Weiha,',
-      el: "Εὐλογητός εἶ, Ἅγιε·",
-      en: "Blessed are you, O Holy One,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Þiuþiþs þuk, Weiha,',
+        el: "Εὐλογητός εἶ, Ἅγιε·",
+        en: "Blessed are you, O Holy One,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'ïnliuhtei mik miþ anabusnim þeinaim.',
-      el: "φώτισόν με τοῖς δικαιώμασί σου.",
-      en: "enlighten me with your commandments.",
+    {
+      text: {
+        got: 'ïnliuhtei mik miþ anabusnim þeinaim.',
+        el: "φώτισόν με τοῖς δικαιώμασί σου.",
+        en: "enlighten me with your commandments.",
+      },
+      notes: `Ephesians 3:9`
     },
-    notes: `Ephesians 3:9`
-  },
-].map(toGothicLine).join('')}</p>`
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Frauja, armahairtein þeina ïn aiw;',
-      el: "Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα·",
-      en: "Lord, your mercy remains forever,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Frauja, armahairtein þeina ïn aiw;',
+        el: "Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα·",
+        en: "Lord, your mercy remains forever,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'ni uswandjais af waurstwam handiwe þeinaizo.',
-      el: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
-      en: "do not turn away from the works of your hands.",
-    },
-    notes:
-      `'optative ... more common than "ni + imp"'
+    {
+      text: {
+        got: 'ni uswandjais af waurstwam handiwe þeinaizo.',
+        el: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
+        en: "do not turn away from the works of your hands.",
+      },
+      notes:
+        `'optative ... more common than "ni + imp"'
 
 away from him Luke 19:26
 
 works of christ Matthew 11:2`
-  },
-].map(toGothicLine).join('')}</p>`
+    },
+  ], info)}</p>`
 
 
-article += html`<p>${[
-  {
-    text: {
-      got: 'Þus ïst gadob hazeins,',
-      el: "Σοὶ πρέπει αἶνος,",
-      en: "To you belongs praise,",
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Þus ïst gadob hazeins,',
+        el: "Σοὶ πρέπει αἶνος,",
+        en: "To you belongs praise,",
+      },
+      notes:
+        `𐌲𐌰𐌳𐍉𐌱 𐌹̈𐍃𐍄 Ephesians 5:3`
     },
-    notes:
-      `𐌲𐌰𐌳𐍉𐌱 𐌹̈𐍃𐍄 Ephesians 5:3`
-  },
-  {
-    text: {
-      got: 'þus ïst gadob liuþ,',
-      el: "σοὶ πρέπει ὕμνος,",
-      en: "to you belongs a hymn,",
+    {
+      text: {
+        got: 'þus ïst gadob liuþ,',
+        el: "σοὶ πρέπει ὕμνος,",
+        en: "to you belongs a hymn,",
+      },
     },
-  },
-  {
-    text: {
-      got: 'þus ïst gadob wulþus,',
-      el: "σοὶ δόξα πρέπει,",
-      en: "to you belongs glory,",
+    {
+      text: {
+        got: 'þus ïst gadob wulþus,',
+        el: "σοὶ δόξα πρέπει,",
+        en: "to you belongs glory,",
+      },
     },
-  },
-].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${[
+${toGothicLines([
     {
       text: {
         got: 'Attin, jah Sunau, jah Ahmin Weihamma,',
@@ -647,43 +666,45 @@ ${[
         en: "to the Father and the Son and the Holy Spirit,",
       },
     },
-  ].map(toGothicLine).join('')}
+  ], info)}
 <br>
-${nowAndEver()}
+${nowAndEver(info)}
 </p>`
 
 
-article += html`<p>${amen()}</p>`
+  article += html`<p>${amen(info)}</p>`
 
-article += html`<p class="annotation">
-  <span class="nowrap">${toGothicLine({
+  article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLines([{
     text: { got: "Dauksaulaugei Leitils", en: "The Lesser Doxology" },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
-  })}</span>
-  <span class="nowrap">${toGothicLine({
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
     text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
-  })}</span>
+  }], info)}</span>
 </p>`
 
-article += html`<p lang='en' class="annotation">
+  article += html`<p lang='en' class="annotation">
   <span class="nowrap">The Lesser Doxology</span>
   <span class="nowrap">in the Gothic language,</span>
   <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
 
-const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
-const description = "𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
 
-const page: PageGenerator = info => html`<!doctype html>
-<html lang="got">
+  return html`<!doctype html>
+<html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info, title, description)}
   </head>
   <body>
-    ${createArticleBody(article)}
+    ${createArticleBody(info, article)}
   </body>
 </html>`
+}
 
-export default page
+export default {
+  anchors,
+  generator
+}
