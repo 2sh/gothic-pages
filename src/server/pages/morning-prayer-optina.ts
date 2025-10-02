@@ -67,7 +67,7 @@ const generator: PageGenerator = info =>
       text: {
         got: 'Uta ƕeilai ƕizáih his dagis, talzei jah niþ mik ïn allaim.',
         ru: "На всякий час сего дня во всём наставь и поддержи меня.",
-        en: "At every hour of this day, direct and support me in all things.",
+        en: "At every hour of this day, instruct and support me in all things.",
       },
     },
     {
@@ -102,9 +102,9 @@ Every thing is under thy Holy Will.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Ïn waurdam jah tojam meinaim tiuh mitonins jah gahugdins meinos.',
+        got: 'Ïn waurdam jah tojam meinaim ragino mitonim jah gahugdim meinaim.',
         ru: "Во всех словах и делах моих руководи моими мыслями и чувствами.",
-        en: "Direct my thoughts and feelings in all my words and actions.",
+        en: "Govern my thoughts and feelings in all my words and actions.",
       },
       notes: `Using gahugds (mind, reason, disposition) for feeling,
 though there may be something better.`
