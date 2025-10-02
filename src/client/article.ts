@@ -5,7 +5,7 @@ import {
   safeHtmlAttribute,
 } from '@common/tools'
 
-import { persist, ref, tieInput } from './tools'
+import { persist, ref } from './tools'
 
 
 const languageNames = new Intl.DisplayNames(['en'], {
