@@ -1,4 +1,3 @@
-import { modes } from '@common/article'
 import { GothicLineData } from '@common/types'
 
 import {
@@ -28,17 +27,6 @@ function removeHash()
 
 const body = document.body
 
-// Mode selection
-
-const elInputMode = document.querySelector('[data-input-mode]') as HTMLInputElement
-const modeValue = tieInput(elInputMode, ref(''))
-
-modeValue.on(newValue =>
-{
-  body.classList.forEach(cls => {if(cls.startsWith('mode-')) body.classList.remove(cls)})
-  if (newValue !== modeValue.init) body.classList.add("mode-" + newValue)
-})
-
 // Selected Line
 
 const selectedLineInfo = ref<GothicLineData | null>(null)
@@ -54,7 +42,7 @@ function createInfoBox(info: GothicLineData)
   const textLines = Object.entries(info.text).map(([lang, line]) =>
     html`<div>
   <p class='title'>${languageNames.of(lang)}</p>
-  <p lang='${lang}'>${lang == 'got' ? modes[modeValue.value](line) : line}</p>
+  <p lang='${lang}'>${line}</p>
 </div>`).join('')
 
   const notes = !info.notes ? '' : html`<div>
@@ -107,6 +95,12 @@ for (const line of lines)
   const info: GothicLineData =
     JSON.parse(line.getAttribute('data-line') || 'null')
   if (info === null) continue
+
+  info.text = {
+    got: line.textContent,
+    ...info.text,
+  }
+
   const id = parseInt(line.id.match(/\d+/)![0])
 
   function selectCurrentLine()
@@ -117,11 +111,6 @@ for (const line of lines)
   }
 
   if (initLineId == line.id) selectCurrentLine()
-
-  modeValue.on(newValue =>
-  {
-    line.innerHTML = modes[newValue](info.text["got"])
-  })
 
   selectedLineInfo.on(() =>
   {

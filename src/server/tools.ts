@@ -26,14 +26,17 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
 {
   global.lineId++
 
+  const htmlText = pageInfo.lang == 'got-Latn'
+    ? modes.latin(data.text.got)
+    : modes.simple(data.text.got)
+
+  delete data.text.got
+
   for (const key in data.text)
   {
     data.text[key] = data.text[key].normalize('NFC')
   }
 
-  const htmlText = pageInfo.lang == 'got-Latn'
-    ? modes.latin(data.text.got)
-    : modes.simple(data.text.got)
   const info: GothicLineData = {
     text: data.text,
     notes: !data.notes
