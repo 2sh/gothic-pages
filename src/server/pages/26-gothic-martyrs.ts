@@ -1,3 +1,4 @@
+import { fromLatin } from '@common/transliterate'
 import
 {
   html,
@@ -25,18 +26,21 @@ import
 
 
 const slug = "26-martyros"
-const title = '·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃'
-const description = "·𐌺𐌵· 𐌼𐌰𐍂𐍄𐍅𐍂𐍉𐍃 𐍄𐌰𐌿𐍂𐌹𐌺𐌰𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = "26 Martyros Taurikas"
+const description = "26 Martyros Taurikas, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -275,7 +279,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

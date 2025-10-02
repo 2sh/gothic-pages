@@ -28,6 +28,7 @@ import { oHeavenlyKing } from '@server/lines/o-heavenly-king'
 import { allHolyTrinity } from '@server/lines/all-holy-trinity'
 import { hymnToTheotokos } from '@server/lines/hymn-to-theotokos'
 import { oComeLetUsWorship } from '@server/lines/o-come-let-us-worship'
+import { fromLatin } from '@common/transliterate'
 
 
 // https://www.reddit.com/r/OrthodoxChristianity/comments/10o7wm2/trisagion_prayers_in_greek/
@@ -36,18 +37,21 @@ import { oComeLetUsWorship } from '@server/lines/o-come-let-us-worship'
 
 
 const slug = "afarnahtamatis-leitilis"
-const title = '𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
-const description = "𐌰𐌽𐌳𐌱𐌰𐌷𐍄𐌹 𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐌹𐍃 𐌻𐌴𐌹𐍄𐌹𐌻𐌹𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = 'Afarnahtamats Leitils'
+const description = "Andbahti Afarnahtamatis Leitilis, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -242,7 +246,7 @@ ${amen(info)}
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

@@ -121,7 +121,7 @@ ${hasGothic ? htmlInfoBox : ''}
 <script type="module" src="scripts/article.js"></script>`
 }
 
-export function createArticleHeaders(info: PageInfoMain, title: string, description: string)
+export function createArticleHeaders(info: PageInfoMain)
 {
   const alternatives = info.alternatives.length ?
     [ info, ...info.alternatives ] : []
@@ -133,8 +133,8 @@ export function createArticleHeaders(info: PageInfoMain, title: string, descript
  alternatives.map(a => `
 <link rel="alternative" href="${a.url}" hreflang="${a.lang}">`).join('')}
 
-<title>${safeHtmlText(title)}</title>
-<meta name="description" content='${safeHtmlAttribute(description)}'>
+<title>${safeHtmlText(info.title)}</title>
+<meta name="description" content='${safeHtmlAttribute(info.description)}'>
 <meta name="author" content="2sh">
 <meta name="lastmod" content="${info.lastmod.toISOString()}">
 
@@ -150,10 +150,8 @@ document.documentElement.dataset.colorScheme = localStorage.getItem('color-schem
 export interface Anchor {
   name: string,
   lang: string,
-}
-
-export interface Alternative extends Anchor {
-  url: string
+  title: string,
+  description: string,
 }
 
 export type PageConstruction = {
@@ -163,15 +161,13 @@ export type PageConstruction = {
 
 export type PageGenerator = (info: PageInfoMain) => string
 
-export interface PageInfo {
+export interface PageInfo extends Anchor {
   protocol: string,
   host: string,
   path: string,
   dir: string,
   end: string,
-  name: string,
   url: string,
-  lang: string
   lastmod: Date,
 }
 

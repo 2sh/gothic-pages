@@ -32,6 +32,8 @@ const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title,
+    description,
   }
 ]
 
@@ -67,7 +69,7 @@ ${nowAndEver(info)}
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

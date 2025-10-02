@@ -8,24 +8,28 @@ import
   toGothicLines,
 } from '@server/tools'
 import { amen } from "@server/lines"
+import { fromLatin } from '@common/transliterate'
 
 // Eng: https://glory2godforallthings.com/2006/11/10/the-morning-prayer-of-the-last-elders-of-optina/
 // Rus: https://azbyka.ru/molitvoslov/molitva-poslednix-optinskix-starcev-na-nachalo-dnya.html
 
 
 const slug = 'bida-maurginis-auptinas'
-const title = '𐌱𐌹𐌳𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌹𐍃 𐍃𐍀𐌴𐌳𐌹𐌶𐌰𐌽𐌴 𐍃𐌹𐌽𐌹𐍃𐍄𐌰𐌹𐌶𐌴 𐌰𐌿𐍀𐍄𐌹𐌽𐌰𐍃'
-const description = "𐌱𐌹𐌳𐌰 𐌼𐌰𐌿𐍂𐌲𐌹𐌽𐌹𐍃 𐍃𐍀𐌴𐌳𐌹𐌶𐌰𐌽𐌴 𐍃𐌹𐌽𐌹𐍃𐍄𐌰𐌹𐌶𐌴 𐌰𐌿𐍀𐍄𐌹𐌽𐌰𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = 'Bida Maurginis Spedizane Sinistaize Auptinas'
+const description = "Bida Maurginis Spedizane Sinistaize Auptinas, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -194,7 +198,7 @@ though there may be something better.`
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

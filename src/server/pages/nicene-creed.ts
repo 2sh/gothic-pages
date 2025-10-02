@@ -12,6 +12,7 @@ import
 {
   amen
 } from '@server/lines'
+import { fromLatin } from '@common/transliterate'
 
 
 // https://praylingo.com/nicene-creed/
@@ -20,18 +21,21 @@ import
 
 
 const slug = "taikns-galaubeinais"
-const title = '𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃'
-const description = "𐍄𐌰𐌹𐌺𐌽𐍃 𐌲𐌰𐌻𐌰𐌿𐌱𐌴𐌹𐌽𐌰𐌹𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = 'Taikns Galaubeinais'
+const description = "Taikns Galaubeinais, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -504,7 +508,7 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean "of the ones dead"`,
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

@@ -58,7 +58,7 @@ async function processPage(pathname: string, dirent: any)
 
     const pageConstruction: PageConstruction = pageImport.default
 
-    const alternatives = pageConstruction.anchors.map(a => {
+    const alternatives: PageInfo[] = pageConstruction.anchors.map(a => {
       const end = (a.name == "index" ? '' : a.name + ".html")
       const dir = root + '/'
       return {
@@ -69,8 +69,7 @@ async function processPage(pathname: string, dirent: any)
         end,
         url: `${protocol}://${host}${dir}${end}`,
         lastmod: date,
-        name: a.name,
-        lang: a.lang,
+        ...a,
       }
     })
 

@@ -1,3 +1,4 @@
+import { fromLatin } from '@common/transliterate'
 import
 {
   html,
@@ -10,18 +11,21 @@ import
 
 
 const slug = 'paitraus-hazins'
-const title = '𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃'
-const description = "𐌸𐌰𐍄𐌰 𐍃𐍀𐌹𐌻𐌻 𐍀𐌰𐌹𐍄𐍂𐌰𐌿𐍃 𐌷𐌰𐌶𐌹𐌽𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = 'Þata Spill Paitraus Hazins'
+const description = "Þata Spill Paitraus Hazins, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -455,7 +459,7 @@ Translating "quite" to "very" for now.`
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

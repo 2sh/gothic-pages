@@ -16,6 +16,8 @@ const anchors: Anchor[] = [
   {
     name: 'index',
     lang: "en",
+    title,
+    description,
   },
 ]
 
@@ -129,7 +131,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

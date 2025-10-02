@@ -15,6 +15,7 @@ import
   amen,
   nowAndEver
 } from '@server/lines'
+import { fromLatin } from "@common/transliterate"
 
 
 // https://el.wikipedia.org/wiki/%CE%94%CE%BF%CE%BE%CE%BF%CE%BB%CE%BF%CE%B3%CE%AF%CE%B1
@@ -22,17 +23,21 @@ import
 
 
 const slug = 'dauksaulaugei-leitils'
-const title = '𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃'
-const description = "𐌳𐌰𐌿𐌺𐍃𐌰𐌿𐌻𐌰𐌿𐌲𐌴𐌹 𐌻𐌴𐌹𐍄𐌹𐌻𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
+const title = 'Dauksaulaugei Leitils'
+const description = "Dauksaulaugei Leitils, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -694,7 +699,7 @@ ${nowAndEver(info)}
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

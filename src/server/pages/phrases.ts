@@ -31,6 +31,8 @@ const anchors: Anchor[] = [
   {
     name: slug,
     lang: "en",
+    title,
+    description,
   },
 ]
 
@@ -328,7 +330,7 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

@@ -20,24 +20,28 @@ import
   speakerPriest,
   toYouOLord
 } from '@server/lines'
+import { fromLatin } from '@common/transliterate'
 
 
 // https://www.chrysostomliturgy.org/text-of-the-divine-liturgy-greek-english
 
 
 const slug = 'leiturgia-xrisaustaumaus'
-const title = '𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃'
-const description = "𐌻𐌴𐌹𐍄𐌿𐍂𐌲𐌹𐌰 𐌲𐌿𐌳𐌹𐍃𐌺𐌰 𐍇𐍂𐌹𐍃𐌰𐌿𐍃𐍄𐌰𐌿𐌼𐌰𐌿𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = 'Leiturgia Gudiska Xrisaustaumaus'
+const description = "Leiturgia Gudiska Xrisaustaumaus, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -607,7 +611,7 @@ ${toYouOLord(info)}
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

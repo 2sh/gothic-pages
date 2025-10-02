@@ -1,3 +1,4 @@
+import { fromLatin } from '@common/transliterate'
 import
 {
   html,
@@ -25,18 +26,21 @@ import
 
 
 const slug = 'niketa'
-const title = '𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰 𐌼𐌹𐌺𐌹𐌻𐌼𐌰𐍂𐍄𐍅𐍂'
-const description = "𐌽𐌹𐌺𐌴𐍄𐌰 𐍃𐌰 𐌲𐌿𐍄𐌰, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = 'Niketa sa Guta Mikilmartyr'
+const description = "Niketa sa Guta Mikilmartyr, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -543,7 +547,7 @@ ${toGothicLines([{
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}

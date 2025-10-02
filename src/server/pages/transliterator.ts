@@ -16,6 +16,8 @@ const anchors: Anchor[] = [
   {
     name: 'transliterator',
     lang: "en",
+    title,
+    description,
   }
 ]
 
@@ -96,7 +98,7 @@ The above 999 setting is an idea I had for larger numbers, with colons acting as
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
     <link href="assets/styles/transliterator.css" rel="stylesheet">
   </head>
   <body>

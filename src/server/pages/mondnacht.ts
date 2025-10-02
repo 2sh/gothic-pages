@@ -1,3 +1,4 @@
+import { fromLatin } from '@common/transliterate'
 import
 {
   html,
@@ -13,18 +14,21 @@ import
 
 
 const slug = 'menanahts'
-const title = '𐌼𐌴𐌽𐌰𐌽𐌰𐌷𐍄𐍃'
-const description = "𐌼𐌴𐌽𐌰𐌽𐌰𐌷𐍄𐍃, 𐍃𐌺𐌴𐌹𐍂𐌴𐌹𐌽𐍃 𐌹̈𐌽 𐍂𐌰𐌶𐌳𐌰𐌹 𐌲𐌿𐍄𐌹𐍃𐌺𐌰𐌹."
-
+const title = 'Menanahts'
+const description = "Menanahts, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
     name: slug,
     lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
   },
   {
     name: slug + ".lat",
-    lang: "got-Latn"
+    lang: "got-Latn",
+    title,
+    description,
   },
 ]
 
@@ -179,7 +183,7 @@ see attested afhaim(ei)s and anahaim(ei)s for 'absent' and 'present'"`
   return html`<!doctype html>
 <html lang="${info.lang}">
   <head>
-    ${createArticleHeaders(info, title, description)}
+    ${createArticleHeaders(info)}
   </head>
   <body>
     ${createArticleBody(info, article)}
