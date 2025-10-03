@@ -9,7 +9,7 @@ import util from 'util'
 import { exec as _exec } from 'child_process'
 const exec = util.promisify(_exec)
 
-import { PageConstruction, PageGenerator, PageInfo, PageInfoMain } from './tools'
+import { PageConstruction, PageInfo, PageInfoMain } from './tools'
 
 
 const mode = process.argv.length > 2

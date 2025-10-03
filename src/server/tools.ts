@@ -7,8 +7,8 @@ import
   safeHtmlText,
   safeHtmlAttribute,
 } from '@common/tools'
-import { modes } from "@common/article"
 import { GothicLineData } from "@common/types"
+import { fromLatin } from '@common/transliterate'
 
 export
 {
@@ -22,6 +22,37 @@ declare global {
 }
 global.lineId = 0
 
+
+export interface Anchor {
+  name: string,
+  lang: string,
+  title: string,
+  description: string,
+}
+
+export type PageConstruction = {
+  anchors: Anchor[],
+  generator: PageGenerator,
+}
+
+export type PageGenerator = (info: PageInfoMain) => string
+
+export interface PageInfo extends Anchor {
+  protocol: string,
+  host: string,
+  path: string,
+  dir: string,
+  end: string,
+  url: string,
+  lastmod: Date,
+}
+
+export interface PageInfoMain extends PageInfo {
+  alternatives: PageInfo[],
+}
+
+
+
 function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
 {
   global.lineId++
@@ -32,9 +63,9 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
     data.text[key] = data.text[key].normalize('NFC')
   }
 
-  const htmlText = pageInfo.lang == 'got-Latn'
-    ? modes.latin(data.text.got)
-    : modes.simple(data.text.got)
+  const text = pageInfo.lang == 'got-Latn'
+    ? data.text.got
+    : fromLatin(data.text.got, {numberConversion: 'big'})
 
   delete data.text.got
 
@@ -47,7 +78,8 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
   const attrLineInfo = safeHtmlAttribute(JSON.stringify(info))
 
   return html`<span id="L${global.lineId}" class="i-line"
-data-line='${attrLineInfo}'>${htmlText}</span>`
+data-line='${attrLineInfo}'>${safeHtmlText(text)}</span>
+`
 }
 
 export function toGothicLines(data: GothicLineData[], pageInfo: PageInfo)
@@ -145,32 +177,4 @@ document.documentElement.dataset.colorScheme = localStorage.getItem('color-schem
   || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
     ? 'dark' : 'light')
 </script>`
-}
-
-export interface Anchor {
-  name: string,
-  lang: string,
-  title: string,
-  description: string,
-}
-
-export type PageConstruction = {
-  anchors: Anchor[],
-  generator: PageGenerator,
-}
-
-export type PageGenerator = (info: PageInfoMain) => string
-
-export interface PageInfo extends Anchor {
-  protocol: string,
-  host: string,
-  path: string,
-  dir: string,
-  end: string,
-  url: string,
-  lastmod: Date,
-}
-
-export interface PageInfoMain extends PageInfo {
-  alternatives: PageInfo[],
 }

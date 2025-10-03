@@ -1,35 +1,9 @@
-@font-face {
-  font-family: 'Noto Serif Gothic';
-  src: url('../fonts/NotoSerifGothic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: 'Silubr';
-  src: url('../fonts/Silubr.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-.mode-serif *:lang(got)
-{
-  font-family: 'Noto Serif Gothic';
-  line-height: 22px;
-}
-
-.mode-biblical *:lang(got)
-{
-  font-family: 'Silubr';
-  line-height: 22px;
-}
-
 .annotation
 {
   font-size: 14px;
   text-align: right;
   text-indent: 0;
+  color: var(--annotation-color);
 }
 
 .nowrap
@@ -75,6 +49,18 @@
 {
   width: 20px;
   height: 20px;
+}
+
+.light-mode-icon,
+.dark-mode-icon
+{
+  display: none;
+}
+
+:root[data-color-scheme="light"] .dark-mode-icon,
+:root[data-color-scheme="dark"] .light-mode-icon
+{
+  display: block;
 }
 
 .line-id
@@ -148,38 +134,26 @@ article .poem p
   text-align: center;
 }
 
-.mode-biblical article p:not([lang])
-{
-  display: inline;
-  text-indent: 0;
-  white-space: pre-wrap;
-}
-
-.sigla
-{
-  display: inline-flex;
-  flex-direction: column;
-  vertical-align: bottom;
-  align-items: center;
-  margin: 0 2px;
-}
-
-.mark
-{
-  height: 1px;
-  width: 75%;
-  background-color: white;
-  margin-bottom: -2px;
-}
-
 .i-line
 {
   cursor: pointer;
 }
 
+.i-line:hover
+{
+  background-color: var(--i-line-hover-color);
+}
+
+.line-selected
+{
+  background-color: var(--i-line-selected-color);
+}
+
+
 #info-box
 {
   display: none;
+  background-color: var(--box-color);
 }
 
 .has-info-box #info-box
@@ -222,6 +196,7 @@ article .poem p
   text-align: right;
   white-space: nowrap;
   padding-right: 1em;
+  color: var(--speaker-color);
 }
 
 article
@@ -315,42 +290,4 @@ article
     right: 0;
     margin: 0;
   }
-}
-
-.light-mode-icon,
-.dark-mode-icon
-{
-  display: none;
-}
-
-:root[data-color-scheme="light"] .dark-mode-icon,
-:root[data-color-scheme="dark"] .light-mode-icon
-{
-  display: block;
-}
-
-
-#info-box
-{
-  background-color: var(--box-color);
-}
-
-.i-line:hover
-{
-  background-color: var(--i-line-hover-color);
-}
-
-.line-selected
-{
-  background-color: var(--i-line-selected-color);
-}
-
-.speaker
-{
-  color: var(--speaker-color);
-}
-
-.annotation
-{
-  color: var(--annotation-color);
 }
