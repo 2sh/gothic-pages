@@ -31,6 +31,15 @@ export const ofTrinity: ReuseLines = pi => toGothicLines([{
   notes: `Skeireins 5:2 attins jah sunaus`
 }], pi)
 
+export const ofTrinityEnd: ReuseLines = pi => toGothicLines([{
+  text: {
+    got: 'Attins, jah Sunaus, jah Ahmins Weihis.',
+    el: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος.",
+    en: "of the Father and of the Son and of the Holy Spirit.",
+  },
+  notes: `Skeireins 5:2 attins jah sunaus`
+}], pi)
+
 export const toTrinity: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Attin, jah Sunau, jah Ahmin Weihamma',

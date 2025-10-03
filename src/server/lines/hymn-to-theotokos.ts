@@ -15,6 +15,9 @@ Using gatils as wairþs seems to miss the fitting/meet meaning
 and in the verse gatils is used,
 axion is translated to "fit" in English instead of the usual "worthy".`
     },
+  ], pi)}
+<br>
+${toGothicLines([
     {
       text: {
         got: 'aiw þiuþeigon jah allandjo unfairinon jah aiþein Gudis unsaris.',
@@ -22,6 +25,9 @@ axion is translated to "fit" in English instead of the usual "worthy".`
         en: "ever blessed and most blameless, and Mother of our God.",
       }
     },
+  ], pi)}
+<br>
+${toGothicLines([
     {
       text: {
         got: 'Sweriza þaim Xairubeim jah wulþagiza ïnuh galeiki þaim Sairafeim,',
@@ -31,11 +37,29 @@ axion is translated to "fit" in English instead of the usual "worthy".`
       notes: `As Cherubim and Seraphim seems to be strictly in plural without
 declension, I've done the same and stuck articles before them for clarification.`
     },
+  ], pi)}
+<br>
+${toGothicLines([
     {
       text: {
-        got: 'saei ïn unriurein Guþ Waurd gabar, bi sunjai Gudabairandei, þuk mikiljam.',
-        el: "τὴν ἀδιαφθόρως Θεὸν Λόγον τεκοῦσαν, τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
-        en: "who without corruption gavest birth to God the Word, the very Theotokos, thee do we magnify.",
+        got: 'saei ïn unriurein Guþ Waurd gabar,',
+        el: "τὴν ἀδιαφθόρως Θεὸν Λόγον τεκοῦσαν,",
+        en: "who without corruption gavest birth to God the Word,",
+      },
+      notes: `gabar sunu ACC Luke 1:57
+
+ὄντως = bi sunjai
+
+μεγαλύνει - mikileid saiwala meina fraujan Luke 1:46`
+    },
+  ], pi)}
+<br>
+${toGothicLines([
+    {
+      text: {
+        got: 'bi sunjai Gudabairandei, þuk mikiljam.',
+        el: "τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
+        en: "the very Theotokos, thee do we magnify.",
       },
       notes: `gabar sunu ACC Luke 1:57
 

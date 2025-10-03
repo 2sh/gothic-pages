@@ -16,6 +16,7 @@ import
   lordHaveMercy,
   nowAndEver,
   ofTrinity,
+  ofTrinityEnd,
   speakerPriest,
   speakerReader,
   timesThree,
@@ -26,7 +27,6 @@ import
 import { lordsPrayer } from '@server/lines/lords-prayer'
 import { oHeavenlyKing } from '@server/lines/o-heavenly-king'
 import { allHolyTrinity } from '@server/lines/all-holy-trinity'
-import { hymnToTheotokos } from '@server/lines/hymn-to-theotokos'
 import { oComeLetUsWorship } from '@server/lines/o-come-let-us-worship'
 import { fromLatin } from '@common/transliterate'
 
@@ -36,9 +36,9 @@ import { fromLatin } from '@common/transliterate'
 // https://en.wikipedia.org/wiki/Usual_beginning
 
 
-const slug = "afarnahtamats-leitils"
-const title = 'Afarnahtamats Leitils'
-const description = "Andbahti Afarnahtamatis Leitilis, skeireins ïn razdai gutiskai."
+const slug = "anastodjando-biuhtieg"
+const title = 'Anastodjando Biuhtieg'
+const description = "Anastodjando biuhtieg andbahtje jah bidos sundraizos Aurþaudaukseinaize, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -55,6 +55,7 @@ const anchors: Anchor[] = [
   },
 ]
 
+
 const generator: PageGenerator = info =>
 {
   global.lineId = 0
@@ -64,12 +65,10 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Afarnahtamats Leitils',
-      el: "Μικρόν Απόδειπνον",
-      en: "Small Compline",
+      got: 'Anastodjando Biuhtieg',
+      ru: "Обычное начало",
+      en: "Usual Beginning",
     },
-    notes:
-      `ΑΠΟΔΕΙΠΝΟΝ = after supper, perhaps *𐌰𐍆𐌰𐍂𐌽𐌰𐌷𐍄𐌰𐌼𐌰𐍄𐍃`
   }], info)}</h1>
 </header>`
 
@@ -91,6 +90,60 @@ ${toGothicLines([
 ${nowAndEver(info)}
 </p>`
 
+article += html`<div class="speech">${speech}</div>`
+
+article += html`<p class='notice'>
+${toGothicLines([
+    {
+      text: {
+        got: 'Iþ jabai gudja ni atïst:',
+        en: "If there is no priest:",
+      },
+    },
+  ], info)}
+</p>`
+
+speech = ''
+
+  speech += html`<p>
+${speakerReader(info)}
+${toGothicLines([
+    {
+      text: {
+        got: 'Þairh bidos attane weihaize unsaraize, Frauja Iesu Xristau, Guþ unsar, armai unsis.',
+        el: 'Δί’ εὐχῶν τῶν ἁγίων πατέρων ἠμῶν, Κύριε Ἰησοῦ Χριστέ ὁ Θεός, ἐλέησον [καὶ σῶσον] ἠμᾶς.',
+        en: "Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us.",
+      }
+    },
+  ], info)}
+</p>`
+
+article += html`<div class="speech">${speech}</div>`
+
+article += html`<p class='notice'>
+${toGothicLines([
+    {
+      text: {
+        got: 'Aiþþau:',
+        en: "Or:",
+      },
+    },
+  ], info)}
+</p>`
+
+speech = ''
+
+  speech += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Ïn namin',
+        el: "εἰς τὸ ὄνομα",
+        en: "In the name",
+      },
+      notes: "1 Cor 5:4",
+    },
+  ], info)}
+${ofTrinityEnd(info)}</p>`
 
   speech += html`<p>
 ${speakerReader(info)}
@@ -118,14 +171,14 @@ ${oHeavenlyKing(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Trisagiaun bidos',
+        got: 'Bidos Trisagiaun',
         el: "Τρισάγιον",
         en: "Trisagion Prayers",
       },
       notes:
         `greek o -> got. au, greek e, ai -> got. ai, greek ou -> got. u.
 
-for thrice holy perhaps 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐍃; 𐍅𐌴𐌹𐌷𐍃 => 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐌰 𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃.`
+for thrice holy perhaps 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐍃 𐍅𐌴𐌹𐌷𐍃 => 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃 or 𐌸𐍂𐌹𐍆𐌰𐌻𐌸𐌰 𐍅𐌴𐌹𐌷𐌰 𐌱𐌹𐌳𐍉𐍃.`
     },
   ], info)}
 </p>`
@@ -169,66 +222,9 @@ ${timesTwelve(info)}
 
   article += html`<div class="speech">${speech}</div>`
 
-  article += html`<p class='notice'>
-${toGothicLines([
-    {
-      text: {
-        got: 'Psalmos 50, 69, 142',
-        el: "οἱ ψαλμοί 50, 69, 142",
-        en: "Psalms 50, 69, 142",
-      },
-      notes: `*𐍀𐍃𐌰𐌻𐌼𐍉𐍃: Uncertain and unattested nominative plural`
-    },
-  ], info)}
-</p>
-<p class="notice"><a href="doxology-lesser.html">${toGothicLines([{
-    text: {
-      got: 'Dauksaulaugia Leitils',
-      el: "Δοξολογία Μικρά",
-      en: "Lesser Doxology",
-    }
-  }], info)}</a></p>
-<p class="notice"><a href="nicene-creed.html">${toGothicLines([{
-    text: {
-      got: 'Taikns Galaubeinais',
-      el: "Σύμβολο της Πίστεως",
-      en: "Symbol of Faith",
-    }
-  }], info)}</a></p>`
-
-  speech = html`<p>${hymnToTheotokos(info)}</p>`
-  speech += html`<p>
-${trisagion(info)}
-<br>
-${timesThree(info)}
-</p>`
-  speech += html`<p>${gloryToTrinity(info)}</p>`
-  speech += html`<p>${allHolyTrinity(info)}</p>`
-  speech += html`<p>
-${lordHaveMercy(info)}
-${timesThree(info)}
-</p>`
-  speech += html`<p>${gloryToTrinity(info)}</p>`
-  speech += html`<p>${lordsPrayer(info)}</p>`
-
-  speech += html`<p>
-${speakerPriest(info)}
-${forYoursIs(info)}
-<br>
-${ofTrinity(info)}
-<br>
-${nowAndEver(info)}
-</p>`
-
-  speech += html`<p>
-${speakerReader(info)}
-${amen(info)}
-</p>`
-
-  article += html`<div class="speech">${speech}</div>`
-
   const gothicAnnotation = [
-    { text: { got: "Andbahti Afarnahtamatis Leitilis", en: "The Office of Small Compline" } },
+    { text: { got: "Anastodjando biuhtieg", en: "The usual beginning" } },
+    { text: { got: "andbahtje jah bidos sundraizos Aurþaudaukseinaize", en: "of Orthodox services and private prayer" } },
     { text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," } },
     { text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." } },
   ]
@@ -238,7 +234,8 @@ ${amen(info)}
 </p>`
 
   article += html`<p lang='en' class="annotation">
-<span class="nowrap">The Office of Small Compline</span>
+<span class="nowrap">The usual beginning prayers</span>
+<span class="nowrap">of Orthodox services and private prayer</span>
 <span class="nowrap">in the Gothic language,</span>
 <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
