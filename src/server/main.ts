@@ -90,7 +90,7 @@ async function processPage(pathname: string, dirent: any)
         res.send(page)
       })
 
-      const pageOutputPath = `${pageOutput}${devPath}`
+      const pageOutputPath = `${pageOutput}${devPath}.html`
       fs.writeFileSync(pageOutputPath, page)
       await exec(`touch -m -d ${date.toISOString()} "${pageOutputPath}"`)
     }
