@@ -70,7 +70,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 
 <h4>Prayers</h4>
 <ul>
-  <li><a href="bida-maurginis-auptinas">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
+  <li><a href="bida-maurginis-auptinas">Morning Prayer of the Last Elders of Optina</a></li>
 </ul>
 
 <h4>Saints</h4>
