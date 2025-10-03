@@ -36,7 +36,7 @@ import { fromLatin } from '@common/transliterate'
 // https://en.wikipedia.org/wiki/Usual_beginning
 
 
-const slug = "afarnahtamatis-leitilis"
+const slug = "afarnahtamats-leitils"
 const title = 'Afarnahtamats Leitils'
 const description = "Andbahti Afarnahtamatis Leitilis, skeireins ïn razdai gutiskai."
 

@@ -59,7 +59,7 @@ async function processPage(pathname: string, dirent: any)
     const pageConstruction: PageConstruction = pageImport.default
 
     const alternatives: PageInfo[] = pageConstruction.anchors.map(a => {
-      const end = (a.name == "index" ? '' : a.name + ".html")
+      const end = (a.name == "index" ? '' : a.name)
       const dir = root + '/'
       return {
         protocol,
@@ -83,7 +83,7 @@ async function processPage(pathname: string, dirent: any)
 
       const page = pageConstruction.generator(pageInfo)
 
-      const devPath = "/" + alt.name + '.html'
+      const devPath = "/" + alt.name
 
       app.get(devPath, (req, res, next) =>
       {
@@ -126,7 +126,7 @@ async function importPages()
 }
 importPages()
 
-app.get('/', (_, res) => res.redirect("/index.html"))
+app.get('/', (_, res) => res.redirect("/index"))
 
 const errorRequestHandler: ErrorRequestHandler = (err, req, res, _next) =>
 {

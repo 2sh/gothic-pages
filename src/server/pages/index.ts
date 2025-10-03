@@ -34,7 +34,7 @@ const generator: PageGenerator = info =>
 
 <h2>Tools</h2>
 <ul>
-  <li><a href="transliterator.html">Transliterator</a></li>
+  <li><a href="transliterator">Transliterator</a></li>
   <li><a href="https://github.com/2sh/wulfilaverse/raw/refs/heads/master/wulfilaverse.user.js">WulfilaVerse</a> -
   A Userscript which adds <a href='https://www.wulfila.be/gothic/browse/'>Wulfila.be</a>
   verse links to <a href="https://biblehub.com/">BibleHub</a>, but only if attested.
@@ -62,38 +62,38 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 
 <h4>Liturgical</h4>
 <ul>
-  <li><a href="taikns-galaubeinais.html">Nicene Creed</a></li>
-  <li><a href="dauksaulaugei-leitils.html">Lesser Doxology</a></li>
-  <li><a href="afarnahtamatis-leitilis.html">Office of Small Compline</a> (WIP)</li>
-  <li><a href="leiturgia-xrisaustaumaus.html">Liturgy of Saint John Chrysostom</a> (WIP)</li>
+  <li><a href="taikns-galaubeinais">Nicene Creed</a></li>
+  <li><a href="dauksaulaugei-leitils">Lesser Doxology</a></li>
+  <li><a href="afarnahtamats-leitils">Office of Small Compline</a> (WIP)</li>
+  <li><a href="leiturgia-xrisaustaumaus">Liturgy of Saint John Chrysostom</a> (WIP)</li>
 </ul>
 
 <h4>Prayers</h4>
 <ul>
-  <li><a href="bida-maurginis-auptinas.html">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
+  <li><a href="bida-maurginis-auptinas">Morning Prayer of the Last Elders of Optina</a> (WIP)</li>
 </ul>
 
 <h4>Saints</h4>
 <ul>
-  <li><a href="niketa.html">Nicetas the Goth</a></li>
-  <li><a href="sabba.html">Sabbas the Goth</a></li>
-  <li><a href="26-martyros.html">26 Gothic Martyrs in the Crimea</a> (WIP)</li>
+  <li><a href="niketa">Nicetas the Goth</a></li>
+  <li><a href="sabba">Sabbas the Goth</a></li>
+  <li><a href="26-martyros">26 Gothic Martyrs in the Crimea</a> (WIP)</li>
 </ul>
 
 <h4>Other</h4>
 <ul>
-  <li><a href="phrases.html">Words & Phrases</a></li>
+  <li><a href="phrases">Words & Phrases</a></li>
 </ul>
 
 <h3>Stories</h3>
 <ul>
-  <li><a href="paitraus-hazins.html">The Tale of Peter Rabbit</a> (WIP)</li>
-  <li><a href="sa-unleda-jah-sa-gabiga.html">The Poor Man and the Rich Man</a> (WIP)</li>
+  <li><a href="paitraus-hazins">The Tale of Peter Rabbit</a> (WIP)</li>
+  <li><a href="sa-unleda-jah-sa-gabiga">The Poor Man and the Rich Man</a> (WIP)</li>
 </ul>
 
 <h3>Poems</h3>
 <ul>
-  <li><a href="menanahts.html">Mondnacht</a></li>
+  <li><a href="menanahts">Mondnacht</a></li>
 </ul>
 
 
