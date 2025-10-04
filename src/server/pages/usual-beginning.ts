@@ -36,9 +36,9 @@ import { fromLatin } from '@common/transliterate'
 // https://en.wikipedia.org/wiki/Usual_beginning
 
 
-const slug = "anastodjando-biuhteig"
-const title = 'Anastodjando Biuhteig'
-const description = "Anastodjando biuhteig andbahtje jah bidos sundraizos Aurþaudaukseinaize, skeireins ïn razdai gutiskai."
+const slug = "anastodeins-biuhteiga"
+const title = 'Anastodeins Biuhteiga'
+const description = "Anastodeins biuhteiga andbahtje jah bidos sundraizos Aurþaudaukseinaize, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -65,7 +65,7 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Anastodjando Biuhteig',
+      got: 'Anastodeins Biuhteiga',
       ru: "Обычное начало",
       en: "Usual Beginning",
     },
@@ -223,7 +223,7 @@ ${timesTwelve(info)}
   article += html`<div class="speech">${speech}</div>`
 
   const gothicAnnotation = [
-    { text: { got: "Anastodjando biuhteig", en: "The usual beginning" } },
+    { text: { got: "Anastodeins biuhteiga", en: "The usual beginning" } },
     { text: { got: "andbahtje jah bidos sundraizos Aurþaudaukseinaize", en: "of Orthodox services and private prayer" } },
     { text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," } },
     { text: { got: "skeireins fram Ïostaiha (2025)", en: "a translation by 2sh (2025)." } },
