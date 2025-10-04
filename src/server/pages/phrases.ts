@@ -47,22 +47,6 @@ const generator: PageGenerator = info =>
   <h1>Phrases & Words</h1>
 </header>`
 
-
-  article += html`<p class="title">In the name</p>`
-
-  article += html`<p lang='got'>${toGothicLines([
-    {
-      text: {
-        got: 'Ïn namin',
-        el: "εἰς τὸ ὄνομα",
-        en: "In the name",
-      },
-      notes: "1 Cor 5:4",
-    },
-  ], info)}
-${ofTrinity(info)}</p>`
-
-
   article += html`<p class="title">Jesus Prayer</p>`
 
   article += html`<p lang='got'>${toGothicLines([
