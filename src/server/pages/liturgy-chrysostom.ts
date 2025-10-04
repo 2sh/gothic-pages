@@ -59,12 +59,7 @@ const generator: PageGenerator = info =>
       en: "Divine Liturgy of Saint John Chrysostom",
     },
     notes:
-      `*leiturgei from Λειτουργία (female), looking at 𐌴𐌹 in 𐌷𐌰𐌹𐍂𐌰𐌹𐍃𐌴𐌹𐍃 from αἱρέσεις
-and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.
-
-Gudisks seems to come after the noun (Skeireins 1:5)
-
-*Xrisaustaumus from Χρυσοστόμος, following declension of Alaiksandrus from Ἀλέξανδρος`
+      `*Xrisaustaumus from Χρυσοστόμος, following declension of Alaiksandrus from Ἀλέξανδρος`
   }], info)}</h1>
 </header>`
 

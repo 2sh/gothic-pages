@@ -255,6 +255,19 @@ similar to German Katholisch.`
     },
   ], info)}</span></p>`
 
+  article += html`<p>Divine Liturgy: <span lang='got'>${toGothicLines([
+    {
+      text: {
+        got: 'Leiturgei Gudiska',
+        el: "Θεία Λειτουργία",
+        en: "Divine Liturgy",
+      },
+      notes:
+        `*leiturgei from Λειτουργία (female), looking at 𐌴𐌹 in 𐌷𐌰𐌹𐍂𐌰𐌹𐍃𐌴𐌹𐍃 from αἱρέσεις
+and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.`
+    },
+  ], info)}</span></p>`
+
   article += html`<p>Doxology: <span lang='got'>${toGothicLines([
     {
       text: {
@@ -262,9 +275,6 @@ similar to German Katholisch.`
         el: "Δοξολογία",
         en: "Doxology",
       },
-      notes:
-        `Greek -ία ending seems to equate to -ei and x -> 𐌺𐍃 from 1 Timothy 1:20,
-so *dauksaulaugei`
     },
   ], info)}</span></p>`
 
