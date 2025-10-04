@@ -65,7 +65,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   <li><a href="taikns-galaubeinais">Nicene Creed</a></li>
   <li><a href="dauksaulaugei-leitils">Lesser Doxology</a></li>
   <li><a href="anastodeins-biuhteiga">Usual beginning</a> of Orthodox services and private prayer.</li>
-  <li><a href="leiturgia-xrisaustaumaus">Liturgy of Saint John Chrysostom</a> (WIP)</li>
+  <li><a href="leiturgei-xrisaustaumaus">Liturgy of Saint John Chrysostom</a> (WIP)</li>
 </ul>
 
 <h4>Prayers</h4>
