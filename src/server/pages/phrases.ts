@@ -315,6 +315,7 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
 <html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info)}
+    <meta name="robots" content="noindex">
   </head>
   <body>
     ${createArticleBody(info, article)}
