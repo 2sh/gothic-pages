@@ -71,7 +71,7 @@ weak nouns keep -a- for the connecting vowel." -guthiharjis`
   const gothicAnnotation = [
     { text: { got: "Waurda Gudabairandein", en: "Words to the Theotokos" } },
     { text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," } },
-    { text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." } },
+    { text: { got: "skeireins fram Ïostaiha (2025)", en: "a translation by 2sh (2025)." } },
   ]
 
   article += html`<p class="annotation">${gothicAnnotation.map(a => `

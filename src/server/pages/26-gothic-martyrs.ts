@@ -265,7 +265,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins þairh Ïostaihan (2025)", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Ïostaiha (2025)", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 
