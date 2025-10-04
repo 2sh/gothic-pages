@@ -70,6 +70,7 @@ ${nowAndEver(info)}
 <html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info)}
+    <meta name="robots" content="noindex">
   </head>
   <body>
     ${createArticleBody(info, article)}
