@@ -120,7 +120,8 @@ const altButtons: {[lang: string]: string} = {
 
 export function createArticleBody(info: PageInfoMain, content: string)
 {
-  const hasGothic = info.lang.startsWith('got')
+  //const hasGothic = info.lang.startsWith('got')
+  const hasGothic = true // for now until I make lang an array
 
   const homeButton = html`<a href="./" lang='en' title='Home'>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
