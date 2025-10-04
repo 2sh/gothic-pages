@@ -26,9 +26,9 @@ import { fromLatin } from '@common/transliterate'
 // https://www.chrysostomliturgy.org/text-of-the-divine-liturgy-greek-english
 
 
-const slug = 'leiturgia-xrisaustaumaus'
-const title = 'Leiturgia Gudiska Xrisaustaumaus'
-const description = "Leiturgia Gudiska Ïohannis Xrisaustaumaus Weihis, skeireins ïn razdai gutiskai."
+const slug = 'leiturgei-xrisaustaumaus'
+const title = 'Leiturgei Gudiska Xrisaustaumaus'
+const description = "Leiturgei Gudiska Ïohannis Xrisaustaumaus Weihis, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -54,12 +54,12 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Leiturgia Gudiska\nÏohannis Xrisaustaumaus Weihis',
+      got: 'Leiturgei Gudiska\nÏohannis Xrisaustaumaus Weihis',
       el: "Θεία Λειτουργία Αγίου Ιωάννου Χρυσοστόμου",
       en: "Divine Liturgy of Saint John Chrysostom",
     },
     notes:
-      `*leiturgia from Λειτουργία (female), looking at 𐌴𐌹 in 𐌷𐌰𐌹𐍂𐌰𐌹𐍃𐌴𐌹𐍃 from αἱρέσεις
+      `*leiturgei from Λειτουργία (female), looking at 𐌴𐌹 in 𐌷𐌰𐌹𐍂𐌰𐌹𐍃𐌴𐌹𐍃 from αἱρέσεις
 and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.
 
 Gudisks seems to come after the noun (Skeireins 1:5)
@@ -592,7 +592,7 @@ ${toYouOLord(info)}
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Leiturgia Gudiska", en: "Divine Liturgy" },
+    text: { got: "Leiturgei Gudiska", en: "Divine Liturgy" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "Ïohannis Xrisaustaumaus Weihis", en: "of Saint John Chrysostom" },
