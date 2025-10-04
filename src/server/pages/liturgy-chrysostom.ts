@@ -28,7 +28,7 @@ import { fromLatin } from '@common/transliterate'
 
 const slug = 'leiturgia-xrisaustaumaus'
 const title = 'Leiturgia Gudiska Xrisaustaumaus'
-const description = "Leiturgia Gudiska Xrisaustaumaus, skeireins ïn razdai gutiskai."
+const description = "Leiturgia Gudiska Weihis Ïohannis Xrisaustaumaus, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -54,9 +54,9 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Leiturgia Gudiska\nXrisaustaumaus',
-      el: "Θεία Λειτουργία του Χρυσοστόμου",
-      en: "Divine Liturgy of Chrysostom",
+      got: 'Leiturgia Gudiska\nWeihis Ïohannis Xrisaustaumaus',
+      el: "Θεία Λειτουργία Αγίου Ιωάννου Χρυσοστόμου",
+      en: "Divine Liturgy of Saint John Chrysostom",
     },
     notes:
       `*leiturgia from Λειτουργία (female), looking at 𐌴𐌹 in 𐌷𐌰𐌹𐍂𐌰𐌹𐍃𐌴𐌹𐍃 from αἱρέσεις
@@ -592,7 +592,10 @@ ${toYouOLord(info)}
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Leiturgia Gudiska Xrisaustaumaus", en: "Divine Liturgy of Chrysostom" },
+    text: { got: "Leiturgia Gudiska", en: "Divine Liturgy" },
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
+    text: { got: "Weihis Ïohannis Xrisaustaumaus", en: "of Saint John Chrysostom" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
