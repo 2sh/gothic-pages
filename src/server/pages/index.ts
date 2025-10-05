@@ -110,6 +110,15 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 <h2>Other</h2>
 <p>Various other Gothic related things, <em>not by me</em>, but useful and interesting.</p>
 
+<h3>Blogs & Works</h3>
+<ul>
+  <li><a href="https://edmundfairfax.com/">Old English and Gothic Blog</a> by Edmund Fairfax</li>
+  <li><a href="https://bokahusgutisk.wordpress.com/">Bokahus</a> - Collection of works in Gothic</li>
+  <li><a href="https://airushimmadaga.wordpress.com/">Himma Daga</a> - News in Gothic</li>
+  <li><a href="https://gutrazda.wordpress.com/">Gutrazda Blog</a> by Friþureiks Swartagaizis</li>
+  <li><a href="https://robert-pfeffer.net/gotica/">Dr. Pfeffers Gotica</a></li>
+</ul>
+
 <h3>Resources</h3>
 <ul>
   <li><a href="https://www.koeblergerhard.de/gotwbhin.html">Gerhard Köbler's Wörterbuch</a></li>
@@ -120,13 +129,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   <li><a href="https://web.archive.org/web/20140301215235/http://germanica.wikispot.org/Naples_Deed">Naples Deed Information</a></li>
   <li><a href="https://web.archive.org/web/20111012062921/http://app.ub.uu.se/arv/codex/faksimiledition/contents.html">Silver Bible scans</a></li>
   <li><a href="https://www.gotica.de/">Gotica</a> - Useful list of surviving Gothic texts</li>
-</ul>
-
-<h3>Works</h3>
-<ul>
   <li><a href="https://got.wikipedia.org/">Gothic Wikipedia</a></li>
-  <li><a href="https://bokahusgutisk.wordpress.com/">Bokahus</a> - Collection of works in Gothic</li>
-  <li><a href="https://airushimmadaga.wordpress.com/">Himma Daga</a> - News in Gothic</li>
 </ul>`
 
   return html`<!doctype html>
