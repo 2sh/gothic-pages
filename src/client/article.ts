@@ -148,7 +148,6 @@ window.matchMedia('(prefers-color-scheme: dark)')
 
 function setColorScheme()
 {
-  console.log(colorScheme.value)
   document.documentElement.dataset.colorScheme = colorScheme.value
 }
 colorScheme.on(setColorScheme)
