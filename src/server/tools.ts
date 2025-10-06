@@ -171,11 +171,10 @@ export function createArticleHeaders(info: PageInfoMain)
 <meta name="author" content="2sh">
 <meta name="lastmod" content="${info.lastmod.toISOString()}">
 
-<link href="assets/styles/main.css" rel="stylesheet">
-<link href="assets/styles/article.css" rel="stylesheet">
 <script>
 document.documentElement.dataset.colorScheme = localStorage.getItem('color-scheme')
   || (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
     ? 'dark' : 'light')
-</script>`
+</script>
+<link href="assets/styles/main.css" rel="stylesheet">`
 }

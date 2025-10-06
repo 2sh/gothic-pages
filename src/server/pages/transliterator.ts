@@ -99,7 +99,6 @@ The above 999 setting is an idea I had for larger numbers, with colons acting as
 <html lang="${info.lang}">
   <head>
     ${createArticleHeaders(info)}
-    <link href="assets/styles/transliterator.css" rel="stylesheet">
   </head>
   <body>
     ${createArticleBody(info, article)}
