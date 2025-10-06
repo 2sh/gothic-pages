@@ -77,8 +77,15 @@ const generator: PageGenerator = info =>
     </div>
   </div>
   <div>
-    <h2 class='title'>Notes</h2>
-<p>The 'To IPA' converter goes by the usual patterns of native words for au and ai,
+<p>
+Transliterate Gothic text between the Gothic and Latin alphabets.
+</p>
+<p>
+From Latin, ƕ, hv and v will convert to 𐍈, and þ and c to 𐌸.
+From Gothic 𐍈 and 𐌸 convert as chosen in the dropdown boxes.
+</p>
+<p>
+The 'To IPA' converter goes by the usual patterns of native words for au and ai,
 so short before h, ƕ and r, and long otherwise. It doesn't have a dictionary of the
 exceptions to these patterns and long vowels of 'a' and 'u', and it doesn't recognise loanwords (yet).
 It will make use of diacritics though, ā /aː/, ū /uː/, aí /ɛ/, aú /ɔ/, ái /ɛː/, áu /ɔː/.
@@ -86,12 +93,34 @@ It probably still needs adjusting for some prefixes, compound words and bigger c
 If you notice anything wrong, <i>please</i> do tell me. Behind the IPA converter is also
 a soft hyphenation library for Gothic I'm developing that I'd like to publish for free at some point
 (including the whole functionality behind these pages).
-So improving this will also improve that.</p>
-<p>The 'Remove superfluous diacritics' button removes the diacritics
+So improving this will also improve that.
+</p>
+<p>
+The 'Fix diaereses' button adds the diaereses (two dots) to i and 𐌹,
+word initially and within words where appropriate. Adding them within words may
+still need improving.
+</p>
+<p>
+The 'Remove diacritics' button removes all diacritics except for the diaereses on ï and Ï.
+</p>
+<p>
+The 'Remove superfluous diacritics' button removes the diacritics
 of aí and aú before h, ƕ and r, of ái and áu if not before those, and of ē and ō.
-This is "superfluous" from a pronunciation perspective, not an etymological one.</p>
-<p>The number converter is default set to convert only numbers up to 999 as that's all that's attested.
-The above 999 setting is an idea I had for larger numbers, with colons acting as 1000 separators.</p>
+This is "superfluous" from a pronunciation perspective, not an etymological one.
+</p>
+<p>
+When converting to Gothic, diacritics are removed by default.
+The 'Preserve diacritics' feature preserves them by adding them
+as a Unicode combining diacritics after the Gothic characters.
+Though they could, Gothic fonts normally do not support this however,
+and the marks end up not being placed well.
+</p>
+<p>
+The number converter is default set to convert only numbers up to 999
+as that's all that's attested.
+The above 999 setting is an idea I had for larger numbers,
+with colons acting as 1000 separators.
+</p>
   </div>
 </div>`
 
