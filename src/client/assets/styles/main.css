@@ -443,13 +443,11 @@ ul
   .options button,
   .options a,
   .options select,
-  .options input,
   .menu button,
   .menu a,
-  .menu select,
-  .menu input
+  .menu select
   {
-    height: 50px;
-    line-height: 50px;
+    height: 45px;
+    line-height: 45px;
   }
 }
