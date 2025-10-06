@@ -8,6 +8,7 @@
   --text-color: #f0f0f0;
   --link-color: #789cff;
   --button-color: #686868;
+  --button-color-hover: #808080;
   --notice-color: rgb(255, 193, 193);
   --annotation-color: #979797;
 }
@@ -21,6 +22,7 @@
   --text-color: #28282b;
   --link-color: #6b87d4;
   --button-color: #dddddd;
+  --button-color-hover: #c4c4c4;
   --notice-color: rgb(182, 0, 0);
   --annotation-color: #999999;
 }
@@ -81,6 +83,19 @@ body
   text-align: center;
   border: 0;
   padding: 0;
+
+  height: 30px;
+  line-height: 30px;
+}
+
+.options button:hover,
+.options a:hover,
+.options select:hover,
+.menu button:hover,
+.menu a:hover,
+.menu select:hover
+{
+  background-color: var(--button-color-hover);
 }
 
 
@@ -89,11 +104,8 @@ body
 .menu select,
 .menu input
 {
-  cursor: pointer;
-  height: 30px;
-  line-height: 30px;
   font-size: 18px;
-  width: 30px;
+  aspect-ratio: 1/1;
 
   display: flex;
   align-items: center;
@@ -141,12 +153,14 @@ body
 {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .options .group
 {
   display: flex;
+  flex-wrap: wrap;
   gap: 5px
 }
 
