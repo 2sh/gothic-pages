@@ -70,11 +70,9 @@ body
 .options button,
 .options a,
 .options select,
-.options input,
 .menu button,
 .menu a,
-.menu select,
-.menu input
+.menu select
 {
   background-color: var(--button-color);
   color: var(--text-color);
@@ -100,6 +98,13 @@ body
     height: 45px;
     line-height: 45px;
   }
+
+  .options input[type='checkbox'],
+  .menu input[type='checkbox']
+  {
+    height: 30px;
+    aspect-ratio: 1/1;
+  }
 }
 
 .options button:hover,
@@ -115,8 +120,7 @@ body
 
 .menu button,
 .menu a,
-.menu select,
-.menu input
+.menu select
 {
   font-size: 18px;
   aspect-ratio: 1/1;
