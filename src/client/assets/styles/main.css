@@ -437,3 +437,19 @@ ul
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 500px)
+{
+  .options button,
+  .options a,
+  .options select,
+  .options input,
+  .menu button,
+  .menu a,
+  .menu select,
+  .menu input
+  {
+    height: 50px;
+    line-height: 50px;
+  }
+}
