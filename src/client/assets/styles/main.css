@@ -88,6 +88,20 @@ body
   line-height: 30px;
 }
 
+@media (pointer:coarse)
+{
+  .options button,
+  .options a,
+  .options select,
+  .menu button,
+  .menu a,
+  .menu select
+  {
+    height: 45px;
+    line-height: 45px;
+  }
+}
+
 .options button:hover,
 .options a:hover,
 .options select:hover,
@@ -435,19 +449,5 @@ ul
     left: 0;
     right: 0;
     margin: 0;
-  }
-}
-
-@media only screen and (max-width: 500px)
-{
-  .options button,
-  .options a,
-  .options select,
-  .menu button,
-  .menu a,
-  .menu select
-  {
-    height: 45px;
-    line-height: 45px;
   }
 }
