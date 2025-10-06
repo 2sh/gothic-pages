@@ -69,7 +69,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Þiuþei, Fráujinond.',
+        got: 'Þiuþei, Fraujinond.',
         el: "Ἑὐλόγησον, Δέσποτα.",
         en: "Master, give the blessing.",
       }
