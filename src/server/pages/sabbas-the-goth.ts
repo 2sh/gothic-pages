@@ -168,7 +168,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'Ïþ mans Gudis, gamunandans wáurda apaustaule,',
+        got: 'Ïþ mans Gudis, gamunandans waurda apaustaule,',
         en: "But the men of God, remembering the Apostle's words,",
       },
       notes: ``
