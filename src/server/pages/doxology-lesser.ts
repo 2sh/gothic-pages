@@ -301,7 +301,7 @@ Luke 3:22+ and Luke 1:32 have genitive apposition.`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Andanahtja ƕammeh ïk þuk þiuþjan,',
+        got: 'Andanahtja ƕammeh þiuþja þuk,',
         el: "Καθʼ ἑκάστην ἑσπέραν εὐλογήσω σε,",
         en: "Every evening I shall bless you,",
       },
@@ -316,7 +316,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     },
     {
       text: {
-        got: 'jah namo þein hazjan ïn aiw,',
+        got: 'jah hazja namo þein ïn aiw,',
         el: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
         en: "and I shall praise your name forever,",
       },
