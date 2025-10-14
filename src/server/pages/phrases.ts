@@ -310,6 +310,18 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
     },
   ], info)}</span></p>`
 
+  article += html`<p>not consecrated / lay(person): <span lang='got'>${toGothicLines([
+    {
+      text: {
+        got: 'lāïgs',
+        el: "λᾱϊκός",
+        en: "lay(person)",
+      },
+      notes:
+        ``
+    },
+  ], info)}</span></p>`
+
   article += html`<p>in large part: <span lang='got'>${toGothicLines([
     {
       text: {
