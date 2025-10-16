@@ -1,5 +1,8 @@
 type Mapping = [string, string]
-type RegExpMapping = [RegExp, string] | Mapping
+type Replacer = ((substring: string, ...args: any[]) => string)
+type RegExpMapping =
+  [RegExp, string | Replacer]
+  | Mapping
 
 const gothicLatin: Mapping[] = [
   ['𐌹̈', 'ï'],
@@ -68,6 +71,7 @@ function applyMapping(text: string, mapping: RegExpMapping[])
 {
   return mapping.reduce((text, [from, to]) =>
   {
+    // @ts-ignore it's complaining about 'to' being two different types
     return text.replaceAll(from, to)
   }, text)
 }
@@ -277,48 +281,53 @@ export function removePunctuation(text: string)
 
 const voiced = "[bdgwnmjwlr]"
 
+type ipaMapping = {[key: string]: string}
+
+const ipaToVoicedFricative: ipaMapping = {
+  'b': 'β',
+  'd': 'ð',
+  'g': 'ɣ'
+}
+
+const ipaToUnvoicedFricative: ipaMapping = {
+  'b': 'ɸ',
+  'd': 'θ',
+  'g': 'x'
+}
+
 const latinIpa: RegExpMapping[] = [
   ['ggk', 'gk'],
   ['ggq', 'gq'],
 
-  [new RegExp(`(?<=${bv})b\\.b(?=\\.?(?:${av}|${voiced}))`, "ig"), 'β.β'],
-  [new RegExp(`(?<=${bv}\\.?)bb(?=\\.?(?:${av}|${voiced}))`, "ig"), 'βː'],
-  [new RegExp(`(?<=${bv}\\.?)b(?=\\.?(?:${av}|${voiced}))`, "ig"), 'β'],
-  //[new RegExp(`(?<=${bv})b(?!=ː)`, "ig"), 'ɸ'],
+  ['gw', 'ɡʷ'],
 
-  [new RegExp(`(?<=${bv})d\\.d(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ð.ð'],
-  [new RegExp(`(?<=${bv}\\.?)dd(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ðː'],
-  [new RegExp(`(?<=${bv}\\.?)d(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ð'],
-  //[new RegExp(`(?<=${bv})d(?!=ː)`, "ig"), 'θ'],
-
-  [/g(?=\.?[kgq])/ig, 'ŋ'],
-  [new RegExp(`(?<=${bv}\\.?)g(?=\\.?(?:${av}|${voiced}))`, "ig"), 'ɣ'],
-  [new RegExp(`(?<=${bv}\\.?)g(?!=ː)`, "ig"), 'x'],
+  [/[gn](?=\.?[kgq])/ig, 'ŋ'],
+  [/n(?=\.?[bp])/ig, 'm'],
+  [new RegExp(`(?<=${bv}\\.?)([bdg])(?=\\.?(?!\\1)(?:${av}|${voiced}))`, "ig"),
+    (_, c) => ipaToVoicedFricative[c]],
+  [new RegExp(`(?<=${bv})([bdg])(?!\\.?\\1)`, "ig"),
+    (_, c) => ipaToUnvoicedFricative[c]],
 
   [/([bdfjklmnpqrstþwz])\1/ig, '$1ː'],
 
   ['f', 'ɸ'],
-
-  ['gw', 'ɡʷ'],
+  ['þ', 'θ'],
 
   ['ƕ', 'hʷ'],
   ['hv', 'hʷ'],
   ['v', 'hʷ'],
 
   ['q', 'kʷ'],
-
-  ['þ', 'θ'],
-
   ['iu', 'iu̯'],
 
   ['aí', 'ɛ'],
   ['ái', 'ɛː'],
-  [/ai(?=\.?[hrƕv])/ig, 'ɛ'],
+  [/ai(?=\.?[hr])/ig, 'ɛ'],
   ['ai', 'ɛː'],
 
   ['aú', 'ɔ'],
   ['áu', 'ɔː'],
-  [/au(?=\.?[hrƕv])/ig, 'ɔ'],
+  [/au(?=\.?[hr])/ig, 'ɔ'],
   ['au', 'ɔː'],
 
   ['ei', 'iː'],
