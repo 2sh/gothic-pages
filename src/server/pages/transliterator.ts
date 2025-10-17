@@ -43,6 +43,7 @@ const generator: PageGenerator = info =>
       </div>
       <div class="group">
         <button @click='text = $store.gothic.addDiaereses(text)'>Fix diaereses</button>
+        <button @click='text = $store.gothic.addSoftHyphens(text)'>Add soft hyphens</button>
         <button @click='text = $store.gothic.removeDiacritics(text)' title='Removes diacritics, keeping diaereses'>Remove diacritics</button>
         <button @click='text = $store.gothic.removeSuperfluousDiacritics(text)' title='Removes diacritics'>Remove superfluous diacritics</button>
       </div>
@@ -78,7 +79,8 @@ const generator: PageGenerator = info =>
   </div>
   <div>
 <p>
-A tool for transliterating Gothic text between the Gothic and Latin alphabets.
+A tool for transliterating Gothic text between the Gothic and Latin alphabets,
+and various other features for displaying Gothic text.
 </p>
 <p>
 From Latin, ƕ, hv and v will convert to 𐍈, and þ and c to 𐌸.
@@ -90,15 +92,22 @@ so short before h, ƕ and r, and long otherwise. It doesn't have a dictionary of
 exceptions to these patterns and long vowels of 'a' and 'u', and it doesn't recognise loanwords (yet).
 It will make use of diacritics though, ā /aː/, ū /uː/, aí /ɛ/, aú /ɔ/, ái /ɛː/, áu /ɔː/.
 It probably still needs adjusting for some prefixes, compound words and bigger consonant clusters.
-If you notice anything wrong, <i>please</i> do tell me. Behind the IPA converter is also
-a soft hyphenation library for Gothic I'm developing that I'd like to publish for free at some point
-(including the whole functionality behind these pages).
-So improving this will also improve that.
+To see syllable boundaries, click the 'Add soft hyphens' button first.
 </p>
 <p>
 The 'Fix diaereses' button adds the diaereses (two dots) to i and 𐌹,
 word initially and within words where appropriate. Adding them within words may
 still need improving.
+</p>
+<p>
+The 'Add soft hyphens' button adds the soft hyphen unicode character (U+00AD)
+between syllables. To use this function, first convert the text to Latin if it's in
+Gothic, and then convert back to Gothic if so desired.
+I'll make this convert directly from Gothic too eventually.
+To visually see where these soft hyphens have been placed, use the 'To IPA' button.
+The determining of the syllable boundaries may still need improving.
+If you spot any issues, <i>please</i> do tell me,
+as I'd like to publish the functionality on this page for free at some point.
 </p>
 <p>
 The 'Remove diacritics' button removes all diacritics except for the diaereses on ï and Ï.

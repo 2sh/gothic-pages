@@ -351,7 +351,6 @@ export function toIpa(text: string)
   let out = text
   out = out.toLowerCase()
   out = removePunctuation(out)
-  out = addSoftHyphens(out)
   out = out.replaceAll("\u00AD", ".")
   out = applyMapping(out, latinIpa)
   return out

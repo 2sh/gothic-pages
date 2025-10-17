@@ -5,7 +5,8 @@ import {
   addDiaereses,
   removeDiacritics,
   removeSuperfluousDiacritics,
-  toIpa
+  toIpa,
+  addSoftHyphens
 } from '@common/transliterate'
 
 // @ts-ignore
@@ -18,6 +19,7 @@ const gothic = Alpine.reactive({
   removeDiacritics,
   removeSuperfluousDiacritics,
   addDiaereses,
+  addSoftHyphens,
   capitalize: false,
   preserveDiacritics: false,
   numberConversion: ((): 'none' | 'normal' | 'big' => 'normal')(),
