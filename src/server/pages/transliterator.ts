@@ -80,7 +80,7 @@ const generator: PageGenerator = info =>
   <div>
 <p>
 A tool for transliterating Gothic text between the Gothic and Latin alphabets,
-and various other features for displaying Gothic text.
+with various other features for displaying Gothic text.
 </p>
 <p>
 From Latin, ƕ, hv and v will convert to 𐍈, and þ and c to 𐌸.
