@@ -106,16 +106,17 @@ Gothic, and then convert back to Gothic if so desired.
 I'll make this convert directly from Gothic too eventually.
 To visually see where these soft hyphens have been placed, use the 'To IPA' button.
 The determining of the syllable boundaries may still need improving.
-If you spot any issues, <i>please</i> do tell me,
-as I'd like to publish the functionality on this page for free at some point.
 </p>
 <p>
-The 'Remove diacritics' button removes all diacritics except for the diaereses on ï and Ï.
+The 'Remove diacritics' button removes all diacritics except for the diaereses on 𐌹̈, ï and Ï.
 </p>
 <p>
 The 'Remove superfluous diacritics' button removes the diacritics
 of aí and aú before h, ƕ and r, of ái and áu if not before those, and of ē and ō.
 This is "superfluous" from a pronunciation perspective, not an etymological one.
+The idea behind this is for teaching people to eventually read only with the
+Gothic alphabet, more easily noticing and memorising the few words that have the
+diacritics.
 </p>
 <p>
 When converting to Gothic, diacritics are removed by default.
@@ -129,6 +130,10 @@ The number converter is default set to convert only numbers up to 999
 as that's all that's attested.
 The above 999 setting is an idea I had for larger numbers,
 with colons acting as 1000 separators.
+</p>
+<p>
+If you spot any issues, <i>please</i> do tell me,
+as I'd like to publish the functionality on this page for free at some point.
 </p>
   </div>
 </div>`
