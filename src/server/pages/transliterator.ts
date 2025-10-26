@@ -132,7 +132,7 @@ The above 999 setting is an idea I had for larger numbers,
 with colons acting as 1000 separators.
 </p>
 <p>
-If you spot any issues, <i>please</i> do tell me,
+If you spot any issues, <i>please</i> do <a href='mailto:contact@2sh.me'>tell me</a>,
 as I'd like to publish the functionality on this page for free at some point.
 </p>
   </div>

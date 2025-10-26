@@ -29,7 +29,7 @@ const generator: PageGenerator = info =>
 
 <p>${description}</p>
 
-<p>Feedback on anything on these pages greatly appreciated!</p>
+<p><a href='mailto:contact@2sh.me'>Feedback</a> on anything on these pages greatly appreciated!</p>
 
 
 <h2>Tools</h2>
