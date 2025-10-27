@@ -29,6 +29,18 @@ const generator: PageGenerator = info =>
 
 <p>${description}</p>
 
+<p>A bit about me: I'm bilingual in English and German.
+And I've always been somewhat fascinated by the Gothic language for some reason,
+and recently (2025) found interest in it again due to realising that even after Arianism, it,
+a Germanic language, was seemingly used liturgically to some extent
+for centuries under Eastern Orthodox Christianity (of which I'm an inquirer).
+Though due to its Arian connotations I've translated the Nicene Creed
+and want to translate various other liturgical texts, prayers and
+lives of the saints into the Gothic langauge,
+attempting to have the language "baptised into Christ".
+I'm also into conlanging, calligraphy, software development,
+writing systems (how I found the gothic language originally) and dozenal.</p>
+
 <p><a href='mailto:contact@2sh.me'>Feedback</a> on anything on these pages greatly appreciated!</p>
 
 
