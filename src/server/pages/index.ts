@@ -37,7 +37,7 @@ for centuries under Eastern Orthodox Christianity (of which I'm an inquirer).
 Though due to its Arian connotations I've translated the Nicene Creed
 and want to translate various other liturgical texts, prayers and
 lives of the saints into the Gothic langauge,
-attempting to have the language "baptised into Christ".
+having the language "baptised into Christ".
 I'm also into conlanging, calligraphy, software development,
 writing systems (how I found the gothic language originally) and dozenal.</p>
 
