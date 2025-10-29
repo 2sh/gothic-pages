@@ -255,7 +255,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "bigat laibos ïs ïn naht jah brahtah þos du Kilikia.",
+        got: "bigat laibos ïs ïn naht jah brāhta þos du Kilikia.",
         en: "found his remains during the night and transferred them to Cilicia.",
       },
     },

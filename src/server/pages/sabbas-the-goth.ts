@@ -157,21 +157,20 @@ with a different declension.`
     },
     {
       text: {
-        got: 'gabundun þans bans bagmam jah sokidedun ïns mimz þatei galiugam gasaliþ was du ïtan nauþjan.',
+        got: 'gabundun þans bans bagmam jah sokidedun ïns nauþjan mimz, þatei galiugam gasaliþ was, ïtan.',
         en: "bound them both to trees and tried to force them to eat meat offered to idols.",
       },
       notes: `Seems to be using the dative without a preposition Corinthians I 7:27, Romans 7:2
 
 þans bans Ephesians 2:16
 
-"sought to arrest" by John 10:39, though perhaps "sought" is a greek-ism`
+"sought to arrest" by John 10:39`
     },
     {
       text: {
         got: 'Ïþ mans Gudis, gamunandans waurda apaustaule,',
         en: "But the men of God, remembering the Apostle's words,",
       },
-      notes: ``
     },
     {
       text: {

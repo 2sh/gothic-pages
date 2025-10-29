@@ -122,8 +122,6 @@ so *dauksaulaugei`,
         el: "διὰ τὴν μεγάλην σου δόξαν.",
         en: "for your great glory.",
       },
-      notes:
-        `Mark 8:6 eucharist; 𐌰𐌹𐍅𐍇𐌰𐍂𐌹𐍃𐍄𐌹𐌰`,
     },
   ], info)}</p>`
 

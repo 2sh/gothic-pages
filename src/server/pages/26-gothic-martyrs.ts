@@ -79,8 +79,8 @@ import
 // queen and daughter are separate martyrs
 
 const slug = "26-martyros"
-const title = "26 Martyros Taurikas"
-const description = "26 Martyros Taurikas, skeireins ïn razdai gutiskai."
+const title = "26 Martyros Gutlandis ïn Krim"
+const description = `${title}, skeireins ïn razdai gutiskai.`
 
 const anchors: Anchor[] = [
   {
@@ -106,18 +106,37 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: '26 Martyros Taurikas',
-      en: "26 Martyrs in the Crimea",
+      got: title,
+      en: "26 Martyrs of Gothia in the Crimea",
     },
+    notes: `[url=https://el.wiktionary.org/wiki/%CE%93%CF%8C%CF%84%CE%B8%CE%BF%CF%82#%CE%91%CF%81%CF%87%CE%B1%CE%AF%CE%B1_%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC_(grc)]This page[/url]
+explains Greek Γότθος (by extension Gothia/Γοτθία) as coming from gutþiuda,
+so I don't think the Goths would have called it Gutþia or something like that
+as it would be cutting the þiuda word up.
+Instead I think that a place where goths reside might have been called
+the "goth land" like Swedish Gotland so 𐌲𐌿𐍄𐌻𐌰𐌽𐌳.
+Also looking at iudaialand, the Goths they seem to quickly stick the word
+land at the end. Not so much as a place name but rather a description of a
+place. -land feels somewhat equal to the -ia endings, looking at other Germanic
+languages too.
+
+For the name of Crimea, I thought of using Taurika, but I'm using the modern name
+for the area that everyone is used to now, for familiarity sake, 𐌺𐍂𐌹𐌼.
+The Gothic wikipedia page uses 𐌺𐍂𐌴𐌹𐌼, even though Turkic, Russian, Ukrainian
+and plenty of other languages (Germanic ones included) have a short vowel
+sound. The original Turkic word is more of a u sound /ɯ/, though most modern
+languages have it as an i sound so that's what I went with too, again for
+familiarity.`
   },], info)}</h1>
 </header>`
 
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Dags gaminþjis: 26 Martjus',
+        got: 'Dags gaminþjis: 26 Marti',
         en: "Day of remembrance: 26 March",
       },
+      notes: `Latin martius to neuter ja-stem?`
     },
   ], info)}</p>`
 
@@ -149,10 +168,12 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'Swaswe Sozaumainus <{Historian}> gamelida:',
+        got: 'Swaswe Sozaumainus spillawitubnareis gamelida:',
         en: "As the historian Sozomen records:",
       },
-      notes: `The name is from Greek Σωζομενός(Sozomenos).`
+      notes: `The name is from Greek Σωζομενός(Sozomenos).
+
+spilla + witubni + areis like Geschichtswissenschaftler`
     },
   ], info)}</p>`
 
@@ -183,7 +204,7 @@ put before, faur + ACC with motion Mark 8:6.`
     },
     {
       text: {
-        got: `jah sumai waurþun afslahanai jah uslaubidai ni wesun ain waurd sunjonais seinaizos rodjan.`,
+        got: `jah anþarai waurþun afslahanai jah uslaubidai ni wesun ain waurd sunjonais seinaizos rodjan.`,
         en: `and others were slain without being permitted to utter a single word in their own defense.`,
       },
       notes: `Mark 10:4`
@@ -214,24 +235,131 @@ put before, faur + ACC with motion Mark 8:6.`
     },
     {
       text: {
-        got: `jabei ...`,
+        got: `jabei þata ni wildedeina taujan, þai mans jah þos hleiþros gabrannido weseina.`,
         en: `if they refused to do so, the men and the tents were burnt together.`,
+      },
+      notes: `abai wildedeiþ miþniman Matthew 11:14`
+    },
+    {
+      text: {
+        got: `Iþ gahausida ei skaþis nauh maizane mikilduþais was in þamma mela gatawiþ.`,
+        en: `But I have heard that an outrage of still greater atrocity was perpetrated at this period.`,
+      },
+    },
+    {
+      text: {
+        got: `Managai ni wildedun jainaim andhausjan þaiei þaim hunsljan nauþidedun.`,
+        en: `Many refused to obey those who were compelling them by force to sacrifice.`,
+      },
+      notes: `manne jainaize Luke 14:24
+
+nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
+    },
+    {
+      text: {
+        got: `Ïn þaim wesun mans jah qinons;`,
+        en: `Among them were men and women;`,
+      },
+    },
+    {
+      text: {
+        got: `þizo sumos tauhun barna leitila seina, anþara fodidedun baurins niujans seinans ana brust;`,
+        en: `of the latter some were leading their little children, others were nourishing their new-born infants at the breast;`,
+      },
+    },
+    {
+      text: {
+        got: `gaþlauhun ïn aikklesjon seina soei hleiþra was.`,
+        en: `they fled to their church, which was a tent.`,
+      },
+    },
+    {
+      text: {
+        got: `Þai haiþnai inbrannidedun ïta, jah alla wesun qistida."`,
+        en: `The pagans set fire to it, and all were destroyed."`,
       },
     },
   ], info)}</p>`
 
-//   But I have heard that an outrage of still greater atrocity was perpetrated at this period. Many refused to obey those who were compelling them by force to sacrifice. Among them were men and women; of the latter some were leading their little children, others were nourishing their new-born infants at the breast; they fled to their church, which was a tent. The pagans set fire to it, and all were destroyed."
-// In the fiery inferno 308 people perished, of whom only twenty-one are known by name, 2 presbyters, 1 monk and 18 laypeople (11 men, 7 women). To this are added the five children of the presbyters Wereka and Batwin (two sons and three daughters). This took place in Gothia in the Crimea.
-// Among these was a certain Christian man who was bringing the offering breads to the church to be used for the eucharistic sacrifice in the Divine Liturgy, but he was captured by the soldiers. Therefore, instead of a soulless offering, he himself became a living offering to God, by becoming a burnt offering for his confession to Christ, and was numbered among the twenty-six Martyrs.
-// The names of the Martyrs vary by source, but of those known they are: Werekas (or Ouerkas, Vercus) and Batwin (or Bathouses, Bathusius) the presbyters, Arpulas (Arpilus) the monk, the eleven laymen Abippas (Abibus), Hagias (Agnus), Ruias (Reas), Egathrax (Igathrax), Eskoes (Iscous), Silas, Sigetzas (Signicus), Swerilas (Sonerilas), Swemblas (Suimbalus), Therthas (Thermus), and Philgas (Phillus), and the seven laywomen Anna, Alas (Alla), Baren (Beride, also recorded as Larissa), Moiko (Monco), Kamika (Mamika), Oneko (Virko), and Anemais (Animais, Animaida).
-// A few years later, during the reign of Valentinian and Theodosius (383–392), Gaatha, the widow of the tribal leader Winguric, who had been appointed by Athanaric to carry out the persecution of the Christians, and her daughter Duclida (or Dulcilla, Duklida), both Christians, gathered the remains of the twenty-six Martyrs and with the help of some priests and a layman named Thyellas transferred them to Syria. Gaatha later returned to her native land, where she was stoned and died as a martyr, along with her son Agathon. The relics of the holy martyrs were left to Duclida, who went to Cyzicus in Asia Minor and gave some of the relics for the founding of a church. Duclida died in peace. In some calendars Gaatha, Duclida and Agathon are also commemorated with the twenty-six Martyrs.
-// The Gothic calendar celebrates these Holy Martyrs on October 23rd, while they are listed in the Greek calendar under March 26th.
-
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Wereka Gudja;',
-        en: "Presbyter Bercus (Ouerkas, Vercus, Werekas) and;",
+        got: 'Ïn funin mikilamma 308 þiudos fraqistnodedun,',
+        en: "In the fiery inferno 308 people perished,",
+      },
+    },
+    {
+      text: {
+        got: 'þizeei þatainei 21 bi namin gakunnanda, 2 gudjans, 1 monakus jah 18 gamainjans (11 mans, 7 qinons).',
+        en: "of whom only twenty-one are known by name, 2 presbyters, 1 monk and 18 laypeople (11 men, 7 women).",
+      },
+      notes: `bi namin John 10:3`
+    },
+    {
+      text: {
+        got: 'Du þizai raþjon anaaukanda 5 barna Werekins jah Batwinis gudjane (2 sunjus jah 3 dauhtrjus).',
+        en: "To this are added the five children of the presbyters Wereka and Batwin (two sons and three daughters).",
+      },
+    },
+    {
+      text: {
+        got: 'Þata warþ ïn Gutlanda ïn Krim.',
+        en: "This took place in Gothia in the Crimea.",
+      },
+    },
+  ], info)}</p>`
+
+    article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Ïn þaim was sums manna xristeins saei brahta hunslahlaibans du aikklesjon',
+        en: "Among these was a certain Christian man who was bringing the offering breads to the church",
+      },
+    },
+    {
+      text: {
+        got: 'þaiei faura sauda aiwxaristiïns ïn Leiturgein Gudiska brūhtai weseina, iþ warþ fram gadrauhtim gafāhans',
+        en: "to be used for the eucharistic sacrifice in the Divine Liturgy, but he was captured by the soldiers.",
+      },
+      notes: `gafahans warþ fram Xristau Philippians 3:12`
+    },
+    {
+      text: {
+        got: 'sai nū, ni hunsla ïnuh saiwala, ak ïs warþ hunsla qiu Guda,',
+        en: "Therefore, instead of a soulless offering, he himself became a living offering to God,",
+      },
+    },
+    {
+      text: {
+        got: 'wairþands alabrunsts faura andahaita seinamma du Xristau,',
+        en: "by becoming a burnt offering for his confession to Christ,",
+      },
+    },
+    {
+      text: {
+        got: 'jah ïn þaim 26 martyram anaaukans was.',
+        en: "and was numbered among the twenty-six Martyrs.",
+      },
+    },
+  ], info)}</p>`
+
+    article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Namna þize martyre sind:',
+        en: "The names of the martyrs are:",
+      },
+      notes: `The original line was
+"The names of the Martyrs vary by source, but of those known they are:"
+with list of names and their variations in braces following,
+but as I'm only showing single Gothic names, I've reworded this.
+The names in Gothic I may have to adjust over time
+as their etymologies and spellings are figured out.`
+    },
+    {
+      text: {
+        got: 'Wereka Gudja jah',
+        en: "Presbyter Bercus (Ouerkas, Vercus, Werekas) and",
       },
       notes: `Taken from the calendar.
 Attested as "bi Werekan Papan" probably in ACC so an-stem perhaps.
@@ -240,8 +368,8 @@ On the english line, names in braces are variations I've found online.`
     },
     {
       text: {
-        got: 'Batwins Gudja',
-        en: "Presbyter Bathusius (Bathouses, Batwin)",
+        got: 'Batwins Gudja,',
+        en: "Presbyter Bathusius (Bathouses, Batwin),",
       },
       notes: `Taken from the calendar with the unknown Bilaif word.
 Wondering if it means deacon.
@@ -250,20 +378,14 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     },
     {
       text: {
-        got: 'miþ twaim sunum jah þrim dauhtrum seinaim;',
-        en: "with his two sons and three daughters;",
-      },
-    },
-    {
-      text: {
-        got: 'Arpulas Monakus;',
+        got: 'Arpulas Monakus,',
         en: "Monk Arpilus (Arpulas);",
       },
     },
     {
       text: {
-        got: 'gamainjai',
-        en: "laymen",
+        got: '11 gamainjai',
+        en: "11 laymen",
       },
     },
     {
@@ -328,14 +450,14 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     },
     {
       text: {
-        got: 'jah Filgas;',
+        got: 'jah Filgas,',
         en: "and Phillus (Philgas);",
       },
     },
     {
       text: {
-        got: 'jah gamainjos',
-        en: "and laywomen",
+        got: 'jah 7 gamainjos',
+        en: "and 7 laywomen",
       },
     },
     {
@@ -377,15 +499,109 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     {
       text: {
         got: 'jah Anemais.',
-        en: "and Animais (Anemais, Animaida),",
+        en: "and Animais (Anemais, Animaida).",
       },
     },
   ], info)}
 </p>`
 
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Bi sum jera, ïn þiudinassau Balaintinianaus jah Þaiaudausiaus (383–392),',
+        en: "A few years later, during the reign of Valentinian and Theodosius (383–392),",
+      },
+      notes: `bi ·id· jera Galatians 2:1`
+    },
+    {
+      text: {
+        got: 'Gaaþa, widuwo Wingureikis reikis þiudiskis',
+        en: "Gaatha, the widow of the tribal leader Winguric,",
+      },
+    },
+    {
+      text: {
+        got: 'þanei Aþanareiks gasatida du gataujan wrakjos xristeinaize,',
+        en: "who had been appointed by Athanaric to carry out the persecution of the Christians,",
+      },
+    },
+    {
+      text: {
+        got: 'jah Duklida dauhtar seina, bajoþs xristeinos,',
+        en: "and her daughter Duclida (or Dulcilla, Duklida), both Christians,",
+      },
+    },
+    {
+      text: {
+        got: 'galas laibos þize 26 martyre',
+        en: "gathered the remains of the twenty-six Martyrs",
+      },
+      notes: `gather John 6:12`
+    },
+    {
+      text: {
+        got: 'jah miþ andstalda gudjane jah gamainjamma Þyellas haitanamma brāhtedun þos du Syria.',
+        en: "and with the help of some priests and a layman named Thyellas transferred them to Syria.",
+      },
+    },
+    {
+      text: {
+        got: 'Gaaþa aftra qam du landa haimjamma, þarei warþ stainida jah gadauþnoda swe martyr,',
+        en: "Gaatha later returned to her native land, where she was stoned and died as a martyr,",
+      },
+    },
+    {
+      text: {
+        got: 'miþ Agaþaun sunau seinamma.',
+        en: "along with her son Agathon.",
+      },
+    },
+    {
+      text: {
+        got: 'Þos laibos þize martyre weihane wesun anafulhanos Duklidin,',
+        en: "The relics of the holy martyrs were left to Duclida,",
+      },
+    },
+    {
+      text: {
+        got: 'soei iddja du Kyzicaus ïn Asiai leitilai jah atgaf sumans laibo faura gasateinai aikklēsjōns.',
+        en: "who went to Cyzicus in Asia Minor and gave some of the relics for the founding of a church.",
+      },
+    },
+    {
+      text: {
+        got: 'Duklida gadauþnoda ïn gawairþi.',
+        en: "Duclida died in peace.",
+      },
+    },
+    {
+      text: {
+        got: 'Ïn sumaim kalaindārjam, Gaaþa, Duklida jah Agaþaun minþijanda auk miþ þaim 26 martyram.',
+        en: "In some calendars Gaatha, Duclida and Agathon are also commemorated with the twenty-six Martyrs.",
+      },
+      notes: `Taking Latin calendārium, following aurāli from Late Latin ōrārium,
+making kalaindāri a neuter ja-stem word`
+    },
+  ], info)}</p>`
+
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: 'Kalaindāri gutisk dulþjiþ faura þaim martyram weiham ana 23 Auktaubair,',
+        en: "The Gothic calendar celebrates these Holy Martyrs on October 23rd,",
+      },
+    },
+    {
+      text: {
+        got: 'aiþþau gameljanda ïn kalaindārjin krekamma undaro 26 Martja.',
+        en: "while they are listed in the Greek calendar under March 26th.",
+      },
+    },
+  ], info)}</p>`
+
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
-    text: { got: "26 Martyros Taurikas", en: "26 Martyrs in the Crimea" },
+    text: { got: title, en: "26 Martyrs of Gothia in the Crimea" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
@@ -396,7 +612,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
 </p>`
 
   article += html`<p lang='en' class="annotation">
-  <span class="nowrap">26 Martyrs in the Crimea</span>
+  <span class="nowrap">26 Martyrs of Gothia in the Crimea</span>
   <span class="nowrap">in the Gothic language,</span>
   <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
 </p>`
