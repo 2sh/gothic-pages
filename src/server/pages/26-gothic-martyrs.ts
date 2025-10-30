@@ -133,7 +133,7 @@ familiarity.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Dags gaminþjis: 26 Marti',
+        got: 'Dags gaminþjis: 26 Martjus',
         en: "Day of remembrance: 26 March",
       },
       notes: `Latin martius to neuter ja-stem?`
@@ -587,13 +587,13 @@ making kalaindāri a neuter ja-stem word`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Kalaindāri gutisk dulþjiþ faura þaim martyram weiham ana 23 Auktaubair,',
+        got: 'Kalaindāri gutisk dulþjiþ faura þaim martyram weiham ana 23 Auktobaira,',
         en: "The Gothic calendar celebrates these Holy Martyrs on October 23rd,",
       },
     },
     {
       text: {
-        got: 'aiþþau gameljanda ïn kalaindārjin krekamma undaro 26 Martja.',
+        got: 'aiþþau gameljanda ïn kalaindārjin krekamma undaro 26 Martjau.',
         en: "while they are listed in the Greek calendar under March 26th.",
       },
     },

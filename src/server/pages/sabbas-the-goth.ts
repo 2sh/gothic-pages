@@ -54,7 +54,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Dags gaminþjis: 15 April',
+        got: 'Dags gaminþjis: 15 Apreils',
         en: "Day of remembrance: 15 April",
       },
     },
