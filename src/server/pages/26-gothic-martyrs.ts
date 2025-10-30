@@ -564,7 +564,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     },
     {
       text: {
-        got: 'soei iddja du Kyzicaus ïn Asiai leitilai jah atgaf sumans laibo faura gasateinai aikklēsjōns.',
+        got: 'soei iddja du Kyzicaus ïn Asiai leitilai jah atgaf sumans laibo faura gasateinai aikklesjons.',
         en: "who went to Cyzicus in Asia Minor and gave some of the relics for the founding of a church.",
       },
     },
