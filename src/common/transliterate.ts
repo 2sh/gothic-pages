@@ -36,9 +36,8 @@ const gothicLatin: Mapping[] = [
 ]
 
 const latinGothic: Mapping[] = [
-  ['hv', '𐍈'],
-  ['v', '𐍈'],
-  ['c', '𐌸'],
+  ['v', '𐌱'],
+  ['c', '𐌺'],
   ['y', '𐍅'],
   ['ᛏ', '𐍊'],
   ['Ͳ', '𐍊'],
@@ -132,12 +131,16 @@ export type GeneralConfig = {
 }
 
 export type FromLatinConfig = {
+  th?: string,
+  hv?: string,
   preserveDiacritics?: boolean,
 } & GeneralConfig
 
 export function fromLatin(text: string, config?: FromLatinConfig)
 {
   const conf: Required<FromLatinConfig> = {
+    th: '',
+    hv: '',
     preserveDiacritics: false,
     numberConversion: 'normal',
     ...config,
@@ -152,6 +155,8 @@ export function fromLatin(text: string, config?: FromLatinConfig)
     part = part.normalize("NFKD")
     if (!conf.preserveDiacritics)
       part = removeDiacriticChars(part)
+    if (conf.th) part = part.replaceAll(conf.th, '𐌸')
+    if (conf.hv) part = part.replaceAll(conf.hv, '𐍈')
     part = applyMapping(part, latinGothic)
     if (conf.numberConversion !== 'none')
     {
@@ -179,8 +184,8 @@ export type ToLatinConfig = {
 export function toLatin(text: string, config?: ToLatinConfig)
 {
   const conf: Required<ToLatinConfig> = {
-    th: 'þ',
-    hv: 'ƕ',
+    th: '',
+    hv: '',
     capitalize: false,
     numberConversion: 'normal',
     ...config,

@@ -259,7 +259,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'ïn erai Balainis kaisaris,',
+        got: 'ïn erai Valainis kaisaris,',
         en: "in the time of the Emperor Valens,",
       },
     },

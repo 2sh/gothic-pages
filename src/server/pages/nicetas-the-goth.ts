@@ -139,7 +139,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda Balainis kaisaris arianiskis,',
+        got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda Valainis kaisaris arianiskis,',
         en: "and Fritigern who revenged a defeat by Athanaric with the help of Arian emperor Valens,",
       },
       notes: `"Fritigern appears in the Latinized form Fritigernus. The Gothic name is reconstructed as *Frithugairns 'desiring peace'"
@@ -266,7 +266,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Dails laibo was seiþs brāhts du maunasterjon Bisauki Detsani ïn Serbia.",
+        got: "Dails laibo was seiþs brāhts du maunasterjon Visauki Detsani ïn Serbia.",
         en: "A part of the relics was later transferred to the monastery of Visoki Dečani in Sairbia.",
       },
       notes: `*maunasterjo (μοναστήριον) looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension`

@@ -83,8 +83,16 @@ A tool for transliterating Gothic text between the Gothic and Latin alphabets,
 with various other features for displaying Gothic text.
 </p>
 <p>
-From Latin, ƕ, hv and v will convert to 𐍈, and þ and c to 𐌸.
-From Gothic 𐍈 and 𐌸 convert as chosen in the dropdown boxes.
+The 𐌸 and 𐍈 dropdown boxes determine how these two characters are converted
+between the Latin and Gothic alphabets,
+e.g. if c is selected, c converts to 𐌸 and 𐌸 to c.
+Though from Latin, ƕ will always convert to 𐍈, and þ to 𐌸. The option is
+to convert for example c to 𐌸 in case it's difficult to type þ.
+But by default,
+c converts to 𐌺 and v to 𐌱 (and also y to 𐍅) to allow for
+their creative use when writing in the Latin alphabet,
+for example with names and loanwords
+(Cappadaukia, Nauvaimbair, martyr).
 </p>
 <p>
 The 'To IPA' converter goes by the usual patterns of native words for au and ai,
