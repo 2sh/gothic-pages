@@ -593,7 +593,7 @@ making kalaindāri a neuter ja-stem word`
     },
     {
       text: {
-        got: 'aiþþau gameljanda ïn kalaindārjin krekamma undaro 26 Martjau.',
+        got: 'aiþþau gameljanda ïn kalaindārjin krekiskamma undaro 26 Martjau.',
         en: "while they are listed in the Greek calendar under March 26th.",
       },
     },

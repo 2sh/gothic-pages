@@ -88,10 +88,9 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'ïn markai Dakios andwairþis.',
+        got: 'ïn markai Raumanjos andwairþaizos.',
         en: "within the boundaries of present-day Romania.",
       },
-      notes: `*Dakia taken from Neologisms for Romania`
     },
     {
       text: {
@@ -164,7 +163,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "ïn þizai Wulfila Aipiskaupus arianisks, afarlaista Þaiaufeilaus Aipiskaupaus,",
+        got: "ïn þizai Wulfila Aipiskaupus arianisks, afarlaista Þaiaufeilaus Aipiskaupaus,",
         en: "during which arian Bishop Ulfilas, successor to Bishop Theophilus,",
       },
       notes: `afarlaistjan + galaista = afarlaista "nachfolger"`
@@ -198,7 +197,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Swe dails toje seinis, raisida Aþanareiks wrakja sleidja wiþra þans Xristeinans.",
+        got: "Swe dails toje seinaize, raisida Aþanareiks wrakja sleidja wiþra þans Xristeinans.",
         en: "As part of his actions, Athanaric raised a fierce persecution against the Christians.",
       },
     },

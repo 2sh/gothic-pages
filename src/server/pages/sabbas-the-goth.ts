@@ -54,11 +54,36 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Dags gaminþjis: 15 Apreils',
-        en: "Day of remembrance: 15 April",
+        got: 'Dags gaminþjis:',
+        en: "Day of remembrance:",
       },
     },
-  ], info)}</p>`
+    {
+      text: {
+        got: '12 Apreils (Aikklesjons wistros jah Aikklesjo Aurþaudaukseina Raumaniwiska),',
+        en: "12 April (Western churches and the Romanian Orthodox Church),",
+      },
+      notes: `Raumanja + isks`
+    },
+    {
+      text: {
+        got: '15 Apreils (Aikklesjons slabiskos),',
+        en: "15 April (Slavic churches),",
+      },
+      notes:
+`*slabus from Latin Sclavus, removing c like all others and to distance it from slave.
+
+*slabus + isks`
+    },
+    {
+      text: {
+        got: '18 Apreils (Aikklesjons krekiskos)',
+        en: "18 April (Greek churches)",
+      },
+      notes: `kreks + isks`
+    },
+  ], info)}
+  </p>`
 
   article += html`  <h2>${toGothicLines([{
     text: {
