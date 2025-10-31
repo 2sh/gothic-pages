@@ -13,6 +13,7 @@ import
 // https://en.wikipedia.org/wiki/Sabbas_Stratelates
 // https://www.oca.org/saints/lives/2025/04/24/101188-martyr-savva-stratelates-the-general-of-rome-and-70-soldiers-wit
 // https://days.pravoslavie.ru/Life/life922.htm
+// https://www.saint.gr/1457/saint.aspx
 
 const slug = 'sabba-stratailats'
 const title = 'Sabba Stratailats Martyr'
