@@ -90,6 +90,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   <li><a href="gudabairandei">Theotokos</a></li>
   <li><a href="niketa-sa-guta">Nicetas the Goth</a></li>
   <li><a href="sabba-sa-guta">Sabbas the Goth</a></li>
+  <li><a href="sabba-stratailats">Sabbas Stratelates</a> (WIP)</li>
   <li><a href="26-martyros">26 Gothic Martyrs in the Crimea</a></li>
 </ul>
 
