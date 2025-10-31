@@ -16,9 +16,9 @@ import
 // https://en.wikipedia.org/wiki/Sabbas_the_Goth
 
 
-const slug = 'sabba'
-const title = 'Sabba sa Guta Mikilmartyr'
-const description = "Sabba sa Guta Mikilmartyr, skeireins ïn razdai gutiskai."
+const slug = 'sabba-sa-guta'
+const title = 'Sabba sa Guta Martyr'
+const description = "Sabba sa Guta Martyr, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -44,8 +44,8 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Sabba sa Guta Mikilmartyr',
-      en: "Great-Martyr Sabbas the Goth",
+      got: 'Sabba sa Guta Martyr',
+      en: "Martyr Sabbas the Goth",
     },
     notes: `Sabbas (Σάββας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem without -s as I can imagine it became the norm.`
   },], info)}</h1>

@@ -25,9 +25,9 @@ import
 // https://www.worldhistory.org/Athanaric/
 
 
-const slug = 'niketa'
-const title = 'Niketa sa Guta Mikilmartyr'
-const description = "Niketa sa Guta Mikilmartyr, skeireins ïn razdai gutiskai."
+const slug = 'niketa-sa-guta'
+const title = 'Niketa sa Guta Martyr'
+const description = "Niketa sa Guta Martyr, skeireins ïn razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -53,8 +53,8 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Niketa sa Guta Mikilmartyr',
-      en: "Great-Martyr Nicetas the Goth",
+      got: 'Niketa sa Guta Martyr',
+      en: "Martyr Nicetas the Goth",
     },
     notes: `Niketa (Nικήτας) following https://www.nthuleen.com/papers/755gothpaper.html for naming, n-stem without -s as I can imagine it became the norm.`
   },], info)}</h1>
