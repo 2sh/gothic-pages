@@ -508,7 +508,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Bi sum jera, ïn þiudinassau Balaintinianaus jah Þaiaudausiaus (383–392),',
+        got: 'Bi sum jera, ïn þiudinassau Valaintinianaus jah Þaiaudausiaus (383–392),',
         en: "A few years later, during the reign of Valentinian and Theodosius (383–392),",
       },
       notes: `bi ·id· jera Galatians 2:1`
@@ -564,7 +564,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     },
     {
       text: {
-        got: 'soei iddja du Kyzicaus ïn Asiai leitilai jah atgaf sumans laibo faura gasateinai aikklesjons.',
+        got: 'soei iddja du Cyzicaus ïn Asiai leitilai jah atgaf sumans laibo faura gasateinai aikklesjons.',
         en: "who went to Cyzicus in Asia Minor and gave some of the relics for the founding of a church.",
       },
     },
