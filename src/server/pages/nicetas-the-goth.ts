@@ -25,7 +25,7 @@ import
 // https://www.worldhistory.org/Athanaric/
 
 
-const slug = 'niketa-sa-guta'
+const slug = 'niketa'
 const title = 'Niketa sa Guta Martyr'
 const description = "Niketa sa Guta Martyr, skeireins ïn razdai gutiskai."
 

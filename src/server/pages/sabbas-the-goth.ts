@@ -16,7 +16,7 @@ import
 // https://en.wikipedia.org/wiki/Sabbas_the_Goth
 
 
-const slug = 'sabba-sa-guta'
+const slug = 'sabba'
 const title = 'Sabba sa Guta Martyr'
 const description = "Sabba sa Guta Martyr, skeireins ïn razdai gutiskai."
 
