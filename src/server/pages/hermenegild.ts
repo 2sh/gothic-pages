@@ -9,11 +9,10 @@ import
   toGothicLines,
 } from '@server/tools'
 
-
-// https://en.wikipedia.org/wiki/Sabbas_Stratelates
-// https://www.oca.org/saints/lives/2025/04/24/101188-martyr-savva-stratelates-the-general-of-rome-and-70-soldiers-wit
-// https://days.pravoslavie.ru/Life/life922.htm
-// https://www.saint.gr/1457/saint.aspx
+// https://en.wikipedia.org/wiki/Hermenegild
+// https://www.johnsanidopoulos.com/2010/11/holy-martyr-hermenegild-goth-killed-by.html
+// https://www.oca.org/saints/lives/2023/11/01/103140-martyr-hermenegild-the-goth-of-spain
+// https://www.tertullian.org/fathers/gregory_03_dialogues_book3.htm#C31
 
 const slug = 'airmunagilds'
 const title = 'Airmunagilds sa Guta Martyr Hispanjos'
