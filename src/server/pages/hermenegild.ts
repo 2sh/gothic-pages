@@ -53,8 +53,20 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Dags gaminþjis: 13 Apreils',
-        en: "Day of remembrance: 13 April",
+        got: 'Dags gaminþjis:',
+        en: "Day of remembrance:",
+      },
+    },
+    {
+      text: {
+        got: '1 Naubaimbair (Aikklesjo Aurþaudaukseina Austra),',
+        en: "1 November (Eastern Orthodox Church),",
+      },
+    },
+    {
+      text: {
+        got: '13 Apreils (Aikklesjons wistros),',
+        en: "13 April (Western churches),",
       },
     },
   ], info)}
