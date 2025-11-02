@@ -15,8 +15,8 @@ import
 // https://days.pravoslavie.ru/Life/life922.htm
 // https://www.saint.gr/1457/saint.aspx
 
-const slug = 'airmanagilds'
-const title = 'Airmanagilds sa Guta Martyr Hispanjos'
+const slug = 'airmunagilds'
+const title = 'Airmunagilds sa Guta Martyr Hispanjos'
 const description = `${title}, skeireins ïn razdai gutiskai.`
 
 const anchors: Anchor[] = [
@@ -43,10 +43,10 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Airmanagilds sa Guta\nMartyr Hispanjos',
+      got: 'Airmunagilds sa Guta\nMartyr Hispanjos',
       en: "Martyr Hermenegild the Goth of Spain",
     },
-    notes: `Airmana-gild, "immense tribute"`
+    notes: `[url=https://en.wiktionary.org/wiki/Reconstruction:Proto-Germanic/ermunaz]airmuns[/url] + gilds`
   },], info)}</h1>
 </header>`
 

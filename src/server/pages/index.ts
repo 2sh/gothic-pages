@@ -91,7 +91,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
   <li><a href="niketa">Nicetas the Goth</a></li>
   <li><a href="sabba">Sabbas the Goth</a></li>
   <li><a href="sabba-stratailats">Sabbas Stratelates</a> (WIP)</li>
-  <li><a href="airmanagilds">Hermenegild the Goth of Spain</a> (WIP)</li>
+  <li><a href="airmunagilds">Hermenegild the Goth of Spain</a> (WIP)</li>
   <li><a href="26-martyros">26 Gothic Martyrs in the Crimea</a></li>
 </ul>
 
