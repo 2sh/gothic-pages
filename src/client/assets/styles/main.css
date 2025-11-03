@@ -257,12 +257,18 @@ a
   color: var(--link-color);
 }
 
+
+h1,h2,h3,h4,h5,.subtitle
+{
+  white-space: pre-wrap;
+  text-wrap-style: balance;
+}
+
 h1
 {
   font-size: 26px;
   line-height: 26px;
   margin: 0;
-  white-space: pre-wrap;
 }
 
 .subtitle
@@ -276,7 +282,6 @@ h2
   line-height: 22px;
   margin: 14px 0 0 0;
   text-align: center;
-  white-space: pre-wrap;
 }
 
 h3
@@ -284,7 +289,6 @@ h3
   font-size: 20px;
   line-height: 20px;
   margin: 14px 0 0 0;
-  white-space: pre-wrap;
 }
 
 h4
@@ -293,8 +297,8 @@ h4
   line-height: 20px;
   margin: 14px 0 0 0;
   font-style: italic;
-  white-space: pre-wrap;
 }
+
 
 ul
 {
