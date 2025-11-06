@@ -359,7 +359,7 @@ as their etymologies and spellings are figured out.`
     {
       text: {
         got: 'Wereka Gudja jah',
-        en: "Presbyter Bercus (Ouerkas, Vercus, Werekas) and",
+        en: "Presbyter Bercus (Ouerkas, Vercus, Werekas, Oυΐρκας) and",
       },
       notes: `Taken from the calendar.
 Attested as "bi Werekan Papan" probably in ACC so an-stem perhaps.
@@ -369,7 +369,7 @@ On the english line, names in braces are variations I've found online.`
     {
       text: {
         got: 'Batwins Gudja,',
-        en: "Presbyter Bathusius (Bathouses, Batwin),",
+        en: "Presbyter Bathusius (Bathouses, Batwin, Bαθούσις),",
       },
       notes: `Taken from the calendar with the unknown Bilaif word.
 Wondering if it means deacon.
@@ -379,7 +379,7 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     {
       text: {
         got: 'Arpulas Monakus,',
-        en: "Monk Arpilus (Arpulas);",
+        en: "Monk Arpilus (Arpulas, Aρπύλλας);",
       },
     },
     {
@@ -391,67 +391,67 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     {
       text: {
         got: 'Abippas,',
-        en: "Abibus (Abippus, Habib, Abippas),",
+        en: "Abibus (Abippus, Habib, Abippas, Aβήπας),",
       },
     },
     {
       text: {
         got: 'Hagias,',
-        en: "Agnus (Hagias),",
+        en: "Agnus (Hagias, Aγνάς),",
       },
     },
     {
       text: {
         got: 'Ruias,',
-        en: "Reasus (Ruias, Reas),",
+        en: "Reasus (Ruias, Reas, Pύαξ),",
       },
     },
     {
       text: {
-        got: 'Egaþraks,',
-        en: "Igathrax (Egathrax),",
+        got: 'Aigaþraks,',
+        en: "Igathrax (Egathrax, Hγάθραξ),",
       },
     },
     {
       text: {
         got: 'Eskoes,',
-        en: "Iscoeus (Iskous, Eskoes, Escoos),",
+        en: "Iscoeus (Iskous, Eskoes, Escoos, Hσκόος),",
       },
     },
     {
       text: {
         got: 'Silas,',
-        en: "Silas,",
+        en: "Silas (Σύλας),",
       },
     },
     {
       text: {
-        got: 'Sigetzas,',
-        en: "Signicus (Sigetzas),",
+        got: 'Sigetsas,',
+        en: "Signicus (Sigetzas, Σίγητζας),",
       },
     },
     {
       text: {
-        got: 'Swerilas,',
-        en: "Sonirilus (Swerilas),",
+        got: 'Swairilas,',
+        en: "Sonirilus (Swerilas, Σουηρίλλας),",
       },
     },
     {
       text: {
-        got: 'Swemblas,',
-        en: "Suimbalus (Swemblas),",
+        got: 'Swaimblas,',
+        en: "Suimbalus (Swemblas, Σεΐμβλας),",
       },
     },
     {
       text: {
-        got: 'Þerþas',
-        en: "Thermus (Therthas),",
+        got: 'Þairþas',
+        en: "Thermus (Therthas, Θέρμας),",
       },
     },
     {
       text: {
         got: 'jah Filgas,',
-        en: "and Phillus (Philgas);",
+        en: "and Phillus (Philgas, Φίλγας);",
       },
     },
     {
@@ -463,43 +463,43 @@ Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
     {
       text: {
         got: 'Anna,',
-        en: "Anna,",
+        en: "Anna (Άννα),",
       },
     },
     {
       text: {
-        got: 'Alas,',
-        en: "Alla (Alas),",
+        got: 'Allas,',
+        en: "Alla (Alas, Aλλάς),",
       },
     },
     {
       text: {
-        got: 'Baren,',
-        en: "Larissa (Baren, Beride),",
+        got: 'Baurgs,',
+        en: "Larissa (Baren, Beride, Bάρις),",
       },
     },
     {
       text: {
         got: 'Moiko,',
-        en: "Monco (Manca, Moiko),",
+        en: "Monco (Manca, Moiko, Mωικώ),",
       },
     },
     {
       text: {
         got: 'Kamika,',
-        en: "Mamica (Kamika),",
+        en: "Mamica (Kamika, Mαμύκα),",
       },
     },
     {
       text: {
         got: 'Oneko',
-        en: "Uirko (Virko, Oneko),",
+        en: "Uirko (Virko, Oneko, Oυϊρκώ),",
       },
     },
     {
       text: {
         got: 'jah Anemais.',
-        en: "and Animais (Anemais, Animaida).",
+        en: "and Animais (Anemais, Animaida, Aνιμάις).",
       },
     },
   ], info)}
