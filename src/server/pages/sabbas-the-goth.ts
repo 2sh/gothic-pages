@@ -85,7 +85,7 @@ const generator: PageGenerator = info =>
   ], info)}
   </p>`
 
-  article += html`  <h2>${toGothicLines([{
+  article += html`<h2>${toGothicLines([{
     text: {
       got: 'Faurawaurdeis Aukridiskis',
       en: "From the Ochrid Prologue",
