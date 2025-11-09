@@ -64,8 +64,8 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: '13 Apreils (Aikklesjons wistros),',
-        en: "13 April (Western churches),",
+        got: '13 Apreils (Aikklesjons wistros)',
+        en: "13 April (Western churches)",
       },
     },
   ], info)}
