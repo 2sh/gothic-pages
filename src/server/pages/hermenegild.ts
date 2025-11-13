@@ -99,7 +99,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'gawandeiþ sik fram airzein arianiskai du galaubeinai Kaþauleigai, þairh mannan gaaistaidana maistana Laiandru aipiskaupu Sevillas,',
+        got: 'gawandeiþ sik fram airzein arianiskai du galaubeinai Kaþauleigai þairh mannan gaaistaidana maistana Laiandru aipiskaupu Sevillas,',
         la: "ab Ariana hæresi ad fidem catholicam, viro reverentissimo Leandro Hispalitano episcopo,",
         en: "was from Arian heresy lately converted to the Catholic faith by the most reverent man Leander, Bishop of Seville,",
       },
@@ -107,11 +107,13 @@ const generator: PageGenerator = info =>
 airziþa to mean deceit in the Bible,
 so -ei seems to build on the adjective and -iþa on the verb (action of the verb).
 
-Following Alaiksandrus, Laiandrus`
+Following Alaiksandrus, Laiandrus
+
+þairh uns merjada Corinthians II 1:19`
     },
     {
       text: {
-        got: 'faura maurgau mis ïn frijaþwai liubaleiko gawidana merjandan.',
+        got: 'faura maurgau mis ïn frijaþwai liubaleiko gawidana, merjandan.',
         la: "dudum mihi in amicitiis familiariter juncto prædicante conversus est.",
         en: "with whom I was not long since familiarly acquainted;",
       },
@@ -121,28 +123,36 @@ Following Alaiksandrus, Laiandrus`
 
 Using frijaþwa for friendship, though still want something better perhaps.
 
-"haftjandans godamma" Romans 12:9 uses dative and gawidan I feel would be similar
+"haftjandans godamma" Romans 12:9 uses dative, and gawidan I feel would be similar
 
 "Through the preaching bishop"`
     },
     {
       text: {
-        got: 'Ïmma atta arianisks, duþe ei sik du samon airzein atwandjai, miþ launam fullaweisjan jah miþ ƕotom inagjan sokida.',
+        got: 'Ïmma sa atta arianiska, duþe ei sik du samon airzein atwandjai, launam fullaweisjan jah ƕotom inagjan sokida.',
         la: "Quem pater Arianus, ut ad eamdem hærseim rediret, & præmiis suadere, & minis terrere conatus est.",
         en: "which young Prince, upon his conversion, his father, being an Arian, laboured both by large promises and terrible threats to draw again to his former error:",
+      },
+      notes: `launam and ƕotom are instrumental datives (with)`
+    },
+    {
+      text: {
+        got: 'Ïþ biþe unsweibands andhof, ei þo galaubein sunjon ni aiw bileiþan mahtedi, þoei suman ufkunþedi, sa atta þwairhs binam af imma þiudinassu jah birauboda alla aigina.',
+        la: "Cumque ille constantissime responderet, nunquam se veram fidem posse relinquere, quam semel agnovisset, iratus pater eum privavit regno, rebusque exspoliavit omnibus.",
+        en: "but when most constantly his son answered, that he would never forsake the true faith which he had once embraced, his father in great anger took away his kingdom, and beside deprived him of all wealth and riches;",
       },
     },
     {
       text: {
-        got: 'Ïþ ',
-        la: "Cumque ille constantissime responderet, nunquam fe veram fidem posse relinquere, quam semel agnovisset, iratus pater eum privavit regno, rebusque exspoliavit omnibus.",
-        en: "",
+        got: '',
+        la: "Cumque nec sic virtutem mentis illius emollire valuisset, in arcta illum custodia concludens, collum manusque illius ferro ligavit.",
+        en: "and perceiving that, with all this, his mind was nothing moved, he committed him to straight prison, laying irons both upon his neck and hands.",
       },
     },
   ], info)}</p>`
 
 /*
-but when most constantly his son answered, that he would never forsake the true faith which he had once embraced, his father in great anger took away his kingdom, and beside deprived him of all wealth and riches; and perceiving that, with all this, his mind was nothing moved, he committed him to straight prison, laying irons both upon his neck and hands. Upon this, the young king Hermigildus began now to contemn his earthly kingdom, and to seek with great desire after the kingdom of heaven: and lying in prison fast bound, he prayed to almighty God in hair-cloth to send him heavenly comfort: and so much the more did he despise the glory of this transitory world, by how much he knew himself in that case that he had now nothing that could be taken from him.
+Upon this, the young king Hermigildus began now to contemn his earthly kingdom, and to seek with great desire after the kingdom of heaven: and lying in prison fast bound, he prayed to almighty God in hair-cloth to send him heavenly comfort: and so much the more did he despise the glory of this transitory world, by how much he knew himself in that case that he had now nothing that could be taken from him.
 
 When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious |156 consecration, that he might thereby again recover his father's grace and favour: but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul. The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay: which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
 
