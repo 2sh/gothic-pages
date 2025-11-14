@@ -376,7 +376,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "miþ muna tulgjamma þiudai seinai sildaleik.",
+      got: "muna tulgjamma þiudai seinai sildaleik.",
       sr: "И трпљењем храбрим народ свој задиви,",
       en: "With firm resolve to his people an astonishment.",
       de: "... seinem Volke eine Verwunderung.",
@@ -394,7 +394,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah fullida alla þiuda seina miþ faurhtein Gudis.",
+      got: "jah fullida alla þiuda seina faurhteins Gudis.",
       sr: "И страхом од Бога сав народ испуни.",
       en: "And filled all his people with the fear of God.",
     },

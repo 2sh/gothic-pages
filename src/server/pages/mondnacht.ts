@@ -113,7 +113,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "nahts miþ stairnon skeirs abraba.",
+      got: "nahts stairnons skeirs abraba.",
       de: "So sternklar war die Nacht.",
     },
   }], info)}
