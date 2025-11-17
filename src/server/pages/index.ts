@@ -47,11 +47,9 @@ writing systems (how I found the gothic language originally) and dozenal.</p>
 <h2>Tools</h2>
 <ul>
   <li><a href="transliterator">Transliterator</a></li>
-  <li><a href="https://github.com/2sh/wulfilaverse/raw/refs/heads/master/wulfilaverse.user.js">WulfilaVerse</a> -
+  <li><a href="https://github.com/2sh/WulfilaVerse">WulfilaVerse</a> -
   A Userscript which adds <a href='https://www.wulfila.be/gothic/browse/'>Wulfila.be</a>
-  verse links to <a href="https://biblehub.com/">BibleHub</a>, but only if attested.
-  Useful for finding phrases or Greek words in BibleHub, immediately seeing if a verse
-  is attested in Gothic and being presented with a Wulfila.be link when it is.</li>
+  verse links to Bible Hub and Bible Gateway.</li>
 </ul>
 
 
