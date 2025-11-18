@@ -144,7 +144,7 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: "Jan'ni swa mahtedi godein/swinþein ahins ïs waikjan, galagjands ïna ïn karkara hardjai, gaband bi halsaggan jah handuns ïs eisarnam.",
+        got: "Jan'ni swa mahtedi godein/swinþein ahins ïs waikjan, galagjands ïna ïn karkara hardja, gaband bi halsaggan jah handuns ïs eisarnam.",
         la: "Cumque nec sic virtutem mentis illius emollire valuisset, in arcta illum custodia concludens, collum manusque illius ferro ligavit.",
         en: "and perceiving that, with all this, his mind was nothing moved, he committed him to straight prison, laying irons both upon his neck and hands.",
       },
