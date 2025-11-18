@@ -144,10 +144,27 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: '',
+        got: "Jan'ni swa mahtedi godein/swinþein ahins ïs waikjan, galagjands ïna ïn karkara hardjai, gaband bi halsaggan jah handuns ïs eisarnam.",
         la: "Cumque nec sic virtutem mentis illius emollire valuisset, in arcta illum custodia concludens, collum manusque illius ferro ligavit.",
         en: "and perceiving that, with all this, his mind was nothing moved, he committed him to straight prison, laying irons both upon his neck and hands.",
       },
+      notes: `'cumque' was used previously so don't need to use 'ïþ' again really,
+so using 'jah' like the English translation with 'and',
+and Corinthians I 14:21 has "et nec sic" and is "jan~ni swa"
+(as displayed on Wulfila.be) in Gothic. "jan~ni" coming from jah + ni,
+I decided to keep them visually separate for clarity,
+but using an apostrophe as it's less intrusive and is used in
+a lot of other languages too for marking contraction.
+
+And not in that manner was he able to weaken the strength of his mind,..
+
+"in karkara galagjaza." Matthew 5:25
+
+hardus to mean austere, using it for the arcta meaning
+
+"ana halsaggan" Mark 9:42, using halsagga instead of hals as it seems to emphasise the roundness
+
+"eisarnam bi fotuns gabuganaim jah naudibandjom eisarneinaim gabundans" Mark 5:4`
     },
   ], info)}</p>`
 
