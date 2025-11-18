@@ -168,7 +168,7 @@ hardus to mean austere, using it for the arcta meaning
     },
     {
       text: {
-        got: 'Swah anastodida Airmunagilds sa þiudans jugga þiudangardja airþeina frakunnan, ligan gabundans ïn sakkau, ...', // omnipotent.dat/abl God.dat.abl to strengthen.gerund himself prayers.acc pour_out.inf
+        got: 'Swah anastodida Airmunagilds sa þiudans jugga þiudangardja airþeina frakunnan, gabundans ïn sakkau ligan, ...', // omnipotent.dat/abl God.dat.abl to strengthen.gerund himself prayers.acc pour_out.inf
         la: "Cœpit itaque idem Herminigildus rex juvenis terrenum regnum despicere, in ciliciis vinculatus jacere, omnipotenti Deo ad confortandum se preces effundere, tantoque subliminius floriam transeuntis mundi despicere, quanto & religatus agnoverat, nil fuisse quod poruerit auserri.",
         en: "Upon this, the young king Hermigildus began now to condemn his earthly kingdom, and to seek with great desire after the kingdom of heaven:",
       },
