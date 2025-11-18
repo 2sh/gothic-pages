@@ -162,14 +162,21 @@ And not in that manner was he able to weaken the strength of his mind,..
 
 hardus to mean austere, using it for the arcta meaning
 
-"ana halsaggan" Mark 9:42, using halsagga instead of hals as it seems to emphasise the roundness
+"ana halsaggan" Mark 9:42, using halsagga instead of hals to emphasise the tightness
 
 "eisarnam bi fotuns gabuganaim jah naudibandjom eisarneinaim gabundans" Mark 5:4`
+    },
+    {
+      text: {
+        got: 'Swah anastodida Airmunagilds sa þiudans jugga þiudangardja airþeina frakunnan, ligan gabundans ïn sakkau, ...', // omnipotent.dat/abl God.dat.abl to strengthen.gerund himself prayers.acc pour_out.inf
+        la: "Cœpit itaque idem Herminigildus rex juvenis terrenum regnum despicere, in ciliciis vinculatus jacere, omnipotenti Deo ad confortandum se preces effundere, tantoque subliminius floriam transeuntis mundi despicere, quanto & religatus agnoverat, nil fuisse quod poruerit auserri.",
+        en: "Upon this, the young king Hermigildus began now to condemn his earthly kingdom, and to seek with great desire after the kingdom of heaven:",
+      },
     },
   ], info)}</p>`
 
 /*
-Upon this, the young king Hermigildus began now to contemn his earthly kingdom, and to seek with great desire after the kingdom of heaven: and lying in prison fast bound, he prayed to almighty God in hair-cloth to send him heavenly comfort: and so much the more did he despise the glory of this transitory world, by how much he knew himself in that case that he had now nothing that could be taken from him.
+ and lying in prison fast bound, he prayed to almighty God in hair-cloth to send him heavenly comfort: and so much the more did he despise the glory of this transitory world, by how much he knew himself in that case that he had now nothing that could be taken from him.
 
 When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious |156 consecration, that he might thereby again recover his father's grace and favour: but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul. The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay: which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
 
