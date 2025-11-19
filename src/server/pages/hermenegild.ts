@@ -177,12 +177,24 @@ hardus to mean austere, using it for the arcta meaning
         de: "So lernte der junge König Herminigild das irdische Königreich verachten, und voll starker Sehnsucht das himmlische suchend lag er im Büßergewand in seinen Fesseln, bat den allmächtigen Gott um Stärke und verachtete um so mehr die Herrlichkeit der vergänglichen Welt, als er gerade in seinem Kerker die Nichtigkeit dessen erkannte, was ihm hatte genommen werden können.",
       },
       notes: `"þatei magi" Mark 7:15, magan can be used for things too, not just people`
+  },
+  ], info)}</h2>`
+
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: '...',
+        la: "Superveniente autem Paschalis festivitatis die, intempestæ noctis silentio ad eum perfidus pater Arianum episcopum misit, ut ex ejus manu sacrilegæ consecrationis communionem perciperet, atque per hoc ad patris gratiam redire mereretur.",
+        en: "When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious  consecration, that he might thereby again recover his father's grace and favour:",
+        de: "Da nun aber das Osterfest nahte, sandte der ketzerische Vater in der Stille der Nacht einen arianischen Bischof zu ihm, damit er aus seiner Hand sakrilegisch die heilige Kommunion empfange und so verdiene, beim Vater wieder in Gunst zu gelangen.",
+      },
+      notes: ``
     },
   ], info)}</p>`
 
 /*
 
-When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious |156 consecration, that he might thereby again recover his father's grace and favour: but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul. The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay: which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
+ but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul. The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay: which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
 
 Afterward, for the publishing of his true glory to the world, there wanted not miracles from heaven: for in the night time singing was heard at his body: some also report that, in the night, burning lamps were seen in that place: by reason whereof his body, as of him that was a martyr, was worthily worshipped of all Christian people. But the wicked father and murtherer of his own son, albeit he was sorry that he had put him to death, yet was not his grief of that quality that it brought him to the state of salvation. For although he knew very well that the Catholic faith was the truth, yet, for fear of his people, he never deserved to be a professor thereof.
 
