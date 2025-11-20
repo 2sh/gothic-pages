@@ -96,11 +96,6 @@ for (const line of lines)
     JSON.parse(line.getAttribute('data-line') || 'null')
   if (info === null) continue
 
-  info.text = {
-    got: line.textContent,
-    ...info.text,
-  }
-
   const id = parseInt(line.id.match(/\d+/)![0])
 
   function selectCurrentLine()
