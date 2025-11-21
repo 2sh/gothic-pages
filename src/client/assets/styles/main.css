@@ -134,7 +134,7 @@ body
 {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .menu > div
@@ -347,12 +347,17 @@ ul
 #info-box
 {
   display: none;
-  background-color: var(--box-color);
+  width: 500px;
+  font-family: 'Noto Sans Gothic', sans-serif;
+  position: fixed;
+  top: 100px;
+  left: 1000px;
+  bottom: 0;
 }
 
 .has-info-box #info-box
 {
-  display: block;
+  display: flex;
 }
 
 #info-box p
@@ -362,16 +367,21 @@ ul
 
 #info-box-inner
 {
-  margin: 10px;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
 }
 
-#info-box
+#info-box-inner .menu,
+#info-box-content
 {
-  width: 300px;
-  font-family: 'Noto Sans Gothic', sans-serif;
-  position: fixed;
-  top: 100px;
-  left: 1000px;
+  background-color: var(--box-color);
+  padding: 10px;
+}
+
+#info-box-content
+{
+  overflow-y: auto;
 }
 
 .line-id
@@ -381,6 +391,15 @@ ul
 }
 
 /* Screen adaptation */
+
+@media only screen and (max-width: 1500px)
+{
+  #info-box
+  {
+    right: 0;
+    width: auto;
+  }
+}
 
 @media only screen and (max-width: 1200px)
 {
@@ -406,7 +425,6 @@ ul
   {
     width: auto;
     left: 800px;
-    right: 0;
   }
 }
 
@@ -435,8 +453,7 @@ ul
 
   #info-box-content
   {
-    overflow-y: auto;
-    height: 245px;
+    flex-grow: 1;
   }
 
   .speaker
