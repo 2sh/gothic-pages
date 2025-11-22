@@ -74,7 +74,7 @@ const generator: PageGenerator = info =>
 
   article += html`<h2>${toGothicLines([{
     text: {
-      got: 'Gawaurdja Gregaurjaus Weihis\nBoka 3, Haubiþ 31',
+      got: 'Gawaurdje Gregaurjaus Weihis\nBoka 3, Haubiþ 31',
       lat: 'Dialogorum, Lib. III, Caput XXI',
       en: "St. Gregory's Dialogues, Book 3, Chapter 31",
       de: "St. Gregors Dialoge, Buch 3, Kapitel 31"
@@ -199,16 +199,25 @@ consecrate is gaweihan, class 3 + ains => *gaweihains for consecration.
 
 Using unairkns for sacrilegious.
 It feels fitting with airkns being holy but also having
-a "genuine, sincere, pure" meaning. unairkns being a distortion of that,
+a "genuine, sincere, pure" meaning, pious perhaps. unairkns being a distortion of that,
 impure, ungenuine, inauthentic.
 Also, Timothy I 1:9 & Timothy II 3:2 have ἀνοσίοις as unairkns,
 ἀνοσίοις meaning "1. impious, godless; 2. sacrilegious".`
     },
+    {
+      text: {
+        got: '...',
+        la: "Sed vir Deo deditus, Ariano episcopo venienti exprobravit ut debuit, ejusque a se perfidiam dignis increpationibus repulit: quia etsi exterius jacebat ligatus, apud se tamen in magno mentis culmine stabat secutus.",
+        en: "but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul.",
+        de: "Aber der Mann, der sich Gott geweiht hatte, wies den arianischen Bischof bei seinem Erscheinen nach Gebühr zurecht und verwarf seine Ketzerei mit entsprechendem Tadel; denn wenn er auch äußerlich in Fesseln lag, stand er in seinem Innern unerschütterlich auf großer Geisteshöhe.",
+      },
+      notes: ``
+    }
   ], info)}</p>`
 
 /*
 
- but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul. The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay: which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
+  The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay: which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
 
 Afterward, for the publishing of his true glory to the world, there wanted not miracles from heaven: for in the night time singing was heard at his body: some also report that, in the night, burning lamps were seen in that place: by reason whereof his body, as of him that was a martyr, was worthily worshipped of all Christian people. But the wicked father and murtherer of his own son, albeit he was sorry that he had put him to death, yet was not his grief of that quality that it brought him to the state of salvation. For although he knew very well that the Catholic faith was the truth, yet, for fear of his people, he never deserved to be a professor thereof.
 
