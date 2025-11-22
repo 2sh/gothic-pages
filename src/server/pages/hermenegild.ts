@@ -74,7 +74,7 @@ const generator: PageGenerator = info =>
 
   article += html`<h2>${toGothicLines([{
     text: {
-      got: 'Gawaurdja Gregaurjaus Weihis,\nBoka 3, Haubiþ 31',
+      got: 'Gawaurdja Gregaurjaus Weihis\nBoka 3, Haubiþ 31',
       lat: 'Dialogorum, Lib. III, Caput XXI',
       en: "St. Gregory's Dialogues, Book 3, Chapter 31",
       de: "St. Gregors Dialoge, Buch 3, Kapitel 31"
@@ -129,7 +129,7 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: 'Ïmma sa atta arianiska, duþe ei sik du samon airzein atwandjai, launam fullaweisjan jah ƕotom inagjan sokida.',
+        got: 'Ïmma sa atta arianiska, dūþe ei sik du samon airzein atwandjai, launam fullaweisjan jah ƕotom inagjan sokida.',
         la: "Quem pater Arianus, ut ad eamdem hærseim rediret, & præmiis suadere, & minis terrere conatus est.",
         en: "which young Prince, upon his conversion, his father, being an Arian, laboured both by large promises and terrible threats to draw again to his former error:",
         de: 'Der arianische Vater suchte ihn durch Versprechungen und Drohungen wieder zur Rückkehr in die Häresie zu bewegen.',
@@ -183,12 +183,26 @@ hardus to mean austere, using it for the arcta meaning
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: '...',
+        got: 'Aþþan þan qam dags dulþais Paska, ïn þahainai riqizis nahts insandida sa airzja atta aipiskaupu arianiskana du ïmma, dūþe us handau ïs gamaindūþ gaweihainais unairknaizos andnemi, eiþan þairh þata aftra anst attins ganuti.',
         la: "Superveniente autem Paschalis festivitatis die, intempestæ noctis silentio ad eum perfidus pater Arianum episcopum misit, ut ex ejus manu sacrilegæ consecrationis communionem perciperet, atque per hoc ad patris gratiam redire mereretur.",
-        en: "When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious  consecration, that he might thereby again recover his father's grace and favour:",
+        en: "When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious consecration, that he might thereby again recover his father's grace and favour:",
         de: "Da nun aber das Osterfest nahte, sandte der ketzerische Vater in der Stille der Nacht einen arianischen Bischof zu ihm, damit er aus seiner Hand sakrilegisch die heilige Kommunion empfange und so verdiene, beim Vater wieder in Gunst zu gelangen.",
       },
-      notes: ``
+      notes: `"aþþan þan qam" (Cum autem venisset) Galatians 2:11
+
+intempestæ noctis - darkest night, gone with "of the darkness of the night."
+riqis old norse cognate røkkr meaning twilight so fitting.
+
+gamainduþs bloþis fraujins "communion of the blood of Christ" Corinthians I 10:16
+
+consecrate is gaweihan, class 3 + ains => *gaweihains for consecration.
+
+Using unairkns for sacrilegious.
+It feels fitting with airkns being holy but also having
+a "genuine, sincere, pure" meaning. unairkns being a distortion of that,
+impure, ungenuine, inauthentic.
+Also, Timothy I 1:9 & Timothy II 3:2 have ἀνοσίοις as unairkns,
+ἀνοσίοις meaning "1. impious, godless; 2. sacrilegious".`
     },
   ], info)}</p>`
 
