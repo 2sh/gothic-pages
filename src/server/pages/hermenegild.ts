@@ -75,7 +75,7 @@ const generator: PageGenerator = info =>
   article += html`<h2>${toGothicLines([{
     text: {
       got: 'Gawaurdje Gregaurjaus Weihis\nBoka 3, Haubiþ 31',
-      lat: 'Dialogorum, Lib. III, Caput XXI',
+      lat: 'Dialogorum Sancti Gregorii, Lib. III, Caput XXI',
       en: "St. Gregory's Dialogues, Book 3, Chapter 31",
       de: "St. Gregors Dialoge, Buch 3, Kapitel 31"
     },
