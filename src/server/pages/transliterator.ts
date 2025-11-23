@@ -129,7 +129,7 @@ diacritics.
 <p>
 When converting to Gothic, diacritics are removed by default.
 The 'Preserve diacritics' feature preserves them by adding them
-as a Unicode combining diacritics after the Gothic characters.
+as Unicode combining diacritics after the Gothic characters.
 Though they could, Gothic fonts normally do not support this however,
 and the marks end up not being placed well.
 </p>
