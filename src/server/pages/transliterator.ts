@@ -92,7 +92,7 @@ But by default,
 c converts to 𐌺 and v to 𐌱 (and also y to 𐍅) to allow for
 their creative use when writing in the Latin alphabet,
 for example with names and loanwords
-(Cappadaukia, Nauvaimbair, martyr).
+(Nauvaimbair, martyr).
 </p>
 <p>
 The 'To IPA' converter goes by the usual patterns of native words for au and ai,

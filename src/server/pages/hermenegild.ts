@@ -206,12 +206,15 @@ Also, Timothy I 1:9 & Timothy II 3:2 have ἀνοσίοις as unairkns,
     },
     {
       text: {
-        got: '...',
+        got: 'Ïþ sa manna, saei sik Guda atgaf, fairinoda þana neƕjandan aipiskaupu arianiskan swaswe skuld was, jah ïs ',
         la: "Sed vir Deo deditus, Ariano episcopo venienti exprobravit ut debuit, ejusque a se perfidiam dignis increpationibus repulit: quia etsi exterius jacebat ligatus, apud se tamen in magno mentis culmine stabat secutus.",
         en: "but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul.",
         de: "Aber der Mann, der sich Gott geweiht hatte, wies den arianischen Bischof bei seinem Erscheinen nach Gebühr zurecht und verwarf seine Ketzerei mit entsprechendem Tadel; denn wenn er auch äußerlich in Fesseln lag, stand er in seinem Innern unerschütterlich auf großer Geisteshöhe.",
       },
-      notes: ``
+      notes: `Was thinking about using atgiban as a past participle but it
+would perhaps miss the meaning of him handing *himself* over. There's
+andtilon but I think atgif fits better as andtilon seems to be more about
+accepting something rather than wholly giving oneself up.`
     }
   ], info)}</p>`
 
