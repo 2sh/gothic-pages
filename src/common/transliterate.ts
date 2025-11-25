@@ -165,7 +165,7 @@ export function fromLatin(text: string, config?: FromLatinConfig)
       {
         if (conf.numberConversion !== 'big' && parseFloat(m) >= 1000)
           return m
-        const num = toGothicNumerals(m)
+        const num = toGothicNumerals(m, conf.thousandsSign)
         return num ? '·' + num + '·' : m
       })
     }
@@ -197,7 +197,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
   out = out.replaceAll(reGothicNumeral, (_, m) =>
   {
     if (conf.numberConversion !== 'none')
-      return numberFormatter.format(fromGothicNumerals(m))
+      return numberFormatter.format(fromGothicNumerals(m, conf.thousandsSign))
     else
       return '·' + applyMapping(m, gothicLatin).toUpperCase() + '·'
   })
