@@ -56,11 +56,14 @@ const generator: PageGenerator = info =>
     </div>
     <div class="row">
       <div class="group">
-        <label title='Up to 999 is attested, the "Above 999" option is my neologism, separating thousands by colon.'>Number conversion: <select x-model="$store.gothic.numberConversion">
+        <label title='Up to 999 is attested, the "Above 999" option is my neologism'>Number conversion: <select x-model="$store.gothic.numberConversion">
             <option value="none">Off</option>
             <option value="normal">Up to 999 only</option>
             <option value="big">Above 999</option>
           </select></label>
+        <label>Thousands Sign: <input
+          class="input-text-single"
+          x-model="$store.gothic.thousandsSign"></label>
       </div>
     </div>
     <div class="row">
@@ -137,7 +140,8 @@ and the marks end up not being placed well.
 The number converter is default set to convert only numbers up to 999
 as that's all that's attested.
 The above 999 setting is an idea I had for larger numbers,
-with colons acting as 1000 separators.
+using colons (or optionally another character such as the Cyrillic
+thousands sign ҂) acting as 1000 separators.
 </p>
 <p>
 If you spot any issues, <i>please</i> do <a href='mailto:contact@2sh.me'>tell me</a>,

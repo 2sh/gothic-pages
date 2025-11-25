@@ -23,6 +23,7 @@ const gothic = Alpine.reactive({
   capitalize: false,
   preserveDiacritics: false,
   numberConversion: ((): 'none' | 'normal' | 'big' => 'normal')(),
+  thousandsSign: ':',
   th: '',
   hv: '',
 })

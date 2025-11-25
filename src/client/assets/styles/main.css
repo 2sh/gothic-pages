@@ -78,12 +78,24 @@ body
   color: var(--text-color);
 
   text-decoration: none;
-  text-align: center;
   border: 0;
   padding: 0;
 
   height: 30px;
   line-height: 30px;
+}
+
+.options button,
+.options a,
+.menu button,
+.menu a
+{
+  text-align: center;
+}
+
+.input-text-single
+{
+  width: 10px;
 }
 
 @media (pointer:coarse)

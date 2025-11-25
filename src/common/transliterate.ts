@@ -78,14 +78,13 @@ function applyMapping(text: string, mapping: RegExpMapping[])
 
 const gothicDigits = `𐌰𐌱𐌲𐌳𐌴𐌵𐌶𐌷𐌸𐌹𐌺𐌻𐌼𐌽𐌾𐌿𐍀𐍁𐍂𐍃𐍄𐍅𐍆𐍇𐍈𐍉𐍊`
 const gothicDigitsArray = [...gothicDigits]
-const gothicThousandsSeparator = ':'
 
-function toGothicNumerals(number: number | string)
+function toGothicNumerals(number: number | string, thousandsSeparator=':')
 {
   const num = typeof number === 'string'
-    ? parseFloat(number.replace(/,/g, '')) : number
-  if (num % 1 !== 0) return null
-  const numbers = num.toString().split('').toReversed()
+    ? number.replaceAll(',', '') : number.toString()
+  if (parseFloat(num) % 1 !== 0) return null
+  const numbers = num.split('').toReversed()
   return numbers.map(n => parseInt(n)).map((n, i) =>
   {
     let out = ''
@@ -95,15 +94,15 @@ function toGothicNumerals(number: number | string)
       out += gothicDigitsArray[(n-1)+multiplier]
     }
     if (i > 0 && i % 3 == 0)
-      out += gothicThousandsSeparator
+      out += thousandsSeparator
     return out
   }).toReversed().join('')
 }
 
-function fromGothicNumerals(number: string)
+function fromGothicNumerals(number: string, thousandsSeparator=':')
 {
   return number
-    .split(gothicThousandsSeparator)
+    .split(thousandsSeparator)
     .toReversed()
     .reduce((tv, block, tExp) =>
   {
@@ -127,7 +126,8 @@ const reGothicNumeral = new RegExp(
   "gu")
 
 export type GeneralConfig = {
-  numberConversion?: 'none' | 'normal' | 'big'
+  numberConversion?: 'none' | 'normal' | 'big',
+  thousandsSign?: string
 }
 
 export type FromLatinConfig = {
@@ -143,6 +143,7 @@ export function fromLatin(text: string, config?: FromLatinConfig)
     hv: '',
     preserveDiacritics: false,
     numberConversion: 'normal',
+    thousandsSign: ':',
     ...config,
   }
 
@@ -188,6 +189,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
     hv: '',
     capitalize: false,
     numberConversion: 'normal',
+    thousandsSign: ':',
     ...config,
   }
 
