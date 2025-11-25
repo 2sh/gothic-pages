@@ -101,7 +101,7 @@ function toGothicNumerals(number: number | string, thousandsSeparator=':')
 
 function fromGothicNumerals(number: string, thousandsSeparator=':')
 {
-  return number
+  const blocks = number
     .split(thousandsSeparator)
     .map((block, i) =>
     {
@@ -112,7 +112,10 @@ function fromGothicNumerals(number: string, thousandsSeparator=':')
         return v + (10**exp) * ((index%9)+1)
       }, 0).toString().padStart(i > 0 ? 3 : 0, "0")
     })
-    .join(',')
+  if (blocks.length == 2 && blocks[0].length == 1)
+    return blocks.join('') // For date years without commas
+  else
+    return blocks.join(',')
 }
 
 const reArabicNumeral = new RegExp(
