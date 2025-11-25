@@ -103,27 +103,22 @@ function fromGothicNumerals(number: string, thousandsSeparator=':')
 {
   return number
     .split(thousandsSeparator)
-    .toReversed()
-    .reduce((tv, block, tExp) =>
-  {
-    return tv + (1000**tExp) * [...block].reduce((v, d) =>
+    .map((block, i) =>
     {
-      const index = gothicDigitsArray.indexOf(d)
-      const exp = Math.trunc(index/9)
-      return v + (10**exp) * ((index%9)+1)
-    }, 0)
-  }, 0)
+      return [...block].reduce((v, d) =>
+      {
+        const index = gothicDigitsArray.indexOf(d)
+        const exp = Math.trunc(index/9)
+        return v + (10**exp) * ((index%9)+1)
+      }, 0).toString().padStart(i > 0 ? 3 : 0, "0")
+    })
+    .join(',')
 }
 
 const reArabicNumeral = new RegExp(
     `\\b(?<![,.])(\\d{1,3}(?:,\\d{3})+|\\d+)(?![,.]\\d)\\b`, "gu")
 
 const gd = `[${gothicDigits}]`
-const gs = ':'
-
-const reGothicNumeral = new RegExp(
-    `·(${gd}{1,3}(${gs}${gd}{1,3})*)·`,
-  "gu")
 
 export type GeneralConfig = {
   numberConversion?: 'none' | 'normal' | 'big',
@@ -174,8 +169,6 @@ export function fromLatin(text: string, config?: FromLatinConfig)
   return parts.join('')
 }
 
-let numberFormatter = new Intl.NumberFormat('en-US')
-
 export type ToLatinConfig = {
   th?: string,
   hv?: string,
@@ -194,10 +187,13 @@ export function toLatin(text: string, config?: ToLatinConfig)
   }
 
   let out = text
+  const reGothicNumeral = new RegExp(
+    `·(${gd}{1,3}(${conf.thousandsSign}${gd}{0,3})*)·`,
+  "gu")
   out = out.replaceAll(reGothicNumeral, (_, m) =>
   {
     if (conf.numberConversion !== 'none')
-      return numberFormatter.format(fromGothicNumerals(m, conf.thousandsSign))
+      return fromGothicNumerals(m, conf.thousandsSign)
     else
       return '·' + applyMapping(m, gothicLatin).toUpperCase() + '·'
   })
