@@ -61,9 +61,11 @@ const generator: PageGenerator = info =>
             <option value="normal">Up to 999 only</option>
             <option value="big">Above 999</option>
           </select></label>
-        <label>Thousands Sign: <input
-          class="input-text-single"
-          x-model="$store.gothic.thousandsSign"></label>
+        <template x-if="$store.gothic.numberConversion == 'big'">
+          <label>Thousands Sign: <input
+            class="input-text-single"
+            x-model="$store.gothic.thousandsSign"></label>
+        </template>
       </div>
     </div>
     <div class="row">
