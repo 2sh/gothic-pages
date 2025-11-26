@@ -4,6 +4,8 @@ type RegExpMapping =
   [RegExp, string | Replacer]
   | Mapping
 
+import regExpEscape from 'regexp.escape'
+
 const gothicLatin: Mapping[] = [
   ['𐌹̈', 'ï'],
   ['𐌰', 'a'],
@@ -191,7 +193,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
 
   let out = text
   const reGothicNumeral = new RegExp(
-    `·(${gd}{1,3}(${conf.thousandsSign}${gd}{0,3})*)·`,
+    `·(${gd}{1,3}(${regExpEscape(conf.thousandsSign)}${gd}{0,3})*)·`,
   "gu")
   out = out.replaceAll(reGothicNumeral, (_, m) =>
   {
