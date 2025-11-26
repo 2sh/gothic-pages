@@ -85,7 +85,7 @@ function toGothicNumerals(number: number | string, thousandsSign=':')
 {
   const num = typeof number === 'string'
     ? number.replaceAll(',', '') : number.toString()
-  if (parseFloat(num) % 1 !== 0) return null
+  if (num.includes('.')) return null
   const numbers = num.split('').toReversed()
   return numbers.map(n => parseInt(n)).map((n, i) =>
   {
