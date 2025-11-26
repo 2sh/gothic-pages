@@ -81,14 +81,21 @@ function applyMapping(text: string, mapping: RegExpMapping[])
 const gothicDigits = `𐌰𐌱𐌲𐌳𐌴𐌵𐌶𐌷𐌸𐌹𐌺𐌻𐌼𐌽𐌾𐌿𐍀𐍁𐍂𐍃𐍄𐍅𐍆𐍇𐍈𐍉𐍊`
 const gothicDigitsArray = [...gothicDigits]
 
-function toGothicNumerals(number: number | string, thousandsSign=':')
+function toGothicNumerals(number: number | bigint | string, thousandsSign=':')
 {
   const num = typeof number === 'string'
-    ? number.replaceAll(',', '') : number.toString()
-  if (num.includes('.')) return null
-  const numbers = num.split('').toReversed()
-  return numbers.map(n => parseInt(n)).map((n, i) =>
+    ? number
+    : number.toLocaleString('fullwide', {useGrouping:false})
+  const digits = num
+    .replace(/[,. _']/g, '') // thou group sep
+    .replace(/^0+/, '')
+    .split('')
+    .toReversed()
+  const gDigits = []
+  for (let i=0; i<digits.length; i++)
   {
+    const n = parseInt(digits[i])
+    if (isNaN(n)) return null
     let out = ''
     if (n > 0)
     {
@@ -97,8 +104,9 @@ function toGothicNumerals(number: number | string, thousandsSign=':')
     }
     if (i > 0 && i % 3 == 0)
       out += thousandsSign
-    return out
-  }).toReversed().join('')
+    gDigits.push(out)
+  }
+  return gDigits.toReversed().join('')
 }
 
 function fromGothicNumerals(number: string, thousandsSign=':')
