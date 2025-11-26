@@ -81,7 +81,7 @@ function applyMapping(text: string, mapping: RegExpMapping[])
 const gothicDigits = `𐌰𐌱𐌲𐌳𐌴𐌵𐌶𐌷𐌸𐌹𐌺𐌻𐌼𐌽𐌾𐌿𐍀𐍁𐍂𐍃𐍄𐍅𐍆𐍇𐍈𐍉𐍊`
 const gothicDigitsArray = [...gothicDigits]
 
-function toGothicNumerals(number: number | string, thousandsSeparator=':')
+function toGothicNumerals(number: number | string, thousandsSign=':')
 {
   const num = typeof number === 'string'
     ? number.replaceAll(',', '') : number.toString()
@@ -96,15 +96,15 @@ function toGothicNumerals(number: number | string, thousandsSeparator=':')
       out += gothicDigitsArray[(n-1)+multiplier]
     }
     if (i > 0 && i % 3 == 0)
-      out += thousandsSeparator
+      out += thousandsSign
     return out
   }).toReversed().join('')
 }
 
-function fromGothicNumerals(number: string, thousandsSeparator=':')
+function fromGothicNumerals(number: string, thousandsSign=':')
 {
   const blocks = number
-    .split(thousandsSeparator)
+    .split(thousandsSign)
     .map((block, i) =>
     {
       return [...block].reduce((v, d) =>
