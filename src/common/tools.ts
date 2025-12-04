@@ -1,15 +1,18 @@
 export const html = String.raw
 
+export function escapeAmpersand(str: string)
+{
+  return str.replace(/&(?=[a-z0-9#])/gi, '&amp;')
+}
+
 export function safeHtmlText(str: string)
 {
-  return str
-    .replaceAll('&', '&amp;')
+  return escapeAmpersand(str)
     .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
 }
 
 export function safeHtmlAttribute(str: string, quot="'")
 {
-  return safeHtmlText(str)
+  return escapeAmpersand(str)
     .replaceAll(quot, quot == "'" ? '&apos;' : '&quot;')
 }
