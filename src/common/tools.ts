@@ -11,8 +11,10 @@ export function safeHtmlText(str: string)
     .replaceAll('<', '&lt;')
 }
 
-export function safeHtmlAttribute(str: string, quot="'")
+export function safeHtmlAttribute(str: string, doubleQuote=false)
 {
   return escapeAmpersand(str)
-    .replaceAll(quot, quot == "'" ? '&apos;' : '&quot;')
+    .replaceAll(
+      doubleQuote ? '"' : "'",
+      doubleQuote ? '&quot;' : '&apos;')
 }
