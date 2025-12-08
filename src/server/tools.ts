@@ -78,7 +78,8 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
   const attrLineInfo = safeHtmlAttribute(JSON.stringify(info))
 
   return html`<span id="L${global.lineId}" class="i-line"
-data-line='${attrLineInfo}'>${safeHtmlText(text)}</span>
+data-line='${attrLineInfo}'
+>${safeHtmlText(text)}</span>
 `
 }
 
