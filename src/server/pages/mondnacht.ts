@@ -152,10 +152,10 @@ ${toGothicLines([{
       got: "swe þlugi si ana haima.",
       de: "Als flöge sie nach Haus.",
     },
-    notes: `using ana for ACC, "du haimai" phrase from NeoGothic:
-"while 'haims' means village, this kind of adverbial phrase is common
+    notes: `using ana for ACC, “du haimai” phrase from NeoGothic:
+"while “haims” means village, this kind of adverbial phrase is common
 in language even where the word for village has not yet come to mean home,
-see attested afhaim(ei)s and anahaim(ei)s for 'absent' and 'present'"`
+see attested afhaim(ei)s and anahaim(ei)s for “absent” and “present”"`
   }], info)}
 </p>`
 

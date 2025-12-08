@@ -92,7 +92,7 @@ The 𐌸 and 𐍈 dropdown boxes determine how these two characters are converte
 between the Latin and Gothic alphabets,
 e.g. if c is selected, c converts to 𐌸 and 𐌸 to c.
 Though from Latin, ƕ will always convert to 𐍈, and þ to 𐌸. The option is
-to convert for example c to 𐌸 in case it's difficult to type þ.
+to convert for example c to 𐌸 in case it’s difficult to type þ.
 But by default,
 c converts to 𐌺 and v to 𐌱 (and also y to 𐍅) to allow for
 their creative use when writing in the Latin alphabet,
@@ -100,54 +100,54 @@ for example with names and loanwords
 (Nauvaimbair, martyr).
 </p>
 <p>
-The 'To IPA' converter goes by the usual patterns of native words for au and ai,
-so short before h, ƕ and r, and long otherwise. It doesn't have a dictionary of the
-exceptions to these patterns and long vowels of 'a' and 'u', and it doesn't recognise loanwords (yet).
+The “To IPA” converter goes by the usual patterns of native words for au and ai,
+so short before h, ƕ and r, and long otherwise. It doesn’t have a dictionary of the
+exceptions to these patterns and long vowels of “a” and “u”, and it doesn’t recognise loanwords (yet).
 It will make use of diacritics though, ā /aː/, ū /uː/, aí /ɛ/, aú /ɔ/, ái /ɛː/, áu /ɔː/.
 It probably still needs adjusting for some prefixes, compound words and bigger consonant clusters.
-To see syllable boundaries, click the 'Add soft hyphens' button first.
+To see syllable boundaries, click the “Add soft hyphens” button first.
 </p>
 <p>
-The 'Fix diaereses' button adds the diaereses (two dots) to i and 𐌹,
+The “Fix diaereses” button adds the diaereses (two dots) to i and 𐌹,
 word initially and within words where appropriate. Adding them within words may
 still need improving.
 </p>
 <p>
-The 'Add soft hyphens' button adds the soft hyphen unicode character (U+00AD)
-between syllables. To use this function, first convert the text to Latin if it's in
+The “Add soft hyphens” button adds the soft hyphen unicode character (U+00AD)
+between syllables. To use this function, first convert the text to Latin if it’s in
 Gothic, and then convert back to Gothic if so desired.
-I'll make this convert directly from Gothic too eventually.
-To visually see where these soft hyphens have been placed, use the 'To IPA' button.
+I’ll make this convert directly from Gothic too eventually.
+To visually see where these soft hyphens have been placed, use the “To IPA” button.
 The determining of the syllable boundaries may still need improving.
 </p>
 <p>
-The 'Remove diacritics' button removes all diacritics except for the diaereses on 𐌹̈, ï and Ï.
+The “Remove diacritics” button removes all diacritics except for the diaereses on 𐌹̈, ï and Ï.
 </p>
 <p>
-The 'Remove superfluous diacritics' button removes the diacritics
+The “Remove superfluous diacritics” button removes the diacritics
 of aí and aú before h, ƕ and r, of ái and áu if not before those, and of ē and ō.
-This is "superfluous" from a pronunciation perspective, not an etymological one.
+This is “superfluous” from a pronunciation perspective, not an etymological one.
 The idea behind this is for teaching people to eventually read only with the
 Gothic alphabet, more easily noticing and memorising the few words that have the
 diacritics.
 </p>
 <p>
 When converting to Gothic, diacritics are removed by default.
-The 'Preserve diacritics' feature preserves them by adding them
+The “Preserve diacritics” feature preserves them by adding them
 as Unicode combining diacritics after the Gothic characters.
 Though they could, Gothic fonts normally do not support this however,
 and the marks end up not being placed well.
 </p>
 <p>
 The number converter is default set to convert only numbers up to 999
-as that's all that's attested.
+as that’s all that’s attested.
 The above 999 setting is an idea I had for larger numbers,
 using colons (or optionally another character such as the Cyrillic
 thousands sign ҂) acting as 1000 separators.
 </p>
 <p>
 If you spot any issues, <i>please</i> do <a href='mailto:contact@2sh.me'>tell me</a>,
-as I'd like to publish the functionality on this page for free at some point.
+as I’d like to publish the functionality on this page for free at some point.
 </p>
   </div>
 </div>`

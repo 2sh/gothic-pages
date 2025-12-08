@@ -69,7 +69,7 @@ const generator: PageGenerator = info =>
         el: "ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ",
         en: "God be merciful to me a sinner",
       },
-      notes: `Publican's prayer, taken directly from the bible`
+      notes: `Publican’s prayer, taken directly from the bible`
     },
   ], info)}</p>`
 
@@ -90,7 +90,7 @@ const generator: PageGenerator = info =>
 I think this is a likely word but perhaps more in a biblical context,
 word-for-word accuracy during translation.
 
-u/i-stem "Mischform" u-stem singular, plural: NG = i-stems, AD = u-stems.`
+u/i-stem “Mischform” u-stem singular, plural: NG = i-stems, AD = u-stems.`
     },
   ], info)}</span></p>`
 
@@ -143,8 +143,8 @@ Can be used nominalised probably.`
       notes:
         `Feel like this one would have been likely.
 The -𐌹𐌽- in -𐌹𐌽𐌰𐍃𐍃𐌿𐍃 coming from -𐌹𐌽𐍉𐌽, it would build off 𐍇𐍂𐌹𐍃𐍄𐌹𐌽𐍉𐌽 nicely,
-but not necessarily: "Þiudinassus derived from þiudan-on ‘be king, rule’
-with  generalization of -inassus from nouns like fraujinassus".
+but not necessarily: “Þiudinassus derived from þiudan-on ‘be king, rule’
+with  generalization of -inassus from nouns like fraujinassus”.
 Also, OE has cristness and cristenness, so perhaps also 𐍇𐍂𐌹𐍃𐍄𐌴𐌹𐌽𐌰𐍃𐍃𐌿𐍃`
     },
   ], info)}</span></p>`
@@ -157,10 +157,10 @@ Also, OE has cristness and cristenness, so perhaps also 𐍇𐍂𐌹𐍃𐍄𐌴
         en: "Christ-like",
       },
       notes:
-        `If not with -𐌴𐌹𐌽𐍃, there's this one which feels quite likely to have
+        `If not with -𐌴𐌹𐌽𐍃, there’s this one which feels quite likely to have
 been a word. Various modern Germanic langs have Christ-like for the
-adjective Christian. OE has cristlic ("man cristlíce"),
-and also crístenlic ("Folc crístinlic") so perhaps also 𐍇𐍂𐌹𐍃𐍄𐌴𐌹𐌽𐌻𐌴𐌹𐌺𐍃,
+adjective Christian. OE has cristlic (“man cristlíce”),
+and also crístenlic (“Folc crístinlic”) so perhaps also 𐍇𐍂𐌹𐍃𐍄𐌴𐌹𐌽𐌻𐌴𐌹𐌺𐍃,
 depending on the emphasis.`
     },
   ], info)}</span></p>`
@@ -200,8 +200,8 @@ from PGm -īnaz +-ōną, like -𐌴𐌹𐌽𐍃 + -𐍉𐌽`
       notes:
         `Perhaps just a transliteration, 𐌸𐌴𐌰𐌿𐍄𐌰𐌿𐌺𐌿𐍃?, but created *𐌲𐌿𐌳𐌰𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹
 for Gothic to have its own. 𐌲𐌿𐌳 + 𐌰 + 𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹.
-"Gothic never compounds with the genitive [...]
-weak nouns keep -a- for the connecting vowel." -guthiharjis`
+“Gothic never compounds with the genitive [...]
+weak nouns keep -a- for the connecting vowel.” -guthiharjis`
     },
   ], info)}</span></p>`
 
@@ -288,7 +288,7 @@ and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.`
       notes:
         `*maunasterjo (μοναστήριον), looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from
 εὐαγγέλιον also second declension. Gothic seems to go from the -ον ending
-if it's inanimate, and from -ός if it's animate.
+if it’s inanimate, and from -ός if it’s animate.
 
 η seems to often turn into 𐌴 like in 𐍀𐍂𐌰𐌿𐍆𐌴𐍄𐌴𐍃 from προφήτης.`
     },

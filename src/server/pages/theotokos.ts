@@ -53,8 +53,8 @@ const generator: PageGenerator = info =>
       notes:
         `Perhaps just a transliteration, 𐌸𐌴𐌰𐌿𐍄𐌰𐌿𐌺𐌿𐍃?, but created *𐌲𐌿𐌳𐌰𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹
 for Gothic to have its own. 𐌲𐌿𐌳 + 𐌰 + 𐌱𐌰𐌹𐍂𐌰𐌽𐌳𐌴𐌹.
-"Gothic never compounds with the genitive [...]
-weak nouns keep -a- for the connecting vowel." -guthiharjis`
+“Gothic never compounds with the genitive [...]
+weak nouns keep -a- for the connecting vowel.” -guthiharjis`
     },
   ], info)}</h1>
 </header>`

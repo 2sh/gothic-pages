@@ -129,8 +129,8 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: '"Ni ainshun swerai aiþ ïn meina. Ïk ïm Xristeins."',
-        en: "'Let no-one swear an oath on my behalf. I am a Christian.'",
+        got: '“Ni ainshun swerai aiþ ïn meina. Ïk ïm Xristeins.”',
+        en: "‘Let no-one swear an oath on my behalf. I am a Christian.’",
       },
     },
     {
@@ -138,14 +138,14 @@ const generator: PageGenerator = info =>
         got: "Sa reiks, saiƕands þana wainahan arm, laílot ïna gaggan ïn gawairþja, qiþands:",
         en: "The prince, seeing this poor wretch, let him go in peace, saying:",
       },
-      notes: `"andbindiþ ina jah letiþ gaggan" John 11:44`
+      notes: `“andbindiþ ina jah letiþ gaggan” John 11:44`
     },
     {
       text: {
-        got: '"Sa mag nih ubilaba nih waila taujan."',
-        en: "'This one can do neither harm nor good.'",
+        got: '“Sa mag nih ubilaba nih waila taujan.”',
+        en: "‘This one can do neither harm nor good.’",
       },
-      notes: `neither .. nor .. "nih hlaif matjands nih wein drigkands" Luke 7:33`
+      notes: `neither .. nor .. “nih hlaif matjands nih wein drigkands” Luke 7:33`
     },
   ], info)}</p>`
 
@@ -155,16 +155,16 @@ const generator: PageGenerator = info =>
         got: 'Afar jer biþe paska warþ, gudja, Sansala, qam ïn þizai haimai jah dulþida miþ Sabbin.',
         en: "The next year, just at Easter, a priest, Sansal, came to the village and celebrated Easter with Sabbas.",
       },
-      notes: `"biþe warþ dags" Luke 6:13
+      notes: `“biþe warþ dags” Luke 6:13
 
 In other places I see the name Sansalas, so going with the n-stem.
-Though I don't see an origin of the name so I wonder if it's perhaps a Gothic name
+Though I don’t see an origin of the name so I wonder if it’s perhaps a Gothic name
 with a different declension.`
     },
     {
       text: {
         got: 'Þai haiþnai finþandans anaks disdrusun bauain Sabbins',
-        en: "the pagans, coming to hear of this, descended suddenly on Sabbas's house",
+        en: "the pagans, coming to hear of this, descended suddenly on Sabbas’s house",
       },
       notes: `manageins finþandeins Luke 9:11`
     },
@@ -189,12 +189,12 @@ with a different declension.`
 
 þans bans Ephesians 2:16
 
-"sought to arrest" by John 10:39`
+“sought to arrest” by John 10:39`
     },
     {
       text: {
         got: 'Ïþ mans Gudis, gamunandans waurda apaustaule,',
-        en: "But the men of God, remembering the Apostle's words,",
+        en: "But the men of God, remembering the Apostle’s words,",
       },
     },
     {
@@ -232,7 +232,7 @@ with a different declension.`
     {
       text: {
         got: 'ei eis skuldedeina anabusn þis reikis gataujan.',
-        en: "that they were in duty bound to carry out the prince's command.",
+        en: "that they were in duty bound to carry out the prince’s command.",
       },
       notes: `skuldedum taujan. Luke 17:10`
     },
@@ -266,7 +266,7 @@ with a different declension.`
     {
       text: {
         got: 'bigat nau Sabbins ana staþa gawaurpanana ïn wigana miþ gutam jah atnam þana du Kappadaukia.',
-        en: "found Sabbas's body, cast up onto the bank, during a war with the Goths and took it to Cappadocia.",
+        en: "found Sabbas’s body, cast up onto the bank, during a war with the Goths and took it to Cappadocia.",
       },
     },
   ], info)}</p>`

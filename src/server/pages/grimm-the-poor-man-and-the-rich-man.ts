@@ -56,10 +56,10 @@ const generator: PageGenerator = info =>
         en: "In olden times, when the Lord himself still used to walk about on this earth amongst men,"
       },
       notes:
-        `𐍆𐌰𐌹𐍂𐌽𐌴𐌹𐍃 seems to mean old but also "of former times"
+        `𐍆𐌰𐌹𐍂𐌽𐌴𐌹𐍃 seems to mean old but also “of former times”
 
-𐌼𐌴𐌻: my time John 7:6, "times" Galatians 4:10, "in his times" Timothy I 6:15.
-Though the plural can also mean writing/scripture, it's fitting.
+𐌼𐌴𐌻: my time John 7:6, “times” Galatians 4:10, “in his times” Timothy I 6:15.
+Though the plural can also mean writing/scripture, it’s fitting.
 
 Jesus walked in John 7:1, John 10:23, Mark 1:16, Mark 11:27, Matthew 9:27`
     },
@@ -114,9 +114,9 @@ tired *𐌼𐍉𐌸𐌿𐍃 from PGm u-stem *moþuz.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `Ei þāhta Frauja Guþ unsar "þana gabigan ni kaurida, wiljau at ïmma saljan."`,
-        de: `Da dachte unser Herrgott 'dem Reichen werde ich nicht beschwerlich fallen: bei ihm will ich übernachten.'`,
-        en: `Then the Lord thought, "I shall be no burden to the rich man, I will stay the night with him."`
+        got: `Ei þāhta Frauja Guþ unsar “þana gabigan ni kaurida, wiljau at ïmma saljan.”`,
+        de: `Da dachte unser Herrgott ‘dem Reichen werde ich nicht beschwerlich fallen: bei ihm will ich übernachten.’`,
+        en: `Then the Lord thought, “I shall be no burden to the rich man, I will stay the night with him.”`
       },
       notes:
         `𐍆𐍂𐌰𐌿𐌾𐌰 𐌲𐌿𐌸 attested.
@@ -141,12 +141,12 @@ saliþwos at imma John 14:23.`
     },
     {
       text: {
-        got: `Frauja andhof "bidja naht du saljan."`,
-        de: `Der Herr antwortete 'ich bitte um ein Nachtlager.'`,
-        en: `The Lord answered, "I only ask for a night's lodging."`
+        got: `Frauja andhof “bidja naht du saljan.”`,
+        de: `Der Herr antwortete ‘ich bitte um ein Nachtlager.’`,
+        en: `The Lord answered, “I only ask for a night’s lodging.”`
       },
       notes:
-        `𐌽𐌰𐌷𐍄 𐌾𐌰𐌷 𐌳𐌰𐌲 𐌹𐌽 𐌳𐌹𐌿𐍀𐌹𐌸𐌰𐌹 𐍅𐌰𐍃 𐌼𐌰𐍂𐌴𐌹𐌽𐍃 "a night and a day I have been in the deep" Corinthians II 11:25.`
+        `𐌽𐌰𐌷𐍄 𐌾𐌰𐌷 𐌳𐌰𐌲 𐌹𐌽 𐌳𐌹𐌿𐍀𐌹𐌸𐌰𐌹 𐍅𐌰𐍃 𐌼𐌰𐍂𐌴𐌹𐌽𐍃 “a night and a day I have been in the deep” Corinthians II 11:25.`
     },
   ], info)}</p>`
 
@@ -181,7 +181,7 @@ from ... to ... Mark 13:27`
       notes:
         `passive 𐌲𐌰𐍃𐌰𐌹𐍈𐌰𐌽 as appear in Matthew 6:16, Matthew 6:18, Luke 9:31
 
-alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 "Judge not according to the appearance" John 7:24.`
+alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 “Judge not according to the appearance” John 7:24.`
     },
     {
       text: {
@@ -190,18 +190,18 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 "Ju
         en: `he shook his head, and said,`
       },
       notes:
-        `𐍅𐌹𐌸𐍉𐌽𐌳𐌰𐌽𐍃 𐌷𐌰𐌿𐌱𐌹𐌳𐌰 𐍃𐌴𐌹𐌽𐌰 "wagging their heads" Mark 15:29`
+        `𐍅𐌹𐌸𐍉𐌽𐌳𐌰𐌽𐍃 𐌷𐌰𐌿𐌱𐌹𐌳𐌰 𐍃𐌴𐌹𐌽𐌰 “wagging their heads” Mark 15:29`
     },
     {
       text: {
-        got: `"ni mag þuk andniman, heþjons meinos sind fullos grase jah sede,`,
-        de: `'ich kann Euch nicht aufnehmen, meine Kammern liegen voll Kräuter und Samen,`,
-        en: `"No, I cannot take you in, my rooms are full of herbs and seeds;`
+        got: `“ni mag þuk andniman, heþjons meinos sind fullos grase jah sede,`,
+        de: `‘ich kann Euch nicht aufnehmen, meine Kammern liegen voll Kräuter und Samen,`,
+        en: `“No, I cannot take you in, my rooms are full of herbs and seeds;`
       },
       notes:
         `He that receiveth you receiveth me Matthew 10:40.
 
-𐍆𐌿𐌻𐌻𐍉𐍃 𐌲𐌰𐌱𐍂𐌿𐌺𐍉 "full of fragments" GEN Mark 8:19, Mark 8:20.
+𐍆𐌿𐌻𐌻𐍉𐍃 𐌲𐌰𐌱𐍂𐌿𐌺𐍉 “full of fragments” GEN Mark 8:19, Mark 8:20.
 
 *𐍃𐌴𐌸𐍃, attested in the compound 𐌼𐌰𐌽𐌰𐍃𐌴𐌸𐍃`
     },
@@ -221,9 +221,9 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 "Ju
     },
     {
       text: {
-        got: `Sokei þus aljiþ saliþwos."`,
-        de: `Sucht Euch anderswo ein Auskommen.'`,
-        en: `Go somewhere else for a lodging,"`
+        got: `Sokei þus aljiþ saliþwos.”`,
+        de: `Sucht Euch anderswo ein Auskommen.’`,
+        en: `Go somewhere else for a lodging,”`
       },
     },
     {
@@ -233,7 +233,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 "Ju
         en: `and with this he shut down the window and left the Lord standing there."`
       },
       notes:
-        `𐌰𐍆𐌻𐌴𐍄𐌰𐌽𐌳𐌰𐌽𐍃 𐌹̈𐌽𐌰 "forsook him" Mark 14:50.
+        `𐌰𐍆𐌻𐌴𐍄𐌰𐌽𐌳𐌰𐌽𐍃 𐌹̈𐌽𐌰 “forsook him” Mark 14:50.
 𐌰𐍆𐌻𐌴𐍄𐌰𐌽 seems to have a sense of abandoning.`
     },
   ], info)}</p>`
@@ -254,7 +254,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 "Ju
         en: `and knocked. He had hardly done so when the poor man opened the little door`
       },
       notes:
-        `*𐌷𐌰𐌻𐌹𐍃 from 𐌷𐌰𐌻𐌹𐍃𐌰𐌹𐍅 "hardly ever".
+        `*𐌷𐌰𐌻𐌹𐍃 from 𐌷𐌰𐌻𐌹𐍃𐌰𐌹𐍅 “hardly ever”.
 
 Not using a diminutive -𐌹𐌻𐌰. 𐌳𐌰𐌿𐍂𐌹𐌻𐌰 sounds like it could be confused.
 Another possible suffix: [url=https://en.wiktionary.org/wiki/Reconstruction:Gothic/-%F0%90%8C%BF%F0%90%8C%BA%F0%90%8D%83]*-𐌿𐌺𐍃[/url].`
@@ -266,20 +266,20 @@ Another possible suffix: [url=https://en.wiktionary.org/wiki/Reconstruction:Goth
         en: `and bade the traveler come in.`
       },
       notes:
-        `𐌱𐌰𐌸 𐍃𐌹𐍀𐍉𐌽𐌾𐌰𐌽𐍃 𐌸𐌴𐌹𐌽𐌰𐌽𐍃 𐌴𐌹 𐌿𐍃𐌳𐍂𐌹𐌱𐌴𐌹𐌽𐌰 𐌹̈𐌼𐌼𐌰 "I besought thy disciples to cast him out" Luke 9:40`
+        `𐌱𐌰𐌸 𐍃𐌹𐍀𐍉𐌽𐌾𐌰𐌽𐍃 𐌸𐌴𐌹𐌽𐌰𐌽𐍃 𐌴𐌹 𐌿𐍃𐌳𐍂𐌹𐌱𐌴𐌹𐌽𐌰 𐌹̈𐌼𐌼𐌰 “I besought thy disciples to cast him out” Luke 9:40`
     },
     {
       text: {
-        got: `"Salei naht at mis," qaþ ïs,`,
-        de: `'Bleibt die Nacht über bei mir,' sagte er,`,
-        en: `"Pass the night with me," said he;`
+        got: `“Salei naht at mis,” qaþ ïs,`,
+        de: `‘Bleibt die Nacht über bei mir,’ sagte er,`,
+        en: `“Pass the night with me,” said he;`
       },
     },
     {
       text: {
         got: `ju riqizida, jah ni magt himma daga þairhleiþan.`,
-        de: `'es ist schon finster, und heute könnt Ihr doch nicht weiterkommen.'`,
-        en: `"it is already dark, you cannot go any further to-night."`
+        de: `‘es ist schon finster, und heute könnt Ihr doch nicht weiterkommen.’`,
+        en: `“it is already dark, you cannot go any further to-night.”`
       },
       notes: `𐌽𐌹 𐌼𐌰𐌲𐌿𐌸 John 8:43.
 
@@ -299,7 +299,7 @@ Perhaps 𐌽𐌹𐌱𐌰𐌹 can be used here?
       text: {
         got: `Qens þis unledis ufrakida ïmma handu ïzos,`,
         de: `Die Frau des Armen reichte ihm die Hand,`,
-        en: `The poor man's wife shook hands with him,`
+        en: `The poor man’s wife shook hands with him,`
       },
       notes: `𐌿𐍆𐍂𐌰𐌺𐌴𐌹 𐌸𐍉 𐌷𐌰𐌽𐌳𐌿 𐌸𐌴𐌹𐌽𐌰 Luke 6:10`
     },

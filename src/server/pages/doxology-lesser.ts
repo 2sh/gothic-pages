@@ -134,8 +134,8 @@ so *dauksaulaugei`,
         en: "Lord, King, Heavenly God,",
       },
       notes:
-        `"Adjectives in the vocative have the same ending as the nominative,
-and are almost always declined 'weak'."`,
+        `“Adjectives in the vocative have the same ending as the nominative,
+and are almost always declined ‘weak’.”`,
     },
     {
       text: {
@@ -157,9 +157,9 @@ and are almost always declined 'weak'."`,
         en: "only-begotten Son,",
       },
       notes:
-        `using the Skeireins' "only-begotten" as it's more descriptive and is
+        `using the Skeireins’ “only-begotten” as it’s more descriptive and is
 the same as the german eingeboren, and as it was written after the bible
-translation, it's probably the commonly used version`,
+translation, it’s probably the commonly used version`,
     },
     {
       text: {
@@ -258,7 +258,7 @@ ${toGothicLines([
         en: "and have mercy on us.",
       },
       notes:
-        `ἐλέησον ἡμᾶς = 𐌰𐍂𐌼𐌰𐌹 𐌿𐌽𐍃𐌹𐍃, even though it's 𐌿𐌽𐍃𐌹𐍃 is usually dative`
+        `ἐλέησον ἡμᾶς = 𐌰𐍂𐌼𐌰𐌹 𐌿𐌽𐍃𐌹𐍃, even though it’s 𐌿𐌽𐍃𐌹𐍃 is usually dative`
     },
     {
       text: {
@@ -306,7 +306,7 @@ Luke 3:22+ and Luke 1:32 have genitive apposition.`,
       notes:
         `dative, every day Mark 14:49, every year Luke 2:41.
 
-adding 𐌹̈𐌺 for clarity that it's not the 3rd person.
+adding 𐌹̈𐌺 for clarity that it’s not the 3rd person.
 
 𐌷𐌹𐌼𐌼𐌰 𐌳𐌰𐌲𐌰 ... 𐍃𐌺𐌰𐌻 𐌹̈𐌺 𐍅𐌹𐍃𐌰𐌽 Luke 19:5;
 
@@ -341,11 +341,11 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
         en: "Lord, you have become for us a refuge",
       },
       notes:
-        `𐍃𐍄𐌰𐌸𐍃 meaning "place, location, site" but also a second etymology
-meaning "land (from the point of view of a boat on the water), shore"
+        `𐍃𐍄𐌰𐌸𐍃 meaning “place, location, site” but also a second etymology
+meaning “land (from the point of view of a boat on the water), shore”
 which is quite fitting I think.
 
-(imo) 𐌸𐌻𐌰𐌿𐌷𐌰𐌽 without 𐌲𐌰 prefix as arriving is not a certainty, it's a struggle.`,
+(imo) 𐌸𐌻𐌰𐌿𐌷𐌰𐌽 without 𐌲𐌰 prefix as arriving is not a certainty, it’s a struggle.`,
     },
     {
       text: {
@@ -357,8 +357,8 @@ which is quite fitting I think.
         `alds Luke 1:50. from house to house Luke 10:7.
 
 Not using a singular variation of 𐌹̈𐌽 𐌰𐌻𐌳𐌹𐌽𐍃 𐌰𐌻𐌳𐌴 from Luke 1:50
-as the original greek is more of a "from within ... in to ..." instead
-of a "into ... of ...".`,
+as the original greek is more of a “from within ... in to ...” instead
+of a “into ... of ...”.`,
     },
     {
       text: {
@@ -406,11 +406,11 @@ of a "into ... of ...".`,
         en: "teach me to do your will,",
       },
       notes:
-        `(didache = teaching). lord's prayer.
+        `(didache = teaching). lord’s prayer.
 
 do the will John 6:38; do his will John 7:17
 
-"laisjan takes double accusative"`,
+“laisjan takes double accusative”`,
     },
     {
       text: {
@@ -447,13 +447,13 @@ do the will John 6:38; do his will John 7:17
         `searching instead for ἐκτείνω, as Παράτεινον not attested; considered was
 𐌿𐍆𐍂𐌰𐌺𐌾𐌰𐌽𐌳𐍃 + ACC Matthew 8:3 Mark 1:41 𐌿𐍆𐍂𐌰𐌺𐌴𐌹 𐌿𐍆𐍂𐌰𐌺𐌹𐌳𐌰
 Mark 3:5 𐌿𐍆𐍂𐌰𐌺𐌾𐌰𐌽𐌳𐍃 Luke 5:13 𐌿𐍆𐍂𐌰𐌺𐌴𐌹 Luke 6:10.
-there's also þairhwisan with a meaning of continue/preserve/bewahren
+there’s also þairhwisan with a meaning of continue/preserve/bewahren
 found in other translations and is perhaps closer to the para- word.
-going with 𐌿𐍆𐌸𐌰𐌽𐌾𐌰𐌽 as it "it seems to cover the figurative sense of reaching out"
+going with 𐌿𐍆𐌸𐌰𐌽𐌾𐌰𐌽 as it “it seems to cover the figurative sense of reaching out”
 
 𐌰𐍂𐌼𐌰𐌷𐌰𐌹𐍂𐍄𐌴𐌹𐌽𐍃 Luke 1:50 Luke 1:54 Luke 1:58. know Matthew 7:23.
 
-"those who" Luke 6:32.`,
+“those who” Luke 6:32.`,
     },
   ], info)}</p>`
 
@@ -482,9 +482,9 @@ grant 𐍆𐍂𐌰𐌲𐌹𐍆 Mark 10:37`,
 Thessalonians II 3:3. 𐌲𐌰𐍆𐌰𐍃𐍄𐌰𐌽 Luke 18:21;
 𐌳𐌿 𐌲𐌰𐍆𐌰𐍃𐍄𐌰𐌽 𐌸𐌿𐌺, Luke 4:10
 
-"in a relative clause attached to an imperative or a subjunctive clause,
+“in a relative clause attached to an imperative or a subjunctive clause,
 [...] The verb in a relative clause is also subjunctive when the
-principal clause is interrogative or negative"`,
+principal clause is interrogative or negative”`,
     },
   ], info)}</p>`
 
@@ -624,7 +624,7 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
         en: "do not turn away from the works of your hands.",
       },
       notes:
-        `'optative ... more common than "ni + imp"'
+        `”optative ... more common than ‘ni + imp’”
 
 away from him Luke 19:26
 

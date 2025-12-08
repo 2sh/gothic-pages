@@ -10,7 +10,7 @@ ${toGothicLines([{
   },
   notes: `weak adjective because vocative
 
-There's Parakletau for comforter but I though I'd use a Gothic word for it.
+There’s Parakletau for comforter but I though I’d use a Gothic word for it.
 Various uses of gaþlaihands in Bible.`,
 }], pi)}
 <br>

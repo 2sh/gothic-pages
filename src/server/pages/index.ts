@@ -8,8 +8,8 @@ import
   } from "@server/tools"
 
 
-const title = "2sh's Gothic Pages"
-const description = "A page with various Gothic language related stuff I've done."
+const title = "2sh’s Gothic Pages"
+const description = "A page with various Gothic language related stuff I’ve done."
 
 
 const anchors: Anchor[] = [
@@ -24,21 +24,21 @@ const anchors: Anchor[] = [
 const generator: PageGenerator = info =>
 {
   const article = html`<header>
-  <h1>2sh's Gothic Pages</h1>
+  <h1>2sh’s Gothic Pages</h1>
 </header>
 
 <p>${description}</p>
 
-<p>A bit about me: I'm bilingual in English and German.
-And I've always been somewhat fascinated by the Gothic language for some reason,
+<p>A bit about me: I’m bilingual in English and German.
+And I’ve always been somewhat fascinated by the Gothic language for some reason,
 and recently (2025) found interest in it again due to realising that even after Arianism, it,
 a Germanic language, was seemingly used liturgically to some extent
-for centuries under Eastern Orthodox Christianity (of which I'm an inquirer).
-Though due to its Arian connotations I've translated the Nicene Creed
+for centuries under Eastern Orthodox Christianity (of which I’m an inquirer).
+Though due to its Arian connotations I’ve translated the Nicene Creed
 and want to translate various other liturgical texts, prayers and
 lives of the saints into the Gothic langauge,
-having the language "baptised into Christ".
-I'm also into conlanging, calligraphy, software development,
+having the language “baptised into Christ”.
+I’m also into conlanging, calligraphy, software development,
 writing systems (how I found the gothic language originally) and dozenal.</p>
 
 <p><a href='mailto:contact@2sh.me'>Feedback</a> on anything on these pages greatly appreciated!</p>
@@ -56,14 +56,14 @@ writing systems (how I found the gothic language originally) and dozenal.</p>
 <h2>Translations</h2>
 <p>On the following pages, click on the lines to see translations and notes,
 and to see the Gothic text in the Latin alphabet,
-click the 'L' button in the top right corner.</p>
+click the “L” button in the top right corner.</p>
 <p>In my Latin alphabet transcriptions, for native words,
 ai and au without diacritics are pronounced short (/ɛ/ and /ɔ/) before h, ƕ and r,
 and long (/ɛː/ and /ɔː/) otherwise.
 The diacritics then indicate the exceptional cases,
 aí and aú are short, and ái and áu long.
 For non-native words ai and au are always short unless marked otherwise.
-This way it's easier spot and learn the exceptional cases
+This way it’s easier spot and learn the exceptional cases
 for when reading only in the Gothic alphabet.
 I also try to mark all cases of long a and u as ā and ū.</p>
 
@@ -136,7 +136,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 <ul>
   <li><a href="https://biblehub.com/searchnt.php?q=">BibleHub NT Search</a></li>
   <li><a href="https://biblehub.com/searchgreek.php?q=">BibleHub Greek Search</a></li>
-  <li><a href="https://www.koeblergerhard.de/gotwbhin.html">Gerhard Köbler's Wörterbuch</a></li>
+  <li><a href="https://www.koeblergerhard.de/gotwbhin.html">Gerhard Köbler’s Wörterbuch</a></li>
   <li><a href="https://www.nthuleen.com/papers/755gothpaper.html">Proper Noun Declension</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Gothic_declension">Noun & Adjective Declension</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Gothic_verbs">Verb Conjugation</a></li>

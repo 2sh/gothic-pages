@@ -17,7 +17,7 @@ export const nowAndEver: ReuseLines = pi => toGothicLines([{
     en: "now and ever and to the ages of ages.",
   },
   notes:
-    `Combining "𐌹̈𐌽 𐌰𐌹𐍅𐌹𐌽𐍃" Matthew 6:13 and "𐌹̈𐌽 𐌰𐌻𐌳𐌹𐌽𐍃 𐌰𐌹𐍅𐌴" 1 Timothy 1:17.
+    `Combining “𐌹̈𐌽 𐌰𐌹𐍅𐌹𐌽𐍃” Matthew 6:13 and “𐌹̈𐌽 𐌰𐌻𐌳𐌹𐌽𐍃 𐌰𐌹𐍅𐌴” 1 Timothy 1:17.
 Not using purely the line from 1 Timothy 1:17 as it mixes up
 from generation to generation and unto ages of ages.`
 }], pi)
@@ -70,7 +70,7 @@ export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
     el: "Κύριε, ἐλέησον.",
     en: "Lord, have mercy.",
   },
-  notes: `Unsure if 𐌰𐍂𐌼𐌴𐌹 can be said without 𐌿𐌽𐍃𐌹𐍃, though don't see why not`
+  notes: `Unsure if 𐌰𐍂𐌼𐌴𐌹 can be said without 𐌿𐌽𐍃𐌹𐍃, though don’t see why not`
 }], pi)
 
 export const toYouOLord: ReuseLines = pi => toGothicLines([{

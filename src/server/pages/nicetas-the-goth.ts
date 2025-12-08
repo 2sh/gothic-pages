@@ -142,7 +142,7 @@ Using -isks ending`
         got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda Valainis kaisaris arianiskis,',
         en: "and Fritigern who revenged a defeat by Athanaric with the help of Arian emperor Valens,",
       },
-      notes: `"Fritigern appears in the Latinized form Fritigernus. The Gothic name is reconstructed as *Frithugairns 'desiring peace'"
+      notes: `“Fritigern appears in the Latinized form Fritigernus. The Gothic name is reconstructed as *Frithugairns ‘desiring peace’”
 
 *arianisks from arian + -isks`
     },
@@ -158,7 +158,7 @@ Using -isks ending`
     {
       text: {
         got: "Afar sigis Friþigairnis, sa gutans Xristeinans nutun ƕeilos friþaus",
-        en: "After Fritigern's victory the Christian Goths enjoyed a period of peace",
+        en: "After Fritigern’s victory the Christian Goths enjoyed a period of peace",
       },
     },
     {
@@ -166,7 +166,7 @@ Using -isks ending`
         got: "ïn þizai Wulfila Aipiskaupus arianisks, afarlaista Þaiaufeilaus Aipiskaupaus,",
         en: "during which arian Bishop Ulfilas, successor to Bishop Theophilus,",
       },
-      notes: `afarlaistjan + galaista = afarlaista "nachfolger"`
+      notes: `afarlaistjan + galaista = afarlaista “nachfolger”`
     },
     {
       text: {
@@ -324,7 +324,7 @@ ${toGothicLines([{
       sr: "Идолима мртвим жртве приношаше;",
       en: "and offered sacrifices to the inanimate idols;",
     },
-    notes: `"hunsla saljan" John 16:2; "galiugam saljada" Corinthians I 10:19.`
+    notes: `“hunsla saljan” John 16:2; “galiugam saljada” Corinthians I 10:19.`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -381,7 +381,7 @@ ${toGothicLines([{
       en: "With firm resolve to his people an astonishment.",
       de: "... seinem Volke eine Verwunderung.",
     },
-    notes: `"sildaleiknan in allaim þaim galaubjandam" Thessalonians II 1:10`
+    notes: `“sildaleiknan in allaim þaim galaubjandam” Thessalonians II 1:10`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -431,7 +431,7 @@ ${toGothicLines([{
     text: {
       got: "ïþ und hina dag ni usbrann.",
       sr: "Али ни до данас није изгорео.",
-      en: "But to this day he hasn't burned out.",
+      en: "But to this day he hasn’t burned out.",
     },
   }], info)}
 <br>
@@ -493,7 +493,7 @@ ${toGothicLines([{
       sr: "Помоли се за нас, јер Цар тебе слуша,",
       en: "Pray for us, for the King listens to you, ",
     },
-    notes: `"𐌱𐌹𐌳𐌾𐌰𐌹𐌸𐌿𐌸𐌸𐌰𐌽 𐌾𐌰𐌷 𐌱𐌹 𐌿𐌽𐍃" Thessalonians I 5:25`
+    notes: `“𐌱𐌹𐌳𐌾𐌰𐌹𐌸𐌿𐌸𐌸𐌰𐌽 𐌾𐌰𐌷 𐌱𐌹 𐌿𐌽𐍃” Thessalonians I 5:25`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -502,7 +502,7 @@ ${toGothicLines([{
       sr: "Да с’ и наша Богом помилује душа.",
       en: "That He grant our souls mercy. (that he let be mercy on our souls)",
     },
-    notes: `Publican's prayer Luke 18:13`
+    notes: `Publican’s prayer Luke 18:13`
   }], info)}
 </p>`
 

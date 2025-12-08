@@ -88,7 +88,7 @@ const generator: PageGenerator = info =>
         ru: "научи меня принять их со спокойной душою и твёрдым убеждением,",
         en: "teach me to accept it with a calm soul and the firm conviction",
       },
-      notes: `rimisis "of calmness", though I'd prefer an adjective`
+      notes: `rimisis “of calmness”, though I’d prefer an adjective`
     },
     {
       text: {
@@ -97,7 +97,7 @@ const generator: PageGenerator = info =>
         en: "that all is subject to Thy holy Will.",
       },
       notes: `Corinthians I 15:27, Ephesians 1:22. Though not using ufhnaiwida
-as the Russian isn't using a word like submit, just using a preposition.
+as the Russian isn’t using a word like submit, just using a preposition.
 
 Every thing is under thy Holy Will.`
     },

@@ -11,7 +11,7 @@ import
 
 // https://www.oca.org/saints/lives/2017/03/26/100888-26-martyrs-in-the-crimea
 // https://en.wikipedia.org/wiki/Gothic_persecution_of_Christians
-// "The "26 Gothic martyrs" are commemorated in Orthodox Christianity on 26 March, but in the Gothic calendar fragment on 29 October (gaminþi marwtre þize bi Werekan papan jah Batwin bilaif. aikklesjons fullaizos ana Gutþiudai gabrannidai "remembrance of the martyrs who with Werekas the priest and Batwin the bilaif were burned in a crowded church among the Goths"). The same fragment for 23 October proscribes remembrance of "the many martyrs among the Gothic people, and of Fridaric" (þize ana Gutþiudai managaize martwre jah Friþareikeis), Fridaric being an otherwise unknown Gothic martyr."
+// 'The "26 Gothic martyrs" are commemorated in Orthodox Christianity on 26 March, but in the Gothic calendar fragment on 29 October (gaminþi marwtre þize bi Werekan papan jah Batwin bilaif. aikklesjons fullaizos ana Gutþiudai gabrannidai "remembrance of the martyrs who with Werekas the priest and Batwin the bilaif were burned in a crowded church among the Goths"). The same fragment for 23 October proscribes remembrance of "the many martyrs among the Gothic people, and of Fridaric" (þize ana Gutþiudai managaize martwre jah Friþareikeis), Fridaric being an otherwise unknown Gothic martyr.'
 // Link from: https://www.wulfila.be/gothic/text/minora/Kalender.html
 // https://www.crkvenikalendar.com/zitije_en.php?id=EEIA
 
@@ -47,7 +47,7 @@ import
         got: 'jah Prince Agaþon,',
         en: "and Prince Agathon,",
       },
-      notes: `Included in the "Eastern Orthodox martyrologies"`
+      notes: `Included in the “Eastern Orthodox martyrologies”`
     },
     */
 
@@ -57,7 +57,7 @@ import
         got: 'Konstans,',
         en: "Constans,",
       },
-      notes: `Included in the "Eastern Orthodox martyrologies"`
+      notes: `Included in the “Eastern Orthodox martyrologies”`
     },
     */
 
@@ -111,21 +111,21 @@ const generator: PageGenerator = info =>
     },
     notes: `[url=https://el.wiktionary.org/wiki/%CE%93%CF%8C%CF%84%CE%B8%CE%BF%CF%82#%CE%91%CF%81%CF%87%CE%B1%CE%AF%CE%B1_%CE%B5%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CE%AC_(grc)]This page[/url]
 explains Greek Γότθος (by extension Gothia/Γοτθία) as coming from gutþiuda,
-so I don't think the Goths would have called it Gutþia or something like that
+so I don’t think the Goths would have called it Gutþia or something like that
 as it would be cutting the þiuda word up.
 Instead I think that a place where goths reside might have been called
-the "goth land" like Swedish Gotland so 𐌲𐌿𐍄𐌻𐌰𐌽𐌳.
+the “goth land” like Swedish Gotland so 𐌲𐌿𐍄𐌻𐌰𐌽𐌳.
 Also looking at iudaialand, the Goths they seem to quickly stick the word
 land at the end. Not so much as a place name but rather a description of a
 place. -land feels somewhat equal to the -ia endings, looking at other Germanic
 languages too.
 
-For the name of Crimea, I thought of using Taurika, but I'm using the modern name
+For the name of Crimea, I thought of using Taurika, but I’m using the modern name
 for the area that everyone is used to now, for familiarity sake, 𐌺𐍂𐌹𐌼.
 The Gothic wikipedia page uses 𐌺𐍂𐌴𐌹𐌼, even though Turkic, Russian, Ukrainian
 and plenty of other languages (Germanic ones included) have a short vowel
 sound. The original Turkic word is more of a u sound /ɯ/, though most modern
-languages have it as an i sound so that's what I went with too, again for
+languages have it as an i sound so that’s what I went with too, again for
 familiarity.`
   },], info)}</h1>
 </header>`
@@ -180,8 +180,8 @@ spilla + witubni + areis like Geschichtswissenschaftler`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `"Unte biliþun haidu attane ize,`,
-        en: `"Because they had abandoned the cult of their fathers,`,
+        got: `“Unte biliþun haidu attane ize,`,
+        en: `“Because they had abandoned the cult of their fathers,`,
       },
       notes: 'using haidus (manner/way) for cult'
     },
@@ -197,7 +197,7 @@ spilla + witubni + areis like Geschichtswissenschaftler`
         got: `sumans afdauþida afar þatei faur staua táuhanai waurþun jah garedaba andhaihaitun laisein,`,
         en: `some he put to death after they had been dragged before tribunals and had nobly confessed the doctrine,`,
       },
-      notes: `"afar þatei rodida du im" Mark 16:19.
+      notes: `“afar þatei rodida du im” Mark 16:19.
 
 stood before, faura + DATIVE without motion Matthew 27:11.
 put before, faur + ACC with motion Mark 8:6.`
@@ -275,8 +275,8 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
     },
     {
       text: {
-        got: `Þai haiþnai inbrannidedun ïta, jah alla wesun qistida."`,
-        en: `The pagans set fire to it, and all were destroyed."`,
+        got: `Þai haiþnai inbrannidedun ïta, jah alla wesun qistida.”`,
+        en: `The pagans set fire to it, and all were destroyed.”`,
       },
     },
   ], info)}</p>`
@@ -350,9 +350,9 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
         en: "The names of the martyrs are:",
       },
       notes: `The original line was
-"The names of the Martyrs vary by source, but of those known they are:"
+“The names of the Martyrs vary by source, but of those known they are:”
 with list of names and their variations in braces following,
-but as I'm only showing single Gothic names, I've reworded this.
+but as I’m only showing single Gothic names, I’ve reworded this.
 The names in Gothic I may have to adjust over time
 as their etymologies and spellings are figured out.`
     },
@@ -362,9 +362,9 @@ as their etymologies and spellings are figured out.`
         en: "Presbyter Bercus (Ouerkas, Vercus, Werekas, Oυΐρκας) and",
       },
       notes: `Taken from the calendar.
-Attested as "bi Werekan Papan" probably in ACC so an-stem perhaps.
+Attested as “bi Werekan Papan” probably in ACC so an-stem perhaps.
 
-On the english line, names in braces are variations I've found online.`
+On the english line, names in braces are variations I’ve found online.`
     },
     {
       text: {
@@ -374,7 +374,7 @@ On the english line, names in braces are variations I've found online.`
       notes: `Taken from the calendar with the unknown Bilaif word.
 Wondering if it means deacon.
 
-Attested as "bi [...] Batwin Bilaif" probably in ACC so a-stem perhaps.`
+Attested as “bi [...] Batwin Bilaif” probably in ACC so a-stem perhaps.`
     },
     {
       text: {
