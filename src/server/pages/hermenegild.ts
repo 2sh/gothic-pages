@@ -178,7 +178,7 @@ hardus to mean austere, using it for the arcta meaning
       },
       notes: `"þatei magi" Mark 7:15, magan can be used for things too, not just people`
   },
-  ], info)}</h2>`
+  ], info)}`
 
   article += html`<p>${toGothicLines([
     {
