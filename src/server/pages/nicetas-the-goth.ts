@@ -386,7 +386,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þairhstagg þata riqis þairh maht Galgins Gariudis",
+      got: "Þairhstagg þata riqis maht Galgins Gariudis",
       sr: "Силом часног крста силу мрачну збуни,",
       en: "By the power of the Honourable Cross he pierced the darkness",
     },
