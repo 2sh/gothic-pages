@@ -287,7 +287,7 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Ïn allai þiudai, sa ïst ïnkunja sunjis,",
+      got: "Ïn þiudai seinai ïnkunja sunjis sijai,",
       sr: "Родољуб је прави ко у своме роду",
       en: "Among all the people, he is a true patriot.",
     },
@@ -300,7 +300,7 @@ Using þiuda to mean people of his tribe, a few bible verses use the word for he
 <br>
 ${toGothicLines([{
     text: {
-      got: "saei Guda Libandins raiseiþ hunslastadis.",
+      got: "saei Guda Libandins hunslastaþ raisjai.",
       sr: "Олтар прави зида живоме Господу.",
       en: "who to the Living God erects an altar.",
     },
@@ -310,7 +310,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Aþanareiks Guta miþ anamahtai reikinoda",
+      got: "Aþanareiks Guta anamahtai reikinoda,",
       sr: "Атанарик Готски насиљем владаше.",
       en: "The Goth Athanaric with violence ruled",
     },
@@ -320,7 +320,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah galiugam ungawagjandam saudins salida;",
+      got: "galiugam unwagjandam saudins salida.",
       sr: "Идолима мртвим жртве приношаше;",
       en: "and offered sacrifices to the inanimate idols;",
     },
@@ -345,29 +345,26 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þairh naht ussandida Liuhadis Aiweinis strelos,",
+      got: "Ains in naht Liuhaþ Aiweinana strawida;",
       sr: "Овај светлост вечну у ноћ расипаше,",
       en: "He sent rays of the Eternal Light through the night,",
     },
-    notes: '*strela [f. O] PGm *strēlō- (in Le Petit Prince)'
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "distahjandeins riqis haiþn biwaibjando saiwalos.",
+      got: "Anþar saiwalos riqizis haiþeinis hulida.",
       sr: "Онај тмом идолском душе застираше.",
       en: "dissolving the idolatrous gloom wrapping souls.",
     },
-    notes: `Using heathen to mean idolatrous
-
-using galiugands to mean idolatrous`
+    notes: `Using heathen to mean idolatrous`
   }], info)}
 </p>`
 
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Niketa Weihs andstoþ þamma reik,",
+      got: "Niketa Weihs andstoþ þamma reik;",
       sr: "Никита се свети кнезу успротиви,",
       en: "Saint Nicetas stood against the prince",
     },
@@ -376,7 +373,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "muna tulgjamma þiudai seinai sildaleik.",
+      got: "Þiudai seinai usbeisnein balþai sildaleik.",
       sr: "И трпљењем храбрим народ свој задиви,",
       en: "With firm resolve to his people an astonishment.",
       de: "... seinem Volke eine Verwunderung.",
@@ -386,7 +383,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þairhstagg þata riqis maht Galgins Gariudis",
+      got: "Þairhstagg þata riqis mahtai Krukis Gariudis;",
       sr: "Силом часног крста силу мрачну збуни,",
       en: "By the power of the Honourable Cross he pierced the darkness",
     },
@@ -394,7 +391,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah fullida alla þiuda seina faurhteins Gudis.",
+      got: "Fullida alla þiuda seina faurhteins Gudis.",
       sr: "И страхом од Бога сав народ испуни.",
       en: "And filled all his people with the fear of God.",
     },
@@ -413,7 +410,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "miþþanei usstaig ahma ïs du gardim himinis.",
+      got: "jah usstaig ahma ïs du gardim him(i)nis.",
       sr: "А дух му се вину у небеске дворе;",
       en: "While his spirit ascended to the courts of heaven.",
     },
@@ -421,7 +418,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïn fonin ogjandin, Niketa brann,",
+      got: "Ïn fonin ogjandin, Niketa Weihs brann,",
       sr: "У страшном је огњу Никита горео",
       en: "In a dreadful fire, Nicetas was burning,",
     },
@@ -429,7 +426,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "ïþ und hina dag ni usbrann.",
+      got: "akei nauh und hina dag ïs ni usbrann.",
       sr: "Али ни до данас није изгорео.",
       en: "But to this day he hasn’t burned out.",
     },
@@ -437,7 +434,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïn Sunja Xristaus, þai gutans daupidai wesun.",
+      got: "Ïn Sunja Xristaus, þai gutans daupidai wesun",
       sr: "Истином Христовом Готи се крстише.",
       en: "Into the Truth of Christ, the Goths were baptized.",
     },
@@ -445,7 +442,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Jah wulþagana seinana Niketan hazidedun.",
+      got: "jah wulþagana seinana Niketan hazidedun.",
       sr: "И Никиту свога дивно прославише.",
       en: "And praised their wonderful one Nikitas.",
     },
@@ -465,7 +462,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "ïnkunja sunja, martyr balþa.",
+      got: "sa ïnkunja sunja, sa martyr balþa.",
       sr: "Мучениче храбри, прави родољубе,",
       en: "True patriot, brave martyr.",
     },
@@ -473,10 +470,11 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þū bilaist bauainins airþis,",
+      got: "Þū bilaist þaim bauainim airþis,",
       sr: "Из шатора земних ти си отишао,",
       en: "You have left behind the dwelling-places of the earth",
     },
+    notes: `2 Corinthians 5:1`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -489,7 +487,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Bidei bi uns, unte Þiudans andhauseiþ þus,",
+      got: "Bidei bi uns, Þiudans andhauseiþ þus,",
       sr: "Помоли се за нас, јер Цар тебе слуша,",
       en: "Pray for us, for the King listens to you, ",
     },
