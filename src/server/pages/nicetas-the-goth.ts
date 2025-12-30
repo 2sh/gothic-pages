@@ -372,9 +372,9 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þiudai seinai usbeisnein balþai sildaleik,",
+      got: "stiwitja balþamma Þiudai seinai sildaleik,",
       sr: "И трпљењем храбрим народ свој задиви,",
-      en: "With brave patience to his people an astonishment.",
+      en: "With brave patience to his people an astonishment,",
       de: "... seinem Volke eine Verwunderung.",
     },
     notes: `“sildaleiknan in allaim þaim galaubjandam” Thessalonians II 1:10`
@@ -417,7 +417,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïn fonin ogjandin Niketa Weihs brann",
+      got: "Ïn funin agisleikamma Niketa brann",
       sr: "У страшном је огњу Никита горео",
       en: "In a dreadful fire, Nicetas was burning,",
     },
