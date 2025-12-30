@@ -347,7 +347,7 @@ ${toGothicLines([{
     text: {
       got: "Ains in naht Liuhaþ Aiweinana strawida;",
       sr: "Овај светлост вечну у ноћ расипаше,",
-      en: "He sent rays of the Eternal Light through the night,",
+      en: "One spread the Eternal Light in the night,",
     },
   }], info)}
 <br>
@@ -355,7 +355,7 @@ ${toGothicLines([{
     text: {
       got: "Anþar saiwalos riqizis haiþeinis hulida.",
       sr: "Онај тмом идолском душе застираше.",
-      en: "dissolving the idolatrous gloom wrapping souls.",
+      en: "the other wrapped souls in an idolatrous gloom.",
     },
     notes: `Using heathen to mean idolatrous`
   }], info)}
@@ -375,7 +375,7 @@ ${toGothicLines([{
     text: {
       got: "Þiudai seinai usbeisnein balþai sildaleik.",
       sr: "И трпљењем храбрим народ свој задиви,",
-      en: "With firm resolve to his people an astonishment.",
+      en: "With brave patience to his people an astonishment.",
       de: "... seinem Volke eine Verwunderung.",
     },
     notes: `“sildaleiknan in allaim þaim galaubjandam” Thessalonians II 1:10`
@@ -410,7 +410,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah usstaig ahma ïs du gardim him(i)nis.",
+      got: "jah usstaig ahma ïs du gardim himinis.",
       sr: "А дух му се вину у небеске дворе;",
       en: "While his spirit ascended to the courts of heaven.",
     },
@@ -498,7 +498,7 @@ ${toGothicLines([{
     text: {
       got: "ei saiwalom unsaraim sijai hulþs.",
       sr: "Да с’ и наша Богом помилује душа.",
-      en: "That He grant our souls mercy. (that he let be mercy on our souls)",
+      en: "That He grant our souls mercy. (that he be merciful to our souls)",
     },
     notes: `Publican’s prayer Luke 18:13`
   }], info)}
