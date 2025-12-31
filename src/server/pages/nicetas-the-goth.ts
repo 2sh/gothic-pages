@@ -461,7 +461,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa ïnkunja sunja, sa martyr balþa,",
+      got: "Sa martyr balþa, sa ïnkunja sunja,",
       sr: "Мучениче храбри, прави родољубе,",
       en: "True patriot, brave martyr.",
     },
@@ -469,7 +469,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þū bilaist þaim bauainim airþis,",
+      got: "Þū galaist us þaim bauainim airþis,",
       sr: "Из шатора земних ти си отишао,",
       en: "You have left behind the dwelling-places of the earth",
     },
