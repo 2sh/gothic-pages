@@ -320,7 +320,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Galiugam unwagjandam saudins salida;",
+      got: "Galiugam unwigandam saudins salida;",
       sr: "Идолима мртвим жртве приношаше;",
       en: "and offered sacrifices to the inanimate idols;",
     },
