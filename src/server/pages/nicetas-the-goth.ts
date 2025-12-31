@@ -469,7 +469,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þū galaist us þaim bauainim airþis,",
+      got: "Us airþeinaim bauainim aflaist þū,",
       sr: "Из шатора земних ти си отишао,",
       en: "You have left behind the dwelling-places of the earth",
     },
@@ -478,7 +478,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïn þiudangardim nu miþ aggilum standis.",
+      got: "Ïn þiudangardim miþ aggilum standis nu.",
       sr: "У дворове царске с ангелима стао.",
       en: "And now you stand in the royal courts with the angels.",
     },
