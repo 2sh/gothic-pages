@@ -397,7 +397,7 @@ ${toGothicLines([{
     text: {
       got: "jah fullida alla þo þiuda faurhteins Gudis.",
       sr: "И страхом од Бога сав народ испуни.",
-      en: "And filled all his people with the fear of God.",
+      en: "And filled all the people with the fear of God.",
     },
   }], info)}
 </p>`
