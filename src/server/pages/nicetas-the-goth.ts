@@ -372,7 +372,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "stiwitja balþamma Þiudai seinai sildaleik,",
+      got: "Stiwitja balþamma þiudai seinai sildaleik,",
       sr: "И трпљењем храбрим народ свој задиви,",
       en: "With brave patience to his people an astonishment,",
       de: "... seinem Volke eine Verwunderung.",
