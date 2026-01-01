@@ -433,9 +433,9 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïn Sunja Xristaus þai gutans daupidai wesun",
+      got: "Sunjai Xristaus gutans daupidai wesun",
       sr: "Истином Христовом Готи се крстише.",
-      en: "Into the Truth of Christ, the Goths were baptized.",
+      en: "By the Truth of Christ the Goths were baptized.",
     },
   }], info)}
 <br>
