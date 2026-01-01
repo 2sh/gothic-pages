@@ -182,7 +182,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'gabundun þans bans bagmam jah sokidedun ïns nauþjan mimz, þatei galiugam gasaliþ was, ïtan.',
+        got: 'gabundun þans bans bagmam jah sokidedun ïns nauþjan mimz, þatei idaulom gasaliþ was, ïtan.',
         en: "bound them both to trees and tried to force them to eat meat offered to idols.",
       },
       notes: `Seems to be using the dative without a preposition Corinthians I 7:27, Romans 7:2
