@@ -287,9 +287,9 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Ïn þiudai seinai ïnkunja sunjis sijai",
+      got: "Ïn seinamma kunja ïnkunja sunjis sijai",
       sr: "Родољуб је прави ко у своме роду",
-      en: "Among all the people, he is a true patriot.",
+      en: "Among his people he is a true patriot",
     },
     notes:
       `Although ïnkunja means fellow countryman, I feel like it works in this context.
@@ -390,7 +390,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah fullida alla þiuda seina faurhteins Gudis.",
+      got: "jah fullida alla so þiuda faurhteins Gudis.",
       sr: "И страхом од Бога сав народ испуни.",
       en: "And filled all his people with the fear of God.",
     },
