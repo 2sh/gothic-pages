@@ -390,7 +390,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "fullidah alla þiuda seina faurhteins Gudis.",
+      got: "jah fullida alla þiuda seina faurhteins Gudis.",
       sr: "И страхом од Бога сав народ испуни.",
       en: "And filled all his people with the fear of God.",
     },
@@ -441,9 +441,9 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah wulþagana seinana Niketan hazidedun.",
+      got: "jah Niketan seinana wulþagaba hazidedun.",
       sr: "И Никиту свога дивно прославише.",
-      en: "And praised their wonderful one Nikitas.",
+      en: "And praised their Nikitas wonderfully.",
     },
     notes: ''
   }], info)}
