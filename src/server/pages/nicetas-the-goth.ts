@@ -345,7 +345,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa in naht Liuhaþ Aiweinana strawida,",
+      got: "Sa Liuhaþ Aiweinana in naht strawida,",
       sr: "Овај светлост вечну у ноћ расипаше,",
       en: "This one spread the Eternal Light in the night,",
     },
@@ -400,7 +400,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Bloþ ïs was swe riudands ūhtwons niujis,",
+      got: "Bloþ ïs was swe rauþ niujis maurginis",
       sr: "Крв његова беше румен нове зоре,",
       en: "His blood was the blush of a new dawn,",
     },
