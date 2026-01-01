@@ -386,6 +386,11 @@ ${toGothicLines([{
       sr: "Силом часног крста силу мрачну збуни,",
       en: "By the power of the Honourable Cross he pierced the darkness",
     },
+    notes: `Using *kruks instead of galga as it could indicate other things
+
+Original Serbian is more like "confused the dark power", though I like the
+English translation more as it references the previously mentioned darkness
+and using Þairhstagg sounds good.`
   }], info)}
 <br>
 ${toGothicLines([{
