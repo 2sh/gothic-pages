@@ -445,7 +445,7 @@ ${toGothicLines([{
       sr: "И Никиту свога дивно прославише.",
       en: "And praised their Nikitas wonderfully.",
     },
-    notes: ''
+    notes: `Using -o ending for wulþags to mean 'in a wonderful manner'`
   }], info)}
 </p>`
 
