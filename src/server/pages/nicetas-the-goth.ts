@@ -409,7 +409,6 @@ ${toGothicLines([{
       sr: "Крв његова беше румен нове зоре,",
       en: "His blood was the blush of a new dawn,",
     },
-    notes: `*riudan`
   }], info)}
 <br>
 ${toGothicLines([{
