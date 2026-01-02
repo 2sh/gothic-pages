@@ -366,7 +366,7 @@ and afgudei to mean idolatry.`
   article += html`<p>idolater: <span lang='got'>${toGothicLines([
     {
       text: {
-        got: 'afgudblostareis',
+        got: 'afgudblostreis',
         el: "εἰδωλολᾰ́τρης",
         en: "idolater",
       },
