@@ -320,7 +320,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Idaulom dauþaim saudins salida;",
+      got: "Afgudam dauþaim saudins salida;",
       sr: "Идолима мртвим жртве приношаше;",
       en: "and offered sacrifices to the dead idols;",
     },

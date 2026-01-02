@@ -322,6 +322,63 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
     },
   ], info)}</span></p>`
 
+  article += html`<p>idol: <span lang='got'>${toGothicLines([
+    {
+      text: {
+        got: 'eidolo',
+        el: "εἴδωλον",
+        en: "idol",
+      },
+      notes:
+`From εἴδωλον (eídōlon). on-stem.
+
+εἴ to ei, looking at Daweid from Δαυείδ.
+
+There's also galiugaguþ to mean idol but also false deity. This word could
+specifically be used to mean the idol objects.
+
+on-stem as various other Greek words ending in -ον and inanimate words ending in
+-ος seem to turn into on-stems.`
+    },
+  ], info)}</span></p>`
+
+  article += html`<p>idol/false deity: <span lang='got'>${toGothicLines([
+    {
+      text: {
+        got: 'afguþ',
+        de: 'Abgott',
+        nl: 'afgot',
+        en: "idol",
+      },
+      notes:
+`On the old dutch wiktionary page for afgot:
+"Possibly a calque of Gothic 𐌰𐍆𐌲𐌿𐌸𐍃 (afguþs)"
+
+While there's galiugaguþ, with the word parts being "false deity", it has
+less of the "idol" meaning perhaps, while afguþ could be a middle ground
+to this with a "deviation from the norm" feeling.
+
+This would then tie loosly with afguþs to mean idolatrous,
+and afgudei to mean idolatry.`
+    },
+  ], info)}</span></p>`
+
+  article += html`<p>idolater: <span lang='got'>${toGothicLines([
+    {
+      text: {
+        got: 'afgudblostareis',
+        el: "εἰδωλολᾰ́τρης",
+        en: "idolater",
+      },
+      notes:
+`prefixing the attested gudblostreis with af- as if afguþs.
+
+The Greek is made of idol and worshipper too.
+German has followed this compound approach too, Götzendienst.`
+    },
+  ], info)}</span></p>`
+
+
   article += html`<p>in large part: <span lang='got'>${toGothicLines([
     {
       text: {
