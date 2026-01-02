@@ -415,7 +415,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah usstaig ahma ïs du gardim himinis;",
+      got: "Ïþ usstaig ahma ïs du gardim himinis;",
       sr: "А дух му се вину у небеске дворе;",
       en: "While his spirit ascended to the courts of heaven.",
     },
