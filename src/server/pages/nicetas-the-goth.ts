@@ -324,7 +324,12 @@ ${toGothicLines([{
       sr: "Идолима мртвим жртве приношаше;",
       en: "and offered sacrifices to the dead idols;",
     },
-    notes: `“hunsla saljan” John 16:2; “galiugam saljada” Corinthians I 10:19.`
+    notes: `“hunsla saljan” John 16:2; “galiugam saljada” Corinthians I 10:19.
+
+Using afguþ instead of an idol loan as afgudis is used later and that makes
+reference back to this word nicely. Trying to create a nice sounding word
+for this poem for idolatrous instead of afgudis
+that uses an idol loan would overcomplicate this.`
   }], info)}
 <br>
 ${toGothicLines([{
