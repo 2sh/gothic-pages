@@ -371,7 +371,7 @@ and afgudei to mean idolatry.`
         en: "idolater",
       },
       notes:
-`prefixing the attested gudblostreis with af- as if afguþs.
+`prefixing the attested gudblostreis with af- as in afguþs.
 
 The Greek is made of idol and worshipper too.
 German has followed this compound approach too, Götzendienst.`
