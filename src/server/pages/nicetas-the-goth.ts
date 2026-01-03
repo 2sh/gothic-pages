@@ -287,23 +287,21 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Ïn seinamma kunja ïnkunja sunjis sijai",
+      got: "Saei Guda Libandin ïn seinamma kunja",
       sr: "Родољуб је прави ко у своме роду",
       en: "Among his people he is a true patriot",
     },
-    notes:
-      `Although ïnkunja means fellow countryman, I feel like it works in this context.
-Zealot could maybe work too.
-
-Using þiuda to mean people of his tribe, a few bible verses use the word for heathen but mostly gentiles.`
+    notes: `For rhyming, this and the next line are mixed a bit from the original.`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Saei Guda Libandins hunslastaþ raisjai.",
+      got: "hunslastaþ raisjai, sijai sunjis ïnkunja.",
       sr: "Олтар прави зида живоме Господу.",
       en: "who to the Living God erects an altar.",
     },
+    notes: `The word origin of patriot is fellow countryman, so ïnkunja works
+well here. In the original Serbian the people and patriot words have the same`
   }], info)}
 </p>`
 
@@ -382,7 +380,10 @@ ${toGothicLines([{
       en: "With brave patience to his people an astonishment,",
       de: "... seinem Volke eine Verwunderung.",
     },
-    notes: `“sildaleiknan in allaim þaim galaubjandam” Thessalonians II 1:10`
+    notes: `“sildaleiknan in allaim þaim galaubjandam” Thessalonians II 1:10
+
+Using þiuda to mean people of his tribe, a few bible verses use the word for
+heathen but mostly gentiles.`
   }], info)}
 <br>
 ${toGothicLines([{
