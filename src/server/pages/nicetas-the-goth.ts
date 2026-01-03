@@ -525,7 +525,7 @@ ${toGothicLines([{
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025)", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Ïostaiha (2025-2026)", en: "a translation by 2sh (2025-2026)." },
   }], info)}</span>
   <br>
   <span class="nowrap">${toGothicLines([{
@@ -537,7 +537,7 @@ ${toGothicLines([{
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: {
-      got: "Nikaulai Belimiraubits Weihis.",
+      got: "Nikaulai Velimirauvits Weihis.",
       en: "by Saint Nikolai Velimirović."
     },
   }], info)}</span>
@@ -546,7 +546,7 @@ ${toGothicLines([{
   article += html`<p lang='en' class="annotation">
   <span class="nowrap">Nicetas the Goth</span>
   <span class="nowrap">in the Gothic language,</span>
-  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
+  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025-2026).</span>
   <br>
   <span class="nowrap">In large part from the Ochrid Prologue</span>
   <span class="nowrap">by Saint Nikolai Velimirović.</span>
