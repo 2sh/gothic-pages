@@ -287,28 +287,29 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Ïnkunja sijai sunjeins saei ïn kunja seinamma",
+      got: "Sijai sunjeins ïnkunja saei ïn kunja seinamma",
       sr: "Родољуб је прави ко у своме роду",
       en: "Among his people he is a true patriot",
     },
-    notes: `For rhyming, this and the next line are mixed a bit from the original.`
+    notes: `The word origin of patriot is fellow countryman, so ïnkunja works
+well here. In the original Serbian words for people and patriot have the same
+root word too.`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Guda Libandin raisjai hunslastaþ sunjeinana.",
+      got: "Timrjai Guda Libandin altār sunjeinana.",
       sr: "Олтар прави зида живоме Господу.",
       en: "who to the Living God erects a genuine altar.",
     },
-    notes: `The word origin of patriot is fellow countryman, so ïnkunja works
-well here. In the original Serbian the people and patriot words have the same`
+    notes: ``
   }], info)}
 </p>`
 
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Aþanareiks Guta anamahtai reikinoda.",
+      got: "Sa Guta Aþanareiks anamahtai reikinoda.",
       sr: "Атанарик Готски насиљем владаше.",
       en: "The Goth Athanaric with violence ruled",
     },
@@ -318,7 +319,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Afgudam dauþaim hunsla gasalida;",
+      got: "Du afgudam dauþaim hunsla gasalida;",
       sr: "Идолима мртвим жртве приношаше;",
       en: "and offered sacrifices to the dead idols;",
     },
@@ -367,7 +368,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Niketa Weihs andstoþ þamma reik,",
+      got: "Sa Weihs Niketa andstoþ þamma reik,",
       sr: "Никита се свети кнезу успротиви,",
       en: "Saint Nicetas stood against the prince",
     },
@@ -465,7 +466,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Stibna þuthaurnis Gudis, Niketa Weiha,",
+      got: "Stibna Haurnis Gudis, Niketa Weiha,",
       sr: "О Никито свети, гласу Божје трубе,",
       en: "Voice of the trumpet of God, Saint Nikitas,",
     },
@@ -474,7 +475,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa martyr balþa, sa ïnkunja sunjeina,",
+      got: "Sa martyr balþa, ïnkunja sunjeina,",
       sr: "Мучениче храбри, прави родољубе,",
       en: "True patriot, brave martyr.",
     },
