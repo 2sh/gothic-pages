@@ -298,7 +298,7 @@ ${toGothicLines([{
     text: {
       got: "Guda Libandin raisjai hunslastaþ sunjeinana.",
       sr: "Олтар прави зида живоме Господу.",
-      en: "who to the Living God erects an altar.",
+      en: "who to the Living God erects a genuine altar.",
     },
     notes: `The word origin of patriot is fellow countryman, so ïnkunja works
 well here. In the original Serbian the people and patriot words have the same`
