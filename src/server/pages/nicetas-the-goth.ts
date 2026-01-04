@@ -509,9 +509,9 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ei saiwalom unsaraim sijai hulþs.",
+      got: "Ei jah saiwalom unsaraim sijai hulþs.",
       sr: "Да с’ и наша Богом помилује душа.",
-      en: "That He grant our souls mercy. (that he be merciful to our souls)",
+      en: "That He also grant our souls mercy. (that he also be merciful to our souls)",
     },
     notes: `Publican’s prayer Luke 18:13`
   }], info)}
