@@ -287,7 +287,7 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Saei Guda Libandin ïn seinamma kunja",
+      got: "Ïnkunja sijai sunjeins saei ïn kunja seinamma",
       sr: "Родољуб је прави ко у своме роду",
       en: "Among his people he is a true patriot",
     },
@@ -296,7 +296,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "hunslastaþ raisjai, sijai sunjis ïnkunja.",
+      got: "Guda Libandin raisjai hunslastaþ sunjeinana.",
       sr: "Олтар прави зида живоме Господу.",
       en: "who to the Living God erects an altar.",
     },
@@ -318,11 +318,12 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Afgudam dauþaim saudins salida;",
+      got: "Afgudam dauþaim hunsla gasalida;",
       sr: "Идолима мртвим жртве приношаше;",
       en: "and offered sacrifices to the dead idols;",
     },
     notes: `“hunsla saljan” John 16:2; “galiugam saljada” Corinthians I 10:19.
+"du galiugagudam gasaliþ" Corinthians I 8:10 and "galiugam gasaliþ" Corinthians I 10:28
 
 Using afguþ instead of an idol loan as afgudis is used later and that makes it
 reference back to this word nicely. Trying to create a nice sounding word
@@ -473,7 +474,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa martyr balþa, sa ïnkunja sunja,",
+      got: "Sa martyr balþa, sa ïnkunja sunjeina,",
       sr: "Мучениче храбри, прави родољубе,",
       en: "True patriot, brave martyr.",
     },
