@@ -500,7 +500,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Bidei bi uns, Þiudans andhauseiþ þus,",
+      got: "Bidei bi uns, unte Þiudans andhauseiþ þus,",
       sr: "Помоли се за нас, јер Цар тебе слуша,",
       en: "Pray for us, for the King listens to you, ",
     },
@@ -509,7 +509,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ei jah saiwalom unsaraim sijai hulþs.",
+      got: "Ei jah saiwalom unsaraim Guþ sijai hulþs.",
       sr: "Да с’ и наша Богом помилује душа.",
       en: "That He also grant our souls mercy. (that he also be merciful to our souls)",
     },
