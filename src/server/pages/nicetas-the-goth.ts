@@ -287,7 +287,7 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Sijai sunjeins ïnkunja saei ïn kunja seinamma",
+      got: "Sunjeins sijai ïnkunja saei ïn kunja seinamma",
       sr: "Родољуб је прави ко у своме роду",
       en: "Among his people he is a true patriot",
     },
@@ -298,7 +298,7 @@ root word too.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "Timrjai Guda Libandin altār sunjeinana.",
+      got: "Guda Libandin timrjai altār sunjeinana.",
       sr: "Олтар прави зида живоме Господу.",
       en: "who to the Living God erects a genuine altar.",
     },
@@ -368,7 +368,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Sa Weihs Niketa andstoþ þamma reik,",
+      got: "Niketa Weihs andstoþ þamma reik,",
       sr: "Никита се свети кнезу успротиви,",
       en: "Saint Nicetas stood against the prince",
     },
@@ -447,7 +447,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sunjai Xristaus gutans daupidai wesun",
+      got: "Sunjai Xristaus gutans daupidai wesun.",
       sr: "Истином Христовом Готи се крстише.",
       en: "By the Truth of Christ the Goths were baptized.",
     },
@@ -455,7 +455,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "jah Niketan seinana wulþago hazidedun.",
+      got: "Jah Niketan seinana wulþago hazidedun.",
       sr: "И Никиту свога дивно прославише.",
       en: "And praised their Nikitas wonderfully.",
     },
@@ -466,16 +466,16 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Stibna Haurnis Gudis, Niketa Weiha,",
+      got: "O Niketa Weiha, Haurnis Gudis Stibna,",
       sr: "О Никито свети, гласу Божје трубе,",
-      en: "Voice of the trumpet of God, Saint Nikitas,",
+      en: "Saint Nikitas, Voice of the trumpet of God,",
     },
     notes: 'Vocative, so weak declension.'
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa martyr balþa, ïnkunja sunjeina,",
+      got: "Martyr balþa, ïnkunja sunjeina,",
       sr: "Мучениче храбри, прави родољубе,",
       en: "True patriot, brave martyr.",
     },
