@@ -56,13 +56,21 @@ const generator: PageGenerator = info =>
   }], info)}</h1>
   <div class="subtitle">${toGothicLines([{
     text: {
-      got: 'Galaubeins Nikaias',
-      en: "Nicene Creed",
+      got: 'Galaubeins Nikaias-Konstanteinupauleins',
+      en: "Niceno-Constantinopolitan Creed",
     },
     notes: `Νίκαια /nǐː.kai̯.a/ → /ˈni.cɛ.a/ → /ˈni.ce.a/ perhaps *𐌽𐌹𐌺𐌰𐌹𐌰,
 following attested 𐌹̈𐌿𐌳𐌰𐌹𐌰 from Ἰουδαία,
 though the stress might affect something?
-So *𐌽𐌹𐌺𐌰𐌹𐌰𐍃, looking at 𐌹̈𐌿𐌳𐌰𐌹𐌰’s declensions.`,
+So *𐌽𐌹𐌺𐌰𐌹𐌰𐍃, looking at 𐌹̈𐌿𐌳𐌰𐌹𐌰’s declensions.
+
+Attested Kūstanteinus though using Kon as it's attested only in the calendar
+and there's misspellings in there.
+There's attested dative Daikapaulein and genitive Daikapaulaios for Decapolis
+and dative Iairaupaulein for Hierapolis.
+The -aios seems to have been pulled directly from the Greek declension,
+but not the -ein. With the ancient Greek vocative being -i and the modern nominative
+being -i, I'm standardising it to an -ein declension?`,
   }], info)}</div>
 </header>`
 
@@ -484,7 +492,8 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean “of the ones dead”`,
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Taikns Galaubeinais /", en: "The Nicene Creed /" },
+    text: { got: "Galaubeins Nikaias-Konstanteinupauleins /",
+      en: "Niceno-Constantinopolitan Creed /" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "Galaubeins Nikaias", en: "Symbol of Faith" },
@@ -498,7 +507,8 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean “of the ones dead”`,
 </p>`
 
   article += html`<p lang='en' class="annotation">
-  <span class="nowrap">The Nicene Creed /</span>
+  <span class="nowrap">The Nicene Creed</span>
+  <span class="nowrap">(Niceno-Constantinopolitan Creed) /</span>
   <span class="nowrap">Symbol of Faith</span>
   <span class="nowrap">in the Gothic language,</span>
   <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
