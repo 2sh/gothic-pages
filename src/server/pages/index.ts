@@ -134,6 +134,7 @@ I also try to mark all cases of long a and u as ā and ū.</p>
 
 <h3>Resources</h3>
 <ul>
+  <li><a href="https://gutiskarazda.forumotion.com/">Gothic Language Forum</a></li>
   <li><a href="https://biblehub.com/searchnt.php?q=">BibleHub NT Search</a></li>
   <li><a href="https://biblehub.com/searchgreek.php?q=">BibleHub Greek Search</a></li>
   <li><a href="https://www.koeblergerhard.de/gotwbhin.html">Gerhard Köbler’s Wörterbuch</a></li>
