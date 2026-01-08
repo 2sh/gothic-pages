@@ -146,12 +146,14 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: 'Jan’ni swa mahtedi godein ahins ïs waikjan, galagjands ïna ïn karkara hardja, gaband bi halsaggan jah handuns ïs eisarnam.',
+        got: 'Jan’ni swa mahtedi godein fraþjis ïs waikjan, galagjands ïna ïn karkara hardja, gaband bi halsaggan jah handuns ïs eisarnam.',
         la: 'Cumque nec sic virtutem mentis illius emollire valuisset, in arcta illum custodia concludens, collum manusque illius ferro ligavit.',
         en: 'and perceiving that, with all this, his mind was nothing moved, he committed him to straight prison, laying irons both upon his neck and hands.',
         de: 'und da er auch durch dieses Mittel seinen starken Geist nicht zu beugen vermochte, ließ er ihn in einen engen Kerker werfen und ihm Hals und Hände in Eisen schlagen.',
       },
-      notes: `“cumque” was used previously so don’t need to use “ïþ” again really,
+      notes: `Using fraþi for mentis Ephesians 4:23
+
+“cumque” was used previously so don’t need to use “ïþ” again really,
 so using “jah” like the English translation with “and”,
 and Corinthians I 14:21 has “et nec sic” and is “jan~ni swa”
 (as displayed on Wulfila.be) in Gothic. “jan~ni” coming from jah + ni,
@@ -183,12 +185,15 @@ hardus to mean austere, using it for the arcta meaning
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Aþþan þan qam dags dulþais Paska, ïn þahainai riqizis nahts insandida sa airzja atta aipiskaupu arianiskana du ïmma, dūþe us handau ïs gamaindūþ gaweihainais unairknaizos andnemi, eiþan þairh þata aftra anst attins ganuti.',
+        got: 'Aþþan þan qam dags dulþais Paska, ïn þahainai riqizis nahts insandida sa hindarweis atta aipiskaupu arianiskana du ïmma, dūþe us handau ïs gamaindūþ gaweihainais unairknaizos andnemi, eiþan þairh þata aftra anst attins ganuti.',
         la: 'Superveniente autem Paschalis festivitatis die, intempestæ noctis silentio ad eum perfidus pater Arianum episcopum misit, ut ex ejus manu sacrilegæ consecrationis communionem perciperet, atque per hoc ad patris gratiam redire mereretur.',
         en: 'When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious consecration, that he might thereby again recover his father’s grace and favour:',
         de: 'Da nun aber das Osterfest nahte, sandte der ketzerische Vater in der Stille der Nacht einen arianischen Bischof zu ihm, damit er aus seiner Hand sakrilegisch die heilige Kommunion empfange und so verdiene, beim Vater wieder in Gunst zu gelangen.',
       },
       notes: `“aþþan þan qam” (Cum autem venisset) Galatians 2:11
+
+Using hindarweis for perfidy. "beyond wise", hindarweis translates to Latin dolus
+in the bible, and dolus is a synonym of perfidia.
 
 intempestæ noctis - darkest night, gone with “of the darkness of the night.”
 riqis old norse cognate røkkr meaning twilight so fitting.
@@ -206,7 +211,7 @@ Also, Timothy I 1:9 & Timothy II 3:2 have ἀνοσίοις as unairkns,
     },
     {
       text: {
-        got: 'Ïþ sa manna, saei sik Guda atgaf, fairinoda þana neƕjandan aipiskaupu arianiskan swaswe skuld was, jah ïs ',
+        got: 'Ïþ sa manna, saei sik Guda atgaf, fairinoda þana neƕjandan aipiskaupu arianiskan swaswe skuld was, jah afskauf hindarweisein ïs gasahtim gatilaim; unte þauhjabai ūtana gabundans lag, aiþþau stoþ ïnna ïn sis tulguba ïn mikil auhumistin fraþjis seinis.',
         la: 'Sed vir Deo deditus, Ariano episcopo venienti exprobravit ut debuit, ejusque a se perfidiam dignis increpationibus repulit: quia etsi exterius jacebat ligatus, apud se tamen in magno mentis culmine stabat secutus.',
         en: 'but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul.',
         de: 'Aber der Mann, der sich Gott geweiht hatte, wies den arianischen Bischof bei seinem Erscheinen nach Gebühr zurecht und verwarf seine Ketzerei mit entsprechendem Tadel; denn wenn er auch äußerlich in Fesseln lag, stand er in seinem Innern unerschütterlich auf großer Geisteshöhe.',
@@ -214,13 +219,33 @@ Also, Timothy I 1:9 & Timothy II 3:2 have ἀνοσίοις as unairkns,
       notes: `Was thinking about using atgiban as a past participle but it
 would perhaps miss the meaning of him handing *himself* over. There’s
 andtilon but I think atgif fits better as andtilon seems to be more about
-accepting something rather than wholly giving oneself up.`
+accepting something rather than wholly giving oneself up.
+
+afskiuban ("to push/drive/shove away".) seems to translate to
+the Latin repel and Greek apótheó (reject, to thrust away, to push aside).
+The use in the Bible seems to indicate a figurative "reject",
+instead of the verb being a purely physical action.
+
+although ... yet ... = þauhjabai ... aiþþau ... Corinthians II 4:16
+
+*tulguba from tulgus + ba to make it an adverb = firmly/securely
+
+"ïnna ... ïn mis" Colossians 1:29`
+    },
+    {
+      text: {
+        got: '...',
+        la: 'Ad se itaque reverso episcopo, Arianus pater infremuit, statimque suos apparitores misit, qui constantissimum confessorem Dei illic ubi jacebat occiderent: quod & factum est.',
+        en: 'The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay.',
+        de: 'Als der arianische Bischof zurückkehrte, schäumte der arianische Vater vor Zorn und sandte seine Schergen, den standhaften Bekenner Gottes in seinem Kerker zu töten; und das geschah auch.',
+      },
+      notes: ``
     }
   ], info)}</p>`
 
 /*
 
-  The father, at the return of the Arian prelate, understanding these news, fell into such a rage that forthwith he sent his officers of execution to put to death that most constant confessor, in the very prison where he lay: which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
+  which unnatural and bloody commandment was performed accordingly: for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him or mortal life, having only power to take that from him which the holy martyr made small account of.
 
 Afterward, for the publishing of his true glory to the world, there wanted not miracles from heaven: for in the night time singing was heard at his body: some also report that, in the night, burning lamps were seen in that place: by reason whereof his body, as of him that was a martyr, was worthily worshipped of all Christian people. But the wicked father and murtherer of his own son, albeit he was sorry that he had put him to death, yet was not his grief of that quality that it brought him to the state of salvation. For although he knew very well that the Catholic faith was the truth, yet, for fear of his people, he never deserved to be a professor thereof.
 
