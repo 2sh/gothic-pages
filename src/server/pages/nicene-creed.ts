@@ -70,7 +70,7 @@ There's attested dative Daikapaulein and genitive Daikapaulaios for Decapolis
 and dative Iairaupaulein for Hierapolis.
 The -aios seems to have been pulled directly from the Greek declension,
 but not the -ein. With the ancient Greek vocative being -i and the modern nominative
-being -i, I'm standardising it to an -ein declension?`,
+being -i, I'm standardising it to an -ein declension.`,
   }], info)}</div>
 </header>`
 
