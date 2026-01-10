@@ -267,7 +267,7 @@ Es blieben aber die Wunder von oben nicht aus, um seine wahrhaft erlangte Herrli
     text: { got: 'ïn razdai gutiskai,', en: 'in the Gothic language,' },
   }], info)}</span>
   <span class='nowrap'>${toGothicLines([{
-    text: { got: 'skeireins fram Ïostaiha (2025-2026)', en: 'a translation by 2sh (2025-2026).' },
+    text: { got: 'skeireins fram Ïostaiha (2025-2026).', en: 'a translation by 2sh (2025-2026).' },
   }], info)}</span>
 </p>`
 
