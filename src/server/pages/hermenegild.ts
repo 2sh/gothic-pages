@@ -242,12 +242,12 @@ although ... yet ... = þauhjabai ... aiþþau ... Corinthians II 4:16
     },
     {
       text: {
-        got: '...',
+        got: 'Allis sunsei inngaliþun, akuzja ïn haubida ïs haftjandans binemun libain leikeina; jah ...',
         la: 'Nam mox ut ingressi sunt, securem cerebro ejus infigentes, vitam corporis abstulerunt: hocque in eo valuerunt perimere, quod ipse quoque qui peremtus est, in se constiterat despexisse.',
         en: 'for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him of mortal life, having only power to take that from him which the holy martyr made small account of.',
         de: 'Denn kaum waren sie bei ihm eingetreten, spalteten sie ihm mit einem Beil das Haupt und nahmen ihm das leibliche Leben; denn nur das konnten sie an ihm töten, was der Ermordete selbst an sich gering geschätzt hatte.',
       },
-      notes: ``
+      notes: `"allis þan" Mark 12:25`
     }
   ], info)}</p>`
 
