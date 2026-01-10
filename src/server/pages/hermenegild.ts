@@ -267,14 +267,14 @@ Es blieben aber die Wunder von oben nicht aus, um seine wahrhaft erlangte Herrli
     text: { got: 'ïn razdai gutiskai,', en: 'in the Gothic language,' },
   }], info)}</span>
   <span class='nowrap'>${toGothicLines([{
-    text: { got: 'skeireins fram Ïostaiha (2025)', en: 'a translation by 2sh (2025).' },
+    text: { got: 'skeireins fram Ïostaiha (2025)', en: 'a translation by 2sh (2025-2026).' },
   }], info)}</span>
 </p>`
 
   article += html`<p lang='en' class='annotation'>
   <span class='nowrap'>Hermenegild the Goth of Spain</span>
   <span class='nowrap'>in the Gothic language,</span>
-  <span class='nowrap'>a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
+  <span class='nowrap'>a translation by <a href='https://2sh.me'>2sh</a> (2025-2026).</span>
 </p>`
 
   return html`<!doctype html>
