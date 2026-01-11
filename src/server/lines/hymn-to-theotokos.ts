@@ -6,7 +6,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Gatils ïst raihtis du þiuþjan þuk Gudabairandein,',
-        el: "Ἄξιόν ἐστιν ὡς ἀληθῶς μακαρίζειν σε τὴν Θεοτόκον,",
+        grc: "Ἄξιόν ἐστιν ὡς ἀληθῶς μακαρίζειν σε τὴν Θεοτόκον,",
         en: "It is truly meet to bless thee, the Theotokos,",
       },
       notes:
@@ -21,7 +21,7 @@ ${toGothicLines([
     {
       text: {
         got: 'aiw þiuþeigon jah allandjo unfairinon jah aiþein Gudis unsaris.',
-        el: "τὴν ἀειμακάριστον καὶ παναμώμητον καὶ μητέρα τοῦ Θεοῦ ἡμῶν.",
+        grc: "τὴν ἀειμακάριστον καὶ παναμώμητον καὶ μητέρα τοῦ Θεοῦ ἡμῶν.",
         en: "ever blessed and most blameless, and Mother of our God.",
       }
     },
@@ -31,7 +31,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Sweriza þaim Xairubeim jah wulþagiza ïnuh galeiki þaim Sairafeim,',
-        el: "Τὴν τιμιωτέραν τῶν Χερουβεὶμ καὶ ἐνδοξοτέραν ἀσυγκρίτως τῶν Σεραφείμ,",
+        grc: "Τὴν τιμιωτέραν τῶν Χερουβεὶμ καὶ ἐνδοξοτέραν ἀσυγκρίτως τῶν Σεραφείμ,",
         en: "More honorable than the Cherubim, and beyond compare more glorious than the Seraphim,",
       },
       notes: `As Cherubim and Seraphim seems to be strictly in plural without
@@ -43,7 +43,7 @@ ${toGothicLines([
     {
       text: {
         got: 'saei ïn unriurein Guþ Waurd gabar,',
-        el: "τὴν ἀδιαφθόρως Θεὸν Λόγον τεκοῦσαν,",
+        grc: "τὴν ἀδιαφθόρως Θεὸν Λόγον τεκοῦσαν,",
         en: "who without corruption gavest birth to God the Word,",
       },
       notes: `gabar sunu ACC Luke 1:57
@@ -58,7 +58,7 @@ ${toGothicLines([
     {
       text: {
         got: 'bi sunjai Gudabairandei, þuk mikiljam.',
-        el: "τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
+        grc: "τὴν ὄντως Θεοτόκον, σὲ μεγαλύνομεν.",
         en: "the very Theotokos, thee do we magnify.",
       },
       notes: `gabar sunu ACC Luke 1:57

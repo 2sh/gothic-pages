@@ -5,7 +5,7 @@ export type ReuseLines = (pageInfo: PageInfo) => string
 export const amen: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Amen.',
-    el: "ἀμήν.",
+    grc: "ἀμήν.",
     en: "Amen.",
   }
 }], pi)
@@ -13,7 +13,7 @@ export const amen: ReuseLines = pi => toGothicLines([{
 export const nowAndEver: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'jah nū jah aiw, jah ïn aiwins aiwe.',
-    el: "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+    grc: "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
     en: "now and ever and to the ages of ages.",
   },
   notes:
@@ -25,7 +25,7 @@ from generation to generation and unto ages of ages.`
 export const ofTrinity: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Attins, jah Sunaus, jah Ahmins Weihis',
-    el: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος",
+    grc: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος",
     en: "of the Father and of the Son and of the Holy Spirit",
   },
   notes: `Skeireins 5:2 attins jah sunaus`
@@ -34,7 +34,7 @@ export const ofTrinity: ReuseLines = pi => toGothicLines([{
 export const ofTrinityEnd: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Attins, jah Sunaus, jah Ahmins Weihis.',
-    el: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος.",
+    grc: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος.",
     en: "of the Father and of the Son and of the Holy Spirit.",
   },
   notes: `Skeireins 5:2 attins jah sunaus`
@@ -43,7 +43,7 @@ export const ofTrinityEnd: ReuseLines = pi => toGothicLines([{
 export const toTrinity: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Attin, jah Sunau, jah Ahmin Weihamma',
-    el: "Πατρὶ καί Υιώ καί Αγίω Πνεύματι",
+    grc: "Πατρὶ καί Υιώ καί Αγίω Πνεύματι",
     en: "to the father, and to the son, and to the holy spirit",
   }
 }], pi)
@@ -51,7 +51,7 @@ export const toTrinity: ReuseLines = pi => toGothicLines([{
 export const letUsPrayToTheLord: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'bidjaima Fraujan.',
-    el: "τοῦ Κυρίου δεηθῶμεν.",
+    grc: "τοῦ Κυρίου δεηθῶμεν.",
     en: "let us pray to the Lord.",
   },
   notes:
@@ -67,7 +67,7 @@ so sticking 𐍆𐍂𐌰𐌿𐌾𐌰𐌽 at end`
 export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Frauja, armai.',
-    el: "Κύριε, ἐλέησον.",
+    grc: "Κύριε, ἐλέησον.",
     en: "Lord, have mercy.",
   },
   notes: `Unsure if 𐌰𐍂𐌼𐌴𐌹 can be said without 𐌿𐌽𐍃𐌹𐍃, though don’t see why not`
@@ -76,7 +76,7 @@ export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
 export const toYouOLord: ReuseLines = pi => toGothicLines([{
   text: {
     got: '<[TODO]>',
-    el: "Σοί, Κύριε.",
+    grc: "Σοί, Κύριε.",
     en: "To You, O Lord.",
   }
 }], pi)
@@ -84,7 +84,7 @@ export const toYouOLord: ReuseLines = pi => toGothicLines([{
 export const trisagion: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Weihs Guþ, Weihs Mahteigs, Weihs Undiwans, armai unsis.',
-    el: "Ἅγιος ὁ Θεός, Ἅγιος Ἰσχυρός, Ἅγιος Ἀθάνατος, ἐλέησον ἡμᾶς.",
+    grc: "Ἅγιος ὁ Θεός, Ἅγιος Ἰσχυρός, Ἅγιος Ἀθάνατος, ἐλέησον ἡμᾶς.",
     en: "Holy God, Holy Mighty, Holy Immortal, have mercy on us.",
   },
   notes:
@@ -96,7 +96,7 @@ Using strong nominative as Greek not in vocative.`
 export const timesThree: ReuseLines = pi => `<span class="notice">${toGothicLines([{
   text: {
     got: '(þrim sinþam)',
-    el: "(εκ τρίτου)",
+    grc: "(εκ τρίτου)",
     en: "(Thrice)",
   },
   notes:
@@ -106,7 +106,7 @@ export const timesThree: ReuseLines = pi => `<span class="notice">${toGothicLine
 export const timesTwelve: ReuseLines = pi => `<span class="notice">${toGothicLines([{
   text: {
     got: '(twalibim sinþam)',
-    el: "(εκ τρίτου)",
+    grc: "(εκ τρίτου)",
     en: "(12 times)",
   }
 }], pi)}</span>`
@@ -115,7 +115,7 @@ export const gloryToTrinity: ReuseLines = pi => `
 ${toGothicLines([{
   text: {
     got: 'Wulþus',
-    el: "Δόξα",
+    grc: "Δόξα",
     en: "Glory",
   }
 }], pi)}
@@ -128,7 +128,7 @@ ${amen(pi)}`
 export const forYoursIs: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Unte þeina ïst þiudangardi jah mahts jah wulþus',
-    el: "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα",
+    grc: "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα",
     en: "for yours is the kingdom and the power and the glory",
   },
   notes: `Line from Matthew 6:13`,
@@ -140,7 +140,7 @@ const speakerMark = ':'
 export const speakerDeacon: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Diakaunus',
-    el: "Ὁ Διάκονος",
+    grc: "Ὁ Διάκονος",
     en: "Deacon",
   }
 }], pi)}${speakerMark}</span>`
@@ -148,7 +148,7 @@ export const speakerDeacon: ReuseLines = pi => html`<span class="speaker">${toGo
 export const speakerPriest: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Gudja',
-    el: "O Ἱερεύς",
+    grc: "O Ἱερεύς",
     en: "Priest",
   },
   notes: '𐌲𐌿𐌳𐌾𐌰 Luke 5:14'
@@ -157,7 +157,7 @@ export const speakerPriest: ReuseLines = pi => html`<span class="speaker">${toGo
 export const speakerReader: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Ussiggwands',
-    el: "Αναγνώστης",
+    grc: "Αναγνώστης",
     en: "Reader",
   },
   notes:
@@ -167,7 +167,7 @@ export const speakerReader: ReuseLines = pi => html`<span class="speaker">${toGo
 export const speakerChoir: ReuseLines = pi => html`<span class="speaker">${toGothicLines([{
   text: {
     got: 'Liuþārjos',
-    el: "O Χορός",
+    grc: "O Χορός",
     en: "Choir",
   }
 }], pi)}${speakerMark}</span>`

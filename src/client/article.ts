@@ -12,6 +12,21 @@ const languageNames = new Intl.DisplayNames(['en'], {
   type: 'language'
 });
 
+// As some codes are not in the above lib, so mapping them to nearest.
+const langCodeMapping: { [code: string]: string} = {
+  'grc': 'el'
+}
+
+function getLanguageName(langCode: string)
+{
+  if (langCode in langCodeMapping)
+    langCode = langCodeMapping[langCode]
+  const name = languageNames.of(langCode)
+  if (!name)
+    return langCode
+  return name
+}
+
 const initLineId = location.hash.replace('#', '')
 
 
@@ -41,7 +56,7 @@ function createInfoBox(info: GothicLineData)
 {
   const textLines = Object.entries(info.text).map(([lang, line]) =>
     html`<div>
-  <p class='title'>${languageNames.of(lang)}</p>
+  <p class='title'>${getLanguageName(lang)}</p>
   <p lang='${lang}'>${line}</p>
 </div>`).join('')
 

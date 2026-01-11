@@ -47,7 +47,7 @@ const generator: PageGenerator = info =>
     {
       text: {
         got: 'Gudabairandei',
-        el: "Θεοτόκος",
+        grc: "Θεοτόκος",
         en: "Theotokos",
       },
       notes:

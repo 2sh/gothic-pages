@@ -7,7 +7,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Atta unsar þū ïn himinam,',
-        el: "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς,",
+        grc: "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς,",
         en: "Our Father in heaven,",
       },
       notes: `Taken directly from the Bible.`,
@@ -15,7 +15,7 @@ ${toGothicLines([
     {
       text: {
         got: 'weihnai namo þein.',
-        el: "ἁγιασθήτω τὸ ὄνομά σου.",
+        grc: "ἁγιασθήτω τὸ ὄνομά σου.",
         en: "hallowed be your name.",
       }
     },
@@ -25,7 +25,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Qimai þiudinassus þeins.',
-        el: "Ἐλθέτω ἡ βασιλεία σου.",
+        grc: "Ἐλθέτω ἡ βασιλεία σου.",
         en: "your kingdom come.",
       }
     }
@@ -35,14 +35,14 @@ ${toGothicLines([
     {
       text: {
         got: 'Wairþai wilja þeins,',
-        el: "Γενηθήτω τὸ θέλημά σου,",
+        grc: "Γενηθήτω τὸ θέλημά σου,",
         en: "Your will be done,",
       }
     },
     {
       text: {
         got: 'swe ïn himina jah ana airþai.',
-        el: "ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς.",
+        grc: "ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς.",
         en: "on earth as it is in heaven.",
       }
     },
@@ -52,7 +52,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Hlaif unsarana þana sinteinan gif uns himma daga.',
-        el: "Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον.",
+        grc: "Τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον.",
         en: "Give us today our daily bread.",
       }
     },
@@ -62,7 +62,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Jah aflet uns þatei skulans sijaima,',
-        el: "Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν,",
+        grc: "Καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν,",
         en: "And forgive us our debts,",
       }
     },
@@ -72,7 +72,7 @@ ${toGothicLines([
     {
       text: {
         got: 'swaswe jah weis afletam þaim skulam unsaraim.',
-        el: "ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν.",
+        grc: "ὡς καὶ ἡμεῖς ἀφίεμεν τοῖς ὀφειλέταις ἡμῶν.",
         en: "as we also have forgiven our debtors.",
       }
     },
@@ -82,7 +82,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Jah ni briggais uns ïn fraistubnjai,',
-        el: "Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν,",
+        grc: "Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν,",
         en: "And lead us not into temptation,",
       }
     },
@@ -92,7 +92,7 @@ ${toGothicLines([
     {
       text: {
         got: 'ak lausei uns af þamma ubilin.',
-        el: "ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
+        grc: "ἀλλὰ ῥῦσαι ἡμᾶς ἀπὸ τοῦ πονηροῦ.",
         en: "but deliver us from the evil one.",
       }
     },

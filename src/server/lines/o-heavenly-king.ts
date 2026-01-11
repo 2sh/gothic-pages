@@ -5,7 +5,7 @@ export const oHeavenlyKing: ReuseLines = pi => `
 ${toGothicLines([{
   text: {
     got: 'Þiudan himinakunda, Gaþlaihands, Ahma sunjos,',
-    el: "Βασιλεῦ Οὐράνιε, Παράκλητε, τὸ Πνεῦμα τῆς Ἀληθείας,",
+    grc: "Βασιλεῦ Οὐράνιε, Παράκλητε, τὸ Πνεῦμα τῆς Ἀληθείας,",
     en: "O heavenly King, Comforter, and Spirit of truth,",
   },
   notes: `weak adjective because vocative
@@ -17,7 +17,7 @@ Various uses of gaþlaihands in Bible.`,
 ${toGothicLines([{
   text: {
     got: 'and all andwairþa jah alla usfulljands,',
-    el: "ὁ Πανταχοῦ Παρὼν καὶ τὰ Πάντα Πληρῶν,",
+    grc: "ὁ Πανταχοῦ Παρὼν καὶ τὰ Πάντα Πληρῶν,",
     en: "Who art everywhere present and fillest all things,",
   },
   notes: `Πανταχοῦ = and all
@@ -30,7 +30,7 @@ alla in allaim usfulljandins Ephesians 1:23`
 ${toGothicLines([{
   text: {
     got: 'Huzd þiuþe jah Gibands libainais:',
-    el: "ὁ Θησαυρός τῶν Ἀγαθῶν καὶ Ζωῆς Χορηγός:",
+    grc: "ὁ Θησαυρός τῶν Ἀγαθῶν καὶ Ζωῆς Χορηγός:",
     en: "the Treasury of good things and Giver of life:",
   }
 }], pi)}
@@ -38,7 +38,7 @@ ${toGothicLines([{
 ${toGothicLines([{
   text: {
     got: 'Qim jah gabau ïn unsis,',
-    el: "ἐλθὲ καὶ σκήνωσον ἐν ἡμῖν,",
+    grc: "ἐλθὲ καὶ σκήνωσον ἐν ἡμῖν,",
     en: "Come and abide in us,",
   }
 }], pi)}
@@ -46,7 +46,7 @@ ${toGothicLines([{
 ${toGothicLines([{
   text: {
     got: 'jah gahrainei uns af allamma wamma,',
-    el: "καὶ καθάρισον ἡμᾶς ἀπὸ πάσης κηλῖδος,",
+    grc: "καὶ καθάρισον ἡμᾶς ἀπὸ πάσης κηλῖδος,",
     en: "and cleanse us from every stain,",
   }
 }], pi)}
@@ -54,7 +54,7 @@ ${toGothicLines([{
 ${toGothicLines([{
   text: {
     got: 'jah nasei, Þiuþeiga, saiwalos unsara.',
-    el: "καὶ σῶσον, Ἀγαθὲ τὰς ψυχὰς ἡμῶν.",
+    grc: "καὶ σῶσον, Ἀγαθὲ τὰς ψυχὰς ἡμῶν.",
     en: "and save our souls, O good one.",
   }
 }], pi)}`

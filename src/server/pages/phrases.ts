@@ -53,7 +53,7 @@ const generator: PageGenerator = info =>
     {
       text: {
         got: 'Frauja Ïesu Xristau, Sunau Gudis, armai mik frawaurhtana (frawaurhta)',
-        el: "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)",
+        grc: "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)",
         en: "Lord Jesus Christ, Son of God, have mercy on me, a sinner",
       }
     },
@@ -66,7 +66,7 @@ const generator: PageGenerator = info =>
     {
       text: {
         got: 'Guþ, hulþs sijais mis, frawaurhtamma (frawaurhtai)',
-        el: "ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ",
+        grc: "ὁ θεός, ἱλάσθητί μοι τῷ ἁμαρτωλῷ",
         en: "God be merciful to me a sinner",
       },
       notes: `Publican’s prayer, taken directly from the bible`
@@ -82,7 +82,7 @@ const generator: PageGenerator = info =>
     {
       text: {
         got: 'Xristianus',
-        el: 'Χριστιανικός',
+        grc: 'Χριστιανικός',
         en: "Christian",
       },
       notes:
@@ -194,7 +194,7 @@ from PGm -īnaz +-ōną, like -𐌴𐌹𐌽𐍃 + -𐍉𐌽`
     {
       text: {
         got: 'Gudabairandei',
-        el: "Θεοτόκος",
+        grc: "Θεοτόκος",
         en: "Theotokos",
       },
       notes:
@@ -209,7 +209,7 @@ weak nouns keep -a- for the connecting vowel.” -guthiharjis`
     {
       text: {
         got: 'Kaþauleigs',
-        el: 'κᾰθολῐκός',
+        grc: 'κᾰθολῐκός',
         en: "Catholic",
       },
       notes:
@@ -223,7 +223,7 @@ similar to German Katholisch.`
     {
       text: {
         got: 'Apaustauleigs',
-        el: 'ἀποστολῐκός',
+        grc: 'ἀποστολῐκός',
         en: "Apostolic",
       },
       notes:
@@ -235,7 +235,7 @@ similar to German Katholisch.`
     {
       text: {
         got: 'Aurþaudaukseins',
-        el: "ὀρθόδοξος",
+        grc: "ὀρθόδοξος",
         en: "Orthodox",
       },
       notes:
@@ -247,7 +247,7 @@ similar to German Katholisch.`
     {
       text: {
         got: 'Aurþaudauksei',
-        el: "ὀρθοδοξία",
+        grc: "ὀρθοδοξία",
         en: "Orthodoxy",
       },
       notes:
@@ -259,7 +259,7 @@ similar to German Katholisch.`
     {
       text: {
         got: 'Leiturgei Gudiska',
-        el: "Θεία Λειτουργία",
+        grc: "Θεία Λειτουργία",
         en: "Divine Liturgy",
       },
       notes:
@@ -272,7 +272,7 @@ and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.`
     {
       text: {
         got: 'Dauksaulaugei',
-        el: "Δοξολογία",
+        grc: "Δοξολογία",
         en: "Doxology",
       },
     },
@@ -282,7 +282,7 @@ and in 𐌳𐌰𐍅𐌴𐌹𐌳 from Δαυείδ.`
     {
       text: {
         got: 'maunasterjo',
-        el: "μοναστήριον",
+        grc: "μοναστήριον",
         en: "monastery",
       },
       notes:
@@ -298,7 +298,7 @@ if it’s inanimate, and from -ός if it’s animate.
     {
       text: {
         got: 'maunakus',
-        el: "μονᾰχός",
+        grc: "μονᾰχός",
         en: "monk",
       },
       notes:
@@ -314,7 +314,7 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
     {
       text: {
         got: 'lāïgs',
-        el: "λᾱϊκός",
+        grc: "λᾱϊκός",
         en: "lay(person)",
       },
       notes:
@@ -326,7 +326,7 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
     {
       text: {
         got: 'eidolo',
-        el: "εἴδωλον",
+        grc: "εἴδωλον",
         en: "idol",
       },
       notes:
@@ -367,7 +367,7 @@ and afgudei to mean idolatry.`
     {
       text: {
         got: 'afgudblostreis',
-        el: "εἰδωλολᾰ́τρης",
+        grc: "εἰδωλολᾰ́τρης",
         en: "idolater",
       },
       notes:

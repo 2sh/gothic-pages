@@ -55,7 +55,7 @@ const generator: PageGenerator = info =>
   <h1>${toGothicLines([{
     text: {
       got: 'Leiturgei Gudiska\nÏohannis Xrisaustaumaus Weihis',
-      el: "Θεία Λειτουργία Αγίου Ιωάννου Χρυσοστόμου",
+      grc: "Θεία Λειτουργία Αγίου Ιωάννου Χρυσοστόμου",
       en: "Divine Liturgy of Saint John Chrysostom",
     },
     notes:
@@ -70,7 +70,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Þiuþei, Fraujinond.',
-        el: "Ἑὐλόγησον, Δέσποτα.",
+        grc: "Ἑὐλόγησον, Δέσποτα.",
         en: "Master, give the blessing.",
       }
     },
@@ -84,7 +84,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Þiuþido Þiudangardi',
-        el: "Εὐλογημένη ἡ Βασιλεία",
+        grc: "Εὐλογημένη ἡ Βασιλεία",
         en: "Blessed is the Kingdom",
       },
       notes: "Mark 11:10"
@@ -108,7 +108,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Ïn gawairþja,',
-        el: "Ἐν εἰρήνῃ,",
+        grc: "Ἐν εἰρήνῃ,",
         en: "In peace,",
       }
     },
@@ -129,7 +129,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Faur gawairþi ïupaþro',
-        el: "Ὑπὲρ τῆς ἄνωθεν εἰρήνης",
+        grc: "Ὑπὲρ τῆς ἄνωθεν εἰρήνης",
         en: "For the peace from above",
       },
       notes: `ὑπὲρ seems to translate to 𐍆𐌰𐌿𐍂, not 𐍆𐌰𐌿𐍂𐌰`
@@ -140,7 +140,7 @@ ${toGothicLines([
     {
       text: {
         got: 'jah naseinai saiwalo unsaraizo,',
-        el: "καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν,",
+        grc: "καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν,",
         en: "and for the salvation of our souls,",
       }
     },
@@ -161,7 +161,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Faur gawairþi allaizos manasedais',
-        el: "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου",
+        grc: "Ὑπὲρ τῆς εἰρήνης τοῦ σύμπαντος κόσμου",
         en: "For the peace of the whole world,",
       },
       notes: `world Mark 14:9`
@@ -172,7 +172,7 @@ ${toGothicLines([
     {
       text: {
         got: 'tulgiþa weihos Gudis aikklesjono',
-        el: "εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν",
+        grc: "εὐσταθείας τῶν ἁγίων τοῦ Θεοῦ Ἐκκλησιῶν",
         en: "for the stability of the holy churches of God,",
       }
     },
@@ -182,7 +182,7 @@ ${toGothicLines([
     {
       text: {
         got: 'jah samaqiss allaize,',
-        el: "καὶ τῆς τῶν πάντων ἑνώσεως,",
+        grc: "καὶ τῆς τῶν πάντων ἑνώσεως,",
         en: "and for the unity of all,",
       },
       notes:
@@ -208,7 +208,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Faur hita weih razn',
-        el: "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου",
+        grc: "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου",
         en: "For this holy house",
       }
     },
@@ -218,7 +218,7 @@ ${toGothicLines([
     {
       text: {
         got: 'jah ïn ïta miþ galaubeinai, aizai jah Gudis faurhtein ïnngaggandans,',
-        el: "καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ,",
+        grc: "καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ,",
         en: "and for those who enter it with faith, reverence, and the fear of God,",
       },
       notes: `*𐌰𐌹𐌶𐌰𐌹 from pgmc aizo.
@@ -242,7 +242,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Faur gagudans jah Xristeinans Aurþaudaukseinans,',
-        el: "Ὑπὲρ τῶν εὐσεβῶν καὶ Ὀρθοδόξων Χριστιανῶν,",
+        grc: "Ὑπὲρ τῶν εὐσεβῶν καὶ Ὀρθοδόξων Χριστιανῶν,",
         en: "For pious and Orthodox Christians,",
       },
       notes: `εὐσέβεια found in 1 Timothy 6:11;
@@ -266,7 +266,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Faur <[TODO]>,',
-        el: "Ὑπὲρ τοῦ (ἀρχιερατικοῦ βαθμοῦ) ἡμῶν (τοῦ δεῖνος),",
+        grc: "Ὑπὲρ τοῦ (ἀρχιερατικοῦ βαθμοῦ) ἡμῶν (τοῦ δεῖνος),",
         en: "For (episcopal rank) (name),",
       }
     },
@@ -276,7 +276,7 @@ ${toGothicLines([
     {
       text: {
         got: 'gariuda praizbwtaireinz,',
-        el: "τοῦ τιμίου πρεσβυτερίου",
+        grc: "τοῦ τιμίου πρεσβυτερίου",
         en: "for the honorable presbyterate,",
       }
     },
@@ -286,7 +286,7 @@ ${toGothicLines([
     {
       text: {
         got: 'andbahti ïn Xristau',
-        el: "τῆς ἐν Χριστῷ διακονίας",
+        grc: "τῆς ἐν Χριστῷ διακονίας",
         en: "for the diaconate in Christ",
       }
     },
@@ -296,7 +296,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "παντὸς τοῦ κλήρου καὶ τοῦ λαοῦ",
+        grc: "παντὸς τοῦ κλήρου καὶ τοῦ λαοῦ",
         en: "and for all the clergy and the people",
       }
     },
@@ -317,7 +317,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "Ὑπὲρ τοῦ εὐσεβοῦς ἡμῶν ἔθνους,",
+        grc: "Ὑπὲρ τοῦ εὐσεβοῦς ἡμῶν ἔθνους,",
         en: "For our country, for the president,",
       }
     },
@@ -327,7 +327,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "πάσης ἀρχῆς καὶ ἐξουσίας ἐν αὐτῷ,",
+        grc: "πάσης ἀρχῆς καὶ ἐξουσίας ἐν αὐτῷ,",
         en: "and for all in public service,",
       }
     },
@@ -348,7 +348,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Faur hita baurg,',
-        el: "Ὑπὲρ τῆς πόλεως ταύτης,",
+        grc: "Ὑπὲρ τῆς πόλεως ταύτης,",
         en: "For this city,",
       },
       notes: 'Matthew 9:35'
@@ -359,7 +359,7 @@ ${toGothicLines([
     {
       text: {
         got: 'all baurge jah all lande,',
-        el: "πάσης πόλεως, χώρας",
+        grc: "πάσης πόλεως, χώρας",
         en: "and for every city and land,",
       }
     },
@@ -369,7 +369,7 @@ ${toGothicLines([
     {
       text: {
         got: 'jah ïn þaim all bauandane galaubeinaize,',
-        el: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
+        grc: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
         en: "and for the faithful who live in them,",
       },
       notes: `this probably needs correcting/improving`
@@ -391,7 +391,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Faur goþ wiþr,',
-        el: "Ὑπὲρ εὐκρασίας ἀέρων,",
+        grc: "Ὑπὲρ εὐκρασίας ἀέρων,",
         en: "For favorable weather,",
       },
       notes: `*𐍅𐌹𐌸𐍂
@@ -404,7 +404,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "εὐφορίας τῶν καρπῶν τῆς γῆς,",
+        grc: "εὐφορίας τῶν καρπῶν τῆς γῆς,",
         en: "for an abundance of the fruits of the earth,",
       }
     },
@@ -414,7 +414,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "καὶ καιρῶν εἰρηνικῶν,",
+        grc: "καὶ καιρῶν εἰρηνικῶν,",
         en: "and for peaceful times,",
       }
     },
@@ -435,7 +435,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "Ὑπὲρ πλεόντων, ὁδοιπορούντων,",
+        grc: "Ὑπὲρ πλεόντων, ὁδοιπορούντων,",
         en: "For those who travel by land, sea, and air,",
       }
     },
@@ -445,7 +445,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "νοσούντων, καμνόντων, αἰχμαλώτων",
+        grc: "νοσούντων, καμνόντων, αἰχμαλώτων",
         en: "for the sick, the suffering, the captives",
       }
     },
@@ -455,7 +455,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "καὶ τῆς σωτηρίας αὐτῶν,",
+        grc: "καὶ τῆς σωτηρίας αὐτῶν,",
         en: "and for their salvation,",
       }
     },
@@ -476,7 +476,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "Ὑπὲρ τοῦ ῥυσθῆναι ἡμᾶς",
+        grc: "Ὑπὲρ τοῦ ῥυσθῆναι ἡμᾶς",
         en: "For our deliverance",
       }
     },
@@ -486,7 +486,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "ἀπὸ πάσης θλίψεως, ὀργῆς, κινδύνου καὶ ἀνάγκης,",
+        grc: "ἀπὸ πάσης θλίψεως, ὀργῆς, κινδύνου καὶ ἀνάγκης,",
         en: "from all affliction, wrath, danger, and necessity,",
       }
     },
@@ -507,7 +507,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς",
+        grc: "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς",
         en: "Help us, save us, have mercy on us, and protect us,",
       }
     },
@@ -528,7 +528,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "Τῆς Παναγίας ἀχράντου, ὑπερευλογημένης, ἐνδόξου Δεσποίνης",
+        grc: "Τῆς Παναγίας ἀχράντου, ὑπερευλογημένης, ἐνδόξου Δεσποίνης",
         en: "Commemorating our most holy, pure, blessed, and glorious Lady,",
       }
     },
@@ -538,7 +538,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας",
+        grc: "ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας",
         en: "the Theotokos and ever-virgin Mary,",
       }
     },
@@ -548,7 +548,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες,",
+        grc: "μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες,",
         en: "with all the saints,",
       }
     },
@@ -558,7 +558,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "ἑαυτοὺς καὶ ἀλλήλους",
+        grc: "ἑαυτοὺς καὶ ἀλλήλους",
         en: "let us commend ourselves and one another",
       }
     },
@@ -568,7 +568,7 @@ ${toGothicLines([
     {
       text: {
         got: '<[TODO]>',
-        el: "καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
+        grc: "καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
         en: "and our whole life to Christ our God.",
       }
     },

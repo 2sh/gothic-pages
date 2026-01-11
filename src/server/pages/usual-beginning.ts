@@ -80,7 +80,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Þiuþida Guþ unsarana sinteino.',
-        el: "Εὐλογητὸς ὁ Θεὸς ἡμῶν πάντοτε.",
+        grc: "Εὐλογητὸς ὁ Θεὸς ἡμῶν πάντοτε.",
         en: "Blessed is our God always.",
       },
       notes: "2 Corinthians 4:10 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉"
@@ -111,7 +111,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Þairh bidos attane weihaize unsaraize, Frauja Iesu Xristau, Guþ unsar, armai unsis.',
-        el: 'Δί’ εὐχῶν τῶν ἁγίων πατέρων ἠμῶν, Κύριε Ἰησοῦ Χριστέ ὁ Θεός, ἐλέησον [καὶ σῶσον] ἠμᾶς.',
+        grc: 'Δί’ εὐχῶν τῶν ἁγίων πατέρων ἠμῶν, Κύριε Ἰησοῦ Χριστέ ὁ Θεός, ἐλέησον [καὶ σῶσον] ἠμᾶς.',
         en: "Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us.",
       }
     },
@@ -137,7 +137,7 @@ speech = ''
     {
       text: {
         got: 'Ïn namin',
-        el: "εἰς τὸ ὄνομα",
+        grc: "εἰς τὸ ὄνομα",
         en: "In the name",
       },
       notes: "1 Cor 5:4",
@@ -153,7 +153,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Wulþus þus, Guþ unsar, wulþus þus.',
-        el: "Δόξα σοι ὁ Θεὸς ἡμῶν, δόξα σοι.",
+        grc: "Δόξα σοι ὁ Θεὸς ἡμῶν, δόξα σοι.",
         en: "Glory to thee, our god, glory to thee.",
       }
     },
@@ -172,7 +172,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Bidos Trisagiaun',
-        el: "Τρισάγιον",
+        grc: "Τρισάγιον",
         en: "Trisagion Prayers",
       },
       notes:

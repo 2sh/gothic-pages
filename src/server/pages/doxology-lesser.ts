@@ -51,7 +51,7 @@ const generator: PageGenerator = info =>
   <h1>${toGothicLines([{
     text: {
       got: 'Dauksaulaugei Leitils',
-      el: "Δοξολογία Μικρά",
+      grc: "Δοξολογία Μικρά",
       en: "Lesser Doxology",
     },
     notes:
@@ -65,7 +65,7 @@ so *dauksaulaugei`,
     {
       text: {
         got: 'Wulþus ïn háuhistjam Guda, jah ana airþai gawairþi ïn mannam godis wiljins.',
-        el: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
+        grc: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
         en: "Glory to God in the highest, and on earth peace, good will to men.",
       },
       notes:
@@ -78,7 +78,7 @@ so *dauksaulaugei`,
     {
       text: {
         got: 'Hazjam þuk,',
-        el: "Ὑμνοῦμέν σε,",
+        grc: "Ὑμνοῦμέν σε,",
         en: "We praise you,",
       },
       notes:
@@ -87,21 +87,21 @@ so *dauksaulaugei`,
     {
       text: {
         got: 'þiuþjam þuk,',
-        el: "εὐλογοῦμέν σε,",
+        grc: "εὐλογοῦμέν σε,",
         en: "we bless you,",
       },
     },
     {
       text: {
         got: 'ïnweitam þuk,',
-        el: "προσκυνοῦμέν σε,",
+        grc: "προσκυνοῦμέν σε,",
         en: "we worship you,",
       },
     },
     {
       text: {
         got: 'gasweram þuk,',
-        el: "δοξολογοῦμέν σε,",
+        grc: "δοξολογοῦμέν σε,",
         en: "we glorify you,",
       },
       notes:
@@ -110,7 +110,7 @@ so *dauksaulaugei`,
     {
       text: {
         got: 'awiliudom þuk,',
-        el: "εὐχαριστοῦμέν σοι,",
+        grc: "εὐχαριστοῦμέν σοι,",
         en: "and we thank you,",
       },
       notes:
@@ -119,7 +119,7 @@ so *dauksaulaugei`,
     {
       text: {
         got: 'faur mikilana wulþu þeinana.',
-        el: "διὰ τὴν μεγάλην σου δόξαν.",
+        grc: "διὰ τὴν μεγάλην σου δόξαν.",
         en: "for your great glory.",
       },
     },
@@ -130,7 +130,7 @@ so *dauksaulaugei`,
     {
       text: {
         got: 'Frauja, Þiudan, Guþ himinakunda,',
-        el: "Κύριε Βασιλεῦ, ἐπουράνιε Θεέ,",
+        grc: "Κύριε Βασιλεῦ, ἐπουράνιε Θεέ,",
         en: "Lord, King, Heavenly God,",
       },
       notes:
@@ -140,7 +140,7 @@ and are almost always declined ‘weak’.”`,
     {
       text: {
         got: 'Atta allwaldand;',
-        el: "Πάτερ παντοκράτορ·",
+        grc: "Πάτερ παντοκράτορ·",
         en: "Father Almighty;",
       },
       notes:
@@ -153,7 +153,7 @@ and are almost always declined ‘weak’.”`,
     {
       text: {
         got: 'Frauja Sunau ainabaur,',
-        el: "Κύριε Υἱὲ μονογενές,",
+        grc: "Κύριε Υἱὲ μονογενές,",
         en: "only-begotten Son,",
       },
       notes:
@@ -164,7 +164,7 @@ translation, it’s probably the commonly used version`,
     {
       text: {
         got: 'Ïesu Xristau, jah Ahma Weiha.',
-        el: "Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.",
+        grc: "Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.",
         en: "Lord Jesus Christ and Holy Spirit.",
       },
     },
@@ -176,21 +176,21 @@ ${toGothicLines([
     {
       text: {
         got: 'Frauja Guþ,',
-        el: "Κύριε ὁ Θεός,",
+        grc: "Κύριε ὁ Θεός,",
         en: "Lord God,",
       },
     },
     {
       text: {
         got: 'Lamb Gudis,',
-        el: "ὁ Ἀμνὸς τοῦ Θεοῦ,",
+        grc: "ὁ Ἀμνὸς τοῦ Θεοῦ,",
         en: "the Lamb of God,",
       },
     },
     {
       text: {
         got: 'Sunus Attins,',
-        el: "ὁ Υἱὸς τοῦ Πατρός,",
+        grc: "ὁ Υἱὸς τοῦ Πατρός,",
         en: "the Son of the Father,",
       },
     },
@@ -200,7 +200,7 @@ ${toGothicLines([
     {
       text: {
         got: 'þū afnimand frawaurht manasedais,',
-        el: "ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου,",
+        grc: "ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου,",
         en: "who take away the sin of the world,",
       },
       notes:
@@ -214,7 +214,7 @@ afnima in Romans 11:27; world Mark 14:9`,
     {
       text: {
         got: 'armai unsis,',
-        el: "ἐλέησον ἡμᾶς,",
+        grc: "ἐλέησον ἡμᾶς,",
         en: "have mercy on us,",
       },
     },
@@ -224,7 +224,7 @@ ${toGothicLines([
     {
       text: {
         got: 'þū afnimand frawaurhtins manasedais.',
-        el: "ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου.",
+        grc: "ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου.",
         en: "you who take away the sins of the world.",
       },
     },
@@ -236,7 +236,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Andnim bidos unsaros,',
-        el: "Πρόσδεξαι τὴν δέησιν ἡμῶν,",
+        grc: "Πρόσδεξαι τὴν δέησιν ἡμῶν,",
         en: "Accept our supplication,",
       },
       notes:
@@ -245,7 +245,7 @@ ${toGothicLines([
     {
       text: {
         got: 'þūei sitaza af taihswon Attins,',
-        el: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
+        grc: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
         en: "you who sit at the right of the Father,",
       },
       notes:
@@ -254,7 +254,7 @@ ${toGothicLines([
     {
       text: {
         got: 'jah armai unsis.',
-        el: "καὶ ἐλέησον ἡμᾶς.",
+        grc: "καὶ ἐλέησον ἡμᾶς.",
         en: "and have mercy on us.",
       },
       notes:
@@ -263,7 +263,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Unte þū sa ains Weiha ïs,',
-        el: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
+        grc: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
         en: "For you are the only Holy One,",
       },
       notes:
@@ -274,14 +274,14 @@ ${toGothicLines([
     {
       text: {
         got: 'þū sa ains Frauja ïs, Ïesu Xristau,',
-        el: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
+        grc: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
         en: "you are the only Lord, Jesus Christ,",
       },
     },
     {
       text: {
         got: 'du wulþau Gudis Attins.',
-        el: "εἰς δόξαν Θεοῦ Πατρός.",
+        grc: "εἰς δόξαν Θεοῦ Πατρός.",
         en: "to the glory of God the Father.",
       },
       notes:
@@ -300,7 +300,7 @@ Luke 3:22+ and Luke 1:32 have genitive apposition.`,
     {
       text: {
         got: 'Andanahtja ƕammeh þiuþja þuk,',
-        el: "Καθʼ ἑκάστην ἑσπέραν εὐλογήσω σε,",
+        grc: "Καθʼ ἑκάστην ἑσπέραν εὐλογήσω σε,",
         en: "Every evening I shall bless you,",
       },
       notes:
@@ -315,7 +315,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     {
       text: {
         got: 'jah hazja namo þein ïn aiw,',
-        el: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
+        grc: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
         en: "and I shall praise your name forever,",
       },
       notes:
@@ -324,7 +324,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     {
       text: {
         got: 'jah ïn aiw aiwis.',
-        el: "καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.",
+        grc: "καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.",
         en: "and unto the ages of ages.",
       },
       notes:
@@ -337,7 +337,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     {
       text: {
         got: 'Frauja, warst unsis staþs þadei magum þláuhan',
-        el: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
+        grc: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
         en: "Lord, you have become for us a refuge",
       },
       notes:
@@ -350,7 +350,7 @@ which is quite fitting I think.
     {
       text: {
         got: 'us aldai ïn ald.',
-        el: "ἐν γενεᾷ καὶ γενεᾷ.",
+        grc: "ἐν γενεᾷ καὶ γενεᾷ.",
         en: "from generation to generation.",
       },
       notes:
@@ -363,7 +363,7 @@ of a “into ... of ...”.`,
     {
       text: {
         got: 'Ïk qaþ: Frauja, armai mik;',
-        el: "Ἐγὼ εἶπα· Κύριε, ἐλέησόν με·",
+        grc: "Ἐγὼ εἶπα· Κύριε, ἐλέησόν με·",
         en: "I have said: Lord, have mercy on me,",
       },
       notes: `𐌹̈𐌴𐍃𐌿, 𐍃𐌿𐌽𐌿 𐌳𐌰𐍅𐌴𐌹𐌳𐌹𐍃, 𐌰𐍂𐌼𐌰𐌹 𐌼𐌹𐌺 Luke 18:38`
@@ -371,7 +371,7 @@ of a “into ... of ...”.`,
     {
       text: {
         got: 'hailei saiwala meina,',
-        el: "ἴασαι τὴν ψυχήν μου,",
+        grc: "ἴασαι τὴν ψυχήν μου,",
         en: "heal my soul,",
       },
       notes:
@@ -380,7 +380,7 @@ of a “into ... of ...”.`,
     {
       text: {
         got: 'unte ïk wiþra þuk frawaurhta.',
-        el: "ὅτι ἥμαρτόν σοι.",
+        grc: "ὅτι ἥμαρτόν σοι.",
         en: "for I have sinned against you.",
       },
       notes:
@@ -393,7 +393,7 @@ of a “into ... of ...”.`,
     {
       text: {
         got: 'Frauja, du þus þláuh;',
-        el: "Κύριε, πρὸς σὲ κατέφυγον·",
+        grc: "Κύριε, πρὸς σὲ κατέφυγον·",
         en: "Lord, to you I have fled;",
       },
       notes:
@@ -402,7 +402,7 @@ of a “into ... of ...”.`,
     {
       text: {
         got: 'laisei mik wiljan þeinana taujan,',
-        el: "δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου,",
+        grc: "δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου,",
         en: "teach me to do your will,",
       },
       notes:
@@ -415,14 +415,14 @@ do the will John 6:38; do his will John 7:17
     {
       text: {
         got: 'unte þū ïs guþ meins.',
-        el: "ὅτι σὺ εἶ ὁ Θεός μου.",
+        grc: "ὅτι σὺ εἶ ὁ Θεός μου.",
         en: "for you are my God.",
       },
     },
     {
       text: {
         got: 'Unte fram þus ïst brunna libainais;',
-        el: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
+        grc: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
         en: "For with you is the fountain of life;",
       },
       notes:
@@ -431,7 +431,7 @@ do the will John 6:38; do his will John 7:17
     {
       text: {
         got: 'Ïn liuhada þein seƕum liuhaþ.',
-        el: "ἐν τῷ φωτί σου ὀψόμεθα φῶς.",
+        grc: "ἐν τῷ φωτί σου ὀψόμεθα φῶς.",
         en: "in your light we shall see light.",
       },
       notes:
@@ -440,7 +440,7 @@ do the will John 6:38; do his will John 7:17
     {
       text: {
         got: 'Ufþanei armahairtein þeina þaim kunnandam þuk.',
-        el: "Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε.",
+        grc: "Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε.",
         en: "Extend your mercy to those who know you.",
       },
       notes:
@@ -462,7 +462,7 @@ going with 𐌿𐍆𐌸𐌰𐌽𐌾𐌰𐌽 as it “it seems to cover the figur
     {
       text: {
         got: 'Fragif, Frauja,',
-        el: "Καταξίωσον, Κύριε,",
+        grc: "Καταξίωσον, Κύριε,",
         en: "Grant, O Lord,",
       },
       notes:
@@ -473,7 +473,7 @@ grant 𐍆𐍂𐌰𐌲𐌹𐍆 Mark 10:37`,
     {
       text: {
         got: 'ei himma naht ïnuh frawaurht gafastaindau.',
-        el: "ἐν τῇ νυκτὶ ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς.",
+        grc: "ἐν τῇ νυκτὶ ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς.",
         en: "that in this night we may be kept without sin.",
       },
       notes:
@@ -493,28 +493,28 @@ principal clause is interrogative or negative”`,
     {
       text: {
         got: 'Þiuþiþs þuk, Frauja,',
-        el: "Εὐλογητὸς εἶ, Κύριε,",
+        grc: "Εὐλογητὸς εἶ, Κύριε,",
         en: "Blessed are you, O Lord,",
       },
     },
     {
       text: {
         got: 'Guþ Attane unsaraize,',
-        el: "ὁ Θεὸς τῶν Πατέρων ἡμῶν,",
+        grc: "ὁ Θεὸς τῶν Πατέρων ἡμῶν,",
         en: "the God of our Fathers,",
       },
     },
     {
       text: {
         got: 'jah haziþ jah gasweraiþ namo þein',
-        el: "καὶ αἰνετὸν καὶ δεδοξασμένον τὸ ὄνομά σου",
+        grc: "καὶ αἰνετὸν καὶ δεδοξασμένον τὸ ὄνομά σου",
         en: "and praised and glorified is your name",
       },
     },
     {
       text: {
         got: 'ïn aiwins.',
-        el: "εἰς τοὺς αἰῶνας.",
+        grc: "εἰς τοὺς αἰῶνας.",
         en: "unto the ages.",
       },
     },
@@ -528,7 +528,7 @@ principal clause is interrogative or negative”`,
     {
       text: {
         got: 'Wairþai, Frauja, armahairtein þeina ana uns,',
-        el: "Γένοιτο, Κύριε, τὸ ἔλεός σου ἐφʼ ἡμᾶς,",
+        grc: "Γένοιτο, Κύριε, τὸ ἔλεός σου ἐφʼ ἡμᾶς,",
         en: "Let your mercy, Lord, come upon us,",
       },
       notes:
@@ -537,7 +537,7 @@ principal clause is interrogative or negative”`,
     {
       text: {
         got: 'swaswe wenidedum du þus.',
-        el: "καθάπερ ἠλπίσαμεν ἐπὶ σέ.",
+        grc: "καθάπερ ἠλπίσαμεν ἐπὶ σέ.",
         en: "just as we have hoped in you.",
       },
       notes:
@@ -553,7 +553,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
     {
       text: {
         got: 'Þiuþiþs þuk, Frauja,',
-        el: "Εὐλογητὸς εἶ, Κύριε,",
+        grc: "Εὐλογητὸς εἶ, Κύριε,",
         en: "Blessed are you, O Lord,",
       },
       notes: '𐌸𐌹𐌿𐌸𐌴𐌹𐌲𐍃 𐍆𐍂𐌰𐌿𐌾𐌰 𐌲𐌿𐌸 𐌹𐍃𐍂𐌰𐌴𐌻𐌹𐍃 Luke 1:68',
@@ -561,7 +561,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
     {
       text: {
         got: 'laisei mik anabusnins þeinos.',
-        el: "δίδαξόν με τὰ δικαιώματά σου.",
+        grc: "δίδαξόν με τὰ δικαιώματά σου.",
         en: "teach me your commandments.",
       },
     },
@@ -572,14 +572,14 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
     {
       text: {
         got: 'Þiuþiþs þuk, Fraujinond,',
-        el: "Εὐλογητὸς εἶ, Δέσποτα,",
+        grc: "Εὐλογητὸς εἶ, Δέσποτα,",
         en: "Blessed are you, O Master,",
       },
     },
     {
       text: {
         got: 'gatawei mik fraþjan anabusnins þeinos.',
-        el: "συνέτισόν με τὰ δικαιώματά σου.",
+        grc: "συνέτισόν με τὰ δικαιώματά σου.",
         en: "make me understand your commandments.",
       },
       notes:
@@ -594,14 +594,14 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
     {
       text: {
         got: 'Þiuþiþs þuk, Weiha,',
-        el: "Εὐλογητός εἶ, Ἅγιε·",
+        grc: "Εὐλογητός εἶ, Ἅγιε·",
         en: "Blessed are you, O Holy One,",
       },
     },
     {
       text: {
         got: 'ïnliuhtei mik miþ anabusnim þeinaim.',
-        el: "φώτισόν με τοῖς δικαιώμασί σου.",
+        grc: "φώτισόν με τοῖς δικαιώμασί σου.",
         en: "enlighten me with your commandments.",
       },
       notes: `Ephesians 3:9`
@@ -613,14 +613,14 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
     {
       text: {
         got: 'Frauja, armahairtein þeina ïn aiw;',
-        el: "Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα·",
+        grc: "Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα·",
         en: "Lord, your mercy remains forever,",
       },
     },
     {
       text: {
         got: 'ni uswandjais af waurstwam handiwe þeinaizo.',
-        el: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
+        grc: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
         en: "do not turn away from the works of your hands.",
       },
       notes:
@@ -637,7 +637,7 @@ works of christ Matthew 11:2`
     {
       text: {
         got: 'Þus ïst gadob hazeins,',
-        el: "Σοὶ πρέπει αἶνος,",
+        grc: "Σοὶ πρέπει αἶνος,",
         en: "To you belongs praise,",
       },
       notes:
@@ -646,14 +646,14 @@ works of christ Matthew 11:2`
     {
       text: {
         got: 'þus ïst gadob liuþ,',
-        el: "σοὶ πρέπει ὕμνος,",
+        grc: "σοὶ πρέπει ὕμνος,",
         en: "to you belongs a hymn,",
       },
     },
     {
       text: {
         got: 'þus ïst gadob wulþus,',
-        el: "σοὶ δόξα πρέπει,",
+        grc: "σοὶ δόξα πρέπει,",
         en: "to you belongs glory,",
       },
     },
@@ -663,7 +663,7 @@ ${toGothicLines([
     {
       text: {
         got: 'Attin, jah Sunau, jah Ahmin Weihamma,',
-        el: "τῷ Πατρί, καὶ τῷ Υἱῷ, καὶ τῷ Ἁγίῳ Πνεύματι,",
+        grc: "τῷ Πατρί, καὶ τῷ Υἱῷ, καὶ τῷ Ἁγίῳ Πνεύματι,",
         en: "to the Father and the Son and the Holy Spirit,",
       },
     },
