@@ -9,9 +9,9 @@ import
   toGothicLines,
 } from '@server/tools'
 
-
-// https://de.wikipedia.org/wiki/Mondnacht_(Eichendorff)
-
+// https://www.septuagint.bible/-/psalmos-138
+// https://biblehub.com/psalms/139-1.htm
+// https://biblehub.com/interlinear/apostolic/psalms/139.htm
 
 const slug = 'psalmo-138'
 const title = 'Psalmo 138'
