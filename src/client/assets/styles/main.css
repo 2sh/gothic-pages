@@ -35,6 +35,40 @@
   font-display: swap;
 }
 
+@counter-style gothic {
+  system: additive;
+  additive-symbols:
+    900 𐍊,
+    800 𐍉,
+    700 𐍈,
+    600 𐍇,
+    500 𐍆,
+    400 𐍅,
+    300 𐍄,
+    200 𐍃,
+    100 𐍂,
+    90 𐍁,
+    80 𐍀,
+    70 𐌿,
+    60 𐌾,
+    50 𐌽,
+    40 𐌼,
+    30 𐌻,
+    20 𐌺,
+    10 𐌹,
+    9 𐌸,
+    8 𐌷,
+    7 𐌶,
+    6 𐌵,
+    5 𐌴,
+    4 𐌳,
+    3 𐌲,
+    2 𐌱,
+    1 𐌰;
+  prefix: "·";
+  suffix: "· ";
+}
+
 *:lang(got),
 *:not(:lang(got)),
 #article-container select,
