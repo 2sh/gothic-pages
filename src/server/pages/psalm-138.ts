@@ -55,7 +55,8 @@ ${toGothicLines([{
       en: "O Lord, Thou hast examined me, and known me.",
     },
   }], info)}
-<br>
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Þū kunþes gasiss meina jah urrist meina, þū frost mitonins meinos fairraþro;",
@@ -64,7 +65,8 @@ ${toGothicLines([{
     },
     notes: `*gasiss from gasitan + -ss`
   }], info)}
-<br>
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Staiga meina jah badi mein fanst jah allans wigans meinans faúrawisses,",
@@ -73,7 +75,8 @@ ${toGothicLines([{
     },
     notes: `σχοῖνόν seems to mean rush (camel hay) but it can also mean rush bed. As the Masoretic is "laying down", I've gone with bed.`
   }], info)}
-<br>
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Unte nist liutei ïn tuggon meinai.",
@@ -81,7 +84,8 @@ ${toGothicLines([{
       en: "For there is no guile in my tongue.",
     },
   }], info)}
-<br>
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Sai, Frauja, þū kunþes alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu þeina.",
@@ -89,7 +93,8 @@ ${toGothicLines([{
       en: "Lo, O Lord, Thou hast known all things, the last and the first; Thou hast made me and hast laid Thy hand upon me.",
     },
   }], info)}
-<br>
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Sildaleikniþ kunþi þeina ïn mis; si gaswinþnoda, allis ni mag gatilon ija.",
@@ -98,7 +103,8 @@ ${toGothicLines([{
     },
     notes: `[she has become strong], [by no means] not [able to].1PS attain her`
   }], info)}
-<br>
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Ubi ... ;",
@@ -107,7 +113,8 @@ ${toGothicLines([{
     },
     notes: `[she has become strong], [by no means] not [able to].1PS attain her`
   }], info)}
-<br>
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Jabai ussteiga ïn himin, þū þar ïs; jabai atgagga ïn halja, atïs;",
