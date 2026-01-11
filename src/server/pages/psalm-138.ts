@@ -47,9 +47,7 @@ const generator: PageGenerator = info =>
   },], info)}</h1>
 </header>`
 
-  let poem = ''
-
-  poem += html`<p>
+  article += html`<p>
 ${toGothicLines([{
     text: {
       got: "Frauja, gakaust mik, jah kunþes mik;",
@@ -118,9 +116,6 @@ ${toGothicLines([{
     },
   }], info)}
 </p>`
-
-  article += html`<div class='poem'>${poem}</div>`
-
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
