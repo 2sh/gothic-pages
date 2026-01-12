@@ -57,7 +57,7 @@ const generator: PageGenerator = info =>
   }], info)}</li>
 <li value='2'>${toGothicLines([{
     text: {
-      got: "Þū kant swe gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
+      got: "Þū kant biþe gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",
       en: "Thou knowest my downsitting, and mine uprising, Thou hast understood my thoughts from afar.",
     },
@@ -105,7 +105,7 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Jabai ussteiga ïn himin, Þū þar ïs; jabai atgagga ïn halja, atïs;",
+      got: "Jabai ussteiga ïn himin, Þū þar ïs; jabai atsteiga ïn halja, atis;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
     },

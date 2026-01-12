@@ -236,12 +236,12 @@ though I like that it doesn’t just include creation, but happenings/events too
     },
     {
       text: {
-        got: 'us himinam dalaþ atïddja,',
+        got: 'us himinam dalaþ atiddja,',
         grc: "κατελθόντα ἐκ τῶν οὐρανῶν,",
         en: "came down from the heavens,",
       },
       notes: `atgaggands dalaþ Luke 6:17, dalaþ atgaggandam Luke 9:37,
-rain descended = atïddja dalaþ Matthew 7:25`,
+rain descended = atiddja dalaþ Matthew 7:25`,
     },
     {
       text: {

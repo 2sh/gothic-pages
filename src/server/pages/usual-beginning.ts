@@ -96,7 +96,7 @@ article += html`<p class='notice'>
 ${toGothicLines([
     {
       text: {
-        got: 'Iþ jabai gudja ni atïst:',
+        got: 'Iþ jabai gudja ni atist:',
         en: "If there is no priest:",
       },
     },
