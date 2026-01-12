@@ -50,21 +50,17 @@ const generator: PageGenerator = info =>
   article += html`<ol style='list-style: gothic;'>
 <li value=''>${toGothicLines([{
     text: {
-      got: "Frauja, gakaust mik, jah kunþes mik;",
+      got: "Frauja, gakaust mik, jah kant mik;",
       grc: "Κύριε, ἐδοκίμασάς με, καὶ ἔγνως με·",
       en: "O Lord, Thou hast proved me, and Thou knowest me.",
     },
-    notes: `The English translation goes for present tense for know while the Greek
-is aorist. I guess to avoid using knew, which in English could imply not knowing any longer.
-I quick look but I think the Gothic Bible shows no indication of such meaning.`
   }], info)}</li>
 <li value='2'>${toGothicLines([{
     text: {
-      got: "Þū kunþes gasiss meina jah urrist meina, Þū frost mitonins meinos fairraþro;",
+      got: "Þū kant swe gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",
       en: "Thou knowest my downsitting, and mine uprising, Thou hast understood my thoughts from afar.",
     },
-    notes: `*gasiss from gasitan + -ss`
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
@@ -86,24 +82,18 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Sai, Frauja, Þū kunþes alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu Þeina.",
+      got: "Sai, Frauja, Þū kant alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu Þeina.",
       grc: "ἰδού, Κύριε, σὺ ἔγνως πάντα, τὰ ἔσχατα καὶ τὰ ἀρχαῖα· σὺ ἔπλασάς με καὶ ἔθηκας ἐπ᾿ ἐμὲ τὴν χεῖρά σου.",
-      en: "Behold, O Lord, Thou knownest all things, the last and the first; Thou hast fashioned, and laid Thine hand upon me.",
+      en: "Behold, O Lord, Thou knowest all things, the last and the first; Thou hast fashioned, and laid Thine hand upon me.",
     },
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Sildaleiknoda kunþi Þeina ïn mis; gaswinþnoda, ïk ni magjau allis du ïzai gasniwan.",
+      got: "Sildaleik ïst kunþi Þein mis; ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
-    notes: `Unsure where the "too" in English translations in the first half is coming from.
-
-[has become strong].1PS/3PS, [by no means] I not [able to].1PS/3PS attain to her
-
-Original has no ïk, though adding it as "mag" could be 3rd person too,
-changing the subject. Wondering if I should add a "si" to the gaswinþnoda
-to make sure it can't be interpreted as first person.`
+    notes: `Unsure where the "too" in English translations in the first half is coming from.`
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
