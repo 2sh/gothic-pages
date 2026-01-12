@@ -50,6 +50,7 @@
 {
   list-style: gothic;
   list-style-position: inside;
+  padding-left: 0;
 }
 
 .numbered-verses ::marker
