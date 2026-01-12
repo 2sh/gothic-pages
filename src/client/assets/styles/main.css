@@ -46,6 +46,31 @@
   suffix: "· ";
 }
 
+.numbered-verses
+{
+  list-style: gothic;
+  list-style-position: inside;
+}
+
+.numbered-verses ::marker
+{
+  color: var(--speaker-color);
+  font-size: 12px;
+}
+
+.numbered-verses li > span
+{
+  vertical-align: middle;
+}
+
+/*
+.numbered-verses li:first-child::first-letter
+{
+  initial-letter: 2;
+  padding-right: 4px;
+}
+*/
+
 *:lang(got),
 *:not(:lang(got)),
 #article-container select,

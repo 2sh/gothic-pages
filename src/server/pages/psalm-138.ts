@@ -47,7 +47,7 @@ const generator: PageGenerator = info =>
   },], info)}</h1>
 </header>`
 
-  article += html`<ol style='list-style: gothic;'>
+  article += html`<ol class='numbered-verses'>
 <li value=''>${toGothicLines([{
     text: {
       got: "Frauja, gakaust mik, jah kant mik;",
