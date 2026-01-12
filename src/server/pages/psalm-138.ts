@@ -68,7 +68,7 @@ I quick look but I think the Gothic Bible shows no indication of such meaning.`
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Staiga meina jah badi mein fanst jah allans wigans meinans faurawisses,",
+      got: "Staiga meina jah badi mein ussokides jah allans wigans meinans faurawisses,",
       grc: "τὴν τρίβον μου καὶ τὴν σχοῖνόν μου ἐξιχνίασας καὶ πάσας τὰς ὁδούς μου προεῖδες,",
       en: "Thou hast searched out my path and my lot, and hast forseen all my ways;",
     },
@@ -93,7 +93,7 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Sildaleiknoda kunþi Þeina ïn mis; gaswinþnoda, allis ïk ni mag gasniwan du ïzai.",
+      got: "Sildaleiknoda kunþi Þeina ïn mis; gaswinþnoda, ïk ni magjau allis du ïzai gasniwan.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
