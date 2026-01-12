@@ -54,10 +54,13 @@ const generator: PageGenerator = info =>
       grc: "Κύριε, ἐδοκίμασάς με, καὶ ἔγνως με·",
       en: "O Lord, Thou hast proved me, and Thou knowest me.",
     },
+    notes: `The English translation goes for present tense for know while the Greek
+is aorist. I guess to avoid using knew, which in English could imply not knowing any longer.
+I quick look but I think the Gothic Bible shows no indication of such meaning.`
   }], info)}</li>
 <li value='2'>${toGothicLines([{
     text: {
-      got: "Þū kunþes gasiss meina jah urrist meina, þū frost mitonins meinos fairraþro;",
+      got: "Þū kunþes gasiss meina jah urrist meina, Þū frost mitonins meinos fairraþro;",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",
       en: "Thou knowest my downsitting, and mine uprising, Thou hast understood my thoughts from afar.",
     },
@@ -65,11 +68,14 @@ const generator: PageGenerator = info =>
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Staiga meina jah badi mein fanst jah allans wigans meinans faúrawisses,",
+      got: "Staiga meina jah badi mein fanst jah allans wigans meinans faurawisses,",
       grc: "τὴν τρίβον μου καὶ τὴν σχοῖνόν μου ἐξιχνίασας καὶ πάσας τὰς ὁδούς μου προεῖδες,",
       en: "Thou hast searched out my path and my lot, and hast forseen all my ways;",
     },
-    notes: `σχοῖνόν seems to mean rush (camel hay) but it can also mean rush bed. As the Masoretic is "laying down", I've gone with bed.`
+    notes:
+`σχοῖνόν seems to mean rush (camel hay) but apparently it can also mean "rush bed".
+As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
+"Brenton's Septuagint Translation".`
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
@@ -80,18 +86,24 @@ const generator: PageGenerator = info =>
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Sai, Frauja, þū kunþes alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu þeina.",
+      got: "Sai, Frauja, Þū kunþes alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu Þeina.",
       grc: "ἰδού, Κύριε, σὺ ἔγνως πάντα, τὰ ἔσχατα καὶ τὰ ἀρχαῖα· σὺ ἔπλασάς με καὶ ἔθηκας ἐπ᾿ ἐμὲ τὴν χεῖρά σου.",
       en: "Behold, O Lord, Thou knownest all things, the last and the first; Thou hast fashioned, and laid Thine hand upon me.",
     },
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Sildaleikniþ kunþi þeina ïn mis; si gaswinþnoda, allis ni mag gatilon ija.",
+      got: "Sildaleiknoda kunþi Þeina ïn mis; gaswinþnoda, allis ïk ni mag gatilon ija.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
-    notes: `[she has become strong], [by no means] not [able to].1PS attain her`
+    notes: `Unsure where the "too" in English translations in the first half is coming from.
+
+[has become strong].1PS/3PS, [by no means] I not [able to].1PS/3PS attain her
+
+Original has no ïk, though adding it as "mag" could be 3rd person too,
+changing the subject. Wondering if I should add a "si" to the gaswinþnoda
+to make sure it can't be interpreted as first person.`
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
@@ -103,7 +115,7 @@ const generator: PageGenerator = info =>
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Jabai ussteiga ïn himin, þū þar ïs; jabai atgagga ïn halja, atïs;",
+      got: "Jabai ussteiga ïn himin, Þū þar ïs; jabai atgagga ïn halja, atïs;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
     },
