@@ -97,11 +97,10 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Ubi ... ;",
+      got: "Ƕaþ gaggau af Ahmin Þeinamma jah af andwairþja Þeinamma ƕaþ þliuhau?",
       grc: "ποῦ πορευθῶ ἀπὸ τοῦ πνεύματός σου καὶ ἀπὸ τοῦ προσώπου σου ποῦ φύγω;",
       en: "Whither shall I go from Thy Spirit? And whither shall I flee from Thy presence?",
     },
-    notes: `[she has become strong], [by no means] not [able to].1PS attain her`
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
