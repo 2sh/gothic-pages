@@ -93,13 +93,13 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
   }], info)}</li>
 <li>${toGothicLines([{
     text: {
-      got: "Sildaleiknoda kunþi Þeina ïn mis; gaswinþnoda, allis ïk ni mag gatilon ija.",
+      got: "Sildaleiknoda kunþi Þeina ïn mis; gaswinþnoda, allis ïk ni mag gasniwan du ïzai.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
     notes: `Unsure where the "too" in English translations in the first half is coming from.
 
-[has become strong].1PS/3PS, [by no means] I not [able to].1PS/3PS attain her
+[has become strong].1PS/3PS, [by no means] I not [able to].1PS/3PS attain to her
 
 Original has no ïk, though adding it as "mag" could be 3rd person too,
 changing the subject. Wondering if I should add a "si" to the gaswinþnoda
