@@ -82,22 +82,20 @@ body
   text-align: center;
 }
 
-.psalm
+@supports (initial-letter: 2)
 {
-  text-indent: 0;
+  .psalm
+  {
+    text-indent: 0;
+  }
+
+  .psalm::first-letter
+  {
+    initial-letter: 2;
+    padding-right: 4px;
+  }
 }
 
-.psalm br::after
-{
-  margin-right: 60px;
-  content: '2'
-}
-
-.psalm::first-letter
-{
-  initial-letter: 2;
-  padding-right: 4px;
-}
 
 
 *:lang(got),
