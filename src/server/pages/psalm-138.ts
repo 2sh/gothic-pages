@@ -107,7 +107,7 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Sildaleik ïst kunþi Þein mis; ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
+      got: "Sildaleik ïst kunþi Þein mis; Ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
@@ -124,7 +124,7 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai ussteigau ïn himin, Þū ïs þar; jabai atsteigau ïn halja, atis;",
+      got: "Jabai ussteigau ïn himin, Þū ïs þar; Jabai atsteigau ïn halja, atis;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
     },
@@ -157,9 +157,17 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ galiuhtida ïn fodeinai meinai.",
+      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ galiuhtida ïn botai meinai;",
       grc: "καὶ εἶπα· ἄρα σκότος καταπατήσει με, καὶ νὺξ φωτισμὸς ἐν τῇ τρυφῇ μου·",
       en: "And I said, Surely the darkness shall cover me, and in my pleasure shall the night be turned to day.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "Unte riqis ni wairþiþ riqis af Þus, jah nahts wairþiþ baírhts swe dags; ...",
+      grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
+      en: "For darkness will not be darkness with Thee, but night shall be bright as day; as is the darkness, even so shall be the light thereof.",
     },
   }], info)}</span>
 </p>`
