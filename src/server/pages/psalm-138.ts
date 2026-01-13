@@ -47,22 +47,38 @@ const generator: PageGenerator = info =>
   },], info)}</h1>
 </header>`
 
-  article += html`<ol class='numbered-verses'>
-<li value=''>${toGothicLines([{
+  article += html`<header>
+  <div class="intro"><span class='verse'>${toGothicLines([{
+    text: {
+      got: "Und andi, psalmo Daweida.",
+      grc: "Εἰς τὸ τέλος· ψαλμὸς τῷ Δαυΐδ.",
+      en: "Unto the end, a psalm to David.",
+    },
+    notes:
+`"The phrase 𐌿𐌽𐌳 𐌰𐌽𐌳𐌹 (und andi) (Luke 18:5) is used with the sense of
+"in the end, eventually". It may be a calque of Ancient Greek εἰς τέλος
+(eis télos) with the same meaning."`
+  }], info)}</span></div>
+</header>`
+
+  article += html`<p class='psalm'>
+${toGothicLines([{
     text: {
       got: "Frauja, gakaust mik, jah kant mik;",
       grc: "Κύριε, ἐδοκίμασάς με, καὶ ἔγνως με·",
       en: "O Lord, Thou hast proved me, and Thou knowest me.",
     },
-  }], info)}</li>
-<li value='2'>${toGothicLines([{
+  }], info)}
+<br>
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Þū kant biþe gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",
       en: "Thou knowest my downsitting, and mine uprising, Thou hast understood my thoughts from afar.",
     },
-  }], info)}</li>
-<li>${toGothicLines([{
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Staiga meina jah badi mein ussokides jah allans wigans meinans faurawisses,",
       grc: "τὴν τρίβον μου καὶ τὴν σχοῖνόν μου ἐξιχνίασας καὶ πάσας τὰς ὁδούς μου προεῖδες,",
@@ -72,44 +88,48 @@ const generator: PageGenerator = info =>
 `σχοῖνόν seems to mean rush (camel hay) but apparently it can also mean "rush bed".
 As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
 "Brenton's Septuagint Translation".`
-  }], info)}</li>
-<li>${toGothicLines([{
+  }], info)}</span>
+<span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte nist liutei ïn tuggon meinai.",
+      got: "unte nist liutei ïn tuggon meinai.",
       grc: "ὅτι οὐκ ἔστι δόλος ἐν γλώσσῃ μου.",
       en: "For there is no guile upon my tongue.",
     },
-  }], info)}</li>
-<li>${toGothicLines([{
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Sai, Frauja, Þū kant alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu Þeina.",
       grc: "ἰδού, Κύριε, σὺ ἔγνως πάντα, τὰ ἔσχατα καὶ τὰ ἀρχαῖα· σὺ ἔπλασάς με καὶ ἔθηκας ἐπ᾿ ἐμὲ τὴν χεῖρά σου.",
       en: "Behold, O Lord, Thou knowest all things, the last and the first; Thou hast fashioned, and laid Thine hand upon me.",
     },
-  }], info)}</li>
-<li>${toGothicLines([{
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Sildaleik ïst kunþi Þein mis; ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
     notes: `Unsure where the "too" in English translations in the first half is coming from.`
-  }], info)}</li>
-<li>${toGothicLines([{
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Ƕaþ gaggau af Ahmin Þeinamma jah af andwairþja Þeinamma ƕaþ þliuhau?",
       grc: "ποῦ πορευθῶ ἀπὸ τοῦ πνεύματός σου καὶ ἀπὸ τοῦ προσώπου σου ποῦ φύγω;",
       en: "Whither shall I go from Thy Spirit? And whither shall I flee from Thy presence?",
     },
-  }], info)}</li>
-<li>${toGothicLines([{
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Jabai ussteiga ïn himin, Þū þar ïs; jabai atsteiga ïn halja, atis;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
     },
-  }], info)}</li>
-</ol>`
+  }], info)}</span>
+</p>`
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{

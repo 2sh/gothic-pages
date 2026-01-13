@@ -4,7 +4,8 @@
   --box-color: #323236;
   --i-line-hover-color: #479e95;
   --i-line-selected-color: #008477;
-  --speaker-color: rgb(255, 132, 132);
+  --extra-inline-color: rgb(255, 132, 132);
+  --intro-color: #edffed;
   --text-color: #f0f0f0;
   --link-color: #789cff;
   --button-color: #686868;
@@ -18,7 +19,8 @@
   --box-color: #dadada;
   --i-line-hover-color: #ceffe3;
   --i-line-selected-color: #aaffcf;
-  --speaker-color: rgb(255, 0, 0);
+  --extra-inline-color: rgb(255, 0, 0);
+  --intro-color: rgb(0, 141, 24);
   --text-color: #28282b;
   --link-color: #6b87d4;
   --button-color: #dddddd;
@@ -46,31 +48,50 @@
   suffix: "· ";
 }
 
-.numbered-verses
+body
 {
-  list-style: gothic;
-  list-style-position: inside;
-  padding-left: 0;
+  counter-reset: verse;
 }
 
-.numbered-verses ::marker
+.verse-2nd
 {
-  color: var(--speaker-color);
+  counter-set: verse 1;
+}
+
+.verse
+{
+  margin-left: 30px;
+  position: relative;
+}
+
+.verse::before
+{
+  counter-increment: verse;
+  content: "·" counter(verse, gothic) "·";
+
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  text-indent: 0;
+  width: 0;
+  margin-left: -5px;
+  color: var(--extra-inline-color);
   font-size: 12px;
+  direction: rtl;
 }
 
-.numbered-verses li > span
+.psalm
 {
-  vertical-align: middle;
+  text-indent: 0;
 }
 
-/*
-.numbered-verses li:first-child::first-letter
+.psalm::first-letter
 {
   initial-letter: 2;
   padding-right: 4px;
 }
-*/
+
 
 *:lang(got),
 *:not(:lang(got)),
@@ -298,7 +319,7 @@ article p
   text-align: right;
   white-space: nowrap;
   padding-right: 1em;
-  color: var(--speaker-color);
+  color: var(--extra-inline-color);
 }
 
 a
@@ -346,6 +367,12 @@ h4
   line-height: 20px;
   margin: 14px 0 0 0;
   font-style: italic;
+}
+
+article .intro
+{
+  text-align: center;
+  color: var(--intro-color);
 }
 
 
