@@ -165,9 +165,18 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte riqis ni wairþiþ riqis af Þus, jah so nahts wairþiþ bairhts swe dags; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
+      got: "Unte riqis ni wairþiþ riqis fram Þus, jah so nahts wairþiþ bairhts swe dags; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
       grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
       en: "For darkness will not be darkness with Thee, but night shall be bright as day; as is the darkness, even so shall be the light thereof.",
+    },
+    notes: `Luke 6:18 Luke 8:44 Luke 9:22 "ἀπὸ" turns into "fram" to mean "by"`
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "Unte ...",
+      grc: "ὅτι σὺ ἐκτήσω τοὺς νεφρούς μου, Κύριε, ἀντελάβου μου ἐκ γαστρὸς μητρός μου.",
+      en: "For Thou hast possessed my reins; Thou hast holpen me, O Lord, from my mother's womb.",
     },
   }], info)}</span>
 </p>`
