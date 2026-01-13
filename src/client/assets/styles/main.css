@@ -79,6 +79,7 @@ body
   color: var(--extra-inline-color);
   font-size: 12px;
   direction: rtl;
+  font-style: normal;
 }
 
 .psalm
@@ -373,6 +374,7 @@ article .intro
 {
   text-align: center;
   color: var(--intro-color);
+  font-style: italic;
 }
 
 
