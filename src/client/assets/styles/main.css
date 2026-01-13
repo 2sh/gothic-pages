@@ -71,16 +71,21 @@ body
 
   position: absolute;
   top: 2px;
-  left: 0;
-  width: 0;
-  margin-left: -5px;
-  direction: rtl;
+  left: -30px;
+  width: 30px;
   font-style: normal;
+  text-align: center;
 }
 
 .psalm
 {
   text-indent: 0;
+}
+
+.psalm br::after
+{
+  margin-right: 60px;
+  content: '2'
 }
 
 .psalm::first-letter
