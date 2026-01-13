@@ -53,11 +53,6 @@ body
   counter-reset: verse;
 }
 
-.verse-2nd
-{
-  counter-set: verse 1;
-}
-
 .verse
 {
   margin-left: 30px;
