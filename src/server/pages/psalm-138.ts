@@ -165,7 +165,7 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte riqis ni wairþiþ riqis af Þus, jah nahts wairþiþ baírhts swe dags; ...",
+      got: "Unte riqis ni wairþiþ riqis af Þus, jah nahts wairþiþ bairhts swe dags; ...",
       grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
       en: "For darkness will not be darkness with Thee, but night shall be bright as day; as is the darkness, even so shall be the light thereof.",
     },
