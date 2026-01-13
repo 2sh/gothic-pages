@@ -45,10 +45,7 @@ const generator: PageGenerator = info =>
       en: "Psalm 138",
     },
   },], info)}</h1>
-</header>`
-
-  article += html`<header>
-  <div class="intro"><span class='verse'>${toGothicLines([{
+  <div class="intro">${toGothicLines([{
     text: {
       got: "Und andi, psalmo Daweida.",
       grc: "Εἰς τὸ τέλος· ψαλμὸς τῷ Δαυΐδ.",
@@ -58,7 +55,7 @@ const generator: PageGenerator = info =>
 `"The phrase 𐌿𐌽𐌳 𐌰𐌽𐌳𐌹 (und andi) (Luke 18:5) is used with the sense of
 "in the end, eventually". It may be a calque of Ancient Greek εἰς τέλος
 (eis télos) with the same meaning."`
-  }], info)}</span></div>
+  }], info)}</div>
 </header>`
 
   article += html`<p class='psalm'>
@@ -70,7 +67,7 @@ ${toGothicLines([{
     },
   }], info)}
 <br>
-<span class='verse'>${toGothicLines([{
+<span class='verse verse-2'>${toGothicLines([{
     text: {
       got: "Þū kant biþe gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",

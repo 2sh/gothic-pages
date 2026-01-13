@@ -53,6 +53,11 @@ body
   counter-reset: verse;
 }
 
+.verse-2
+{
+  counter-set: verse 1;
+}
+
 .verse
 {
   position: relative;
