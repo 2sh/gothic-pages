@@ -146,7 +146,7 @@ us- can also mean "out" and usniman means to remove or take out.
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "jah auk jainar handus Þeina tiuhiþ mik, jah gahabaiþ mik taihswo Þeina.",
+      got: "jah auk jainar handus Þeina tiuhiþ mik, jah gahabaiþ mik taihswa Þeina.",
       grc: "καὶ γὰρ ἐκεῖ ἡ χείρ σου ὁδηγήσει με, καὶ καθέξει με ἡ δεξιά σου.",
       en: "even there shall Thy hand lead me, and Thy right hand shall hold me.",
     },
