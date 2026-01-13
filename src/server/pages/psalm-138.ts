@@ -124,10 +124,35 @@ As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai ussteiga ïn himin, Þū þar ïs; jabai atsteiga ïn halja, atis;",
+      got: "Jabai ussteigau ïn himin, Þū ïs þar; jabai atsteigau ïn halja, atis;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
     },
+    notes: `I think, "þar" if it's a specific known place,
+"jainar" if it's a bit more open like a place of a plural "in the uttermost parts of the sea".`
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "Jabai nimau fiþrakans meinans at ūhtwon, jah bauau ïn andjam mareins,",
+      grc: "ἐὰν ἀναλάβοιμι τὰς πτέρυγάς μου κατ᾿ ὄρθρον καὶ κατασκηνώσω εἰς τὰ ἔσχατα τῆς θαλάσσης,",
+      en: "If I take up my wings in the morning, and dwell in the uttermost parts of the sea,",
+    },
+    notes:
+`Would be nice to follow the us- and at- pattern like in Greek ἀνα- and κατα- but
+us- can also mean "out" and usniman means to remove or take out.
+
+*fiþraks`
+  }], info)}</span>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "jah auk jainar handus Þeina tiuhiþ mik, jah gahabaiþ mik taihswo Þeina.",
+      grc: "καὶ γὰρ ἐκεῖ ἡ χείρ σου ὁδηγήσει με, καὶ καθέξει με ἡ δεξιά σου.",
+      en: "even there shall Thy hand lead me, and Thy right hand shall hold me.",
+    },
+    notes: `jah auk Matthew 8:9
+
+gahaban hold/keep Luke 8:15 Romans 7:6`
   }], info)}</span>
 </p>`
 
