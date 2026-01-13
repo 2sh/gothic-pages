@@ -154,6 +154,14 @@ us- can also mean "out" and usniman means to remove or take out.
 
 gahaban hold/keep Luke 8:15 Romans 7:6`
   }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ galiuhtida ïn fodeinai meinai.",
+      grc: "καὶ εἶπα· ἄρα σκότος καταπατήσει με, καὶ νὺξ φωτισμὸς ἐν τῇ τρυφῇ μου·",
+      en: "And I said, Surely the darkness shall cover me, and in my pleasure shall the night be turned to day.",
+    },
+  }], info)}</span>
 </p>`
 
   article += html`<p class="annotation">
