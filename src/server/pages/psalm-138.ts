@@ -282,7 +282,7 @@ mean "mindset, character" in Norse languages.`
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2026)", en: "a translation by 2sh (2026)." },
+    text: { got: "skeireins fram Ïostaiha (2026).", en: "a translation by 2sh (2026)." },
   }], info)}</span>
 </p>`
 
