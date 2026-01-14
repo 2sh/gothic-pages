@@ -12,6 +12,7 @@ import
 // https://www.septuagint.bible/-/psalmos-138
 // https://biblehub.com/psalms/139-1.htm
 // https://biblehub.com/interlinear/apostolic/psalms/139.htm
+// https://biblebento.com/index.html?lxx1i&230.138.1
 
 const slug = 'psalmo-138'
 const title = 'Psalmo 138'
