@@ -55,7 +55,12 @@ const generator: PageGenerator = info =>
     notes:
 `"The phrase 𐌿𐌽𐌳 𐌰𐌽𐌳𐌹 (und andi) (Luke 18:5) is used with the sense of
 "in the end, eventually". It may be a calque of Ancient Greek εἰς τέλος
-(eis télos) with the same meaning."`
+(eis télos) with the same meaning."
+
+A lot of Septuagint translations include
+"A psalm of Zacharias in the Diaspora/Dispersion" though I'm not sure where
+this is coming from. It's not in any Septuagint manuscript I've found so far.
+Some even leave out the "A psalm to/of David" entirely.`
   }], info)}</div>
 </header>`
 
