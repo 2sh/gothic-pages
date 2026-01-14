@@ -113,7 +113,14 @@ Lot feels more like fate, as in it wasn't your own choice.`
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
-    notes: `Unsure where the "too" in English translations in the first half is coming from.`
+    notes: `There's "sildaleiknan in allaim þaim galaubjandam" Thessalonians II 1:10
+which made me think "sildaleiknoda kunþi Þein in mis" initially although that could be
+understood as "Your knowledge was admired in me", a past event and not yet complete,
+and using "sildaleikniþ" could be understood as "to be be admired", a future event
+or a desired thing not currently fullfilled, though the Greek Aorist is just giving this a
+perfectiveness and not talking about the past or the future.
+
+Unsure where the "too" in English translations in the first half are coming from.`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
