@@ -115,7 +115,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
     },
     notes: `There's "sildaleiknan in allaim þaim galaubjandam" Thessalonians II 1:10
 which made me think "sildaleiknoda kunþi Þein in mis" initially although that could be
-understood as "Your knowledge was admired in me", a past event and not yet complete,
+understood as "Your knowledge was admired in me", a past event and perhaps no longer true,
 and using "sildaleikniþ" could be understood as "to be be admired", a future event
 or a desired thing not currently fullfilled, though the Greek Aorist is just giving this a
 perfectiveness and not talking about the past or the future.
