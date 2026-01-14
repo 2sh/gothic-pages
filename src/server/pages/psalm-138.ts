@@ -93,11 +93,14 @@ even though Masoretic translations seem to favour "when".`
     },
     notes:
 `σχοῖνόν seems to mean rush (camel hay) but apparently it can also mean "rush bed".
-As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
-"Brenton's Septuagint Translation". It has figurative meaning,
-"A condition or situation in which a person chooses or is compelled to remain,
-esp. a difficult or unpleasant one resulting from his or her previous choices."
-("one has made one's bed and must lie in it"). The surrounding
+"schoinon = “things made of rushes,” but also used to mean the Egyptian measurement of land."
+which is where English translation "lot" seems to come in.
+I've gone with "bed" though. The Masoretic has "laying down",
+"bed" is also used in "Brenton's Septuagint Translation",
+it has various figurative meanings relating to choices
+(where you put it, how you make it, what you think while lying in it, when you are in it,
+your physical and mental state while lying in it, vunerability, etc. and
+though a modern idiom "make one's bed and lie in it") and the surrounding
 words are about your own choices too: path, ways, my tongue, downsitting, uprising, thoughts.
 Lot feels more like fate, as in it wasn't your own choice.`
   }], info)}</span>
