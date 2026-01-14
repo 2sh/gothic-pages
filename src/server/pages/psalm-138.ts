@@ -67,7 +67,7 @@ ${toGothicLines([{
     },
   }], info)}
 <br>
-<span class='verse verse-2'>${toGothicLines([{
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Þū kant biþe gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",

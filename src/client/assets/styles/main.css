@@ -53,11 +53,6 @@ body
   counter-reset: verse;
 }
 
-.verse-2
-{
-  counter-set: verse 1;
-}
-
 .verse
 {
   position: relative;
@@ -80,6 +75,12 @@ body
   width: 30px;
   font-style: normal;
   text-align: center;
+}
+
+.psalm
+{
+  counter-set: verse calc(var(--init-verse, 2) - 1)
+  /* set on element with psalm class with `style='--init-verse: 3'` */
 }
 
 @supports (initial-letter: 2)
