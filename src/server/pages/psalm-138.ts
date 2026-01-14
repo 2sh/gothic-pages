@@ -192,7 +192,7 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte Þu gastaistalst lundi mein; Frauja, hleibides mis us wambai aiþeins meinaizos.",
+      got: "Unte Þu gastaistalst lundja meina; Frauja, hleibides mis us wambai aiþeins meinaizos.",
       grc: "ὅτι σὺ ἐκτήσω τοὺς νεφρούς μου, Κύριε, ἀντελάβου μου ἐκ γαστρὸς μητρός μου.",
       en: "For Thou hast possessed my reins; Thou hast holpen me, O Lord, from my mother's womb.",
     },
