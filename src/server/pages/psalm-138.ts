@@ -184,6 +184,15 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 *lundi [n. Ja] from *lundiją (loin, kidney, fat) as it descended to
 mean "mindset, character" in Norse languages.`
   }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "Awiliudo þus, unte ogjands sildaleiknis; Sildaleikai sind waurstwans þeinai, jah saiwala meina wait abraba.",
+      grc: "ἐξομολογήσομαί σοι, ὅτι φοβερῶς ἐθαυμαστώθης· θαυμάσια τὰ ἔργα σου, καὶ ἡ ψυχή μου γινώσκει σφόδρα.",
+      en: "I will give Thee thanks, for Thou art wondrous and fearful; marvelous are Thy works, and my soul knoweth it right well.",
+    },
+    notes: `"awiliudo þus, unte andhausides mis" John 11:41`
+  }], info)}</span>
 </p>`
 
   article += html`<p class="annotation">
