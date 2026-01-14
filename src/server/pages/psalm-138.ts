@@ -120,7 +120,9 @@ and using "sildaleikniþ" could be understood as "to be be admired", a future ev
 or a desired thing not currently fullfilled, though the Greek Aorist is just giving this a
 perfectiveness and not talking about the past or the future.
 
-Unsure where the "too" in English translations in the first half are coming from.`
+I think the "too" in English translations are coming from looking at the Hebrew of the
+Masoretic texts, though the Septuagint does not have it. It is still added to the
+Septuagint translations though I guess because it fits with the second half of this verse.`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
