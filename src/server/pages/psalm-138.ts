@@ -84,7 +84,12 @@ ${toGothicLines([{
     notes:
 `σχοῖνόν seems to mean rush (camel hay) but apparently it can also mean "rush bed".
 As the Masoretic is "laying down", I've gone with bed. "bed" is also used in
-"Brenton's Septuagint Translation".`
+"Brenton's Septuagint Translation". It has figurative meaning,
+"A condition or situation in which a person chooses or is compelled to remain,
+esp. a difficult or unpleasant one resulting from his or her previous choices."
+("one has made one's bed and must lie in it"). The surrounding
+words are about your own choices too: path, ways, my tongue, downsitting, uprising, thoughts.
+Lot feels more like fate, as in it wasn't your own choice.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
@@ -154,7 +159,7 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ galiuhtida ïn botai meinai;",
+      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ galiuhtida ïn botos meinaizos;",
       grc: "καὶ εἶπα· ἄρα σκότος καταπατήσει με, καὶ νὺξ φωτισμὸς ἐν τῇ τρυφῇ μου·",
       en: "And I said, Surely the darkness shall cover me, and in my pleasure shall the night be turned to day.",
     },
@@ -171,10 +176,13 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte ...",
+      got: "Unte Þu gastaistalst lundi mein; Frauja, hleibides mis us wambai aiþeins meinaizos.",
       grc: "ὅτι σὺ ἐκτήσω τοὺς νεφρούς μου, Κύριε, ἀντελάβου μου ἐκ γαστρὸς μητρός μου.",
       en: "For Thou hast possessed my reins; Thou hast holpen me, O Lord, from my mother's womb.",
     },
+    notes: `νεφρούς means kidneys and figuratively "the inmost mind -- reins", using
+*lundi [n. Ja] from *lundiją (loin, kidney, fat) as it descended to
+mean "mindset, character" in Norse languages.`
   }], info)}</span>
 </p>`
 
