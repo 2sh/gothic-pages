@@ -121,8 +121,15 @@ or a desired thing not currently fullfilled, though the Greek Aorist is just giv
 perfectiveness and not talking about the past or the future.
 
 I think the "too" in English translations are coming from looking at the Hebrew of the
-Masoretic texts, though the Septuagint does not have it. It is still added to the
-Septuagint translations though I guess because it fits with the second half of this verse.`
+Masoretic texts, even though the Septuagint Greek does not have it. It is still added to the
+Septuagint translations though I guess because it fits with the second half of this verse
+and is added for familiarity to those coming from a Protestant background, it doesn't
+really change the meaning of the text adding them. I won't add them though as
+the Goths only had the Septuagint (You can tell by looking at the end of Nehemiah 5:14.
+Septuagint "hlaif fauramaþleis meinis"/"the bread of my governor" vs
+Masoretic "the food allotted to the governor", the Masoretic text missing "my",
+has "food" instead of "bread" and using "allotted to" which probably would have
+been translated differently than a genitive).`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
