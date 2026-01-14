@@ -193,6 +193,85 @@ mean "mindset, character" in Norse languages.`
     },
     notes: `"awiliudo þus, unte andhausides mis" John 11:41`
   }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
+      en: "My bones are not hid from Thee, which Thou hast made in secret; nor my substance in the lowest parts of the earth.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
+      en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all manking be written; daily shall they be fashioned, when as yet there be none of them.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἐμοὶ δὲ λίαν ἐτιμήθησαν οἱ φίλοι σου, ὁ Θεός, λίαν ἐκραταιώθησαν αἱ ἀρχαὶ αὐτῶν·",
+      en: "Exceeding honored also are Thy friends unto me, O God their rule is greatly strengthened.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἐξαριθμήσομαι αὐτούς, καὶ ὑπὲρ ἄμμον πληθυνθήσονται· ἐξηγέρθην καὶ ἔτι εἰμὶ μετὰ σοῦ.",
+      en: "I will tell them, and they shall be multiplied in number more than the sand; when I awake, I am still with Thee.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἐὰν ἀποκτείνῃς ἁμαρτωλούς, ὁ Θεός, ἄνδρες αἱμάτων, ἐκκλίνατε ἀπ᾿ ἐμοῦ,",
+      en: "Surely Thou wilt slay the sinners, O God! Depart from me, ye men of blood,",
+    },
+  }], info)}</span>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ὅτι ἐρισταί ἐστε εἰς διαλογισμούς· λήψονται εἰς ματαιότητα τὰς πόλεις σου.",
+      en: "for ye are contentious in your thoughts. They shall take Thy cities in vain.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "οὐχὶ τοὺς μισοῦντάς σε, Κύριε, ἐμίσησα καὶ ἐπὶ τοὺς ἐχθρούς σου ἐξετηκόμην;",
+      en: "Have not I hated them, O Lord, that hate Thee? and have I not pined away because of Thine enemies?",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "τέλειον μῖσος ἐμίσουν αὐτούς, εἰς ἐχθροὺς ἐγένοντό μοι.",
+      en: "I have hated them with a perfect hatred, and they are counted mine enemies.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "δοκίμασόν με, ὁ Θεός, καὶ γνῶθι τὴν καρδίαν μου, ἔτασόν με καὶ γνῶθι τὰς τρίβους μου.",
+      en: "Prove me, O Lord, and know my heart; try me, and know my ways.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "καὶ ἴδε εἰ ὁδὸς ἀνομίας ἐν ἐμοί, καὶ ὁδήγησόν με ἐν ὁδῷ αἰωνίᾳ.",
+      en: "And see if there be any way of iniquity in me, and lead me in the way everlasting.",
+    },
+  }], info)}</span>
 </p>`
 
   article += html`<p class="annotation">
