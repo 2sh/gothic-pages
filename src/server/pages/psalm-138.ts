@@ -123,7 +123,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Sildaleik ïst kunþi Þein mis; Ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
+      got: "Sildaleik ïst kunþi Þein mis; ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
     },
@@ -156,17 +156,16 @@ been translated differently than a genitive).`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai ussteigau ïn himin, Þū ïs þar; Jabai atsteigau ïn halja, atis;",
+      got: "Jabai ussteigau ïn himin, Þū ïs þar; jabai atsteigau ïn halja, atis;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
     },
     notes: `I think, "þar" if it's a specific known place,
 "jainar" if it's a bit more open like a place of a plural "in the uttermost parts of the sea".`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai nimau fiþrakans meinans at ūhtwon, jah bauau ïn andjam mareins,",
+      got: "jabai nimau fiþrakans meinans at ūhtwon, jah bauau ïn andjam mareins,",
       grc: "ἐὰν ἀναλάβοιμι τὰς πτέρυγάς μου κατ᾿ ὄρθρον καὶ κατασκηνώσω εἰς τὰ ἔσχατα τῆς θαλάσσης,",
       en: "If I take up my wings in the morning, and dwell in the uttermost parts of the sea,",
     },
@@ -194,10 +193,9 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
       en: "And I said, Surely the darkness shall cover me, and in my pleasure shall the night be turned to day.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte riqis ni wairþiþ riqis fram Þus, jah so nahts wairþiþ bairhts swe dags; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
+      got: "unte riqis ni wairþiþ riqis fram Þus, jah so nahts wairþiþ bairhts swe dags; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
       grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
       en: "For darkness will not be darkness with Thee, but night shall be bright as day; as is the darkness, even so shall be the light thereof.",
     },
@@ -217,7 +215,7 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Awiliudo þus, unte ogjands sildaleiknis; Sildaleikai sind waurstwans þeinai, jah saiwala meina wait abraba.",
+      got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans þeinai, jah saiwala meina wait abraba.",
       grc: "ἐξομολογήσομαί σοι, ὅτι φοβερῶς ἐθαυμαστώθης· θαυμάσια τὰ ἔργα σου, καὶ ἡ ψυχή μου γινώσκει σφόδρα.",
       en: "I will give Thee thanks, for Thou art wondrous and fearful; marvelous are Thy works, and my soul knoweth it right well.",
     },
@@ -226,7 +224,7 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoman meinana ïn undaristin airþos.",
+      got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoman meinana ïn undaristin airþos.",
       grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
       en: "My bones are not hid from Thee, which Thou hast made in secret; nor my substance in the lowest parts of the earth.",
     },
