@@ -97,7 +97,7 @@ even though Masoretic translations seem to favour "when".`
 "schoinon = “things made of rushes,” but also used to mean the Egyptian measurement of land."
 which is where English translation "lot" seems to come in.
 I've gone with "bed" though. The Masoretic has "laying down",
-"bed" is also used in "Brenton's Septuagint Translation",
+"bed" is also used in Brenton's translation,
 it has various figurative meanings relating to choices
 (where you put it, how you make it, what you think while lying in it, when you are in it,
 your physical and mental state while lying in it, vunerability, etc. and
@@ -226,10 +226,15 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoman meinana ïn undaristin airþos.",
       grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
       en: "My bones are not hid from Thee, which Thou hast made in secret; nor my substance in the lowest parts of the earth.",
     },
+    notes: `Greek 'bone' is singular.
+
+gawaurkjaima hleiþros þrins Luke 9:33
+
+in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for this verse`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
