@@ -237,10 +237,14 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Ungahabaiþ meinana witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda;",
       grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
-      en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all manking be written; daily shall they be fashioned, when as yet there be none of them.",
+      en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all mankind be written; daily shall they be fashioned, when as yet there be none of them.",
     },
+    notes:
+`ἀκατέργαστόν is from ἀ- and an aorist/adjective derivative of κατέχω, κατέχω translates in the Gothic NT to gahabān, so using ungahabān.
+
+"gameljanda" actual use of the present passive!`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
