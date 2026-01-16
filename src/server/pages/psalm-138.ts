@@ -237,7 +237,7 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Ungahabaiþ meinana witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni manna ïn ïm.",
+      got: "Ungahabaiþ meinana witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
       grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
       en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all mankind be written; daily shall they be fashioned, when as yet there be none of them.",
     },
@@ -245,7 +245,9 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
 `ἀκατέργαστόν is from ἀ- and an aorist/adjective derivative of κατέχω, κατέχω translates in the Gothic NT to gahabān, so using ungahabān.
 
 ἡμέρᾱς is probably an adverb here to mean "within a certain number of days; by day; sometime during a particular day"
-It could either be genitive singular or accusative plural, and genitive singular seems more likely here, so "by day"`
+It could either be genitive singular or accusative plural, and genitive singular seems more likely here, so "by day"
+
+I wonder if the last part is saying "even though no one is amongst them (yet)"`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
