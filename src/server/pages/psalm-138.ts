@@ -266,7 +266,7 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Jabai usqimais frawaurhtaim, Guþ, mannans bloþis, afwandeiþ af mis.",
       grc: "ἐὰν ἀποκτείνῃς ἁμαρτωλούς, ὁ Θεός, ἄνδρες αἱμάτων, ἐκκλίνατε ἀπ᾿ ἐμοῦ,",
       en: "Surely Thou wilt slay the sinners, O God! Depart from me, ye men of blood,",
     },
@@ -286,7 +286,6 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
       en: "Have not I hated them, O Lord, that hate Thee? and have I not pined away because of Thine enemies?",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
@@ -302,7 +301,6 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
       en: "Prove me, O Lord, and know my heart; try me, and know my ways.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
