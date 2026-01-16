@@ -79,8 +79,10 @@ body
 
 .psalm
 {
+  /* As the first verse number is usually skipped, I've defaulted
+  to start with verse number 2. This can be changed by setting
+  `style='--init-verse: <N>'` on the element with the psalm class. */
   counter-set: verse calc(var(--init-verse, 2) - 1)
-  /* set on element with psalm class with `style='--init-verse: 3'` */
 }
 
 @supports (initial-letter: 2)
