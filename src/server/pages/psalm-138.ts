@@ -252,7 +252,7 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Mis auk filu swerai sind frijonds Þeinai, Guþ, filu gaswinþida sind reikja ize.",
       grc: "ἐμοὶ δὲ λίαν ἐτιμήθησαν οἱ φίλοι σου, ὁ Θεός, λίαν ἐκραταιώθησαν αἱ ἀρχαὶ αὐτῶν·",
       en: "Exceeding honored also are Thy friends unto me, O God their rule is greatly strengthened.",
     },
