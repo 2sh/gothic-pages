@@ -224,7 +224,7 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoman meinana ïn undaristin airþos.",
+      got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoman meinana ïn undaristin airþos;",
       grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
       en: "My bones are not hid from Thee, which Thou hast made in secret; nor my substance in the lowest parts of the earth.",
     },
@@ -234,10 +234,9 @@ gawaurkjaima hleiþros þrins Luke 9:33
 
 in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for this verse`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Ungahabaiþ mein witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
+      got: "ungahabaiþ mein witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
       grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
       en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all mankind be written; daily shall they be fashioned, when as yet there be none of them.",
     },
@@ -252,12 +251,11 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Mis auk filu swerai sind frijonds Þeinai, Guþ, filu gaswinþida sind reikja ïze.",
+      got: "Mis auk filu swerai sind frijonds Þeinai, Guþ, filu gaswinþida sind reikja ïze;",
       grc: "ἐμοὶ δὲ λίαν ἐτιμήθησαν οἱ φίλοι σου, ὁ Θεός, λίαν ἐκραταιώθησαν αἱ ἀρχαὶ αὐτῶν·",
       en: "Exceeding honored also are Thy friends unto me, O God their rule is greatly strengthened.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
