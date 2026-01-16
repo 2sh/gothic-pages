@@ -273,7 +273,7 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte miþ waihjon sijuþ bi ",
+      got: "unte miþ waihjon sijuþ bi mitonins; nimand ïn uswissja baurgs Þeina.",
       grc: "ὅτι ἐρισταί ἐστε εἰς διαλογισμούς· λήψονται εἰς ματαιότητα τὰς πόλεις σου.",
       en: "for ye are contentious in your thoughts. They shall take Thy cities in vain.",
     },
