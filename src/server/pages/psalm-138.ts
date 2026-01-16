@@ -258,7 +258,7 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "garaþja ïns, jah ufar malman managnodedun; urraisiþs jah nauh ïm miþ Þus.",
       grc: "ἐξαριθμήσομαι αὐτούς, καὶ ὑπὲρ ἄμμον πληθυνθήσονται· ἐξηγέρθην καὶ ἔτι εἰμὶ μετὰ σοῦ.",
       en: "I will tell them, and they shall be multiplied in number more than the sand; when I awake, I am still with Thee.",
     },
