@@ -281,7 +281,7 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Niu þans fijandans þuk, Frauja, fijaida jah ïn fiande þeinaize gauriþs ïm?",
       grc: "οὐχὶ τοὺς μισοῦντάς σε, Κύριε, ἐμίσησα καὶ ἐπὶ τοὺς ἐχθρούς σου ἐξετηκόμην;",
       en: "Have not I hated them, O Lord, that hate Thee? and have I not pined away because of Thine enemies?",
     },
