@@ -281,29 +281,31 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Niu þans fijandans þuk, Frauja, fijaida jah ïn fiande þeinaize gauriþs ïm?",
+      got: "Niu þans fijandans þuk, Frauja, fijaida jah ïn fiande þeinaize gauriþs?",
       grc: "οὐχὶ τοὺς μισοῦντάς σε, Κύριε, ἐμίσησα καὶ ἐπὶ τοὺς ἐχθρούς σου ἐξετηκόμην;",
       en: "Have not I hated them, O Lord, that hate Thee? and have I not pined away because of Thine enemies?",
     },
+    notes: `gauriþs isn't quite the same as pine away, but it's the closest I could find`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Fullai fijaþwai fija ïns, fijands waurþun mis.",
       grc: "τέλειον μῖσος ἐμίσουν αὐτούς, εἰς ἐχθροὺς ἐγένοντό μοι.",
       en: "I have hated them with a perfect hatred, and they are counted mine enemies.",
     },
+    notes: `Need to figure out how imperfect renders to Gothic`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Gakius mik, Guþ, kunneis hairto mein, ussokei mik jah kunneis staigos meinos.",
       grc: "δοκίμασόν με, ὁ Θεός, καὶ γνῶθι τὴν καρδίαν μου, ἔτασόν με καὶ γνῶθι τὰς τρίβους μου.",
       en: "Prove me, O Lord, and know my heart; try me, and know my ways.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "jah saiƕ, jau wigs ungaraihteins ïn mis, jah tiuh mik ïn wiga aiweinamma.",
       grc: "καὶ ἴδε εἰ ὁδὸς ἀνομίας ἐν ἐμοί, καὶ ὁδήγησόν με ἐν ὁδῷ αἰωνίᾳ.",
       en: "And see if there be any way of iniquity in me, and lead me in the way everlasting.",
     },
