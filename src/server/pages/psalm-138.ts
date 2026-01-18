@@ -265,7 +265,7 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai usqimais frawaurhtaim, Guþ, mannans bloþis, afwandeiþ af mis.",
+      got: "Jabai usqimais frawaurhtaim, Guþ, mannans bloþis, afwandeiþ af mis,",
       grc: "ἐὰν ἀποκτείνῃς ἁμαρτωλούς, ὁ Θεός, ἄνδρες αἱμάτων, ἐκκλίνατε ἀπ᾿ ἐμοῦ,",
       en: "Surely Thou wilt slay the sinners, O God! Depart from me, ye men of blood,",
     },
