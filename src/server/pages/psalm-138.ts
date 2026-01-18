@@ -188,7 +188,7 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ galiuhtida ïn botos meinaizos;",
+      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ liuhaþ ïn botos meinaizos;",
       grc: "καὶ εἶπα· ἄρα σκότος καταπατήσει με, καὶ νὺξ φωτισμὸς ἐν τῇ τρυφῇ μου·",
       en: "And I said, Surely the darkness shall cover me, and in my pleasure shall the night be turned to day.",
     },
