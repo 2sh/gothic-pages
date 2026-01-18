@@ -304,7 +304,7 @@ I wonder if the last part is saying "even though no one is amongst them (yet)"`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "jah saiƕ, jau wigs ungaraihteins ïn mis, jah tiuh mik ïn wiga aiweinamma.",
+      got: "Jah saiƕ, jau wigs ungaraihteins ïn mis, jah tiuh mik ïn wiga aiweinamma.",
       grc: "καὶ ἴδε εἰ ὁδὸς ἀνομίας ἐν ἐμοί, καὶ ὁδήγησόν με ἐν ὁδῷ αἰωνίᾳ.",
       en: "And see if there be any way of iniquity in me, and lead me in the way everlasting.",
     },
