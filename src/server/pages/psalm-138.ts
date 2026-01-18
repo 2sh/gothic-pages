@@ -74,7 +74,6 @@ ${toGothicLines([{
       en: "O Lord, Thou hast proved me, and Thou knowest me.",
     },
   }], info)}
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Þū kant ƕaiwa gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
