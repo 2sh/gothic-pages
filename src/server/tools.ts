@@ -79,7 +79,7 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
 
   return html`<span id="L${global.lineId}" class="i-line"
 data-line='${attrLineInfo}'
->${safeHtmlText(text)}</span>`
+>${safeHtmlText(text)}</span> `
 }
 
 export function toGothicLines(data: GothicLineData[], pageInfo: PageInfo)
