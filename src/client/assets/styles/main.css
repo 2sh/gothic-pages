@@ -336,7 +336,7 @@ a
 }
 
 
-h1,h2,h3,h4,h5,.subtitle,.verse
+h1,h2,h3,h4,h5,.subtitle,.verse .i-line
 {
   white-space: pre-wrap;
   text-wrap-style: balance;
