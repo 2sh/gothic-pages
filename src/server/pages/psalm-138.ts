@@ -245,7 +245,7 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
 ἡμέρᾱς is probably an adverb here to mean "within a certain number of days; by day; sometime during a particular day"
 It could either be genitive singular or accusative plural, and genitive singular seems more likely here, so "by day"
 
-I wonder if the last part is saying "even though no one is amongst them (yet)"`
+Another translation for the last part by Brenton "they shall be formed by day, though there should for a time be no one among them."`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
