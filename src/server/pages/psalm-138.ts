@@ -194,7 +194,7 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte riqis ni wairþiþ riqis fram Þus, jah so nahts wairþiþ bairhts swe dags; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
+      got: "unte riqis ni wairþiþ riqis fram Þus, jah nahts wairþiþ bairhts swe dags; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
       grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
       en: "For darkness will not be darkness with Thee, but night shall be bright as day; as is the darkness, even so shall be the light thereof.",
     },
@@ -214,7 +214,7 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans þeinai, jah saiwala meina wait abraba.",
+      got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans Þeinai, jah saiwala meina wait abraba.",
       grc: "ἐξομολογήσομαί σοι, ὅτι φοβερῶς ἐθαυμαστώθης· θαυμάσια τὰ ἔργα σου, καὶ ἡ ψυχή μου γινώσκει σφόδρα.",
       en: "I will give Thee thanks, for Thou art wondrous and fearful; marvelous are Thy works, and my soul knoweth it right well.",
     },
@@ -223,7 +223,7 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoman meinana ïn undaristin airþos;",
+      got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoma meins ïn undaristin airþos;",
       grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
       en: "My bones are not hid from Thee, which Thou hast made in secret; nor my substance in the lowest parts of the earth.",
     },
@@ -235,7 +235,7 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "ungahabaiþ mein witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
+      got: "ungahabaiþs meins witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
       grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
       en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all mankind be written; daily shall they be fashioned, when as yet there be none of them.",
     },
