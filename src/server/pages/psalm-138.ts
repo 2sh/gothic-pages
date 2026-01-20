@@ -76,13 +76,12 @@ ${toGothicLines([{
   }], info)}
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Þū kant ƕaiwa gasita jah urreisa, Þū frost mitonim meinaim fairraþro.",
+      got: "Þū kant gasiss meina jah usstass meina, Þū frost mitonim meinaim fairraþro.",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",
       en: "Thou knowest my downsitting, and mine uprising, Thou hast understood my thoughts from afar.",
     },
-    notes: `I'm between using ƕaiwa and biþe. The original is more vague and
-could be either of these, though I've gone with "how" now as it can include "when",
-even though Masoretic translations seem to favour "when".`
+    notes: `*gasiss, taking gasitan + þs which though there's no attestation of it
+being stuck after a t, it's observed to be -ss "after dentals".`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
