@@ -235,7 +235,7 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "ungahabaiþs meins witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
+      got: "ungahabaiþana meinana witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
       grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
       en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all mankind be written; daily shall they be fashioned, when as yet there be none of them.",
     },
