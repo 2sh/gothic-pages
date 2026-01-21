@@ -115,8 +115,8 @@ const darkModeButton = html`<button lang='en' title='Switch between dark and lig
 
 
 const altButtons: {[lang: string]: (href: string) => string} = {
-  'got-Goth': (href) => html`<a lang='en' title='Switch to Latin script' href='${safeHtmlAttribute(href)}'>L</a>`,
-  'got-Latn': (href) => html`<a lang='en' title='Switch to Gothic script' href='${safeHtmlAttribute(href)}'>𐌲</a>`,
+  'got-Latn': (href) => html`<a lang='en' title='Switch to Latin script' href='${safeHtmlAttribute(href)}'>L</a>`,
+  'got-Goth': (href) => html`<a lang='en' title='Switch to Gothic script' href='${safeHtmlAttribute(href)}'>𐌲</a>`,
 }
 
 export function createArticleBody(info: PageInfoMain, content: string)
