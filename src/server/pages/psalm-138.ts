@@ -117,6 +117,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
       grc: "ἰδού, Κύριε, σὺ ἔγνως πάντα, τὰ ἔσχατα καὶ τὰ ἀρχαῖα· σὺ ἔπλασάς με καὶ ἔθηκας ἐπ᾿ ἐμὲ τὴν χεῖρά σου.",
       en: "Behold, O Lord, Thou knowest all things, the last and the first; Thou hast fashioned, and laid Thine hand upon me.",
     },
+    notes: `handu þeina ana ija Matthew 9:18`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
@@ -146,7 +147,7 @@ been translated differently than a genitive).`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Ƕaþ gaggau af Ahmin Þeinamma jah af andwairþja Þeinamma ƕaþ þliuhau?",
+      got: "Ƕaþ gaggau af Ahmin Þeinamma jah af andwairþja Þeinamma ƕaþ gaþliuhau?",
       grc: "ποῦ πορευθῶ ἀπὸ τοῦ πνεύματός σου καὶ ἀπὸ τοῦ προσώπου σου ποῦ φύγω;",
       en: "Whither shall I go from Thy Spirit? And whither shall I flee from Thy presence?",
     },
@@ -193,7 +194,7 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte riqis ni wairþiþ riqis fram Þus, jah nahts wairþiþ bairhts swe dags; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
+      got: "unte riqis ni wairþiþ riqis fram Þus, jah nahts swe dags wairþiþ bairhts; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
       grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
       en: "For darkness will not be darkness with Thee, but night shall be bright as day; as is the darkness, even so shall be the light thereof.",
     },
@@ -213,7 +214,7 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans Þeinai, jah saiwala meina wait abraba.",
+      got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans Þeinai, jah saiwala meina wait waila.",
       grc: "ἐξομολογήσομαί σοι, ὅτι φοβερῶς ἐθαυμαστώθης· θαυμάσια τὰ ἔργα σου, καὶ ἡ ψυχή μου γινώσκει σφόδρα.",
       en: "I will give Thee thanks, for Thou art wondrous and fearful; marvelous are Thy works, and my soul knoweth it right well.",
     },
@@ -226,7 +227,9 @@ mean "mindset, character" in Norse languages.`
       grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
       en: "My bones are not hid from Thee, which Thou hast made in secret; nor my substance in the lowest parts of the earth.",
     },
-    notes: `Greek 'bone' is singular.
+    notes: `"gafulgin ist" Luke 19:42
+
+Greek 'bone' is singular.
 
 gawaurkjaima hleiþros þrins Luke 9:33
 
@@ -264,7 +267,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai usqimais frawaurhtaim, Guþ, mannans bloþis, afwandeiþ af mis,",
+      got: "Wainei usqimais frawaurhtaim, Guþ, mannans bloþis, afwandeiþ af mis,",
       grc: "ἐὰν ἀποκτείνῃς ἁμαρτωλούς, ὁ Θεός, ἄνδρες αἱμάτων, ἐκκλίνατε ἀπ᾿ ἐμοῦ,",
       en: "Surely Thou wilt slay the sinners, O God! Depart from me, ye men of blood,",
     },
@@ -296,7 +299,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Gakius mik, Guþ, kunneis hairto mein, ussokei mik jah kunneis staigos meinos.",
+      got: "Gakius mik, Guþ, gakunnai hairto mein, ussokei mik jah gakunnai staigos meinos.",
       grc: "δοκίμασόν με, ὁ Θεός, καὶ γνῶθι τὴν καρδίαν μου, ἔτασόν με καὶ γνῶθι τὰς τρίβους μου.",
       en: "Prove me, O Lord, and know my heart; try me, and know my ways.",
     },
