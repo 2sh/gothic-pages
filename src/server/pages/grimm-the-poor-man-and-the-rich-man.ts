@@ -261,7 +261,7 @@ Another possible suffix: [url=https://en.wiktionary.org/wiki/Reconstruction:Goth
     },
     {
       text: {
-        got: `jah baþ þana ƕarbondan ei ïnniddjedi.`,
+        got: `jah baþ þana ƕarbondan ei ïnnïddjedi.`,
         de: `und bat den Wandersmann einzutreten.`,
         en: `and bade the traveler come in.`
       },
@@ -289,7 +289,7 @@ Perhaps 𐌽𐌹𐌱𐌰𐌹 can be used here?
     },
     {
       text: {
-        got: `Þatei leikaida þamma Guda liubamma, jah ïnniddja du ïmma.`,
+        got: `Þatei leikaida þamma Guda liubamma, jah ïnnïddja du ïmma.`,
         de: `Das gefiel dem lieben Gott, und er trat zu ihm ein.`,
         en: `This pleased the Lord, and he went in.`
       },

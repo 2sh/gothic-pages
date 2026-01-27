@@ -245,7 +245,7 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
     },
     {
       text: {
-        got: 'jah þairhiddja uf daur!',
+        got: 'jah þairhïddja uf daur!',
         en: `and squeezed under the gate!`,
       }
     },

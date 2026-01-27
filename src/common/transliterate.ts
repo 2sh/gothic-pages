@@ -215,7 +215,7 @@ export function toLatin(text: string, config?: ToLatinConfig)
   out = applyMapping(out, gothicLatin)
   if (conf.capitalize)
     out = out.replace(
-      /(?<=(?:^\s*|[\.:;·∴]\s+|\r?\n\s*\r?\n)["'‘‚“”„«»‹›\(\[\{⟨⟪<>]?)(.)/g,
+      /(?<=(?:^\s*|[\.:·∴]\s+|\r?\n\s*\r?\n)["'‘‚“”„«»‹›\(\[\{⟨⟪<>]?)(.)/,
       (_, l) => l.toUpperCase())
   out = out.normalize("NFKC")
   return out

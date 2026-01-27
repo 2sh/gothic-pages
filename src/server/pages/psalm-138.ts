@@ -155,7 +155,7 @@ been translated differently than a genitive).`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai ussteigau ïn himin, Þū ïs þar; jabai atsteigau ïn halja, atis;",
+      got: "Jabai ussteigau ïn himin, Þū ïs þar; jabai atsteigau ïn halja, atïs;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
     },
