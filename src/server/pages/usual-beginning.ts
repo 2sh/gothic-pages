@@ -79,9 +79,9 @@ ${speakerPriest(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Þiuþida Guþ unsarana sinteino.',
-        grc: "Εὐλογητὸς ὁ Θεὸς ἡμῶν πάντοτε.",
-        en: "Blessed is our God always.",
+        got: 'Þiuþida Guþ unsarana sinteino,',
+        grc: "Εὐλογητὸς ὁ Θεὸς ἡμῶν πάντοτε,",
+        en: "Blessed is our God always,",
       },
       notes: "2 Corinthians 4:10 𐍃𐌹𐌽𐍄𐌴𐌹𐌽𐍉"
     },
