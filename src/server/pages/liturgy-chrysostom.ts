@@ -591,7 +591,7 @@ ${letUsPrayToTheLord(info)}
 ${speakerChoir(info)}
 ${toGothicLines([{
   text: {
-    got: 'Þus, Frauja',
+    got: 'Þus, Frauja.',
     grc: "Σοί, Κύριε.",
     en: "To You, O Lord.",
   }
