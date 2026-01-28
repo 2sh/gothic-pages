@@ -18,6 +18,7 @@ import
   speakerChoir,
   speakerDeacon,
   speakerPriest,
+  toTrinity,
 } from '@server/lines'
 import { fromLatin } from '@common/transliterate'
 
@@ -596,6 +597,31 @@ ${toGothicLines([{
     en: "To You, O Lord.",
   }
 }], info)}
+</p>`
+
+  article += html`<p>
+${speakerDeacon(info)}
+${toGothicLines([
+    {
+      text: {
+        got: 'Unte gadob ist Þus all wulþus, sweriþa jah ïnweit,',
+        grc: "Ὅτι πρέπει σοι πᾶσα δόξα, τιμὴ καὶ προσκύνησις,",
+        en: "For to You belong all glory, honor, and worship",
+      },
+      notes: `gadob ist weihaim Ephesians 5:3
+
+*ïnweit from ïnweitan, looking at fraweit and idweit.`
+    },
+  ], info)}
+<br>
+${toTrinity(info)}
+<br>
+${nowAndEver(info)}
+</p>`
+
+  article += html`<p>
+${speakerChoir(info)}
+${amen(info)}
 </p>`
 
   article = html`<div class="speech">${article}</div>`
