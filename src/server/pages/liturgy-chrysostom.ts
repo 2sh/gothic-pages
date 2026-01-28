@@ -265,7 +265,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Faur <[TODO]>,',
+        got: 'Faur (griþs auhumistis gudjins) unsarana (namo),',
         grc: "Ὑπὲρ τοῦ (ἀρχιερατικοῦ βαθμοῦ) ἡμῶν (τοῦ δεῖνος),",
         en: "For (episcopal rank) (name),",
       }
