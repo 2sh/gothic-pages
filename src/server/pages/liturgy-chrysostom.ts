@@ -604,7 +604,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Unte gadob ist Þus all wulþus, sweriþa jah ïnweit,',
+        got: 'Unte gadob ïst Þus all wulþus, sweriþa jah ïnweit,',
         grc: "Ὅτι πρέπει σοι πᾶσα δόξα, τιμὴ καὶ προσκύνησις,",
         en: "For to You belong all glory, honor, and worship",
       },
