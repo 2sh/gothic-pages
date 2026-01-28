@@ -433,7 +433,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'Faur farjandans, farandans,',
         grc: "Ὑπὲρ πλεόντων, ὁδοιπορούντων,",
         en: "For those who travel by land, sea, and air,",
       }
@@ -443,7 +443,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'siukandans, afmauidans, gafāhandans',
         grc: "νοσούντων, καμνόντων, αἰχμαλώτων",
         en: "for the sick, the suffering, the captives",
       }
@@ -453,7 +453,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'jah nasein ize,',
         grc: "καὶ τῆς σωτηρίας αὐτῶν,",
         en: "and for their salvation,",
       }
