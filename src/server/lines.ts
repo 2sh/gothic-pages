@@ -12,7 +12,7 @@ export const amen: ReuseLines = pi => toGothicLines([{
 
 export const nowAndEver: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'jah nū jah aiw, jah ïn aiwins aiwe.',
+    got: 'nū jah aiw, jah ïn aiwins aiwe.',
     grc: "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
     en: "now and ever and to the ages of ages.",
   },
@@ -20,6 +20,15 @@ export const nowAndEver: ReuseLines = pi => toGothicLines([{
     `Combining “𐌹̈𐌽 𐌰𐌹𐍅𐌹𐌽𐍃” Matthew 6:13 and “𐌹̈𐌽 𐌰𐌻𐌳𐌹𐌽𐍃 𐌰𐌹𐍅𐌴” 1 Timothy 1:17.
 Not using purely the line from 1 Timothy 1:17 as it mixes up
 from generation to generation and unto ages of ages.`
+}], pi)
+
+export const bothNowAndEver: ReuseLines = pi => toGothicLines([{
+  text: {
+    got: 'Jah nū jah aiw, jah ïn aiwins aiwe.',
+    grc: "καὶ νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+    en: "both now and ever and to the ages of ages.",
+  },
+  notes: `The 'both' version.`
 }], pi)
 
 export const ofTrinity: ReuseLines = pi => toGothicLines([{
@@ -111,9 +120,9 @@ ${toGothicLines([{
     en: "Glory",
   }
 }], pi)}
-${toTrinity(pi)}
+${toTrinity(pi)}.
 <br>
-${nowAndEver(pi)}
+${bothNowAndEver(pi)}
 <br>
 ${amen(pi)}`
 
