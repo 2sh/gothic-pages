@@ -73,6 +73,14 @@ during liturgy, -𐌾𐌰𐌽 ending can be chanted similarly to -μεν
 so sticking 𐍆𐍂𐌰𐌿𐌾𐌰𐌽 at end`
 }], pi)
 
+export const letUsPrayToTheLordCap: ReuseLines = pi => toGothicLines([{
+  text: {
+    got: 'Bidjaima Fraujan.',
+    grc: "Τοῦ Κυρίου δεηθῶμεν.",
+    en: "Let us pray to the Lord.",
+  },
+}], pi)
+
 export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Frauja, armai.',
