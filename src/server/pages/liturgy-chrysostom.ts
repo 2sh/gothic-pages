@@ -391,7 +391,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Faur goþ wiþr,',
+        got: 'Faur wiþr goþ,',
         grc: "Ὑπὲρ εὐκρασίας ἀέρων,",
         en: "For favorable weather,",
       },
@@ -402,7 +402,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'fraiwiþa akrane airþos,',
         grc: "εὐφορίας τῶν καρπῶν τῆς γῆς,",
         en: "for an abundance of the fruits of the earth,",
       }
@@ -412,7 +412,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'jah mela gawairþeiga,',
         grc: "καὶ καιρῶν εἰρηνικῶν,",
         en: "and for peaceful times,",
       }
