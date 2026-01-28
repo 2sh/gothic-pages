@@ -275,7 +275,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'gariuda praizbwtaireinz,',
+        got: 'gariuda praizbwtairein,',
         grc: "τοῦ τιμίου πρεσβυτερίου",
         en: "for the honorable presbyterate,",
       }
