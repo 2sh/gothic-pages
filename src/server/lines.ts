@@ -115,12 +115,11 @@ export const timesTwelve: ReuseLines = pi => `<span class="notice">${toGothicLin
 export const gloryToTrinity: ReuseLines = pi => `
 ${toGothicLines([{
   text: {
-    got: 'Wulþus',
-    grc: "Δόξα",
-    en: "Glory",
+    got: 'Wulþus Attin, jah Sunau, jah Ahmin Weihamma.',
+    grc: "Δόξα Πατρὶ καί Υιώ καί Αγίω Πνεύματι.",
+    en: "Glory to the father, and to the son, and to the holy spirit.",
   }
 }], pi)}
-${toTrinity(pi)}.
 <br>
 ${bothNowAndEver(pi)}
 <br>
