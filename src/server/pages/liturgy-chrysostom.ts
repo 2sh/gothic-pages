@@ -285,7 +285,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'andbahti ïn Xristau',
+        got: 'andbahti ïn Xristau,',
         grc: "τῆς ἐν Χριστῷ διακονίας",
         en: "for the diaconate in Christ",
       }
@@ -295,7 +295,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'alla kleruns jah manageins',
+        got: 'alla kleruns jah manageins,',
         grc: "παντὸς τοῦ κλήρου καὶ τοῦ λαοῦ",
         en: "and for all the clergy and the people",
       },
