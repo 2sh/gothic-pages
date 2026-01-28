@@ -317,9 +317,9 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'Faur þiuda gaguda unsara,',
         grc: "Ὑπὲρ τοῦ εὐσεβοῦς ἡμῶν ἔθνους,",
-        en: "For our country, for the president,",
+        en: "For our pious people,",
       }
     },
   ], info)}
@@ -327,9 +327,9 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'all reiki jah waldufni ïn þizai,',
         grc: "πάσης ἀρχῆς καὶ ἐξουσίας ἐν αὐτῷ,",
-        en: "and for all in public service,",
+        en: "and all the sovereignty and authority in him,",
       }
     },
   ], info)}
@@ -359,10 +359,11 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'all baurge jah all lande,',
+        got: 'all baurge, lande,',
         grc: "πάσης πόλεως, χώρας",
         en: "and for every city and land,",
-      }
+      },
+      notes: `Every (thing) becomes all (word in plural genitive)`
     },
   ], info)}
 <br>
@@ -373,7 +374,6 @@ ${toGothicLines([
         grc: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
         en: "and for the faithful who live in them,",
       },
-      notes: `this probably needs correcting/improving`
     },
   ], info)}
 <br>
@@ -395,9 +395,7 @@ ${toGothicLines([
         grc: "Ὑπὲρ εὐκρασίας ἀέρων,",
         en: "For favorable weather,",
       },
-      notes: `*𐍅𐌹𐌸𐍂
-
-need to find something better than 𐌲𐍉𐌸.`
+      notes: `*wiþr`
     },
   ], info)}
 <br>
