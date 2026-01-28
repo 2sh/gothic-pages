@@ -478,7 +478,6 @@ ${toGothicLines([
         grc: "Ὑπὲρ τοῦ ῥυσθῆναι ἡμᾶς",
         en: "For our deliverance",
       },
-      notes: ``
     },
   ], info)}
 <br>
@@ -532,27 +531,33 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'Allweihaizos unwammaizos, þiuþidaizos, wulþagaizos',
         grc: "Τῆς Παναγίας ἀχράντου, ὑπερευλογημένης, ἐνδόξου Δεσποίνης",
         en: "Commemorating our most holy, pure, blessed, and glorious Lady,",
-      }
+      },
+      notes: `gamunan goes with gentive too.
+
+Went with unwammaizos for ἀχράντου as the Greek is literally un-stained,
+and unwamms is equal to vulgate immaculate multiple times in the NT.`
     },
   ], info)}
 <br>
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'unsaraizos Gudabairandeins jah aiwamagaþaizos Mariïns,',
         grc: "ἡμῶν Θεοτόκου καὶ ἀειπαρθένου Μαρίας",
         en: "the Theotokos and ever-virgin Mary,",
-      }
+      },
+      notes:
+`Looking at the name *aiwareiks (Euric) to create aiwamagaþs for ever-virgin.`
     },
   ], info)}
 <br>
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'miþ weihaim weihaim gamunandans,',
         grc: "μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες,",
         en: "with all the saints,",
       }
@@ -562,17 +567,18 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'uns silbans jah uns misso',
         grc: "ἑαυτοὺς καὶ ἀλλήλους",
         en: "let us commend ourselves and one another",
-      }
+      },
+      notes: `uns misso Romans 14:13`
     },
   ], info)}
 <br>
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'jah alla libain unsara Xristau Guda faurlagjaima.',
         grc: "καὶ πᾶσαν τὴν ζωὴν ἡμῶν Χριστῷ τῷ Θεῷ παραθώμεθα.",
         en: "and our whole life to Christ our God.",
       }
