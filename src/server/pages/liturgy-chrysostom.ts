@@ -18,7 +18,6 @@ import
   speakerChoir,
   speakerDeacon,
   speakerPriest,
-  toYouOLord
 } from '@server/lines'
 import { fromLatin } from '@common/transliterate'
 
@@ -590,7 +589,13 @@ ${letUsPrayToTheLord(info)}
 
   article += html`<p>
 ${speakerChoir(info)}
-${toYouOLord(info)}
+${toGothicLines([{
+  text: {
+    got: 'Þus, Frauja',
+    grc: "Σοί, Κύριε.",
+    en: "To You, O Lord.",
+  }
+}], info)}
 </p>`
 
   article = html`<div class="speech">${article}</div>`

@@ -73,14 +73,6 @@ export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
   notes: `Unsure if 𐌰𐍂𐌼𐌴𐌹 can be said without 𐌿𐌽𐍃𐌹𐍃, though don’t see why not`
 }], pi)
 
-export const toYouOLord: ReuseLines = pi => toGothicLines([{
-  text: {
-    got: '<[TODO]>',
-    grc: "Σοί, Κύριε.",
-    en: "To You, O Lord.",
-  }
-}], pi)
-
 export const trisagion: ReuseLines = pi => toGothicLines([{
   text: {
     got: 'Weihs Guþ, Weihs Mahteigs, Weihs Undiwans, armai unsis.',
