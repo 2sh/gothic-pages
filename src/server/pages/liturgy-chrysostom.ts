@@ -506,10 +506,15 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'Hleibei, nasei, armai jah gafastai unsis,',
         grc: "Ἀντιλαβοῦ, σῶσον, ἐλέησον καὶ διαφύλαξον ἡμᾶς",
         en: "Help us, save us, have mercy on us, and protect us,",
-      }
+      },
+      notes: `hleibida Israela (dative) Luke 1:54
+
+nasei unsis Matthew 8:25
+
+Luke 4:10 gafastan is with accusative but unsis can be accusative too.`,
     },
   ], info)}
 <br>
