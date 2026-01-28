@@ -70,7 +70,7 @@ export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
     grc: "Κύριε, ἐλέησον.",
     en: "Lord, have mercy.",
   },
-  notes: `Unsure if 𐌰𐍂𐌼𐌴𐌹 can be said without 𐌿𐌽𐍃𐌹𐍃, though don’t see why not`
+  notes: `Unsure if armai can be said without unsis, though don’t see why not`
 }], pi)
 
 export const trisagion: ReuseLines = pi => toGothicLines([{
