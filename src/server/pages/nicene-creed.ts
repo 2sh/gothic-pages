@@ -492,11 +492,11 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean “of the ones dead”`,
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Galaubeins Nikaias-Konstanteinupauleins /",
-      en: "Niceno-Constantinopolitan Creed /" },
+    text: { got: "Taikns Galaubeinais /", en: "Symbol of Faith /" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Galaubeins Nikaias", en: "Symbol of Faith" },
+    text: { got: "Galaubeins Nikaias-Konstanteinupauleins",
+      en: "Niceno-Constantinopolitan Creed" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
