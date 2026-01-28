@@ -322,6 +322,17 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
     },
   ], info)}</span></p>`
 
+  article += html`<p>clergy: <span lang='got'>${toGothicLines([
+    {
+      text: {
+        got: 'klerus',
+        grc: "κλῆρος",
+        en: "clergy",
+      },
+      notes: `Taken from Greek`
+    },
+  ], info)}</span></p>`
+
   article += html`<p>idol: <span lang='got'>${toGothicLines([
     {
       text: {

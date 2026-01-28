@@ -295,10 +295,11 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'alla kleruns jah manageins',
         grc: "παντὸς τοῦ κλήρου καὶ τοῦ λαοῦ",
         en: "and for all the clergy and the people",
-      }
+      },
+      notes: `Taking Greek κλῆρος to mean clergy.`
     },
   ], info)}
 <br>
