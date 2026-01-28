@@ -453,7 +453,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'jah nasein ize,',
+        got: 'jah nasein ïze,',
         grc: "καὶ τῆς σωτηρίας αὐτῶν,",
         en: "and for their salvation,",
       }
