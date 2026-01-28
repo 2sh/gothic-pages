@@ -474,17 +474,18 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'Faur uslausein unsara',
         grc: "Ὑπὲρ τοῦ ῥυσθῆναι ἡμᾶς",
         en: "For our deliverance",
-      }
+      },
+      notes: ``
     },
   ], info)}
 <br>
 ${toGothicLines([
     {
       text: {
-        got: '<[TODO]>',
+        got: 'af all aglon, moda, sleiþein jah þaurft,',
         grc: "ἀπὸ πάσης θλίψεως, ὀργῆς, κινδύνου καὶ ἀνάγκης,",
         en: "from all affliction, wrath, danger, and necessity,",
       }
