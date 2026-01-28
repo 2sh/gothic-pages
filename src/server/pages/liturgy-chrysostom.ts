@@ -557,7 +557,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'miþ weihaim weihaim gamunandans,',
+        got: 'miþ allaim weihaim gamunandans,',
         grc: "μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες,",
         en: "with all the saints,",
       }
