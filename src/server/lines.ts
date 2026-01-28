@@ -59,7 +59,7 @@ export const toTrinity: ReuseLines = pi => toGothicLines([{
 
 export const letUsPrayToTheLord: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'bidjaima Fraujan.',
+    got: 'Fraujan bidjaima.',
     grc: "τοῦ Κυρίου δεηθῶμεν.",
     en: "let us pray to the Lord.",
   },
@@ -71,14 +71,6 @@ beseech/pray = 𐌱𐌹𐌳𐌾𐌹𐌸 Luke 10:2;
 
 during liturgy, -𐌾𐌰𐌽 ending can be chanted similarly to -μεν
 so sticking 𐍆𐍂𐌰𐌿𐌾𐌰𐌽 at end`
-}], pi)
-
-export const letUsPrayToTheLordCap: ReuseLines = pi => toGothicLines([{
-  text: {
-    got: 'Bidjaima Fraujan.',
-    grc: "Τοῦ Κυρίου δεηθῶμεν.",
-    en: "Let us pray to the Lord.",
-  },
 }], pi)
 
 export const lordHaveMercy: ReuseLines = pi => toGothicLines([{

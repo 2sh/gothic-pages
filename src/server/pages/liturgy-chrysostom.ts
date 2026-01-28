@@ -12,7 +12,6 @@ import
 {
   amen,
   letUsPrayToTheLord,
-  letUsPrayToTheLordCap,
   lordHaveMercy,
   nowAndEver,
   ofTrinity,
@@ -586,7 +585,7 @@ ${toGothicLines([
     },
   ], info)}
 <br>
-${letUsPrayToTheLordCap(info)}
+${letUsPrayToTheLord(info)}
 </p>`
 
   article += html`<p>
