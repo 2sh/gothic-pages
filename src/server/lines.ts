@@ -33,9 +33,9 @@ export const bothNowAndEver: ReuseLines = pi => toGothicLines([{
 
 export const ofTrinity: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'Attins, jah Sunaus, jah Ahmins Weihis',
-    grc: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος",
-    en: "of the Father and of the Son and of the Holy Spirit",
+    got: 'Attins, jah Sunaus, jah Ahmins Weihis,',
+    grc: "τοῦ Πατρὸς καὶ τοῦ Υἱοῦ καὶ τοῦ Ἁγίου Πνεύματος,",
+    en: "of the Father and of the Son and of the Holy Spirit,",
   },
   notes: `Skeireins 5:2 attins jah sunaus`
 }], pi)
