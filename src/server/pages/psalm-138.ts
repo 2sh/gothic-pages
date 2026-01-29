@@ -48,7 +48,7 @@ const generator: PageGenerator = info =>
       en: "Psalm 138",
     },
   },], info)}</h1>
-  <div class="intro">${toGothicLines([{
+  <div class="intro"><span class='verse'>${toGothicLines([{
     text: {
       got: "Und andi, psalmo Daweida.",
       grc: "Εἰς τὸ τέλος· ψαλμὸς τῷ Δαυΐδ.",
@@ -63,17 +63,17 @@ A lot of Septuagint translations include
 "A psalm of Zacharias in the Diaspora/Dispersion" though I'm not sure where
 this is coming from. It's not in any Septuagint manuscript I've found so far.
 Some even leave out the "A psalm to/of David" entirely.`
-  }], info)}</div>
+  }], info)}</span></div>
 </header>`
 
   article += html`<p class='psalm'>
-${toGothicLines([{
+<span class='verse'>${toGothicLines([{
     text: {
       got: "Frauja, gakaust mik, jah kant mik;",
       grc: "Κύριε, ἐδοκίμασάς με, καὶ ἔγνως με·",
       en: "O Lord, Thou hast proved me, and Thou knowest me.",
     },
-  }], info)}
+  }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Þū kant gasiss meina jah usstass meina, Þū frost mitonim meinaim fairraþro.",

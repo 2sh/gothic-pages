@@ -79,26 +79,27 @@ body
 
 .psalm
 {
-  /* As the first verse number is usually skipped, I've defaulted
-  to start with verse number 2. This can be changed by setting
-  `style='--init-verse: <N>'` on the element with the psalm class. */
-  counter-set: verse calc(var(--init-verse, 2) - 1)
+  text-indent: 0;
 }
 
 @supports (initial-letter: 2)
 {
-  .psalm
-  {
-    text-indent: 0;
-  }
-
   .psalm::first-letter
   {
     initial-letter: 2;
     margin-right: 4px;
   }
-}
 
+  .psalm .verse:first-of-type
+  {
+    margin-left: 0;
+  }
+
+  .psalm .verse:first-of-type::before
+  {
+    content: '';
+  }
+}
 
 
 *:lang(got),
