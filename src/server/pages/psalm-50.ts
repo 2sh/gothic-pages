@@ -69,22 +69,25 @@ const generator: PageGenerator = info =>
   article += html`<p class='psalm'>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Armai mik, Guþ, bi mikila armahairtein Þeina jah bi managein bleiþeino Þeinaizo afswairb ungaraihtein meina.",
+      got: "Armai mik, Guþ, bi mikila armahairtein Þeina jah bi managein bleiþeino Þeinaizo afswairb missadeþ meina.",
       grc: "ΕΛΕΗΣΟΝ με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου·",
       en: "Have mercy upon me, O God, according to Thy great mercy; and according to the abundance of Thy tender mercies blot out mine iniquity.",
     },
     notes: `Using managei instead of managduþs as the Greek πλῆθος is more
 multitude instead of abundance. Some English translations use multitude here.
 
-A strong contender for iniquity was unsibjona but that seems to need the plural
-and is an adjective. Both ungaraihtei and unsibjis seem to translate iniquity.`
+I was between ungaraihtei and unsibjis for ἀνόμημά. It's ungaraihtei for ἀνομία
+which comes up in the next line, but the -μά is
+"Added to verbal stems to form neuter nouns denoting the effect or result of an action",
+so the transgression itself, the act, so I've gone with missadeþs.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Du filusnai usþwah mik af ungaraihtein meinai",
       grc: "ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου καὶ ἀπὸ τῆς ἁμαρτίας μου καθάρισόν με.",
       en: "Wash me thoroughly from mine iniquity, and my sin is ever before me.",
     },
+    notes: `du filusnai Timothy II 3:9`
   }], info)}</span>
 </p>`
 
