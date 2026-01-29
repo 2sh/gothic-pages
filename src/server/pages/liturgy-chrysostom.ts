@@ -600,7 +600,7 @@ ${toGothicLines([{
 </p>`
 
   article += html`<p>
-${speakerDeacon(info)}
+${speakerPriest(info)}
 ${toGothicLines([
     {
       text: {
