@@ -137,7 +137,7 @@ and the marks end up not being placed well.
 The number converter is default set to convert only numbers up to 999
 as that’s all that’s attested.
 The above 999 setting is an idea I had for larger numbers, expanding on the
-use of the Greek lower numeral sign to signify that it's the value times 1000
+Ionian use of the Greek lower numeral sign to signify that it's the value times 1000
 and using colons to separate millions.
 </p>
 <p>
