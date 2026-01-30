@@ -71,7 +71,7 @@ const generator: PageGenerator = info =>
     text: {
       got: "Armai mik, Guþ, bi mikila armahairtein Þeina jah bi managein bleiþeino Þeinaizo afswairb missadeþ meina.",
       grc: "ΕΛΕΗΣΟΝ με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου·",
-      en: "Have mercy upon me, O God, according to Thy great mercy; and according to the abundance of Thy tender mercies blot out mine iniquity.",
+      en: "Have mercy upon me, O God, according to thy great mercy; and according to the multitude of thy compassions blot out my transgression.",
     },
     notes: `Using managei instead of managduþs as the Greek πλῆθος is more
 multitude instead of abundance. Some English translations use multitude here.
@@ -83,11 +83,146 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Du filusnai usþwah mik af ungaraihtein meinai",
+      got: "Du filusnai usþwah mik af ungaraihtein meinai jah af frawaurhtai meinai .",
       grc: "ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου καὶ ἀπὸ τῆς ἁμαρτίας μου καθάρισόν με.",
-      en: "Wash me thoroughly from mine iniquity, and my sin is ever before me.",
+      en: "Wash me thoroughly from mine iniquity, and cleanse me from my sin.",
     },
     notes: `du filusnai Timothy II 3:9`
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διαπαντός.",
+      en: "For I am conscious of mine iniquity; and my sin is continually before me.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "σοὶ μόνῳ ἥμαρτον καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε.",
+      en: "Against thee only have I sinned, and done evil before thee: that thou mightest be justified in thy sayings, and mightest overcome when thou art judged.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου.",
+      en: "For, behold, I was conceived in iniquities, and in sins did my mother conceive me.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας, τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι.",
+      en: "For, behold, thou lovest truth: thou hast manifested to me the secret and hidden things of thy wisdom.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ραντιεῖς με ὑσσώπῳ, καὶ καθαρισθήσομαι, πλυνεῖς με, καὶ ὑπὲρ χιόνα λευκανθήσομαι.",
+      en: "Thou shalt sprinkle me with hyssop, and I shall be purified: thou shalt wash me, and I shall be made whiter than snow.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην, ἀγαλλιάσονται ὀστέα τεταπεινωμένα.",
+      en: "Thou shalt cause me to hear gladness and joy: the afflicted bones shall rejoice.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον.",
+      en: "Turn away thy face from my sins, and blot out all mine iniquities.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου.",
+      en: "Create in me a clean heart, O God; and renew a right spirit in my inward parts.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "μὴ ἀποῤῥίψῃς με ἀπὸ τοῦ προσώπου σου καὶ τὸ πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπ᾿ ἐμοῦ.",
+      en: "Cast me not away from thy presence; and remove not thy Holy Spirit from me.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με.",
+      en: "Restore to me the joy of thy salvation: establish me with thy directing/governing Spirit.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "διδάξω ἀνόμους τὰς ὁδούς σου, καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι.",
+      en: "Then will I teach transgressors thy ways; and ungodly men shall turn to thee.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ρῦσαί με ἐξ αἱμάτων, ὁ Θεὸς ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου.",
+      en: "Deliver me from blood-guiltiness, O God, the God of my salvation: and my tongue shall joyfully declare thy righteousness.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "Κύριε, τὰ χείλη μου ἀνοίξεις, καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου.",
+      en: "O Lord, thou shalt open my lips; and my mouth shall declare thy praise.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις.",
+      en: "For if thou desiredst sacrifice, I would have given it: thou wilt not take pleasure in whole-burnt-offerings.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "θυσία τῷ Θεῷ πνεῦμα συντετριμμένον, καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει.",
+      en: "Sacrifice to God is a broken spirit: a broken and humbled heart God will not despise.",
+    },
+  }], info)}</span>
+<br>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιών, καὶ οἰκοδομηθήτω τὰ τείχη ῾Ιερουσαλήμ·",
+      en: "Do good, O Lord, to Sion in thy good pleasure; and let the walls of Jerusalem be built.",
+    },
+  }], info)}</span>
+<span class='verse'>${toGothicLines([{
+    text: {
+      got: "...",
+      grc: "τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα· τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
+      en: "Then shalt thou be pleased with a sacrifice of righteousness, offering (a heave or wave-offering), and whole-burnt-sacrifices: then shall they offer calves upon thine altar.",
+    },
   }], info)}</span>
 </p>`
 
