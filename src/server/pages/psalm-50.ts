@@ -83,7 +83,7 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Du filusnai usþwah mik af ungaraihtein meinai jah af frawaurhtai meinai .",
+      got: "Du filusnai usþwah mik af ungaraihtein meinai jah af frawaurhtai meinai gahrainei mik.",
       grc: "ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου καὶ ἀπὸ τῆς ἁμαρτίας μου καθάρισόν με.",
       en: "Wash me thoroughly from mine iniquity, and cleanse me from my sin.",
     },
