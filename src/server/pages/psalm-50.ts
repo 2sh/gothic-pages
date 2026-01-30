@@ -79,7 +79,7 @@ multitude instead of abundance. Some English translations use multitude here.
 I was between ungaraihtei and unsibjis for ἀνόμημά. It's ungaraihtei for ἀνομία
 which comes up in the next line, but the -μά is
 "Added to verbal stems to form neuter nouns denoting the effect or result of an action",
-so the transgression itself, the act, so I've gone with missadeþs.`
+so the transgression itself, the act/result, so I've gone with missadeþs, missdeed.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
