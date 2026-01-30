@@ -61,11 +61,6 @@ const generator: PageGenerator = info =>
             <option value="normal">Up to 999 only</option>
             <option value="big">Above 999</option>
           </select></label>
-        <template x-if="$store.gothic.numberConversion == 'big'">
-          <label>Thousands Sign: <input
-            class="input-text-single"
-            x-model="$store.gothic.thousandsSign"></label>
-        </template>
       </div>
     </div>
     <div class="row">
@@ -141,9 +136,9 @@ and the marks end up not being placed well.
 <p>
 The number converter is default set to convert only numbers up to 999
 as that’s all that’s attested.
-The above 999 setting is an idea I had for larger numbers,
-using colons (or optionally another character such as the Cyrillic
-thousands sign ҂) acting as 1000 separators.
+The above 999 setting is an idea I had for larger numbers, expanding on the
+use of the Greek lower numeral sign to signify that it's the value times 1000
+and using colons to separate millions.
 </p>
 <p>
 If you spot any issues, <i>please</i> do <a href='/contact'>tell me</a>,

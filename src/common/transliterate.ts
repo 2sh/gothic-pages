@@ -81,8 +81,19 @@ function applyMapping(text: string, mapping: RegExpMapping[])
 const gothicDigits = `𐌰𐌱𐌲𐌳𐌴𐌵𐌶𐌷𐌸𐌹𐌺𐌻𐌼𐌽𐌾𐌿𐍀𐍁𐍂𐍃𐍄𐍅𐍆𐍇𐍈𐍉𐍊`
 const gothicDigitsArray = [...gothicDigits]
 
-function toGothicNumerals(number: number | bigint | string, thousandsSign=':')
+export type GothicNumeralsConfig = {
+  millions_separator?: string,
+  thousands_sign?: string,
+}
+
+function toGothicNumerals(number: number | bigint | string, config?: GothicNumeralsConfig)
 {
+  const conf: Required<GothicNumeralsConfig> = {
+    millions_separator: ':',
+    thousands_sign: '͵',
+    ...config,
+  }
+
   const num = typeof number === 'string'
     ? number
     : number.toLocaleString('fullwide', {useGrouping:false})
@@ -99,34 +110,53 @@ function toGothicNumerals(number: number | bigint | string, thousandsSign=':')
     let out = ''
     if (n > 0)
     {
+      if ((i % 6) > 2) out += conf.thousands_sign
       const multiplier = (i % 3) * 9
       out += gothicDigitsArray[(n-1)+multiplier]
     }
-    if (i > 0 && i % 3 == 0)
-      out += thousandsSign
+    if (i > 0 && i % 6 == 0)
+      out += conf.millions_separator
     gDigits.push(out)
   }
   return gDigits.toReversed().join('')
 }
 
-function fromGothicNumerals(number: string, thousandsSign=':')
+function fromGothicNumerals(number: string, config?: GothicNumeralsConfig)
 {
+  const conf: Required<GothicNumeralsConfig> = {
+    millions_separator: ':',
+    thousands_sign: '͵',
+    ...config,
+  }
+
+  const reBlockParts = new RegExp(
+    `(${conf.thousands_sign})?([^${conf.thousands_sign}])`, 'gu')
+
   const blocks = number
-    .split(thousandsSign)
+    .split(conf.millions_separator)
     .map((block, i) =>
     {
-      return [...block].reduce((v, d) =>
+      return [...block.matchAll(reBlockParts)]
+        .reduce((v, d) =>
       {
-        const index = gothicDigitsArray.indexOf(d)
-        const exp = Math.trunc(index/9)
+        const exp_add = d[1] ? 3 : 0
+        const index = gothicDigitsArray.indexOf(d[2])
+        const exp = Math.trunc(index/9) + exp_add
         return v + (10**exp) * ((index%9)+1)
-      }, 0).toString().padStart(i > 0 ? 3 : 0, "0")
+      }, 0).toString().padStart(i > 0 ? 6 : 0, "0")
     })
-  if (blocks.length == 2 && blocks[0].length == 1)
-    return blocks.join('') // For date years without commas
+  const out = blocks.join('')
+  if (out.length <= 4) // For date years without commas
+    return out
   else
-    return blocks.join(',')
+    return out
+      .split('')
+      .toReversed()
+      .map((d, i) => i > 0 && i % 3 == 0 ? d + ',' : d)
+      .toReversed()
+      .join('')
 }
+
 
 const reArabicNumeral = new RegExp(
     `\\b(?<![,.])(\\d{1,3}(?:,\\d{3})+|\\d+)(?![,.]\\d)\\b`, "gu")
@@ -135,8 +165,7 @@ const gd = `[${gothicDigits}]`
 
 export type GeneralConfig = {
   numberConversion?: 'none' | 'normal' | 'big',
-  thousandsSign?: string
-}
+} & GothicNumeralsConfig
 
 export type FromLatinConfig = {
   th?: string,
@@ -151,7 +180,8 @@ export function fromLatin(text: string, config?: FromLatinConfig)
     hv: '',
     preserveDiacritics: false,
     numberConversion: 'normal',
-    thousandsSign: ':',
+    millions_separator: ':',
+    thousands_sign: '͵',
     ...config,
   }
 
@@ -173,7 +203,7 @@ export function fromLatin(text: string, config?: FromLatinConfig)
       {
         if (conf.numberConversion !== 'big' && parseFloat(m) >= 1000)
           return m
-        const num = toGothicNumerals(m, conf.thousandsSign)
+        const num = toGothicNumerals(m, conf)
         return num ? '·' + num + '·' : m
       })
     }
@@ -195,18 +225,22 @@ export function toLatin(text: string, config?: ToLatinConfig)
     hv: '',
     capitalize: false,
     numberConversion: 'normal',
-    thousandsSign: ':',
+    millions_separator: ':',
+    thousands_sign: '͵',
     ...config,
   }
 
+  const reMS = regExpEscape(conf.millions_separator)
+  const reTS = regExpEscape(conf.thousands_sign)
+  const reBlock = `(?:${reTS}${gd}){0,3}${gd}{0,3}`
+
   let out = text
   const reGothicNumeral = new RegExp(
-    `·(${gd}{1,3}(${regExpEscape(conf.thousandsSign)}${gd}{0,3})*)·`,
-  "gu")
+    `·(${reBlock}(?:${reMS}${reBlock})*)·`, "gu")
   out = out.replaceAll(reGothicNumeral, (_, m) =>
   {
     if (conf.numberConversion !== 'none')
-      return fromGothicNumerals(m, conf.thousandsSign)
+      return fromGothicNumerals(m, conf)
     else
       return '·' + applyMapping(m, gothicLatin).toUpperCase() + '·'
   })
