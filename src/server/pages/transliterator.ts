@@ -141,7 +141,7 @@ Ionian use of the Greek lower numeral sign to signify that it's the value times 
 and using colons to separate millions.
 </p>
 <p>
-If you spot any issues, <i>please</i> do <a href='/contact'>tell me</a>,
+If you spot any issues or have any feedback, <i>please</i> do <a href='/contact'>tell me</a>,
 as I’d like to publish the functionality on this page for free at some point.
 </p>
   </div>
