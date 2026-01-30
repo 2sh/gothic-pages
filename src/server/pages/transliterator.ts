@@ -137,8 +137,10 @@ and the marks end up not being placed well.
 The number converter is default set to convert only numbers up to 999
 as that’s all that’s attested.
 The above 999 setting is an idea I had for larger numbers, expanding on the
-Ionian use of the Greek lower numeral sign to signify that it's the value times 1000
-and using colons to separate millions.
+Ionian use of a symbol (for now the Greek lower numeral sign [͵] but could
+perhaps be the cyrillic thousands sign [҂]) to signify multiplying the
+numerals's value by 1000 and using colons to separate millions (or eventually
+perhaps using the Cyrillic numerals combining characters or something similar).
 </p>
 <p>
 If you spot any issues or have any feedback, <i>please</i> do <a href='/contact'>tell me</a>,
