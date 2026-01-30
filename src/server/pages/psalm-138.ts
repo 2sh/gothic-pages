@@ -52,7 +52,7 @@ const generator: PageGenerator = info =>
     text: {
       got: "Und andi, psalmo Daweida.",
       grc: "Εἰς τὸ τέλος· ψαλμὸς τῷ Δαυΐδ.",
-      en: "Unto the end, a psalm to David.",
+      en: "For the end, a Psalm of David. (Alex. + of Zacharias in the dispersion.)",
     },
     notes:
 `"The phrase 𐌿𐌽𐌳 𐌰𐌽𐌳𐌹 (und andi) (Luke 18:5) is used with the sense of
@@ -71,14 +71,14 @@ Some even leave out the "A psalm to/of David" entirely.`
     text: {
       got: "Frauja, gakaust mik, jah kant mik;",
       grc: "Κύριε, ἐδοκίμασάς με, καὶ ἔγνως με·",
-      en: "O Lord, Thou hast proved me, and Thou knowest me.",
+      en: "O Lord, thou hast proved me, and known me.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Þū kant gasiss meina jah usstass meina, Þū frost mitonim meinaim fairraþro.",
       grc: "σὺ ἔγνως τὴν καθέδραν μου καὶ τὴν ἔγερσίν μου, σὺ συνῆκας τοὺς διαλογισμούς μου ἀπὸ μακρόθεν·",
-      en: "Thou knowest my downsitting, and mine uprising, Thou hast understood my thoughts from afar.",
+      en: "Thou knowest my down-sitting and mine up-rising: thou understandest my thoughts from afar.",
     },
     notes: `*gasiss, taking gasitan + þs which though there's no attestation of it
 being stuck after a t, it's observed to be -ss "after dentals".`
@@ -88,7 +88,7 @@ being stuck after a t, it's observed to be -ss "after dentals".`
     text: {
       got: "Staiga meina jah badi mein ussokides jah allans wigans meinans faurawisses,",
       grc: "τὴν τρίβον μου καὶ τὴν σχοῖνόν μου ἐξιχνίασας καὶ πάσας τὰς ὁδούς μου προεῖδες,",
-      en: "Thou hast searched out my path and my lot, and hast forseen all my ways;",
+      en: "Thou hast traced my path and my bed (of rushes, lit. rush), and hast foreseen all my ways.",
     },
     notes:
 `σχοῖνόν seems to mean rush (camel hay) but apparently it can also mean "rush bed".
@@ -107,7 +107,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
     text: {
       got: "unte nist liutei ïn tuggon meinai.",
       grc: "ὅτι οὐκ ἔστι δόλος ἐν γλώσσῃ μου.",
-      en: "For there is no guile upon my tongue.",
+      en: "For there is no unrighteous word in my tongue.",
     },
   }], info)}</span>
 <br>
@@ -115,7 +115,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
     text: {
       got: "Sai, Frauja, Þū kant alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu Þeina.",
       grc: "ἰδού, Κύριε, σὺ ἔγνως πάντα, τὰ ἔσχατα καὶ τὰ ἀρχαῖα· σὺ ἔπλασάς με καὶ ἔθηκας ἐπ᾿ ἐμὲ τὴν χεῖρά σου.",
-      en: "Behold, O Lord, Thou knowest all things, the last and the first; Thou hast fashioned, and laid Thine hand upon me.",
+      en: "Behold, O Lord, thou hast known all things, the last and the first: thou hast fashioned me, and laid thine hand upon me.",
     },
     notes: `handu þeina ana ija Matthew 9:18`
   }], info)}</span>
@@ -124,7 +124,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
     text: {
       got: "Sildaleik ïst kunþi Þein mis; ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
-      en: "Thy knowledge is too wonderful for me; it is great, I cannot attain unto it.",
+      en: "The knowledge of thee is too wonderful for me; it is very difficult, I cannot attain to it.",
     },
     notes: `There's "sildaleiknan in allaim þaim galaubjandam" Thessalonians II 1:10
 which made me think "sildaleiknoda kunþi Þein in mis" initially although that could be
@@ -149,7 +149,7 @@ been translated differently than a genitive).`
     text: {
       got: "Ƕaþ gaggau af Ahmin Þeinamma jah af andwairþja Þeinamma ƕaþ gaþliuhau?",
       grc: "ποῦ πορευθῶ ἀπὸ τοῦ πνεύματός σου καὶ ἀπὸ τοῦ προσώπου σου ποῦ φύγω;",
-      en: "Whither shall I go from Thy Spirit? And whither shall I flee from Thy presence?",
+      en: "Whither shall I go from thy Spirit? and whither shall I flee from thy presence?",
     },
   }], info)}</span>
 <br>
@@ -157,7 +157,7 @@ been translated differently than a genitive).`
     text: {
       got: "Jabai ussteigau ïn himin, Þū ïs þar; jabai atsteigau ïn halja, atïs;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
-      en: "If I ascend up into heaven, Thou art there; if I go down into Hades, Thou art there.",
+      en: "If I should go up to heaven, thou art there: if I should go down to hell, thou art present.",
     },
     notes: `I think, "þar" if it's a specific known place,
 "jainar" if it's a bit more open like a place of a plural "in the uttermost parts of the sea".`
@@ -166,7 +166,7 @@ been translated differently than a genitive).`
     text: {
       got: "jabai nimau fiþrakans meinans at ūhtwon, jah bauau ïn andjam mareins,",
       grc: "ἐὰν ἀναλάβοιμι τὰς πτέρυγάς μου κατ᾿ ὄρθρον καὶ κατασκηνώσω εἰς τὰ ἔσχατα τῆς θαλάσσης,",
-      en: "If I take up my wings in the morning, and dwell in the uttermost parts of the sea,",
+      en: "If I should spread my wings to fly straight forward (or Alex. κατ᾿ ὄρθον, toward the dawn), and sojourn at the extremity of the sea,",
     },
     notes:
 `Would be nice to follow the us- and at- pattern like in Greek ἀνα- and κατα- but
@@ -178,7 +178,7 @@ us- can also mean "out" and usniman means to remove or take out.
     text: {
       got: "jah auk jainar handus Þeina tiuhiþ mik, jah gahabaiþ mik taihswa Þeina.",
       grc: "καὶ γὰρ ἐκεῖ ἡ χείρ σου ὁδηγήσει με, καὶ καθέξει με ἡ δεξιά σου.",
-      en: "even there shall Thy hand lead me, and Thy right hand shall hold me.",
+      en: "for even there thy hand would guide me, and thy right hand would hold me.",
     },
     notes: `jah auk Matthew 8:9
 
@@ -189,14 +189,14 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
     text: {
       got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ liuhaþ ïn botos meinaizos;",
       grc: "καὶ εἶπα· ἄρα σκότος καταπατήσει με, καὶ νὺξ φωτισμὸς ἐν τῇ τρυφῇ μου·",
-      en: "And I said, Surely the darkness shall cover me, and in my pleasure shall the night be turned to day.",
+      en: "When I said, Surely the darkness will cover me; even the night was light in my luxury.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "unte riqis ni wairþiþ riqis fram Þus, jah nahts swe dags wairþiþ bairhts; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
       grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
-      en: "For darkness will not be darkness with Thee, but night shall be bright as day; as is the darkness, even so shall be the light thereof.",
+      en: "For darkness will not be darkness with thee; but night will be light as day: as its darkness, so shall its light be to thee.",
     },
     notes: `Luke 6:18 Luke 8:44 Luke 9:22 "ἀπὸ" turns into "fram" to mean "by"`
   }], info)}</span>
@@ -205,7 +205,7 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
     text: {
       got: "Unte Þu gastaistalst lundja meina; Frauja, hleibides mis us wambai aiþeins meinaizos.",
       grc: "ὅτι σὺ ἐκτήσω τοὺς νεφρούς μου, Κύριε, ἀντελάβου μου ἐκ γαστρὸς μητρός μου.",
-      en: "For Thou hast possessed my reins; Thou hast holpen me, O Lord, from my mother's womb.",
+      en: "For thou, O Lord, hast possessed my reins; thou hast helped me from my mother's womb.",
     },
     notes: `νεφρούς means kidneys and figuratively "the inmost mind -- reins", using
 *lundi [n. Ja] from *lundiją (loin, kidney, fat) as it descended to
@@ -216,7 +216,7 @@ mean "mindset, character" in Norse languages.`
     text: {
       got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans Þeinai, jah saiwala meina wait waila.",
       grc: "ἐξομολογήσομαί σοι, ὅτι φοβερῶς ἐθαυμαστώθης· θαυμάσια τὰ ἔργα σου, καὶ ἡ ψυχή μου γινώσκει σφόδρα.",
-      en: "I will give Thee thanks, for Thou art wondrous and fearful; marvelous are Thy works, and my soul knoweth it right well.",
+      en: "I will give thee thanks; for thou art fearfully wondrous; wondrous are thy works; and my soul knows it well.",
     },
     notes: `"awiliudo þus, unte andhausides mis" John 11:41`
   }], info)}</span>
@@ -225,7 +225,7 @@ mean "mindset, character" in Norse languages.`
     text: {
       got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoma meins ïn undaristin airþos;",
       grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
-      en: "My bones are not hid from Thee, which Thou hast made in secret; nor my substance in the lowest parts of the earth.",
+      en: "My bones which thou madest in secret were not hidden from thee, nor my substance, in the lowest parts of the earth.",
     },
     notes: `"gafulgin ist" Luke 19:42
 
@@ -239,7 +239,7 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
     text: {
       got: "ungahabaiþana meinana witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
       grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
-      en: "Thine eyes did see my substance, yet being unperfect; and in Thy book shall all mankind be written; daily shall they be fashioned, when as yet there be none of them.",
+      en: "Thine eyes saw my unwrought substance, and all men shall be written in thy book; they shall be formed by day, though there should for a time be no one among them.",
     },
     notes:
 `ἀκατέργαστόν is from ἀ- and an aorist/adjective derivative of κατέχω, κατέχω translates in the Gothic NT to gahabān, so using ungahabān.
@@ -254,14 +254,14 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     text: {
       got: "Mis auk filu swerai sind frijonds Þeinai, Guþ, filu gaswinþida sind reikja ïze;",
       grc: "ἐμοὶ δὲ λίαν ἐτιμήθησαν οἱ φίλοι σου, ὁ Θεός, λίαν ἐκραταιώθησαν αἱ ἀρχαὶ αὐτῶν·",
-      en: "Exceeding honored also are Thy friends unto me, O God their rule is greatly strengthened.",
+      en: "But thy friends, O God, have been greatly honoured by me; their rule has been greatly strengthened.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "garaþja ïns, jah ufar malman managnodedun; urraisiþs jah nauh ïm miþ Þus.",
       grc: "ἐξαριθμήσομαι αὐτούς, καὶ ὑπὲρ ἄμμον πληθυνθήσονται· ἐξηγέρθην καὶ ἔτι εἰμὶ μετὰ σοῦ.",
-      en: "I will tell them, and they shall be multiplied in number more than the sand; when I awake, I am still with Thee.",
+      en: "I will number them, and they shall be multiplied beyond the sand; I awake, and am still with thee.",
     },
   }], info)}</span>
 <br>
@@ -269,14 +269,14 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     text: {
       got: "Wainei usqimais frawaurhtaim, Guþ, mannans bloþis, afwandeiþ af mis,",
       grc: "ἐὰν ἀποκτείνῃς ἁμαρτωλούς, ὁ Θεός, ἄνδρες αἱμάτων, ἐκκλίνατε ἀπ᾿ ἐμοῦ,",
-      en: "Surely Thou wilt slay the sinners, O God! Depart from me, ye men of blood,",
+      en: "Oh that thou wouldest slay the wicked, O God; depart from me, ye men of blood.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "unte miþ waihjon sijuþ bi mitonins; nimand ïn uswissja baurgs Þeina.",
       grc: "ὅτι ἐρισταί ἐστε εἰς διαλογισμούς· λήψονται εἰς ματαιότητα τὰς πόλεις σου.",
-      en: "for ye are contentious in your thoughts. They shall take Thy cities in vain.",
+      en: "For thou wilt say concerning their thought, that they shall take thy cities in vain.",
     },
   }], info)}</span>
 <br>
@@ -284,7 +284,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     text: {
       got: "Niu þans fijandans þuk, Frauja, fijaida jah ïn fiande þeinaize gauriþs?",
       grc: "οὐχὶ τοὺς μισοῦντάς σε, Κύριε, ἐμίσησα καὶ ἐπὶ τοὺς ἐχθρούς σου ἐξετηκόμην;",
-      en: "Have not I hated them, O Lord, that hate Thee? and have I not pined away because of Thine enemies?",
+      en: "Have I not hated them, O Lord, that hate thee? and wasted away because of thine enemies?",
     },
     notes: `gauriþs isn't quite the same as pine away, but it's the closest I could find`
   }], info)}</span>
@@ -292,7 +292,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     text: {
       got: "Fullai fijaþwai fija ïns, fijands waurþun mis.",
       grc: "τέλειον μῖσος ἐμίσουν αὐτούς, εἰς ἐχθροὺς ἐγένοντό μοι.",
-      en: "I have hated them with a perfect hatred, and they are counted mine enemies.",
+      en: "I have hated them with perfect hatred; they were counted my enemies.",
     },
     notes: `Need to figure out how imperfect renders to Gothic`
   }], info)}</span>
@@ -301,14 +301,14 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     text: {
       got: "Gakius mik, Guþ, gakunnai hairto mein, ussokei mik jah gakunnai staigos meinos.",
       grc: "δοκίμασόν με, ὁ Θεός, καὶ γνῶθι τὴν καρδίαν μου, ἔτασόν με καὶ γνῶθι τὰς τρίβους μου.",
-      en: "Prove me, O Lord, and know my heart; try me, and know my ways.",
+      en: "Prove me, O God, and know my heart; examine me, and know my paths;",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Jah saiƕ, jau wigs ungaraihteins ïn mis, jah tiuh mik ïn wiga aiweinamma.",
       grc: "καὶ ἴδε εἰ ὁδὸς ἀνομίας ἐν ἐμοί, καὶ ὁδήγησόν με ἐν ὁδῷ αἰωνίᾳ.",
-      en: "And see if there be any way of iniquity in me, and lead me in the way everlasting.",
+      en: "and see if there is any way of iniquity in me, and lead me in an everlasting way.",
     },
   }], info)}</span>
 </p>`
