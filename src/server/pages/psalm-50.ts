@@ -92,7 +92,7 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte ungaraihtein meina ïk kann, jah frawaurhts meina in andwairþja meina ïst sinteino.",
+      got: "Unte ungaraihtein meina ïk kann, jah frawaurhts meina ïn andwairþja meina ïst sinteino.",
       grc: "ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διαπαντός.",
       en: "For I am conscious of mine iniquity; and my sin is continually before me.",
     },
