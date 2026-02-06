@@ -100,7 +100,7 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Du Þus ainamma ik frawaurhta jah þana ubilo in andwairþja Þeinamma tawida,",
+      got: "Du Þus ainamma ik frawaurhta jah þana ubilo in andwairþja Þeinamma tawida, ei gasunjoþs sijais in waurdam Þeinaim, jah hroþeigs in stauai Þeinai.",
       grc: "σοὶ μόνῳ ἥμαρτον καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε.",
       en: "Against thee only have I sinned, and done evil before thee: that thou mightest be justified in thy sayings, and mightest overcome when thou art judged.",
     },
@@ -110,7 +110,9 @@ but I don't want to leave it without one, so I've gone with the more vague du.
 
 "imma ainamma" Luke 4:8, "þuk ainana" John 17:3
 
-Using def article for evil like in the lord's prayer`
+Using def article for evil like in the lord's prayer
+
+ὅπως ἂν just translates to ei Luke 2:35`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
