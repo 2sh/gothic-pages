@@ -17,7 +17,7 @@ import
 
 const slug = 'sabba-stratailats'
 const title = 'Sabba Stratailats Martyr'
-const description = `${title}, skeireins ïn razdai gutiskai.`
+const description = `${title}, skeireins in razdai gutiskai.`
 
 const anchors: Anchor[] = [
   {
@@ -64,10 +64,10 @@ const generator: PageGenerator = info =>
     text: { got: "Sabba Stratailats", en: "Sabbas Stratelates" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

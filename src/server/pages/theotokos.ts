@@ -19,7 +19,7 @@ import { fromLatin } from '@common/transliterate'
 
 const slug = "gudabairandei"
 const title = 'Gudabairandei'
-const description = "Waurda Gudabairandein, skeireins ïn razdai gutiskai."
+const description = "Waurda Gudabairandein, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -70,8 +70,8 @@ weak nouns keep -a- for the connecting vowel.” -guthiharjis`
 
   const gothicAnnotation = [
     { text: { got: "Waurda Gudabairandein", en: "Words to the Theotokos" } },
-    { text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," } },
-    { text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." } },
+    { text: { got: "in razdai gutiskai,", en: "in the Gothic language," } },
+    { text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." } },
   ]
 
   article += html`<p class="annotation">${gothicAnnotation.map(a => `

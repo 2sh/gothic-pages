@@ -24,7 +24,7 @@ import { fromLatin } from "@common/transliterate"
 
 const slug = 'dauksaulaugei-leitils'
 const title = 'Dauksaulaugei Leitils'
-const description = "Dauksaulaugei Leitils, skeireins ïn razdai gutiskai."
+const description = "Dauksaulaugei Leitils, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -64,7 +64,7 @@ so *dauksaulaugei`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Wulþus ïn háuhistjam Guda, jah ana airþai gawairþi ïn mannam godis wiljins.',
+        got: 'Wulþus in háuhistjam Guda, jah ana airþai gawairþi in mannam godis wiljins.',
         grc: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
         en: "Glory to God in the highest, and on earth peace, good will to men.",
       },
@@ -93,7 +93,7 @@ so *dauksaulaugei`,
     },
     {
       text: {
-        got: 'ïnweitam þuk,',
+        got: 'inweitam þuk,',
         grc: "προσκυνοῦμέν σε,",
         en: "we worship you,",
       },
@@ -163,7 +163,7 @@ translation, it’s probably the commonly used version`,
     },
     {
       text: {
-        got: 'Ïesu Xristau, jah Ahma Weiha.',
+        got: 'Iesu Xristau, jah Ahma Weiha.',
         grc: "Ἰησοῦ Χριστέ, καὶ Ἅγιον Πνεῦμα.",
         en: "Lord Jesus Christ and Holy Spirit.",
       },
@@ -262,7 +262,7 @@ ${toGothicLines([
     },
     {
       text: {
-        got: 'Unte þū sa ains Weiha ïs,',
+        got: 'Unte þū sa ains Weiha is,',
         grc: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
         en: "For you are the only Holy One,",
       },
@@ -273,7 +273,7 @@ ${toGothicLines([
     },
     {
       text: {
-        got: 'þū sa ains Frauja ïs, Ïesu Xristau,',
+        got: 'þū sa ains Frauja is, Iesu Xristau,',
         grc: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
         en: "you are the only Lord, Jesus Christ,",
       },
@@ -314,7 +314,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     },
     {
       text: {
-        got: 'jah hazja namo þein ïn aiw,',
+        got: 'jah hazja namo þein in aiw,',
         grc: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
         en: "and I shall praise your name forever,",
       },
@@ -323,7 +323,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     },
     {
       text: {
-        got: 'jah ïn aiw aiwis.',
+        got: 'jah in aiw aiwis.',
         grc: "καὶ εἰς τὸν αἰῶνα τοῦ αἰῶνος.",
         en: "and unto the ages of ages.",
       },
@@ -349,7 +349,7 @@ which is quite fitting I think.
     },
     {
       text: {
-        got: 'us aldai ïn ald.',
+        got: 'us aldai in ald.',
         grc: "ἐν γενεᾷ καὶ γενεᾷ.",
         en: "from generation to generation.",
       },
@@ -362,7 +362,7 @@ of a “into ... of ...”.`,
     },
     {
       text: {
-        got: 'Ïk qaþ: Frauja, armai mik;',
+        got: 'Ik qaþ: Frauja, armai mik;',
         grc: "Ἐγὼ εἶπα· Κύριε, ἐλέησόν με·",
         en: "I have said: Lord, have mercy on me,",
       },
@@ -379,7 +379,7 @@ of a “into ... of ...”.`,
     },
     {
       text: {
-        got: 'unte ïk wiþra þuk frawaurhta.',
+        got: 'unte ik wiþra þuk frawaurhta.',
         grc: "ὅτι ἥμαρτόν σοι.",
         en: "for I have sinned against you.",
       },
@@ -414,14 +414,14 @@ do the will John 6:38; do his will John 7:17
     },
     {
       text: {
-        got: 'unte þū ïs guþ meins.',
+        got: 'unte þū is guþ meins.',
         grc: "ὅτι σὺ εἶ ὁ Θεός μου.",
         en: "for you are my God.",
       },
     },
     {
       text: {
-        got: 'Unte fram þus ïst brunna libainais;',
+        got: 'Unte fram þus ist brunna libainais;',
         grc: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
         en: "For with you is the fountain of life;",
       },
@@ -430,7 +430,7 @@ do the will John 6:38; do his will John 7:17
     },
     {
       text: {
-        got: 'Ïn liuhada þein seƕum liuhaþ.',
+        got: 'In liuhada þein seƕum liuhaþ.',
         grc: "ἐν τῷ φωτί σου ὀψόμεθα φῶς.",
         en: "in your light we shall see light.",
       },
@@ -472,7 +472,7 @@ grant 𐍆𐍂𐌰𐌲𐌹𐍆 Mark 10:37`,
     },
     {
       text: {
-        got: 'ei himma naht ïnuh frawaurht gafastaindau.',
+        got: 'ei himma naht inuh frawaurht gafastaindau.',
         grc: "ἐν τῇ νυκτὶ ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς.",
         en: "that in this night we may be kept without sin.",
       },
@@ -513,7 +513,7 @@ principal clause is interrogative or negative”`,
     },
     {
       text: {
-        got: 'ïn aiwins.',
+        got: 'in aiwins.',
         grc: "εἰς τοὺς αἰῶνας.",
         en: "unto the ages.",
       },
@@ -600,7 +600,7 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
     },
     {
       text: {
-        got: 'ïnliuhtei mik miþ anabusnim þeinaim.',
+        got: 'inliuhtei mik miþ anabusnim þeinaim.',
         grc: "φώτισόν με τοῖς δικαιώμασί σου.",
         en: "enlighten me with your commandments.",
       },
@@ -612,7 +612,7 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Frauja, armahairtein þeina ïn aiw;',
+        got: 'Frauja, armahairtein þeina in aiw;',
         grc: "Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα·",
         en: "Lord, your mercy remains forever,",
       },
@@ -636,7 +636,7 @@ works of christ Matthew 11:2`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Þus ïst gadob hazeins,',
+        got: 'Þus ist gadob hazeins,',
         grc: "Σοὶ πρέπει αἶνος,",
         en: "To you belongs praise,",
       },
@@ -645,14 +645,14 @@ works of christ Matthew 11:2`
     },
     {
       text: {
-        got: 'þus ïst gadob liuþ,',
+        got: 'þus ist gadob liuþ,',
         grc: "σοὶ πρέπει ὕμνος,",
         en: "to you belongs a hymn,",
       },
     },
     {
       text: {
-        got: 'þus ïst gadob wulþus,',
+        got: 'þus ist gadob wulþus,',
         grc: "σοὶ δόξα πρέπει,",
         en: "to you belongs glory,",
       },
@@ -680,10 +680,10 @@ ${nowAndEver(info)}
     text: { got: "Dauksaulaugei Leitils", en: "The Lesser Doxology" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

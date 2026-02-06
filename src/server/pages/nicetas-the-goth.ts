@@ -27,7 +27,7 @@ import
 
 const slug = 'niketa'
 const title = 'Niketa sa Guta Martyr'
-const description = "Niketa sa Guta Martyr, skeireins ïn razdai gutiskai."
+const description = "Niketa sa Guta Martyr, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -115,7 +115,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Ïnuh þizai mela was drauhtinassus ïn þaim gutam,',
+        got: 'Inuh þizai mela was drauhtinassus ïn þaim gutam,',
         en: "At the time there was [internecine] warfare among the Goths",
       },
     },
@@ -163,7 +163,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "ïn þizai Wulfila Aipiskaupus arianisks, afarlaista Þaiaufeilaus Aipiskaupaus,",
+        got: "in þizai Wulfila Aipiskaupus arianisks, afarlaista Þaiaufeilaus Aipiskaupaus,",
         en: "during which arian Bishop Ulfilas, successor to Bishop Theophilus,",
       },
       notes: `afarlaistjan + galaista = afarlaista “nachfolger”`
@@ -241,7 +241,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Und andi warþ gadrauhts Xristaus ïn fon atwaurpans þarei gadauþnoda ïn 372.",
+        got: "Und andi warþ gadrauhts Xristaus ïn fon atwaurpans þarei gadauþnoda in 372.",
         en: "Finally, the soldier of Christ was thrown into a fire where he died in 372.",
       },
       notes: `cast into fire Mark 9:22`
@@ -254,7 +254,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "bigat laibos ïs ïn naht jah brāhta þos du Kilikia.",
+        got: "bigat laibos is ïn naht jah brāhta þos du Kilikia.",
         en: "found his remains during the night and transferred them to Cilicia.",
       },
     },
@@ -287,11 +287,11 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Sunjeins sijai ïnkunja saei ïn kunja seinamma",
+      got: "Sunjeins sijai inkunja saei in kunja seinamma",
       sr: "Родољуб је прави ко у своме роду",
       en: "Among his people he is a true patriot",
     },
-    notes: `The word origin of patriot is fellow countryman, so ïnkunja works
+    notes: `The word origin of patriot is fellow countryman, so inkunja works
 well here. In the original Serbian words for people and patriot have the same
 root word too.`
   }], info)}
@@ -334,7 +334,7 @@ that uses an idol loan would overcomplicate this.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïþ Niketa Weihs was gadrauhts Xristaus",
+      got: "Iþ Niketa Weihs was gadrauhts Xristaus",
       sr: "А Никита свети, војник Христа Бога,",
       en: "But Saint Nicetas was a soldier of Christ",
     },
@@ -415,7 +415,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Bloþ ïs was swe rauþ niujis maurginis",
+      got: "Bloþ is was swe rauþ niujis maurginis",
       sr: "Крв његова беше румен нове зоре,",
       en: "His blood was the blush of a new dawn,",
     },
@@ -423,7 +423,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïþ usstaig ahma ïs du gardim himinis;",
+      got: "Iþ usstaig ahma is du gardim himinis;",
       sr: "А дух му се вину у небеске дворе;",
       en: "While his spirit ascended to the courts of heaven.",
     },
@@ -431,7 +431,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïn funin agisleikamma Niketa brann",
+      got: "In funin agisleikamma Niketa brann",
       sr: "У страшном је огњу Никита горео",
       en: "In a dreadful fire, Nicetas was burning,",
     },
@@ -439,7 +439,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Akei nauh und hina dag ïs ni usbrann.",
+      got: "Akei nauh und hina dag is ni usbrann.",
       sr: "Али ни до данас није изгорео.",
       en: "But to this day he hasn’t burned out.",
     },
@@ -475,7 +475,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Martyr balþa, ïnkunja sunjeina,",
+      got: "Martyr balþa, inkunja sunjeina,",
       sr: "Мучениче храбри, прави родољубе,",
       en: "True patriot, brave martyr.",
     },
@@ -492,7 +492,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Ïn þiudangardim miþ aggilum standis nu.",
+      got: "In þiudangardim miþ aggilum standis nu.",
       sr: "У дворове царске с ангелима стао.",
       en: "And now you stand in the royal courts with the angels.",
     },
@@ -524,10 +524,10 @@ ${toGothicLines([{
     text: { got: "Niketa sa Guta", en: "Nicetas the Goth" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025-2026)", en: "a translation by 2sh (2025-2026)." },
+    text: { got: "skeireins fram Iostaiha (2025-2026)", en: "a translation by 2sh (2025-2026)." },
   }], info)}</span>
   <br>
   <span class="nowrap">${toGothicLines([{

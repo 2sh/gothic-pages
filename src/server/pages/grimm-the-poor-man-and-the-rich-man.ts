@@ -15,7 +15,7 @@ import
 
 const slug = 'sa-unleda-jah-sa-gabiga'
 const title = 'Sa Unleda jah sa Gabiga'
-const description = "Sa Unleda jah sa Gabiga, skeireins ïn razdai gutiskai."
+const description = "Sa Unleda jah sa Gabiga, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -51,7 +51,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Faur fairnja mela, biþe liufs Guþ nauh silba ana airþai ïn mannam ƕarboda,',
+        got: 'Faur fairnja mela, biþe liufs Guþ nauh silba ana airþai in mannam ƕarboda,',
         de: "Vor alten Zeiten, als der liebe Gott noch selber auf Erden unter den Menschen wandelte,",
         en: "In olden times, when the Lord himself still used to walk about on this earth amongst men,"
       },
@@ -65,7 +65,7 @@ Jesus walked in John 7:1, John 10:23, Mark 1:16, Mark 11:27, Matthew 9:27`
     },
     {
       text: {
-        got: 'ïta warþ, ei ïs at ainamma andanahtja moþus warþ jah ins nahts biqam',
+        got: 'ita warþ, ei is at ainamma andanahtja moþus warþ jah ins nahts biqam',
         de: "trug es sich zu, daß er eines Abends müde war und ihn die Nacht überfiel,",
         en: "it once happened that he was tired and overtaken by the darkness"
       },
@@ -114,7 +114,7 @@ tired *𐌼𐍉𐌸𐌿𐍃 from PGm u-stem *moþuz.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `Ei þāhta Frauja Guþ unsar “þana gabigan ni kaurida, wiljau at ïmma saljan.”`,
+        got: `Ei þāhta Frauja Guþ unsar “þana gabigan ni kaurida, wiljau at imma saljan.”`,
         de: `Da dachte unser Herrgott ‘dem Reichen werde ich nicht beschwerlich fallen: bei ihm will ich übernachten.’`,
         en: `Then the Lord thought, “I shall be no burden to the rich man, I will stay the night with him.”`
       },
@@ -125,7 +125,7 @@ saliþwos at imma John 14:23.`
     },
     {
       text: {
-        got: `sa gabiga, biþe daur ïs slahan hausida,`,
+        got: `sa gabiga, biþe daur is slahan hausida,`,
         de: `Der Reiche, als er an seine Türe klopfen hörte,`,
         en: `When the rich man heard some one knocking at his door,`
       },
@@ -154,7 +154,7 @@ saliþwos at imma John 14:23.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `Sa gabiga ïnsaƕ du þamma ƕarbonds fram haubida und fotuns,`,
+        got: `Sa gabiga insaƕ du þamma ƕarbonds fram haubida und fotuns,`,
         de: `Der Reiche guckte den Wandersmann von Haupt bis zu den Füßen an,`,
         en: `Then the rich man looked at the traveler from head to foot,`
       },
@@ -174,7 +174,7 @@ from ... to ... Mark 13:27`
     },
     {
       text: {
-        got: `jah ni was swe sums gasaiƕaizau, saei faihu filu ïn pugga habai,`,
+        got: `jah ni was swe sums gasaiƕaizau, saei faihu filu in pugga habai,`,
         de: `und nicht aussah wie einer, der viel Geld in der Tasche hat,`,
         en: `and did not look like one who had much money in his pocket,`
       },
@@ -185,7 +185,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 “
     },
     {
       text: {
-        got: `wiþoda ïs haubiþ seinana jah qaþ`,
+        got: `wiþoda is haubiþ seinana jah qaþ`,
         de: `schüttelte er mit dem Kopf und sprach`,
         en: `he shook his head, and said,`
       },
@@ -214,7 +214,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 “
     },
     {
       text: {
-        got: `swa ganimau ïk silba hrugga bidagwins ïn handau.`,
+        got: `swa ganimau ik silba hrugga bidagwins in handau.`,
         de: `so könnte ich selber den Bettelstab in die Hand nehmen.`,
         en: `I might very soon go begging myself. `
       },
@@ -228,7 +228,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 “
     },
     {
       text: {
-        got: `þaþroh þan galauk augadauro ïs jah aflaílot þana Guþ liubana standandan.`,
+        got: `þaþroh þan galauk augadauro is jah aflaílot þana Guþ liubana standandan.`,
         de: `Schlug damit sein Fenster zu und ließ den lieben Gott stehen.`,
         en: `and with this he shut down the window and left the Lord standing there."`
       },
@@ -242,7 +242,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 “
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `Swaei bilaiþ ïmma sa liufs Guþ jah ufarlaiþ du razn þamma leitil.`,
+        got: `Swaei bilaiþ imma sa liufs Guþ jah ufarlaiþ du razn þamma leitil.`,
         de: `Also kehrte ihm der liebe Gott den Rücken und ging hinüber zu dem kleinen Haus.`,
         en: `So the Lord turned his back on the rich man, and went across to the small house`
       }
@@ -261,7 +261,7 @@ Another possible suffix: [url=https://en.wiktionary.org/wiki/Reconstruction:Goth
     },
     {
       text: {
-        got: `jah baþ þana ƕarbondan ei ïnnïddjedi.`,
+        got: `jah baþ þana ƕarbondan ei innïddjedi.`,
         de: `und bat den Wandersmann einzutreten.`,
         en: `and bade the traveler come in.`
       },
@@ -270,7 +270,7 @@ Another possible suffix: [url=https://en.wiktionary.org/wiki/Reconstruction:Goth
     },
     {
       text: {
-        got: `“Salei naht at mis,” qaþ ïs,`,
+        got: `“Salei naht at mis,” qaþ is,`,
         de: `‘Bleibt die Nacht über bei mir,’ sagte er,`,
         en: `“Pass the night with me,” said he;`
       },
@@ -289,7 +289,7 @@ Perhaps 𐌽𐌹𐌱𐌰𐌹 can be used here?
     },
     {
       text: {
-        got: `Þatei leikaida þamma Guda liubamma, jah ïnnïddja du ïmma.`,
+        got: `Þatei leikaida þamma Guda liubamma, jah innïddja du imma.`,
         de: `Das gefiel dem lieben Gott, und er trat zu ihm ein.`,
         en: `This pleased the Lord, and he went in.`
       },
@@ -297,7 +297,7 @@ Perhaps 𐌽𐌹𐌱𐌰𐌹 can be used here?
     },
     {
       text: {
-        got: `Qens þis unledis ufrakida ïmma handu ïzos,`,
+        got: `Qens þis unledis ufrakida imma handu izos,`,
         de: `Die Frau des Armen reichte ihm die Hand,`,
         en: `The poor man’s wife shook hands with him,`
       },
@@ -305,7 +305,7 @@ Perhaps 𐌽𐌹𐌱𐌰𐌹 can be used here?
     },
     {
       text: {
-        got: `gatáih ïna swe andnumanana jah qaþ,`,
+        got: `gatáih ina swe andnumanana jah qaþ,`,
         de: `hieß ihn willkommen und sagte,`,
         en: `and welcomed him, and said`
       },
@@ -326,14 +326,14 @@ usþulaiþ mik Corinthians II 11:1 => put up with their possessions`
     },
     {
       text: {
-        got: `ïja ni habaidedeina filu,`,
+        got: `ija ni habaidedeina filu,`,
         de: `sie hätten nicht viel,`,
         en: `they had not much to offer him,`
       }
     },
     {
       text: {
-        got: `ïþ ƕa wesi, gebi hairtins gabaurjaba.`,
+        got: `iþ ƕa wesi, gebi hairtins gabaurjaba.`,
         de: `aber was es wäre, gäben sie von Herzen gerne.`,
         en: `but what they had they would give him with all their hearts.`
       }
@@ -365,10 +365,10 @@ fire: *aids`
     text: { got: "Sa Unleda jah sa Gabiga", en: "Der Arme und der Reiche" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

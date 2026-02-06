@@ -15,7 +15,7 @@ import
 
 const slug = 'menanahts'
 const title = 'Menanahts'
-const description = "Menanahts, skeireins ïn razdai gutiskai."
+const description = "Menanahts, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -52,14 +52,14 @@ const generator: PageGenerator = info =>
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Ïta was swe himins",
+      got: "Ita was swe himins",
       de: "Es war, als hätt’ der Himmel",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "airþai ïn silain kukidedi,",
+      got: "airþai in silain kukidedi,",
       de: "Die Erde still geküßt,",
     },
     notes:
@@ -69,7 +69,7 @@ silains unattested but following þahains from þahan.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "ei si ïn skeimin blomins",
+      got: "ei si in skeimin blomins",
       de: "Daß sie im Blütenschimmer",
     },
     notes: `Although in the dict skeima means lantern, torch,
@@ -81,7 +81,7 @@ blomins. Using blomins in singular for the rhyme.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "nu bi ïna draumjan þaurftedi.",
+      got: "nu bi ina draumjan þaurftedi.",
       de: "Von ihm nun träumen müßt’.",
     },
   }], info)}
@@ -90,7 +90,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Luftus ïddja þairh haiþjos,",
+      got: "Luftus iddja þairh haiþjos,",
       de: "Die Luft ging durch die Felder,",
     },
   }], info)}
@@ -167,10 +167,10 @@ see attested afhaim(ei)s and anahaim(ei)s for “absent” and “present”"`
     text: { got: "Menanahts", en: "Mondnacht" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

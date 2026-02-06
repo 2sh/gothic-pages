@@ -37,7 +37,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
   text: {
-    got: 'Qim jah gabau ïn unsis,',
+    got: 'Qim jah gabau in unsis,',
     grc: "ἐλθὲ καὶ σκήνωσον ἐν ἡμῖν,",
     en: "Come and abide in us,",
   }

@@ -18,7 +18,7 @@ import
 
 const slug = 'sabba'
 const title = 'Sabba sa Guta Martyr'
-const description = "Sabba sa Guta Martyr, skeireins ïn razdai gutiskai."
+const description = "Sabba sa Guta Martyr, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -117,7 +117,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'Andhofun ïna swarands ei ni ainshun weseina.',
+        got: 'Andhofun ina swarands ei ni ainshun weseina.',
         en: "They answered him on their honour that there were none.",
       },
     },
@@ -129,13 +129,13 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: '“Ni ainshun swerai aiþ ïn meina. Ïk ïm Xristeins.”',
+        got: '“Ni ainshun swerai aiþ in meina. Ik im Xristeins.”',
         en: "‘Let no-one swear an oath on my behalf. I am a Christian.’",
       },
     },
     {
       text: {
-        got: "Sa reiks, saiƕands þana wainahan arm, laílot ïna gaggan ïn gawairþja, qiþands:",
+        got: "Sa reiks, saiƕands þana wainahan arm, laílot ina gaggan in gawairþja, qiþands:",
         en: "The prince, seeing this poor wretch, let him go in peace, saying:",
       },
       notes: `“andbindiþ ina jah letiþ gaggan” John 11:44`
@@ -152,7 +152,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Afar jer biþe paska warþ, gudja, Sansala, qam ïn þizai haimai jah dulþida miþ Sabbin.',
+        got: 'Afar jer biþe paska warþ, gudja, Sansala, qam in þizai haimai jah dulþida miþ Sabbin.',
         en: "The next year, just at Easter, a priest, Sansal, came to the village and celebrated Easter with Sabbas.",
       },
       notes: `“biþe warþ dags” Luke 6:13
@@ -170,7 +170,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'jah ïnuh bleiþein anastodidedun mans Gudis du bautan,',
+        got: 'jah inuh bleiþein anastodidedun mans Gudis du bautan,',
         en: "and began to belabour the men of God without mercy,",
       },
     },
@@ -182,7 +182,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'gabundun þans bans bagmam jah sokidedun ïns nauþjan mimz, þatei galiugagudam gasaliþ was, ïtan.',
+        got: 'gabundun þans bans bagmam jah sokidedun ins nauþjan mimz, þatei galiugagudam gasaliþ was, itan.',
         en: "bound them both to trees and tried to force them to eat meat offered to idols.",
       },
       notes: `Seems to be using the dative without a preposition Corinthians I 7:27, Romans 7:2
@@ -193,7 +193,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'Ïþ mans Gudis, gamunandans waurda apaustaule,',
+        got: 'Iþ mans Gudis, gamunandans waurda apaustaule,',
         en: "But the men of God, remembering the Apostle’s words,",
       },
     },
@@ -205,27 +205,27 @@ with a different declension.`
     },
     {
       text: {
-        got: 'Sa reiks und andi gawargeiþ Sabbin dauþau jah atgibiþ ïna gadrauhtim.',
+        got: 'Sa reiks und andi gawargeiþ Sabbin dauþau jah atgibiþ ina gadrauhtim.',
         en: "The prince finally sentenced Sabbas to death and handed him over to the soldiers.",
       },
       notes: "gawargjand ina dauþau jah atgiband ina þiudom Mark 10:33"
     },
     {
       text: {
-        got: 'Sabba ïddja du stada waurstweins miþ swegniþai, hazjands Guþ.',
+        got: 'Sabba iddja du stada waurstweins miþ swegniþai, hazjands Guþ.',
         en: "Sabbas went to the place of execution full of joy, praising God.",
       },
     },
     {
       text: {
-        got: 'Bigitandans ïn ïmma mannan goþs, sokidedun þai gadrauhteis ïna ïn wiga galausjan',
+        got: 'Bigitandans in imma mannan goþs, sokidedun þai gadrauhteis ina in wiga galausjan',
         en: "Recognising in him a good man, the soldiers sought to set him free on the way,",
       },
       notes: `in imma ni ainohun fairino bigat. John 19:4`
     },
     {
       text: {
-        got: 'ïþ þata gaþraih Sabbin mikilaba qaþuh þaim gadrauhtim',
+        got: 'iþ þata gaþraih Sabbin mikilaba qaþuh þaim gadrauhtim',
         en: "but Sabbas was greatly distressed by this and told the soldiers",
       },
     },
@@ -238,13 +238,13 @@ with a different declension.`
     },
     {
       text: {
-        got: 'Þan brāhtedun þai gadrauhteis ïna du aƕai,',
+        got: 'Þan brāhtedun þai gadrauhteis ina du aƕai,',
         en: "Then the soldiers brought him to a river,",
       },
     },
     {
       text: {
-        got: 'gabundun hallu bi halsa ïs jah waurpun ïna ïn watin.',
+        got: 'gabundun hallu bi halsa is jah waurpun ina in watin.',
         en: "tied a rock round his neck and threw him into the water.",
       },
     },
@@ -259,13 +259,13 @@ with a different declension.`
     },
     {
       text: {
-        got: 'ïn erai Valainis kaisaris,',
+        got: 'in erai Valainis kaisaris,',
         en: "in the time of the Emperor Valens,",
       },
     },
     {
       text: {
-        got: 'bigat nau Sabbins ana staþa gawaurpanana ïn wigana miþ gutam jah atnam þana du Kappadaukia.',
+        got: 'bigat nau Sabbins ana staþa gawaurpanana in wigana miþ gutam jah atnam þana du Kappadaukia.',
         en: "found Sabbas’s body, cast up onto the bank, during a war with the Goths and took it to Cappadocia.",
       },
     },
@@ -274,7 +274,7 @@ with a different declension.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Sabba Weihs gawann ïn 372, miþ 31 jere.',
+        got: 'Sabba Weihs gawann in 372, miþ 31 jere.',
         en: "St Sabbas suffered in 372, at the age of 31. ",
       },
     },
@@ -285,10 +285,10 @@ with a different declension.`
     text: { got: "Sabba sa Guta", en: "Sabbas the Goth" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

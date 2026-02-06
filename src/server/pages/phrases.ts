@@ -52,7 +52,7 @@ const generator: PageGenerator = info =>
   article += html`<p lang='got'>${toGothicLines([
     {
       text: {
-        got: 'Frauja Ïesu Xristau, Sunau Gudis, armai mik frawaurhtana (frawaurhta)',
+        got: 'Frauja Iesu Xristau, Sunau Gudis, armai mik frawaurhtana (frawaurhta)',
         grc: "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)",
         en: "Lord Jesus Christ, Son of God, have mercy on me, a sinner",
       }
@@ -313,7 +313,7 @@ Proto-West Germanic *munik, down to English Monk, German Mönch, etc.
   article += html`<p>not consecrated / lay(person): <span lang='got'>${toGothicLines([
     {
       text: {
-        got: 'lāïgs',
+        got: 'lāigs',
         grc: "λᾱϊκός",
         en: "lay(person)",
       },

@@ -3,7 +3,7 @@ import { toGothicLines } from "@server/tools"
 
 const oComeLetUsWorshipRep: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'Hiri, ïnweitaima jah driusaima',
+    got: 'Hiri, inweitaima jah driusaima',
     grc: "Δεῦτε προσκυνήσωμεν καὶ προσπέσωμεν",
     en: "Come, let us worship and bow down",
   },
@@ -35,7 +35,7 @@ ${oComeLetUsWorshipRep(pi)}
 <br>
 ${toGothicLines([{
   text: {
-    got: 'du ïmma Xristau Þiudana jah Guda unsaramma.',
+    got: 'du imma Xristau Þiudana jah Guda unsaramma.',
     grc: "αὐτῷ, Χριστῷ τῷ βασιλεῖ καὶ Θεῷ ἡμῶν.",
     en: "before Him, Christ our King and God.",
   }

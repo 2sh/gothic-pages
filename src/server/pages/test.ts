@@ -60,7 +60,7 @@ ${nowAndEver(info)}
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Razn, Xristus, Pasxa, ïzwis, ƕazuh, þizos',
+        got: 'Razn, Xristus, Pasxa, izwis, ƕazuh, þizos',
       },
     },
   ], info)}</p>`

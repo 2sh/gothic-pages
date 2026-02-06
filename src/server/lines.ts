@@ -12,7 +12,7 @@ export const amen: ReuseLines = pi => toGothicLines([{
 
 export const nowAndEver: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'nū jah aiw, jah ïn aiwins aiwe.',
+    got: 'nū jah aiw, jah in aiwins aiwe.',
     grc: "νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
     en: "now and ever and to the ages of ages.",
   },
@@ -24,7 +24,7 @@ from generation to generation and unto ages of ages.`
 
 export const bothNowAndEver: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'Jah nū jah aiw, jah ïn aiwins aiwe.',
+    got: 'Jah nū jah aiw, jah in aiwins aiwe.',
     grc: "καὶ νῦν, καὶ ἀεί, καὶ εἰς τοὺς αἰῶνας τῶν αἰώνων.",
     en: "both now and ever and to the ages of ages.",
   },
@@ -127,7 +127,7 @@ ${amen(pi)}`
 
 export const forYoursIs: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'Unte þeina ïst þiudangardi jah mahts jah wulþus',
+    got: 'Unte þeina ist þiudangardi jah mahts jah wulþus',
     grc: "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα",
     en: "for yours is the kingdom and the power and the glory",
   },

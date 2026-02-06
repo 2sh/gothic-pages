@@ -5,7 +5,7 @@ export const hymnToTheotokos: ReuseLines = pi => `
 ${toGothicLines([
     {
       text: {
-        got: 'Gatils ïst raihtis du þiuþjan þuk Gudabairandein,',
+        got: 'Gatils ist raihtis du þiuþjan þuk Gudabairandein,',
         grc: "Ἄξιόν ἐστιν ὡς ἀληθῶς μακαρίζειν σε τὴν Θεοτόκον,",
         en: "It is truly meet to bless thee, the Theotokos,",
       },
@@ -30,7 +30,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'Sweriza þaim Xairubeim jah wulþagiza ïnuh galeiki þaim Sairafeim,',
+        got: 'Sweriza þaim Xairubeim jah wulþagiza inuh galeiki þaim Sairafeim,',
         grc: "Τὴν τιμιωτέραν τῶν Χερουβεὶμ καὶ ἐνδοξοτέραν ἀσυγκρίτως τῶν Σεραφείμ,",
         en: "More honorable than the Cherubim, and beyond compare more glorious than the Seraphim,",
       },
@@ -42,7 +42,7 @@ declension, I’ve done the same and stuck articles before them for clarificatio
 ${toGothicLines([
     {
       text: {
-        got: 'saei ïn unriurein Guþ Waurd gabar,',
+        got: 'saei in unriurein Guþ Waurd gabar,',
         grc: "τὴν ἀδιαφθόρως Θεὸν Λόγον τεκοῦσαν,",
         en: "who without corruption gavest birth to God the Word,",
       },

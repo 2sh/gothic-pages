@@ -18,7 +18,7 @@ import
 
 const slug = 'psalmo-50'
 const title = 'Psalmo 50'
-const description = "Psalmo 50, skeireins ïn razdai gutiskai."
+const description = "Psalmo 50, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -92,7 +92,7 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte ungaraihtein meina ïk kann, jah frawaurhts meina ïn andwairþja meinamma ïst sinteino.",
+      got: "Unte ungaraihtein meina ik kann, jah frawaurhts meina in andwairþja meinamma ist sinteino.",
       grc: "ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διαπαντός.",
       en: "For I am conscious of mine iniquity; and my sin is continually before me.",
     },
@@ -100,10 +100,17 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Þus",
+      got: "Du Þus ainamma ik frawaurhta jah þana ubilo in andwairþja Þeinamma tawida,",
       grc: "σοὶ μόνῳ ἥμαρτον καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε.",
       en: "Against thee only have I sinned, and done evil before thee: that thou mightest be justified in thy sayings, and mightest overcome when thou art judged.",
     },
+    notes:
+`wiþra vs du (Luke 17:4), I went with du as the Greek here doesn't have a preposition
+but I don't want to leave it without one, so I've gone with the more vague du.
+
+"imma ainamma" Luke 4:8, "þuk ainana" John 17:3
+
+Using def article for evil like in the lord's prayer`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
@@ -231,10 +238,10 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
     text: { got: "Psalmo 50", en: "Psalm 50" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2026).", en: "a translation by 2sh (2026)." },
+    text: { got: "skeireins fram iostaiha (2026).", en: "a translation by 2sh (2026)." },
   }], info)}</span>
 </p>`
 

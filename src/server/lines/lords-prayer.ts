@@ -6,7 +6,7 @@ export const lordsPrayer: ReuseLines = pi => `
 ${toGothicLines([
     {
       text: {
-        got: 'Atta unsar þū ïn himinam,',
+        got: 'Atta unsar þū in himinam,',
         grc: "Πάτερ ἡμῶν ὁ ἐν τοῖς οὐρανοῖς,",
         en: "Our Father in heaven,",
       },
@@ -41,7 +41,7 @@ ${toGothicLines([
     },
     {
       text: {
-        got: 'swe ïn himina jah ana airþai.',
+        got: 'swe in himina jah ana airþai.',
         grc: "ὡς ἐν οὐρανῷ καὶ ἐπὶ τῆς γῆς.",
         en: "on earth as it is in heaven.",
       }
@@ -81,7 +81,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'Jah ni briggais uns ïn fraistubnjai,',
+        got: 'Jah ni briggais uns in fraistubnjai,',
         grc: "Καὶ μὴ εἰσενέγκῃς ἡμᾶς εἰς πειρασμόν,",
         en: "And lead us not into temptation,",
       }

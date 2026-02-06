@@ -18,7 +18,7 @@ import
 
 const slug = 'psalmo-138'
 const title = 'Psalmo 138'
-const description = "Psalmo 138, skeireins ïn razdai gutiskai."
+const description = "Psalmo 138, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -105,7 +105,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte nist liutei ïn tuggon meinai.",
+      got: "unte nist liutei in tuggon meinai.",
       grc: "ὅτι οὐκ ἔστι δόλος ἐν γλώσσῃ μου.",
       en: "For there is no unrighteous word in my tongue.",
     },
@@ -122,7 +122,7 @@ Lot feels more like fate, as in it wasn't your own choice.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Sildaleik ïst kunþi Þein mis; ïst gaswinþida, ïk ni mag allis du ïmma gasniwan.",
+      got: "Sildaleik ist kunþi Þein mis; ist gaswinþida, ik ni mag allis du imma gasniwan.",
       grc: "ἐθαυμαστώθη ἡ γνῶσίς σου ἐξ ἐμοῦ· ἐκραταιώθη, οὐ μὴ δύνωμαι πρὸς αὐτήν.",
       en: "The knowledge of thee is too wonderful for me; it is very difficult, I cannot attain to it.",
     },
@@ -155,7 +155,7 @@ been translated differently than a genitive).`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jabai ussteigau ïn himin, Þū ïs þar; jabai atsteigau ïn halja, atïs;",
+      got: "Jabai ussteigau in himin, Þū is þar; jabai atsteigau in halja, atïs;",
       grc: "ἐὰν ἀναβῶ εἰς τὸν οὐρανόν, σὺ εἶ ἐκεῖ· ἐὰν καταβῶ εἰς τὸν ᾅδην, πάρει·",
       en: "If I should go up to heaven, thou art there: if I should go down to hell, thou art present.",
     },
@@ -164,7 +164,7 @@ been translated differently than a genitive).`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "jabai nimau fiþrakans meinans at ūhtwon, jah bauau ïn andjam mareins,",
+      got: "jabai nimau fiþrakans meinans at ūhtwon, jah bauau in andjam mareins,",
       grc: "ἐὰν ἀναλάβοιμι τὰς πτέρυγάς μου κατ᾿ ὄρθρον καὶ κατασκηνώσω εἰς τὰ ἔσχατα τῆς θαλάσσης,",
       en: "If I should spread my wings to fly straight forward (or Alex. κατ᾿ ὄρθον, toward the dawn), and sojourn at the extremity of the sea,",
     },
@@ -187,14 +187,14 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jah ïk qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ liuhaþ ïn botos meinaizos;",
+      got: "Jah ik qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ liuhaþ in botos meinaizos;",
       grc: "καὶ εἶπα· ἄρα σκότος καταπατήσει με, καὶ νὺξ φωτισμὸς ἐν τῇ τρυφῇ μου·",
       en: "When I said, Surely the darkness will cover me; even the night was light in my luxury.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte riqis ni wairþiþ riqis fram Þus, jah nahts swe dags wairþiþ bairhts; swaswe þata riqis ïzos, swah þata liuhaþ ïzos.",
+      got: "unte riqis ni wairþiþ riqis fram Þus, jah nahts swe dags wairþiþ bairhts; swaswe þata riqis izos, swah þata liuhaþ izos.",
       grc: "ὅτι σκότος οὐ σκοτισθήσεται ἀπὸ σοῦ, καὶ νὺξ ὡς ἡμέρα φωτισθήσεται· ὡς τὸ σκότος αὐτῆς, οὕτως καὶ τὸ φῶς αὐτῆς.",
       en: "For darkness will not be darkness with thee; but night will be light as day: as its darkness, so shall its light be to thee.",
     },
@@ -223,7 +223,7 @@ mean "mindset, character" in Norse languages.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoma meins ïn undaristin airþos;",
+      got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoma meins in undaristin airþos;",
       grc: "οὐκ ἐκρύβη τὸ ὀστοῦν μου ἀπὸ σοῦ, ὃ ἐποίησας ἐν κρυφῇ, καὶ ἡ ὑπόστασίς μου ἐν τοῖς κατωτάτοις τῆς γῆς·",
       en: "My bones which thou madest in secret were not hidden from thee, nor my substance, in the lowest parts of the earth.",
     },
@@ -237,7 +237,7 @@ in undaristo airþos Ephesians 4:9, although it's in ACC and making it DAT for t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "ungahabaiþana meinana witun augona Þeina, jah ïn bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun ïn ïm.",
+      got: "ungahabaiþana meinana witun augona Þeina, jah in bokom Þeinaim allai gameljanda; dagis gadiganda jah ni ainshun in im.",
       grc: "τὸ ἀκατέργαστόν μου εἶδον οἱ ὀφθαλμοί σου, καὶ ἐπὶ τὸ βιβλίον σου πάντες γραφήσονται· ἡμέρας πλασθήσονται καὶ οὐθεὶς ἐν αὐτοῖς.",
       en: "Thine eyes saw my unwrought substance, and all men shall be written in thy book; they shall be formed by day, though there should for a time be no one among them.",
     },
@@ -252,14 +252,14 @@ Another translation for the last part by Brenton "they shall be formed by day, t
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Mis auk filu swerai sind frijonds Þeinai, Guþ, filu gaswinþida sind reikja ïze;",
+      got: "Mis auk filu swerai sind frijonds Þeinai, Guþ, filu gaswinþida sind reikja ize;",
       grc: "ἐμοὶ δὲ λίαν ἐτιμήθησαν οἱ φίλοι σου, ὁ Θεός, λίαν ἐκραταιώθησαν αἱ ἀρχαὶ αὐτῶν·",
       en: "But thy friends, O God, have been greatly honoured by me; their rule has been greatly strengthened.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "garaþja ïns, jah ufar malman managnodedun; urraisiþs jah nauh ïm miþ Þus.",
+      got: "garaþja ins, jah ufar malman managnodedun; urraisiþs jah nauh im miþ Þus.",
       grc: "ἐξαριθμήσομαι αὐτούς, καὶ ὑπὲρ ἄμμον πληθυνθήσονται· ἐξηγέρθην καὶ ἔτι εἰμὶ μετὰ σοῦ.",
       en: "I will number them, and they shall be multiplied beyond the sand; I awake, and am still with thee.",
     },
@@ -274,7 +274,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte miþ waihjon sijuþ bi mitonins; nimand ïn uswissja baurgs Þeina.",
+      got: "unte miþ waihjon sijuþ bi mitonins; nimand in uswissja baurgs Þeina.",
       grc: "ὅτι ἐρισταί ἐστε εἰς διαλογισμούς· λήψονται εἰς ματαιότητα τὰς πόλεις σου.",
       en: "For thou wilt say concerning their thought, that they shall take thy cities in vain.",
     },
@@ -282,7 +282,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Niu þans fijandans þuk, Frauja, fijaida jah ïn fiande þeinaize gauriþs?",
+      got: "Niu þans fijandans þuk, Frauja, fijaida jah in fiande þeinaize gauriþs?",
       grc: "οὐχὶ τοὺς μισοῦντάς σε, Κύριε, ἐμίσησα καὶ ἐπὶ τοὺς ἐχθρούς σου ἐξετηκόμην;",
       en: "Have I not hated them, O Lord, that hate thee? and wasted away because of thine enemies?",
     },
@@ -290,7 +290,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Fullai fijaþwai fija ïns, fijands waurþun mis.",
+      got: "Fullai fijaþwai fija ins, fijands waurþun mis.",
       grc: "τέλειον μῖσος ἐμίσουν αὐτούς, εἰς ἐχθροὺς ἐγένοντό μοι.",
       en: "I have hated them with perfect hatred; they were counted my enemies.",
     },
@@ -306,7 +306,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jah saiƕ, jau wigs ungaraihteins ïn mis, jah tiuh mik ïn wiga aiweinamma.",
+      got: "Jah saiƕ, jau wigs ungaraihteins in mis, jah tiuh mik in wiga aiweinamma.",
       grc: "καὶ ἴδε εἰ ὁδὸς ἀνομίας ἐν ἐμοί, καὶ ὁδήγησόν με ἐν ὁδῷ αἰωνίᾳ.",
       en: "and see if there is any way of iniquity in me, and lead me in an everlasting way.",
     },
@@ -318,10 +318,10 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     text: { got: "Psalmo 138", en: "Psalm 138" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2026).", en: "a translation by 2sh (2026)." },
+    text: { got: "skeireins fram Iostaiha (2026).", en: "a translation by 2sh (2026)." },
   }], info)}</span>
 </p>`
 

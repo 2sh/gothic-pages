@@ -28,7 +28,7 @@ import { fromLatin } from '@common/transliterate'
 
 const slug = 'leiturgei-xrisaustaumaus'
 const title = 'Leiturgei Gudiska Xrisaustaumaus'
-const description = "Leiturgei Gudiska Ïohannis Xrisaustaumaus Weihis, skeireins ïn razdai gutiskai."
+const description = "Leiturgei Gudiska Iohannis Xrisaustaumaus Weihis, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -107,7 +107,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Ïn gawairþja,',
+        got: 'In gawairþja,',
         grc: "Ἐν εἰρήνῃ,",
         en: "In peace,",
       }
@@ -128,7 +128,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Faur gawairþi ïupaþro',
+        got: 'Faur gawairþi iupaþro',
         grc: "Ὑπὲρ τῆς ἄνωθεν εἰρήνης",
         en: "For the peace from above",
       },
@@ -217,7 +217,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'jah ïn ïta miþ galaubeinai, aizai jah Gudis faurhtein ïnngaggandans,',
+        got: 'jah in ita miþ galaubeinai, aizai jah Gudis faurhtein inngaggandans,',
         grc: "καὶ τῶν μετὰ πίστεως, εὐλαβείας καὶ φόβου Θεοῦ εἰσιόντων ἐν αὐτῷ,",
         en: "and for those who enter it with faith, reverence, and the fear of God,",
       },
@@ -285,7 +285,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'andbahti ïn Xristau,',
+        got: 'andbahti in Xristau,',
         grc: "τῆς ἐν Χριστῷ διακονίας",
         en: "for the diaconate in Christ",
       }
@@ -327,7 +327,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'all reiki jah waldufni ïn þizai,',
+        got: 'all reiki jah waldufni in þizai,',
         grc: "πάσης ἀρχῆς καὶ ἐξουσίας ἐν αὐτῷ,",
         en: "and all the sovereignty and authority in him,",
       }
@@ -370,7 +370,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'jah ïn þaim all bauandane galaubeinaize,',
+        got: 'jah in þaim all bauandane galaubeinaize,',
         grc: "καὶ τῶν πίστει οἰκούντων ἐν αὐταῖς,",
         en: "and for the faithful who live in them,",
       },
@@ -453,7 +453,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'jah nasein ïze,',
+        got: 'jah nasein ize,',
         grc: "καὶ τῆς σωτηρίας αὐτῶν,",
         en: "and for their salvation,",
       }
@@ -604,13 +604,13 @@ ${speakerPriest(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Unte gadob ïst Þus all wulþus, sweriþa jah ïnweit,',
+        got: 'Unte gadob ist Þus all wulþus, sweriþa jah inweit,',
         grc: "Ὅτι πρέπει σοι πᾶσα δόξα, τιμὴ καὶ προσκύνησις,",
         en: "For to You belong all glory, honor, and worship",
       },
       notes: `gadob ist weihaim Ephesians 5:3
 
-*ïnweit from ïnweitan, looking at fraweit and idweit.`
+*inweit from inweitan, looking at fraweit and idweit.`
     },
   ], info)}
 <br>
@@ -632,13 +632,13 @@ ${amen(info)}
     text: { got: "Leiturgei Gudiska", en: "Divine Liturgy" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Ïohannis Xrisaustaumaus Weihis", en: "of Saint John Chrysostom" },
+    text: { got: "Iohannis Xrisaustaumaus Weihis", en: "of Saint John Chrysostom" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025-2026).", en: "a translation by 2sh (2025-2026)." },
+    text: { got: "skeireins fram Iostaiha (2025-2026).", en: "a translation by 2sh (2025-2026)." },
   }], info)}</span>
 </p>`
 

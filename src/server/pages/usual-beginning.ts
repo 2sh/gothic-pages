@@ -38,7 +38,7 @@ import { fromLatin } from '@common/transliterate'
 
 const slug = "anastodeins-biuhteiga"
 const title = 'Anastodeins Biuhteiga'
-const description = "Anastodeins biuhteiga andbahtje jah bidos sundraizos Aurþaudaukseinaize, skeireins ïn razdai gutiskai."
+const description = "Anastodeins biuhteiga andbahtje jah bidos sundraizos Aurþaudaukseinaize, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -136,7 +136,7 @@ speech = ''
   speech += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Ïn namin',
+        got: 'In namin',
         grc: "εἰς τὸ ὄνομα",
         en: "In the name",
       },
@@ -225,8 +225,8 @@ ${timesTwelve(info)}
   const gothicAnnotation = [
     { text: { got: "Anastodeins biuhteiga", en: "The usual beginning" } },
     { text: { got: "andbahtje jah bidos sundraizos Aurþaudaukseinaize", en: "of Orthodox services and private prayer" } },
-    { text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," } },
-    { text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." } },
+    { text: { got: "in razdai gutiskai,", en: "in the Gothic language," } },
+    { text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." } },
   ]
 
   article += html`<p class="annotation">${gothicAnnotation.map(a => `

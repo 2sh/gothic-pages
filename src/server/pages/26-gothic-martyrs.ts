@@ -79,8 +79,8 @@ import
 // queen and daughter are separate martyrs
 
 const slug = "26-martyros"
-const title = "26 Martyros Gutlandis ïn Krim"
-const description = `${title}, skeireins ïn razdai gutiskai.`
+const title = "26 Martyros Gutlandis in Krim"
+const description = `${title}, skeireins in razdai gutiskai.`
 
 const anchors: Anchor[] = [
   {
@@ -150,19 +150,19 @@ familiarity.`
     },
     {
       text: {
-        got: 'saiƕands gakunnandans ïs andnimandein Xristeinein',
+        got: 'saiƕands gakunnandans is andnimandein Xristeinein',
         en: "to see his subjects embracing Christianity",
       },
     },
     {
       text: {
-        got: 'ïn wailamereinais Wulfilins Aipiskaupaus arianiskis.',
+        got: 'in wailamereinais Wulfilins Aipiskaupaus arianiskis.',
         en: "because of the preaching of the Arian bishop Ulfilas.",
       },
     },
     {
       text: {
-        got: 'Swa, ïs anabauþ balwjan jah usqiman managana þize, ufta ïnuh kustu.',
+        got: 'Swa, is anabauþ balwjan jah usqiman managana þize, ufta inuh kustu.',
         en: "So, he ordered many of them to be tortured and executed, often without a trial.",
       },
     },
@@ -187,7 +187,7 @@ spilla + witubni + areis like Geschichtswissenschaftler`
     },
     {
       text: {
-        got: `Aþanareiks brahta managans ïn managos balweinins;`,
+        got: `Aþanareiks brahta managans in managos balweinins;`,
         en: `Athanaric subjected many individuals to many punishments;`,
       },
       notes: `in aljana briggan ins. Romans 11:11`
@@ -211,7 +211,7 @@ put before, faur + ACC with motion Mark 8:6.`
     },
     {
       text: {
-        got: `Qiþan ïst þatei eis gasatidai fram Aþanareika du waurkjan ragina unmanariggwa seina,`,
+        got: `Qiþan ist þatei eis gasatidai fram Aþanareika du waurkjan ragina unmanariggwa seina,`,
         en: `It is said that the officers appointed by Athanaric to execute his cruel mandates,`,
       },
     },
@@ -223,7 +223,7 @@ put before, faur + ACC with motion Mark 8:6.`
     },
     { // Let check
       text: {
-        got: `jah letand, ei ïta du hleiþrom þize mundane swe andnumanai Xristeinein attauhan was,`,
+        got: `jah letand, ei ita du hleiþrom þize mundane swe andnumanai Xristeinein attauhan was,`,
         en: `and had it conveyed to the tents of those who were suspected of having embraced Christianity,`,
       },
     },
@@ -257,7 +257,7 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
     },
     {
       text: {
-        got: `Ïn þaim wesun mans jah qinons;`,
+        got: `In þaim wesun mans jah qinons;`,
         en: `Among them were men and women;`,
       },
     },
@@ -269,13 +269,13 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
     },
     {
       text: {
-        got: `gaþlauhun ïn aikklesjon seina soei hleiþra was.`,
+        got: `gaþlauhun in aikklesjon seina soei hleiþra was.`,
         en: `they fled to their church, which was a tent.`,
       },
     },
     {
       text: {
-        got: `Þai haiþnai inbrannidedun ïta, jah alla wesun qistida.”`,
+        got: `Þai haiþnai inbrannidedun ita, jah alla wesun qistida.”`,
         en: `The pagans set fire to it, and all were destroyed.”`,
       },
     },
@@ -284,7 +284,7 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Ïn funin mikilamma 308 þiudos fraqistnodedun,',
+        got: 'In funin mikilamma 308 þiudos fraqistnodedun,',
         en: "In the fiery inferno 308 people perished,",
       },
     },
@@ -303,7 +303,7 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
     },
     {
       text: {
-        got: 'Þata warþ ïn Gutlanda ïn Krim.',
+        got: 'Þata warþ in Gutlanda in Krim.',
         en: "This took place in Gothia in the Crimea.",
       },
     },
@@ -312,20 +312,20 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
     article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Ïn þaim was sums manna xristeins saei brahta hunslahlaibans du aikklesjon',
+        got: 'In þaim was sums manna xristeins saei brahta hunslahlaibans du aikklesjon',
         en: "Among these was a certain Christian man who was bringing the offering breads to the church",
       },
     },
     {
       text: {
-        got: 'þaiei faura sauda aiwxaristiïns ïn Leiturgein Gudiska brūhtai weseina, iþ warþ fram gadrauhtim gafāhans',
+        got: 'þaiei faura sauda aiwxaristiïns in Leiturgein Gudiska brūhtai weseina, iþ warþ fram gadrauhtim gafāhans',
         en: "to be used for the eucharistic sacrifice in the Divine Liturgy, but he was captured by the soldiers.",
       },
       notes: `gafahans warþ fram Xristau Philippians 3:12`
     },
     {
       text: {
-        got: 'sai nū, ni hunsla ïnuh saiwala, ak ïs warþ hunsla qiu Guda,',
+        got: 'sai nū, ni hunsla inuh saiwala, ak is warþ hunsla qiu Guda,',
         en: "Therefore, instead of a soulless offering, he himself became a living offering to God,",
       },
     },
@@ -337,7 +337,7 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
     },
     {
       text: {
-        got: 'jah ïn þaim 26 martyram anaaukans was.',
+        got: 'jah in þaim 26 martyram anaaukans was.',
         en: "and was numbered among the twenty-six Martyrs.",
       },
     },
@@ -508,7 +508,7 @@ Attested as “bi [...] Batwin Bilaif” probably in ACC so a-stem perhaps.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Bi sum jera, ïn þiudinassau Valaintinianaus jah Þaiaudausiaus (383–392),',
+        got: 'Bi sum jera, in þiudinassau Valaintinianaus jah Þaiaudausiaus (383–392),',
         en: "A few years later, during the reign of Valentinian and Theodosius (383–392),",
       },
       notes: `bi ·id· jera Galatians 2:1`
@@ -564,19 +564,19 @@ Attested as “bi [...] Batwin Bilaif” probably in ACC so a-stem perhaps.`
     },
     {
       text: {
-        got: 'soei ïddja du Kyzikaus ïn Asiai leitilai jah atgaf sumans laibo faura gasateinai aikklesjons.',
+        got: 'soei iddja du Kyzikaus in Asiai leitilai jah atgaf sumans laibo faura gasateinai aikklesjons.',
         en: "who went to Cyzicus in Asia Minor and gave some of the relics for the founding of a church.",
       },
     },
     {
       text: {
-        got: 'Duklida gadauþnoda ïn gawairþi.',
+        got: 'Duklida gadauþnoda in gawairþi.',
         en: "Duclida died in peace.",
       },
     },
     {
       text: {
-        got: 'Ïn sumaim kalaindārjam, Gaaþa, Duklida jah Agaþaun minþijanda auk miþ þaim 26 martyram.',
+        got: 'In sumaim kalaindārjam, Gaaþa, Duklida jah Agaþaun minþijanda auk miþ þaim 26 martyram.',
         en: "In some calendars Gaatha, Duclida and Agathon are also commemorated with the twenty-six Martyrs.",
       },
       notes: `Taking Latin calendārium, following aurāli from Late Latin ōrārium,
@@ -593,7 +593,7 @@ making kalaindāri a neuter ja-stem word`
     },
     {
       text: {
-        got: 'aiþþau gameljanda ïn kalaindārjin krekiskamma undaro 26 Martjau.',
+        got: 'aiþþau gameljanda in kalaindārjin krekiskamma undaro 26 Martjau.',
         en: "while they are listed in the Greek calendar under March 26th.",
       },
     },
@@ -604,10 +604,10 @@ making kalaindāri a neuter ja-stem word`
     text: { got: title, en: "26 Martyrs of Gothia in the Crimea" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

@@ -16,7 +16,7 @@ import { fromLatin } from '@common/transliterate'
 
 const slug = 'bida-maurginis-auptinas'
 const title = 'Bida Maurginis Spedizane Sinistaize Auptinas'
-const description = "Bida Maurginis Spedizane Sinistaize Auptinas, skeireins ïn razdai gutiskai."
+const description = "Bida Maurginis Spedizane Sinistaize Auptinas, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -69,14 +69,14 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Uta ƕeilai ƕizáih his dagis, talzei jah niþ mik ïn allaim.',
+        got: 'Uta ƕeilai ƕizáih his dagis, talzei jah niþ mik in allaim.',
         ru: "На всякий час сего дня во всём наставь и поддержи меня.",
         en: "At every hour of this day, instruct and support me in all things.",
       },
     },
     {
       text: {
-        got: 'Ƕo hauseins þoei ïn runa dagis qimaina,',
+        got: 'Ƕo hauseins þoei in runa dagis qimaina,',
         ru: "Какие бы я ни получал известия в течение дня,",
         en: "Whatsoever news may reach me in the course of the day,",
       },
@@ -106,7 +106,7 @@ Every thing is under thy Holy Will.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Ïn waurdam jah tojam meinaim ragino mitonim jah gahugdim meinaim.',
+        got: 'In waurdam jah tojam meinaim ragino mitonim jah gahugdim meinaim.',
         ru: "Во всех словах и делах моих руководи моими мыслями и чувствами.",
         en: "Govern my thoughts and feelings in all my words and actions.",
       },
@@ -115,7 +115,7 @@ though there may be something better.`
     },
     {
       text: {
-        got: 'Ïn allaim ungaweniþaim, ni fraletais mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
+        got: 'In allaim ungaweniþaim, ni fraletais mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
         ru: "Во всех непредвиденных случаях не дай мне забыть, что всё ниспослано Тобой.",
         en: "In all unexpected occurrences, do not let me forget that all is sent down from Thee.",
       },
@@ -149,7 +149,7 @@ though there may be something better.`
     },
     {
       text: {
-        got: 'jah alla þoei ïn þamma wairþand du frabairan.',
+        got: 'jah alla þoei in þamma wairþand du frabairan.',
         ru: "и все события в течение дня.",
         en: "and all the events that take place during it.",
       },
@@ -181,10 +181,10 @@ though there may be something better.`
     text: { got: "Spedizane Sinistaize Auptinas", en: "of the Last Elders of Optina" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "ïn razdai gutiskai,", en: "in the Gothic language," },
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Ïostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

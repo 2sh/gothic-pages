@@ -17,7 +17,7 @@ import
 
 const slug = 'airmunagilds'
 const title = 'Airmunagilds sa Guta Martyr Hispanjos'
-const description = `${title}, skeireins ïn razdai gutiskai.`
+const description = `${title}, skeireins in razdai gutiskai.`
 
 const anchors: Anchor[] = [
   {
@@ -104,7 +104,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'gawandeiþ sik fram airzein arianiskai du galaubeinai Kaþauleigai þairh mannan gaaistaidana maistana Laiandru aipiskaupu Sevillas, faura maurgau mis ïn frijaþwai liubaleiko gawidana, merjandan.',
+        got: 'gawandeiþ sik fram airzein arianiskai du galaubeinai Kaþauleigai þairh mannan gaaistaidana maistana Laiandru aipiskaupu Sevillas, faura maurgau mis in frijaþwai liubaleiko gawidana, merjandan.',
         la: 'ab Ariana hæresi ad fidem catholicam, viro reverentissimo Leandro Hispalitano episcopo, dudum mihi in amicitiis familiariter juncto prædicante conversus est.',
         en: 'was from Arian heresy lately converted to the Catholic faith by the most reverent man Leander, Bishop of Seville, with whom I was not long since familiarly acquainted;',
         de: 'auf die Predigt Leanders hin, des hochwürdigsten Bischofs von Sevilla, meines langjährigen, vertrautesten Freundes, von der arianischen Irrlehre zum katholischen Glauben bekehrt.',
@@ -129,7 +129,7 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: 'Ïmma sa atta arianiska, dūþe ei sik du samon airzein atwandjai, launam fullaweisjan jah ƕotom inagjan sokida.',
+        got: 'Imma sa atta arianiska, dūþe ei sik du samon airzein atwandjai, launam fullaweisjan jah ƕotom inagjan sokida.',
         la: 'Quem pater Arianus, ut ad eamdem hærseim rediret, & præmiis suadere, & minis terrere conatus est.',
         en: 'which young Prince, upon his conversion, his father, being an Arian, laboured both by large promises and terrible threats to draw again to his former error:',
         de: 'Der arianische Vater suchte ihn durch Versprechungen und Drohungen wieder zur Rückkehr in die Häresie zu bewegen.',
@@ -138,7 +138,7 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: 'Ïþ biþe unsweibands andhof, ei þo galaubein sunjon ni aiw bileiþan mahtedi, þoei suman ufkunþedi, sa atta þwairhs binam af imma þiudinassu jah birauboda alla aigina.',
+        got: 'Iþ biþe unsweibands andhof, ei þo galaubein sunjon ni aiw bileiþan mahtedi, þoei suman ufkunþedi, sa atta þwairhs binam af imma þiudinassu jah birauboda alla aigina.',
         la: 'Cumque ille constantissime responderet, nunquam se veram fidem posse relinquere, quam semel agnovisset, iratus pater eum privavit regno, rebusque exspoliavit omnibus.',
         en: 'but when most constantly his son answered, that he would never forsake the true faith which he had once embraced, his father in great anger took away his kingdom, and beside deprived him of all wealth and riches;',
         de: 'Da er aber mit größter Standhaftigkeit erwiderte, er könne niemals den einmal erkannten rechten Glauben verlassen, nahm ihm der erzürnte Vater die Königsherrschaft und alles, was er besaß;',
@@ -146,14 +146,14 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: 'Jan’ni swa mahtedi godein fraþjis ïs waikjan, galagjands ïna ïn karkara hardja, gaband bi halsaggan jah handuns ïs eisarnam.',
+        got: 'Jan’ni swa mahtedi godein fraþjis is waikjan, galagjands ina in karkara hardja, gaband bi halsaggan jah handuns is eisarnam.',
         la: 'Cumque nec sic virtutem mentis illius emollire valuisset, in arcta illum custodia concludens, collum manusque illius ferro ligavit.',
         en: 'and perceiving that, with all this, his mind was nothing moved, he committed him to straight prison, laying irons both upon his neck and hands.',
         de: 'und da er auch durch dieses Mittel seinen starken Geist nicht zu beugen vermochte, ließ er ihn in einen engen Kerker werfen und ihm Hals und Hände in Eisen schlagen.',
       },
       notes: `Using fraþi for mentis Ephesians 4:23
 
-“cumque” was used previously so don’t need to use “ïþ” again really,
+“cumque” was used previously so don’t need to use “iþ” again really,
 so using “jah” like the English translation with “and”,
 and Corinthians I 14:21 has “et nec sic” and is “jan~ni swa”
 (as displayed on Wulfila.be) in Gothic. “jan~ni” coming from jah + ni,
@@ -173,7 +173,7 @@ hardus to mean austere, using it for the arcta meaning
     },
     {
       text: {
-        got: 'Swah anastodida Airmunagilds sa þiudans jugga þiudangardja airþeina frakunnan, ïn sakkau gabundans ligan, Guda allwaldand du gaswinþnan bidos usgiutan, jah filu mais hauhaba wulþu airþos ƕeilaƕairbaizos frakunnan, und ƕan filu ïs gabundans froþ ei ni wesi þatei mahtedi afnuman wairþan.',
+        got: 'Swah anastodida Airmunagilds sa þiudans jugga þiudangardja airþeina frakunnan, in sakkau gabundans ligan, Guda allwaldand du gaswinþnan bidos usgiutan, jah filu mais hauhaba wulþu airþos ƕeilaƕairbaizos frakunnan, und ƕan filu is gabundans froþ ei ni wesi þatei mahtedi afnuman wairþan.',
         la: 'Cœpit itaque idem Herminigildus rex juvenis terrenum regnum despicere, in ciliciis vinculatus jacere, omnipotenti Deo ad confortandum se preces effundere, tantoque sublimius gloriam transeuntis mundi despicere, quanto & religatus agnoverat, nil fuisse quod potuerit auferri.',
         en: 'Upon this, the young king Hermigildus began now to condemn his earthly kingdom, and to seek with great desire after the kingdom of heaven: and lying in prison fast bound, he prayed to almighty God in hair-cloth to send him heavenly comfort: and so much the more did he despise the glory of this transitory world, by how much he knew himself in that case that he had now nothing that could be taken from him.',
         de: 'So lernte der junge König Herminigild das irdische Königreich verachten, und voll starker Sehnsucht das himmlische suchend lag er im Büßergewand in seinen Fesseln, bat den allmächtigen Gott um Stärke und verachtete um so mehr die Herrlichkeit der vergänglichen Welt, als er gerade in seinem Kerker die Nichtigkeit dessen erkannte, was ihm hatte genommen werden können.',
@@ -185,7 +185,7 @@ hardus to mean austere, using it for the arcta meaning
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Aþþan þan qam dags dulþais Paska, ïn þahainai riqizis nahts insandida sa hindarweis atta aipiskaupu arianiskana du ïmma, dūþe us handau ïs gamaindūþ gaweihainais unairknaizos andnemi, eiþan þairh þata aftra anst attins ganuti.',
+        got: 'Aþþan þan qam dags dulþais Paska, in þahainai riqizis nahts insandida sa hindarweis atta aipiskaupu arianiskana du imma, dūþe us handau is gamaindūþ gaweihainais unairknaizos andnemi, eiþan þairh þata aftra anst attins ganuti.',
         la: 'Superveniente autem Paschalis festivitatis die, intempestæ noctis silentio ad eum perfidus pater Arianum episcopum misit, ut ex ejus manu sacrilegæ consecrationis communionem perciperet, atque per hoc ad patris gratiam redire mereretur.',
         en: 'When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious consecration, that he might thereby again recover his father’s grace and favour:',
         de: 'Da nun aber das Osterfest nahte, sandte der ketzerische Vater in der Stille der Nacht einen arianischen Bischof zu ihm, damit er aus seiner Hand sakrilegisch die heilige Kommunion empfange und so verdiene, beim Vater wieder in Gunst zu gelangen.',
@@ -211,7 +211,7 @@ Also, Timothy I 1:9 & Timothy II 3:2 have ἀνοσίοις as unairkns,
     },
     {
       text: {
-        got: 'Ïþ sa manna, saei sik Guda atgaf, fairinoda þana neƕjandan aipiskaupu arianiskan swaswe skuld was, jah afskauf hindarweisein ïs gasahtim gatilaim; unte þauhjabai ūtana gabundans lag, aiþþau ïnna stoþ ïn sis tulguba ïn mikil auhumistin fraþjis seinis.',
+        got: 'Iþ sa manna, saei sik Guda atgaf, fairinoda þana neƕjandan aipiskaupu arianiskan swaswe skuld was, jah afskauf hindarweisein is gasahtim gatilaim; unte þauhjabai ūtana gabundans lag, aiþþau inna stoþ in sis tulguba in mikil auhumistin fraþjis seinis.',
         la: 'Sed vir Deo deditus, Ariano episcopo venienti exprobravit ut debuit, ejusque a se perfidiam dignis increpationibus repulit: quia etsi exterius jacebat ligatus, apud se tamen in magno mentis culmine stabat secutus.',
         en: 'but the man of God, as he ought, sharply reprehended that Arian Bishop which came unto him, and giving him such entertainment as his deserts required, utterly rejected him; for albeit outwardly he lay there in bands, yet inwardly to himself he stood secure in the height of his own soul.',
         de: 'Aber der Mann, der sich Gott geweiht hatte, wies den arianischen Bischof bei seinem Erscheinen nach Gebühr zurecht und verwarf seine Ketzerei mit entsprechendem Tadel; denn wenn er auch äußerlich in Fesseln lag, stand er in seinem Innern unerschütterlich auf großer Geisteshöhe.',
@@ -230,7 +230,7 @@ although ... yet ... = þauhjabai ... aiþþau ... Corinthians II 4:16
 
 *tulguba from tulgus + ba to make it an adverb = firmly/securely
 
-"ïnna ... ïn mis" Colossians 1:29`
+"inna ... in mis" Colossians 1:29`
     },
     {
       text: {
@@ -242,7 +242,7 @@ although ... yet ... = þauhjabai ... aiþþau ... Corinthians II 4:16
     },
     {
       text: {
-        got: 'Allis sunsei inngaliþun, akuzja ïn haubida ïs haftjandans binemun libain leikeina; jah ...',
+        got: 'Allis sunsei inngaliþun, akuzja in haubida is haftjandans binemun libain leikeina; jah ...',
         la: 'Nam mox ut ingressi sunt, securem cerebro ejus infigentes, vitam corporis abstulerunt: hocque in eo valuerunt perimere, quod ipse quoque qui peremtus est, in se constiterat despexisse.',
         en: 'for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him of mortal life, having only power to take that from him which the holy martyr made small account of.',
         de: 'Denn kaum waren sie bei ihm eingetreten, spalteten sie ihm mit einem Beil das Haupt und nahmen ihm das leibliche Leben; denn nur das konnten sie an ihm töten, was der Ermordete selbst an sich gering geschätzt hatte.',
@@ -264,10 +264,10 @@ Es blieben aber die Wunder von oben nicht aus, um seine wahrhaft erlangte Herrli
     text: { got: 'Airmanagilds sa Guta Hispanjos', en: 'Hermenegild the Goth of Spain' },
   }], info)}</span>
   <span class='nowrap'>${toGothicLines([{
-    text: { got: 'ïn razdai gutiskai,', en: 'in the Gothic language,' },
+    text: { got: 'in razdai gutiskai,', en: 'in the Gothic language,' },
   }], info)}</span>
   <span class='nowrap'>${toGothicLines([{
-    text: { got: 'skeireins fram Ïostaiha (2025-2026).', en: 'a translation by 2sh (2025-2026).' },
+    text: { got: 'skeireins fram Iostaiha (2025-2026).', en: 'a translation by 2sh (2025-2026).' },
   }], info)}</span>
 </p>`
 
