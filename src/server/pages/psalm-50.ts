@@ -117,10 +117,11 @@ Using def article for evil like in the lord's prayer
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Sai allis in ungaraihteim ganumans warþ, jah in frawaurhtim was inkilþa mis aiþei meina.",
       grc: "ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου.",
       en: "For, behold, I was conceived in iniquities, and in sins did my mother conceive me.",
     },
+    notes: `Sai allis Luke 1:44`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
