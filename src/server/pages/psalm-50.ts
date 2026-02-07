@@ -128,6 +128,7 @@ Using def article for evil like in the lord's prayer
 in context with the second part of the sentence. "ganumans wesi in wamba" Luke 2:21
 
 The word ἐκίσσησέ means to have an appetite for unusual foods, so being pregnant.
+https://www.orp.gr/wordpress/?p=14523
 
 wisan vs wairþan: The first part is about being conceived,
 the mother becoming pregnant, while the second about the time
