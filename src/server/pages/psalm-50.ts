@@ -127,7 +127,7 @@ Using def article for evil like in the lord's prayer
 συνελήφθην means both arrested and to conceive which is similar to meaning of ganiman
 in context with the second part of the sentence. "ganumans wesi in wamba" Luke 2:21
 
-The word ἐκίσσησέ means to have an appetite for unusual foods, so a being pregnant.
+The word ἐκίσσησέ means to have an appetite for unusual foods, so being pregnant.
 
 wisan vs wairþan: The first part is about being conceived,
 the mother becoming pregnant, while the second about the time
