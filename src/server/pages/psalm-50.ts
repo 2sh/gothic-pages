@@ -137,14 +137,20 @@ https://www.orp.gr/wordpress/?p=14523`
       grc: "ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας, τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι.",
       en: "For, behold, thou lovest truth: thou hast manifested to me the secret and hidden things of thy wisdom.",
     },
+    notes:
+`Although frodei can translate to sophia, it also translates to phrónēsĭs;
+handugei always translates to sophia`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Ufartrusneis mik hwssopon, jah gahrainjada, usþwahis mik, jah ufar snaiwa gaƕeitjada.",
       grc: "ραντιεῖς με ὑσσώπῳ, καὶ καθαρισθήσομαι, πλυνεῖς με, καὶ ὑπὲρ χιόνα λευκανθήσομαι.",
       en: "Thou shalt sprinkle me with hyssop, and I shall be purified: thou shalt wash me, and I shall be made whiter than snow.",
     },
+    notes: `"hwssopon jah wullai raudai ufartrusnjandans" Skeireins 3:7
+
+Mark 9:3`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
