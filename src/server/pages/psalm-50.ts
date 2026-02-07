@@ -144,7 +144,7 @@ handugei always translates to sophia`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Ufartrusneis mik hwssopon, jah gahrainjada, usþwahis mik, jah ufar snaiwa gaƕeitjada.",
+      got: "Ufartrusneis mik hyssopon, jah gahrainjada, usþwahis mik, jah ufar snaiwa gaƕeitjada.",
       grc: "ραντιεῖς με ὑσσώπῳ, καὶ καθαρισθήσομαι, πλυνεῖς με, καὶ ὑπὲρ χιόνα λευκανθήσομαι.",
       en: "Thou shalt sprinkle me with hyssop, and I shall be purified: thou shalt wash me, and I shall be made whiter than snow.",
     },
