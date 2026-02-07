@@ -117,7 +117,7 @@ Using def article for evil like in the lord's prayer
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Sai allis in ungaraihteim was ik ganumans, jah in frawaurhtim was inkilþa mis aiþei meina.",
+      got: "Sai allis in ungaraihteim warþ ik ganumans, jah in frawaurhtim was inkilþa mis aiþei meina.",
       grc: "ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου.",
       en: "For, behold, I was conceived in iniquities, and in sins did my mother conceive me.",
     },
@@ -127,7 +127,11 @@ Using def article for evil like in the lord's prayer
 συνελήφθην means both arrested and to conceive which is similar to meaning of ganiman
 in context with the second part of the sentence. "ganumans wesi in wamba" Luke 2:21
 
-The word ἐκίσσησέ means to have an appetite for unusual foods, so a being pregnant`
+The word ἐκίσσησέ means to have an appetite for unusual foods, so a being pregnant.
+
+wisan vs wairþan: The first part is about being conceived,
+the mother becoming pregnant, while the second about the time
+of being in the mother's womb, the mother being pregnant.`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
