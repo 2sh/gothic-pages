@@ -133,7 +133,7 @@ https://www.orp.gr/wordpress/?p=14523`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Sai allis sunja frijos, þata unbairhtona jah þata fulginona handugeins Þeinaizos gabairhtides mis.",
       grc: "ἰδοὺ γὰρ ἀλήθειαν ἠγάπησας, τὰ ἄδηλα καὶ τὰ κρύφια τῆς σοφίας σου ἐδήλωσάς μοι.",
       en: "For, behold, thou lovest truth: thou hast manifested to me the secret and hidden things of thy wisdom.",
     },
