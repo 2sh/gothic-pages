@@ -117,11 +117,17 @@ Using def article for evil like in the lord's prayer
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Sai allis in ungaraihteim ganumans warþ, jah in frawaurhtim was inkilþa mis aiþei meina.",
+      got: "Sai allis in ungaraihteim was ik ganumans, jah in frawaurhtim was inkilþa mis aiþei meina.",
       grc: "ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου.",
       en: "For, behold, I was conceived in iniquities, and in sins did my mother conceive me.",
     },
-    notes: `Sai allis Luke 1:44`
+    notes:
+`Sai allis Luke 1:44
+
+συνελήφθην means both arrested and to conceive which is similar to meaning of ganiman
+in context with the second part of the sentence. "ganumans wesi in wamba" Luke 2:21
+
+The word ἐκίσσησέ means to have an appetite for unusual foods, so a being pregnant`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
