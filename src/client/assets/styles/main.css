@@ -12,6 +12,7 @@
   --button-color-hover: #808080;
   --notice-color: rgb(255, 193, 193);
   --annotation-color: #979797;
+  --overline-inverse: 0;
 }
 :root[data-color-scheme="light"] {
   color-scheme: light;
@@ -27,6 +28,7 @@
   --button-color-hover: #c4c4c4;
   --notice-color: rgb(182, 0, 0);
   --annotation-color: #999999;
+  --overline-inverse: 80%;
 }
 
 @font-face {
@@ -99,6 +101,33 @@ body
   {
     content: '';
   }
+}
+
+.overline
+{
+  background-color: inherit;
+  color: inherit;
+  position: relative;
+}
+
+.overline::before
+{
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: 1px;
+  height: 1px;
+  content: "\a0";
+  border-image-source: url(https://2sh.me/gothic/images/overline-border.png);
+  border-image-slice: 1 5 1 5 fill;
+  border-width: 1px 3px;
+  border-style: solid;
+  filter: invert(var(--overline-inverse));
+}
+
+.annotation .overline::before
+{
+  filter: contrast(30%);
 }
 
 

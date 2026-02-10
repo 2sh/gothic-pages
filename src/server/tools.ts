@@ -51,7 +51,16 @@ export interface PageInfoMain extends PageInfo {
   alternatives: PageInfo[],
 }
 
-
+function addOverlines(line: string)
+{
+  function rep(part: string)
+  {
+    return `<span class='overline'>${part}</span>`
+  }
+  return line
+    .replace(/(?<=·)[^ ·–-]+(?=·)/g, rep)
+    .replace(/([‾¯])([^ ·–-]+)\1/g, (_m, _m1, m2) => rep(m2))
+}
 
 function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
 {
@@ -64,8 +73,8 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
   }
 
   const text = pageInfo.lang == 'got-Latn'
-    ? data.text.got
-    : fromLatin(data.text.got, {numberConversion: 'big'})
+    ? safeHtmlText(data.text.got)
+    : addOverlines(safeHtmlText(fromLatin(data.text.got, {numberConversion: 'big'})))
 
   delete data.text.got
 
@@ -79,7 +88,7 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
 
   return html`<span id="L${global.lineId}" class="i-line"
 data-line='${attrLineInfo}'
->${safeHtmlText(text)}</span>
+>${text}</span>
 ` // newline used for space between spans
 }
 
