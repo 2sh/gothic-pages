@@ -48,6 +48,16 @@ const latinGothic: Mapping[] = [
   ...gothicLatin.map(m => [m[1], m[0]] satisfies Mapping)
 ]
 
+const latinGothicDiacritics: Mapping[] = [
+  ['ā', 'a'],
+  ['í', 'i'],
+  ['á', 'a'],
+  ['ú', 'u'],
+  ['ē', 'e'],
+  ['ē', 'o'],
+  ['ū', 'u'],
+]
+
 const diaeresis: RegExpMapping[] = [
   [/(?<=(?:\s|^))([i𐌹])/gui, '$1\u0308'],
   [/(?<=[^\s][aiueo𐌰𐌹𐌿𐌴𐍉])([i𐌹])(?=(?:dd|𐌳𐌳|drei|𐌳𐍂𐌴𐌹|bn|𐌱𐌽))/gui, '$1\u0308'],
@@ -191,9 +201,9 @@ export function fromLatin(text: string, config?: FromLatinConfig)
     if(i % 2 == 1) continue
     let part = parts[i]
     part = part.toLowerCase()
-    part = part.normalize("NFKD")
+    part = part.normalize("NFD")
     if (!conf.preserveDiacritics)
-      part = removeDiacriticChars(part)
+      part = applyMapping(part, latinGothicDiacritics)
     if (conf.th) part = part.replaceAll(conf.th, '𐌸')
     if (conf.hv) part = part.replaceAll(conf.hv, '𐍈')
     part = applyMapping(part, latinGothic)

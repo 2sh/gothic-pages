@@ -59,7 +59,7 @@ function addOverlines(line: string)
   }
   return line
     .replace(/(?<=·)[^ ·–-]+(?=·)/g, rep)
-    .replace(/([‾¯])([^ ·–-]+)\1/g, (_m, _m1, m2) => rep(m2))
+    .replace(/‾([^ ·–-]+)‾/g, (_m, m1) => rep(m1))
 }
 
 function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
@@ -73,8 +73,10 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
   }
 
   const text = pageInfo.lang == 'got-Latn'
-    ? safeHtmlText(data.text.got)
-    : addOverlines(safeHtmlText(fromLatin(data.text.got, {numberConversion: 'big'})))
+    ? data.text.got
+    : fromLatin(data.text.got, {numberConversion: 'big'})
+
+  const htmlText = addOverlines(safeHtmlText(text))
 
   delete data.text.got
 
@@ -88,7 +90,7 @@ function toGothicLine(data: GothicLineData, pageInfo: PageInfo)
 
   return html`<span id="L${global.lineId}" class="i-line"
 data-line='${attrLineInfo}'
->${text}</span>
+>${htmlText}</span>
 ` // newline used for space between spans
 }
 
