@@ -155,7 +155,7 @@ Mark 9:3`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Taujis þatei hausja swegniþa jah wailawesein. swegneiþ baina hnaiwido.",
+      got: "Taujis þatei hausja swegniþa jah wailawesein. Swegneiþ baina hnaiwido.",
       grc: "ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην, ἀγαλλιάσονται ὀστέα τεταπεινωμένα.",
       en: "Thou shalt cause me to hear gladness and joy: the afflicted bones shall rejoice.",
     },
