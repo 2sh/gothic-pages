@@ -155,10 +155,14 @@ Mark 9:3`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Taujis þatei hausja swegniþa jah wailawesein. swegneiþ baina hnaiwido.",
       grc: "ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην, ἀγαλλιάσονται ὀστέα τεταπεινωμένα.",
       en: "Thou shalt cause me to hear gladness and joy: the afflicted bones shall rejoice.",
     },
+    notes:
+`*wailawesei calqued from Greek εὐφροσῠ́νη εὐ- (“well-”) -φρων- (“-minded-”) -σύνη (-súnē, “-ness”),
+looking at balwawesei, and
+"waila wisan seemingly represents a calque of Ancient Greek εὐφραίνεσθαι"`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
