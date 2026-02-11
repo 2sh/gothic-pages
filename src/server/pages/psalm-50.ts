@@ -155,12 +155,17 @@ Mark 9:3`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Taujis þatei hausja swegniþa jah wailawesein. Swegneiþ baina hnaiwido.",
+      got: "Gataujis mik hausjan swegniþa jah wailawesein. Swegneiþ baina hnaiwido.",
       grc: "ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην, ἀγαλλιάσονται ὀστέα τεταπεινωμένα.",
       en: "Thou shalt cause me to hear gladness and joy: the afflicted bones shall rejoice.",
     },
     notes:
-`*wailawesei calqued from Greek εὐφροσῠ́νη εὐ- (“well-”) -φρων- (“-minded-”) -σύνη (-súnē, “-ness”),
+`"baudans gataujiþ gahausjan" Mark 7:37, removing the ga- of the hausjan as
+hearing multiple things sounds more continuous, listening. Leaving the ga- of
+gataujis as I think it fits with the action/result feeling of the last verse,
+God's perfective action.
+
+*wailawesei calqued from Greek εὐφροσῠ́νη εὐ- (“well-”) -φρων- (“-minded-”) -σύνη (-súnē, “-ness”),
 looking at balwawesei, and
 "waila wisan seemingly represents a calque of Ancient Greek εὐφραίνεσθαι"`
   }], info)}</span>
