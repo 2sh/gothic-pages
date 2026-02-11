@@ -173,18 +173,22 @@ looking at balwawesei, and
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Afwandei ludja Þeina af frawaurhtim meinaim jah all ungaraihteino meinaizo afswairb.",
       grc: "ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον.",
       en: "Turn away thy face from my sins, and blot out all mine iniquities.",
     },
+    notes: `πάσας(plural) τὰς ἀνομίας(gen uncountable)`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Hairto hrain gaskapei in mis, Guþ, jah ahman garaihtana inniwei in innumistin meinamma.",
       grc: "καρδίαν καθαρὰν κτίσον ἐν ἐμοί, ὁ Θεός, καὶ πνεῦμα εὐθὲς ἐγκαίνισον ἐν τοῖς ἐγκάτοις μου.",
       en: "Create in me a clean heart, O God; and renew a right spirit in my inward parts.",
     },
+    notes: `attested inniujiþa calqued from ἐγκαίνια, so *inniujan calqued from ἐγκαινίζω
+
+*innumists from innuma + ists like aftumists,`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
