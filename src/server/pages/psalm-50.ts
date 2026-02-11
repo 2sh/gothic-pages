@@ -188,7 +188,7 @@ looking at balwawesei, and
     },
     notes: `attested inniujiþa calqued from ἐγκαίνια, so *inniujan calqued from ἐγκαινίζω
 
-*innumists from innuma + ists like aftumists,`
+*innumists from innuma + ists like undarists, using weak like in "in undaristo airþos" Ephesians 4:9`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
