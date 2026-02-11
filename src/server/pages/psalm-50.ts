@@ -163,7 +163,8 @@ Mark 9:3`
 `"baudans gataujiþ gahausjan" Mark 7:37, removing the ga- of the hausjan as
 hearing multiple things sounds more continuous, listening. Leaving the ga- of
 gataujis as I think it fits with the action/result feeling of the last verse,
-God's perfective action.
+God's perfective action, just making it so without uncertainty of whether there
+is a completion.
 
 *wailawesei calqued from Greek εὐφροσῠ́νη εὐ- (“well-”) -φρων- (“-minded-”) -σύνη (-súnē, “-ness”),
 looking at balwawesei, and
