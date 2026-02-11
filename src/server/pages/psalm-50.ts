@@ -193,10 +193,11 @@ looking at balwawesei, and
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Ni afwairpais mik af ludjai Þeinai jah Ahman Þeinana Weihana ni afnimais af mis.",
       grc: "μὴ ἀποῤῥίψῃς με ἀπὸ τοῦ προσώπου σου καὶ τὸ πνεῦμά σου τὸ ἅγιον μὴ ἀντανέλῃς ἀπ᾿ ἐμοῦ.",
       en: "Cast me not away from thy presence; and remove not thy Holy Spirit from me.",
     },
+    notes: `"ahman seinana weihana" Thessalonians I 4:8`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
