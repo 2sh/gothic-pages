@@ -206,17 +206,18 @@ most translations just go with take/remove/nehmen though.`
     text: {
       got: "Usgif mis swegniþa naseinais Þeinaizos jah ahmin kindinondin gatulgei mik.",
       grc: "ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με.",
-      en: "Restore to me the joy of thy salvation: establish me with thy directing/governing Spirit.",
+      en: "Restore to me the joy of thy salvation: establish me with thy(?) directing/governing Spirit.",
     },
     notes: `*kindinon from kindins (governor, translates NT ἡγεμών) + -ōn, like þiudanon.`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Witodalausans laisja wigans Þeinans, jah unsibjai du Þus gawandjand.",
       grc: "διδάξω ἀνόμους τὰς ὁδούς σου, καὶ ἀσεβεῖς ἐπὶ σὲ ἐπιστρέψουσι.",
       en: "Then will I teach transgressors thy ways; and ungodly men shall turn to thee.",
     },
+    notes: `Switching the first two words to prevent it being read as "lawless ways".`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
