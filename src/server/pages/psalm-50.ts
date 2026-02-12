@@ -223,10 +223,17 @@ most translations just go with take/remove/nehmen though.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Lausei mik us bloþa, Guþ, Guþ ganistais meinaizos: Hauheiþ tuggo meina garaihtein Þeina.",
       grc: "ρῦσαί με ἐξ αἱμάτων, ὁ Θεὸς ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου.",
       en: "Deliver me from blood-guiltiness, O God, the God of my salvation: and my tongue shall joyfully declare thy righteousness.",
     },
+    notes: `The previous neuter salvation always translates to naseins.
+This feminine one too but more often to ganists.
+
+Using hauhjan instead of swegnjan as the meaning is that the tongue is extolling
+the righteousness, and swegjan seems to literally be to make a noise because of a
+exultation/triumph and doesn't feel like it would bring across the
+declaring/telling part like in the various translations I've seen.`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
