@@ -204,10 +204,11 @@ most translations just go with take/remove/nehmen though.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Usgif mis swegniþa naseinais Þeinaizos jah ahmin þiudanondin gatulgei mik.",
+      got: "Usgif mis swegniþa naseinais Þeinaizos jah ahmin kindinondin gatulgei mik.",
       grc: "ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με.",
       en: "Restore to me the joy of thy salvation: establish me with thy directing/governing Spirit.",
     },
+    notes: `*kindinon from kindins (governor, translates NT ἡγεμών) + -ōn, like þiudanon.`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
