@@ -139,7 +139,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'jah naseinai saiwalo unsaraizo,',
+        got: 'jah nasein saiwalo unsaraizo,',
         grc: "καὶ τῆς σωτηρίας τῶν ψυχῶν ἡμῶν,",
         en: "and for the salvation of our souls,",
       }
