@@ -198,6 +198,7 @@ looking at balwawesei, and
       en: "Cast me not away from thy presence; and remove not thy Holy Spirit from me.",
     },
     notes: `"ahman seinana weihana" Thessalonians I 4:8
+
 ἀντανέλῃς means something like to take in exchange/return,
 most translations just go with take/remove/nehmen though.`
   }], info)}</span>
