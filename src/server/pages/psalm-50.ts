@@ -238,7 +238,7 @@ declaring/telling part like in the various translations I've seen.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Frauja, wairilons meinos uslūkis, jah munþs meins gateihiþ hazein Þeina.",
       grc: "Κύριε, τὰ χείλη μου ἀνοίξεις, καὶ τὸ στόμα μου ἀναγγελεῖ τὴν αἴνεσίν σου.",
       en: "O Lord, thou shalt open my lips; and my mouth shall declare thy praise.",
     },
