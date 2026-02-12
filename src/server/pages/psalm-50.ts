@@ -204,7 +204,7 @@ most translations just go with take/remove/nehmen though.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Usgif mis swegniþa naseinais Þeinaizos jah ahmin þiudanondin gatulgei mik.",
       grc: "ἀπόδος μοι τὴν ἀγαλλίασιν τοῦ σωτηρίου σου καὶ πνεύματι ἡγεμονικῷ στήριξόν με.",
       en: "Restore to me the joy of thy salvation: establish me with thy directing/governing Spirit.",
     },
