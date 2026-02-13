@@ -276,7 +276,7 @@ instead of Iairusalem for only nom and Iairusaulwm- for other declensions.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "þanuh waila galeikānd þus hunsl garaihteins, sauþs jah alabrunsteis; þanuh saljand du hunslastada Þeinamma stiur.",
+      got: "þanuh waila galeikānd þus hunsl garaihteins, sauþs jah alabrunsteis; þanuh saljand du hunslastada Þeinamma stiurans.",
       grc: "τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα· τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
       en: "Then shalt thou be pleased with a sacrifice of righteousness, offering (a heave or wave-offering), and whole-burnt-sacrifices: then shall they offer calves upon thine altar.",
     },
