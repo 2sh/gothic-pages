@@ -269,14 +269,18 @@ declaring/telling part like in the various translations I've seen.`
     },
     notes: `"bi leikainai wiljins seinis" Ephesians 1:5
 
-no imperative involved, just the 3rd person subjunctive as a "let something else be so" meaning John 14:27`
+no imperative involved, just the 3rd person subjunctive as a "let something else be so" meaning John 14:27
+
+Going with Jerusalem- as mentioned in Nehemiah for consistency,
+instead of Iairusalem for only nom and Iairusaulwm- for other declensions.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "þanuh waila galeikānd þus hunsl garaihteins, sauþs jah alabrunsteis; þanuh saljand du hunslastada Þeinamma stiur.",
       grc: "τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα· τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
       en: "Then shalt thou be pleased with a sacrifice of righteousness, offering (a heave or wave-offering), and whole-burnt-sacrifices: then shall they offer calves upon thine altar.",
     },
+    notes: `du hunslastada Matthew 5:23`
   }], info)}</span>
 </p>`
 
