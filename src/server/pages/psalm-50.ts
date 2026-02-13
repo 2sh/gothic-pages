@@ -223,11 +223,14 @@ most translations just go with take/remove/nehmen though.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Lausei mik us bloþa, Guþ, Guþ ganistais meinaizos; Hauheiþ tuggo meina garaihtein Þeina.",
+      got: "Lausei mik us bloþam, Guþ, Guþ ganistais meinaizos; Hauheiþ tuggo meina garaihtein Þeina.",
       grc: "ρῦσαί με ἐξ αἱμάτων, ὁ Θεὸς ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου.",
       en: "Deliver me from blood-guiltiness, O God, the God of my salvation: and my tongue shall joyfully declare thy righteousness.",
     },
-    notes: `σωτηρίας can translate to either naseins (salvation) or
+    notes: `for now, made the plural αἱμάτων into a plural bloþs
+even though it's probably not a word. In plural the Greek mean blood streams.
+
+σωτηρίας can translate to either naseins (salvation) or
 more often to ganists (salvation/healing), and I feel the healing aspect works here.
 
 Using hauhjan instead of swegnjan as the meaning is that the tongue is extolling
