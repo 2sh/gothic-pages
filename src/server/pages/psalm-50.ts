@@ -280,9 +280,7 @@ instead of Iairusalem for only nom and Iairusaulwm- for other declensions.`
       grc: "τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα· τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
       en: "Then shalt thou be pleased with a sacrifice of righteousness, offering (a heave or wave-offering), and whole-burnt-sacrifices: then shall they offer calves upon thine altar.",
     },
-    notes: `Going with gasaljan (ana) for anaphero (offer up (upon the altar)) and atbairan (du) for prosphero (offer to (the altar)), with sauþs for anaphora (offering).
-
-du hunslastada Matthew 5:23`
+    notes: `Going with gasaljan (ana) for anaphero (offer up (upon the altar)) and atbairan (du) for prosphero (offer to (the altar)), with sauþs for anaphora (offering).`
   }], info)}</span>
 </p>`
 
