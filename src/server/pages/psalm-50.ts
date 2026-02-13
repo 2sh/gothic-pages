@@ -228,7 +228,7 @@ most translations just go with take/remove/nehmen though.`
       en: "Deliver me from blood-guiltiness, O God, the God of my salvation: and my tongue shall joyfully declare thy righteousness.",
     },
     notes: `for now, made the plural αἱμάτων into a plural bloþs
-even though it's probably not a word. In plural the Greek mean blood streams.
+even though it's probably not a word. The plural in Greek mean blood streams.
 
 σωτηρίας can translate to either naseins (salvation) or
 more often to ganists (salvation/healing), and I feel the healing aspect works here.
