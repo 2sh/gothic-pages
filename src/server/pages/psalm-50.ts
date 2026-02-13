@@ -69,7 +69,7 @@ const generator: PageGenerator = info =>
   article += html`<p class='psalm'>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Armai mik, Guþ, bi mikila armahairtein Þeina jah bi managein bleiþeino Þeinaizo afswairb missadeþ meina.",
+      got: "Armai mik, Guþ, bi mikila armahairtein Þeina jah bi managein bleiþeino Þeinaizo afswairb missadeþ meina;",
       grc: "ΕΛΕΗΣΟΝ με, ὁ Θεός, κατὰ τὸ μέγα ἔλεός σου καὶ κατὰ τὸ πλῆθος τῶν οἰκτιρμῶν σου ἐξάλειψον τὸ ἀνόμημά μου·",
       en: "Have mercy upon me, O God, according to thy great mercy; and according to the multitude of thy compassions blot out my transgression.",
     },
@@ -223,7 +223,7 @@ most translations just go with take/remove/nehmen though.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Lausei mik us bloþa, Guþ, Guþ ganistais meinaizos: Hauheiþ tuggo meina garaihtein Þeina.",
+      got: "Lausei mik us bloþa, Guþ, Guþ ganistais meinaizos; Hauheiþ tuggo meina garaihtein Þeina.",
       grc: "ρῦσαί με ἐξ αἱμάτων, ὁ Θεὸς ὁ Θεὸς τῆς σωτηρίας μου· ἀγαλλιάσεται ἡ γλῶσσά μου τὴν δικαιοσύνην σου.",
       en: "Deliver me from blood-guiltiness, O God, the God of my salvation: and my tongue shall joyfully declare thy righteousness.",
     },
@@ -246,7 +246,7 @@ declaring/telling part like in the various translations I've seen.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte jabai wildedeis hunsl, aiþþau gebjau: alabrunsteis ni galeikānd þus.",
+      got: "Unte jabai wildedeis hunsl, aiþþau gebjau; alabrunsteis ni galeikānd þus.",
       grc: "ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις.",
       en: "For if thou desiredst sacrifice, I would have given it: thou wilt not take pleasure in whole-burnt-offerings.",
     },
@@ -263,7 +263,7 @@ declaring/telling part like in the various translations I've seen.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Tawei þiuþ, Frauja, in leikainai Þeinamma du Sion, jah timrjaindau baurgswaddjjus Iairusalems:",
+      got: "Tawei þiuþ, Frauja, in leikainai Þeinamma du Sion, jah timrjaindau baurgswaddjjus Iairusalems;",
       grc: "ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιών, καὶ οἰκοδομηθήτω τὰ τείχη ῾Ιερουσαλήμ·",
       en: "Do good, O Lord, to Sion in thy good pleasure; and let the walls of Jerusalem be built.",
     },
