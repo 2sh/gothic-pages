@@ -246,15 +246,16 @@ declaring/telling part like in the various translations I've seen.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Unte jabai wildedeis hunsl, aiþþau gebjau: alabrunsteis ni galeikānd þus.",
       grc: "ὅτι εἰ ἠθέλησας θυσίαν, ἔδωκα ἄν· ὁλοκαυτώματα οὐκ εὐδοκήσεις.",
       en: "For if thou desiredst sacrifice, I would have given it: thou wilt not take pleasure in whole-burnt-offerings.",
     },
+    notes: `Unte jabai ... aiþþau þau Matthew 11:21`
   }], info)}</span>
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Hunsl du Guda ist ahma gabrukans, hairtin gabrukanamma jah hnaiwidamma Guþ ni frakann.",
       grc: "θυσία τῷ Θεῷ πνεῦμα συντετριμμένον, καρδίαν συντετριμμένην καὶ τεταπεινωμένην ὁ Θεὸς οὐκ ἐξουδενώσει.",
       en: "Sacrifice to God is a broken spirit: a broken and humbled heart God will not despise.",
     },
