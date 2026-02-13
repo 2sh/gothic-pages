@@ -276,11 +276,11 @@ instead of Iairusalem for only nom and Iairusaulwm- for other declensions.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "þanuh waila galeikānd þus hunsl garaihteins, sauþs jah alabrunsteis; þanuh gasaljand du hunslastada Þeinamma stiurans.",
+      got: "þanuh waila galeikānd þus hunsl garaihteins, sauþs jah alabrunsteis; þanuh gasaljand ana hunslastad Þeinana stiurans.",
       grc: "τότε εὐδοκήσεις θυσίαν δικαιοσύνης, ἀναφορὰν καὶ ὁλοκαυτώματα· τότε ἀνοίσουσιν ἐπὶ τὸ θυσιαστήριόν σου μόσχους.",
       en: "Then shalt thou be pleased with a sacrifice of righteousness, offering (a heave or wave-offering), and whole-burnt-sacrifices: then shall they offer calves upon thine altar.",
     },
-    notes: `Going with gasaljan (anaphero) vs atbairan (prosphero), with sauþs for anaphora.
+    notes: `Going with gasaljan (ana) for anaphero (offer up (upon the altar)) and atbairan (du) for prosphero (offer to (the altar)), with sauþs for anaphora (offering).
 
 du hunslastada Matthew 5:23`
   }], info)}</span>
