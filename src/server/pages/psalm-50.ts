@@ -159,7 +159,7 @@ Mark 9:3`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Gataujis mik hausjan swegniþa jah wailawesein. Swegneiþ baina hnaiwido.",
+      got: "Gataujis mik hausjan swegniþa jah faheþ. Swegneiþ baina hnaiwido.",
       grc: "ἀκουτιεῖς μοι ἀγαλλίασιν καὶ εὐφροσύνην, ἀγαλλιάσονται ὀστέα τεταπεινωμένα.",
       en: "Thou shalt cause me to hear gladness and joy: the afflicted bones shall rejoice.",
     },
@@ -170,6 +170,7 @@ gataujis as I think it fits with the action/result feeling of the last verse,
 God's perfective action, just making it so without uncertainty of whether there
 is a completion.
 
+gone for faheþs for εὐφροσύνην but it's not a direct attestation. Was thinking before
 *wailawesei calqued from Greek εὐφροσῠ́νη εὐ- (“well-”) -φρων- (“-minded-”) -σύνη (-súnē, “-ness”),
 looking at balwawesei, and
 "waila wisan seemingly represents a calque of Ancient Greek εὐφραίνεσθαι"`
