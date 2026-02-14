@@ -64,7 +64,9 @@ const generator: PageGenerator = info =>
     },
     notes: `ἐν + infinitive Matthew 27:12
 
-galeiþands inn sa aggilus du izai Luke 1:28`
+galeiþands inn sa aggilus du izai Luke 1:28
+
+*Bersabaiai looking at Gaiainna from Γέεννα and Baiailzaibul from Βεελζεβούλ`
   }], info)}</span></div>
 </header>`
 
