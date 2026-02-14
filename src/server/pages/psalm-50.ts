@@ -58,7 +58,7 @@ const generator: PageGenerator = info =>
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "miþþanei galaiþ inn du imma Naþan sa praufetus, miþþanei galaiþ inn du Bersabái.",
+      got: "miþþanei galaiþ inn du imma Naþan sa praufetus, miþþanei galaiþ inn du Bersabaiai.",
       grc: "ἐν τῷ ἐλθεῖν πρὸς αὐτὸν Νάθαν τὸν προφήτην, ἡνίκα εἰσῆλθε πρὸς Βηρσαβεέ.",
       en: "when Nathan the prophet came to him, when he had gone in to Bersabee, (the wife of Urias).",
     },
