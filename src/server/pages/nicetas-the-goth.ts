@@ -79,7 +79,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'jah bauaida ïn fera austramma Donaweis',
+        got: 'jah bauaida in fera austramma Donaweis',
         en: "and lived on the eastern side of the Danube River",
       },
       notes: `*austrs from PGm *austraz looking at attested snutrs from snutraz
@@ -88,7 +88,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'ïn markai Raumanjos andwairþaizos.',
+        got: 'in markai Raumanjos andwairþaizos.',
         en: "within the boundaries of present-day Romania.",
       },
     },
@@ -100,7 +100,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'inliuhtjand uskunþa gutþiudos jah gamainjan ïn Gafáurdai Frumistai Nikaias ïn 325,',
+        got: 'inliuhtjand uskunþa gutþiudos jah gamainjan in Gafáurdai Frumistai Nikaias in 325,',
         en: "a well-known enlightener of the Goths and a participant in the First Council of Nicaea in 325,",
       },
     },
@@ -115,7 +115,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Inuh þizai mela was drauhtinassus ïn þaim gutam,',
+        got: 'Inuh þizai mela was drauhtinassus in þaim gutam,',
         en: "At the time there was [internecine] warfare among the Goths",
       },
     },
@@ -139,7 +139,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh ïmma miþ andstalda Valainis kaisaris arianiskis,',
+        got: 'jah Friþigairnis saei afar gablauþiþ fram Aþanareika aftra gasloh imma miþ andstalda Valainis kaisaris arianiskis,',
         en: "and Fritigern who revenged a defeat by Athanaric with the help of Arian emperor Valens,",
       },
       notes: `“Fritigern appears in the Latinized form Fritigernus. The Gothic name is reconstructed as *Frithugairns ‘desiring peace’”
@@ -170,13 +170,13 @@ Using -isks ending`
     },
     {
       text: {
-        got: "gaskop alfabet gutiskana jah gaskeirida managos bokos ahmeinos fram krekrazdai ïn gutrazda.",
+        got: "gaskop alfabet gutiskana jah gaskeirida managos bokos ahmeinos fram krekrazdai in gutrazda.",
         en: "created the Gothic alphabet and translated many spiritual books from Greek into Gothic.",
       },
     },
     {
       text: {
-        got: "Niketa Weihs, þairh merein jah libain gaguda seina, naþ mikilaba faur tulgiþa galaubeinais Xristeinaizos ïn þaim gutam.",
+        got: "Niketa Weihs, þairh merein jah libain gaguda seina, naþ mikilaba faur tulgiþa galaubeinais Xristeinaizos in þaim gutam.",
         en: "Saint Nicetas, by his preaching and his pious life, greatly assisted the confirmation of the Christian faith among the Goths.",
       },
     },
@@ -185,13 +185,13 @@ Using -isks ending`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: "Aþþan, afar fau jera, Aþanareiks gawandida ïn land haimi sein miþ harja mikilamma",
+        got: "Aþþan, afar fau jera, Aþanareiks gawandida in land haimi sein miþ harja mikilamma",
         en: "However, after a few years, Athanaric returned to his homeland with a large army",
       },
     },
     {
       text: {
-        got: "jah wigan ïn þaim gutam anastodida aftra.",
+        got: "jah wigan in þaim gutam anastodida aftra.",
         en: "and warfare among the Goths started again.",
       },
     },
@@ -203,7 +203,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Niketa, saei faþs ahmeins warþ ïn þaim gutam Xristeinam,",
+        got: "Niketa, saei faþs ahmeins warþ in þaim gutam Xristeinam,",
         en: "Nicetas, who had become a spiritual leader among the Christian Goths,",
       },
       notes: `*faþs`
@@ -241,7 +241,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Und andi warþ gadrauhts Xristaus ïn fon atwaurpans þarei gadauþnoda in 372.",
+        got: "Und andi warþ gadrauhts Xristaus in fon atwaurpans þarei gadauþnoda in 372.",
         en: "Finally, the soldier of Christ was thrown into a fire where he died in 372.",
       },
       notes: `cast into fire Mark 9:22`
@@ -254,7 +254,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "bigat laibos is ïn naht jah brāhta þos du Kilikia.",
+        got: "bigat laibos is in naht jah brāhta þos du Kilikia.",
         en: "found his remains during the night and transferred them to Cilicia.",
       },
     },
@@ -266,7 +266,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Dails laibo was seiþs brāhts du maunasterjon Visauki Detsani ïn Serbia.",
+        got: "Dails laibo was seiþs brāhts du maunasterjon Visauki Detsani in Serbia.",
         en: "A part of the relics was later transferred to the monastery of Visoki Dečani in Sairbia.",
       },
       notes: `*maunasterjo (μοναστήριον) looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension`
