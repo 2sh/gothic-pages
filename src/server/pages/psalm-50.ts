@@ -70,7 +70,7 @@ galeiþands inn sa aggilus du izai Luke 1:28
   }], info)}</span></div>
 </header>`
 
-  article += html`<p class='psalm'>
+  article += html`<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Armai mik, Guþ, bi mikila armahairtein Þeina jah bi managein bleiþeino Þeinaizo afswairb missadeþ meina;",
