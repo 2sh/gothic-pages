@@ -77,11 +77,13 @@ from fetjan meaning "to adorn oneself".`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "all wagjada jah reiraiþ fram andwairþja mahtais Þeinaizos;",
+      got: "in þize all wagjada jah reiraiþ fram andwairþja mahtais Þeinaizos;",
       grc: "ὃν πάντα φρίσσει καὶ τρέμει ἀπὸ προσώπου τῆς δυνάμεώς σου·",
       en: "You at whom all things shudder, and tremble before Your power,",
     },
-    notes: `φρίσσω comes up in James 2:19, unattested sadly. Using wagjada (be moved/shaken).
+    notes: `in þize Xristus gaswalt Corinthians I 8:11 "because of whom"
+
+φρίσσω comes up in James 2:19, unattested sadly. Using wagjada (be moved/shaken).
 
 fram andwairþja fraujins Thessalonians II 1:9`
   }], info)}</span>
