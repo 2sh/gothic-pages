@@ -87,15 +87,15 @@ fram andwairþja fraujins Thessalonians II 1:9`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte",
-      grc: "ὅτι ἄστεκτος ἡ μεγαλοπρέπεια τῆς δόξης σου, καὶ ἀνυπόστατος ἡ ὀργὴ τῆς ἐπὶ ἁμαρτωλοῖς ἀπειλῆς σου, ἀμέτρητόν τε",
+      got: "unte ni þulada mikilei wulþaus Þeinis, jah ni andstandada þwairhei ana frawaurhtans ƕotos Þeinaizos, ",
+      grc: "ὅτι ἄστεκτος ἡ μεγαλοπρέπεια τῆς δόξης σου, καὶ ἀνυπόστατος ἡ ὀργὴ τῆς ἐπὶ ἁμαρτωλοῖς ἀπειλῆς σου,",
       en: "for unbearable is the magnificence of Your glory, and not to be withstood is the anger of Your threat toward sinners,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
-      grc: "καὶ ἀνεξιχνίαστον τὸ ἔλεος τῆς ἐπαγγελίας σου.",
+      grc: "ἀμέτρητόν τε καὶ ἀνεξιχνίαστον τὸ ἔλεος τῆς ἐπαγγελίας σου.",
       en: "and unmeasurable and inscrutable is the mercy of Your promise,",
     },
   }], info)}</span>
