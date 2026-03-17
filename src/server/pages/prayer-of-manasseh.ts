@@ -52,35 +52,42 @@ const generator: PageGenerator = info =>
   article += html`<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Frauja allwaldand, Guþ Attane unsaraize, Abrahamis jah Isakis jah Iakobis jah fraiwis izwaris garaihtis;",
+      got: "Frauja allwaldand, Guþ Attane unsaraize, Abrahamis jah Isakis jah Iakobis jah fraiwis ize garaihtis;",
       grc: "Κύριε παντοκράτορ, ὁ Θεὸς τῶν Πατέρων ἡμῶν, τοῦ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακὼβ καὶ τοῦ σπέρματος αὐτῶν τοῦ δικαίου·",
       en: "O Lord Almighty, God of our fathers, of Abraham and Isaac and Jacob, and of their righteous seed,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "saei gaskop himin jah airþa miþ alla gafeteinai ize;",
       grc: "ὁ ποιήσας τὸν οὐρανὸν καὶ τὴν γῆν σὺν παντὶ τῷ κόσμῳ αὐτῶν·",
       en: "You Who have made heaven and earth with all their adornment,",
     },
+    notes: `κόσμος always translates to fairƕus or manaseþs in the Gothic Bible,
+but in this context it seems to be the "order", "adornment" meaning. Though
+related verb κοσμέω translates to a use of the noun gafeteins
+from fetjan meaning "to adorn oneself".`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "saei gaband marein waurda anabusnais Þeinaizos; saei galauk afgrundiþa jah faursiglida ija agisleikamma jah wulþagamma namin þeinamma;",
       grc: "ὁ πεδήσας τὴν θάλασσαν τῷ λόγῳ τοῦ προστάγματός σου· ὁ κλείσας τὴν ἄβυσσον καὶ σφραγισάμενος αὐτὴν τῷ φοβερῷ καὶ ἐνδόξῳ ὀνόματί σου·",
       en: "You Who have bound the sea by the word of your command, You Who have shut the deep, and sealed it with your fearsome and glorious Name,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "all wagjada jah reiraiþ fram andwairþja mahtais Þeinaizos;",
       grc: "ὃν πάντα φρίσσει καὶ τρέμει ἀπὸ προσώπου τῆς δυνάμεώς σου·",
       en: "You at whom all things shudder, and tremble before Your power,",
     },
+    notes: `φρίσσω comes up in James 2:19, unattested sadly. Using wagjada (be moved/shaken).
+
+fram andwairþja fraujins Thessalonians II 1:9`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "unte",
       grc: "ὅτι ἄστεκτος ἡ μεγαλοπρέπεια τῆς δόξης σου, καὶ ἀνυπόστατος ἡ ὀργὴ τῆς ἐπὶ ἁμαρτωλοῖς ἀπειλῆς σου, ἀμέτρητόν τε",
       en: "for unbearable is the magnificence of Your glory, and not to be withstood is the anger of Your threat toward sinners,",
     },
@@ -92,7 +99,6 @@ const generator: PageGenerator = info =>
       en: "and unmeasurable and inscrutable is the mercy of Your promise,",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
@@ -100,7 +106,6 @@ const generator: PageGenerator = info =>
       en: "for You are the Lord Most High, compassionate, patient, and merciful, repenting from the evil deeds of people.",
     },
   }], info)}</span>
-<br>
 <span class='verse-7'>${toGothicLines([{
     text: {
       got: "...",
@@ -108,7 +113,6 @@ const generator: PageGenerator = info =>
       en: "You, O Lord, according to the fullness of Your clemency, promised repentance and forgiveness to those who have sinned against You, and in the fullness of Your mercies, You have appointed repentance for sinners toward salvation.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
@@ -116,6 +120,7 @@ const generator: PageGenerator = info =>
       en: "Therefore, You, O Lord, God of the righteous, have not given repentance for the righteous, for Abraham and Isaac and Jacob, who had not sinned against You, but you have given repentance for me, the sinner.",
     },
   }], info)}</span>
+<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
@@ -138,7 +143,6 @@ const generator: PageGenerator = info =>
       en: "And now I bend the knee of my heart, begging for Your clemency.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
