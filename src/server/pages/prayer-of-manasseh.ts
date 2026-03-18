@@ -54,14 +54,14 @@ const generator: PageGenerator = info =>
     text: {
       got: "Frauja allwaldand, Guþ Attane unsaraize, Abrahamis jah Isakis jah Iakobis jah fraiwis ize garaihtis;",
       grc: "Κύριε παντοκράτορ, ὁ Θεὸς τῶν Πατέρων ἡμῶν, τοῦ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακὼβ καὶ τοῦ σπέρματος αὐτῶν τοῦ δικαίου·",
-      en: "O Lord Almighty, God of our fathers, of Abraham and Isaac and Jacob, and of their righteous seed,",
+      en: "O Lord Almighty, God of our ancestors, of Abraham and Isaac and Jacob and of their righteous offspring,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "saei gaskop himin jah airþa miþ alla gafeteinai ize;",
       grc: "ὁ ποιήσας τὸν οὐρανὸν καὶ τὴν γῆν σὺν παντὶ τῷ κόσμῳ αὐτῶν·",
-      en: "You Who have made heaven and earth with all their adornment,",
+      en: "you who made heaven and earth with all their order,",
     },
     notes: `κόσμος always translates to fairƕus or manaseþs in the Gothic Bible,
 but in this context it seems to be the "order", "adornment" meaning. Though
@@ -72,14 +72,14 @@ from fetjan meaning "to adorn oneself".`
     text: {
       got: "saei gaband marein waurda anabusnais Þeinaizos; saei galauk afgrundiþa jah faursiglida ija agisleikamma jah wulþagamma namin þeinamma;",
       grc: "ὁ πεδήσας τὴν θάλασσαν τῷ λόγῳ τοῦ προστάγματός σου· ὁ κλείσας τὴν ἄβυσσον καὶ σφραγισάμενος αὐτὴν τῷ φοβερῷ καὶ ἐνδόξῳ ὀνόματί σου·",
-      en: "You Who have bound the sea by the word of your command, You Who have shut the deep, and sealed it with your fearsome and glorious Name,",
+      en: "who shackled the sea by your word of command, who confined the deep and sealed it with your terrible and glorious name,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "in þize all wagjada jah reiraiþ fram andwairþja mahtais Þeinaizos;",
       grc: "ὃν πάντα φρίσσει καὶ τρέμει ἀπὸ προσώπου τῆς δυνάμεώς σου·",
-      en: "You at whom all things shudder, and tremble before Your power,",
+      en: "at whom all things shudder and tremble before your power,",
     },
     notes: `in þize Xristus gaswalt Corinthians I 8:11 "because of whom"
 
@@ -89,37 +89,44 @@ fram andwairþja fraujins Thessalonians II 1:9`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte ni þulada mikilei wulþaus Þeinis, jah ni andstandada þwairhei ana frawaurhtans ƕotos Þeinaizos, ",
+      got: "unte unþulaiþs ist mikilei wulþaus Þeinis, jah unandstaþans ist þwairhei ana frawaurhtans ƕotos Þeinaizos,",
       grc: "ὅτι ἄστεκτος ἡ μεγαλοπρέπεια τῆς δόξης σου, καὶ ἀνυπόστατος ἡ ὀργὴ τῆς ἐπὶ ἁμαρτωλοῖς ἀπειλῆς σου,",
-      en: "for unbearable is the magnificence of Your glory, and not to be withstood is the anger of Your threat toward sinners,",
+      en: "for your glorious splendor cannot be borne, and the wrath of your threat to sinners is unendurable;",
     },
+    notes: `ἐπ' αὐτοὺς / ana ins / upon them Thessalonians I 2:16, I disagree with the
+use of hatis for God though. ὀργὴ is attested as also translating to þwairhei.
+God doesn't hate his creation, he can be wrathful/angry though.
+
+alternative idea: "unte ni þulada mikilei wulþaus Þeinis, jah ni andstandada þwairhei ana frawaurhtans ƕotos Þeinaizos,"`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "jah unmitans jah unusspilloþs ist armahairtei gahaite Þeinaize.",
       grc: "ἀμέτρητόν τε καὶ ἀνεξιχνίαστον τὸ ἔλεος τῆς ἐπαγγελίας σου.",
-      en: "and unmeasurable and inscrutable is the mercy of Your promise,",
+      en: "yet immeasurable and unsearchable is your promised mercy,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Þu auk is Frauja hauhista, armahairts, usbeisneigs jah bleiþs jah ",
       grc: "Σὺ γὰρ εἶ Κύριος ὕψιστος, εὔσπλαγχνος, μακρόθυμος καὶ πολυέλεος καὶ μετανοῶν ἐπὶ κακίας ἀνθρώπων.",
-      en: "for You are the Lord Most High, compassionate, patient, and merciful, repenting from the evil deeds of people.",
+      en: "for you are the Lord Most High, of great compassion, long-suffering, and very merciful, and you relent at human suffering.",
     },
+    notes: `επολυέλεος translates to armahairts, but so does εὔσπλαγχνος, almost literally.
+So using bleiþs for επολυέλεος here.`
   }], info)}</span>
 <span class='verse-7'>${toGothicLines([{
     text: {
       got: "...",
       grc: "Σύ, Κύριε, κατὰ τὸ πλῆθος τῆς χρηστότητός σου, ἐπηγγείλω μετάνοιαν καὶ ἄφεσιν τοῖς ἡμαρτηκόσι σοι, καὶ τῷ πλήθει τῶν οἰκτιρμῶν σου ὥρισας μετάνοιαν ἁμαρτωλοῖς εἰς σωτηρίαν.",
-      en: "You, O Lord, according to the fullness of Your clemency, promised repentance and forgiveness to those who have sinned against You, and in the fullness of Your mercies, You have appointed repentance for sinners toward salvation.",
+      en: "O Lord, according to your great goodness you have promised repentance and forgiveness to those who have sinned against you, and in the multitude of your mercies you have appointed repentance for sinners, so that they may be saved.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
       grc: "Σὺ οὖν, Κύριε, ὁ Θεὸς τῶν δυνάμεων, οὐκ ἔθου μετάνοιαν δικαίοις, τῷ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ, τοῖς ούχ ἡμαρτηκόσι σοι, ἀλλ’ ἔθου μετάνοιαν ἐπ’ ἐμοὶ τῷ ἁμαρτωλῷ,",
-      en: "Therefore, You, O Lord, God of the righteous, have not given repentance for the righteous, for Abraham and Isaac and Jacob, who had not sinned against You, but you have given repentance for me, the sinner.",
+      en: "Therefore you, O Lord, God of the righteous, have not appointed repentance for the righteous, for Abraham and Isaac and Jacob, who did not sin against you, but you have appointed repentance for me, who am a sinner.",
     },
   }], info)}</span>
 <br>
@@ -127,14 +134,14 @@ fram andwairþja fraujins Thessalonians II 1:9`
     text: {
       got: "...",
       grc: "διότι ἥμαρτον ὑπὲρ ἀριθμὸν ψάμμου θαλάσσης. nἘπλήθυναν αἱ ἀνομίαι μου, Κύριε· ἐπλήθυναν αἱ ἀνομίαι μου, καὶ οὔκ εἰμι ἄξιος ἀτενίσαι καὶ ἰδεῖν τὸ ὕψος τοῦ οὐρανοῦ ἀπὸ τοῦ πλήθους τῶν ἀδικιῶν μου,",
-      en: "For I have sinned more than the number of sand of the sea; my lawless deeds are multiplied, O Lord, multiplied, and I am not worthy to look and see the heights of heaven because of the multitude of my unrighteous deeds.",
+      en: "For the sins I have committed are more in number than the sand of the sea; my transgressions are multiplied, O Lord, they are multiplied! I am not worthy to look up and see the height of heaven because of the multitude of my iniquities.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
       grc: "κατακαμπτόμενος πολλῷ δεσμῷ σιδηρῷ, εἰς τὸ μὴ ἀνανεῦσαι τὴν κεφαλήν μου, καὶ οὐκ ἔστι μοι ἄνεσις· διότι παρώργισα τὸν θυμόν σου καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, μὴ ποιήσας τὸ θέλημά σου καὶ μὴ φυλάξας τὰ προστάγματά σου.",
-      en: "I am bent down by too many a bond of iron for the lifting of my head because of my sins, and there is no relief for me, for I have provoked Your wrath and done evil before You. I have set up abominations and multiplied provocations (idols).",
+      en: "I am weighted down with many an iron fetter, so that I am rejected because of my sins, and I have no relief, for I have provoked your wrath and have done what is evil in your sight, setting up abominations and multiplying offenses. ",
     },
   }], info)}</span>
 <br>
@@ -142,35 +149,35 @@ fram andwairþja fraujins Thessalonians II 1:9`
     text: {
       got: "...",
       grc: "Καὶ νῦν κλίνω γόνυ καρδίας, δεόμενος τῆς παρὰ σοῦ χρηστότητος.",
-      en: "And now I bend the knee of my heart, begging for Your clemency.",
+      en: "And now I bend the knee of my heart, imploring you for your kindness.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
       grc: "Ἡμάρτηκα, Κύριε, ἡμάρτηκα καὶ τὰς ἀνομίας μου ἐγὼ γινώσκω·",
-      en: "I have sinned, O Lord, I have sinned, and I know my lawless deeds.",
+      en: "I have sinned, O Lord, I have sinned, and I acknowledge my transgressions.",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
       grc: "ἀλλ’ αἰτοῦμαι δεόμενος· Ἄνες μοι, Κύριε, ἄνες μοι, καὶ μὴ συναπολέσῃς με ταῖς ἀνομίαις μου, μηδὲ εἰς τὸν αἰῶνα μηνίσας τηρήσῃς τὰ κακά μοι, μηδὲ καταδικάσῃς με ἐν τοῖς κατωτάτοις τῆς γῆς, διότι σὺ εἶ Θεός, Θεὸς τῶν μετανοούντων,",
-      en: "I am asking, begging You: forgive me, O Lord, forgive me! Do not destroy me with my lawless deeds, nor for all ages keep angry with me, nor condemn me to the depths of the earth, for You, O Lord, are the God of those who repent.",
+      en: "I earnestly implore you, forgive me, O Lord, forgive me! Do not destroy me with my transgressions! Do not be angry with me forever or store up evil for me; do not condemn me to the depths of the earth. For you, O Lord, are the God of those who repent,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
       grc: "καὶ ἐν ἐμοὶ δείξεις πᾶσαν τὴν ἀγαθωσύνην σου· ὅτι ἀνάξιον ὄντα σῴσεις με κατὰ τὸ πολὺ ἔλεός σου,",
-      en: "And in me You will display Your goodness, for, my being unworthy, You will save me according to Your great mercy.",
+      en: "and in me you will manifest your goodness, for, unworthy as I am, you will save me according to your great mercy,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
       grc: "καὶ αἰνέσω σε διὰ παντὸς ἐν ταῖς ἡμέραις τῆς ζωῆς μου. Ὅτι σὲ ὑμνεῖ πᾶσα ἡ δύναμις τῶν οὐρανῶν καὶ σοῦ ἐστιν ἡ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
-      en: "And I will praise You throughout all the days of my life, for all the power of the heavens sing Your praise. For Yours is the glory, to the ages. Amen.",
+      en: "and I will praise you continually all the days of my life. For all the host of heaven sings your praise, and yours is the glory forever. Amen.",
     },
   }], info)}</span>
 </p>`
