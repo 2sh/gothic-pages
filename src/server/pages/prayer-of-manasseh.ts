@@ -108,16 +108,20 @@ alternative idea: "unte ni þulada mikilei wulþaus Þeinis, jah ni andstandada 
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Þu auk is Frauja hauhista, armahairts, usbeisneigs jah bleiþs jah ",
+      got: "Þu auk is Frauja hauhista, armahairts, usbeisneigs jah bleiþs jah sutis ana unseleins manne.",
       grc: "Σὺ γὰρ εἶ Κύριος ὕψιστος, εὔσπλαγχνος, μακρόθυμος καὶ πολυέλεος καὶ μετανοῶν ἐπὶ κακίας ἀνθρώπων.",
       en: "for you are the Lord Most High, of great compassion, long-suffering, and very merciful, and you relent at human suffering.",
     },
     notes: `επολυέλεος translates to armahairts, but so does εὔσπλαγχνος, almost literally.
-So using bleiþs for επολυέλεος here.`
+So using bleiþs for επολυέλεος here.
+
+no direct word for μετανοῶν from what I can tell, though I felt sutis to be close to it as
+it supposedly can also mean nachgiebig, yielding. Though perhaps its "tolerable"
+meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse-7'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Þu, Frauja, ",
       grc: "Σύ, Κύριε, κατὰ τὸ πλῆθος τῆς χρηστότητός σου, ἐπηγγείλω μετάνοιαν καὶ ἄφεσιν τοῖς ἡμαρτηκόσι σοι, καὶ τῷ πλήθει τῶν οἰκτιρμῶν σου ὥρισας μετάνοιαν ἁμαρτωλοῖς εἰς σωτηρίαν.",
       en: "O Lord, according to your great goodness you have promised repentance and forgiveness to those who have sinned against you, and in the multitude of your mercies you have appointed repentance for sinners, so that they may be saved.",
     },
