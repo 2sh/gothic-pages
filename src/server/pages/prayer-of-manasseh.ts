@@ -108,7 +108,7 @@ alternative idea: "unte ni þulada mikilei wulþaus Þeinis, jah ni andstandada 
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Þu auk is Frauja hauhista, armahairts, usbeisneigs jah bleiþs jah sutis ana unseleins manne.",
+      got: "Þu auk is Frauja háuhista, armahairts, usbeisneigs jah bleiþs jah sutis ana unseleins manne.",
       grc: "Σὺ γὰρ εἶ Κύριος ὕψιστος, εὔσπλαγχνος, μακρόθυμος καὶ πολυέλεος καὶ μετανοῶν ἐπὶ κακίας ἀνθρώπων.",
       en: "for you are the Lord Most High, of great compassion, long-suffering, and very merciful, and you relent at human suffering.",
     },
@@ -121,10 +121,11 @@ meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse-7'>${toGothicLines([{
     text: {
-      got: "Þu, Frauja, ",
+      got: "Þu, Frauja, bi managein seleins Þeinaizos, gahaihaist idreiga jah fralet þaimei frawaurhtedun du Þus, jah ",
       grc: "Σύ, Κύριε, κατὰ τὸ πλῆθος τῆς χρηστότητός σου, ἐπηγγείλω μετάνοιαν καὶ ἄφεσιν τοῖς ἡμαρτηκόσι σοι, καὶ τῷ πλήθει τῶν οἰκτιρμῶν σου ὥρισας μετάνοιαν ἁμαρτωλοῖς εἰς σωτηρίαν.",
       en: "O Lord, according to your great goodness you have promised repentance and forgiveness to those who have sinned against you, and in the multitude of your mercies you have appointed repentance for sinners, so that they may be saved.",
     },
+    notes: `du Xristau frawaurkeiþ Corinthians I 8:12`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
