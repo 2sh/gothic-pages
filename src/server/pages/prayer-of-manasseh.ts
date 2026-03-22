@@ -121,11 +121,11 @@ meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse-7'>${toGothicLines([{
     text: {
-      got: "Þu, Frauja, bi managein seleins Þeinaizos, gahaihaist idreiga jah fralet þaimei frawaurhtedun du Þus, jah ",
+      got: "Þu, Frauja, bi managein seleins Þeinaizos, gahaihaist idreiga jah fralet þaimei frawaurhtedun du Þus, jah managein bleiþeino Þeinaizo",
       grc: "Σύ, Κύριε, κατὰ τὸ πλῆθος τῆς χρηστότητός σου, ἐπηγγείλω μετάνοιαν καὶ ἄφεσιν τοῖς ἡμαρτηκόσι σοι, καὶ τῷ πλήθει τῶν οἰκτιρμῶν σου ὥρισας μετάνοιαν ἁμαρτωλοῖς εἰς σωτηρίαν.",
       en: "O Lord, according to your great goodness you have promised repentance and forgiveness to those who have sinned against you, and in the multitude of your mercies you have appointed repentance for sinners, so that they may be saved.",
     },
-    notes: `du Xristau frawaurkeiþ Corinthians I 8:12`
+    notes: `du Xristau frawaurkeiþ Corinthians I 8:12, 'wiþra' directly against, and 'du' for God/Chist who sees you committing the sins`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
