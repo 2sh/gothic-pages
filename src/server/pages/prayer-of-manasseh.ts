@@ -129,7 +129,7 @@ meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Þu nu, Frauja, Guþ mahte, ",
       grc: "Σὺ οὖν, Κύριε, ὁ Θεὸς τῶν δυνάμεων, οὐκ ἔθου μετάνοιαν δικαίοις, τῷ Ἀβραὰμ καὶ Ἰσαὰκ καὶ Ἰακώβ, τοῖς ούχ ἡμαρτηκόσι σοι, ἀλλ’ ἔθου μετάνοιαν ἐπ’ ἐμοὶ τῷ ἁμαρτωλῷ,",
       en: "Therefore you, O Lord, God of the righteous, have not appointed repentance for the righteous, for Abraham and Isaac and Jacob, who did not sin against you, but you have appointed repentance for me, who am a sinner.",
     },
