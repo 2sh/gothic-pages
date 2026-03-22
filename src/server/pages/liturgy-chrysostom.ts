@@ -54,7 +54,7 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Leiturgei Gudiska\nÏohannis Xrisaustaumaus Weihis',
+      got: 'Leiturgei Gudiska\nIohannis Xrisaustaumaus Weihis',
       grc: "Θεία Λειτουργία Αγίου Ιωάννου Χρυσοστόμου",
       en: "Divine Liturgy of Saint John Chrysostom",
     },

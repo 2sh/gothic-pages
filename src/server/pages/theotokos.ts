@@ -61,7 +61,7 @@ weak nouns keep -a- for the connecting vowel.” -guthiharjis`
 
   article += html`<h2>${toGothicLines([{
     text: {
-      got: 'Liuþ Gudabairandein Leiturgeins Gudiskaizos\nÏohannis Xrisaustaumaus Weihis',
+      got: 'Liuþ Gudabairandein Leiturgeins Gudiskaizos\nIohannis Xrisaustaumaus Weihis',
       en: "Hymn to the Theotokos",
     },
   }], info)}</h2>`
