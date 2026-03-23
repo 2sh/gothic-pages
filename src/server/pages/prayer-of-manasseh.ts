@@ -125,8 +125,6 @@ no direct word for μετανοῶν from what I can tell, though I felt sutis t
 it supposedly can also mean nachgiebig, yielding. Though perhaps its "tolerable"
 meaning doesn't fit so well.`
   }], info)}</span>
-</p>
-<p class='verses'>
 <span class='verse-addition'>${toGothicLines([{
     text: {
       got: "Þū, Frauja, bi managein seleins Þeinaizos, gahaihaist idreiga jah fralet þaiei frawaurhtedun du Þus, jah managein bleiþeino Þeinaizo gasatides frawaurhtaim du ganistai.",
@@ -135,6 +133,8 @@ meaning doesn't fit so well.`
     },
     notes: `du Xristau frawaurkeiþ Corinthians I 8:12, 'wiþra' directly against, and 'du' for God/Christ who sees you committing the sins`
   }], info)}</span>
+</p>
+<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Þū nu, Frauja, Guþ mahte, ni gasatides idreiga garaihtaim, Abrahama jah Isaka jah Iakoba, þaiei ni frawaurhtedun du Þus, ak gasatides idreiga ana mis frawaurhtamma,",
