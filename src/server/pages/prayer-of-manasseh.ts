@@ -134,7 +134,8 @@ meaning doesn't fit so well.`
       en: "Therefore you, O Lord, God of the righteous, have not appointed repentance for the righteous, for Abraham and Isaac and Jacob, who did not sin against you, but you have appointed repentance for me, who am a sinner.",
     },
   }], info)}</span>
-<br>
+</p>
+<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "unte frawaurhta mais raþjon malmins mareins. Managidedun ungaraihteins meinos, Frauja, managidedun ungaraihteins meinos, jah ni im wairþs fairweitjan jah saiƕan hauhein himinis in manageins inwindiþo meinaizo,",
@@ -149,7 +150,8 @@ meaning doesn't fit so well.`
       en: "I am weighted down with many an iron fetter, so that I am rejected because of my sins, and I have no relief, for I have provoked your wrath and have done what is evil in your sight, setting up abominations and multiplying offenses. ",
     },
   }], info)}</span>
-<br>
+</p>
+<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
