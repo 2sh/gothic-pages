@@ -13,6 +13,9 @@ import
 // https://www.saint.gr/226/texts.aspx
 // https://bible.oremus.org/?ql=26864532
 // https://www.bombaxo.com/and-now-i-bend-the-knee-of-my-heart/
+// https://www.simplyorthodox.info/p/rediscovering-the-prayer-of-manasseh
+// https://greekorthodoxsermons.org/Prayer-Manasseh.pdf
+// https://www.biblegateway.com/passage/?search=Prayer%20of%20Manasseh&version=CEB
 
 const slug = 'bida-manassezis'
 const title = 'Bida Manassezis'
@@ -43,6 +46,7 @@ const generator: PageGenerator = info =>
   <h1>${toGothicLines([{
     text: {
       got: 'Bida Manassezis',
+      grc: 'Προσευχὴ Μανασσῆ',
       en: "Prayer of Manasseh",
     },
     notes: `Manasses from Μανασσῆς, looking at attested name Moses from Μωσῆς`
@@ -106,6 +110,8 @@ alternative idea: "unte ni þulada mikilei wulþaus Þeinis, jah ni andstandada 
       en: "yet immeasurable and unsearchable is your promised mercy,",
     },
   }], info)}</span>
+</p>
+<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Þū auk is Frauja háuhista, armahairts, usbeisneigs jah bleiþs jah sutis ana unseleins manne.",
@@ -119,6 +125,8 @@ no direct word for μετανοῶν from what I can tell, though I felt sutis t
 it supposedly can also mean nachgiebig, yielding. Though perhaps its "tolerable"
 meaning doesn't fit so well.`
   }], info)}</span>
+</p>
+<p class='verses'>
 <span class='verse-addition'>${toGothicLines([{
     text: {
       got: "Þū, Frauja, bi managein seleins Þeinaizos, gahaihaist idreiga jah fralet þaiei frawaurhtedun du Þus, jah managein bleiþeino Þeinaizo gasatides frawaurhtaim du ganistai.",
@@ -134,8 +142,6 @@ meaning doesn't fit so well.`
       en: "Therefore you, O Lord, God of the righteous, have not appointed repentance for the righteous, for Abraham and Isaac and Jacob, who did not sin against you, but you have appointed repentance for me, who am a sinner.",
     },
   }], info)}</span>
-</p>
-<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "unte frawaurhta mais raþjon malmins mareins. Managidedun ungaraihteins meinos, Frauja, managidedun ungaraihteins meinos, jah ni im wairþs fairweitjan jah saiƕan hauhein himinis in manageins inwindiþo meinaizo,",
@@ -147,11 +153,9 @@ meaning doesn't fit so well.`
     text: {
       got: "...",
       grc: "κατακαμπτόμενος πολλῷ δεσμῷ σιδηρῷ, εἰς τὸ μὴ ἀνανεῦσαι τὴν κεφαλήν μου, καὶ οὐκ ἔστι μοι ἄνεσις· διότι παρώργισα τὸν θυμόν σου καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, μὴ ποιήσας τὸ θέλημά σου καὶ μὴ φυλάξας τὰ προστάγματά σου.",
-      en: "I am weighted down with many an iron fetter, so that I am rejected because of my sins, and I have no relief, for I have provoked your wrath and have done what is evil in your sight, setting up abominations and multiplying offenses. ",
+      en: "I am weighted down with many an iron fetter, so that I am rejected because of my sins, and I have no relief, for I have provoked your wrath and have done what is evil in your sight, setting up abominations and multiplying offenses.",
     },
   }], info)}</span>
-</p>
-<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
@@ -159,6 +163,8 @@ meaning doesn't fit so well.`
       en: "And now I bend the knee of my heart, imploring you for your kindness.",
     },
   }], info)}</span>
+</p>
+<p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "...",
