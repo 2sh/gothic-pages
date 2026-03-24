@@ -79,25 +79,25 @@ body
   text-align: center;
 }
 
-.verses
+article p:has(.verse)
 {
   text-indent: 0;
 }
 
 @supports (initial-letter: 2)
 {
-  .verses::first-letter
+  .dropcap::first-letter
   {
     initial-letter: 2;
     margin-right: 4px;
   }
 
-  .verses .verse:first-of-type
+  .dropcap .verse:first-of-type
   {
     margin-left: 0;
   }
 
-  .verses .verse:first-of-type::before
+  .dropcap .verse:first-of-type::before
   {
     content: '';
   }

@@ -66,7 +66,7 @@ Some even leave out the "A psalm to/of David" entirely.`
   }], info)}</span></div>
 </header>`
 
-  article += html`<p class='verses'>
+  article += html`<p class='dropcap'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Frauja, gakaust mik, jah kant mik;",

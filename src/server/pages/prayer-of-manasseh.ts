@@ -53,7 +53,7 @@ const generator: PageGenerator = info =>
   },], info)}</h1>
 </header>`
 
-  article += html`<p class='verses'>
+  article += html`<p class='dropcap'>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Frauja allwaldand, Guþ Attane unsaraize, Abrahamis jah Isakis jah Iakobis jah fraiwis ize garaihtis;",
@@ -111,7 +111,7 @@ alternative idea: "unte ni þulada mikilei wulþaus Þeinis, jah ni andstandada 
     },
   }], info)}</span>
 </p>
-<p class='verses'>
+<p>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Þū auk is Frauja háuhista, armahairts, usbeisneigs jah bleiþs jah sutis ana unseleins manne.",
@@ -134,7 +134,7 @@ meaning doesn't fit so well.`
     notes: `du Xristau frawaurkeiþ Corinthians I 8:12, 'wiþra' directly against, and 'du' for God/Christ who sees you committing the sins`
   }], info)}</span>
 </p>
-<p class='verses'>
+<p>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Þū nu, Frauja, Guþ mahte, ni gasatides idreiga garaihtaim, Abrahama jah Isaka jah Iakoba, þaiei ni frawaurhtedun du Þus, ak gasatides idreiga ana mis frawaurhtamma,",
@@ -172,7 +172,7 @@ there's Romans 10:19 "bring into anger" but using ingramjan because of thumos
     notes: `Matthew 27:58 bidjan also takes the genitive`
   }], info)}</span>
 </p>
-<p class='verses'>
+<p>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Frawaurhta, Frauja, frawaurhta jah ungaraihteim meinaim ik miþwait;",
