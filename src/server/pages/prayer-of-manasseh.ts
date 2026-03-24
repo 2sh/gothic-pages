@@ -151,10 +151,17 @@ meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "gabiugands managaim naudibandjom eisarneinaim, du ni ufhaban haubiþ mein, jah nist mis gaƕeilains; unte ingramida moþ Þeinana jah ubil in andwairþja Þeinamma tawida, ni taujands wiljan Þeinana jah ni fastānds anabūsnins Þeinos.",
       grc: "κατακαμπτόμενος πολλῷ δεσμῷ σιδηρῷ, εἰς τὸ μὴ ἀνανεῦσαι τὴν κεφαλήν μου, καὶ οὐκ ἔστι μοι ἄνεσις· διότι παρώργισα τὸν θυμόν σου καὶ τὸ πονηρὸν ἐνώπιόν σου ἐποίησα, μὴ ποιήσας τὸ θέλημά σου καὶ μὴ φυλάξας τὰ προστάγματά σου.",
       en: "I am weighted down with many an iron fetter, so that I am rejected because of my sins, and I have no relief, for I have provoked your wrath and have done what is evil in your sight, setting up abominations and multiplying offenses.",
     },
+    notes: `iron fetters Mark 5:4
+
+du ni + inf Thessalonians II 2:2
+
+there's Romans 10:19 "bring into anger" but using ingramjan because of thumos
+
+ποιήσας is aorist but using present participle as the previous clause is in past tense.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
