@@ -165,16 +165,17 @@ there's Romans 10:19 "bring into anger" but using ingramjan because of thumos
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Jah nu hneiwa kniu hairtins, bidjands fram Þus seleins.",
       grc: "Καὶ νῦν κλίνω γόνυ καρδίας, δεόμενος τῆς παρὰ σοῦ χρηστότητος.",
       en: "And now I bend the knee of my heart, imploring you for your kindness.",
     },
+    notes: `Matthew 27:58 bidjan also takes the genitive`
   }], info)}</span>
 </p>
 <p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "Frawaurhta, Frauja, frawaurhta jah ungaraihteino meinaizo ik fraþja;",
       grc: "Ἡμάρτηκα, Κύριε, ἡμάρτηκα καὶ τὰς ἀνομίας μου ἐγὼ γινώσκω·",
       en: "I have sinned, O Lord, I have sinned, and I acknowledge my transgressions.",
     },
