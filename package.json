@@ -22,7 +22,8 @@
     "alpinejs": "^3.14.9",
     "express": "^5.1.0",
     "regexp.escape": "^2.0.1",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^28.0.6",
