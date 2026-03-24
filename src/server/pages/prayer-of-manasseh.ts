@@ -175,14 +175,15 @@ there's Romans 10:19 "bring into anger" but using ingramjan because of thumos
 <p class='verses'>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Frawaurhta, Frauja, frawaurhta jah ungaraihteino meinaizo ik fraþja;",
+      got: "Frawaurhta, Frauja, frawaurhta jah ungaraihteim meinaim ik miþwait;",
       grc: "Ἡμάρτηκα, Κύριε, ἡμάρτηκα καὶ τὰς ἀνομίας μου ἐγὼ γινώσκω·",
       en: "I have sinned, O Lord, I have sinned, and I acknowledge my transgressions.",
     },
+    notes: `γινώσκω + gentive is "to be aware of" so using miþwitan.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "akei aihtro bidjands; fralet mis, Frauja, fralet mis, jah ni fraqistjais mis ungaraihteim meinaim,",
       grc: "ἀλλ’ αἰτοῦμαι δεόμενος· Ἄνες μοι, Κύριε, ἄνες μοι, καὶ μὴ συναπολέσῃς με ταῖς ἀνομίαις μου, μηδὲ εἰς τὸν αἰῶνα μηνίσας τηρήσῃς τὰ κακά μοι, μηδὲ καταδικάσῃς με ἐν τοῖς κατωτάτοις τῆς γῆς, διότι σὺ εἶ Θεός, Θεὸς τῶν μετανοούντων,",
       en: "I earnestly implore you, forgive me, O Lord, forgive me! Do not destroy me with my transgressions! Do not be angry with me forever or store up evil for me; do not condemn me to the depths of the earth. For you, O Lord, are the God of those who repent,",
     },
