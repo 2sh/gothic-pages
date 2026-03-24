@@ -183,21 +183,23 @@ there's Romans 10:19 "bring into anger" but using ingramjan because of thumos
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "akei aihtro bidjands; fralet mis, Frauja, fralet mis, jah ni fraqistjais mis ungaraihteim meinaim,",
+      got: "akei aihtro bidjands; fralet mis, Frauja, fralet mis, jah ni fraqistjais mis ungaraihteim meinaim, nih in ajukduþ hatizonds fastais ubila ana mis, nih afdomjais mik in undaristo airþos, unte Þū is Guþ, Guþ idreigondane,",
       grc: "ἀλλ’ αἰτοῦμαι δεόμενος· Ἄνες μοι, Κύριε, ἄνες μοι, καὶ μὴ συναπολέσῃς με ταῖς ἀνομίαις μου, μηδὲ εἰς τὸν αἰῶνα μηνίσας τηρήσῃς τὰ κακά μοι, μηδὲ καταδικάσῃς με ἐν τοῖς κατωτάτοις τῆς γῆς, διότι σὺ εἶ Θεός, Θεὸς τῶν μετανοούντων,",
       en: "I earnestly implore you, forgive me, O Lord, forgive me! Do not destroy me with my transgressions! Do not be angry with me forever or store up evil for me; do not condemn me to the depths of the earth. For you, O Lord, are the God of those who repent,",
     },
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "jah in mis ataugeis alla selein Þeina; unte unwairþs wisands nasjis mik bi mikila armahairtein Þeina,",
       grc: "καὶ ἐν ἐμοὶ δείξεις πᾶσαν τὴν ἀγαθωσύνην σου· ὅτι ἀνάξιον ὄντα σῴσεις με κατὰ τὸ πολὺ ἔλεός σου,",
       en: "and in me you will manifest your goodness, for, unworthy as I am, you will save me according to your great mercy,",
     },
+    notes: `Though it's not μέγα as in Psalm 50, using mikila as it can't be
+translated directly and it ultimately has the same meaning.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "...",
+      got: "jah hazja Þuk sinteino in dagam libainais meinaizos. Unte Þuk hazjiþ alla mahts himinis jah Þeina ist wulþus in aiwins aiwe. Amen.",
       grc: "καὶ αἰνέσω σε διὰ παντὸς ἐν ταῖς ἡμέραις τῆς ζωῆς μου. Ὅτι σὲ ὑμνεῖ πᾶσα ἡ δύναμις τῶν οὐρανῶν καὶ σοῦ ἐστιν ἡ δόξα εἰς τοὺς αἰῶνας τῶν αἰώνων. Ἀμήν.",
       en: "and I will praise you continually all the days of my life. For all the host of heaven sings your praise, and yours is the glory forever. Amen.",
     },
