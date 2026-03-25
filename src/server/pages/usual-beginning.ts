@@ -237,7 +237,7 @@ ${timesTwelve(info)}
 <span class="nowrap">The usual beginning</span>
 <span class="nowrap">of Orthodox services and private prayer</span>
 <span class="nowrap">in the Gothic language,</span>
-<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
+<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025-2026).</span>
 </p>`
 
   return html`<!doctype html>
