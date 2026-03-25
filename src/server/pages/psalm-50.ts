@@ -300,7 +300,7 @@ instead of Iairusalem for only nom and Iairusaulwm- for other declensions.`
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram iostaiha (2026).", en: "a translation by 2sh (2026)." },
+    text: { got: "skeireins fram Iostaiha (2026).", en: "a translation by 2sh (2026)." },
   }], info)}</span>
 </p>`
 
