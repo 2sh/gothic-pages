@@ -80,14 +80,14 @@ galeiþands inn sa aggilus du izai Luke 1:28
     notes: `Using managei instead of managduþs as the Greek πλῆθος is more
 multitude instead of abundance. Some English translations use multitude here.
 
-I was between ungaraihtei and unsibjis for ἀνόμημά. It's ungaraihtei for ἀνομία
+I was between ungaraihtei and unsibjis for ἀνόμημά. Using *witodalausei for ἀνομία
 which comes up in the next line, but the -μά is
 "Added to verbal stems to form neuter nouns denoting the effect or result of an action",
 so the transgression itself, the act/result, so I've gone with missadeþs, missdeed.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Du filusnai usþwah mik af ungaraihtein meinai jah af frawaurhtai meinai gahrainei mik.",
+      got: "Du filusnai usþwah mik af witodalausein meinai jah af frawaurhtai meinai gahrainei mik.",
       grc: "ἐπὶ πλεῖον πλῦνόν με ἀπὸ τῆς ἀνομίας μου καὶ ἀπὸ τῆς ἁμαρτίας μου καθάρισόν με.",
       en: "Wash me thoroughly from mine iniquity, and cleanse me from my sin.",
     },
@@ -96,7 +96,7 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Unte ungaraihtein meina ik kann, jah frawaurhts meina in andwairþja meinamma ist sinteino.",
+      got: "Unte witodalausein meina ik kann, jah frawaurhts meina in andwairþja meinamma ist sinteino.",
       grc: "ὅτι τὴν ἀνομίαν μου ἐγὼ γινώσκω, καὶ ἡ ἁμαρτία μου ἐνώπιόν μού ἐστι διαπαντός.",
       en: "For I am conscious of mine iniquity; and my sin is continually before me.",
     },
@@ -121,7 +121,7 @@ Using def article for evil like in the lord's prayer
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Sai allis in ungaraihteim was ik ganumans, jah in frawaurhtim was inkilþa mis aiþei meina.",
+      got: "Sai allis in witodalauseim was ik ganumans, jah in frawaurhtim was inkilþa mis aiþei meina.",
       grc: "ἰδοὺ γὰρ ἐν ἀνομίαις συνελήφθην, καὶ ἐν ἁμαρτίαις ἐκίσσησέ με ἡ μήτηρ μου.",
       en: "For, behold, I was conceived in iniquities, and in sins did my mother conceive me.",
     },
@@ -178,7 +178,7 @@ looking at balwawesei, and
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Afwandei ludja Þeina af frawaurhtim meinaim jah all ungaraihteino meinaizo afswairb.",
+      got: "Afwandei ludja Þeina af frawaurhtim meinaim jah all witodalauseino meinaizo afswairb.",
       grc: "ἀπόστρεψον τὸ πρόσωπόν σου ἀπὸ τῶν ἁμαρτιῶν μου καὶ πάσας τὰς ἀνομίας μου ἐξάλειψον.",
       en: "Turn away thy face from my sins, and blot out all mine iniquities.",
     },

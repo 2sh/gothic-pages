@@ -144,7 +144,7 @@ meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte frawaurhta mais raþjon malmins mareins. Managidedun ungaraihteins meinos, Frauja, managidedun ungaraihteins meinos, jah ni im wairþs fairweitjan jah saiƕan hauhein himinis in manageins inwindiþo meinaizo,",
+      got: "unte frawaurhta mais raþjon malmins mareins. Managidedun witodalauseins meinos, Frauja, managidedun witodalauseins meinos, jah ni im wairþs fairweitjan jah saiƕan hauhein himinis in manageins inwindiþo meinaizo,",
       grc: "διότι ἥμαρτον ὑπὲρ ἀριθμὸν ψάμμου θαλάσσης. Ἐπλήθυναν αἱ ἀνομίαι μου, Κύριε· ἐπλήθυναν αἱ ἀνομίαι μου, καὶ οὔκ εἰμι ἄξιος ἀτενίσαι καὶ ἰδεῖν τὸ ὕψος τοῦ οὐρανοῦ ἀπὸ τοῦ πλήθους τῶν ἀδικιῶν μου,",
       en: "For the sins I have committed are more in number than the sand of the sea; my transgressions are multiplied, O Lord, they are multiplied! I am not worthy to look up and see the height of heaven because of the multitude of my iniquities.",
     },
@@ -175,7 +175,7 @@ there's Romans 10:19 "bring into anger" but using ingramjan because of thumos
 <p>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Frawaurhta, Frauja, frawaurhta jah ungaraihteim meinaim ik miþwait;",
+      got: "Frawaurhta, Frauja, frawaurhta jah witodalauseim meinaim ik miþwait;",
       grc: "Ἡμάρτηκα, Κύριε, ἡμάρτηκα καὶ τὰς ἀνομίας μου ἐγὼ γινώσκω·",
       en: "I have sinned, O Lord, I have sinned, and I acknowledge my transgressions.",
     },
@@ -183,7 +183,7 @@ there's Romans 10:19 "bring into anger" but using ingramjan because of thumos
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "akei aihtro bidjands; fralet mis, Frauja, fralet mis, jah ni fraqistjais mis ungaraihteim meinaim, nih in ajukduþ hatizonds fastais ubila ana mis, nih afdomjais mik in undaristo airþos, unte Þū is Guþ, Guþ idreigondane,",
+      got: "akei aihtro bidjands; fralet mis, Frauja, fralet mis, jah ni fraqistjais mis witodalauseim meinaim, nih in ajukduþ hatizonds fastais ubila ana mis, nih afdomjais mik in undaristo airþos, unte Þū is Guþ, Guþ idreigondane,",
       grc: "ἀλλ’ αἰτοῦμαι δεόμενος· Ἄνες μοι, Κύριε, ἄνες μοι, καὶ μὴ συναπολέσῃς με ταῖς ἀνομίαις μου, μηδὲ εἰς τὸν αἰῶνα μηνίσας τηρήσῃς τὰ κακά μοι, μηδὲ καταδικάσῃς με ἐν τοῖς κατωτάτοις τῆς γῆς, διότι σὺ εἶ Θεός, Θεὸς τῶν μετανοούντων,",
       en: "I earnestly implore you, forgive me, O Lord, forgive me! Do not destroy me with my transgressions! Do not be angry with me forever or store up evil for me; do not condemn me to the depths of the earth. For you, O Lord, are the God of those who repent,",
     },

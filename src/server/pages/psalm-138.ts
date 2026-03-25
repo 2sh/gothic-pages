@@ -306,7 +306,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Jah saiƕ, jau wigs ungaraihteins in mis, jah tiuh mik in wiga aiweinamma.",
+      got: "Jah saiƕ, jau wigs witodalauseins in mis, jah tiuh mik in wiga aiweinamma.",
       grc: "καὶ ἴδε εἰ ὁδὸς ἀνομίας ἐν ἐμοί, καὶ ὁδήγησόν με ἐν ὁδῷ αἰωνίᾳ.",
       en: "and see if there is any way of iniquity in me, and lead me in an everlasting way.",
     },

@@ -27,7 +27,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
   text: {
-    got: 'Fraujinond, fragif unsibjona unsara.',
+    got: 'Fraujinond, fragif witodalauseins unsaros.',
     grc: "Δέσποτα, συγχώρησον τὰς ἀνομίας ἡμῖν.",
     en: "O Master, pardon our iniquities.",
   },
