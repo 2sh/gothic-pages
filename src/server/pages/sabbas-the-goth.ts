@@ -199,7 +199,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'ni taitokeina þans saudins gawammo unseljo.',
+        got: 'ni taitokeina þans saudins gawammona ubilona.',
         en: "would not touch the unclean, diabolical sacrifices.",
       },
     },
