@@ -271,7 +271,7 @@ declaring/telling part like in the various translations I've seen.`
 <br>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Tawei þiuþ, Frauja, in leikainai Þeinamma du Sion, jah timrjaindau baurgswaddjus Iairusalems;",
+      got: "Tawei þiuþ, Frauja, in leikainai Þeinamma du Sion, jah timrjaindau waddijus Iairusalems;",
       grc: "ἀγάθυνον, Κύριε, ἐν τῇ εὐδοκίᾳ σου τὴν Σιών, καὶ οἰκοδομηθήτω τὰ τείχη ῾Ιερουσαλήμ·",
       en: "Do good, O Lord, to Sion in thy good pleasure; and let the walls of Jerusalem be built.",
     },
