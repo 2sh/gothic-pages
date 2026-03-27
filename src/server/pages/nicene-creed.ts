@@ -225,7 +225,7 @@ though I like that it doesn’t just include creation, but happenings/events too
         grc: "τὸν δι’ ἡμᾶς τοὺς ἀνθρώπους",
         en: "who for us men",
       },
-      notes: `𐌹̈𐌶𐌴𐌹 could be either singular or plural, but the el is singular`,
+      notes: `𐌹̈𐌶𐌴𐌹 could be either singular or plural, but the Greek is singular`,
     },
     {
       text: {
@@ -377,7 +377,7 @@ required somewhere? perhaps before the come again)`,
         grc: "καὶ εἰς τὸ Πνεῦμα τὸ Ἅγιον,",
         en: "And in the Holy Spirit,",
       },
-      notes: `seems to be an emphasis in the el with “the/who” in this paragraph`,
+      notes: `seems to be an emphasis in the Greek with “the/who” in this paragraph`,
     },
     {
       text: {
@@ -449,9 +449,9 @@ required somewhere? perhaps before the come again)`,
       },
       notes: `They profess Titus 1:16.
 
-The el translates to two different versions:
+The Greek translates to two different versions:
 𐌳𐌿 𐌰𐍆𐌻𐌰𐌲𐌴𐌹𐌽𐌰𐌹 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌴 (Mark 1:4) and 𐌳𐌿 𐍆𐍂𐌰𐌻𐌴𐍄𐌰 𐍆𐍂𐌰𐍅𐌰𐌿𐍂𐌷𐍄𐌴 (Luke 3:3),
-went with later as its parts (send away, let go) are closer to the el,
+went with latter as its parts (send away, let go) are closer to the Greek,
 a sort of a nice freeing sense, while the former just “putting it down”`,
     },
   ], info)}</p>`
@@ -469,7 +469,7 @@ a sort of a nice freeing sense, while the former just “putting it down”`,
 plural dead from earlier line/verse.
 
 to look for/expect: 𐌱𐌴𐌹𐌳𐌰𐌽 + genitive, there’s also 𐍅𐌴𐌽𐌾𐌰𐌽 but that includes
-hope which is missing in the el, and would also skew the meaning perhaps.
+hope which is missing in the Greek, and would also skew the meaning perhaps.
 this is about belief in it happening, hope has uncertainty.
 
 urrist only has one attestation.
