@@ -93,7 +93,6 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
     },
     notes: `du filusnai Timothy II 3:9`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Unte witodalausein meina ik kann, jah frawaurhts meina in andwairþja meinamma ist sinteino.",
@@ -101,7 +100,6 @@ so the transgression itself, the act/result, so I've gone with missadeþs, missd
       en: "For I am conscious of mine iniquity; and my sin is continually before me.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Du Þus ainamma ik frawaurhta jah þana ubilo in andwairþja Þeinamma tawida, ei gasunjoþs sijais in waurdam Þeinaim, jah hroþeigs in stauai Þeinai.",
@@ -118,7 +116,6 @@ Using def article for evil like in the lord's prayer
 
 ὅπως ἂν just translates to ei Luke 2:35`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Sai allis in witodalauseim was ik ganumans, jah in frawaurhtim was inkilþa mis aiþei meina.",
@@ -134,7 +131,6 @@ in context with the second part of the sentence. "ganumans wesi in wamba" Luke 2
 The word ἐκίσσησέ means to have an appetite for unusual foods, so being pregnant.
 https://www.orp.gr/wordpress/?p=14523`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Sai allis sunja frijos, þata unbairhtona jah þata fulginona handugeins Þeinaizos gabairhtides mis.",
@@ -145,7 +141,6 @@ https://www.orp.gr/wordpress/?p=14523`
 `Although frodei can translate to sophia, it also translates to phrónēsĭs;
 handugei always translates to sophia`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Ufartrusneis mik hyssopon, jah gahrainjada, usþwahis mik, jah ufar snaiwa gaƕeitjada.",
@@ -156,7 +151,6 @@ handugei always translates to sophia`
 
 Mark 9:3`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Gataujis mik hausjan swegniþa jah faheþ, swegneiþ baina hnaiwido.",
@@ -175,7 +169,8 @@ gone for faheþs for εὐφροσύνην but it's not a direct attestation. W
 looking at balwawesei, and
 "waila wisan seemingly represents a calque of Ancient Greek εὐφραίνεσθαι"`
   }], info)}</span>
-<br>
+</p>
+<p>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Afwandei ludja Þeina af frawaurhtim meinaim jah all witodalauseino meinaizo afswairb.",
@@ -184,7 +179,6 @@ looking at balwawesei, and
     },
     notes: `πάσας(plural) τὰς ἀνομίας(gen uncountable)`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Hairto hrain gaskapei in mis, Guþ, jah ahman garaihtana inniwei in innumistin meinamma.",
@@ -195,7 +189,6 @@ looking at balwawesei, and
 
 *innumists from innuma + ists like undarists, using weak like in "in undaristo airþos" Ephesians 4:9`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Ni afwairpais mik af ludjai Þeinai jah Ahman Þeinana Weihana ni afnimais af mis.",
@@ -207,7 +200,6 @@ looking at balwawesei, and
 ἀντανέλῃς means something like to take in exchange/return,
 most translations just go with take/remove/nehmen though.`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Usgif mis swegniþa naseinais Þeinaizos jah ahmin kindinondin gatulgei mik.",
@@ -216,7 +208,6 @@ most translations just go with take/remove/nehmen though.`
     },
     notes: `*kindinon from kindins (governor, translates NT ἡγεμών) + -ōn, like þiudanon.`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Witodalausans laisja wigans Þeinans, jah unsibjai du Þus gawandjand.",
@@ -225,7 +216,6 @@ most translations just go with take/remove/nehmen though.`
     },
     notes: `Switching the first two words to prevent it being read as "lawless ways".`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Lausei mik us bloþam, Guþ, Guþ ganistais meinaizos; Háuheiþ tuggo meina garaihtein Þeina.",
@@ -243,7 +233,6 @@ the righteousness, and swegjan seems to literally be to make a noise because of 
 exultation/triumph and doesn't feel like it would bring across the
 declaring/telling part like in the various translations I've seen.`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Frauja, wairilons meinos uslūkis, jah munþs meins gateihiþ hazein Þeina.",
@@ -251,7 +240,8 @@ declaring/telling part like in the various translations I've seen.`
       en: "O Lord, thou shalt open my lips; and my mouth shall declare thy praise.",
     },
   }], info)}</span>
-<br>
+</p>
+<p>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Unte jabai wildedeis hunsl, aiþþau gebjau; alabrunsteis ni galeikānd þus.",
@@ -260,7 +250,6 @@ declaring/telling part like in the various translations I've seen.`
     },
     notes: `Unte jabai ... aiþþau þau Matthew 11:21`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Hunsl du Guda ist ahma gabrukans, hairtin gabrukanamma jah hnaiwidamma Guþ ni frakann.",
@@ -268,7 +257,6 @@ declaring/telling part like in the various translations I've seen.`
       en: "Sacrifice to God is a broken spirit: a broken and humbled heart God will not despise.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Tawei þiuþ, Frauja, in leikainai Þeinamma du Sion, jah timrjaindau waddjius Iairusalems;",
