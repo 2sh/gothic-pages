@@ -83,7 +83,6 @@ Some even leave out the "A psalm to/of David" entirely.`
     notes: `*gasiss, taking gasitan + þs which though there's no attestation of it
 being stuck after a t, it's observed to be -ss "after dentals".`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Staiga meina jah badi mein ussokides jah allans wigans meinans faurawisses,",
@@ -110,7 +109,6 @@ Lot feels more like fate, as in it wasn't your own choice.`
       en: "For there is no unrighteous word in my tongue.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Sai, Frauja, Þū kant alla, þo aftumistona jah þo frumistona; Þū gadaiht mik jah galagides ana mis handu Þeina.",
@@ -119,7 +117,6 @@ Lot feels more like fate, as in it wasn't your own choice.`
     },
     notes: `handu þeina ana ija Matthew 9:18`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Sildaleik ist kunþi Þein mis; ist gaswinþida, ik ni mag allis du imma gasniwan.",
@@ -144,7 +141,6 @@ Masoretic "the food allotted to the governor", the Masoretic text missing "my",
 has "food" instead of "bread" and using "allotted to" which probably would have
 been translated differently than a genitive).`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Ƕaþ gaggau af Ahmin Þeinamma jah af andwairþja Þeinamma ƕaþ gaþliuhau?",
@@ -152,7 +148,6 @@ been translated differently than a genitive).`
       en: "Whither shall I go from thy Spirit? and whither shall I flee from thy presence?",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Jabai ussteigau in himin, Þū is þar; jabai atsteigau in halja, atïs;",
@@ -184,7 +179,6 @@ us- can also mean "out" and usniman means to remove or take out.
 
 gahaban hold/keep Luke 8:15 Romans 7:6`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Jah ik qaþ, Þannu riqis gatrudiþ mik, jah nahts wairþiþ liuhaþ in botos meinaizos;",
@@ -200,7 +194,6 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
     },
     notes: `Luke 6:18 Luke 8:44 Luke 9:22 "ἀπὸ" turns into "fram" to mean "by"`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Unte Þu gastaistalst lundja meina; Frauja, hleibides mis us wambai aiþeins meinaizos.",
@@ -211,7 +204,6 @@ gahaban hold/keep Luke 8:15 Romans 7:6`
 *lundi [n. Ja] from *lundiją (loin, kidney, fat) as it descended to
 mean "mindset, character" in Norse languages.`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans Þeinai, jah saiwala meina wait waila.",
@@ -220,7 +212,6 @@ mean "mindset, character" in Norse languages.`
     },
     notes: `"awiliudo þus, unte andhausides mis" John 11:41`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Gafulgin nist bain mein fram Þus, þatei gawaurhtes þiubjo, jah stoma meins in undaristin airþos;",
@@ -249,7 +240,6 @@ It could either be genitive singular or accusative plural, and genitive singular
 
 Another translation for the last part by Brenton "they shall be formed by day, though there should for a time be no one among them."`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Mis auk filu swerai sind frijonds Þeinai, Guþ, filu gaswinþida sind reikja ize;",
@@ -264,7 +254,6 @@ Another translation for the last part by Brenton "they shall be formed by day, t
       en: "I will number them, and they shall be multiplied beyond the sand; I awake, and am still with thee.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Wainei usqimais frawaurhtaim, Guþ, mannans bloþis, afwandeiþ af mis,",
@@ -279,7 +268,6 @@ Another translation for the last part by Brenton "they shall be formed by day, t
       en: "For thou wilt say concerning their thought, that they shall take thy cities in vain.",
     },
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Niu þans fijandans þuk, Frauja, fijaida jah in fiande þeinaize gauriþs?",
@@ -296,7 +284,6 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     },
     notes: `Need to figure out how imperfect renders to Gothic`
   }], info)}</span>
-<br>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Gakius mik, Guþ, gakunnai hairto mein, ussokei mik jah gakunnai staigos meinos.",

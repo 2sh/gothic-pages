@@ -169,8 +169,6 @@ gone for faheþs for εὐφροσύνην but it's not a direct attestation. W
 looking at balwawesei, and
 "waila wisan seemingly represents a calque of Ancient Greek εὐφραίνεσθαι"`
   }], info)}</span>
-</p>
-<p>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Afwandei ludja Þeina af frawaurhtim meinaim jah all witodalauseino meinaizo afswairb.",
@@ -240,8 +238,6 @@ declaring/telling part like in the various translations I've seen.`
       en: "O Lord, thou shalt open my lips; and my mouth shall declare thy praise.",
     },
   }], info)}</span>
-</p>
-<p>
 <span class='verse'>${toGothicLines([{
     text: {
       got: "Unte jabai wildedeis hunsl, aiþþau gebjau; alabrunsteis ni galeikānd þus.",
