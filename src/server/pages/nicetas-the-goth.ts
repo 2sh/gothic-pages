@@ -350,7 +350,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa in naht Liuhaþ Aiwein strawida,",
+      got: "Sa Liuhaþ Aiweino in naht strawida,",
       sr: "Овај светлост вечну у ноћ расипаше,",
       en: "This one spread the Eternal Light in the night,",
     },
@@ -362,7 +362,7 @@ ${toGothicLines([{
     text: {
       got: "Anþar saiwalos riqizis afgudis hulida.",
       sr: "Онај тмом идолском душе застираше.",
-      en: "the other wrapped souls in an idolatrous gloom.",
+      en: "That one wrapped souls in an idolatrous gloom.",
     },
   }], info)}
 </p>`
