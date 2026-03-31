@@ -287,9 +287,9 @@ Using -isks ending`
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Sunjeins sijai inkunja saei in kunja seinamma",
+      got: "Sijai inkunja sunjeins saei in kunja seinamma",
       sr: "Родољуб је прави ко у своме роду",
-      en: "Among his people he is a true patriot",
+      en: "he is a true patriot who among his people ",
     },
     notes: `The word origin of patriot is fellow countryman, so inkunja works
 well here. In the original Serbian words for people and patriot have the same
@@ -298,9 +298,9 @@ root word too.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "Guda Libandin timrjai altār sunjeinana.",
+      got: "Timrjai du Guda Libandin altār sunjeinana.",
       sr: "Олтар прави зида живоме Господу.",
-      en: "who to the Living God erects a genuine altar.",
+      en: "erects to the Living God a genuine altar.",
     },
     notes: ``
   }], info)}
@@ -350,10 +350,12 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa Liuhaþ Aiweinana in naht strawida,",
+      got: "Sa in naht Liuhaþ Aiwein strawida,",
       sr: "Овај светлост вечну у ноћ расипаше,",
       en: "This one spread the Eternal Light in the night,",
     },
+    notes: `Aiweins* ‘eternal’ is weak with libains ‘life’, making it weak
+here too with Liuhaþ`
   }], info)}
 <br>
 ${toGothicLines([{
