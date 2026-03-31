@@ -308,7 +308,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Iostaiha (2026).", en: "a translation by 2sh (2026)." },
+    text: { got: "skeireins fram Iohannes Haggwiþos (2026).", en: "a translation by 2sh (2026)." },
   }], info)}</span>
 </p>`
 

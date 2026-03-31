@@ -226,7 +226,7 @@ ${timesTwelve(info)}
     { text: { got: "Anastodeins biuhteiga", en: "The usual beginning" } },
     { text: { got: "andbahtje jah bidos sundraizos Aurþaudaukseinaize", en: "of Orthodox services and private prayer" } },
     { text: { got: "in razdai gutiskai,", en: "in the Gothic language," } },
-    { text: { got: "skeireins fram Iostaiha (2025-2026).", en: "a translation by 2sh (2025-2026)." } },
+    { text: { got: "skeireins fram Iohannes Haggwiþos (2025-2026).", en: "a translation by 2sh (2025-2026)." } },
   ]
 
   article += html`<p class="annotation">${gothicAnnotation.map(a => `

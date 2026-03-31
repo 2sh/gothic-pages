@@ -288,7 +288,7 @@ with a different declension.`
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Iostaiha (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iohannes Haggwiþos (2025).", en: "a translation by 2sh (2025)." },
   }], info)}</span>
 </p>`
 

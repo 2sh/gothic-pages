@@ -242,7 +242,7 @@ although ... yet ... = þauhjabai ... aiþþau ... Corinthians II 4:16
     },
     {
       text: {
-        got: 'Allis sunsei inngaliþun, akuzja in haubida is haftjandans binemun libain leikeina; jah ...',
+        got: 'Allis sunsei inngaliþun, akuzja in haubida is haftjandans binemun libain leikeina: jah ...',
         la: 'Nam mox ut ingressi sunt, securem cerebro ejus infigentes, vitam corporis abstulerunt: hocque in eo valuerunt perimere, quod ipse quoque qui peremtus est, in se constiterat despexisse.',
         en: 'for so soon as they came into the prison, they clave his brains with an hatchet, and so bereaved him of mortal life, having only power to take that from him which the holy martyr made small account of.',
         de: 'Denn kaum waren sie bei ihm eingetreten, spalteten sie ihm mit einem Beil das Haupt und nahmen ihm das leibliche Leben; denn nur das konnten sie an ihm töten, was der Ermordete selbst an sich gering geschätzt hatte.',
@@ -267,7 +267,7 @@ Es blieben aber die Wunder von oben nicht aus, um seine wahrhaft erlangte Herrli
     text: { got: 'in razdai gutiskai,', en: 'in the Gothic language,' },
   }], info)}</span>
   <span class='nowrap'>${toGothicLines([{
-    text: { got: 'skeireins fram Iostaiha (2025-2026).', en: 'a translation by 2sh (2025-2026).' },
+    text: { got: 'skeireins fram Iohannes Haggwiþos (2025-2026).', en: 'a translation by 2sh (2025-2026).' },
   }], info)}</span>
 </p>`
 
