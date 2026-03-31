@@ -74,7 +74,7 @@ from fetjan meaning "to adorn oneself".`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "saei gaband marein waurda anabusnais Þeinaizos; saei galauk afgrundiþa jah faursiglida ija agisleikamma jah wulþagamma namin þeinamma;",
+      got: "saei gaband marein waurda anabusnais Þeinaizos; saei galauk afgrundiþa jah faursiglida ija agisleikamma jah wulþagamma namin Þeinamma;",
       grc: "ὁ πεδήσας τὴν θάλασσαν τῷ λόγῳ τοῦ προστάγματός σου· ὁ κλείσας τὴν ἄβυσσον καὶ σφραγισάμενος αὐτὴν τῷ φοβερῷ καὶ ἐνδόξῳ ὀνόματί σου·",
       en: "who shackled the sea by your word of command, who confined the deep and sealed it with your terrible and glorious name,",
     },
@@ -127,7 +127,7 @@ meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse-addition'>${toGothicLines([{
     text: {
-      got: "Þū, Frauja, bi managein seleins Þeinaizos, gahaihaist idreiga jah fralet þaiei frawaurhtedun du Þus, jah managein bleiþeino Þeinaizo gasatides frawaurhtaim du ganistai.",
+      got: "Þū, Frauja, bi managein seleins Þeinaizos, gahaihaist idreiga jah fralet þaiei frawaurhtedun du Þus, jah managein bleiÞeino Þeinaizo gasatides frawaurhtaim du ganistai.",
       grc: "Σύ, Κύριε, κατὰ τὸ πλῆθος τῆς χρηστότητός σου, ἐπηγγείλω μετάνοιαν καὶ ἄφεσιν τοῖς ἡμαρτηκόσι σοι, καὶ τῷ πλήθει τῶν οἰκτιρμῶν σου ὥρισας μετάνοιαν ἁμαρτωλοῖς εἰς σωτηρίαν.",
       en: "O Lord, according to your great goodness you have promised repentance and forgiveness to those who have sinned against you, and in the multitude of your mercies you have appointed repentance for sinners, so that they may be saved.",
     },

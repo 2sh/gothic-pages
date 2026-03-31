@@ -59,7 +59,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'Fragif ei mik allandjo Wiljin Weihamma þeinamma atgibau.',
+        got: 'Fragif ei mik allandjo Wiljin Weihamma Þeinamma atgibau.',
         ru: "Дай мне всецело предаться воле Твоей Святой.",
         en: "Grant that I may fully surrender myself to Thy holy Will.",
       },
@@ -92,7 +92,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'ei all uf Wiljin Weihamma þeinamma sijai, andniman.',
+        got: 'ei all uf Wiljin Weihamma Þeinamma sijai, andniman.',
         ru: "что на всё Святая воля Твоя.",
         en: "that all is subject to Thy holy Will.",
       },

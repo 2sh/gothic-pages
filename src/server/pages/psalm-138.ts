@@ -270,7 +270,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Niu þans fijandans þuk, Frauja, fijaida jah in fiande þeinaize gauriþs?",
+      got: "Niu þans fijandans þuk, Frauja, fijaida jah in fiande Þeinaize gauriþs?",
       grc: "οὐχὶ τοὺς μισοῦντάς σε, Κύριε, ἐμίσησα καὶ ἐπὶ τοὺς ἐχθρούς σου ἐξετηκόμην;",
       en: "Have I not hated them, O Lord, that hate thee? and wasted away because of thine enemies?",
     },

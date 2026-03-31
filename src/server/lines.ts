@@ -127,7 +127,7 @@ ${amen(pi)}`
 
 export const forYoursIs: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'Unte þeina ist þiudangardi jah mahts jah wulþus',
+    got: 'Unte Þeina ist þiudangardi jah mahts jah wulþus',
     grc: "Ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα",
     en: "for yours is the kingdom and the power and the glory",
   },

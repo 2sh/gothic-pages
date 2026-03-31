@@ -118,7 +118,7 @@ so *dauksaulaugei`,
     },
     {
       text: {
-        got: 'faur mikilana wulþu þeinana.',
+        got: 'faur mikilana wulþu Þeinana.',
         grc: "διὰ τὴν μεγάλην σου δόξαν.",
         en: "for your great glory.",
       },
@@ -314,7 +314,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
     },
     {
       text: {
-        got: 'jah hazja namo þein in aiw,',
+        got: 'jah hazja namo Þein in aiw,',
         grc: "καὶ αἰνέσω τὸ ὄνομά σου εἰς τὸν αἰῶνα,",
         en: "and I shall praise your name forever,",
       },
@@ -401,7 +401,7 @@ of a “into ... of ...”.`,
     },
     {
       text: {
-        got: 'laisei mik wiljan þeinana taujan,',
+        got: 'laisei mik wiljan Þeinana taujan,',
         grc: "δίδαξόν με τοῦ ποιεῖν τὸ θέλημά σου,",
         en: "teach me to do your will,",
       },
@@ -430,7 +430,7 @@ do the will John 6:38; do his will John 7:17
     },
     {
       text: {
-        got: 'In liuhada þein seƕum liuhaþ.',
+        got: 'In liuhada Þein seƕum liuhaþ.',
         grc: "ἐν τῷ φωτί σου ὀψόμεθα φῶς.",
         en: "in your light we shall see light.",
       },
@@ -439,7 +439,7 @@ do the will John 6:38; do his will John 7:17
     },
     {
       text: {
-        got: 'Ufþanei armahairtein þeina þaim kunnandam þuk.',
+        got: 'Ufþanei armahairtein Þeina þaim kunnandam þuk.',
         grc: "Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε.",
         en: "Extend your mercy to those who know you.",
       },
@@ -506,7 +506,7 @@ principal clause is interrogative or negative”`,
     },
     {
       text: {
-        got: 'jah haziþ jah gasweraiþ namo þein',
+        got: 'jah haziþ jah gasweraiþ namo Þein',
         grc: "καὶ αἰνετὸν καὶ δεδοξασμένον τὸ ὄνομά σου",
         en: "and praised and glorified is your name",
       },
@@ -527,7 +527,7 @@ principal clause is interrogative or negative”`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Wairþai, Frauja, armahairtein þeina ana uns,',
+        got: 'Wairþai, Frauja, armahairtein Þeina ana uns,',
         grc: "Γένοιτο, Κύριε, τὸ ἔλεός σου ἐφʼ ἡμᾶς,",
         en: "Let your mercy, Lord, come upon us,",
       },
@@ -560,7 +560,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
     },
     {
       text: {
-        got: 'laisei mik anabusnins þeinos.',
+        got: 'laisei mik anabusnins Þeinos.',
         grc: "δίδαξόν με τὰ δικαιώματά σου.",
         en: "teach me your commandments.",
       },
@@ -578,7 +578,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
     },
     {
       text: {
-        got: 'gatawei mik fraþjan anabusnins þeinos.',
+        got: 'gatawei mik fraþjan anabusnins Þeinos.',
         grc: "συνέτισόν με τὰ δικαιώματά σου.",
         en: "make me understand your commandments.",
       },
@@ -600,7 +600,7 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
     },
     {
       text: {
-        got: 'inliuhtei mik miþ anabusnim þeinaim.',
+        got: 'inliuhtei mik miþ anabusnim Þeinaim.',
         grc: "φώτισόν με τοῖς δικαιώμασί σου.",
         en: "enlighten me with your commandments.",
       },
@@ -612,14 +612,14 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Frauja, armahairtein þeina in aiw;',
+        got: 'Frauja, armahairtein Þeina in aiw;',
         grc: "Κύριε, τὸ ἔλεός σου εἰς τὸν αἰῶνα·",
         en: "Lord, your mercy remains forever,",
       },
     },
     {
       text: {
-        got: 'ni uswandjais af waurstwam handiwe þeinaizo.',
+        got: 'ni uswandjais af waurstwam handiwe Þeinaizo.',
         grc: "τὰ ἔργα τῶν χειρῶν σου μὴ παρίδῃς.",
         en: "do not turn away from the works of your hands.",
       },

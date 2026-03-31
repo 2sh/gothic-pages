@@ -14,7 +14,7 @@ ${toGothicLines([
     },
     {
       text: {
-        got: 'weihnai namo þein.',
+        got: 'weihnai namo Þein.',
         grc: "ἁγιασθήτω τὸ ὄνομά σου.",
         en: "hallowed be your name.",
       }
@@ -24,7 +24,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'Qimai þiudinassus þeins.',
+        got: 'Qimai þiudinassus Þeins.',
         grc: "Ἐλθέτω ἡ βασιλεία σου.",
         en: "your kingdom come.",
       }
@@ -34,7 +34,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'Wairþai wilja þeins,',
+        got: 'Wairþai wilja Þeins,',
         grc: "Γενηθήτω τὸ θέλημά σου,",
         en: "Your will be done,",
       }

@@ -45,7 +45,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
   text: {
-    got: 'in namins þeinis.',
+    got: 'in namins Þeinis.',
     grc: "ἕνεκεν τοῦ ὀνόματός σου.",
     en: "for Thy Name’s sake.",
   },
