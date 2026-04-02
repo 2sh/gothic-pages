@@ -114,7 +114,7 @@ for foxes, it’s only been attested in the bible in relation to foxes.
     },
     {
       text: {
-        got: 'iþ ni gaggaiþ in aurtigard Makgraigaur Fraujins.',
+        got: 'iþ ni gaggaiþ in aurtigard MakGraigaur Fraujins.',
         en: "but don’t go into Mr. McGregor’s garden.",
       },
     },
@@ -134,7 +134,7 @@ be it unto me 𐍅𐌰𐌹𐍂𐌸𐌰𐌹 𐌼𐌹𐍃 Luke 1:38.`
     },
     {
       text: {
-        got: 'is was in mat fram Makgraigaur Fraujon galagiþs.”',
+        got: 'is was in mat fram MakGraigaur Fraujon galagiþs.”',
         en: 'he was put in a pie by Mrs. McGregor.”',
       },
       notes:
@@ -239,7 +239,7 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
     },
     {
       text: {
-        got: 'rann suns du aurtigard Makgraigaur Fraujins,',
+        got: 'rann suns du aurtigard MakGraigaur Fraujins,',
         en: `ran straight away to Mr. McGregor’s garden,`,
       },
     },
@@ -275,7 +275,7 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'AÞÞAN bi andja hramos aggurjono, du ƕamma garann? Makgraigaur Frauja!',
+        got: 'AÞÞAN bi andja hramos aggurjono, du ƕamma garann? MakGraigaur Frauja!',
         en: `BUT round the end of a cucumber frame, whom should he meet but Mr. McGregor!`,
       },
       notes:
@@ -293,7 +293,7 @@ but shouldn’t be needed with the Gothic 𐌲𐌰𐍂𐌹𐌽𐌽𐌰𐌽, I th
     },
     {
       text: {
-        got: 'Makgraigaur Frauja was ana handum jah kniwam is ussatjands kaula jugga,',
+        got: 'MakGraigaur Frauja was ana handum jah kniwam is ussatjands kaula jugga,',
         en: `Mr. McGregor was on his hands and knees planting out young cabbages,`,
       },
       notes:
