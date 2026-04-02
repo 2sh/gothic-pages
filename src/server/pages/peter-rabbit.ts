@@ -96,7 +96,7 @@ for foxes, it’s only been attested in the bible in relation to foxes.
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: '“NŪ, liubans meinai”, qaþ Hasa Fraujo in ainamma maurgina,',
+        got: '“Nū, liubans meinai”, qaþ Hasa Fraujo in ainamma maurgina,',
         en: '“NOW, my dears”, said old Mrs. Rabbit one morning,',
       },
       notes:
@@ -152,7 +152,7 @@ the motion, with the next part having reached the ear.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: '“JAH NŪ afleiþiþ, jah taujaiþ ni waiht unfroþ.',
+        got: '“Jah nū afleiþiþ, jah taujaiþ ni waiht unfroþ.',
         en: `“NOW run along, and don’t get into mischief.`,
       },
       notes:
@@ -212,7 +212,7 @@ most likely needs improving.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'FLAUPSI, Maupsi jah Kauttaun-taieil, þaiei wesun hasans leitilai godai,',
+        got: 'Flaupsi, Maupsi jah Kauttaun-taieil, þaiei wesun hasans leitilai godai,',
         en: `FLOPSY, Mopsy, and Cotton-tail, who were good little bunnies,`,
       },
     },
@@ -225,7 +225,7 @@ most likely needs improving.`
     },
     {
       text: {
-        got: 'IÞ Paitrus, saei was ufarhausjands filu,',
+        got: 'Iþ Paitrus, saei was ufarhausjands filu,',
         en: `BUT Peter, who was very naughty,`,
       },
       notes:
@@ -255,14 +255,14 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'FRUMIST matida suma laktukos jah suma frankiska baunos; jah þan matida suma radiksa;',
+        got: 'Frumist matida suma laktukos jah suma frankiska baunos; jah þan matida suma radiksa;',
         en: `FIRST he ate some lettuces and some French beans; and then he ate some radishes;`,
       },
       notes: `*laktuka f.O, *bauna f.O, *radiks n.A? from Neolog. doc`
     },
     {
       text: {
-        got: 'JAH þan, habands ubil, iddja suma marik du sokjan.',
+        got: 'Jah þan, habands ubil, iddja suma marik du sokjan.',
         en: `AND then, feeling rather sick, he went to look for some parsley.`,
       },
       notes: `𐌿𐍂𐍂𐌰𐌽𐌽 ... 𐌳𐌿 𐍃𐌰𐌹𐌰𐌽 Luke 8:5
@@ -275,7 +275,7 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'AÞÞAN bi andja hramos aggurjono, du ƕamma garann? MakGraigaur Frauja!',
+        got: 'Aþþan bi andja hramos aggurjono, du ƕamma garann? MakGraigaur Frauja!',
         en: `BUT round the end of a cucumber frame, whom should he meet but Mr. McGregor!`,
       },
       notes:
@@ -321,7 +321,7 @@ Not from an-stem *rekô as it clashes with 𐍂𐌹𐌺𐌰𐌽’s conjugations
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `PAITRUS ohta sis abraba;`,
+        got: `Paitrus ohta sis abraba;`,
         en: `PETER was most dreadfully frightened;`,
       },
       notes:
@@ -369,7 +369,7 @@ airþaapls m.A from Neolog. doc`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `AFAR þatei fralaus þans, rann ana liþus fidworim jah iddja snilliza,`,
+        got: `Afar þatei fralaus þans, rann ana liþus fidworim jah iddja snilliza,`,
         en: `AFTER losing them, he ran on four legs and went faster,`,
       },
       notes:
