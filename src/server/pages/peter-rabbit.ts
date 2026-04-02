@@ -409,7 +409,7 @@ fortunate 𐌰𐌿𐌳𐌰𐌲𐍃, 𐌿𐌽𐌰𐌿𐌳𐌰𐌲𐌰𐌱𐌰 fol
     },
     {
       text: {
-        got: `Sa was jakki blew miþ haubidilam aizeinaim, niujis filu.`,
+        got: `Þata was jakki blew miþ haubidilam aizeinaim, niujis filu.`,
         en: `It was a blue jacket with brass buttons, quite new.`,
       },
       notes:
