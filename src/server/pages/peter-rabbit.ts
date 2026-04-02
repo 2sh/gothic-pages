@@ -10,7 +10,7 @@ import
 } from '@server/tools'
 
 
-const slug = 'paitraus-hazins'
+const slug = 'paitraus-hasins'
 const title = 'Þata Spill Paitraus Hazins'
 const description = "Þata Spill Paitraus Hazins, skeireins in razdai gutiskai."
 
