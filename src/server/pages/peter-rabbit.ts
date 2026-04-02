@@ -425,7 +425,7 @@ Translating “quite” to “very” for now.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `PAITRUS þāhta sis swe fralusans, jah fralaílot tagr mikil;`,
+        got: `Paitrus þāhta sis swe fralusans, jah fralaílot tagr mikil;`,
         en: `PETER gave himself up for lost, and shed big tears;`,
       },
     },
