@@ -47,7 +47,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Simle wesun fidwor hasans leitilai,',
+        got: 'Simle wesun hasans leitilai fidwor,',
         en: "Once upon a time there were four little Rabbits,",
       }
     },
@@ -114,7 +114,7 @@ for foxes, it’s only been attested in the bible in relation to foxes.
     },
     {
       text: {
-        got: 'iþ gaggaiþ in aurtigard Mkgraigaur Fraujins.',
+        got: 'iþ ni gaggaiþ in aurtigard Makgraigaur Fraujins.',
         en: "but don’t go into Mr. McGregor’s garden.",
       },
     },
@@ -134,7 +134,7 @@ be it unto me 𐍅𐌰𐌹𐍂𐌸𐌰𐌹 𐌼𐌹𐍃 Luke 1:38.`
     },
     {
       text: {
-        got: 'is was in mat fram Mkgraigaur Fraujon galagiþs.”',
+        got: 'is was in mat fram Makgraigaur Fraujon galagiþs.”',
         en: 'he was put in a pie by Mrs. McGregor.”',
       },
       notes:
@@ -212,13 +212,13 @@ most likely needs improving.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'FLAUPSI, Maupsi jah Kauttaun-taieil, þaiei wesun godai hasans leitilai,',
+        got: 'FLAUPSI, Maupsi jah Kauttaun-taieil, þaiei wesun hasans leitilai godai,',
         en: `FLOPSY, Mopsy, and Cotton-tail, who were good little bunnies,`,
       },
     },
     {
       text: {
-        got: 'iddjedun and wig du lisan bremibasja;',
+        got: 'iddjedun and wig bremibasja du lisan;',
         en: `went down the lane to gather blackberries;`,
       },
       notes: `*bremibasi (n. Ja) from *bremibasją`
@@ -239,7 +239,7 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
     },
     {
       text: {
-        got: 'rann suns du aurtigard Mkgraigaur Fraujins,',
+        got: 'rann suns du aurtigard Makgraigaur Fraujins,',
         en: `ran straight away to Mr. McGregor’s garden,`,
       },
     },
@@ -255,16 +255,19 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'FRUMIST matida suma <[lettuces]> jah suma frankiska <[beans]>; jah þan matida suma <[radishes]>;',
+        got: 'FRUMIST matida suma laktukos jah suma frankiska baunos; jah þan matida suma radiksa;',
         en: `FIRST he ate some lettuces and some French beans; and then he ate some radishes;`,
-      }
+      },
+      notes: `*laktuka f.O, *bauna f.O, *radiks n.A? from Neolog. doc`
     },
     {
       text: {
-        got: 'JAH þan, habands ubil, iddja suma <[parsley]> du sokjan.',
+        got: 'JAH þan, habands ubil, iddja suma marik du sokjan.',
         en: `AND then, feeling rather sick, he went to look for some parsley.`,
       },
-      notes: `𐌿𐍂𐍂𐌰𐌽𐌽 ... 𐌳𐌿 𐍃𐌰𐌹𐌰𐌽 Luke 8:5`
+      notes: `𐌿𐍂𐍂𐌰𐌽𐌽 ... 𐌳𐌿 𐍃𐌰𐌹𐌰𐌽 Luke 8:5
+
+*mariks m.I from Neolog. doc`
     },
   ], info)}</p>`
 
@@ -272,11 +275,13 @@ instead of 𐌿𐌱𐌹𐌻𐌰𐌱𐌰 as it may seem too harsh`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'AÞÞAN bi andja <[cucumber]> hramos, du ƕamma garann? Mkgraigaur Frauja!',
+        got: 'AÞÞAN bi andja hramos aggurjono, du ƕamma garann? Makgraigaur Frauja!',
         en: `BUT round the end of a cucumber frame, whom should he meet but Mr. McGregor!`,
       },
       notes:
-        `𐌷𐍂𐌰𐌼𐌾𐌰𐌽 “to crucify” from PGm *hramjaną out of the
+`*aggurjo f.N from ᾰ̓γγούρῐον looking at on-stem 𐌰𐌹𐍅𐌰𐌲𐌲𐌴𐌻𐌾𐍉 from εὐαγγέλιον also second declension.
+
+𐌷𐍂𐌰𐌼𐌾𐌰𐌽 “to crucify” from PGm *hramjaną out of the
 parts o-stem *hramo (“frame, rack”) and *-janą.
 hramo following o-stem *skamo to attested 𐍃𐌺𐌰𐌼𐌰 => 𐌷𐍂𐌰𐌼𐌰.
 
@@ -288,11 +293,13 @@ but shouldn’t be needed with the Gothic 𐌲𐌰𐍂𐌹𐌽𐌽𐌰𐌽, I th
     },
     {
       text: {
-        got: 'Mkgraigaur Frauja was ana handum jah kniwam is ussatjands jugga <[cabbages]>,',
+        got: 'Makgraigaur Frauja was ana handum jah kniwam is ussatjands kaula jugga,',
         en: `Mr. McGregor was on his hands and knees planting out young cabbages,`,
       },
       notes:
-        `𐌰𐌽𐌰 𐌰𐌽𐌳𐌰𐍅𐌻𐌴𐌹𐌶𐌽 “on his face” Corinthians I 14:25.`
+        `𐌰𐌽𐌰 𐌰𐌽𐌳𐌰𐍅𐌻𐌴𐌹𐌶𐌽 “on his face” Corinthians I 14:25.
+
+*kauls m.A from Neolog. doc`
     },
     {
       text: {
@@ -340,7 +347,7 @@ wiga gaggandans du Iairusaulwmai Mark 10:32`
     },
     {
       text: {
-        got: `Fralaus ainana skohe in <[cabbages]>,`,
+        got: `Fralaus ainana skohe in kaulam,`,
         en: `He lost one of his shoes among the cabbages,`,
       },
       notes:
@@ -348,11 +355,13 @@ wiga gaggandans du Iairusaulwmai Mark 10:32`
     },
     {
       text: {
-        got: `jah anþarana skoh in <[potatoes]>.`,
+        got: `jah anþarana skoh in airþaaplam.`,
         en: `and the other shoe amongst the potatoes.`,
       },
       notes:
-        `“one of” Matthew 5:19, Matthew 5:29.`
+`“one of” Matthew 5:19, Matthew 5:29.
+
+airþaapls m.A from Neolog. doc`
     },
   ], info)}</p>`
 
@@ -380,7 +389,7 @@ went with limb 𐌻𐌹𐌸𐌿𐍃 as leg not really attested.
     },
     {
       text: {
-        got: `wainei unaudagaba ni garunni in <[gooseberry]> nati,`,
+        got: `wainei unaudagaba ni garunni in <[goose]>basinati,`,
         en: `if he had not unfortunately run into a gooseberry net,`,
       },
       notes:
@@ -390,19 +399,23 @@ fortunate 𐌰𐌿𐌳𐌰𐌲𐍃, 𐌿𐌽𐌰𐌿𐌳𐌰𐌲𐌰𐌱𐌰 fol
     },
     {
       text: {
-        got: `jah warþ þairh mikila <[buttons]> ana <[jacket]> is gafāhans.`,
+        got: `jah warþ þairh mikila haubidilona ana jakkja seinamma gafāhans.`,
         en: `and got caught by the large buttons on his jacket.`,
       },
       notes:
-        ``
+        `*haubidilo n.N from Neolog. doc
+
+*jakki n.ja from Neolog. doc`
     },
     {
       text: {
-        got: `Sa was <[jacket]> blews miþ <[buttons]> aizis, niujis filu.`,
+        got: `Sa was jakki blew miþ haubidilam aizeinaim, niujis filu.`,
         en: `It was a blue jacket with brass buttons, quite new.`,
       },
       notes:
-        `*𐌱𐌻𐌴𐍅𐍃
+        `*blews A.
+
+aiz + -eins
 
 Translating “quite” to “very” for now.`
     },
@@ -418,17 +431,17 @@ Translating “quite” to “very” for now.`
     },
     {
       text: {
-        got: `iþ gretos is wesun gáuridai sumaim <[sparrows]> qairrjaim`,
+        got: `iþ gretos is wesun gáuridai sumaim sparwam qairrjaim`,
         en: `but his sobs were overheard by some friendly sparrows,`,
       },
     },
     {
       text: {
-        got: `þaiei gadrobnandans mikilaba <[flew]> du imma, jah ina bedun ina du usdaudjan.`,
+        got: `þaiei gadrobnandans mikilaba flugun du imma, jah bedun ina du usdaudjan.`,
         en: `who flew to him in great excitement, and implored him to exert himself.`,
       },
       notes:
-        ``
+        `*þliugan strong cls2 from PGm. *fleuganą`
     },
   ], info)}</p>`
 
@@ -444,7 +457,7 @@ Translating “quite” to “very” for now.`
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Iohannes Haggwiþos (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iohannes Haggwiþos (2025-2026).", en: "a translation by 2sh (2025-2026)." },
   }], info)}</span>
 </p>`
 
@@ -452,7 +465,7 @@ Translating “quite” to “very” for now.`
   <span class="nowrap">The Tale of Peter Rabbit</span>
   <span class="nowrap">by Beatrix Potter</span>
   <span class="nowrap">in the Gothic language,</span>
-  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
+  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025-2026).</span>
 </p>`
 
 
