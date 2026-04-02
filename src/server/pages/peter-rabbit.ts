@@ -293,7 +293,7 @@ but shouldn’t be needed with the Gothic 𐌲𐌰𐍂𐌹𐌽𐌽𐌰𐌽, I th
     },
     {
       text: {
-        got: 'MakGraigaur Frauja was ana handum jah kniwam is ussatjands kaula jugga,',
+        got: 'MakGraigaur Frauja was ana handum jah kniwam seinaim ussatjands kaula jugga,',
         en: `Mr. McGregor was on his hands and knees planting out young cabbages,`,
       },
       notes:
