@@ -445,6 +445,25 @@ Translating “quite” to “very” for now.`
     },
   ], info)}</p>`
 
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: `MakGraigaur Frauja anaqam miþ hreidron, þoei du galagan ana Paitru;`,
+        en: `MR. McGREGOR came up with a sieve, which he intended to pop upon the top of Peter;`,
+      },
+      notes: `*hreidro f.N from PGm *hrīdrǭ`
+    },
+    {
+      text: {
+        got: `akei Paitrus galausida sik sprauto, biliþans jakkja sein hindar sis.`,
+        en: `Peter wriggled out just in time, leaving his jacket behind him.`,
+      },
+    },
+  ], info)}</p>`
+
+
+  // but
+
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
