@@ -72,28 +72,55 @@ weak nouns keep -a- for the connecting vowel.” -guthiharjis`
     text: {
       got: 'Uf Þeinos Armahairteins',
       grc: "Ὑπὸ τὴν σὴν εὐσπλαγχνίαν",
-      en: "Under your protection",
+      en: "Beneath thy compassion",
     },
     notes: `"Parts of the prayer have been dated to the 3rd or 4th century.".
 
-Also known by the Latin title 'Sub tuum præsidium'.`
+Also known by the Latin title 'Sub tuum præsidium', though the Latin is somewhat
+different.`
   }], info)}</h2>`
 
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `Uf þeinos armahairteins, þliuham, Gudabairandei.`,
-        grc: `Ὑπὸ τὴν σὴν εὐσπλαγχνίαν, καταφεύγομεν, Θεοτόκε.`,
-        en: `Beneath thy compassion, we take refuge, O Theotokos.`,
+        got: `Uf þeinos armahairteins,`,
+        grc: `Ὑπὸ τὴν σὴν εὐσπλαγχνίαν,`,
+        en: `Beneath thy compassion,`,
       },
     },
+  ], info)}
+<br>
+${toGothicLines([
     {
       text: {
-        got: `Unsaros bidos, ni afsaiƕais in aggwiþai,`,
-        grc: `Τὰς ἡμῶν ἱκεσίας, μὴ παρίδῃς ἐν περιστάσει,`,
-        en: `Do not despise our petitions in time of trouble,`,
+        got: `þliuham, Gudabairandei.`,
+        grc: `καταφεύγομεν, Θεοτόκε.`,
+        en: `we take refuge, O Theotokos.`,
       },
     },
+  ], info)}
+<br>
+${toGothicLines([
+    {
+      text: {
+        got: `Unsaros bidos,`,
+        grc: `Τὰς ἡμῶν ἱκεσίας,`,
+        en: `Our petitions,`,
+      },
+    },
+  ], info)}
+<br>
+${toGothicLines([
+    {
+      text: {
+        got: `ni afsaiƕais in aggwiþai,`,
+        grc: `μὴ παρίδῃς ἐν περιστάσει,`,
+        en: `Do not despise (them) in time of trouble,`,
+      },
+    },
+  ], info)}
+<br>
+${toGothicLines([
     {
       text: {
         got: `ak us bireikeim uslausei uns,`,
@@ -101,6 +128,9 @@ Also known by the Latin title 'Sub tuum præsidium'.`
         en: `but rescue us from dangers,`,
       },
     },
+  ], info)}
+<br>
+${toGothicLines([
     {
       text: {
         got: `aina Weiho, aina þiuþido.`,
