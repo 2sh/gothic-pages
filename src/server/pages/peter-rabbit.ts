@@ -462,9 +462,6 @@ Translating “quite” to “very” for now.`
   ], info)}</p>`
 
 
-  // but
-
-
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
     text: { got: "Þata Spill Paitraus Hasins", en: "The Tale of Peter Rabbit" },
