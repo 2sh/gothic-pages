@@ -68,6 +68,51 @@ weak nouns keep -a- for the connecting vowel.” -guthiharjis`
 
   article += html`<p>${hymnToTheotokos(info)}</p>`
 
+
+  article += html`<h2>${toGothicLines([{
+    text: {
+      got: 'Gudabairandei Magaþ',
+      grc: "Θεοτόκε Παρθένε",
+      en: "Virgin Theotokos",
+    },
+    notes: `The Orthodox Hail Mary (Ave Maria)`
+  }], info)}</h2>`
+
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: `Gudabairandei Magaþ,`,
+        grc: `Θεοτόκε Παρθένε,`,
+        en: `Virgin Theotokos,`,
+      },
+    },
+    {
+      text: {
+        got: `fagino, anstai audahafta Maria, frauja miþ þus.`,
+        grc: `χαῖρε, κεχαριτωμένη Μαρία, ὁ κύριος μετὰ σοῦ.`,
+        en: `Virgin, rejoice, O Mary, full of grace. The Lord is with thee. `,
+      },
+      notes: `Taken from Gothic Bible Luke 1:28 with the addition of Maria`
+    },
+    {
+      text: {
+        got: `Þiuþido þu in qinom, jah þiuþido akran qiþaus þeinis,`,
+        grc: `εὐλογημένη σὺ ἐν γυναιξί, καὶ εὐλογημένος ὁ καρπὸς τῆς κοιλίας σου,`,
+        en: `Blessed art thou amongst women, and blessed is the fruit of thy womb,`,
+      },
+      notes: `Taken from Gothic Bible Luke 1:42.
+The first part is also in 1:28 and matches exact in Gothic too.`
+    },
+    {
+      text: {
+        got: `unte Nasjand saiwalo unsaraizo gabart.`,
+        grc: `ὅτι Σωτῆρα ἔτεκες τῶν ψυχῶν ἡμῶν.`,
+        en: `for thou hast given birth to the Saviour of our souls.`,
+      },
+    },
+  ], info)}</p>`
+
+
   article += html`<h2>${toGothicLines([{
     text: {
       got: 'Uf Þeinos Armahairteins',
