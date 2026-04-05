@@ -68,6 +68,49 @@ weak nouns keep -a- for the connecting vowel.” -guthiharjis`
 
   article += html`<p>${hymnToTheotokos(info)}</p>`
 
+  article += html`<h2>${toGothicLines([{
+    text: {
+      got: 'Uf Þeinos Armahairteins',
+      grc: "Ὑπὸ τὴν σὴν εὐσπλαγχνίαν",
+      en: "Under your protection",
+    },
+    notes: `"Parts of the prayer have been dated to the 3rd or 4th century.".
+
+Also known by the Latin title 'Sub tuum præsidium'.`
+  }], info)}</h2>`
+
+  article += html`<p>${toGothicLines([
+    {
+      text: {
+        got: `Uf þeinos armahairteins, þliuham, Gudabairandei.`,
+        grc: `Ὑπὸ τὴν σὴν εὐσπλαγχνίαν, καταφεύγομεν, Θεοτόκε.`,
+        en: `Beneath thy compassion, we take refuge, O Theotokos.`,
+      },
+    },
+    {
+      text: {
+        got: `Unsaros bidos, ni afsaiƕais in aggwiþai,`,
+        grc: `Τὰς ἡμῶν ἱκεσίας, μὴ παρίδῃς ἐν περιστάσει,`,
+        en: `Do not despise our petitions in time of trouble,`,
+      },
+    },
+    {
+      text: {
+        got: `ak us bireikeim uslausei uns,`,
+        grc: `ἀλλ᾽ ἐκ κινδύνων λύτρωσαι ἡμᾶς,`,
+        en: `but rescue us from dangers,`,
+      },
+    },
+    {
+      text: {
+        got: `aina Weiho, aina þiuþido.`,
+        grc: `μόνη Ἁγνή, μόνη εὐλογημένη.`,
+        en: `only pure one, only blessed one.`,
+      },
+    },
+  ], info)}</p>`
+
+
   const gothicAnnotation = [
     { text: { got: "Waurda Gudabairandein", en: "Words to the Theotokos" } },
     { text: { got: "in razdai gutiskai,", en: "in the Gothic language," } },
