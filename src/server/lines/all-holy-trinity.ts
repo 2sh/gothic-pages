@@ -4,7 +4,7 @@ import { toGothicLines } from "@server/tools"
 export const allHolyTrinity: ReuseLines = pi => `
 ${toGothicLines([{
   text: {
-    got: 'Allweiha Þrifalþei, armai unsis.',
+    got: 'Allweiho Þrifalþei, armai unsis.',
     grc: "Παναγία Τριάς, ἐλέησον ἡμᾶς.",
     en: "O All-Holy Trinity, have mercy on us.",
   },
