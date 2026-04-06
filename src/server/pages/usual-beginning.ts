@@ -160,13 +160,24 @@ ${toGothicLines([
   ], info)}
 </p>`
 
+  article += html`<div class="speech">${speech}</div>`
+  article += html`<p class="title">
+${toGothicLines([
+    {
+      text: {
+        got: 'Liuþ Ahmin Weihamma',
+        en: "Hymn to the Holy Spirit",
+      },
+    },
+  ], info)}
+</p>`
+  speech = ''
+
   speech += html`<p>
 ${oHeavenlyKing(info)}
 </p>`
 
   article += html`<div class="speech">${speech}</div>`
-
-
   article += html`<p class="title">
 ${toGothicLines([
     {
@@ -182,7 +193,6 @@ for thrice holy perhaps 𐌸𐍂𐌹𐍅𐌴𐌹𐌷𐍃 or 𐌸𐍂𐌹𐍆𐌰
     },
   ], info)}
 </p>`
-
   speech = ''
 
   speech += html`<p>
@@ -191,12 +201,40 @@ ${trisagion(info)}
 ${timesThree(info)}
 </p>`
   speech += html`<p>${gloryToTrinity(info)}</p>`
+
+  article += html`<div class="speech">${speech}</div>`
+  article += html`<p class="title">
+${toGothicLines([
+    {
+      text: {
+        got: 'Bida Allweihai Þrifalþein',
+        en: "Prayer to the All-Holy Trinity",
+      },
+    },
+  ], info)}
+</p>`
+  speech = ''
+
   speech += html`<p>${allHolyTrinity(info)}</p>`
   speech += html`<p>
 ${lordHaveMercy(info)}
 ${timesThree(info)}
 </p>`
   speech += html`<p>${gloryToTrinity(info)}</p>`
+
+  article += html`<div class="speech">${speech}</div>`
+  article += html`<p class="title">
+${toGothicLines([
+    {
+      text: {
+        got: 'Atta Unsar',
+        en: "Our Father",
+      },
+    },
+  ], info)}
+</p>`
+  speech = ''
+
   speech += html`<p>${lordsPrayer(info)}</p>`
 
   speech += html`<p>
