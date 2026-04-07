@@ -4,7 +4,7 @@ import { toGothicLines } from "@server/tools"
 export const oHeavenlyKing: ReuseLines = pi => `
 ${toGothicLines([{
   text: {
-    got: 'Þiudan himinakunda, Gaþlaihands, Ahma sunjos,',
+    got: 'Þiudan Himinakunda, Gaþlaihands, Ahma Sunjos,',
     grc: "Βασιλεῦ Οὐράνιε, Παράκλητε, τὸ Πνεῦμα τῆς Ἀληθείας,",
     en: "O heavenly King, Comforter, and Spirit of truth,",
   },
@@ -16,7 +16,7 @@ Various uses of gaþlaihands in Bible.`,
 <br>
 ${toGothicLines([{
   text: {
-    got: 'and all andwairþa jah alla usfulljands,',
+    got: 'And All Andwairþs jah Alla Usfulljands,',
     grc: "ὁ Πανταχοῦ Παρὼν καὶ τὰ Πάντα Πληρῶν,",
     en: "Who art everywhere present and fillest all things,",
   },
@@ -29,7 +29,7 @@ alla in allaim usfulljandins Ephesians 1:23`
 <br>
 ${toGothicLines([{
   text: {
-    got: 'Huzd þiuþe jah Gibands libainais:',
+    got: 'Huzd Þiuþe jah Gibands Libainais:',
     grc: "ὁ Θησαυρός τῶν Ἀγαθῶν καὶ Ζωῆς Χορηγός:",
     en: "the Treasury of good things and Giver of life:",
   }
@@ -53,7 +53,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
   text: {
-    got: 'jah nasei, Þiuþeiga, saiwalos unsara.',
+    got: 'jah nasei, Þiuþeiga, saiwalos unsaros.',
     grc: "καὶ σῶσον, Ἀγαθὲ τὰς ψυχὰς ἡμῶν.",
     en: "and save our souls, O good one.",
   }

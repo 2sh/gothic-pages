@@ -37,7 +37,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
   text: {
-    got: 'Weiha, gaweiso jah hailei sauhtins unsara,',
+    got: 'Weiha, gaweiso jah hailei sauhtins unsaros,',
     grc: "Ἅγιε, ἐπίσκεψαι καὶ ἴασαι τὰς ἀσθενείας ἡμῶν,",
     en: "O Holy One, visit and heal our infirmities,",
   }
