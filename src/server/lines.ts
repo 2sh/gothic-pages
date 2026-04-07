@@ -84,14 +84,17 @@ export const lordHaveMercy: ReuseLines = pi => toGothicLines([{
 
 export const trisagion: ReuseLines = pi => toGothicLines([{
   text: {
-    got: 'Weihs Guþ, Weihs Mahteigs, Weihs Undiwans, armai unsis.',
+    got: 'Weihs Guþ, Weihs Swinþs, Weihs Undiwans, armai unsis.',
     grc: "Ἅγιος ὁ Θεός, Ἅγιος Ἰσχυρός, Ἅγιος Ἀθάνατος, ἐλέησον ἡμᾶς.",
     en: "Holy God, Holy Mighty, Holy Immortal, have mercy on us.",
   },
   notes:
     `*undiwans from attested diwano (mortal) and undiwanei (immortality).
 
-Using strong nominative as Greek not in vocative.`
+Using strong nominative as Greek not in vocative.
+
+Had Mahteigs initially for Ἰσχυρός because of the Engish but in the Gothic
+Bible it gets consistently translated to swinþs.`
 }], pi)
 
 export const timesThree: ReuseLines = pi => `<span class="notice">${toGothicLines([{
