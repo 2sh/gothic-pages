@@ -115,7 +115,7 @@ though there may be something better.`
     },
     {
       text: {
-        got: 'In allaim ungaweniþaim, ni fraletais mik ufarmunnon ei all fram þus dalaþ sandiþ sijai.',
+        got: 'In allaim ungaweniþaim, ni fraletais mik ufarmunnon ei all fram Þus dalaþ sandiþ sijai.',
         ru: "Во всех непредвиденных случаях не дай мне забыть, что всё ниспослано Тобой.",
         en: "In all unexpected occurrences, do not let me forget that all is sent down from Thee.",
       },

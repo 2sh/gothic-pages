@@ -206,11 +206,11 @@ mean "mindset, character" in Norse languages.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Awiliudo þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans Þeinai, jah saiwala meina wait waila.",
+      got: "Awiliudo Þus, unte ogjands sildaleiknis; sildaleikai sind waurstwans Þeinai, jah saiwala meina wait waila.",
       grc: "ἐξομολογήσομαί σοι, ὅτι φοβερῶς ἐθαυμαστώθης· θαυμάσια τὰ ἔργα σου, καὶ ἡ ψυχή μου γινώσκει σφόδρα.",
       en: "I will give thee thanks; for thou art fearfully wondrous; wondrous are thy works; and my soul knows it well.",
     },
-    notes: `"awiliudo þus, unte andhausides mis" John 11:41`
+    notes: `"awiliudo Þus, unte andhausides mis" John 11:41`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
@@ -270,7 +270,7 @@ Another translation for the last part by Brenton "they shall be formed by day, t
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Niu þans fijandans þuk, Frauja, fijaida jah in fiande Þeinaize gauriþs?",
+      got: "Niu þans fijandans Þuk, Frauja, fijaida jah in fiande Þeinaize gauriþs?",
       grc: "οὐχὶ τοὺς μισοῦντάς σε, Κύριε, ἐμίσησα καὶ ἐπὶ τοὺς ἐχθρούς σου ἐξετηκόμην;",
       en: "Have I not hated them, O Lord, that hate thee? and wasted away because of thine enemies?",
     },
