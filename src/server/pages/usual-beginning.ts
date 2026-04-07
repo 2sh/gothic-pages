@@ -152,7 +152,7 @@ ${amen(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Wulþus þus, Guþ unsar, wulþus þus.',
+        got: 'Wulþus Þus, Guþ unsar, wulþus Þus.',
         grc: "Δόξα σοι ὁ Θεὸς ἡμῶν, δόξα σοι.",
         en: "Glory to thee, our god, glory to thee.",
       }

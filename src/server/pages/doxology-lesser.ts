@@ -648,14 +648,14 @@ works of christ Matthew 11:2`
     },
     {
       text: {
-        got: 'þus ist gadob liuþ,',
+        got: 'Þus ist gadob liuþ,',
         grc: "σοὶ πρέπει ὕμνος,",
         en: "to you belongs a hymn,",
       },
     },
     {
       text: {
-        got: 'þus ist gadob wulþus,',
+        got: 'Þus ist gadob wulþus,',
         grc: "σοὶ δόξα πρέπει,",
         en: "to you belongs glory,",
       },
