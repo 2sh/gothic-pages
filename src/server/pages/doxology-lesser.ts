@@ -64,12 +64,15 @@ so *dauksaulaugei`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Wulþus in háuhistjam Guda, jah ana airþai gawairþi in mannam godis wiljins.',
+        got: 'Wulþus in háuhistjam Guda, jah ana airþai gawairþi in mannam goþs wilja.',
         grc: "Δόξα ἐν ὑψίστοις Θεῷ, καὶ ἐπὶ γῆς εἰρήνη ἐν ἀνθρώποις εὐδοκία.",
         en: "Glory to God in the highest, and on earth peace, good will to men.",
       },
       notes:
-        `Luke 2:14, copied from the Gothic Bible.`,
+`This line is from Luke 2:14, and is attested,
+though the Gothic Bible was translated from the
+Greek NT that had the gentive εὐδοκίας while this prayer is from the
+one with the nominative εὐδοκία`,
     },
   ], info)}</p>`
 
@@ -77,7 +80,7 @@ so *dauksaulaugei`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Hazjam þuk,',
+        got: 'Hazjam Þuk,',
         grc: "Ὑμνοῦμέν σε,",
         en: "We praise you,",
       },
@@ -86,21 +89,21 @@ so *dauksaulaugei`,
     },
     {
       text: {
-        got: 'þiuþjam þuk,',
+        got: 'þiuþjam Þuk,',
         grc: "εὐλογοῦμέν σε,",
         en: "we bless you,",
       },
     },
     {
       text: {
-        got: 'inweitam þuk,',
+        got: 'inweitam Þuk,',
         grc: "προσκυνοῦμέν σε,",
         en: "we worship you,",
       },
     },
     {
       text: {
-        got: 'gasweram þuk,',
+        got: 'gasweram Þuk,',
         grc: "δοξολογοῦμέν σε,",
         en: "we glorify you,",
       },
@@ -109,7 +112,7 @@ so *dauksaulaugei`,
     },
     {
       text: {
-        got: 'awiliudom þuk,',
+        got: 'awiliudom Þuk,',
         grc: "εὐχαριστοῦμέν σοι,",
         en: "and we thank you,",
       },
@@ -129,7 +132,7 @@ so *dauksaulaugei`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Frauja, Þiudan, Guþ himinakunda,',
+        got: 'Frauja, Þiudan, Guþ ufarhiminakunda,',
         grc: "Κύριε Βασιλεῦ, ἐπουράνιε Θεέ,",
         en: "Lord, King, Heavenly God,",
       },
@@ -199,12 +202,12 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'þū afnimand frawaurht manasedais,',
+        got: 'Þū afnimand frawaurht manasedais,',
         grc: "ὁ αἴρων τὴν ἁμαρτίαν τοῦ κόσμου,",
         en: "who take away the sin of the world,",
       },
       notes:
-        `adding 𐌸𐌿, tying it with the 𐌸𐌿𐌴𐌹 later.
+        `adding Þū, tying it with the 𐌸𐌿𐌴𐌹 later.
 
 αἴρων has lift and remove as meaning, 𐌿𐍃𐌷𐌰𐍆𐌾𐌰𐌽 has a sense of being
 lifted up by god, taken up from the ground Mark 11:23 but in 2 Cor 10:5
@@ -223,7 +226,7 @@ afnima in Romans 11:27; world Mark 14:9`,
 ${toGothicLines([
     {
       text: {
-        got: 'þū afnimand frawaurhtins manasedais.',
+        got: 'Þū afnimand frawaurhtins manasedais.',
         grc: "ὁ αἴρων τὰς ἁμαρτίας τοῦ κόσμου.",
         en: "you who take away the sins of the world.",
       },
@@ -244,7 +247,7 @@ ${toGothicLines([
     },
     {
       text: {
-        got: 'þūei sitaza af taihswon Attins,',
+        got: 'Þūei sitaza af taihswon Attins,',
         grc: "ὁ καθήμενος ἐν δεξιᾷ τοῦ Πατρός,",
         en: "you who sit at the right of the Father,",
       },
@@ -262,7 +265,7 @@ ${toGothicLines([
     },
     {
       text: {
-        got: 'Unte þū sa ains Weiha is,',
+        got: 'Unte Þū sa ains Weiha is,',
         grc: "Ὅτι σὺ εἶ μόνος Ἅγιος,",
         en: "For you are the only Holy One,",
       },
@@ -273,7 +276,7 @@ ${toGothicLines([
     },
     {
       text: {
-        got: 'þū sa ains Frauja is, Iesu Xristau,',
+        got: 'Þū sa ains Frauja is, Iesu Xristau,',
         grc: "σὺ εἶ μόνος Κύριος, Ἰησοῦς Χριστός,",
         en: "you are the only Lord, Jesus Christ,",
       },
@@ -299,7 +302,7 @@ Luke 3:22+ and Luke 1:32 have genitive apposition.`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Andanahtja ƕammeh þiuþja þuk,',
+        got: 'Andanahtja ƕammeh þiuþja Þuk,',
         grc: "Καθʼ ἑκάστην ἑσπέραν εὐλογήσω σε,",
         en: "Every evening I shall bless you,",
       },
@@ -336,7 +339,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Frauja, warst unsis staþs þadei magum þláuhan',
+        got: 'Frauja, warst unsis staþs þadei magum þliuhan',
         grc: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
         en: "Lord, you have become for us a refuge",
       },
@@ -379,7 +382,7 @@ of a “into ... of ...”.`,
     },
     {
       text: {
-        got: 'unte ik wiþra þuk frawaurhta.',
+        got: 'unte ik wiþra Þuk frawaurhta.',
         grc: "ὅτι ἥμαρτόν σοι.",
         en: "for I have sinned against you.",
       },
@@ -392,7 +395,7 @@ of a “into ... of ...”.`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Frauja, du þus þláuh;',
+        got: 'Frauja, du Þus þláuh;',
         grc: "Κύριε, πρὸς σὲ κατέφυγον·",
         en: "Lord, to you I have fled;",
       },
@@ -414,14 +417,14 @@ do the will John 6:38; do his will John 7:17
     },
     {
       text: {
-        got: 'unte þū is guþ meins.',
+        got: 'unte Þū is guþ meins.',
         grc: "ὅτι σὺ εἶ ὁ Θεός μου.",
         en: "for you are my God.",
       },
     },
     {
       text: {
-        got: 'Unte fram þus ist brunna libainais;',
+        got: 'Unte fram Þus ist brunna libainais;',
         grc: "Ὅτι παρὰ σοὶ πηγὴ ζωῆς·",
         en: "For with you is the fountain of life;",
       },
@@ -439,7 +442,7 @@ do the will John 6:38; do his will John 7:17
     },
     {
       text: {
-        got: 'Ufþanei armahairtein Þeina þaim kunnandam þuk.',
+        got: 'Ufþanei armahairtein Þeina þaim kunnandam Þuk.',
         grc: "Παράτεινον τὸ ἔλεός σου τοῖς γινώσκουσί σε.",
         en: "Extend your mercy to those who know you.",
       },
@@ -492,7 +495,7 @@ principal clause is interrogative or negative”`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Þiuþiþs þuk, Frauja,',
+        got: 'Þiuþiþs Þuk, Frauja,',
         grc: "Εὐλογητὸς εἶ, Κύριε,",
         en: "Blessed are you, O Lord,",
       },
@@ -536,7 +539,7 @@ principal clause is interrogative or negative”`,
     },
     {
       text: {
-        got: 'swaswe wenidedum du þus.',
+        got: 'swaswe wenidedum du Þus.',
         grc: "καθάπερ ἠλπίσαμεν ἐπὶ σέ.",
         en: "just as we have hoped in you.",
       },
@@ -552,7 +555,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Þiuþiþs þuk, Frauja,',
+        got: 'Þiuþiþs Þuk, Frauja,',
         grc: "Εὐλογητὸς εἶ, Κύριε,",
         en: "Blessed are you, O Lord,",
       },
@@ -571,7 +574,7 @@ Corinthians II 1:14, Corinthians II 3:18, Thessalonians I 3:12.
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Þiuþiþs þuk, Fraujinond,',
+        got: 'Þiuþiþs Þuk, Fraujinond,',
         grc: "Εὐλογητὸς εἶ, Δέσποτα,",
         en: "Blessed are you, O Master,",
       },
@@ -593,7 +596,7 @@ ye may understand my knowledge = mageiþ fraþjan frodein meinai Ephesians 3:4`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Þiuþiþs þuk, Weiha,',
+        got: 'Þiuþiþs Þuk, Weiha,',
         grc: "Εὐλογητός εἶ, Ἅγιε·",
         en: "Blessed are you, O Holy One,",
       },
