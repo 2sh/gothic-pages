@@ -137,6 +137,14 @@ export const forYoursIs: ReuseLines = pi => toGothicLines([{
   notes: `Line from Matthew 6:13`,
 }], pi)
 
+export const throughThePrayers: ReuseLines = pi => toGothicLines([{
+  text: {
+    got: 'Þairh bidos attane weihaize unsaraize, Frauja Iesu Xristau, Guþ unsar, armai unsis.',
+    grc: 'Δί’ εὐχῶν τῶν ἁγίων πατέρων ἠμῶν, Κύριε Ἰησοῦ Χριστέ ὁ Θεός, ἐλέησον [καὶ σῶσον] ἠμᾶς.',
+    en: "Through the prayers of our holy fathers, Lord Jesus Christ, our God, have mercy on us.",
+  }
+}], pi)
+
 
 const speakerMark = ':'
 
