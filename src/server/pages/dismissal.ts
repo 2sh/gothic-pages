@@ -74,7 +74,7 @@ ${timesThree(info)}
   const gothicAnnotation = [
     { text: { got: "Bidos Andi", en: "Ending Prayers" } },
     { text: { got: "in razdai gutiskai,", en: "in the Gothic language," } },
-    { text: { got: "skeireins fram Iohannes Haggwiþos (2025-2026).", en: "a translation by 2sh (2025-2026)." } },
+    { text: { got: "skeireins fram Iohannes Haggwiþos (2026).", en: "a translation by 2sh (2026)." } },
   ]
 
   article += html`<p class="annotation">${gothicAnnotation.map(a => `
@@ -84,7 +84,7 @@ ${timesThree(info)}
   article += html`<p lang='en' class="annotation">
 <span class="nowrap">Ending Prayers/span>
 <span class="nowrap">in the Gothic language,</span>
-<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025-2026).</span>
+<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2026).</span>
 </p>`
 
   return html`<!doctype html>
