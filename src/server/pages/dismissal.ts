@@ -23,9 +23,9 @@ import { hymnToTheotokos } from '@server/lines/hymn-to-theotokos'
 
 //benediction þiuþiqiss
 
-const slug = "bidos-andi"
-const title = 'Bidos Andi'
-const description = "Bidos Andi, skeireins in razdai gutiskai."
+const slug = "bida-andi"
+const title = 'Bida Andi'
+const description = "Bida Andi, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -52,8 +52,8 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Bidos Andi',
-      en: "Ending Prayers",
+      got: 'Bida Andi',
+      en: "Ending Prayer",
     },
   }], info)}</h1>
 </header>`
@@ -72,7 +72,7 @@ ${timesThree(info)}
 
 
   const gothicAnnotation = [
-    { text: { got: "Bidos Andi", en: "Ending Prayers" } },
+    { text: { got: "Bida Andi", en: "Ending Prayers" } },
     { text: { got: "in razdai gutiskai,", en: "in the Gothic language," } },
     { text: { got: "skeireins fram Iohannes Haggwiþos (2026).", en: "a translation by 2sh (2026)." } },
   ]
@@ -82,7 +82,7 @@ ${timesThree(info)}
 </p>`
 
   article += html`<p lang='en' class="annotation">
-<span class="nowrap">Ending Prayers/span>
+<span class="nowrap">Ending Prayer</span>
 <span class="nowrap">in the Gothic language,</span>
 <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2026).</span>
 </p>`
