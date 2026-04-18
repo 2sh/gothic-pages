@@ -145,7 +145,13 @@ in Greek either, though I think it's clear in context it's not God.`
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
-    text: { got: title, en: "Morning Prayer of St. Basil the Great to the Most Holy Trinity" },
+    text: { got: "Bida Maurginis", en: "Morning Prayer" },
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
+    text: { got: "Baseileiaus þis Mikilins Weihins", en: "of St. Basil the Great" },
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
+    text: { got: "Allweihai Þrifalþein", en: "to the Most Holy Trinity" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
