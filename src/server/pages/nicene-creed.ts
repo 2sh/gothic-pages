@@ -381,11 +381,12 @@ required somewhere? perhaps before the come again)`,
     },
     {
       text: {
-        got: 'þamma Fraujin jah Gibands libainais,',
+        got: 'þamma Fraujin jah Gaqiujand,',
         grc: "τὸ Κύριον καὶ Ζωοποιόν,",
         en: "the Lord and Giver of life,",
       },
-      notes: `life giver`,
+      notes: `attested is verb form ζῳοποιέω as gaqiujan,
+so translating using -nd declension to make it giver of life`,
     },
     {
       text: {
