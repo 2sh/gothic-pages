@@ -29,7 +29,7 @@ alla in allaim usfulljandins Ephesians 1:23`
 <br>
 ${toGothicLines([{
   text: {
-    got: 'Huzd Þiuþe jah Gibands Libainais:',
+    got: 'Huzd Þiuþe jah Andstaldands Libainais:',
     grc: "ὁ Θησαυρός τῶν Ἀγαθῶν καὶ Ζωῆς Χορηγός:",
     en: "the Treasury of good things and Giver of life:",
   }
