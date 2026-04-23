@@ -157,7 +157,7 @@ in Greek either, though I think it's clear in context it's not God.`
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins fram Iohannes Haggwiþos (2025).", en: "a translation by 2sh (2025)." },
+    text: { got: "skeireins fram Iohannes Haggwiþos (2026).", en: "a translation by 2sh (2026)." },
   }], info)}</span>
 </p>`
 
@@ -165,7 +165,7 @@ in Greek either, though I think it's clear in context it's not God.`
 <span class="nowrap">Morning Prayer of St. Basil the Great</span>
 <span class="nowrap">to the Most Holy Trinity</span>
 <span class="nowrap">in the Gothic language,</span>
-<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2025).</span>
+<span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2026).</span>
 </p>`
 
   return html`<!doctype html>
