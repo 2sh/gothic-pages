@@ -49,7 +49,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Us slepa usstandands/ei, awiliudo Þus, Allweiho Þrifalþei;',
+        got: 'Us slepa usstandands awiliudo Þus, Allweiho Þrifalþei;',
         grc: "Ἐκ τοῦ ὕπνου ἐξανιστάμενος, εὐχαριστῶ Σοι, Ἁγία Τριάς·",
         en: "As I rise from sleep I thank You, O Holy Trinity,",
       },
@@ -64,7 +64,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'ni wast modags mis, unkarjin/on jah frawaurhtamma/ai,',
+        got: 'ni wast modags mis, unkarjin jah frawaurhtamma/ai,',
         grc: "οὐκ ὠργίσθης ἐμοί τῷ ραθύμῳ καί ἁμαρτωλῷ,",
         en: "You were not angered with me, an idler and sinner,",
       },
@@ -91,7 +91,7 @@ light-hearted, careless, indifferent`
     },
     {
       text: {
-        got: 'jah at uswenin/on galagjandin/ein urraist mik,',
+        got: 'jah at uswenin galagjandin urraist mik,',
         grc: "καί πρός ἀπόγνωσιν κείμενον ἤγειράς με,",
         en: "and when I was prostrate in despair, You have raised me",
       },
