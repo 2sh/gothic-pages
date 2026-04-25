@@ -64,7 +64,7 @@ const generator: PageGenerator = info =>
     },
     {
       text: {
-        got: 'ni wast modags mis, unkarjin jah frawaurhtamma/ai,',
+        got: 'ni wast modags mis, unkarjin jah frawaurhtamma,',
         grc: "οὐκ ὠργίσθης ἐμοί τῷ ραθύμῳ καί ἁμαρτωλῷ,",
         en: "You were not angered with me, an idler and sinner,",
       },
