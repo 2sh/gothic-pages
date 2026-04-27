@@ -337,18 +337,11 @@ was buried 1 Corinthians 15:4`,
     },
     {
       text: {
-        got: 'jah aftra qimiþ',
-        grc: "καὶ πάλιν ἐρχόμενον",
-        en: "from thence he shall come again,",
+        got: 'jah aftra qimiþ miþ wulþau',
+        grc: "καὶ πάλιν ἐρχόμενον μετὰ δόξης",
+        en: "from thence he shall come again, with glory,",
       },
       notes: `come again John 14:3`,
-    },
-    {
-      text: {
-        got: 'miþ wulþau',
-        grc: "μετὰ δόξης",
-        en: "with glory,",
-      }
     },
     {
       text: {
@@ -405,7 +398,7 @@ so translating using -nd declension to make it giver of life`,
     },
     {
       text: {
-        got: 'inweitada jah gaswerada,',
+        got: 'inweitada jah hauhjada,',
         grc: "συμπροσκυνούμενον καὶ συνδοξαζόμενον,",
         en: "is worshiped and glorified",
       },
