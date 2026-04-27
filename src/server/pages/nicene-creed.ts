@@ -461,22 +461,11 @@ a sort of a nice freeing sense, while the former just “putting it down”`,
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'beidam usstassais dauþane,',
+        got: 'beidam usstassais dauþaize,',
         grc: "προσδοκῶμεν ἀνάστασιν νεκρῶν,",
         en: "we look for the resurrection of the dead,",
       },
-      notes: `Matthew 11:3.
-
-plural dead from earlier line/verse.
-
-to look for/expect: 𐌱𐌴𐌹𐌳𐌰𐌽 + genitive, there’s also 𐍅𐌴𐌽𐌾𐌰𐌽 but that includes
-hope which is missing in the Greek, and would also skew the meaning perhaps.
-this is about belief in it happening, hope has uncertainty.
-
-urrist only has one attestation.
-
-not sure if 𐌳𐌰𐌿𐌸𐍃 should be strong or weak,
-thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean “of the ones dead”`,
+      notes: `usstass dauþaize Corinthians I 15:21`,
     },
     {
       text: {
