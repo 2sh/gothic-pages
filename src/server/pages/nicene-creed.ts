@@ -480,11 +480,11 @@ thinking 𐌳𐌰𐌿𐌸𐌰𐌽𐌴 to mean “of the ones dead”`,
     },
     {
       text: {
-        got: 'jah libainais anawairþins aiwis.',
+        got: 'jah libainais aiwis þis anawairþins.',
         grc: "καὶ ζωὴν τοῦ μέλλοντος αἰῶνος.",
         en: "and the life of the world to come.",
       },
-      notes: `𐌰𐌽𐌰𐍅𐌰𐌹𐍂𐌸𐍃 Luke 3:7`,
+      notes: `in aiwa þamma anawairþin libain aiweinon Mark 10:30`,
     },
   ], info)}</p>`
 
