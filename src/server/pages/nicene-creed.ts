@@ -398,7 +398,7 @@ so translating using -nd declension to make it giver of life`,
     },
     {
       text: {
-        got: 'inweitada jah hauhjada,',
+        got: 'inweitada jah háuhjada,',
         grc: "συμπροσκυνούμενον καὶ συνδοξαζόμενον,",
         en: "is worshiped and glorified",
       },
