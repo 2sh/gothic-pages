@@ -144,7 +144,7 @@ meaning doesn't fit so well.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "unte frawaurhta mais raþjon malmins mareins. Managidedun witodalauseins meinos, Frauja, managidedun witodalauseins meinos, jah ni im wairþs fairweitjan jah saiƕan hauhein himinis in manageins inwindiþo meinaizo,",
+      got: "unte frawaurhta mais raþjon malmins mareins. Managidedun witodalauseins meinos, Frauja, managidedun witodalauseins meinos, jah ni im wairþs fairweitjan jah saiƕan háuhein himinis in manageins inwindiþo meinaizo,",
       grc: "διότι ἥμαρτον ὑπὲρ ἀριθμὸν ψάμμου θαλάσσης. Ἐπλήθυναν αἱ ἀνομίαι μου, Κύριε· ἐπλήθυναν αἱ ἀνομίαι μου, καὶ οὔκ εἰμι ἄξιος ἀτενίσαι καὶ ἰδεῖν τὸ ὕψος τοῦ οὐρανοῦ ἀπὸ τοῦ πλήθους τῶν ἀδικιῶν μου,",
       en: "For the sins I have committed are more in number than the sand of the sea; my transgressions are multiplied, O Lord, they are multiplied! I am not worthy to look up and see the height of heaven because of the multitude of my iniquities.",
     },
