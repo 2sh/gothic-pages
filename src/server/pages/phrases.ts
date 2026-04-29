@@ -47,19 +47,6 @@ const generator: PageGenerator = info =>
   <h1>Phrases & Words</h1>
 </header>`
 
-  article += html`<p class="title">Jesus Prayer</p>`
-
-  article += html`<p lang='got'>${toGothicLines([
-    {
-      text: {
-        got: 'Frauja Iesu Xristau, Sunau Gudis, armai mik frawaurhtana (frawaurhta)',
-        grc: "Κύριε Ἰησοῦ Χριστέ, Υἱέ τοῦ Θεοῦ, ἐλέησόν με τὸν ἁμαρτωλόν (female: τὴν ἁμαρτωλόν)",
-        en: "Lord Jesus Christ, Son of God, have mercy on me, a sinner",
-      }
-    },
-  ], info)}</p>`
-
-
   article += html`<p class="title">Publican's prayer</p>`
 
   article += html`<p lang='got'>${toGothicLines([
