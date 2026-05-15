@@ -62,15 +62,22 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "mitandins maht / jah mun ahins is,",
+      got: "mitandins maht / jah is mun ahins,",
       ang: "metudæs maecti / end his mōdgidanc,",
       en: "the measurer's might / and his mind's plan,",
     },
+    notes: `Though usually after, John 9:28 is an attestation of genitive 'is'
+coming before the thing it possesses. I think it should be clear enough in
+this case too, for the stress pattern to fall on mun and ahins.
+
+For a translation, I think runa could work for mōdgidanc as the latin being
+consilium and that translating either to garuna when it's about a council
+and runa if it's about purpose/motive.`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "waurstw wulþuattins / swa is wundris ƕizuh,",
+      got: "waurstw wulþuattins / swe is wundris ƕizuh,",
       ang: "uerc Uuldurfadur / suē hē uundra gihuaes,",
       en: "the work of the father of glory / as he of each wonder,",
     },
@@ -82,6 +89,7 @@ ${toGothicLines([{
       ang: "ēci dryctin / ōr āstelidæ",
       en: "eternal lord, / the origin established;",
     },
+    notes: `Using þiudans as frauja equivelent OE Frēa comes up later.`
   }], info)}
 <br>
 ${toGothicLines([{
