@@ -90,20 +90,21 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "þiudans aiweins / þiuþida brunnan",
+      got: "þiudans aiweins / þiuþida gasatein",
       ang: "ēci dryctin / ōr āstelidæ",
       en: "eternal lord, / the origin established;",
       la: "[cum sit] aeternus Deus, / auctor exstitit,",
     },
     notes: `Using þiudans as frauja cognate OE Frēa comes up later.
 
-Blessing the source/fountain (of life?), sort of a "Blessing of the waters" perhaps
+"gasatein fairƕaus" Ephesians 1:4
 
 Alternative ideas:
 "gaþwastida mel" though I'm not sure þ and þw alliterate and it's rather vague;
 "þiuþ gatawida" feels too plain, basically "did good";
-"þiuþida gaskafts" I'm not sure himins would be considered a gaskafts
-`
+"þiuþida gaskafts" I'm not sure himins would be considered a gaskafts;
+"þiuþida brunnan" blessing the source/fountain (of life?),
+sort of a "Blessing of the waters" perhaps`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -145,11 +146,14 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "fairƕu mannam / Frauja allwaldands.",
+      got: "firƕja fairƕu / Frauja allwaldands.",
       ang: "fīrum foldu / Frēa allmectig.",
       en: "the lands to men, / Lord almighty.",
       la: "... omnipotens.",
     },
+    notes: `"*firƕeis from PGm firƕijaz which decended to various other
+Germanic languages to mean "the living, men, people" (plural)
+and supposedly turned into Crimean Gothic "fers"`
   }], info)}
 </p>`
 
