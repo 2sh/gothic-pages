@@ -54,19 +54,23 @@ const generator: PageGenerator = info =>
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Nu skulum hazjan / himinis ward,",
+      got: "Nū skulum hazjan / himinis ward,",
       ang: "Nū scylun hergan / hefaenrīcaes Uard,",
       en: "Now [we] shall honour / heaven-kingdom's guardian,",
+      la: "Nunc debemus laudare / regni caelestic auctorem,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "mitandins maht / jah is mun ahins,",
+      got: "mitandins maht / jah mun ahins is,",
       ang: "metudæs maecti / end his mōdgidanc,",
       en: "the measurer's might / and his mind's plan,",
+      la: "creatoris potentiam, et illius consilium,",
     },
-    notes: `Though usually after, John 9:28 is an attestation of genitive 'is'
+    notes: `Though using matandins is perhaps only
+
+Though usually after, John 9:28 is an attestation of genitive 'is'
 coming before the thing it possesses. I think it should be clear enough in
 this case too, for the stress pattern to fall on mun and ahins.
 
@@ -80,16 +84,26 @@ ${toGothicLines([{
       got: "waurstw wulþuattins / swe is wundris ƕizuh,",
       ang: "uerc Uuldurfadur / suē hē uundra gihuaes,",
       en: "the work of the father of glory / as he of each wonder,",
+      la: "facta Patris gloriae: / quomodo ille miraculorum omnium,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "þiudans aiweins / gaþwastida mel",
+      got: "þiudans aiweins / þiuþida brunnan",
       ang: "ēci dryctin / ōr āstelidæ",
       en: "eternal lord, / the origin established;",
+      la: "[cum sit] aeternus Deus, / auctor exstitit,",
     },
-    notes: `Using þiudans as frauja equivelent OE Frēa comes up later.`
+    notes: `Using þiudans as frauja cognate OE Frēa comes up later.
+
+Blessing the source/fountain (of life?), sort of a "Blessing of the waters" perhaps
+
+Alternative ideas:
+"gaþwastida mel" though I'm not sure þ and þw alliterate and it's rather vague;
+"þiuþ gatawida" feels too plain, basically "did good";
+"þiuþida gaskafts" I'm not sure himins would be considered a gaskafts
+`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -97,7 +111,9 @@ ${toGothicLines([{
       got: "is frumist gaskop / manne barnam",
       ang: "hē ǣrist scōp / aelda barnum",
       en: "he first created / for the children of men",
+      la: "qui primo tecti / hominum filiis",
     },
+    notes: `somewhat artifically putting the stress on the m in frumist`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -105,6 +121,7 @@ ${toGothicLines([{
       got: "himin swe hrot / hailags skaps.",
       ang: "heben til hrōfe / hāleg scepen.",
       en: "heaven for a roof, / holy creator.",
+      la: "caelum pro culmine, / ..."
     },
   }], info)}
 <br>
@@ -113,6 +130,7 @@ ${toGothicLines([{
       got: "Þan midjungard / manasedais wards,",
       ang: "Thā middungeard / moncynnæs Uard,",
       en: "Then Middle-earth / mankind's guardian,",
+      la: "dehinc terram humani generis Custos",
     },
   }], info)}
 <br>
@@ -121,6 +139,7 @@ ${toGothicLines([{
       got: "þiudans aiweins / afar þata fragaf",
       ang: "eci Dryctin / æfter tīadæ",
       en: "eternal Lord, / after bestowed",
+      la: "... creavit",
     },
   }], info)}
 <br>
@@ -129,6 +148,7 @@ ${toGothicLines([{
       got: "fairƕu mannam / Frauja allwaldands.",
       ang: "fīrum foldu / Frēa allmectig.",
       en: "the lands to men, / Lord almighty.",
+      la: "... omnipotens.",
     },
   }], info)}
 </p>`
