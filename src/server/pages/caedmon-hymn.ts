@@ -138,7 +138,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "firƕja fairƕu / Frauja allwaldands.",
+      got: "firƕja fairƕu / frauja allwaldands.",
       ang: "fīrum foldu / Frēa allmectig.",
       en: "the lands to men, / Lord almighty.",
       la: "... omnipotens.",
