@@ -54,13 +54,13 @@ const generator: PageGenerator = info =>
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Nū skulum hazjan / himinis ward,",
+      got: "Nū skulum hazjan / himinagardis ward,",
       ang: "Nū scylun hergan / hefaenrīcaes Uard,",
       en: "Now [we] shall honour / heaven-kingdom's guardian,",
       la: "Nunc debemus laudare / regni caelestic auctorem,",
     },
-    notes: `Perhaps himinagardis, though I'm not sure creating a new word
-is really needed here.`
+    notes: `Perhaps just himinis here, not sure creating a new word is the
+best thing.`
   }], info)}
 <br>
 ${toGothicLines([{
