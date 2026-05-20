@@ -63,7 +63,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "maht mitandins / jah mun wiljins is,",
+      got: "maht mitandins / jah is mun wiljins,",
       ang: "metudæs maecti / end his mōdgidanc,",
       en: "the measurer's might / and his mind's plan,",
       la: "creatoris potentiam, et illius consilium,",
