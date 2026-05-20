@@ -424,6 +424,7 @@ ul
 .i-line
 {
   cursor: pointer;
+  white-space: pre-wrap;
 }
 
 .i-line:hover

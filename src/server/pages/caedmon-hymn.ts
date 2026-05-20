@@ -54,10 +54,10 @@ const generator: PageGenerator = info =>
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Nū skulum hazjan / himinagardis ward,",
-      ang: "Nū scylun hergan / hefaenrīcaes Uard,",
-      en: "Now [we] shall honour / heaven-kingdom's guardian,",
-      la: "Nunc debemus laudare / regni caelestic auctorem,",
+      got: "Nū skulum hazjan   himinagardis ward,",
+      ang: "Nū scylun hergan   hefaenrīcaes Uard,",
+      en: "Now [we] shall honour   heaven-kingdom's guardian,",
+      la: "Nunc debemus laudare   regni caelestic auctorem,",
     },
     notes: `Perhaps just himinis here, not sure creating a new word is the
 best thing.`
@@ -65,9 +65,9 @@ best thing.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "maht mitandins / jah is mun wiljins,",
-      ang: "metudæs maecti / end his mōdgidanc,",
-      en: "the measurer's might / and his mind's plan,",
+      got: "maht mitandins   jah is mun wiljins,",
+      ang: "metudæs maecti   end his mōdgidanc,",
+      en: "the measurer's might   and his mind's plan,",
       la: "creatoris potentiam, et illius consilium,",
     },
     notes: `"bi muna wiljins seinis" Ephesians 1:11`
@@ -75,19 +75,19 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "waurstw wulþuattins / swe is wundris ƕizuh,",
-      ang: "uerc Uuldurfadur / suē hē uundra gihuaes,",
-      en: "the work of the father of glory / as he of each wonder,",
-      la: "facta Patris gloriae: / quomodo ille miraculorum omnium,",
+      got: "waurstw wulþuattins   swe is wundris ƕizuh,",
+      ang: "uerc Uuldurfadur   suē hē uundra gihuaes,",
+      en: "the work of the father of glory   as he of each wonder,",
+      la: "facta Patris gloriae:   quomodo ille miraculorum omnium,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "þiudans aiweins / þiuþida gasatein",
-      ang: "ēci dryctin / ōr āstelidæ",
-      en: "eternal lord, / the origin established;",
-      la: "[cum sit] aeternus Deus, / auctor exstitit,",
+      got: "þiudans aiweins   þiuþida gasatein",
+      ang: "ēci dryctin   ōr āstelidæ",
+      en: "eternal lord,   the origin established;",
+      la: "[cum sit] aeternus Deus,   auctor exstitit,",
     },
     notes: `Using þiudans as frauja cognate OE Frēa comes up later.
 
@@ -103,46 +103,46 @@ sort of a "Blessing of the waters" perhaps`
 <br>
 ${toGothicLines([{
     text: {
-      got: "is frumist gaskop / manne barnam",
-      ang: "hē ǣrist scōp / aelda barnum",
-      en: "he first created / for the children of men",
-      la: "qui primo tecti / hominum filiis",
+      got: "is frumist gaskop   manne barnam",
+      ang: "hē ǣrist scōp   aelda barnum",
+      en: "he first created   for the children of men",
+      la: "qui primo tecti   hominum filiis",
     },
     notes: `somewhat artifically putting the stress on the m in frumist`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "himin swe hrot / hailags skaps.",
-      ang: "heben til hrōfe / hāleg scepen.",
-      en: "heaven for a roof, / holy creator.",
-      la: "caelum pro culmine, / ..."
+      got: "himin swe hrot   hailags skaps.",
+      ang: "heben til hrōfe   hāleg scepen.",
+      en: "heaven for a roof,   holy creator.",
+      la: "caelum pro culmine,   ..."
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þan midjungard / manasedais wards,",
-      ang: "Thā middungeard / moncynnæs Uard,",
-      en: "Then Middle-earth / mankind's guardian,",
+      got: "Þan midjungard   manasedais wards,",
+      ang: "Thā middungeard   moncynnæs Uard,",
+      en: "Then Middle-earth   mankind's guardian,",
       la: "dehinc terram humani generis Custos",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "þiudans aiweins / afar þata gatewida",
-      ang: "eci Dryctin / æfter tīadæ",
-      en: "eternal Lord, / after bestowed",
+      got: "þiudans aiweins   afar þata gatewida",
+      ang: "eci Dryctin   æfter tīadæ",
+      en: "eternal Lord,   after bestowed",
       la: "... creavit",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "firƕja fairƕu / frauja allwaldands.",
-      ang: "fīrum foldu / Frēa allmectig.",
-      en: "the lands to men, / Lord almighty.",
+      got: "firƕja fairƕu   frauja allwaldands.",
+      ang: "fīrum foldu   Frēa allmectig.",
+      en: "the lands to men,   Lord almighty.",
       la: "... omnipotens.",
     },
     notes: `"*firƕeis from PGm firƕijaz which decended to various other
