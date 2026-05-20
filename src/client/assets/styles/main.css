@@ -471,6 +471,11 @@ ul
   bottom: 0;
 }
 
+.info-box-line
+{
+  white-space: pre-wrap;
+}
+
 .has-info-box #info-box
 {
   display: flex;

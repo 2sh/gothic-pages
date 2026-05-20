@@ -57,7 +57,7 @@ function createInfoBox(info: GothicLineData)
   const textLines = Object.entries(info.text).map(([lang, line]) =>
     html`<div>
   <p class='title'>${getLanguageName(lang)}</p>
-  <p lang='${lang}'>${line}</p>
+  <p class='info-box-line' lang='${lang}'>${line}</p>
 </div>`).join('')
 
   const notes = !info.notes ? '' : html`<div>
