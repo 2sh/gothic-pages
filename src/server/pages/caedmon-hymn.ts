@@ -63,20 +63,12 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "maht mitandins / jah mun ahins is,",
+      got: "maht mitandins / jah mun wiljins is,",
       ang: "metudæs maecti / end his mōdgidanc,",
       en: "the measurer's might / and his mind's plan,",
       la: "creatoris potentiam, et illius consilium,",
     },
-    notes: `Though using matandins is perhaps only
-
-Though usually after, John 9:28 is an attestation of genitive 'is'
-coming before the thing it possesses. I think it should be clear enough in
-this case too, for the stress pattern to fall on mun and ahins.
-
-For a translation, I think runa could work for mōdgidanc as the latin being
-consilium and that translating either to garuna when it's about a council
-and runa if it's about purpose/motive.`
+    notes: `"bi muna wiljins seinis" Ephesians 1:11`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -137,7 +129,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "þiudans aiweins / afar þata fragaf",
+      got: "þiudans aiweins / afar þata gatewida",
       ang: "eci Dryctin / æfter tīadæ",
       en: "eternal Lord, / after bestowed",
       la: "... creavit",
