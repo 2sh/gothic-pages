@@ -59,6 +59,8 @@ ${toGothicLines([{
       en: "Now [we] shall honour / heaven-kingdom's guardian,",
       la: "Nunc debemus laudare / regni caelestic auctorem,",
     },
+    notes: `Perhaps himinagardis, though I'm not sure creating a new word
+is really needed here.`
   }], info)}
 <br>
 ${toGothicLines([{
