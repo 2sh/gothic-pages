@@ -68,7 +68,7 @@ ${toGothicLines([{
       got: "maht mitandins   jah mun wiljins is,",
       ang: "metudæs maecti   end his mōdgidanc,",
       en: "the measurer's might   and his mind's plan,",
-      la: "creatoris potentiam, et illius consilium,",
+      la: "creatoris potentiam,   et illius consilium,",
     },
     notes: `"bi muna wiljins seinis" Ephesians 1:11`
   }], info)}
