@@ -126,7 +126,7 @@ ${toGothicLines([{
       en: "heaven for a roof,   holy creator.",
       la: "caelum pro culmine,   ..."
     },
-    notes: `C:x//x A:/x/x
+    notes: `C:x//x A:/x/xx
 
 Switched swe hrot and himin to make it type C.
 
