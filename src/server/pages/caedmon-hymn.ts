@@ -130,7 +130,7 @@ ${toGothicLines([{
 
 Switched swe hrot and himin to make it type C.
 
-Using skapjands instead of skaps for the A type.`
+Using gaskapjands instead of skaps for the A type.`
   }], info)}
 <br>
 ${toGothicLines([{
