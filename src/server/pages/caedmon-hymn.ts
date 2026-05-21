@@ -121,14 +121,12 @@ somewhat artifically putting the stress on the m in frumist`
 <br>
 ${toGothicLines([{
     text: {
-      got: "swe hrot himin   hailags gaskapjands.",
+      got: "himin swe hrot   hailags gaskapjands.",
       ang: "heben til hrōfe   hāleg scepen.",
       en: "heaven for a roof,   holy creator.",
       la: "caelum pro culmine,   ..."
     },
-    notes: `C:x//x A:/x/xx
-
-Switched swe hrot and himin to make it type C.
+    notes: `E:/\\x/ A:/x/xx
 
 Using gaskapjands instead of skaps for the A type.`
   }], info)}
