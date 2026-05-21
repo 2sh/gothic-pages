@@ -131,7 +131,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "þiudans aiweins   afar þata gatewida",
+      got: "þiudans aiweins   þaþroh gatewida",
       ang: "eci Dryctin   æfter tīadæ",
       en: "eternal Lord,   after bestowed",
       la: "... creavit",
