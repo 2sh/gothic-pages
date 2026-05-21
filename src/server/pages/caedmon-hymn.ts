@@ -145,7 +145,7 @@ ${toGothicLines([{
       en: "the lands to men,   Lord almighty.",
       la: "... omnipotens.",
     },
-    notes: `"*firƕeis from PGm firƕijaz which decended to various other
+    notes: `*firƕeis from PGm firƕijaz which decended to various other
 Germanic languages to mean "the living, men, people" (plural)
 and supposedly turned into Crimean Gothic "fers"`
   }], info)}
