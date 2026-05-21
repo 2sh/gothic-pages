@@ -59,8 +59,9 @@ ${toGothicLines([{
       en: "Now [we] shall honour   heaven-kingdom's guardian,",
       la: "Nunc debemus laudare   regni caelestic auctorem,",
     },
-    notes: `Perhaps just himinis here, not sure creating a new word is the
-best thing.`
+    notes: `A:xxx/x E:/x(x)\\x/
+
+Perhaps just himinis here, not sure creating a new word is the best thing.`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -70,7 +71,9 @@ ${toGothicLines([{
       en: "the measurer's might   and his mind's plan,",
       la: "creatoris potentiam,   et illius consilium,",
     },
-    notes: `"bi muna wiljins seinis" Ephesians 1:11`
+    notes: `D://\\x C:x//\\x
+
+"bi muna wiljins seinis" Ephesians 1:11`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -80,6 +83,7 @@ ${toGothicLines([{
       en: "the work of the father of glory   as he of each wonder,",
       la: "facta Patris gloriae:   quomodo ille miraculorum omnium,",
     },
+    notes: `D:/(x)/x\\x C:xx/(x)/x`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -89,7 +93,9 @@ ${toGothicLines([{
       en: "eternal lord,   the origin established;",
       la: "[cum sit] aeternus Deus,   auctor exstitit,",
     },
-    notes: `Using þiudans as frauja cognate OE Frēa comes up later.
+    notes: `A:/x/x A/xx/xx
+
+Using þiudans as frauja cognate OE Frēa comes up later.
 
 "gasatein fairƕaus" Ephesians 1:4
 
@@ -108,16 +114,23 @@ ${toGothicLines([{
       en: "he first created   for the children of men",
       la: "qui primo tecti   hominum filiis",
     },
-    notes: `somewhat artifically putting the stress on the m in frumist`
+    notes: `B:xx/x/ A:/x/x
+
+somewhat artifically putting the stress on the m in frumist`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "himin swe hrot   hailags skaps.",
+      got: "swe hrot himin   hailags skapjands.",
       ang: "heben til hrōfe   hāleg scepen.",
       en: "heaven for a roof,   holy creator.",
       la: "caelum pro culmine,   ..."
     },
+    notes: `C:x//x A:/x/x
+
+Switched swe hrot and himin to make it type C.
+
+Using skapjands instead of skaps for the A type.`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -127,6 +140,7 @@ ${toGothicLines([{
       en: "Then Middle-earth   mankind's guardian,",
       la: "dehinc terram humani generis Custos",
     },
+    notes: `B:x/x/ E/x(x)\\/`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -135,6 +149,7 @@ ${toGothicLines([{
       ang: "eci Dryctin   æfter tīadæ",
       en: "eternal Lord,   after bestowed",
       la: "... creavit",
+      notes: `A:/x/x A:/xx/xx`
     },
   }], info)}
 <br>
@@ -145,7 +160,9 @@ ${toGothicLines([{
       en: "the lands to men,   Lord almighty.",
       la: "... omnipotens.",
     },
-    notes: `*firƕeis from PGm firƕijaz which decended to various other
+    notes: `A:/x/x A:/x/xx
+
+*firƕeis from PGm firƕijaz which decended to various other
 Germanic languages to mean "the living, men, people" (plural)
 and supposedly turned into Crimean Gothic "fers"`
   }], info)}
