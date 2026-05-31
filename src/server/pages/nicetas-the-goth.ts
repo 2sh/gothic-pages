@@ -277,7 +277,7 @@ Using -isks ending`
   article += html`<h2>${toGothicLines([{
     text: {
       got: 'Liuþ Niketan Weihamma',
-      en: "Hymn to Saint Niketas",
+      en: "Hymn to Saint Nicetas",
     },
     notes: "Romans 15:9 dative without preposition"
   }], info)}</h2>`
@@ -534,7 +534,7 @@ ${toGothicLines([{
   <br>
   <span class="nowrap">${toGothicLines([{
     text: {
-      got: "us dailai mikilai Faurawaurdies Aukridiskis",
+      got: "Us dailai mikilai Faurawaurdies Aukridiskis",
       en: "In large part from the Ochrid Prologue"
     },
     notes: `us dailai Corinthians I 13:10, Corinthians I 13:12`
