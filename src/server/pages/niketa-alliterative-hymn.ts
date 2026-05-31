@@ -225,7 +225,10 @@ ${toGothicLines([{
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "skeireins in stabreim fram Iohannes Haggwiþos (2026).", en: "a translation into alliterative verse by 2sh (2026)." },
+    text: { got: "skeireins in stabreim", en: "a translation into alliterative verse" },
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
+    text: { got: "fram Iohannes Haggwiþos (2026).", en: "by 2sh (2026)." },
   }], info)}</span>
   <br>
   <span class="nowrap">${toGothicLines([{
@@ -246,7 +249,8 @@ ${toGothicLines([{
   article += html`<p lang='en' class="annotation">
   <span class="nowrap">Hymn to Saint Nicetas</span>
   <span class="nowrap">in the Gothic language,</span>
-  <span class="nowrap">a translation into alliterative verse by <a href='https://2sh.me'>2sh</a> (2026).</span>
+  <span class="nowrap">a translation into alliterative verse</span>
+  <span class="nowrap">by <a href='https://2sh.me'>2sh</a> (2026).</span>
   <br>
   <span class="nowrap">In large part from the Ochrid Prologue</span>
   <span class="nowrap">by Saint Nikolai Velimirović.</span>
