@@ -55,12 +55,14 @@ const generator: PageGenerator = info =>
 ${toGothicLines([{
     text: {
       got: "Sa bi sunjai   sijai in kunja seinamma",
+      en: "This one truly   is in his country",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "inkunja saei altār   du allwaldand timrjai.",
+      en: "a patriot who an altar   to the allmighty one builds.",
     },
   }], info)}
 </p>
@@ -68,37 +70,43 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "Aþanareiks sa guta   anamahtai reikinoda.",
+      en: "Athanaric the goth   with tyranny ruled.",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "Galiugam afgudaim   sa gudalausa gasalida,",
+      en: "To an idolatrous lie   the godless one sacrificed,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "satjands saiwalos   uf skadau dauþaus.",
+      en: "setting souls   under a shadow of death.",
     },
     notes: `"uf skadau dauþ[a]us" Luke 1:79`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Iþ guta goþs   sa gadrauhts Xristaus,",
+      got: "Iþ guta goþs   gadrauhts Xristaus,",
+      en: "But a good goth   a soldier of Christ,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "fralailot in lausein   Liuhaþ Aiweino,",
+      en: "let out in the emptiness   the Eternal Light,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Niketa sa merjands   naseinais aiweinaizos.",
+      got: "Niketa merjands   naseinais aiweinaizos.",
+      en: "Nicetas herold   of eternal salvation.",
     },
   }], info)}
 </p>
@@ -106,24 +114,28 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "Sa weiha andwaih   wiþra þana reik.",
+      en: "The holy one fought   against that ruler.",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Miþ stiwitja balþamma   sildaleiknoda in þiudai seinamma.",
+      got: "Miþ stiwitja balþamma   sildaleiknoda in þiudai.",
+      en: "With brave patience   he was marvelled amongst the people.",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "Þana skadu þairhstagg   swinþein Krukis,",
+      en: "That shadow he pierced   with the power of the Cross,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "fulljands firƕja   faurhteins Gudis.",
+      en: "filling the living   with the fear of God.",
     },
   }], info)}
 </p>
@@ -131,24 +143,28 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "Rauþ ūhtwons niujaizos    rann bloþ is,",
+      en: "Red of a new dawn   ran his blood,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "iþ ahma is usstaig   swe ahaks du himinagardim.",
+      en: "but his spirit ascended   like a dove to the courts of heaven",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "In fonin fijaþwos   fastaiþs was Niketa;",
+      en: "In a fire of hate   held was Nicetas;",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "brann akei nauh   ni usbrann und hina dag.",
+      en: "he burnt however yet   has not burnt out to this day.",
     },
   }], info)}
 </p>
@@ -156,6 +172,7 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "Hazjandans hauhaba   hairtin Niketan seinana,",
+      en: "Praising highly   with heart their Nicetas,",
     },
     notes: `Instrumentative "hairtin" John 12:40`
   }], info)}
@@ -163,6 +180,7 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "du gafreideinai ganistais   þai gutans in Xristau",
+      en: "to the obtainment of salvation   the goths into Christ",
     },
     notes: `"du gafreideinai ganistais" Thessalonians I 5:9`
   }], info)}
@@ -170,37 +188,43 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "daupidai wesun,   drausjandans galiug.",
+      en: "baptised were,   casting down the lie.",
     },
   }], info)}
 </p>
 <p>
 ${toGothicLines([{
     text: {
-      got: "O Niketa Weiha,   wulþaga martyr,",
+      got: "O Weiha Niketa,   wulþaga martyr,",
+      en: "O Holy Nicetas,   glorious martyr,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "Stibna Gudahaurnis,   sunjeina inkunja,",
+      en: "Voice of God's horn,   true patriot,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "brāhts wast þū   us bauainim airþeinaim,",
+      en: "brought wast thou   out of earthen tents,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "standis nu miþ aggilum   faura sitla þiudanis.",
+      got: "standands nu miþ aggilum   faura sitla Þiudanis.",
+      en: "standing now with the angels   before the throne of the King.",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "Unte Þiudans þiuþeigs   þus andhauseiþ,",
+      en: "Because the good King   to you listens,",
     },
     notes: `þiuþeigs is used to refer to god
 Luke 18:19, Mark 14:61, Corinthians II 11:31`
@@ -209,6 +233,7 @@ Luke 18:19, Mark 14:61, Corinthians II 11:31`
 ${toGothicLines([{
     text: {
       got: "bi uns bidei ei jah Guþ   bleiþjai saiwalos unsaros.",
+      en: "for us pray that also God   has mercy on our souls.",
     },
   }], info)}
 <br>
