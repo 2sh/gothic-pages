@@ -79,6 +79,8 @@ ${toGothicLines([{
       got: "Galiugam afgudaim   sa gudalausa gasalida,",
       en: "To an idolatrous lie   the godless one sacrificed,",
     },
+    notes:
+`afgudaim doesn't alliterative with g, but can't find a good alternative.`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -86,7 +88,10 @@ ${toGothicLines([{
       got: "satjands saiwalos   uf skadau dauþaus.",
       en: "setting souls   under a shadow of death.",
     },
-    notes: `"uf skadau dauþ[a]us" Luke 1:79`
+    notes: `"uf skadau dauþ[a]us" Luke 1:79
+
+I'm ignoring rule of st, sp, sk not alliterating with s and each other.
+I feel like that could have been a west Germanic innovation.`
   }], info)}
 <br>
 ${toGothicLines([{
