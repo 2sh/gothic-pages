@@ -69,8 +69,8 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Aþanareiks sa guta   anamahtai reikinoda.",
-      en: "Athanaric the goth   with tyranny ruled.",
+      got: "Anamahtai waiwald   Aþanareiks sa guta.",
+      en: "with tyranny ruled   Athanaric the goth.",
     },
   }], info)}
 <br>
@@ -149,8 +149,8 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "iþ ahma is usstaig   swe ahaks du himinagardim.",
-      en: "but his spirit ascended   like a dove to the courts of heaven",
+      got: "iþ ahma is usstaig   ufar du himinagardim.",
+      en: "but his spirit ascended  above to the courts of heaven",
     },
   }], info)}
 <br>
