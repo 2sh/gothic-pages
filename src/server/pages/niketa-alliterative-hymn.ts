@@ -214,15 +214,15 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "brāhts wast þū   us bauainim airþeinaim,",
-      en: "brought wast thou   out of earthen tents,",
+      got: "brāhts wast þū   us bauainim airþeinaim;",
+      en: "brought wast thou   out of earthen tents;",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "standands nu miþ aggilum   faura sitla Þiudanis.",
-      en: "standing now with the angels   before the throne of the King.",
+      got: "standis nu miþ aggilum   faura sitla Þiudanis.",
+      en: "he stands now with the angels   before the throne of the King.",
     },
   }], info)}
 <br>
@@ -231,7 +231,7 @@ ${toGothicLines([{
       got: "Unte Þiudans þiuþeigs   þus andhauseiþ,",
       en: "Because the good King   to you listens,",
     },
-    notes: `þiuþeigs is used to refer to god
+    notes: `þiuþeigs is used to refer to God
 Luke 18:19, Mark 14:61, Corinthians II 11:31`
   }], info)}
 <br>
