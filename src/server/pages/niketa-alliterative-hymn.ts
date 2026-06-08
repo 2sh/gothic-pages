@@ -69,19 +69,16 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Aþanareiks sa guta   anamahtai reikinoda.",
-      en: "Athanaric the goth   with tyranny ruled.",
+      got: "Aþanareiks sa airzeis   agisa reikinoda.",
+      en: "Athanaric the erroneous   through fear ruled.",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Galiugam afgudaim   sa gudalausa gasalida,",
-      en: "To an idolatrous lie   the godless one sacrificed,",
+      got: "Sa guta gudalausa   du afgudam gasalida,",
+      en: "The godless goth   to the idol sacrificed,",
     },
-    notes:
-`afgudaim doesn't alliterative with g, which is fine.
-Neither does ga-salida which is normal for the 4th stress.`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -97,8 +94,8 @@ I feel like that could have been a West Germanic innovation.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "Iþ guta goþs   gadrauhts Xristaus,",
-      en: "But a good goth   a soldier of Christ,",
+      got: "Iþ guta usdauþs   gadrauhts Xristaus,",
+      en: "But an earnest goth   a soldier of Christ,",
     },
   }], info)}
 <br>
@@ -111,8 +108,8 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Niketa merjands   naseinais aiweinaizos.",
-      en: "Nicetas herold   of eternal salvation.",
+      got: "Niketa sa namnjands   naseinais aiweinaizos.",
+      en: "Nicetas the namer   of eternal salvation.",
     },
     notes: `I believe the stress in Niketa would have been on the Ni,
 looking at the stress patterns of the Greek related words for victory.`
@@ -187,10 +184,10 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "du gafreideinai ganistais   þai gutans in Xristau",
-      en: "to the obtainment of salvation   the goths into Christ",
+      got: "Þai gutans gudafaurhtai   in gabein Xristau",
+      en: "the godfearing goths   in(to) the wealth/riches of Christ",
     },
-    notes: `"du gafreideinai ganistais" Thessalonians I 5:9`
+    notes: `"gabein Xristau" Ephesians 3:8`
   }], info)}
 <br>
 ${toGothicLines([{
@@ -203,7 +200,7 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "O Weiha Niketa,   wulþaga martyr,",
+      got: "O Niketa Weiha,   wulþaga martyr,",
       en: "O Holy Nicetas,   glorious martyr,",
     },
   }], info)}
