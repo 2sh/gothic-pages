@@ -104,19 +104,20 @@ Alternative ideas:
 "þiuþ gatawida" feels too plain, basically "did good";
 "þiuþida gaskafts" I'm not sure himins would be considered a gaskafts;
 "þiuþida brunnan" blessing the source/fountain (of life?),
-sort of a "Blessing of the waters" perhaps`
+sort of a "Blessing of the waters" perhaps.
+Ended up with "blessed the foundation".`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "is frumist gaskop   manne barnam",
+      got: "in mela afar gaskop   manne barnam",
       ang: "hē ǣrist scōp   aelda barnum",
       en: "he first created   for the children of men",
       la: "qui primo tecti   hominum filiis",
     },
-    notes: `B:xx/x/ A:/x/x
+    notes: `B:x/xx/ A:/x/x
 
-somewhat artifically putting the stress on the m in frumist`
+"in [the] time after [he] created"`
   }], info)}
 <br>
 ${toGothicLines([{
