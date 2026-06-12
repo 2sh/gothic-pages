@@ -101,7 +101,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "fralailot in lausein   Liuhaþ Aiweino,",
+      got: "fralaílot in lausein   Liuhaþ Aiweino,",
       en: "let out in the emptiness   the Eternal Light,",
     },
   }], info)}
