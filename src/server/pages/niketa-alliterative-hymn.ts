@@ -176,7 +176,7 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Hazjandans hauhaba   hairtin Niketan seinana,",
+      got: "Hazjandans háuhaba   hairtin Niketan seinana,",
       en: "Praising highly   with heart their Nicetas,",
     },
     notes: `Instrumentative "hairtin" John 12:40`
