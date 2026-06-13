@@ -222,7 +222,7 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "standis nu miþ aggilum   faura sitla Þiudanis.",
-      en: "he stands now with the angels   before the throne of the King.",
+      en: "you stand now with the angels   before the throne of the King.",
     },
   }], info)}
 <br>
