@@ -76,7 +76,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa guta airzeis   du afgudam gasalida,",
+      got: "Sa guta airzja   du afgudam gasalida,",
       en: "The erroneous goth   to the idols sacrificed,",
     },
   }], info)}
