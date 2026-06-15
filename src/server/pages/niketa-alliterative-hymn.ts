@@ -195,7 +195,7 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "daupidai wesun,   drausjandans galiug.",
-      en: "baptised were,   casting down the lie.",
+      en: "baptised were,   casting down the falsehood.",
     },
   }], info)}
 </p>
