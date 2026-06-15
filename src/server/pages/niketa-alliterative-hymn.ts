@@ -69,15 +69,15 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Aþanareiks sa airzeis   agisa reikinoda.",
-      en: "Athanaric the erroneous   through fear ruled.",
+      got: "Aþanareiks gudalaus   agisa reikinoda.",
+      en: "The godless Athanaric   through fear ruled.",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa guta gudalausa   du afgudam gasalida,",
-      en: "The godless goth   to the idols sacrificed,",
+      got: "Sa guta airzeis   du afgudam gasalida,",
+      en: "The erroneous goth   to the idols sacrificed,",
     },
   }], info)}
 <br>
@@ -94,9 +94,11 @@ I feel like that could have been a West Germanic innovation.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "Iþ guta usdauþs   gadrauhts Xristaus,",
-      en: "But an earnest goth   a soldier of Christ,",
+      got: "Iþ guta daursands   gadrauhts Xristaus,",
+      en: "But a daring goth   a soldier of Christ,",
     },
+    notes: `*daursands pres-part of *daursan from gadaursan.
+Similar to adj. unagands (fearless) from pres-part of PGm *aganą`
   }], info)}
 <br>
 ${toGothicLines([{
