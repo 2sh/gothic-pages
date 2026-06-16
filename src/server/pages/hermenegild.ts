@@ -129,7 +129,7 @@ Using frijaþwa for friendship, though still want something better perhaps.
     },
     {
       text: {
-        got: 'Imma sa atta arianiska, dūþe ei sik du samon airzein atwandjai, launam fullaweisjan jah ƕotom inagjan sokida.',
+        got: 'Imma sa arianiska atta, dūþe ei sik du samon airzein atwandjai, launam fullaweisjan jah ƕotom inagjan sokida.',
         la: 'Quem pater Arianus, ut ad eamdem hærseim rediret, & præmiis suadere, & minis terrere conatus est.',
         en: 'which young Prince, upon his conversion, his father, being an Arian, laboured both by large promises and terrible threats to draw again to his former error:',
         de: 'Der arianische Vater suchte ihn durch Versprechungen und Drohungen wieder zur Rückkehr in die Häresie zu bewegen.',
@@ -185,7 +185,7 @@ hardus to mean austere, using it for the arcta meaning
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Aþþan þan qam dags dulþais Paska, in þahainai riqizis nahts insandida sa hindarweis atta aipiskaupu arianiskana du imma, dūþe us handau is gamaindūþ gaweihainais unairknaizos andnemi, eiþan þairh þata aftra anst attins ganuti.',
+        got: 'Aþþan þan qam dags dulþais Paska, in þahainai riqizis nahts insandida sa hindarweisa atta aipiskaupu arianiskana du imma, dūþe us handau is gamaindūþ gaweihainais unairknaizos andnemi, eiþan þairh þata aftra anst attins ganuti.',
         la: 'Superveniente autem Paschalis festivitatis die, intempestæ noctis silentio ad eum perfidus pater Arianum episcopum misit, ut ex ejus manu sacrilegæ consecrationis communionem perciperet, atque per hoc ad patris gratiam redire mereretur.',
         en: 'When the solemn feast of Easter was come, his wicked father sent unto him in the dead of the night an Arian Bishop, to give him the communion of a sacrilegious consecration, that he might thereby again recover his father’s grace and favour:',
         de: 'Da nun aber das Osterfest nahte, sandte der ketzerische Vater in der Stille der Nacht einen arianischen Bischof zu ihm, damit er aus seiner Hand sakrilegisch die heilige Kommunion empfange und so verdiene, beim Vater wieder in Gunst zu gelangen.',

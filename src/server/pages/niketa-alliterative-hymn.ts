@@ -76,8 +76,8 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa guta airzja   du afgudam gasalida,",
-      en: "The erroneous goth   to the idols sacrificed,",
+      got: "Sa airzja guta   du afgudam gasalida,",
+      en: "The erroneous goth   to idols sacrificed,",
     },
   }], info)}
 <br>
@@ -223,14 +223,14 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "standis nu miþ aggilum   faura sitla Þiudanis.",
+      got: "standis nu miþ aggilum   faura sitla þis Þiudanis.",
       en: "you stand now with the angels   before the throne of the King.",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Unte Þiudans þiuþeigs   þus andhauseiþ,",
+      got: "Unte sa þiuþeiga Þiudans   þus andhauseiþ,",
       en: "Because the good King   to you listens,",
     },
     notes: `þiuþeigs is used to refer to God

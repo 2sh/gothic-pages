@@ -161,7 +161,7 @@ ${toGothicLines([{
     },
     notes: `A:/x/x A:/x/xx
 
-*firƕeis from PGm firƕijaz which decended to various other
+*firƕeis from PGm firhwijaz which decended to various other
 Germanic languages to mean "the living, men, people" (plural)
 and supposedly turned into Crimean Gothic "fers"`
   }], info)}

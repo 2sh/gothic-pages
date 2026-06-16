@@ -165,7 +165,7 @@ from ... to ... Mark 13:27`
     },
     {
       text: {
-        got: `jah unte sa liufs Guþ was ainfalþaim wastjom gawasiþs`,
+        got: `jah unte sa liuba Guþ was ainfalþaim wastjom gawasiþs`,
         de: `und weil der liebe Gott schlichte Kleider trug`,
         en: `and as the Lord was wearing common clothes`
       },
@@ -242,7 +242,7 @@ alt: 𐌽𐌹 𐍃𐍄𐍉𐌾𐌰𐌹𐌸 𐌱𐌹 𐍃𐌹𐌿𐌽𐌰𐌹 “
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: `Swaei bilaiþ imma sa liufs Guþ jah ufarlaiþ du razn þamma leitil.`,
+        got: `Swaei bilaiþ imma sa liuba Guþ jah ufarlaiþ du razn þamma leitil.`,
         de: `Also kehrte ihm der liebe Gott den Rücken und ging hinüber zu dem kleinen Haus.`,
         en: `So the Lord turned his back on the rich man, and went across to the small house`
       }
