@@ -94,8 +94,8 @@ I feel like that could have been a West Germanic innovation.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "Iþ guta daursands   gadrauhts Xristaus,",
-      en: "But a daring goth   a soldier of Christ,",
+      got: "Iþ daursands guta   gadrauhts Xristaus,",
+      en: "But being daring, a goth   a soldier of Christ,",
     },
     notes: `*daursands pres-part of *daursan from gadaursan.
 Similar to adj. unagands (fearless) from pres-part of PGm *aganą`
@@ -202,7 +202,7 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "O Niketa Weiha,   wulþaga martyr,",
+      got: "O Weiha Niketa,   wulþaga martyr,",
       en: "O Holy Nicetas,   glorious martyr,",
     },
     notes: `Though the adjective usually follows the noun, in this case
