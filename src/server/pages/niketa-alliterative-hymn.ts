@@ -205,6 +205,14 @@ ${toGothicLines([{
       got: "O Niketa Weiha,   wulþaga martyr,",
       en: "O Holy Nicetas,   glorious martyr,",
     },
+    notes: `Though the adjective usually follows the noun, in this case
+as its in vocative and so the adjective is declined weak, making this order
+better perhaps as the other way around could maybe be interpreted as
+"martyr the glorious" instead of simply "glorious martyr".
+It seems to me that if the definite article is included (or in this case
+the vocative turning the adjectives weak), the order is the same as
+the english order and meanings of
+"the (adjective) (noun)" vs "(noun) the (adjective)".`
   }], info)}
 <br>
 ${toGothicLines([{
