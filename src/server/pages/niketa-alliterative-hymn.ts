@@ -186,7 +186,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þai gutans gudafaurhtai   in gabein Xristau",
+      got: "Þai gudafaurhtans gutans   in gabein Xristau",
       en: "the godfearing goths   in(to) the wealth/riches of Christ",
     },
     notes: `"gabein Xristau" Ephesians 3:8`
@@ -212,7 +212,7 @@ better perhaps as the other way around could maybe be interpreted as
 It seems to me that if the definite article is included (or in this case
 the vocative turning the adjectives weak), the order is the same as
 the english order and meanings of
-"the (adjective) (noun)" vs "(noun) the (adjective)".`
+"the (adjective) (noun)" (descriptive) vs "(noun) the (adjective)" (title).`
   }], info)}
 <br>
 ${toGothicLines([{
