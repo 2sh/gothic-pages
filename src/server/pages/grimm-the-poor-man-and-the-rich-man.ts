@@ -103,7 +103,7 @@ tired *𐌼𐍉𐌸𐌿𐍃 from PGm u-stem *moþuz.`
     },
     {
       text: {
-        got: 'jah þata mikil gabigis, jah þata leitil unledis.',
+        got: 'jah þata mikilo gabigis, jah þata leitilo unledis.',
         de: "und gehörte das große einem reichen, das kleine einem armen Manne.",
         en: "The large one belonged to a rich man, and the small one to a poor man."
       },
