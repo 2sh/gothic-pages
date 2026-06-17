@@ -127,9 +127,11 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Miþ stiwitja balþamma   sildaleiknoda in þiudai.",
-      en: "With brave patience   he was marvelled amongst the people.",
+      got: "Miþ þulainai balþai,   in þiudai sildaleiknoda.",
+      en: "With brave patience,   amongst the people he was marvelled.",
     },
+    notes: `Adding a comma to not attribute the patience to the people instead of
+Nicetas.`
   }], info)}
 <br>
 ${toGothicLines([{
