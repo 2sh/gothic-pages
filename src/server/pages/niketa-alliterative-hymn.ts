@@ -45,7 +45,6 @@ const generator: PageGenerator = info =>
       got: 'Liuþ Niketin Weihamma',
       en: "Hymn to Saint Nicetas",
     },
-    notes: `Greek uses αί too for the æ and the o used to be pronounced /o/ apparently.`
   },], info)}</h1>
 </header>`
 
