@@ -77,7 +77,7 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "Sa airzja guta   du afgudam gasalida,",
-      en: "The erroneous goth   to idols sacrificed,",
+      en: "That erroneous goth   to idols sacrificed,",
     },
   }], info)}
 <br>
@@ -233,15 +233,19 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "standis nu miþ aggilum   faura sitla þis Þiudanis.",
+      got: "standis nu miþ aggilum   faura sitla Þiudanis.",
       en: "you stand now with the angels   before the throne of the King.",
     },
+    notes: `Was thinking about adding þis before the þiudanis to emphasise
+its the aforementioned Christ, but I feel it breaks the flow and the
+"with the angels" part already makes clear this is in heaven. Both
+"of a king" and "of the king" interpretations would make sense still.`
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
       got: "Unte sa þiuþeiga Þiudans   þus andhauseiþ,",
-      en: "Because the good King   to you listens,",
+      en: "Because that good King   to you listens,",
     },
     notes: `þiuþeigs is used to refer to God
 Luke 18:19, Mark 14:61, Corinthians II 11:31`
