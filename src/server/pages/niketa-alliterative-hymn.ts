@@ -150,8 +150,8 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Rauþ ūhtwons niujaizos   rann bloþ is,",
-      en: "Red of a new dawn   ran his blood,",
+      got: "Rauþ swe ūhtwo niuja   rann bloþ is,",
+      en: "Red as a new dawn   ran his blood,",
     },
   }], info)}
 <br>
