@@ -171,8 +171,8 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "brann akei nauh   ni usbrann und hina dag.",
-      en: "he burnt however yet   has not burnt out to this day.",
+      got: "brann bairhtaba akei   nauh ni usbrann und hina dag.",
+      en: "he burnt brightly/clearly however yet   has not burnt out to this day.",
     },
   }], info)}
 </p>
