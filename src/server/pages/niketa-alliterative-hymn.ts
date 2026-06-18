@@ -157,8 +157,8 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "iþ ahma is usstaig   ufar du himinagardim.",
-      en: "but his spirit ascended  above to the courts of heaven",
+      got: "iþ ufar du himinagardim   ahma is usstaig.",
+      en: "but above to the courts of heaven   his spirit ascended.",
     },
   }], info)}
 <br>
@@ -187,7 +187,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "Þai gudafaurhtans gutans   in gabein Xristau",
+      got: "þai gudafaurhtans gutans   in gabein Xristau",
       en: "the godfearing goths   in(to) the wealth/riches of Christ",
     },
     notes: `"gabein Xristau" Ephesians 3:8`
