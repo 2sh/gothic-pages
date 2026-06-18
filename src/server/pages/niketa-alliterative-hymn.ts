@@ -119,15 +119,15 @@ looking at the stress patterns of the Greek related words for victory.`
 <p>
 ${toGothicLines([{
     text: {
-      got: "Sa weiha andwaih   wiþra þana reik.",
-      en: "The holy one fought   against that ruler.",
+      got: "Sa weiha andwaih   wiþra þana reik;",
+      en: "The holy one fought   against that ruler;",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Miþ þulainai balþai,   in þiudai sildaleiknoda.",
-      en: "With brave patience,   amongst the people he was marvelled.",
+      got: "miþ þulainai balþai,   in þiudai sildaleik.",
+      en: "with brave patience,   amongst the people a marvel.",
     },
     notes: `Adding a comma to not attribute the patience to the people instead of
 Nicetas.`
