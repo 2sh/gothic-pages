@@ -68,7 +68,7 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Aþanareiks gudalaus   agisa reikinoda.",
+      got: "Aþanareiks gudalaus   anamahtai reikinoda.",
       en: "The godless Athanaric   through fear ruled.",
     },
   }], info)}
