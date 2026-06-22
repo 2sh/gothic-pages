@@ -187,7 +187,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "þai gudafaurhtans gutans   in gabein Xristau",
+      got: "þai gudafaurhtans gutans   in gabein Xristaus",
       en: "the godfearing goths   in(to) the wealth/riches of Christ",
     },
     notes: `"gabein Xristau" Ephesians 3:8`
