@@ -68,15 +68,15 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Aþanareiks gudalaus   anamahtai reikinoda.",
-      en: "The godless Athanaric   through fear ruled.",
+      got: "Þar was guta grimms   saei gaf afgudam,",
+      en: "There was a godless goth   who gave to the idols,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Sa airzja guta   du afgudam gasalida,",
-      en: "That erroneous goth   to idols sacrificed,",
+      got: "Aþanareiks airzeis;   anamahtai reikinoda,",
+      en: "the erroneous Athanaric;   with terror ruled,",
     },
   }], info)}
 <br>
@@ -102,14 +102,14 @@ Similar to adj. unagands (fearless) from pres-part of PGm *aganą`
 <br>
 ${toGothicLines([{
     text: {
-      got: "fralaílot in lausein   Liuhaþ Aiweino,",
-      en: "let out in the emptiness   the Eternal Light,",
+      got: "liuhaþ libainais   fralaílot in naht,",
+      en: "the light of life   he let out into the night,",
     },
   }], info)}
 <br>
 ${toGothicLines([{
     text: {
-      got: "Niketa sa namnjands   naseinais aiweinaizos.",
+      got: "Niketa sa namnjands   Naseinais Aiweinins.",
       en: "Nicetas the namer   of eternal salvation.",
     },
     notes: `I believe the stress in Niketa would have been on the Ni,
