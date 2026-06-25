@@ -69,7 +69,7 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "Þar was guta grimms   saei gaf afgudam,",
-      en: "There was a godless goth   who gave to the idols,",
+      en: "There was a grim goth   who gave to the idols,",
     },
   }], info)}
 <br>
