@@ -85,7 +85,7 @@ being stuck after a t, it's observed to be -ss "after dentals".`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "Staiga meina jah badi mein ussokides jah allans wigans meinans faurawisses,",
+      got: "Staiga meina jah hlaut meinana ussokides jah allans wigans meinans faurawisses,",
       grc: "τὴν τρίβον μου καὶ τὴν σχοῖνόν μου ἐξιχνίασας καὶ πάσας τὰς ὁδούς μου προεῖδες,",
       en: "Thou hast traced my path and my bed (of rushes, lit. rush), and hast foreseen all my ways.",
     },
@@ -100,7 +100,10 @@ it has various figurative meanings relating to choices
 your physical and mental state while lying in it, vunerability, etc. and
 though a modern idiom "make one's bed and lie in it") and the surrounding
 words are about your own choices too: path, ways, my tongue, downsitting, uprising, thoughts.
-Lot feels more like fate, as in it wasn't your own choice.`
+Lot feels more like fate, as in it wasn't your own choice.
+
+And I've changed my mind after talking to a friend, paths are your own choices and
+the lot the choices made by God for you.`
   }], info)}</span>
 <span class='verse'>${toGothicLines([{
     text: {
