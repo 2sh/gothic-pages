@@ -54,7 +54,7 @@ const generator: PageGenerator = info =>
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Nū skulum hazjan   himinagardis ward,",
+      got: "Nū skulum hazjan   himinagardjos ward,",
       ang: "Nū scylun hergan   hefaenrīcaes Uard,",
       en: "Now [we] shall honour   heaven-kingdom's guardian,",
       la: "Nunc debemus laudare   regni caelestic auctorem,",

@@ -157,7 +157,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "iþ ufar du himinagardim   ahma is usstaig.",
+      got: "iþ ufar du himinagardjai   ahma is usstaig.",
       en: "but above to the courts of heaven   his spirit ascended.",
     },
   }], info)}
