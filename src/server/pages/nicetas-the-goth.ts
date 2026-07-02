@@ -72,7 +72,7 @@ const generator: PageGenerator = info =>
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Niketa Weihs was guta gabaurans',
+        got: 'Weiha Niketa was guta gabaurans',
         en: "Saint Nicetas was a Goth by birth",
       },
       notes: ``
@@ -176,7 +176,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Niketa Weihs, þairh merein jah libain gaguda seina, naþ mikilaba faur tulgiþa galaubeinais Xristeinaizos in þaim gutam.",
+        got: "Weiha Niketa, þairh merein jah libain gaguda seina, naþ mikilaba faur tulgiþa galaubeinais Xristeinaizos in þaim gutam.",
         en: "Saint Nicetas, by his preaching and his pious life, greatly assisted the confirmation of the Christian faith among the Goths.",
       },
     },
@@ -260,7 +260,7 @@ Using -isks ending`
     },
     {
       text: {
-        got: "Þanaseiþs, fauratanja jah lekinassjus warþ faura laibom Niketins Martyris Weihis.",
+        got: "Þanaseiþs, fauratanja jah lekinassjus warþ faura laibom Weihins Niketins Martyris.",
         en: "From that time, miracles and healings have occurred before the relics of the holy Martyr Nicetas.",
       },
     },
@@ -276,7 +276,7 @@ Using -isks ending`
 
   article += html`<h2>${toGothicLines([{
     text: {
-      got: 'Liuþ Niketin Weihamma',
+      got: 'Liuþ Weihin Niketin',
       en: "Hymn to Saint Nicetas",
     },
     notes: "Romans 15:9 dative without preposition"
@@ -334,7 +334,7 @@ that uses an idol loan would overcomplicate this.`
 <br>
 ${toGothicLines([{
     text: {
-      got: "Iþ Niketa Weihs was gadrauhts Xristaus",
+      got: "Iþ Weiha Niketa was gadrauhts Xristaus",
       sr: "А Никита свети, војник Христа Бога,",
       en: "But Saint Nicetas was a soldier of Christ",
     },
@@ -370,7 +370,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Niketa Weihs andstoþ þamma reik,",
+      got: "Weiha Niketa andstoþ þamma reik,",
       sr: "Никита се свети кнезу успротиви,",
       en: "Saint Nicetas stood against the prince",
     },
@@ -468,7 +468,7 @@ ${toGothicLines([{
   poem += html`<p>
 ${toGothicLines([{
     text: {
-      got: "O Niketa Weiha, Haurnis Gudis Stibna,",
+      got: "O Weiha Niketa, Haurnis Gudis Stibna,",
       sr: "О Никито свети, гласу Божје трубе,",
       en: "Saint Nikitas, Voice of the trumpet of God,",
     },
@@ -541,7 +541,7 @@ ${toGothicLines([{
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: {
-      got: "Nikaulai Velimirauvits Weihis.",
+      got: "Weihins Nikaulai Velimirauvits.",
       en: "by Saint Nikolai Velimirović."
     },
   }], info)}</span>

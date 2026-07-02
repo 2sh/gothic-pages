@@ -28,7 +28,7 @@ import { fromLatin } from '@common/transliterate'
 
 const slug = 'leiturgei-xrisaustaumaus'
 const title = 'Leiturgei Gudiska Xrisaustaumaus'
-const description = "Leiturgei Gudiska Iohannis Xrisaustaumaus Weihis, skeireins in razdai gutiskai."
+const description = "Leiturgei Gudiska Weihins Iohannis Xrisaustaumaus, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -54,7 +54,7 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Leiturgei Gudiska\nIohannis Xrisaustaumaus Weihis',
+      got: 'Leiturgei Gudiska\nWeihins Iohannis Xrisaustaumaus',
       grc: "Θεία Λειτουργία Αγίου Ιωάννου Χρυσοστόμου",
       en: "Divine Liturgy of Saint John Chrysostom",
     },
@@ -207,7 +207,7 @@ ${speakerDeacon(info)}
 ${toGothicLines([
     {
       text: {
-        got: 'Faur hita weih razn',
+        got: 'Faur hita razn weih',
         grc: "Ὑπὲρ τοῦ ἁγίου οἴκου τούτου",
         en: "For this holy house",
       }
@@ -557,7 +557,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'miþ allaim weihaim gamunandans,',
+        got: 'miþ allaim weiham gamunandans,',
         grc: "μετὰ πάντων τῶν Ἁγίων μνημονεύσαντες,",
         en: "with all the saints,",
       }

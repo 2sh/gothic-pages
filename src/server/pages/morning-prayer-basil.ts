@@ -12,7 +12,7 @@ import { fromLatin } from '@common/transliterate'
 
 
 const slug = 'bida-maurginis-baseileiaus'
-const title = 'Bida Maurginis Baseileiaus þis Mikilins Weihins Allweihai Þrifalþein'
+const title = 'Bida Maurginis Weihins Baseileiaus þis Mikilins Allweihai Þrifalþein'
 const description = `${title}, skeireins in razdai gutiskai.`
 
 const anchors: Anchor[] = [
@@ -39,7 +39,7 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Bida Maurginis\nBaseileiaus þis Mikilins Weihins\nAllweihai Þrifalþein',
+      got: 'Bida Maurginis\nWeihins Baseileiaus þis Mikilins\nAllweihai Þrifalþein',
       en: "Morning Prayer of St. Basil the Great to the Most Holy Trinity",
     },
     notes: `Baseileius from Βασίλειος`
@@ -148,7 +148,7 @@ in Greek either, though I think it's clear in context it's not God.`
     text: { got: "Bida Maurginis", en: "Morning Prayer" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Baseileiaus þis Mikilins Weihins", en: "of St. Basil the Great" },
+    text: { got: "Weihins Baseileiaus þis Mikilins", en: "of St. Basil the Great" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "Allweihai Þrifalþein", en: "to the Most Holy Trinity" },

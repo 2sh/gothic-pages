@@ -558,7 +558,7 @@ Attested as “bi [...] Batwin Bilaif” probably in ACC so a-stem perhaps.`
     },
     {
       text: {
-        got: 'Þos laibos þize martyre weihane wesun anafulhanos Duklidin,',
+        got: 'Þos laibos þize weihane martyre wesun anafulhanos Duklidin,',
         en: "The relics of the holy martyrs were left to Duclida,",
       },
     },
@@ -587,7 +587,7 @@ making kalaindāri a neuter ja-stem word`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Kalaindāri gutisk dulþjiþ faura þaim martyram weiham ana 23 Auktobaira,',
+        got: 'Kalaindāri gutisk dulþjiþ faura þaim weiham martyram ana 23 Auktobaira,',
         en: "The Gothic calendar celebrates these Holy Martyrs on October 23rd,",
       },
     },

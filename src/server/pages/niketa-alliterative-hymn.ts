@@ -14,8 +14,8 @@ import
 
 
 const slug = 'liuth-niketin'
-const title = 'Liuþ Niketin Weihamma'
-const description = "Liuþ Niketin Weihamma, skeireins in razdai gutiskai."
+const title = 'Liuþ Weihin Niketin'
+const description = "Liuþ Weihin Niketin, skeireins in razdai gutiskai."
 
 const anchors: Anchor[] = [
   {
@@ -42,7 +42,7 @@ const generator: PageGenerator = info =>
   article += html`<header>
   <h1>${toGothicLines([{
     text: {
-      got: 'Liuþ Niketin Weihamma',
+      got: 'Liuþ Weihin Niketin',
       en: "Hymn to Saint Nicetas",
     },
   },], info)}</h1>
@@ -264,7 +264,7 @@ ${toGothicLines([{
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
-    text: { got: "Liuþ Niketin Weihamma", en: "Hymn to Saint Nicetas" },
+    text: { got: "Liuþ Weihin Niketin", en: "Hymn to Saint Nicetas" },
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
@@ -285,7 +285,7 @@ ${toGothicLines([{
   }], info)}</span>
   <span class="nowrap">${toGothicLines([{
     text: {
-      got: "Nikaulai Velimirauvits Weihis.",
+      got: "Weihins Nikaulai Velimirauvits.",
       en: "by Saint Nikolai Velimirović."
     },
   }], info)}</span>

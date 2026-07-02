@@ -274,7 +274,7 @@ with a different declension.`
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Sabba Weihs gawann in 372, miþ 31 jere.',
+        got: 'Weiha Sabba gawann in 372, miþ 31 jere.',
         en: "St Sabbas suffered in 372, at the age of 31. ",
       },
     },
