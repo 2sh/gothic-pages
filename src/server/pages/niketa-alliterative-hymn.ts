@@ -60,8 +60,8 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "inkunja saei altār   du allwaldand timrjai.",
-      en: "a patriot who an altar   to the allmighty one builds.",
+      got: "inkunja saei du imma   altār sunjeinana timrjai.",
+      en: "a patriot who to Him   a true altar builds.",
     },
   }], info)}
 </p>
@@ -252,8 +252,8 @@ Luke 18:19, Mark 14:61, Corinthians II 11:31`
 <br>
 ${toGothicLines([{
     text: {
-      got: "bi uns bidei ei jah Guþ   bleiþjai saiwalos unsaros.",
-      en: "for us pray that also God   has mercy on our souls.",
+      got: "bi uns bidei ei jah Guþ   saiwalos unsaros bleiþjai.",
+      en: "for us pray that also God   on our souls has mercy.",
     },
   }], info)}
 <br>
