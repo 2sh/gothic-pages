@@ -252,8 +252,8 @@ Luke 18:19, Mark 14:61, Corinthians II 11:31`
 <br>
 ${toGothicLines([{
     text: {
-      got: "bi uns bidei ei jah Guþ   saiwalos unsaros bleiþjai.",
-      en: "for us pray that also God   on our souls has mercy.",
+      got: "bi uns bidei ei jah Guþ   bleiþjai saiwalos unsaros.",
+      en: "for us pray that also God   has mercy on our souls.",
     },
   }], info)}
 <br>
