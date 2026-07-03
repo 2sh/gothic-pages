@@ -60,7 +60,7 @@ ${toGothicLines([{
 <br>
 ${toGothicLines([{
     text: {
-      got: "inkunja saei du imma   altār sunjein timrjai.",
+      got: "inkunja saei du Ïmma   altār sunjein timrjai.",
       en: "a patriot who to Him   a true altar builds.",
     },
   }], info)}
