@@ -61,7 +61,7 @@ const generator: PageGenerator = info =>
   article += html`<p class='dropcap' style="counter-set: verse 2">
 <span class='verse'>${toGothicLines([{
     text: {
-      got: "hnaiwei du mis auso Þein, sniumei uslausjan mik; sijais mis guþ ufarskildjands jah gards þadei mag þliuhan du nasjan mis.",
+      got: "Hnaiwei du mis auso Þein, sniumei uslausjan mik; sijais mis guþ ufarskildjands jah gards þadei mag þliuhan du nasjan mis.",
       grc: "κλῖνον πρός με τὸ οὖς σου, τάχυνον τοῦ ἐξελέσθαι με· γενοῦ μοι εἰς Θεὸν ὑπερασπιστὴν καὶ εἰς οἶκον καταφυγῆς τοῦ σῶσαί με.",
       en: "Incline thine ear to me; make haste to rescue me: be thou to me for a protecting God, and for a house of refuge to save me.",
     },
