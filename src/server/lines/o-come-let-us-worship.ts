@@ -35,7 +35,7 @@ ${oComeLetUsWorshipRep(pi)}
 <br>
 ${toGothicLines([{
   text: {
-    got: 'du imma Xristau Þiudana jah Guda unsaramma.',
+    got: 'du Ïmma Xristau Þiudana jah Guda unsaramma.',
     grc: "αὐτῷ, Χριστῷ τῷ βασιλεῖ καὶ Θεῷ ἡμῶν.",
     en: "before Him, Christ our King and God.",
   }
