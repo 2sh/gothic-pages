@@ -339,7 +339,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Frauja, warst unsis staþs þadei magum þliuhan',
+        got: 'Frauja, warst unsis atþlauhistaþs',
         grc: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
         en: "Lord, you have become for us a refuge",
       },
@@ -348,7 +348,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
 meaning “land (from the point of view of a boat on the water), shore”
 which is quite fitting I think.
 
-(imo) 𐌸𐌻𐌰𐌿𐌷𐌰𐌽 without 𐌲𐌰 prefix as arriving is not a certainty, it’s a struggle.`,
+*atþlauhs from at- and þlauhs to mean refuge, a to-flight "Zuflucht"`,
     },
     {
       text: {
