@@ -53,7 +53,7 @@ const generator: PageGenerator = info =>
 
   article += html`<h2>${toGothicLines([{
     text: {
-      got: 'Weihanahts (357)',
+      got: 'Weihanahts (L. 357)',
       en: "Christmas",
     },
   },], info)}</h2>`
@@ -264,7 +264,7 @@ ${toGothicLines([{
 
   article += html`<h2>${toGothicLines([{
     text: {
-      got: 'Atta Unsar (1600)',
+      got: 'Atta Unsar (L. 1600)',
       en: "Lord's Prayer",
     },
   },], info)}</h2>`
