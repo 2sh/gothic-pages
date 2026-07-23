@@ -68,13 +68,12 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Sums gutane was grimms   saei gaf afgudam,",
+      got: "Gutane sums was grimms   saei gaf afgudam,",
       en: "A certain one of the goths was grim   who gave to the idols,",
     },
     notes: `"manne sums was gabigs" Luke 16:19.
 The greek is a simple "was a rich man" word-for-word, so this seems to be a
-Gothic phrase. Attested is the plural gentive following the sums too which
-I've done for the meter.`
+Gothic phrase.`
   }], info)}
 <br>
 ${toGothicLines([{
