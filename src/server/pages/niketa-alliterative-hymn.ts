@@ -73,7 +73,9 @@ ${toGothicLines([{
     },
     notes: `"manne sums was gabigs" Luke 16:19.
 The greek is a simple "was a rich man" word-for-word, so this seems to be a
-Gothic phrase.`
+Gothic phrase.
+
+The two halved have opposite rise/fall patterns, kinda nice maybe.`
   }], info)}
 <br>
 ${toGothicLines([{
