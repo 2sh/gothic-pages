@@ -339,7 +339,7 @@ seems to be the modern German word order, so adding 𐌸𐌿𐌺 before 𐌸𐌹
   article += html`<p>${toGothicLines([
     {
       text: {
-        got: 'Frauja, warst unsis atþlauhistaþs',
+        got: 'Frauja, warst unsis atþláuhistaþs',
         grc: "Κύριε, καταφυγὴ ἐγενήθης ἡμῖν",
         en: "Lord, you have become for us a refuge",
       },
