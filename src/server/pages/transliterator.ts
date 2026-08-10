@@ -139,7 +139,7 @@ as that’s all that’s attested.
 The above 999 setting is an idea I had for larger numbers, expanding on the
 Ionian use of a symbol (for now the Greek lower numeral sign [͵] but could
 perhaps be the cyrillic thousands sign [҂]) to signify multiplying the
-numerals's value by 1000 and using colons to separate millions (or eventually
+numeral's value by 1000 and using colons to separate millions (or eventually
 perhaps using the Cyrillic numerals combining characters or something similar).
 </p>
 <p>
