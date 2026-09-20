@@ -12,7 +12,9 @@ import
 
 // Aesop's Tales: https://www.letsreadgreek.com/lrg-old/Aesop/readingschedule.htm
 // Original: https://web.archive.org/web/20150609025549/https://www.letsreadgreek.com/Aesop/Perry15.htm#Chambry1GreekText
-// Other TL: https://parchmentlore.com/fox-and-grapes-gothic/
+// Other Gothic TL: https://parchmentlore.com/fox-and-grapes-gothic/
+// English TL: https://read.gov/aesop/005.html
+
 
 /*
 Ἀλώπηξ καὶ βότρυς
