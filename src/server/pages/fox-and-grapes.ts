@@ -65,7 +65,7 @@ but the bunch of grapes.`
   article += html`<p>
 ${toGothicLines([{
     text: {
-      got: 'Fauho gredondei, biþe gasaƕ weinabasja skaunja hāhandona háuh af sum weinatriu in bagma, ufrakida sis du þaim, akei ni mahta þo ganiman.',
+      got: 'Fauho gredondei, biþe hāhandona háuh af sum weinatriu in bagma weinabasja skaunja gasaƕ, ufrakida sis du þaim, akei ni mahta þo ganiman.',
       en: "A famished fox, when she saw some beautiful grapes hanging high from a certain vine in a tree, tried to reach them, but couldn't obtain them.",
     },
   }], info)}</p>
