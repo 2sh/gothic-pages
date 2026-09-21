@@ -88,8 +88,8 @@ iþ sware Mark 7:7`
 <p><i>
 ${toGothicLines([{
     text: {
-      got: 'Sind ganohai þaiei in hindarweisein þaim laiand jah frakunnun þoei inu mitaþs ize ligand.',
-      en: "There are many who pretend to despise and belittle those things which lie outside their measures/limits.",
+      got: 'Sind ganohai þaiei in hindarweisein þamma laiand jah frakunnun þatei inu mitaþ ize ligiþ.',
+      en: "There are many who pretend to despise and belittle that which lies outside their measure/limit.",
     },
     notes: `inu mitaþ Corinthians II 10:13 Corinthians II 10:15 outside measure, beyond limit`
   }], info)}</i></p>`
