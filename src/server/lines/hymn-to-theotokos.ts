@@ -30,7 +30,7 @@ ${toGothicLines([
 ${toGothicLines([
     {
       text: {
-        got: 'Sweriza þaim Xairubeim jah wulþagiza inuh galeiki þaim Sairafeim,',
+        got: 'Sweriza þaim Xairubeim jah wulþagiza inu galeiki þaim Sairafeim,',
         grc: "Τὴν τιμιωτέραν τῶν Χερουβεὶμ καὶ ἐνδοξοτέραν ἀσυγκρίτως τῶν Σεραφείμ,",
         en: "More honorable than the Cherubim, and beyond compare more glorious than the Seraphim,",
       },

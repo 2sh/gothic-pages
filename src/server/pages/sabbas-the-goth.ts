@@ -170,7 +170,7 @@ with a different declension.`
     },
     {
       text: {
-        got: 'jah inuh bleiþein anastodidedun mans Gudis du bautan,',
+        got: 'jah inu bleiþein anastodidedun mans Gudis du bautan,',
         en: "and began to belabour the men of God without mercy,",
       },
     },

@@ -162,7 +162,7 @@ familiarity.`
     },
     {
       text: {
-        got: 'Swa, is anabauþ balwjan jah usqiman managana þize, ufta inuh kustu.',
+        got: 'Swa, is anabauþ balwjan jah usqiman managana þize, ufta inu kustu.',
         en: "So, he ordered many of them to be tortured and executed, often without a trial.",
       },
     },
@@ -325,7 +325,7 @@ nauþei innatgaggan Luke 14:23 - nauþjan + infinitive`
     },
     {
       text: {
-        got: 'sai nū, ni hunsla inuh saiwala, ak is warþ hunsla qiu Guda,',
+        got: 'sai nū, ni hunsla inu saiwala, ak is warþ hunsla qiu Guda,',
         en: "Therefore, instead of a soulless offering, he himself became a living offering to God,",
       },
     },

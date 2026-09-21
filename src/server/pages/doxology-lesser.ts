@@ -475,7 +475,7 @@ grant 𐍆𐍂𐌰𐌲𐌹𐍆 Mark 10:37`,
     },
     {
       text: {
-        got: 'ei himma naht inuh frawaurht gafastaindau.',
+        got: 'ei himma naht inu frawaurht gafastaindau.',
         grc: "ἐν τῇ νυκτὶ ταύτῃ ἀναμαρτήτους φυλαχθῆναι ἡμᾶς.",
         en: "that in this night we may be kept without sin.",
       },
