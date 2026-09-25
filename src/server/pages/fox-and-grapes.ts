@@ -10,7 +10,7 @@ import
 } from '@server/tools'
 
 
-// Aesop's Tales: https://www.letsreadgreek.com/lrg-old/Aesop/readingschedule.htm
+// Aesop's Tales: https://web.archive.org/web/20260608085332/http://mythfolklore.net/aesopica/perry/index.htm
 // Original: https://web.archive.org/web/20150609025549/https://www.letsreadgreek.com/Aesop/Perry15.htm#Chambry1GreekText
 // Other Gothic TL: https://parchmentlore.com/fox-and-grapes-gothic/
 // English TL: https://read.gov/aesop/005.html
