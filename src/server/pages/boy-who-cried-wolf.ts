@@ -88,7 +88,7 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: "Daga ƕammeh ni mahta sik þrafstjan, niba du hunda seinamma qaþ aiþþau swigloda. Jah suns warþ in unlustau; so libains ana þizai winjai warþ afmojandei filu.",
+      got: "Daga ƕammeh ni mahta in waihtai faginon, nibai ei du hunda seinamma qaþ jah swigloda. Jah suns warþ in unlustau; so libains ana þizai winjai warþ afmojandei filu.",
       en: "Each day, all he could do to amuse himself was to talk to his dog or play on his shepherd's pipe. And soon he became discouraged, the life in the pasture became very tiring.",
     },
     notes: `"ana haiþjai" Luke 17:31, so "ana winjai"`
