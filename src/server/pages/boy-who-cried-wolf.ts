@@ -151,7 +151,15 @@ ${toGothicLines([{
     },
     notes: `John 12:9`
   }], info)}
-</p>`
+</p>
+<p><i>
+${toGothicLines([{
+    text: {
+      got: "Liugnja ni galaubjada, þauhjabai qiþai sunja.",
+      en: "A liar will not be believed, even when he speaks the truth.",
+    },
+  }], info)}
+</i></p>`
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
