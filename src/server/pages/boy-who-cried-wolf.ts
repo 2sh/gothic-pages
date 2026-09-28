@@ -102,8 +102,8 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: `Ufwopida swaleikai stibnai mikilai, ei so und neƕa haim gahausida warþ: "Wulfs! Wulfs!"`,
-      en: `He shouted with such a loud voice, that it could be heard up to the nearby village: "Wolf! Wolf!"`,
+      got: `Swaleikai stibnai mikilai ufwopida, ei so und neƕa haim gahausida warþ: "Wulfs! Wulfs!"`,
+      en: `With such a loud voice he shouted, that it could be heard up to the nearby village: "Wolf! Wolf!"`,
     },
     notes: `Luke 1:42`
   }], info)}
