@@ -98,7 +98,9 @@ ${toGothicLines([{
       got: "Inuh þis nū þahta sis list soei ina fahedais fulljai.",
       en: "And so he thought up a trick that would fill him with joy.",
     },
-    notes: `Luke 1:29 Romans 15:13`
+    notes: `Luke 1:29
+
+Romans 15:13`
   }], info)}
 ${toGothicLines([{
     text: {
@@ -118,9 +120,7 @@ ${toGothicLines([{
       got: `Akei jaina, sunsei qemun, bigetun þana magu in hlasein bilaikandan ins.`,
       en: `However when they got there they found the boy in glee laughing at them.`,
     },
-    notes: `John 11:29
-
-gatawidedun imma Mark 9:13`
+    notes: `John 11:29`
   }], info)}
 </p>
 <p><i>
