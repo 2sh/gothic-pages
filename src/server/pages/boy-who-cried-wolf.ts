@@ -95,10 +95,10 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Inuh þis nū þahta sis ƕeleik þatei leikai imma.",
-      en: "And so he thought about what manner of thing could please him.",
+      got: "Inuh þis nū þahta sis list soei ina fahedais fulljai.",
+      en: "And so he thought up a trick that would fill him with joy.",
     },
-    notes: `Luke 1:29`
+    notes: `Luke 1:29 Romans 15:13`
   }], info)}
 ${toGothicLines([{
     text: {
@@ -115,8 +115,8 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: `Akei jaina, sunsei qemun, bigetun þana magu in hlasein bihlahjandan ina in þis listais þatei im gatawida.`,
-      en: `However when they got there they found the boy in glee laughing at them because of the trick he had played on them.`,
+      got: `Akei jaina, sunsei qemun, bigetun þana magu in hlasein bilaikandan ins.`,
+      en: `However when they got there they found the boy in glee laughing at them.`,
     },
     notes: `John 11:29
 
