@@ -111,7 +111,7 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: `Þannu nū jai, mannans ni þanaseiþs arbaididedun jah durunnun in aljana þo winja.`,
+      got: `Þannū nū jai, mannans ni þanaseiþs arbaididedun jah durunnun in aljana þo winja.`,
       en: `Therefore indeed, the villagers dropped their work and ran in great excitement to the pasture.`,
     },
   }], info)}
