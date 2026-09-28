@@ -140,7 +140,7 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: "Akei þai mannans, þaiei twaim sinþam faura afairzidai wesun, hausidedun þana drunju, iþ ni ainshun warþ gawagiþs du hilpan is swe faura.",
+      got: "Akei þai mannans, þaiei twaim sinþam faura afairzidai wesun, hausidedun þana hrop, iþ ni ainshun warþ gawagiþs du hilpan is swe faura.",
       en: "However villagers, who had been fooled twice before, heard the cry, but nobody stirred to help him as they had before.",
     },
   }], info)}
