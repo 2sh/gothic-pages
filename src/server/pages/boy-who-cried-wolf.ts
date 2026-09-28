@@ -147,7 +147,7 @@ ${toGothicLines([{
 ${toGothicLines([{
     text: {
       got: "Sa wulfs dauþida jah fret manageins filu awe magaus jah þan slaup ibukai in walþu.",
-      en: "The Wolf killed and ate a great many of the Boy's sheep and then slipped away into the forest.",
+      en: "The wolf killed and ate a great many of the boy's sheep and then slipped away into the forest.",
     },
     notes: `John 12:9`
   }], info)}
