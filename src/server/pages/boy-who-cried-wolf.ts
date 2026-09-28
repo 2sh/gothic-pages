@@ -104,8 +104,8 @@ Romans 15:13`
   }], info)}
 ${toGothicLines([{
     text: {
-      got: `Swaleikai stibnai mikilai ufwopida, ei so und neƕa haim gahausida warþ: "Wulfs! Wulfs!"`,
-      en: `With such a loud voice he shouted, that it could be heard up to the nearby village: "Wolf! Wolf!"`,
+      got: `Swaleikai stibnai mikilai ufwopida, ei so und neƕa haim gahausida warþ: “Wulfs! Wulfs!”`,
+      en: `With such a loud voice he shouted, that it could be heard up to the nearby village: “Wolf! Wolf!”`,
     },
     notes: `Luke 1:42`
   }], info)}
@@ -123,14 +123,35 @@ ${toGothicLines([{
     notes: `John 11:29`
   }], info)}
 </p>
-<p><i>
+<p>
 ${toGothicLines([{
     text: {
-      got: "",
-      en: "",
-      de: "",
+      got: "Afar ni managans dagans sa magus aftra ufwopida: “Wulfs! Wulfs!” Jah aftra þai mannans runnun ei hilpaina is, nibai aftra bilaikanai wesun.",
+      en: "A few days later the boy again shouted, “Wolf! Wolf!” And again the Villagers ran that they may help him, only to be laughed at again.",
     },
-  }], info)}</i></p>`
+  }], info)}
+</p>
+<p>
+${toGothicLines([{
+    text: {
+      got: "Iþ þan sumamma daga, wulfs raihtis qam jah disdraus þos awins. Fulliþs agisis sa magus durann þo haim, aftra ufwopida: “Wulfs! Wulfs!”",
+      en: "But then one day, a wolf really did come and fell upon the sheep. In terror the boy ran towards the village, again shouting “Wolf! Wolf!”",
+    },
+  }], info)}
+${toGothicLines([{
+    text: {
+      got: "Akei þai mannans, þaiei twaim sinþam faura afairzidai wesun, hausidedun þana drunju, iþ ni ainshun warþ gawagiþs du hilpan is swe faura.",
+      en: "However villagers, who had been fooled twice before, heard the cry, but nobody stirred to help him as they had before.",
+    },
+  }], info)}
+${toGothicLines([{
+    text: {
+      got: "Sa wulfs dauþida jah fret manageins filu awe magaus jah þan slaup ibukai in walþu.",
+      en: "The Wolf killed and ate a great many of the Boy's sheep and then slipped away into the forest.",
+    },
+    notes: `John 12:9`
+  }], info)}
+</p>`
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
