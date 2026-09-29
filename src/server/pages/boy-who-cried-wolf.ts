@@ -155,7 +155,7 @@ ${toGothicLines([{
 <p><i>
 ${toGothicLines([{
     text: {
-      got: "Liugnja ni galaubjada, þauhjabai qiþai sunja.",
+      got: "Ni galaubjada liugnja, þauhjabai qiþai sunja.",
       en: "A liar will not be believed, even when he speaks the truth.",
     },
   }], info)}
