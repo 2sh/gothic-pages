@@ -134,8 +134,8 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Iþ þan sumamma daga, wulfs allis qam jah disdraus þos awins. Fulliþs agisis sa magus durann þo haim, aftra ufwopida: “Wulfs! Wulfs!”",
-      en: "But then one day, a wolf did indeed come and fell upon the sheep. In terror the boy ran towards the village, again shouting “Wolf! Wolf!”",
+      got: "Iþ þan sumamma daga, aufto wulfs qam jah disdraus þos awins. Fulliþs agisis sa magus durann þo haim, aftra ufwopida: “Wulfs! Wulfs!”",
+      en: "But then one day, haply a wolf did come and fell upon the sheep. In terror the boy ran towards the village, again shouting “Wolf! Wolf!”",
     },
   }], info)}
 ${toGothicLines([{
