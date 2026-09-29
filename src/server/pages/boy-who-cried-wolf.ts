@@ -111,7 +111,7 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: `Þannū nū jai, mannans ni þanaseiþs arbaididedun jah durunnun in aljana þo winja.`,
+      got: `Þannū nū jai, mannans ni þanaseiþs arbaididedun jah runnun in aljana du þizai winjai.`,
       en: `Therefore indeed, the villagers dropped their work and ran in great excitement to the pasture.`,
     },
   }], info)}
@@ -134,7 +134,7 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Iþ þan sumamma daga, aufto wulfs qam jah disdraus þos awins. Fulliþs agisis sa magus durann þo haim, aftra ufwopida: “Wulfs! Wulfs!”",
+      got: "Iþ þan sumamma daga, aufto wulfs qam jah disdraus þos awins. Fulliþs agisis sa magus rann du þizai haimai, aftra ufwopida: “Wulfs! Wulfs!”",
       en: "But then one day, haply a wolf did come and fell upon the sheep. In terror the boy ran towards the village, again shouting “Wolf! Wolf!”",
     },
   }], info)}
