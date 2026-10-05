@@ -126,8 +126,8 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Afar ni managans dagans sa magus aftra ufwopida: “Wulfs! Wulfs!” Jah aftra þai mannans runnun ei hilpaina is, nibai aftra bilaikanai wesun.",
-      en: "A few days later the boy again shouted, “Wolf! Wolf!” And again the Villagers ran that they may help him, only to be laughed at again.",
+      got: "Afar ni managans dagans sa magus aftra ufwopida: “Wulfs! Wulfs!” Jah aftra þai mannans runnun ei hilpaina is, akei aftra bilaikanai wesun.",
+      en: "A few days later the boy again shouted, “Wolf! Wolf!” And again the Villagers ran that they may help him, however they were laughed at again.",
     },
   }], info)}
 </p>
