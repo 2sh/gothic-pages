@@ -77,7 +77,7 @@ const generator: PageGenerator = info =>
   article += html`<p>
 ${toGothicLines([{
     text: {
-      got: "Ana stada háuhamma, Was magus juggs witānds ufaro hairdai awe in gawairþja.",
+      got: "Ana stada háuhamma, was magus juggs witānds ufaro hairdai awe in gawairþja.",
       en: "On a high place, there was a young boy who tended a flock of sheep in peace.",
     },
     notes: `*aus from PGm *awiz
