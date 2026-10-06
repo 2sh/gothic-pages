@@ -134,13 +134,13 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Iþ þan sumamma daga, aufto wulfs qam jah disdraus þos awins. Nū fulliþs agisis, sa magus rann du þizai haimai, aftra ufwopida: “Wulfs! Wulfs!”",
+      got: "Iþ þan sumamma daga, aufto wulfs qam jah disdraus þos awins. Nū fulliþs agisis, sa magus rann du þizai haimai aftra ufwopjands: “Wulfs! Wulfs!”",
       en: "But then one day, haply a wolf did come and fell upon the sheep. In terror the boy ran towards the village, again shouting “Wolf! Wolf!”",
     },
   }], info)}
 ${toGothicLines([{
     text: {
-      got: "Akei þai mannans, þaiei twaim sinþam faura afairzidai wesun, hausidedun þana hrop, iþ ni ainshun warþ gawagiþs du hilpan is swe faura.",
+      got: "Akei þai mannans, þaiei twaim sinþam faura afairzidai wesun, hausidedun þans hropos, iþ ni ainshun warþ gawagiþs du hilpan is swe faura.",
       en: "However villagers, who had been fooled twice before, heard the cry, but nobody stirred to help him as they had before.",
     },
   }], info)}
