@@ -104,7 +104,7 @@ ${toGothicLines([{
       got: "Inuh þis nū þahta sis list soei ina fahedais fulljai.",
       en: "And so he thought up a trick that would fill him with joy.",
     },
-    notes: `"þahta sis" Luke 1:29
+    notes: `"þahta sis ƕeleika" Luke 1:29
 
 "fulljai izwis allaizos fahedais" Romans 15:13`
   }], info)}
