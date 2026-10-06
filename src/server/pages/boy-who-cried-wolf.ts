@@ -89,7 +89,13 @@ ${toGothicLines([{
       got: "Daga ƕammeh ni mahta in waihtai faginon, nibai ei du hunda seinamma qaþ aiþþau swiglai hairdeis seinai liuþoda. Jah suns warþ in unlustau; so libains ana þizai winjai warþ afmojandei filu.",
       en: "Each day, all he could do to amuse himself was to talk to his dog or play on his shepherd's pipe. And soon he became discouraged, the life in the pasture became very tiring.",
     },
-    notes: `"ana haiþjai" Luke 17:31, so "ana winjai"`
+    notes: `nibai ei + 3rd p. past tense John 10:10
+
+*swigla from PGm f. o-stem *sweglō through attested swiglon
+
+"ni wairþaina in unlustau" Colossians 3:21
+
+"ana haiþjai" Luke 17:31, so "ana winjai"`
   }], info)}
 </p>
 <p>
@@ -98,29 +104,30 @@ ${toGothicLines([{
       got: "Inuh þis nū þahta sis list soei ina fahedais fulljai.",
       en: "And so he thought up a trick that would fill him with joy.",
     },
-    notes: `Luke 1:29
+    notes: `"þahta sis" Luke 1:29
 
-Romans 15:13`
+"fulljai izwis allaizos fahedais" Romans 15:13`
   }], info)}
 ${toGothicLines([{
     text: {
       got: `Swaleikai stibnai mikilai ufwopida, ei so und neƕa haim gahausida warþ: “Wulfs! Wulfs!”`,
       en: `With such a loud voice he shouted, that it could be heard up to the nearby village: “Wolf! Wolf!”`,
     },
-    notes: `Luke 1:42`
+    notes: `"ufwopida stibnai mikilai" Luke 1:42`
   }], info)}
 ${toGothicLines([{
     text: {
       got: `Þannū nū jai, mannans ni þanaseiþs arbaididedun jah runnun in aljana du þizai winjai.`,
       en: `Therefore indeed, the villagers dropped their work and ran in great excitement to the pasture.`,
     },
+    notes: `"þannu nu jai" Romans 9:18 & Romans 9:20`
   }], info)}
 ${toGothicLines([{
     text: {
       got: `Akei jaina, sunsei qemun, bigetun þana magu in hlasein bilaikandan ins.`,
       en: `However when they got there they found the boy in glee laughing at them.`,
     },
-    notes: `John 11:29`
+    notes: `"iþ jaina, sunsei hausida," John 11:29 made sure jaina refers to f. gender winja.`
   }], info)}
 </p>
 <p>
@@ -149,7 +156,7 @@ ${toGothicLines([{
       got: "Sa wulfs dauþida jah fret manageins filu awe magaus jah þan slaup ibukai in walþu.",
       en: "The wolf killed and ate a great many of the boy's sheep and then slipped away into the forest.",
     },
-    notes: `John 12:9`
+    notes: `"manageins filu Iudaie" John 12:9`
   }], info)}
 </p>
 <p><i>
