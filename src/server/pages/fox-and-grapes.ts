@@ -88,7 +88,7 @@ iþ sware Mark 7:7`
 <p><i>
 ${toGothicLines([{
     text: {
-      got: 'Sind ganohai þaiei in hindarweisein þamma laiand jah frakunnun þatei im inu mitaþ ligiþ.',
+      got: 'Sind managai þaiei in hindarweisein þamma laiand jah frakunnun þatei im inu mitaþ ligiþ.',
       en: "There are many who pretend to despise and belittle that which lies outside their measure/limit.",
       de: "Es gibt viele, die vorgeben, das zu verachten und herabzusetzen, was ihnen außer Maße liegt.",
     },
