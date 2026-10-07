@@ -65,6 +65,8 @@ ${toGothicLines([{
 
 m. u-stem *bogus from PGm *bōguz`
   }], info)}
+</p>
+<p>
 ${toGothicLines([{
     text: {
       got: "Nū was wintrus, jah wegs mikils warþ in marein. Ufkunnands bireikein, sa manna ana þamma bogau frah haubiþ þis skipis ƕaþar þize andje aufto frumist sugqi.",
