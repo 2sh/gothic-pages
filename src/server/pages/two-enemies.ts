@@ -81,7 +81,15 @@ ${toGothicLines([{
     },
     notes: `"gasaiƕand Iesu gaggandan ana marein" John 6:19`
   }], info)}
-</p>`
+</p>
+<p><i>
+${toGothicLines([{
+    text: {
+      got: "Sind managai inu kara seinaizos silbane sleiþos, jabai saiƕaina ei fijands seinans agljaindau faura im.",
+      en: "There are many without care of their own harm, if they see that their enemies are hurt before them.",
+    },
+  }], info)}
+</i></p>`
 
   article += html`<p class="annotation">
   <span class="nowrap">${toGothicLines([{
