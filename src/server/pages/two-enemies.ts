@@ -76,10 +76,10 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: "",
-      en: "",
+      got: "“Sa nota” andhof sa haubiþ, jah sa manna qaþ “Dauþus sijai mis ni gauriþa jabai saiƕau fijand meinana afƕapnandan frumist!”",
+      en: "“The stern” answered the head, and the man said “Death won't be a sorrow to me if I see my enemy drown first!”",
     },
-    notes: `"wegs mikils warþ in marein" Matthew 8:24`
+    notes: `"gasaiƕand Iesu gaggandan ana marein" John 6:19`
   }], info)}
 </p>`
 
