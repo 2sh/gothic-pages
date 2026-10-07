@@ -117,7 +117,7 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: `Þannū nū jai, mannans ni þanaseiþs arbaididedun jah runnun in aljana du þizai winjai.`,
+      got: `Þannū nū jai, mans ni þanaseiþs arbaididedun jah runnun in aljana du þizai winjai.`,
       en: `Therefore indeed, the villagers dropped their work and ran in great excitement to the pasture.`,
     },
     notes: `"þannu nu jai" Romans 9:18 & Romans 9:20`
@@ -133,7 +133,7 @@ ${toGothicLines([{
 <p>
 ${toGothicLines([{
     text: {
-      got: "Afar ni managans dagans sa magus aftra ufwopida: “Wulfs! Wulfs!” Jah aftra þai mannans runnun ei hilpaina is, akei aftra bilaikanai wesun.",
+      got: "Afar ni managans dagans sa magus aftra ufwopida: “Wulfs! Wulfs!” Jah aftra þai mans runnun ei hilpaina is, akei aftra bilaikanai wesun.",
       en: "A few days later the boy again shouted, “Wolf! Wolf!” And again the Villagers ran that they may help him, however they were laughed at again.",
     },
   }], info)}
@@ -147,7 +147,7 @@ ${toGothicLines([{
   }], info)}
 ${toGothicLines([{
     text: {
-      got: "Akei þai mannans, þaiei twaim sinþam faura afairzidai wesun, hausidedun þans hropos, iþ ni ainshun warþ gawagiþs du hilpan is swe faura.",
+      got: "Akei þai mans, þaiei twaim sinþam faura afairzidai wesun, hausidedun þans hropos, iþ ni ainshun warþ gawagiþs du hilpan is swe faura.",
       en: "However villagers, who had been fooled twice before, heard the cry, but nobody stirred to help him as they had before.",
     },
   }], info)}
