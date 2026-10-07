@@ -85,7 +85,7 @@ ${toGothicLines([{
 <p><i>
 ${toGothicLines([{
     text: {
-      got: "Sind managai inu kara seinaizos silbane sleiþos, jabai saiƕaina ei fijands seinans agljaindau faura im.",
+      got: "Sind managai inu kara seinaizos silbane sleiþos, jabai saiƕaina ei fijands seinans faura im agljaindau.",
       en: "There are many without care of their own harm, if they see that their enemies are hurt before them.",
     },
   }], info)}
