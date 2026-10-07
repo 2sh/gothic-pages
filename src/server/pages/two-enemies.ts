@@ -1,0 +1,109 @@
+import { fromLatin } from '@common/transliterate'
+import
+{
+  html,
+  createArticleBody,
+  createArticleHeaders,
+  PageGenerator,
+  Anchor,
+  toGothicLines,
+} from '@server/tools'
+
+
+// http://mythfolklore.net/aesopica/perry/68.htm
+
+
+const slug = 'twai-fijands'
+const title = 'Twai Fijands'
+const description = title + ", skeireins in razdai gutiskai."
+
+const anchors: Anchor[] = [
+  {
+    name: slug,
+    lang: "got-Goth",
+    title: fromLatin(title),
+    description: fromLatin(description),
+  },
+  {
+    name: slug + ".lat",
+    lang: "got-Latn",
+    title,
+    description,
+  },
+]
+
+
+const generator: PageGenerator = info =>
+{
+  global.lineId = 0
+
+  let article = ""
+
+  article += html`<header>
+  <h1>${toGothicLines([{
+    text: {
+      got: "Twai Fijands",
+      grc: 'Ἐχθροὶ δύο',
+      en: "The Two Enemies",
+    },
+  },], info)}</h1>
+</header>`
+
+  article += html`<p>
+${toGothicLines([{
+    text: {
+      got: "Mans twai, fijands sis misso, faridedun in samin skipa. Wildedun af sis misso gaskaidan, inuh þis ains sat ana notin jah anþar ana bogau, in þaim stadim ungawagidai.",
+      en: "Two men, enemies to each other, were sailing on the same ship. They wanted to keep their distance from one another, and so one sat on the stern and the other on the bow, in those places unmoved.",
+    },
+    notes: `"mans twai ..., ains ... jah anþar ..." Luke 18:10
+
+"sis misso" without a preposition Galatians 5:17
+
+"in skipa" Mark 1:19 refering to people being "on a ship" doing something.
+
+"ana notin" Mark 4:38
+
+m. u-stem *bogus from PGm *bōguz`
+  }], info)}
+${toGothicLines([{
+    text: {
+      got: "Nu was wintrus jah wegs mikils warþ in marein. Sa manna ana þamma bogau frah haubiþ þis skipis ƕaþar ist andeis saei aufto frumist sugqi.",
+      en: "Now it was winter and a great storm arose in the sea. The man on the bow asked the head of the ship which is the end that was surely to sink first.",
+    },
+    notes: `"wegs mikils warþ in marein" Matthew 8:24`
+  }], info)}
+</p>`
+
+  article += html`<p class="annotation">
+  <span class="nowrap">${toGothicLines([{
+    text: { got: "Twai Fijands", en: "The Two Enemies" },
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
+    text: { got: "in razdai gutiskai,", en: "in the Gothic language," },
+  }], info)}</span>
+  <span class="nowrap">${toGothicLines([{
+    text: { got: "skeireins fram Iohannes Haggwiþos (2026).", en: "a translation by 2sh (2026)." },
+  }], info)}</span>
+</p>`
+
+  article += html`<p lang='en' class="annotation">
+  <span class="nowrap">The Two Enemies</span>
+  <span class="nowrap">in the Gothic language,</span>
+  <span class="nowrap">a translation by <a href='https://2sh.me'>2sh</a> (2026).</span>
+</p>`
+
+  return html`<!doctype html>
+<html lang="${info.lang}">
+  <head>
+    ${createArticleHeaders(info)}
+  </head>
+  <body>
+    ${createArticleBody(info, article)}
+  </body>
+</html>`
+}
+
+export default {
+  anchors,
+  generator
+}
