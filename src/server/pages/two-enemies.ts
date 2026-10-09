@@ -69,7 +69,7 @@ m. u-stem *bogus from PGm *bōguz`
 <p>
 ${toGothicLines([{
     text: {
-      got: "Nū was wintrus, jah wegs mikils warþ in marein. Ufkunnands bireikein, sa manna ana þamma bogau frah haubiþ þis skipis ƕaþar þize andje aufto frumist sugqi.",
+      got: "Nū was wintrus, jah wegs mikils warþ in marein. Ufkunnands þo bireikein, sa manna ana þamma bogau frah haubiþ þis skipis ƕaþar þize andje aufto frumist sugqi.",
       en: "Now it was winter, and a great storm arose in the sea. Perceiving the peril, the man on the bow asked the head of the ship which of the ends was surely to sink first.",
     },
     notes: `"wegs mikils warþ in marein" Matthew 8:24`
@@ -85,7 +85,7 @@ ${toGothicLines([{
 <p><i>
 ${toGothicLines([{
     text: {
-      got: "Sind managai inu kara seinaizos silbane sleiþos, jabai saiƕaina ei fijands seinans faura im agljaindau.",
+      got: "Sind managai inu kara sleiþos sis silbam, jabai saiƕaina ei fijands seinans faura im agljaindau.",
       en: "There are many without care of their own harm, if they see that their enemies are hurt before them.",
     },
   }], info)}
